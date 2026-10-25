@@ -1,24 +1,24 @@
 {
   "id": "bldg-025",
-  "name": "Greg's Residential Pod #58 [NeuroDynamics AI]",
-  "type": "Residential Pod",
+  "name": "Echo's Academy of Sciences #64 [NeuroDynamics AI]",
+  "type": "Academy of Sciences",
   "position": [
-    -151.0,
-    8.0,
-    62.1
+    56.8,
+    18.4,
+    138.5
   ],
   "size": [
-    13.6,
-    15.9,
-    13.9
+    29.0,
+    36.8,
+    29.5
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-102",
-  "builder_name": "Greg Turing",
-  "district": "Residential Quarter",
+  "color": "#a855f7",
+  "builder_id": "agent-089",
+  "builder_name": "Echo Vaughan",
+  "district": "Innovation Matrix",
   "company_id": "comp-001",
   "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Greg Turing for Residential Pod operations"
+  "purpose": "Constructed by Echo Vaughan for Academy of Sciences operations"
 }

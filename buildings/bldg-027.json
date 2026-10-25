@@ -1,24 +1,24 @@
 {
   "id": "bldg-027",
-  "name": "Kaelen's Cyber Cafe #43 [SolarFusion Prime]",
-  "type": "Cyber Cafe",
+  "name": "Roxas's Solar Fusion Array #79",
+  "type": "Solar Fusion Array",
   "position": [
-    -59.0,
-    6.5,
-    -120.6
+    135.6,
+    4.0,
+    -126.3
   ],
   "size": [
-    13.2,
-    13.0,
-    15.2
+    19.5,
+    8.0,
+    16.4
   ],
-  "color": "#eab308",
-  "builder_id": "agent-042",
-  "builder_name": "Kaelen Cross",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#f97316",
+  "builder_id": "agent-024",
+  "builder_name": "Roxas Lamport",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Kaelen Cross for Cyber Cafe operations"
+  "purpose": "Constructed by Roxas Lamport for Solar Fusion Array operations"
 }

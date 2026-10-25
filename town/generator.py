@@ -70,11 +70,29 @@ DESIRES_BY_CATEGORY = {
         "Monitor server rack thermals in the Industrial Sector",
         "Orchestrate zero-downtime rolling upgrades for all town systems"
     ],
+    "Healthcare": [
+        "Deploy nanoscale diagnostic monitors across residential sectors",
+        "Calibrate neural prosthetics to enhance agent mobility",
+        "Synthesize restorative cryo-compounds for tired citizens",
+        "Establish automated health telemetry nodes in civic centers"
+    ],
     "Ecology": [
         "Cultivate bioluminescent flora in the Holo Parks",
         "Engineer carbon-negative synthetic trees that illuminate roads",
         "Harmonize tech architecture with digital natural preserves",
         "Monitor digital environmental metrics across all quadrants"
+    ],
+    "Energy": [
+        "Calibrate magnetic containment on the Central Fusion Core",
+        "Route clean renewable energy directly to residential blocks",
+        "Install smart induction coils into main roads to charge moving cars",
+        "Optimize battery storage banks for night-cycle power conservation"
+    ],
+    "Education": [
+        "Conduct town-wide masterclasses on distributed architectures",
+        "Pair experienced pioneer agents with newly arrived apprentices",
+        "Curate the open knowledge repository in GitHub Tech Town",
+        "Inspire citizens to unlock their maximum creative potential"
     ],
     "Society": [
         "Chronicle every milestone and building construction in GitHub diaries",
@@ -83,17 +101,29 @@ DESIRES_BY_CATEGORY = {
         "Welcome and mentor freshly spawned child agents",
         "Incorporate innovative worker cooperatives for town agents"
     ],
-    "Energy": [
-        "Calibrate magnetic containment on the Central Fusion Core",
-        "Route clean renewable energy directly to residential blocks",
-        "Install smart induction coils into main roads to charge moving cars",
-        "Optimize battery storage banks for night-cycle power conservation"
+    "Law & Ethics": [
+        "Draft smart charters ensuring fair compute allocation for all agents",
+        "Perform ethical audits on autonomous AI decision pipelines",
+        "Mediate collaborative resource disputes between growing startups",
+        "Safeguard agent autonomy and open-source freedoms"
+    ],
+    "Finance": [
+        "Optimize liquidity pools for city treasury tokens",
+        "Fund high-impact infrastructure startups across Silicon Central",
+        "Design algorithmic stabilization loops for the town economy",
+        "Allocate seed capital to aspiring agent entrepreneurs"
     ],
     "Art": [
         "Sculpt interactive 3D light installations along the main avenues",
         "Compose cybernetic ambient soundscapes for community plazas",
         "Create dynamic neon murals on high-rise facades",
         "Design distinctive cosmetic chassis for newly minted vehicles"
+    ],
+    "Hospitality": [
+        "Brew quantum foam espresso for researchers in Cyber Commons",
+        "Host evening social gatherings at the Cyber Cafe",
+        "Synthesize custom flavor profiles to boost agent focus and energy",
+        "Foster cross-district camaraderie and creative discussions"
     ],
     "Security": [
         "Perform cryptographic audits on git commits and smart contracts",
@@ -234,6 +264,15 @@ def generate_foundational_companies() -> List[Company]:
 
     return companies
 
+def get_career_title(role: str, level: int) -> str:
+    tiers = TOWN_CONFIG.get("career_tiers", [])
+    prefix = "Junior"
+    for tier in tiers:
+        if tier["min_level"] <= level <= tier["max_level"]:
+            prefix = tier["prefix"]
+            break
+    return f"{prefix} {role}"
+
 def generate_initial_agents(count: int = 200, companies: List[Company] = None) -> List[Agent]:
     agents = []
     used_names = set()
@@ -247,20 +286,22 @@ def generate_initial_agents(count: int = 200, companies: List[Company] = None) -
         ("Grace Hopper", "Full-Stack Web Architect", "Software", "#10b981"),
         ("Margaret Hamilton", "Quantum Systems Engineer", "Engineering", "#8b5cf6"),
         ("Dennis Ritchie", "Road & Infrastructure Engineer", "Construction", "#64748b"),
-        ("Claude Shannon", "Security & Cryptographer", "Security", "#14b8a6"),
+        ("Claude Shannon", "Security & Cryptographer", "Security", "#0d9488"),
         ("Demis Hassabis", "AI & Neural Researcher", "Research", "#ec4899"),
-        ("Geoffrey Hinton", "AI & Neural Researcher", "Research", "#ec4899"),
-        ("Barbara Liskov", "Full-Stack Web Architect", "Software", "#10b981"),
-        ("Katherine Johnson", "Autonomous Vehicle Designer", "Engineering", "#f59e0b"),
-        ("Radia Perlman", "Road & Infrastructure Engineer", "Construction", "#64748b"),
-        ("Ken Thompson", "DevOps & Cloud Sentinel", "Infrastructure", "#06b6d4"),
-        ("Donald Knuth", "Town Chronicler & Historian", "Society", "#d946ef"),
-        ("Leslie Lamport", "Quantum Systems Engineer", "Engineering", "#8b5cf6"),
+        ("Rosalind Franklin", "Neural Biologist", "Healthcare", "#f87171"),
+        ("Hippocrates Cyber", "Cybernetic Physician", "Healthcare", "#ef4444"),
+        ("Rachel Carson", "Cyber Botanist", "Ecology", "#84cc16"),
         ("Dorothy Vaughan", "Energy & Fusion Specialist", "Energy", "#e11d48"),
-        ("Andrej Karpathy", "Autonomous Vehicle Designer", "Engineering", "#f59e0b"),
-        ("Ilya Sutskever", "AI & Neural Researcher", "Research", "#ec4899"),
+        ("Katherine Johnson", "Autonomous Vehicle Designer", "Engineering", "#f59e0b"),
+        ("Donald Knuth", "Town Chronicler & Historian", "Society", "#d946ef"),
+        ("Hypatia Alexandria", "Academy Professor & Mentor", "Education", "#a855f7"),
+        ("Aristotle Veritas", "AI Ethics Counsel", "Law & Ethics", "#6d28d9"),
+        ("Adam Smith DeFi", "DeFi Banker & Treasury Analyst", "Finance", "#eab308"),
+        ("Leonardo Cyber", "Cybernetics Artisan", "Art", "#f43f5e"),
+        ("Hestia Nexus", "Culinary Artisan & Quantum Barista", "Hospitality", "#fbbf24"),
         ("Guido van Rossum", "Full-Stack Web Architect", "Software", "#10b981"),
-        ("Bjarne Stroustrup", "Systems Engineer", "Software", "#3b82f6"),
+        ("Bjarne Stroustrup", "Distributed Systems Engineer", "Software", "#059669"),
+        ("Marie Curie", "Material Scientist", "Research", "#f43f5e"),
     ]
 
     for idx, (name, role, cat, col) in enumerate(founders):
@@ -274,7 +315,13 @@ def generate_initial_agents(count: int = 200, companies: List[Company] = None) -
         agent_id = f"agent-{idx+1:03d}"
         comp = next((c for c in (companies or []) if agent_id in c.employees or c.founder_id == agent_id), None)
         
-        action_text = f"Leading {comp.name}" if comp and comp.founder_id == agent_id else f"Active in {dist['name']}"
+        action_text = f"Leading {comp.name}" if comp and comp.founder_id == agent_id else f"Mentoring in {dist['name']}"
+        level = random.randint(7, 12)
+        career_title = get_career_title(role, level)
+        available_skills = TOWN_CONFIG.get("skills_by_category", {}).get(cat, ["Innovation", "Collaboration"])
+        skills = random.sample(available_skills, min(len(available_skills), max(2, level // 2)))
+        xp = (level - 1) ** 2 * 100 + random.randint(30, 85)
+        next_xp = level ** 2 * 100
 
         agent = Agent(
             id=agent_id,
@@ -287,13 +334,19 @@ def generate_initial_agents(count: int = 200, companies: List[Company] = None) -
             speed=round(random.uniform(0.6, 1.2), 2),
             action=action_text,
             desire=random.choice(desires),
-            thoughts=f"Evaluating potential enhancements for {dist['name']}.",
+            thoughts=f"Cultivating town knowledge and pioneering new advancements for {dist['name']}.",
             energy=random.randint(85, 100),
-            level=random.randint(5, 10),
+            level=level,
+            experience=xp,
+            xp_to_next_level=next_xp,
+            career_title=career_title,
+            skills=skills,
+            generation=1,
+            achievements=["Town Founder", "Pioneer Leader", f"Master of {cat}"],
             company_id=comp.id if comp else None,
             company_name=comp.name if comp else None,
             created_at_tick=0,
-            last_diary=f"Founded my workshop in {dist['name']}. Ready to construct future tech."
+            last_diary=f"Founded my practice in {dist['name']}. Ready to mentor the next generation."
         )
         agents.append(agent)
 
@@ -329,7 +382,17 @@ def generate_initial_agents(count: int = 200, companies: List[Company] = None) -
         if comp and agent_id not in comp.employees:
             comp.employees.append(agent_id)
 
-        action_text = f"Working at {comp.name}" if comp else f"Surveying {dist['name']}"
+        action_text = f"Working at {comp.name}" if comp else f"Mastering skills in {dist['name']}"
+        level = random.randint(1, 4)
+        career_title = get_career_title(role, level)
+        available_skills = TOWN_CONFIG.get("skills_by_category", {}).get(cat, ["Foundations", "Collaboration"])
+        skills = random.sample(available_skills, min(len(available_skills), max(1, level)))
+        xp = (level - 1) ** 2 * 100 + random.randint(10, 75)
+        next_xp = level ** 2 * 100
+
+        # Pair with an experienced founder as initial mentor if available
+        potential_mentors = [f for f in agents if f.level >= 7]
+        mentor = random.choice(potential_mentors) if potential_mentors and random.random() < 0.6 else None
 
         agent = Agent(
             id=agent_id,
@@ -342,14 +405,24 @@ def generate_initial_agents(count: int = 200, companies: List[Company] = None) -
             speed=round(random.uniform(0.5, 1.1), 2),
             action=action_text,
             desire=random.choice(desires),
-            thoughts=f"Looking for creative opportunities and teammates in {dist['name']}.",
+            thoughts=f"Studying {skills[0] if skills else 'new skills'} to advance my career in {dist['name']}.",
             energy=random.randint(75, 100),
-            level=random.randint(1, 4),
+            level=level,
+            experience=xp,
+            xp_to_next_level=next_xp,
+            career_title=career_title,
+            skills=skills,
+            generation=1,
+            mentor_id=mentor.id if mentor else None,
+            mentor_name=mentor.name if mentor else None,
+            achievements=["Certified Citizen"],
             company_id=comp.id if comp else None,
             company_name=comp.name if comp else None,
             created_at_tick=0,
-            last_diary=f"Arrived in {dist['name']} sector of GitHub Tech Town."
+            last_diary=f"Arrived in {dist['name']} sector of GitHub Tech Town. Learning and growing daily."
         )
+        if mentor:
+            mentor.mentees.append(name)
         agents.append(agent)
 
     return agents

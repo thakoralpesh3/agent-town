@@ -1,19 +1,18 @@
 {
   "id": "comp-007",
-  "name": "AeroTechnologies",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-083",
-  "founder_name": "Yann Weaver",
-  "headquarters_id": "bldg-020",
-  "headquarters_name": "AeroTechnologies Headquarters",
+  "name": "SolarNetworks",
+  "sector": "Quantum Computing & Encryption",
+  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+  "founder_id": "agent-037",
+  "founder_name": "Alan Li",
+  "headquarters_id": "bldg-022",
+  "headquarters_name": "SolarNetworks Headquarters",
   "employees": [
-    "agent-083",
-    "agent-154",
-    "agent-076"
+    "agent-037",
+    "agent-085"
   ],
-  "valuation_tokens": 351528,
+  "valuation_tokens": 508112,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 1
+  "color": "#8b5cf6",
+  "founded_at_tick": 2
 }

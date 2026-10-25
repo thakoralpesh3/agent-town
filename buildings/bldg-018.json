@@ -1,24 +1,24 @@
 {
   "id": "bldg-018",
-  "name": "Alan's Solar Fusion Array #79",
-  "type": "Solar Fusion Array",
+  "name": "Grace's Cyber Cafe #50",
+  "type": "Cyber Cafe",
   "position": [
-    100.5,
-    4.8,
-    -75.3
+    -70.0,
+    5.7,
+    -139.6
   ],
   "size": [
-    18.1,
-    9.7,
-    17.4
+    13.2,
+    11.3,
+    15.8
   ],
-  "color": "#f97316",
-  "builder_id": "agent-097",
-  "builder_name": "Alan Berners-Lee",
-  "district": "Industrial Sector",
+  "color": "#eab308",
+  "builder_id": "agent-060",
+  "builder_name": "Grace Jackson",
+  "district": "Cyber Commons",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Alan Berners-Lee for Solar Fusion Array operations"
+  "purpose": "Constructed by Grace Jackson for Cyber Cafe operations"
 }

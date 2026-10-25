@@ -1,24 +1,24 @@
 {
   "id": "bldg-028",
-  "name": "Ada's AI Research Lab #62 [AeroTechnologies]",
-  "type": "AI Research Lab",
+  "name": "Rosalind's Academy of Sciences #14",
+  "type": "Academy of Sciences",
   "position": [
-    54.9,
-    15.6,
-    88.6
+    50.6,
+    15.0,
+    119.5
   ],
   "size": [
-    22.4,
-    31.2,
-    21.1
+    30.9,
+    30.1,
+    29.1
   ],
   "color": "#a855f7",
-  "builder_id": "agent-154",
-  "builder_name": "Ada Smith",
+  "builder_id": "agent-009",
+  "builder_name": "Rosalind Franklin",
   "district": "Innovation Matrix",
-  "company_id": "comp-007",
-  "company_name": "AeroTechnologies",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Ada Smith for AI Research Lab operations"
+  "purpose": "Constructed by Rosalind Franklin for Academy of Sciences operations"
 }

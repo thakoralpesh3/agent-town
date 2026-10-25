@@ -392,7 +392,10 @@ class AgentManager {
 
       el.style.display = "block";
       const compBadge = agent.company_name ? `<span style="color: #f472b6; font-size: 9px; display: block; font-weight: bold;">🏢 ${agent.company_name}</span>` : '';
+      const masterStar = (agent.level >= 8) ? '⭐ ' : '';
+      const titleText = agent.career_title || agent.role;
       el.innerHTML = `
+        <div style="font-size: 8px; font-weight: 700; color: ${agent.color}; letter-spacing: 0.3px;">${masterStar}LV.${agent.level} • ${titleText}</div>
         <span style="font-weight: 700; font-size: 11px;">${agent.name}</span>
         ${compBadge}
         <span class="sub-action" style="font-size: 9px; color: #38bdf8;">${agent.action.substring(0, 28)}</span>

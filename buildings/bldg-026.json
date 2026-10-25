@@ -1,24 +1,24 @@
 {
   "id": "bldg-026",
-  "name": "Satya's Solar Fusion Array #16 [AeroCyber Robotics]",
-  "type": "Solar Fusion Array",
+  "name": "Donald's Academy of Sciences #32 [AeroCyber Robotics]",
+  "type": "Academy of Sciences",
   "position": [
-    73.0,
-    3.6,
-    -162.2
+    94.0,
+    15.0,
+    70.9
   ],
   "size": [
-    18.7,
-    7.2,
-    20.9
+    31.1,
+    30.0,
+    25.5
   ],
-  "color": "#f97316",
-  "builder_id": "agent-133",
-  "builder_name": "Satya Armstrong",
-  "district": "Industrial Sector",
+  "color": "#a855f7",
+  "builder_id": "agent-033",
+  "builder_name": "Donald Mercer",
+  "district": "Innovation Matrix",
   "company_id": "comp-002",
   "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Satya Armstrong for Solar Fusion Array operations"
+  "purpose": "Constructed by Donald Mercer for Academy of Sciences operations"
 }

@@ -1,24 +1,24 @@
 {
   "id": "bldg-029",
-  "name": "Noam's AI Research Lab #17 [SolarFusion Prime]",
-  "type": "AI Research Lab",
+  "name": "Selene's Academy of Sciences #81",
+  "type": "Academy of Sciences",
   "position": [
-    42.3,
-    16.0,
-    118.3
+    53.3,
+    13.2,
+    75.2
   ],
   "size": [
-    22.4,
-    32.0,
-    19.7
+    26.5,
+    26.4,
+    30.4
   ],
   "color": "#a855f7",
-  "builder_id": "agent-104",
-  "builder_name": "Noam Wozniak",
+  "builder_id": "agent-143",
+  "builder_name": "Selene Hinton",
   "district": "Innovation Matrix",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Noam Wozniak for AI Research Lab operations"
+  "purpose": "Constructed by Selene Hinton for Academy of Sciences operations"
 }

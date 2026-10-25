@@ -1,19 +1,19 @@
 {
   "id": "comp-008",
-  "name": "StellarIntell",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
-  "founder_id": "agent-024",
-  "founder_name": "Freya Ritchie",
-  "headquarters_id": "bldg-033",
-  "headquarters_name": "StellarIntell Headquarters",
+  "name": "AeroDynamics",
+  "sector": "DeFi Treasury & Smart Law",
+  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
+  "founder_id": "agent-050",
+  "founder_name": "Marc Tinkerer",
+  "headquarters_id": "bldg-024",
+  "headquarters_name": "AeroDynamics Headquarters",
   "employees": [
-    "agent-024",
-    "agent-125",
-    "agent-174"
+    "agent-050",
+    "agent-189",
+    "agent-154"
   ],
-  "valuation_tokens": 341873,
+  "valuation_tokens": 154605,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#eab308",
   "founded_at_tick": 2
 }

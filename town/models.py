@@ -20,6 +20,15 @@ class Agent:
     thoughts: str = "Analyzing city matrix and planning next innovation."
     energy: int = 100
     level: int = 1
+    experience: int = 0
+    xp_to_next_level: int = 200
+    career_title: str = ""
+    skills: List[str] = field(default_factory=list)
+    generation: int = 1
+    mentor_id: Optional[str] = None
+    mentor_name: Optional[str] = None
+    mentees: List[str] = field(default_factory=list)
+    achievements: List[str] = field(default_factory=list)
     company_id: Optional[str] = None
     company_name: Optional[str] = None
     creations: List[Dict[str, Any]] = field(default_factory=list)
@@ -32,7 +41,18 @@ class Agent:
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'Agent':
-        return cls(**data)
+        data.setdefault("experience", 0)
+        data.setdefault("xp_to_next_level", 200)
+        data.setdefault("career_title", data.get("role", "Citizen"))
+        data.setdefault("skills", [])
+        data.setdefault("generation", 1)
+        data.setdefault("mentor_id", None)
+        data.setdefault("mentor_name", None)
+        data.setdefault("mentees", [])
+        data.setdefault("achievements", [])
+        # Filter for dataclass fields
+        fields = cls.__dataclass_fields__
+        return cls(**{k: v for k, v in data.items() if k in fields})
 
 @dataclass
 class Company:

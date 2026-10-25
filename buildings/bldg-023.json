@@ -1,24 +1,24 @@
 {
   "id": "bldg-023",
-  "name": "Morrigan's Cyber Cafe #78 [OpenKernel Core]",
-  "type": "Cyber Cafe",
+  "name": "Freya's Company Headquarters #55",
+  "type": "Company Headquarters",
   "position": [
-    -127.4,
-    4.2,
-    -94.0
+    7.5,
+    32.6,
+    19.1
   ],
   "size": [
-    14.8,
-    8.4,
-    16.8
+    25.2,
+    65.2,
+    20.8
   ],
-  "color": "#eab308",
-  "builder_id": "agent-122",
-  "builder_name": "Morrigan Andreessen",
-  "district": "Cyber Commons",
-  "company_id": "comp-005",
-  "company_name": "OpenKernel Core",
+  "color": "#ec4899",
+  "builder_id": "agent-038",
+  "builder_name": "Freya Mason",
+  "district": "Silicon Central",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Morrigan Andreessen for Cyber Cafe operations"
+  "purpose": "Constructed by Freya Mason for Company Headquarters operations"
 }

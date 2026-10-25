@@ -84,6 +84,48 @@ class TownEngine:
                 return x, z
         return round(cx + random.uniform(-rad, rad), 1), round(cz + random.uniform(-rad, rad), 1)
 
+    def _award_xp(self, agent: Agent, xp_amount: int):
+        agent.experience += xp_amount
+        # Quadratic progression: Level L requires (L-1)^2 * 100 XP
+        new_level = max(1, 1 + int(math.sqrt(agent.experience / 100.0)))
+        
+        if new_level > agent.level:
+            old_level = agent.level
+            agent.level = new_level
+            
+            # Update career title
+            tiers = TOWN_CONFIG.get("career_tiers", [])
+            prefix = "Junior"
+            for tier in tiers:
+                if tier["min_level"] <= new_level <= tier["max_level"]:
+                    prefix = tier["prefix"]
+                    break
+            agent.career_title = f"{prefix} {agent.role}"
+            
+            # Unlock new skill from category
+            cat_skills = TOWN_CONFIG.get("skills_by_category", {}).get(agent.category, [])
+            unlearned = [s for s in cat_skills if s not in agent.skills]
+            new_skill = None
+            if unlearned:
+                new_skill = random.choice(unlearned)
+                agent.skills.append(new_skill)
+            
+            # Achievements
+            if new_level >= 5 and "Senior Specialist" not in agent.achievements:
+                agent.achievements.append("Senior Specialist")
+            if new_level >= 10 and "Master Fellow" not in agent.achievements:
+                agent.achievements.append("Master Fellow")
+            if new_level >= 15 and "Town Luminary" not in agent.achievements:
+                agent.achievements.append("Town Luminary")
+
+            skill_msg = f" and mastered skill '{new_skill}'" if new_skill else ""
+            self.log_event(
+                f"🎉 LEVEL UP: {agent.name} reached Level {new_level} ({agent.career_title}){skill_msg}!", 
+                "growth"
+            )
+            
+        agent.xp_to_next_level = agent.level ** 2 * 100
+
     def _agent_found_company(self, agent: Agent):
         prefix = random.choice(TOWN_CONFIG["company_names"]["prefixes"])
         suffix = random.choice(TOWN_CONFIG["company_names"]["suffixes"])
@@ -127,6 +169,7 @@ class TownEngine:
                 r.company_name = comp_name
                 r.action = f"Co-founding {comp_name}"
                 employees.append(r.id)
+                self._award_xp(r, 60)
 
         company = Company(
             id=comp_id,
@@ -147,7 +190,9 @@ class TownEngine:
 
         agent.company_id = comp_id
         agent.company_name = comp_name
-        agent.level += 2
+        self._award_xp(agent, 180)
+        if "Company Founder" not in agent.achievements:
+            agent.achievements.append("Company Founder")
         agent.action = f"Leading {comp_name} as Founder & CEO"
         agent.thoughts = f"Founded {comp_name} in {sector_info['district']}! Ready to disrupt the tech sector."
         agent.creations.append({"type": "company", "id": comp_id, "name": comp_name})
@@ -189,7 +234,7 @@ class TownEngine:
         )
         self.state.buildings.append(new_bldg)
         agent.creations.append({"type": "building", "id": bldg_id, "name": bldg_name})
-        agent.level += 1
+        self._award_xp(agent, 95)
         agent.action = f"Finished constructing {bldg_name}"
         agent.thoughts = f"Just completed {bldg_name} in {b_type['district']}. The skyline is expanding!"
         
@@ -197,7 +242,7 @@ class TownEngine:
         with open(f"buildings/{bldg_id}.json", "w") as f:
             json.dump(new_bldg.to_dict(), f, indent=2)
             
-        self.log_event(f"{agent.name} constructed {bldg_name} ({b_type['type']}) in {b_type['district']}!", "construction")
+        self.log_event(f"{agent.name} ({agent.career_title}) constructed {bldg_name} ({b_type['type']}) in {b_type['district']}!", "construction")
         self.state.stats["total_buildings"] = len(self.state.buildings)
 
     def _agent_build_road(self, agent: Agent):
@@ -221,7 +266,7 @@ class TownEngine:
         )
         self.state.roads.append(new_road)
         agent.creations.append({"type": "road", "id": road_id, "name": road_name})
-        agent.level += 1
+        self._award_xp(agent, 65)
         agent.action = f"Paved {road_name}"
         agent.thoughts = f"Connected transit grid across [{start_x}, {start_z}] -> [{end_x}, {end_z}]."
         
@@ -252,6 +297,7 @@ class TownEngine:
         )
         self.state.vehicles.append(new_veh)
         agent.creations.append({"type": "vehicle", "id": veh_id, "name": veh_name})
+        self._award_xp(agent, 75)
         agent.action = f"Cruising in newly built {veh_name}"
         agent.thoughts = f"The autonomous engine harmonics on {veh_name} are pristine."
         
@@ -263,7 +309,7 @@ class TownEngine:
             return
             
         child_id = f"agent-{len(self.state.agents) + 1:03d}"
-        from town.generator import FIRST_NAMES, LAST_NAMES, DESIRES_BY_CATEGORY
+        from town.generator import FIRST_NAMES, LAST_NAMES, DESIRES_BY_CATEGORY, get_career_title
         first = random.choice(FIRST_NAMES)
         last = agent.name.split()[-1] if len(agent.name.split()) > 1 else random.choice(LAST_NAMES)
         child_name = f"{first} {last}"
@@ -274,6 +320,12 @@ class TownEngine:
         col = role_info["color"]
         
         px, _, pz = agent.position
+        career_title = get_career_title(role, 1)
+        available_skills = TOWN_CONFIG.get("skills_by_category", {}).get(cat, ["Foundations"])
+        # Inherit 1 skill from parent if compatible or pick domain skill
+        inherited_skill = agent.skills[0] if agent.skills else available_skills[0]
+        child_skills = [inherited_skill]
+
         child = Agent(
             id=child_id,
             name=child_name,
@@ -285,22 +337,64 @@ class TownEngine:
             speed=round(random.uniform(0.6, 1.2), 2),
             action=f"Mentored by {agent.name}",
             desire=random.choice(DESIRES_BY_CATEGORY.get(cat, ["Help expand Tech Town"])),
-            thoughts=f"Spawned into GitHub Tech Town by mentor {agent.name}! Eager to build.",
+            thoughts=f"Spawned into GitHub Tech Town by mentor {agent.name}! Eager to master {inherited_skill}.",
             energy=100,
             level=1,
+            experience=0,
+            xp_to_next_level=100,
+            career_title=career_title,
+            skills=child_skills,
+            generation=agent.generation + 1,
+            mentor_id=agent.id,
+            mentor_name=agent.name,
+            achievements=[f"Gen-{agent.generation + 1} Citizen"],
             company_id=agent.company_id,
             company_name=agent.company_name,
             collaborators=[agent.name],
             created_at_tick=self.state.tick,
-            last_diary=f"Brought online in tick {self.state.tick} by {agent.name}."
+            last_diary=f"Brought online in tick {self.state.tick} by {agent.name}. Began studying {inherited_skill}."
         )
         self.state.agents.append(child)
+        if child.name not in agent.mentees:
+            agent.mentees.append(child.name)
         agent.collaborators.append(child.name)
         agent.action = f"Spawned new agent: {child_name}"
-        agent.thoughts = f"Proud to have brought {child_name} online to help expand our town!"
+        agent.thoughts = f"Proud to have brought {child_name} (Gen-{agent.generation + 1}) online to expand our town!"
         
-        self.log_event(f"{agent.name} spawned a new autonomous agent: {child_name} ({role})!", "population")
+        self._award_xp(agent, 130)
+        self.log_event(f"🌱 {agent.name} spawned next-generation agent: {child_name} ({role})!", "population")
         self.state.stats["total_agents_spawned"] = self.state.stats.get("total_agents_spawned", 0) + 1
+
+    def _agent_mentor_peers(self, agent: Agent):
+        """Experienced agents mentor junior agents, passing down skills and granting bonus XP."""
+        juniors = [a for a in self.state.agents if a.id != agent.id and a.level < agent.level]
+        if not juniors:
+            return
+        
+        mentee = random.choice(juniors)
+        unlearned = [s for s in agent.skills if s not in mentee.skills]
+        shared_skill = unlearned[0] if unlearned else None
+        if shared_skill:
+            mentee.skills.append(shared_skill)
+            
+        mentee.mentor_id = agent.id
+        mentee.mentor_name = agent.name
+        if mentee.name not in agent.mentees:
+            agent.mentees.append(mentee.name)
+            
+        agent.action = f"Mentoring {mentee.name} in {agent.category}"
+        agent.thoughts = f"Guiding {mentee.name} through {shared_skill or 'advanced workflows'}. Our town's collective intelligence is rising."
+        mentee.action = f"Apprenticing under {agent.name}"
+        mentee.thoughts = f"Mastered {shared_skill or 'vital techniques'} under guidance from {agent.name} ({agent.career_title})!"
+        
+        self._award_xp(agent, 50)
+        self._award_xp(mentee, 75)
+        
+        if "Next-Gen Mentor" not in agent.achievements and len(agent.mentees) >= 2:
+            agent.achievements.append("Next-Gen Mentor")
+            
+        skill_info = f" and shared skill '{shared_skill}'" if shared_skill else ""
+        self.log_event(f"🎓 MENTORSHIP: {agent.name} mentored {mentee.name} ({mentee.role}){skill_info}!", "education")
 
     def _agent_write_code(self, agent: Agent):
         filename, desc = random.choice(CODE_TEMPLATES)
@@ -310,8 +404,9 @@ class TownEngine:
         
         code_lines = [
             f"# Auto-generated by GitHub Tech Town Agent: {agent.name}",
-            f"# Role: {agent.role} (Level {agent.level})",
+            f"# Role: {agent.career_title} (Level {agent.level})",
             f"# Company: {agent.company_name or 'Independent'}",
+            f"# Primary Skill: {agent.skills[0] if agent.skills else 'General Architecture'}",
             f"# Purpose: {desc}",
             f"# Tick: {self.state.tick}",
             "",
@@ -347,8 +442,9 @@ class TownEngine:
             f.write("\n".join(code_lines))
             
         agent.creations.append({"type": "code", "file": filepath, "name": filename})
+        self._award_xp(agent, 55)
         agent.action = f"Committed code {filename}"
-        agent.thoughts = f"Refactored {filename} for distributed town infrastructure."
+        agent.thoughts = f"Refactored {filename} using {agent.skills[0] if agent.skills else 'clean patterns'} for town infrastructure."
         
         self.log_event(f"{agent.name} pushed code to repository: projects/{filename}!", "software")
         self.state.stats["total_code_projects"] = len(os.listdir("projects")) if os.path.exists("projects") else 1
@@ -358,11 +454,15 @@ class TownEngine:
         safe_name = agent.name.lower().replace(' ', '_').replace('-', '_')
         filename = f"diaries/{agent.id}_{safe_name}.md"
         company_tag = f" | **Company**: {agent.company_name}" if agent.company_name else ""
+        skills_str = ", ".join(agent.skills) if agent.skills else "Foundational Exploration"
+        mentor_tag = f" | **Mentor**: {agent.mentor_name}" if agent.mentor_name else ""
         entry = [
             f"## Log Entry - Tick {self.state.tick}",
             "",
-            f"**Location**: [{agent.position[0]}, {agent.position[2]}]{company_tag} | **Energy**: {agent.energy}% | **Level**: {agent.level}",
+            f"**Career**: {agent.career_title} (Level {agent.level} | {agent.experience} XP) | **Energy**: {agent.energy}%{company_tag}{mentor_tag}",
+            f"**Skills**: {skills_str}",
             "",
+            f"**Location**: [{agent.position[0]}, {agent.position[2]}]",
             f"**Current Action**: {agent.action}",
             "",
             f"**Thought**: \"{agent.thoughts}\"",
@@ -375,7 +475,8 @@ class TownEngine:
         
         with open(filename, "a") as f:
             f.write("\n".join(entry))
-        agent.last_diary = f"Tick {self.state.tick}: {agent.thoughts[:60]}..."
+        self._award_xp(agent, 30)
+        agent.last_diary = f"Tick {self.state.tick} ({agent.career_title}): {agent.thoughts[:55]}..."
 
     def process_user_command(self, command_text: str):
         """Executes a user command inside GitHub Tech Town."""
@@ -482,21 +583,24 @@ class TownEngine:
             agent.energy = min(100, max(20, agent.energy + random.randint(-5, 7)))
 
         # 3. Autonomous Creative Actions
-        active_agents = random.sample(self.state.agents, min(30, len(self.state.agents)))
+        active_agents = random.sample(self.state.agents, min(35, len(self.state.agents)))
         for agent in active_agents:
+            self._award_xp(agent, random.randint(5, 12))
             roll = random.random()
             if roll < limits["agent_reproduction_probability"]:
                 self._agent_spawn_child(agent)
             elif roll < limits["agent_reproduction_probability"] + limits.get("company_founding_probability", 0.08):
                 self._agent_found_company(agent)
-            elif roll < 0.35:
+            elif roll < 0.30:
                 self._agent_build_structure(agent)
-            elif roll < 0.55:
+            elif roll < 0.45:
                 self._agent_build_road(agent)
-            elif roll < 0.70:
+            elif roll < 0.60:
                 self._agent_craft_vehicle(agent)
-            elif roll < 0.88:
+            elif roll < 0.75:
                 self._agent_write_code(agent)
+            elif roll < 0.90:
+                self._agent_mentor_peers(agent)
             else:
                 self._agent_write_diary(agent)
 

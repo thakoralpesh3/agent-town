@@ -1,24 +1,24 @@
 {
   "id": "bldg-020",
-  "name": "Alan's Vehicle Factory #42 [QuantumMatrix Corp]",
-  "type": "Vehicle Factory",
+  "name": "Hestia's Cybernetic Clinic #53",
+  "type": "Cybernetic Clinic",
   "position": [
-    147.8,
-    9.4,
-    -91.7
+    -120.2,
+    9.1,
+    115.6
   ],
   "size": [
-    20.1,
-    18.8,
-    20.7
+    16.3,
+    18.2,
+    17.7
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-114",
-  "builder_name": "Alan Buterin",
-  "district": "Industrial Sector",
-  "company_id": "comp-003",
-  "company_name": "QuantumMatrix Corp",
+  "color": "#ef4444",
+  "builder_id": "agent-019",
+  "builder_name": "Hestia Nexus",
+  "district": "Residential Quarter",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Alan Buterin for Vehicle Factory operations"
+  "purpose": "Constructed by Hestia Nexus for Cybernetic Clinic operations"
 }

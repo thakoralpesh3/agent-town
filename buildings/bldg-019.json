@@ -1,24 +1,24 @@
 {
   "id": "bldg-019",
-  "name": "Noam's Cyber Cafe #47",
-  "type": "Cyber Cafe",
+  "name": "Cyrus's AI Research Lab #37 [QuantumMatrix Corp]",
+  "type": "AI Research Lab",
   "position": [
-    -27.4,
-    5.7,
-    -78.3
+    112.0,
+    16.0,
+    40.0
   ],
   "size": [
-    12.9,
-    11.3,
-    14.3
+    21.6,
+    31.9,
+    19.0
   ],
-  "color": "#eab308",
-  "builder_id": "agent-109",
-  "builder_name": "Noam Buterin",
-  "district": "Cyber Commons",
-  "company_id": null,
-  "company_name": null,
+  "color": "#a855f7",
+  "builder_id": "agent-044",
+  "builder_name": "Cyrus Armstrong",
+  "district": "Innovation Matrix",
+  "company_id": "comp-003",
+  "company_name": "QuantumMatrix Corp",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Noam Buterin for Cyber Cafe operations"
+  "purpose": "Constructed by Cyrus Armstrong for AI Research Lab operations"
 }

@@ -108,11 +108,15 @@
     <div class="filter-tags" id="district-tags">
       <button class="tag-btn active" data-filter="all">All</button>
       <button class="tag-btn" data-filter="companies" style="color: #ec4899; font-weight: bold;"><i class="fa-solid fa-building"></i> Companies</button>
-      <button class="tag-btn" data-filter="Silicon Central">Silicon</button>
-      <button class="tag-btn" data-filter="Innovation Matrix">Innovation</button>
-      <button class="tag-btn" data-filter="Residential Quarter">Residential</button>
-      <button class="tag-btn" data-filter="Cyber Commons">Commons</button>
-      <button class="tag-btn" data-filter="Industrial Sector">Industrial</button>
+      <button class="tag-btn" data-filter="Research"><i class="fa-solid fa-brain"></i> AI & Science</button>
+      <button class="tag-btn" data-filter="Construction"><i class="fa-solid fa-trowel-bricks"></i> Architecture</button>
+      <button class="tag-btn" data-filter="Software"><i class="fa-solid fa-code"></i> Software</button>
+      <button class="tag-btn" data-filter="Healthcare"><i class="fa-solid fa-heart-pulse"></i> Healthcare</button>
+      <button class="tag-btn" data-filter="Ecology"><i class="fa-solid fa-seedling"></i> Ecology</button>
+      <button class="tag-btn" data-filter="Engineering"><i class="fa-solid fa-gear"></i> Robotics</button>
+      <button class="tag-btn" data-filter="Education"><i class="fa-solid fa-graduation-cap"></i> Academy</button>
+      <button class="tag-btn" data-filter="Finance"><i class="fa-solid fa-coins"></i> Finance</button>
+      <button class="tag-btn" data-filter="Law & Ethics"><i class="fa-solid fa-scale-balanced"></i> Law</button>
     </div>
     <div class="search-results-list" id="search-results-list">
       <!-- Populated dynamically -->
@@ -135,6 +139,20 @@
       <button class="close-btn" id="insp-close"><i class="fa-solid fa-xmark"></i></button>
     </div>
 
+    <!-- Career Rank & Level XP Progression Card -->
+    <div class="xp-growth-card" id="insp-growth-wrapper">
+      <div class="xp-header">
+        <span class="career-title" id="insp-career-title">Senior Urban Architect</span>
+        <span class="xp-val-text"><span id="insp-xp-current">450</span> / <span id="insp-xp-next">900</span> XP</span>
+      </div>
+      <div class="xp-bar-bg">
+        <div class="xp-bar-fill" id="insp-xp-fill" style="width: 50%;"></div>
+      </div>
+      <div class="growth-subtext">
+        <span id="insp-generation"><i class="fa-solid fa-dna"></i> Gen 1 Pioneer</span> • <span id="insp-mentor-label"><i class="fa-solid fa-user-graduate"></i> Self-Taught</span>
+      </div>
+    </div>
+
     <!-- Company Badge if applicable -->
     <div id="insp-company-wrapper" style="display: none;">
       <div style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); border-radius: 6px; padding: 6px 10px; font-size: 12px; color: #f472b6; display: flex; align-items: center; gap: 8px;">
@@ -147,6 +165,14 @@
       <span class="section-title"><i class="fa-solid fa-bolt" style="color: var(--cyan-neon);"></i> Current Work & Action</span>
       <div class="status-highlight-card" id="insp-action">
         Constructing Solar Fusion Skyscraper #22
+      </div>
+    </div>
+
+    <!-- Acquired Skills Tree -->
+    <div class="inspector-section" id="insp-skills-section">
+      <span class="section-title"><i class="fa-solid fa-graduation-cap" style="color: var(--emerald-neon);"></i> Mastered Competencies & Skills</span>
+      <div class="skills-chips-wrapper" id="insp-skills-chips">
+        <span class="skill-chip">Dynamic Road Topology</span>
       </div>
     </div>
 

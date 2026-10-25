@@ -1,24 +1,24 @@
 {
   "id": "bldg-017",
-  "name": "Grace's Company Headquarters #97",
-  "type": "Company Headquarters",
+  "name": "Bjarne's Vehicle Factory #13 [AeroCyber Robotics]",
+  "type": "Vehicle Factory",
   "position": [
-    24.9,
-    24.5,
-    -9.9
+    92.6,
+    6.9,
+    -117.7
   ],
   "size": [
-    25.5,
-    48.9,
-    22.8
+    26.3,
+    13.9,
+    22.2
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-082",
-  "builder_name": "Grace Vance",
-  "district": "Silicon Central",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f59e0b",
+  "builder_id": "agent-138",
+  "builder_name": "Bjarne Odersky",
+  "district": "Industrial Sector",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Grace Vance for Company Headquarters operations"
+  "purpose": "Constructed by Bjarne Odersky for Vehicle Factory operations"
 }

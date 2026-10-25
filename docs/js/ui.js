@@ -194,10 +194,10 @@ class UIController {
       item.innerHTML = `
         <div>
           <div class="name" style="color: ${agent.color}">${agent.name}</div>
-          <div class="role">${agent.role}</div>
+          <div class="role" style="color: #cbd5e1; font-size: 11px;">${agent.career_title || agent.role}</div>
           ${compLabel}
         </div>
-        <div style="font-size: 11px; font-family: var(--font-mono); color: var(--text-secondary);">Lv.${agent.level}</div>
+        <div style="font-size: 11px; font-family: var(--font-mono); color: var(--cyan-neon); font-weight: bold;">Lv.${agent.level}</div>
       `;
 
       item.addEventListener("click", () => {
@@ -267,7 +267,12 @@ class UIController {
       this.populateCompanyResults(this.companiesList);
       return;
     }
-    const matched = this.agentsList.filter(a => a.action.includes(district) || a.desire.includes(district));
+    const matched = this.agentsList.filter(a => 
+      a.category === district || 
+      a.role.toLowerCase().includes(district.toLowerCase()) ||
+      a.action.includes(district) || 
+      a.desire.includes(district)
+    );
     this.populateSearchResults(matched.length > 0 ? matched : this.agentsList.slice(0, 30));
   }
 
@@ -275,9 +280,47 @@ class UIController {
     this.currentSelectedAgent = agent;
     this.drawer.classList.add("open");
 
+    // Show growth card and skills section for agents
+    const growthCard = document.getElementById("insp-growth-wrapper");
+    if (growthCard) growthCard.style.display = "flex";
+    const skillsSection = document.getElementById("insp-skills-section");
+    if (skillsSection) skillsSection.style.display = "flex";
+
     document.getElementById("insp-name").textContent = agent.name;
-    document.getElementById("insp-role").textContent = `${agent.role} (Level ${agent.level})`;
+    const title = agent.career_title || `${agent.role} (Lv. ${agent.level})`;
+    document.getElementById("insp-role").textContent = title;
     document.getElementById("insp-role").style.color = agent.color;
+
+    // XP & Career Progression
+    const careerTitleEl = document.getElementById("insp-career-title");
+    if (careerTitleEl) careerTitleEl.textContent = agent.career_title || agent.role;
+    const curXP = agent.experience || 0;
+    const nextXP = agent.xp_to_next_level || (agent.level ** 2 * 100);
+    const prevXP = (agent.level - 1) ** 2 * 100;
+    const progressPct = Math.min(100, Math.max(5, Math.round(((curXP - prevXP) / Math.max(1, (nextXP - prevXP))) * 100)));
+    
+    document.getElementById("insp-xp-current").textContent = curXP;
+    document.getElementById("insp-xp-next").textContent = nextXP;
+    document.getElementById("insp-xp-fill").style.width = `${progressPct}%`;
+    
+    const genText = agent.generation ? `Gen ${agent.generation} Citizen` : "Gen 1 Pioneer";
+    document.getElementById("insp-generation").innerHTML = `<i class="fa-solid fa-dna"></i> ${genText}`;
+    const mentorText = agent.mentor_name ? `Mentor: ${agent.mentor_name}` : "Self-Taught / Founder";
+    document.getElementById("insp-mentor-label").innerHTML = `<i class="fa-solid fa-user-graduate"></i> ${mentorText}`;
+
+    // Mastered Skills Chips
+    const skillsContainer = document.getElementById("insp-skills-chips");
+    if (skillsContainer) {
+      skillsContainer.innerHTML = "";
+      const skills = (agent.skills && agent.skills.length > 0) ? agent.skills : ["Foundational Innovation", "Continuous Learning"];
+      skills.forEach(skill => {
+        const chip = document.createElement("span");
+        chip.className = "skill-chip";
+        chip.textContent = skill;
+        skillsContainer.appendChild(chip);
+      });
+    }
+
     document.getElementById("insp-action").textContent = agent.action;
     document.getElementById("insp-thought").textContent = `"${agent.thoughts}"`;
     document.getElementById("insp-desire").textContent = agent.desire;
@@ -312,6 +355,12 @@ class UIController {
 
   showBuildingInspector(bldg) {
     this.drawer.classList.add("open");
+
+    const growthCard = document.getElementById("insp-growth-wrapper");
+    if (growthCard) growthCard.style.display = "none";
+    const skillsSection = document.getElementById("insp-skills-section");
+    if (skillsSection) skillsSection.style.display = "none";
+
     document.getElementById("insp-name").textContent = bldg.name;
     document.getElementById("insp-role").textContent = `${bldg.type} in ${bldg.district}`;
     document.getElementById("insp-role").style.color = bldg.color;
@@ -337,6 +386,12 @@ class UIController {
 
   showVehicleInspector(veh) {
     this.drawer.classList.add("open");
+
+    const growthCard = document.getElementById("insp-growth-wrapper");
+    if (growthCard) growthCard.style.display = "none";
+    const skillsSection = document.getElementById("insp-skills-section");
+    if (skillsSection) skillsSection.style.display = "none";
+
     document.getElementById("insp-name").textContent = veh.name;
     document.getElementById("insp-role").textContent = `${veh.type} | Speed: ${veh.speed}x`;
     document.getElementById("insp-role").style.color = veh.color;

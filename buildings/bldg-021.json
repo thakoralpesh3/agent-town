@@ -1,24 +1,24 @@
 {
   "id": "bldg-021",
-  "name": "Talia's Quantum Data Center #71",
-  "type": "Quantum Data Center",
+  "name": "Margaret's AI Research Lab #86",
+  "type": "AI Research Lab",
   "position": [
-    141.6,
-    12.3,
-    -70.4
+    126.5,
+    15.7,
+    99.1
   ],
   "size": [
-    26.5,
-    24.6,
-    25.7
+    23.9,
+    31.4,
+    18.8
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-191",
-  "builder_name": "Talia Frost",
-  "district": "Industrial Sector",
+  "color": "#a855f7",
+  "builder_id": "agent-088",
+  "builder_name": "Margaret Helix",
+  "district": "Innovation Matrix",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Talia Frost for Quantum Data Center operations"
+  "purpose": "Constructed by Margaret Helix for AI Research Lab operations"
 }

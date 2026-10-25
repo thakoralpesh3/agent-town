@@ -1,24 +1,24 @@
 {
   "id": "bldg-030",
-  "name": "Nick's Solar Fusion Array #61 [SolarFusion Prime]",
-  "type": "Solar Fusion Array",
+  "name": "Cipher's Company Headquarters #73 [NeuroDynamics AI]",
+  "type": "Company Headquarters",
   "position": [
-    32.5,
-    5.4,
-    -132.1
+    35.1,
+    20.2,
+    -28.0
   ],
   "size": [
-    20.0,
-    10.9,
-    21.6
+    19.9,
+    40.4,
+    20.2
   ],
-  "color": "#f97316",
-  "builder_id": "agent-196",
-  "builder_name": "Nick Nadella",
-  "district": "Industrial Sector",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#ec4899",
+  "builder_id": "agent-121",
+  "builder_name": "Cipher Thorne",
+  "district": "Silicon Central",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Nick Nadella for Solar Fusion Array operations"
+  "purpose": "Constructed by Cipher Thorne for Company Headquarters operations"
 }
