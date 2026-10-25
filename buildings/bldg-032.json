@@ -1,0 +1,22 @@
+{
+  "id": "bldg-032",
+  "name": "Theron's Solar Fusion Array #56",
+  "type": "Solar Fusion Array",
+  "position": [
+    67.8,
+    4.3,
+    -92.6
+  ],
+  "size": [
+    18.7,
+    8.6,
+    16.5
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-053",
+  "builder_name": "Theron Murati",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Theron Murati for Solar Fusion Array operations"
+}

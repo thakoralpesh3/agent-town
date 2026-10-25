@@ -1,0 +1,22 @@
+{
+  "id": "bldg-030",
+  "name": "Donald's Vehicle Factory #41",
+  "type": "Vehicle Factory",
+  "position": [
+    89.1,
+    8.9,
+    -64.4
+  ],
+  "size": [
+    21.1,
+    17.9,
+    21.3
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-014",
+  "builder_name": "Donald Knuth",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Donald Knuth for Vehicle Factory operations"
+}

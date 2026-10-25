@@ -1,0 +1,22 @@
+{
+  "id": "bldg-017",
+  "name": "Bjarne's Vehicle Factory #20",
+  "type": "Vehicle Factory",
+  "position": [
+    113.2,
+    7.6,
+    -141.8
+  ],
+  "size": [
+    20.6,
+    15.2,
+    23.2
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-020",
+  "builder_name": "Bjarne Stroustrup",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Bjarne Stroustrup for Vehicle Factory operations"
+}

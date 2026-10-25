@@ -1,0 +1,22 @@
+{
+  "id": "bldg-022",
+  "name": "Rune's Vehicle Factory #58",
+  "type": "Vehicle Factory",
+  "position": [
+    123.7,
+    10.7,
+    -43.7
+  ],
+  "size": [
+    24.7,
+    21.4,
+    25.6
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-174",
+  "builder_name": "Rune Dusk",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Rune Dusk for Vehicle Factory operations"
+}

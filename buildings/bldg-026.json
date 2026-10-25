@@ -1,0 +1,22 @@
+{
+  "id": "bldg-026",
+  "name": "Sundar's Cyber Cafe #51",
+  "type": "Cyber Cafe",
+  "position": [
+    -130.7,
+    6.4,
+    -80.9
+  ],
+  "size": [
+    13.3,
+    12.7,
+    15.5
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-030",
+  "builder_name": "Sundar Vance",
+  "district": "Cyber Commons",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Sundar Vance for Cyber Cafe operations"
+}

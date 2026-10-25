@@ -1,0 +1,22 @@
+{
+  "id": "bldg-028",
+  "name": "Zane's Residential Pod #77",
+  "type": "Residential Pod",
+  "position": [
+    -57.2,
+    10.6,
+    123.7
+  ],
+  "size": [
+    11.0,
+    21.3,
+    13.5
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-123",
+  "builder_name": "Zane Shadow",
+  "district": "Residential Quarter",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zane Shadow for Residential Pod operations"
+}

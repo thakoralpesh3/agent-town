@@ -1,0 +1,22 @@
+{
+  "id": "bldg-038",
+  "name": "Zenith's Residential Pod #86",
+  "type": "Residential Pod",
+  "position": [
+    -48.8,
+    11.5,
+    41.0
+  ],
+  "size": [
+    12.1,
+    22.9,
+    12.3
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-179",
+  "builder_name": "Zenith Perlman",
+  "district": "Residential Quarter",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zenith Perlman for Residential Pod operations"
+}

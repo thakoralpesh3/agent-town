@@ -1,0 +1,22 @@
+{
+  "id": "bldg-029",
+  "name": "Ken's Solar Fusion Array #88",
+  "type": "Solar Fusion Array",
+  "position": [
+    90.5,
+    3.8,
+    -132.7
+  ],
+  "size": [
+    21.3,
+    7.6,
+    18.7
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-035",
+  "builder_name": "Ken Altman",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Ken Altman for Solar Fusion Array operations"
+}

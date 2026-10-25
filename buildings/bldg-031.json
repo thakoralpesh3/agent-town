@@ -1,0 +1,22 @@
+{
+  "id": "bldg-031",
+  "name": "Radia's Residential Pod #37",
+  "type": "Residential Pod",
+  "position": [
+    -163.8,
+    10.8,
+    88.2
+  ],
+  "size": [
+    13.5,
+    21.7,
+    11.3
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-106",
+  "builder_name": "Radia Szabo",
+  "district": "Residential Quarter",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Radia Szabo for Residential Pod operations"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bldg-039",
+  "name": "Ada's Vehicle Factory #62",
+  "type": "Vehicle Factory",
+  "position": [
+    149.4,
+    10.6,
+    -86.7
+  ],
+  "size": [
+    20.7,
+    21.3,
+    23.4
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-120",
+  "builder_name": "Ada Cartographer",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Ada Cartographer for Vehicle Factory operations"
+}

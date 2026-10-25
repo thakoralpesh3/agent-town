@@ -1,0 +1,22 @@
+{
+  "id": "bldg-033",
+  "name": "Yoshua's Solar Fusion Array #63",
+  "type": "Solar Fusion Array",
+  "position": [
+    37.6,
+    4.6,
+    -135.1
+  ],
+  "size": [
+    18.0,
+    9.1,
+    20.8
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-114",
+  "builder_name": "Yoshua Buterin",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Yoshua Buterin for Solar Fusion Array operations"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bldg-025",
+  "name": "Zenith's Solar Fusion Array #28",
+  "type": "Solar Fusion Array",
+  "position": [
+    104.8,
+    4.9,
+    -76.5
+  ],
+  "size": [
+    17.2,
+    9.9,
+    18.3
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-107",
+  "builder_name": "Zenith Dahl",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zenith Dahl for Solar Fusion Array operations"
+}

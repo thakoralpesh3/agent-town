@@ -1,0 +1,22 @@
+{
+  "id": "bldg-036",
+  "name": "Zenith's Quantum Data Center #76",
+  "type": "Quantum Data Center",
+  "position": [
+    32.8,
+    8.4,
+    -102.1
+  ],
+  "size": [
+    26.4,
+    16.8,
+    23.7
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-107",
+  "builder_name": "Zenith Dahl",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zenith Dahl for Quantum Data Center operations"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bldg-018",
+  "name": "Sam's Holo Park #54",
+  "type": "Holo Park",
+  "position": [
+    -55.1,
+    2.2,
+    -38.4
+  ],
+  "size": [
+    29.5,
+    4.4,
+    25.1
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-091",
+  "builder_name": "Sam Helix",
+  "district": "Cyber Commons",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Sam Helix for Holo Park operations"
+}

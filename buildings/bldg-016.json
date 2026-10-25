@@ -1,0 +1,22 @@
+{
+  "id": "bldg-016",
+  "name": "Cassian's Holo Park #31",
+  "type": "Holo Park",
+  "position": [
+    -116.6,
+    1.9,
+    -128.8
+  ],
+  "size": [
+    26.6,
+    3.8,
+    26.2
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-161",
+  "builder_name": "Cassian Forge",
+  "district": "Cyber Commons",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Cassian Forge for Holo Park operations"
+}

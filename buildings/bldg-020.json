@@ -1,0 +1,22 @@
+{
+  "id": "bldg-020",
+  "name": "Geoffrey's Residential Pod #49",
+  "type": "Residential Pod",
+  "position": [
+    -107.2,
+    11.2,
+    22.7
+  ],
+  "size": [
+    11.4,
+    22.3,
+    11.2
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-009",
+  "builder_name": "Geoffrey Hinton",
+  "district": "Residential Quarter",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Geoffrey Hinton for Residential Pod operations"
+}

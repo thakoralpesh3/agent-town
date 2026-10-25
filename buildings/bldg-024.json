@@ -1,0 +1,22 @@
+{
+  "id": "bldg-024",
+  "name": "Radia's Tech Tower #90",
+  "type": "Tech Tower",
+  "position": [
+    -0.0,
+    21.5,
+    -31.0
+  ],
+  "size": [
+    14.7,
+    42.9,
+    16.8
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-012",
+  "builder_name": "Radia Perlman",
+  "district": "Silicon Central",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Radia Perlman for Tech Tower operations"
+}

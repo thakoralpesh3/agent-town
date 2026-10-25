@@ -1,0 +1,22 @@
+{
+  "id": "bldg-019",
+  "name": "Dennis's Holo Park #71",
+  "type": "Holo Park",
+  "position": [
+    -58.1,
+    1.7,
+    -97.5
+  ],
+  "size": [
+    29.3,
+    3.4,
+    29.1
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-095",
+  "builder_name": "Dennis Vance",
+  "district": "Cyber Commons",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Dennis Vance for Holo Park operations"
+}

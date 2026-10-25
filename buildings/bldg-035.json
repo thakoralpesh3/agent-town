@@ -1,0 +1,22 @@
+{
+  "id": "bldg-035",
+  "name": "Zane's Solar Fusion Array #47",
+  "type": "Solar Fusion Array",
+  "position": [
+    62.7,
+    5.4,
+    -141.8
+  ],
+  "size": [
+    20.0,
+    10.8,
+    17.4
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-076",
+  "builder_name": "Zane Flux",
+  "district": "Industrial Sector",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zane Flux for Solar Fusion Array operations"
+}
