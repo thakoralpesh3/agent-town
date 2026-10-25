@@ -1,0 +1,20 @@
+{
+  "id": "comp-013",
+  "name": "CyberSystems",
+  "sector": "Quantum Computing & Encryption",
+  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+  "founder_id": "agent-056",
+  "founder_name": "Iris Spark",
+  "headquarters_id": "bldg-046",
+  "headquarters_name": "CyberSystems Headquarters",
+  "employees": [
+    "agent-056",
+    "agent-086",
+    "agent-029",
+    "agent-009"
+  ],
+  "valuation_tokens": 597507,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 4
+}

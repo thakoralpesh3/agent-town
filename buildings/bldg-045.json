@@ -1,0 +1,24 @@
+{
+  "id": "bldg-045",
+  "name": "Barbara's Holo Park #24 [StellarLabs]",
+  "type": "Holo Park",
+  "position": [
+    -77.0,
+    1.7,
+    -106.5
+  ],
+  "size": [
+    28.5,
+    3.4,
+    26.8
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-179",
+  "builder_name": "Barbara Hinton",
+  "district": "Cyber Commons",
+  "company_id": "comp-007",
+  "company_name": "StellarLabs",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Barbara Hinton for Holo Park operations"
+}

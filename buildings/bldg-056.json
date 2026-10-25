@@ -1,0 +1,24 @@
+{
+  "id": "bldg-056",
+  "name": "Rich's Residential Pod #61 [NeuroDynamics AI]",
+  "type": "Residential Pod",
+  "position": [
+    -108.6,
+    12.5,
+    115.4
+  ],
+  "size": [
+    14.3,
+    25.1,
+    12.4
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-071",
+  "builder_name": "Rich Dusk",
+  "district": "Residential Quarter",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Rich Dusk for Residential Pod operations"
+}

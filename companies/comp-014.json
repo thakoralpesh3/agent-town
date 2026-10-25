@@ -1,0 +1,18 @@
+{
+  "id": "comp-014",
+  "name": "DeepIntell",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-115",
+  "founder_name": "Stellan Vanguard",
+  "headquarters_id": "bldg-049",
+  "headquarters_name": "DeepIntell Headquarters",
+  "employees": [
+    "agent-115",
+    "agent-083"
+  ],
+  "valuation_tokens": 731184,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 4
+}

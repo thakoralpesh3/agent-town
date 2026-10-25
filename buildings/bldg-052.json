@@ -1,0 +1,24 @@
+{
+  "id": "bldg-052",
+  "name": "Ronan's Vehicle Factory #21 [StellarLabs]",
+  "type": "Vehicle Factory",
+  "position": [
+    131.3,
+    6.7,
+    -128.5
+  ],
+  "size": [
+    20.0,
+    13.3,
+    20.3
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-184",
+  "builder_name": "Ronan Odersky",
+  "district": "Industrial Sector",
+  "company_id": "comp-007",
+  "company_name": "StellarLabs",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Ronan Odersky for Vehicle Factory operations"
+}

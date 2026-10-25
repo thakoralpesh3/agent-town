@@ -1,0 +1,18 @@
+{
+  "id": "comp-017",
+  "name": "HyperRobotics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-096",
+  "founder_name": "Margaret Perlman",
+  "headquarters_id": "bldg-055",
+  "headquarters_name": "HyperRobotics Headquarters",
+  "employees": [
+    "agent-096",
+    "agent-130"
+  ],
+  "valuation_tokens": 282851,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 5
+}

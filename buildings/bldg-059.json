@@ -1,0 +1,24 @@
+{
+  "id": "bldg-059",
+  "name": "Nexus's Holo Park #51 [SolarFusion Prime]",
+  "type": "Holo Park",
+  "position": [
+    -89.4,
+    1.8,
+    -63.2
+  ],
+  "size": [
+    29.6,
+    3.7,
+    24.9
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-187",
+  "builder_name": "Nexus Orbit",
+  "district": "Cyber Commons",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Nexus Orbit for Holo Park operations"
+}

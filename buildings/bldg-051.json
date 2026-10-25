@@ -1,0 +1,24 @@
+{
+  "id": "bldg-051",
+  "name": "Ada's Holo Park #94 [AeroCyber Robotics]",
+  "type": "Holo Park",
+  "position": [
+    -73.5,
+    2.5,
+    -43.6
+  ],
+  "size": [
+    25.4,
+    5.1,
+    23.7
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-044",
+  "builder_name": "Ada Hickey",
+  "district": "Cyber Commons",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Ada Hickey for Holo Park operations"
+}

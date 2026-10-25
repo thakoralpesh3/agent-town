@@ -1,0 +1,24 @@
+{
+  "id": "bldg-050",
+  "name": "Andrej's Quantum Data Center #76",
+  "type": "Quantum Data Center",
+  "position": [
+    86.8,
+    11.2,
+    -159.1
+  ],
+  "size": [
+    23.0,
+    22.4,
+    27.4
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-050",
+  "builder_name": "Andrej Nadella",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Andrej Nadella for Quantum Data Center operations"
+}

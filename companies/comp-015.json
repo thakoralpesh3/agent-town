@@ -1,0 +1,20 @@
+{
+  "id": "comp-015",
+  "name": "SynapseIntell",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-160",
+  "founder_name": "Noam Armstrong",
+  "headquarters_id": "bldg-053",
+  "headquarters_name": "SynapseIntell Headquarters",
+  "employees": [
+    "agent-160",
+    "agent-055",
+    "agent-150",
+    "agent-155"
+  ],
+  "valuation_tokens": 665698,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 4
+}

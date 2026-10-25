@@ -1,0 +1,24 @@
+{
+  "id": "bldg-048",
+  "name": "Felix's Solar Fusion Array #32",
+  "type": "Solar Fusion Array",
+  "position": [
+    62.6,
+    4.2,
+    -155.3
+  ],
+  "size": [
+    18.8,
+    8.4,
+    21.2
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-161",
+  "builder_name": "Felix Torvalds",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Felix Torvalds for Solar Fusion Array operations"
+}

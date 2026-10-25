@@ -1,0 +1,24 @@
+{
+  "id": "bldg-057",
+  "name": "Nick's Solar Fusion Array #38",
+  "type": "Solar Fusion Array",
+  "position": [
+    137.7,
+    4.3,
+    -68.5
+  ],
+  "size": [
+    21.1,
+    8.6,
+    21.5
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-033",
+  "builder_name": "Nick Glitch",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Nick Glitch for Solar Fusion Array operations"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "comp-016",
+  "name": "ApexRobotics",
+  "sector": "Clean Fusion & Solar Grid",
+  "mission": "Revolutionizing Clean Fusion & Solar Grid within GitHub Tech Town.",
+  "founder_id": "agent-013",
+  "founder_name": "Ken Thompson",
+  "headquarters_id": "bldg-054",
+  "headquarters_name": "ApexRobotics Headquarters",
+  "employees": [
+    "agent-013",
+    "agent-133"
+  ],
+  "valuation_tokens": 663900,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 4
+}
