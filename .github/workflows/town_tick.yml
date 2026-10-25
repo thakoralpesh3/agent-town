@@ -1,0 +1,44 @@
+name: GitHub Tech Town 24/7 Life Cycle
+
+on:
+  schedule:
+    # Run every 15 minutes automatically 24/7 on GitHub
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      ticks:
+        description: 'Number of simulation ticks to execute'
+        required: false
+        default: '2'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: town-simulation
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Autonomous Simulation Tick
+        run: |
+          python3 run_town.py --tick ${{ github.event.inputs.ticks || '2' }} --git-commit
+
+      - name: Push Agent Commits to GitHub
+        run: |
+          git push origin main || echo "No changes or conflict auto-resolved"

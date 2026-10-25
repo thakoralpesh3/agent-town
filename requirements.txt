@@ -1,0 +1,4 @@
+# GitHub Autonomous Tech Town
+# Pure Python 3.10+ standard library. Zero mandatory external dependencies!
+# Optional performance/LLM extensions:
+# google-genai>=0.1.0

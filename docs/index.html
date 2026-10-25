@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Autonomous Tech Town | 200 Live Agents</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Three.js & OrbitControls -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <!-- 3D Canvas Container -->
+  <div id="canvas-container"></div>
+  <div id="nameplate-container"></div>
+
+  <!-- Header HUD -->
+  <header id="header-hud" class="glass-panel">
+    <div class="brand">
+      <i class="fa-brands fa-github brand-icon"></i>
+      <div>
+        <div class="brand-title">TECH TOWN</div>
+        <div class="brand-badge"><i class="fa-solid fa-circle-dot" style="color: #22c55e;"></i> LIVE 24/7 GITHUB</div>
+      </div>
+    </div>
+
+    <!-- Live City Metrics -->
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-value" id="stat-pop">200</span>
+        <span class="stat-label">Agents</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-bldg">15</span>
+        <span class="stat-label">Buildings</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-roads">10</span>
+        <span class="stat-label">Roads</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-vehs">8</span>
+        <span class="stat-label">Vehicles</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="stat-tick">0</span>
+        <span class="stat-label">Tick</span>
+      </div>
+    </div>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <button class="btn-icon" id="btn-day-night" title="Toggle Day/Night Cycle">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="btn-icon" id="btn-refresh" title="Force Refresh World State">
+        <i class="fa-solid fa-arrows-rotate"></i>
+      </button>
+      <button class="btn-icon" id="btn-help" title="About Tech Town">
+        <i class="fa-solid fa-circle-info"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Left Floating Camera & Tool Presets -->
+  <div id="toolbar-hud" class="glass-panel">
+    <button class="tool-btn active" id="cam-iso"><i class="fa-solid fa-cube"></i> Isometric</button>
+    <button class="tool-btn" id="cam-top"><i class="fa-solid fa-compass"></i> Overview</button>
+    <button class="tool-btn" id="cam-street"><i class="fa-solid fa-person-walking"></i> Street View</button>
+    <button class="tool-btn" id="btn-toggle-labels"><i class="fa-solid fa-tags"></i> Nameplates</button>
+    <button class="tool-btn" id="btn-follow-toggle"><i class="fa-solid fa-crosshairs"></i> Follow Agent</button>
+  </div>
+
+  <!-- Search & Filter HUD -->
+  <div id="search-hud" class="glass-panel">
+    <div class="search-input-wrapper">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="agent-search-input" placeholder="Search 200 agents or roles...">
+    </div>
+    <div class="filter-tags" id="district-tags">
+      <button class="tag-btn active" data-filter="all">All</button>
+      <button class="tag-btn" data-filter="Silicon Central">Silicon</button>
+      <button class="tag-btn" data-filter="Innovation Matrix">Innovation</button>
+      <button class="tag-btn" data-filter="Residential Quarter">Residential</button>
+      <button class="tag-btn" data-filter="Cyber Commons">Commons</button>
+      <button class="tag-btn" data-filter="Industrial Sector">Industrial</button>
+    </div>
+    <div class="search-results-list" id="search-results-list">
+      <!-- Populated dynamically -->
+    </div>
+  </div>
+
+  <!-- Agent & Object Inspector Drawer -->
+  <aside id="inspector-drawer" class="glass-panel">
+    <div class="inspector-header">
+      <div class="agent-profile-summary">
+        <div class="avatar-badge" id="insp-avatar">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <div class="agent-title-box">
+          <h2 id="insp-name">Ada Lovelace</h2>
+          <span class="role-badge" id="insp-role">Urban Architect (Lv. 8)</span>
+        </div>
+      </div>
+      <button class="close-btn" id="insp-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Live Current Action -->
+    <div class="inspector-section">
+      <span class="section-title"><i class="fa-solid fa-bolt" style="color: var(--cyan-neon);"></i> Current Work & Action</span>
+      <div class="status-highlight-card" id="insp-action">
+        Constructing Solar Fusion Skyscraper #22
+      </div>
+    </div>
+
+    <!-- Inner Thoughts -->
+    <div class="inspector-section">
+      <span class="section-title"><i class="fa-solid fa-brain" style="color: var(--purple-neon);"></i> Inner Thoughts</span>
+      <div class="quote-box" id="insp-thought">
+        "Designing renewable energy links to power the next residential cluster."
+      </div>
+    </div>
+
+    <!-- Desire & Motivation -->
+    <div class="inspector-section">
+      <span class="section-title"><i class="fa-solid fa-compass" style="color: var(--amber-neon);"></i> Current Desire</span>
+      <div style="font-size: 13px; color: #e2e8f0;" id="insp-desire">
+        Erect a monumental high-rise in Silicon Central.
+      </div>
+    </div>
+
+    <!-- Coordinates & Stats -->
+    <div class="inspector-section">
+      <span class="section-title">Telemetry & Status</span>
+      <div class="meta-grid">
+        <div class="meta-card">
+          <div class="label">Coordinates (X, Z)</div>
+          <div class="val" id="insp-coords">[12.4, -45.8]</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">Energy Reserve</div>
+          <div class="val" id="insp-energy">96%</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">ID & Category</div>
+          <div class="val" id="insp-id">agent-001 (Construction)</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">Collaborators</div>
+          <div class="val" id="insp-collabs">Alan Turing</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Created Infrastructure & Code -->
+    <div class="inspector-section">
+      <span class="section-title"><i class="fa-solid fa-hammer"></i> Created Items & Blueprints</span>
+      <div class="creations-chips" id="insp-creations">
+        <span class="creation-chip">Tower of Turing</span>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="inspector-actions">
+      <button class="action-btn" id="btn-focus-agent"><i class="fa-solid fa-video"></i> Focus Camera</button>
+      <button class="action-btn" id="btn-follow-active"><i class="fa-solid fa-person-running"></i> Follow Live</button>
+    </div>
+  </aside>
+
+  <!-- Live Event Ticker -->
+  <footer id="event-ticker-hud" class="glass-panel">
+    <div class="ticker-label">
+      <div class="ticker-pulse"></div>
+      TOWN FEED:
+    </div>
+    <div class="ticker-content" id="ticker-text">
+      GitHub Tech Town officially founded with 200 pioneer agents. All systems operational.
+    </div>
+  </footer>
+
+  <!-- App JavaScript Modules -->
+  <script src="js/town_renderer.js"></script>
+  <script src="js/agent_manager.js"></script>
+  <script src="js/interaction.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
