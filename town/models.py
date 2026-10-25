@@ -20,6 +20,8 @@ class Agent:
     thoughts: str = "Analyzing city matrix and planning next innovation."
     energy: int = 100
     level: int = 1
+    company_id: Optional[str] = None
+    company_name: Optional[str] = None
     creations: List[Dict[str, Any]] = field(default_factory=list)
     collaborators: List[str] = field(default_factory=list)
     created_at_tick: int = 0
@@ -33,6 +35,29 @@ class Agent:
         return cls(**data)
 
 @dataclass
+class Company:
+    id: str
+    name: str
+    sector: str
+    mission: str
+    founder_id: str
+    founder_name: str
+    headquarters_id: str
+    headquarters_name: str
+    employees: List[str] = field(default_factory=list)
+    valuation_tokens: int = 100000
+    products: List[str] = field(default_factory=list)
+    color: str = "#00f0ff"
+    founded_at_tick: int = 0
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'Company':
+        return cls(**data)
+
+@dataclass
 class Building:
     id: str
     name: str
@@ -43,6 +68,8 @@ class Building:
     builder_id: str
     builder_name: str
     district: str
+    company_id: Optional[str] = None
+    company_name: Optional[str] = None
     completion: float = 1.0  # 0.0 to 1.0
     occupants: List[str] = field(default_factory=list)
     purpose: str = "Tech Infrastructure"
@@ -97,6 +124,7 @@ class TownState:
     timestamp: str = ""
     population: int = 200
     agents: List[Agent] = field(default_factory=list)
+    companies: List[Company] = field(default_factory=list)
     buildings: List[Building] = field(default_factory=list)
     roads: List[Road] = field(default_factory=list)
     vehicles: List[Vehicle] = field(default_factory=list)
@@ -109,6 +137,7 @@ class TownState:
             "timestamp": self.timestamp,
             "population": len(self.agents),
             "agents": [a.to_dict() for a in self.agents],
+            "companies": [c.to_dict() for c in self.companies],
             "buildings": [b.to_dict() for b in self.buildings],
             "roads": [r.to_dict() for r in self.roads],
             "vehicles": [v.to_dict() for v in self.vehicles],
@@ -119,6 +148,7 @@ class TownState:
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'TownState':
         agents = [Agent.from_dict(a) for a in data.get("agents", [])]
+        companies = [Company.from_dict(c) for c in data.get("companies", [])]
         buildings = [Building.from_dict(b) for b in data.get("buildings", [])]
         roads = [Road.from_dict(r) for r in data.get("roads", [])]
         vehicles = [Vehicle.from_dict(v) for v in data.get("vehicles", [])]
@@ -127,6 +157,7 @@ class TownState:
             timestamp=data.get("timestamp", ""),
             population=len(agents),
             agents=agents,
+            companies=companies,
             buildings=buildings,
             roads=roads,
             vehicles=vehicles,

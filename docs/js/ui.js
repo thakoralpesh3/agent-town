@@ -1,11 +1,13 @@
 /**
- * UI - Handles HTML HUD, Search & Filter, Inspector Drawer, and Event Ticker.
+ * UI - Handles HTML HUD, Search & Filter, Company Directory, Inspector Drawer, and Event Ticker.
  */
 class UIController {
   constructor() {
     this.drawer = document.getElementById("inspector-drawer");
     this.currentSelectedAgent = null;
     this.agentsList = [];
+    this.companiesList = [];
+    this.buildingsList = [];
     this.interaction = null;
     this.agentManager = null;
 
@@ -29,7 +31,7 @@ class UIController {
       this.filterAgents(e.target.value);
     });
 
-    // District Filter Tags
+    // District & Company Filter Tags
     const tags = document.querySelectorAll("#district-tags .tag-btn");
     tags.forEach(tag => {
       tag.addEventListener("click", () => {
@@ -57,6 +59,21 @@ class UIController {
     document.getElementById("btn-follow-toggle").addEventListener("click", () => {
       if (this.interaction) {
         this.interaction.toggleFollow();
+      }
+    });
+
+    // Zoom Controls
+    document.getElementById("btn-zoom-in").addEventListener("click", () => {
+      if (this.interaction) {
+        this.interaction.controls.dollyIn(1.25);
+        this.interaction.controls.update();
+      }
+    });
+
+    document.getElementById("btn-zoom-out").addEventListener("click", () => {
+      if (this.interaction) {
+        this.interaction.controls.dollyOut(1.25);
+        this.interaction.controls.update();
       }
     });
 
@@ -101,7 +118,7 @@ class UIController {
 
     // Help Dialog
     document.getElementById("btn-help").addEventListener("click", () => {
-      alert("🏙️ GitHub Autonomous Tech Town\n\n• 200 agents live, work, and grow inside this GitHub repo.\n• Click any agent to inspect their live thoughts, work, and desires.\n• Click any building or car to see blueprints and builders.\n• Use mouse wheel to zoom in/out, right drag to pan, left drag to rotate.\n• Agents run 24/7 on GitHub Actions!");
+      alert("🏙️ GitHub Autonomous Tech Town\n\n• 200 agents live, work, and grow inside this GitHub repo.\n• Agents autonomously build roads, cybercars, homes, and found new companies.\n• Click any agent to inspect their live thoughts, work, company, and desires.\n• Click any building or car to see blueprints and builders.\n• Use Zoom In/Out (+/-) or mouse wheel to zoom.\n• Agents run 24/7 on GitHub Actions!");
     });
   }
 
@@ -130,6 +147,7 @@ class UIController {
 
   updateHUD(state) {
     document.getElementById("stat-pop").textContent = state.population || state.agents.length;
+    document.getElementById("stat-corps").textContent = state.companies ? state.companies.length : 0;
     document.getElementById("stat-bldg").textContent = state.buildings.length;
     document.getElementById("stat-roads").textContent = state.roads.length;
     document.getElementById("stat-vehs").textContent = state.vehicles.length;
@@ -141,6 +159,8 @@ class UIController {
     }
 
     this.agentsList = state.agents;
+    this.companiesList = state.companies || [];
+    this.buildingsList = state.buildings || [];
     this.populateSearchResults(this.agentsList.slice(0, 30));
   }
 
@@ -151,10 +171,12 @@ class UIController {
     agents.forEach(agent => {
       const item = document.createElement("div");
       item.className = "agent-result-item";
+      const compLabel = agent.company_name ? `<div style="font-size: 10px; color: #f472b6;">🏢 ${agent.company_name}</div>` : '';
       item.innerHTML = `
         <div>
           <div class="name" style="color: ${agent.color}">${agent.name}</div>
           <div class="role">${agent.role}</div>
+          ${compLabel}
         </div>
         <div style="font-size: 11px; font-family: var(--font-mono); color: var(--text-secondary);">Lv.${agent.level}</div>
       `;
@@ -169,6 +191,38 @@ class UIController {
     });
   }
 
+  populateCompanyResults(companies) {
+    const container = document.getElementById("search-results-list");
+    container.innerHTML = "";
+
+    companies.forEach(comp => {
+      const item = document.createElement("div");
+      item.className = "agent-result-item";
+      item.innerHTML = `
+        <div>
+          <div class="name" style="color: ${comp.color}; font-weight: bold;">🏢 ${comp.name}</div>
+          <div class="role" style="color: #cbd5e1;">${comp.sector}</div>
+          <div style="font-size: 10px; color: var(--text-secondary);">Founder: ${comp.founder_name} | ${comp.employees.length} agents</div>
+        </div>
+        <div style="font-size: 11px; font-family: var(--font-mono); color: var(--cyan-neon);">${Math.round(comp.valuation_tokens / 1000)}k 💎</div>
+      `;
+
+      item.addEventListener("click", () => {
+        // Find company HQ building
+        const hq = this.buildingsList.find(b => b.id === comp.headquarters_id || b.name.includes(comp.name));
+        if (hq && this.interaction) {
+          this.interaction.handleSelection(hq, 'building');
+        } else if (this.interaction) {
+          // Focus on founder
+          const founder = this.agentsList.find(a => a.id === comp.founder_id);
+          if (founder) this.interaction.handleSelection(founder, 'agent');
+        }
+      });
+
+      container.appendChild(item);
+    });
+  }
+
   filterAgents(query) {
     const q = query.toLowerCase().trim();
     if (!q) {
@@ -176,7 +230,9 @@ class UIController {
       return;
     }
     const matched = this.agentsList.filter(a => 
-      a.name.toLowerCase().includes(q) || a.role.toLowerCase().includes(q)
+      a.name.toLowerCase().includes(q) || 
+      a.role.toLowerCase().includes(q) ||
+      (a.company_name && a.company_name.toLowerCase().includes(q))
     );
     this.populateSearchResults(matched);
   }
@@ -186,7 +242,10 @@ class UIController {
       this.populateSearchResults(this.agentsList.slice(0, 30));
       return;
     }
-    // Filter agents currently positioned inside district bounds
+    if (district === 'companies') {
+      this.populateCompanyResults(this.companiesList);
+      return;
+    }
     const matched = this.agentsList.filter(a => a.action.includes(district) || a.desire.includes(district));
     this.populateSearchResults(matched.length > 0 ? matched : this.agentsList.slice(0, 30));
   }
@@ -204,7 +263,16 @@ class UIController {
     document.getElementById("insp-coords").textContent = `[${agent.position[0]}, ${agent.position[2]}]`;
     document.getElementById("insp-energy").textContent = `${agent.energy}%`;
     document.getElementById("insp-id").textContent = `${agent.id} (${agent.category})`;
-    document.getElementById("insp-collabs").textContent = agent.collaborators && agent.collaborators.length > 0 ? agent.collaborators.join(", ") : "Solo Researcher";
+    document.getElementById("insp-collabs").textContent = agent.collaborators && agent.collaborators.length > 0 ? agent.collaborators.join(", ") : "Independent";
+
+    // Company Banner
+    const compWrapper = document.getElementById("insp-company-wrapper");
+    if (agent.company_name) {
+      compWrapper.style.display = "block";
+      document.getElementById("insp-company-text").textContent = `Enterprise: ${agent.company_name}`;
+    } else {
+      compWrapper.style.display = "none";
+    }
 
     // Creations chips
     const creationsBox = document.getElementById("insp-creations");
@@ -234,6 +302,14 @@ class UIController {
     document.getElementById("insp-id").textContent = `${bldg.id} (Infrastructure)`;
     document.getElementById("insp-collabs").textContent = bldg.builder_name;
 
+    const compWrapper = document.getElementById("insp-company-wrapper");
+    if (bldg.company_name) {
+      compWrapper.style.display = "block";
+      document.getElementById("insp-company-text").textContent = `🏢 Global Headquarters: ${bldg.company_name}`;
+    } else {
+      compWrapper.style.display = "none";
+    }
+
     const creationsBox = document.getElementById("insp-creations");
     creationsBox.innerHTML = `<span class="creation-chip">Blueprint: buildings/${bldg.id}.json</span>`;
   }
@@ -250,6 +326,8 @@ class UIController {
     document.getElementById("insp-energy").textContent = "Induction Charged";
     document.getElementById("insp-id").textContent = `${veh.id} (Autonomous Vehicle)`;
     document.getElementById("insp-collabs").textContent = veh.driver_name || "Autonomous AI";
+
+    document.getElementById("insp-company-wrapper").style.display = "none";
 
     const creationsBox = document.getElementById("insp-creations");
     creationsBox.innerHTML = `<span class="creation-chip">Vehicle ID: ${veh.id}</span>`;

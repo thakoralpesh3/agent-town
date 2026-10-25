@@ -18,7 +18,7 @@ def commit_town_activity(events: List[Dict[str, Any]], tick: int) -> Optional[st
         run_git(["config", "user.email", "agent-town@github.local"])
 
     # Stage files
-    paths_to_stage = ["state", "docs/data", "buildings", "projects", "diaries"]
+    paths_to_stage = ["state", "docs/data", "buildings", "projects", "diaries", "companies", "commands"]
     for path in paths_to_stage:
         if os.path.exists(path):
             run_git(["add", path])

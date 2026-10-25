@@ -1,0 +1,20 @@
+{
+  "id": "comp-008",
+  "name": "VectorNetworks",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-122",
+  "founder_name": "Roxas Kahn",
+  "headquarters_id": "bldg-034",
+  "headquarters_name": "VectorNetworks Headquarters",
+  "employees": [
+    "agent-122",
+    "agent-102",
+    "agent-170",
+    "agent-115"
+  ],
+  "valuation_tokens": 404975,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 3
+}

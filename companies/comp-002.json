@@ -1,0 +1,21 @@
+{
+  "id": "comp-002",
+  "name": "AeroCyber Robotics",
+  "sector": "Autonomous Mobility & Drones",
+  "mission": "Fabricate next-gen autonomous hovercars and transit networks for the town.",
+  "founder_id": "agent-011",
+  "founder_name": "Katherine Johnson",
+  "headquarters_id": "bldg-013",
+  "headquarters_name": "Autonomous Cybercar Assembly Plant",
+  "employees": [
+    "agent-011",
+    "agent-017"
+  ],
+  "valuation_tokens": 350000,
+  "products": [
+    "traffic_mesh.py",
+    "Cybercar Alpha-1"
+  ],
+  "color": "#f59e0b",
+  "founded_at_tick": 0
+}

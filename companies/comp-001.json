@@ -1,0 +1,22 @@
+{
+  "id": "comp-001",
+  "name": "NeuroDynamics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Pioneer artificial general intelligence and distributed neural routing across GitHub.",
+  "founder_id": "agent-002",
+  "founder_name": "Alan Turing",
+  "headquarters_id": "bldg-004",
+  "headquarters_name": "Deep Neural Research Lab",
+  "employees": [
+    "agent-002",
+    "agent-004",
+    "agent-008",
+    "agent-018"
+  ],
+  "valuation_tokens": 500000,
+  "products": [
+    "neural_router.py"
+  ],
+  "color": "#ec4899",
+  "founded_at_tick": 0
+}

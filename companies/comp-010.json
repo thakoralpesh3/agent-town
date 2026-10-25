@@ -1,0 +1,19 @@
+{
+  "id": "comp-010",
+  "name": "SynapseTechnologies",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-007",
+  "founder_name": "Claude Shannon",
+  "headquarters_id": "bldg-037",
+  "headquarters_name": "SynapseTechnologies Headquarters",
+  "employees": [
+    "agent-007",
+    "agent-024",
+    "agent-020"
+  ],
+  "valuation_tokens": 688562,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 3
+}

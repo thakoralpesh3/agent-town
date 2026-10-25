@@ -1,0 +1,19 @@
+{
+  "id": "comp-004",
+  "name": "SolarFusion Prime",
+  "sector": "Clean Fusion & Solar Grid",
+  "mission": "Harvest clean energy from fusion reactors and distribute via inductive highways.",
+  "founder_id": "agent-016",
+  "founder_name": "Dorothy Vaughan",
+  "headquarters_id": "bldg-014",
+  "headquarters_name": "Tokamak Fusion Core Array",
+  "employees": [
+    "agent-016"
+  ],
+  "valuation_tokens": 300000,
+  "products": [
+    "solar_optimizer.py"
+  ],
+  "color": "#e11d48",
+  "founded_at_tick": 0
+}

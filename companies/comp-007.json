@@ -1,0 +1,20 @@
+{
+  "id": "comp-007",
+  "name": "StellarLabs",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-177",
+  "founder_name": "Morrigan Tinkerer",
+  "headquarters_id": "bldg-021",
+  "headquarters_name": "StellarLabs Headquarters",
+  "employees": [
+    "agent-177",
+    "agent-184",
+    "agent-181",
+    "agent-179"
+  ],
+  "valuation_tokens": 465635,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 1
+}

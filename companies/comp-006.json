@@ -1,0 +1,19 @@
+{
+  "id": "comp-006",
+  "name": "AeroVentures",
+  "sector": "Autonomous Mobility & Drones",
+  "mission": "Revolutionizing Autonomous Mobility & Drones within GitHub Tech Town.",
+  "founder_id": "agent-001",
+  "founder_name": "Ada Lovelace",
+  "headquarters_id": "bldg-016",
+  "headquarters_name": "AeroVentures Headquarters",
+  "employees": [
+    "agent-001",
+    "agent-188",
+    "agent-082"
+  ],
+  "valuation_tokens": 594618,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 0
+}

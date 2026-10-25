@@ -1,0 +1,19 @@
+{
+  "id": "comp-012",
+  "name": "SynapseDynamics",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-042",
+  "founder_name": "Cassian Bengio",
+  "headquarters_id": "bldg-044",
+  "headquarters_name": "SynapseDynamics Headquarters",
+  "employees": [
+    "agent-042",
+    "agent-041",
+    "agent-178"
+  ],
+  "valuation_tokens": 301673,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 3
+}

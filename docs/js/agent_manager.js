@@ -211,10 +211,11 @@ class AgentManager {
         this.nameplateElements.set(id, el);
       }
 
-      el.style.display = "block";
+      const compBadge = agent.company_name ? `<span style="color: #f472b6; font-size: 9px; display: block;">🏢 ${agent.company_name}</span>` : '';
       el.innerHTML = `
         <span>${agent.name}</span>
-        <span class="sub-action">${agent.action.substring(0, 24)}</span>
+        ${compBadge}
+        <span class="sub-action">${agent.action.substring(0, 26)}</span>
       `;
 
       // Project 3D position to 2D Screen

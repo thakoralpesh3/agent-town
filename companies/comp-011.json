@@ -1,0 +1,20 @@
+{
+  "id": "comp-011",
+  "name": "CyberDynamics",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-065",
+  "founder_name": "Mira Binary",
+  "headquarters_id": "bldg-039",
+  "headquarters_name": "CyberDynamics Headquarters",
+  "employees": [
+    "agent-065",
+    "agent-199",
+    "agent-126",
+    "agent-077"
+  ],
+  "valuation_tokens": 381472,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 3
+}

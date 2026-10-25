@@ -1,0 +1,21 @@
+{
+  "id": "comp-005",
+  "name": "OpenKernel Core",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Develop open source OS kernel, high-throughput pub/sub buses, and microservices.",
+  "founder_id": "agent-003",
+  "founder_name": "Linus Torvalds",
+  "headquarters_id": "bldg-001",
+  "headquarters_name": "Tower of Turing (City Mainframe)",
+  "employees": [
+    "agent-003",
+    "agent-001",
+    "agent-013"
+  ],
+  "valuation_tokens": 600000,
+  "products": [
+    "agent_orchestrator.py"
+  ],
+  "color": "#00f0ff",
+  "founded_at_tick": 0
+}

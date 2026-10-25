@@ -42,6 +42,10 @@
         <span class="stat-label">Agents</span>
       </div>
       <div class="stat-item">
+        <span class="stat-value" id="stat-corps" style="color: #ec4899;">5</span>
+        <span class="stat-label">Companies</span>
+      </div>
+      <div class="stat-item">
         <span class="stat-value" id="stat-bldg">15</span>
         <span class="stat-label">Buildings</span>
       </div>
@@ -78,6 +82,8 @@
     <button class="tool-btn active" id="cam-iso"><i class="fa-solid fa-cube"></i> Isometric</button>
     <button class="tool-btn" id="cam-top"><i class="fa-solid fa-compass"></i> Overview</button>
     <button class="tool-btn" id="cam-street"><i class="fa-solid fa-person-walking"></i> Street View</button>
+    <button class="tool-btn" id="btn-zoom-in"><i class="fa-solid fa-magnifying-glass-plus"></i> Zoom In (+)</button>
+    <button class="tool-btn" id="btn-zoom-out"><i class="fa-solid fa-magnifying-glass-minus"></i> Zoom Out (-)</button>
     <button class="tool-btn" id="btn-toggle-labels"><i class="fa-solid fa-tags"></i> Nameplates</button>
     <button class="tool-btn" id="btn-follow-toggle"><i class="fa-solid fa-crosshairs"></i> Follow Agent</button>
   </div>
@@ -86,10 +92,11 @@
   <div id="search-hud" class="glass-panel">
     <div class="search-input-wrapper">
       <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" id="agent-search-input" placeholder="Search 200 agents or roles...">
+      <input type="text" id="agent-search-input" placeholder="Search agents, companies, roles...">
     </div>
     <div class="filter-tags" id="district-tags">
       <button class="tag-btn active" data-filter="all">All</button>
+      <button class="tag-btn" data-filter="companies" style="color: #ec4899; font-weight: bold;"><i class="fa-solid fa-building"></i> Companies</button>
       <button class="tag-btn" data-filter="Silicon Central">Silicon</button>
       <button class="tag-btn" data-filter="Innovation Matrix">Innovation</button>
       <button class="tag-btn" data-filter="Residential Quarter">Residential</button>
@@ -114,6 +121,13 @@
         </div>
       </div>
       <button class="close-btn" id="insp-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Company Badge if applicable -->
+    <div id="insp-company-wrapper" style="display: none;">
+      <div style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); border-radius: 6px; padding: 6px 10px; font-size: 12px; color: #f472b6; display: flex; align-items: center; gap: 8px;">
+        <i class="fa-solid fa-building"></i> <span id="insp-company-text">NeuroDynamics AI</span>
+      </div>
     </div>
 
     <!-- Live Current Action -->

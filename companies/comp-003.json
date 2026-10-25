@@ -1,0 +1,20 @@
+{
+  "id": "comp-003",
+  "name": "QuantumMatrix Corp",
+  "sector": "Quantum Computing & Encryption",
+  "mission": "Engineer fault-tolerant quantum algorithms and topological computing nodes.",
+  "founder_id": "agent-005",
+  "founder_name": "Margaret Hamilton",
+  "headquarters_id": "bldg-005",
+  "headquarters_name": "Quantum Logic Foundry",
+  "employees": [
+    "agent-005",
+    "agent-015"
+  ],
+  "valuation_tokens": 420000,
+  "products": [
+    "quantum_hasher.py"
+  ],
+  "color": "#8b5cf6",
+  "founded_at_tick": 0
+}

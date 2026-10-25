@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 GitHub Autonomous Tech Town - Main Controller CLI
-Allows running ticks, 24/7 daemon loop, initializing town, and serving the 3D viewer.
+Allows running ticks, 24/7 daemon loop, initializing town, serving the 3D viewer, and executing user commands.
 """
 import argparse
 import sys
@@ -36,10 +36,11 @@ def serve_web(port: int = 8000, directory: str = "docs"):
 
 def main():
     parser = argparse.ArgumentParser(description="GitHub Autonomous Tech Town Controller")
-    parser.add_argument("--init", action="store_true", help="Generate initial 200 agents and town foundation")
+    parser.add_argument("--init", action="store_true", help="Generate initial 200 agents, companies, and town foundation")
     parser.add_argument("--tick", type=int, nargs="?", const=1, help="Execute N simulation ticks (default 1)")
     parser.add_argument("--continuous", action="store_true", help="Run 24/7 continuous simulation loop")
     parser.add_argument("--delay", type=float, default=3.0, help="Seconds between continuous ticks (default 3.0)")
+    parser.add_argument("--command", type=str, help="Issue a direct user command to the town agents")
     parser.add_argument("--git-commit", action="store_true", help="Automatically git commit town changes")
     parser.add_argument("--serve", action="store_true", help="Serve the 3D Tech Town Viewer locally")
     parser.add_argument("--port", type=int, default=8000, help="Web server port (default 8000)")
@@ -48,22 +49,32 @@ def main():
     engine = TownEngine()
 
     if args.init:
-        print("🏙️  Generating foundational Tech Town and 200 pioneer agents...")
+        print("🏙️  Generating foundational Tech Town, 200 pioneer agents, and 5 enterprises...")
         state = generate_initial_state()
         engine.state = state
         engine.save_state()
-        print(f"✅ Generated {len(state.agents)} agents, {len(state.buildings)} buildings, {len(state.roads)} roads, {len(state.vehicles)} vehicles!")
+        print(f"✅ Generated {len(state.agents)} agents, {len(state.companies)} companies, {len(state.buildings)} buildings, {len(state.roads)} roads, {len(state.vehicles)} vehicles!")
         if args.git_commit:
             msg = commit_town_activity(state.recent_events, state.tick)
             if msg:
                 print(f"📦 Git commit created: {msg}")
         return
 
+    if args.command:
+        engine.load_state()
+        print(f"👑 Executing User Command: '{args.command}'...")
+        engine.process_user_command(args.command)
+        if args.git_commit:
+            msg = commit_town_activity(engine.state.recent_events, engine.state.tick)
+            if msg:
+                print(f"📦 Git commit: {msg}")
+        print("✅ Command executed by town agents.")
+        return
+
     if args.serve and not (args.tick or args.continuous):
         serve_web(port=args.port)
         return
 
-    # If serve is combined with continuous
     if args.serve and args.continuous:
         t = threading.Thread(target=serve_web, args=(args.port,), daemon=True)
         t.start()
@@ -75,7 +86,7 @@ def main():
             while True:
                 state = engine.tick()
                 latest_event = state.recent_events[-1]["message"] if state.recent_events else "Cycle complete"
-                print(f"[Tick {state.tick}] Pop: {len(state.agents)} | Bldgs: {len(state.buildings)} | Rds: {len(state.roads)} | {latest_event}")
+                print(f"[Tick {state.tick}] Pop: {len(state.agents)} | Corps: {len(state.companies)} | Bldgs: {len(state.buildings)} | {latest_event}")
                 if args.git_commit:
                     commit_town_activity(state.recent_events, state.tick)
                 time.sleep(args.delay)
@@ -90,7 +101,7 @@ def main():
         for _ in range(num_ticks):
             state = engine.tick()
             latest_event = state.recent_events[-1]["message"] if state.recent_events else "Cycle complete"
-            print(f"[Tick {state.tick}] Pop: {len(state.agents)} | Bldgs: {len(state.buildings)} | Rds: {len(state.roads)} | {latest_event}")
+            print(f"[Tick {state.tick}] Pop: {len(state.agents)} | Corps: {len(state.companies)} | Bldgs: {len(state.buildings)} | {latest_event}")
         
         if args.git_commit:
             msg = commit_town_activity(state.recent_events, state.tick)
@@ -99,13 +110,13 @@ def main():
         print("✅ Simulation tick(s) finished.")
         return
 
-    # Default action if no flags provided: initialize if missing, else run 1 tick
+    # Default action
     if not os.path.exists("state/town_state.json"):
         print("Initializing new Tech Town with 200 agents...")
         state = generate_initial_state()
         engine.state = state
         engine.save_state()
-        print(f"✅ Town initialized with 200 agents.")
+        print(f"✅ Town initialized with 200 agents and companies.")
     else:
         engine.load_state()
         state = engine.tick()

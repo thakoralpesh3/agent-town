@@ -1,5 +1,5 @@
 /**
- * TownRenderer - Procedural 3D rendering for roads, buildings, vehicles, and districts.
+ * TownRenderer - Procedural 3D rendering for roads, buildings, company HQs, vehicles, and districts.
  */
 class TownRenderer {
   constructor(scene) {
@@ -64,7 +64,6 @@ class TownRenderer {
   }
 
   renderRoads(roads) {
-    // Clear old roads
     while (this.roadGroup.children.length > 0) {
       this.roadGroup.remove(this.roadGroup.children[0]);
     }
@@ -113,7 +112,7 @@ class TownRenderer {
   renderBuildings(buildings) {
     buildings.forEach(b => {
       if (this.buildingMeshes.has(b.id)) {
-        return; // Already rendered
+        return;
       }
 
       const [w, h, d] = b.size;
@@ -123,8 +122,42 @@ class TownRenderer {
 
       const colorHex = parseInt(b.color.replace('#', '0x'), 16) || 0x00f0ff;
 
-      if (b.type === "Tech Tower") {
-        // High-rise Tower
+      if (b.type === "Company Headquarters" || b.company_name) {
+        // High-Tech Corporate Megatower
+        const bodyGeo = new THREE.BoxGeometry(w, h, d);
+        const bodyMat = new THREE.MeshStandardMaterial({
+          color: 0x0d1527,
+          roughness: 0.1,
+          metalness: 0.9
+        });
+        const body = new THREE.Mesh(bodyGeo, bodyMat);
+        body.position.y = h / 2;
+        body.castShadow = true;
+        body.receiveShadow = true;
+        group.add(body);
+
+        // Holographic Corporate Wireframe
+        const wireGeo = new THREE.EdgesGeometry(bodyGeo);
+        const wireMat = new THREE.LineBasicMaterial({ color: colorHex, linewidth: 2 });
+        const wire = new THREE.LineSegments(wireGeo, wireMat);
+        wire.position.y = h / 2;
+        group.add(wire);
+
+        // Penthouse Deck
+        const deckGeo = new THREE.BoxGeometry(w * 0.7, 4, d * 0.7);
+        const deckMat = new THREE.MeshStandardMaterial({ color: 0x1e293b });
+        const deck = new THREE.Mesh(deckGeo, deckMat);
+        deck.position.y = h + 2;
+        group.add(deck);
+
+        // Corporate Hologram Billboard
+        const signGeo = new THREE.BoxGeometry(w * 0.6, 6, 0.5);
+        const signMat = new THREE.MeshBasicMaterial({ color: colorHex, wireframe: true });
+        const sign = new THREE.Mesh(signGeo, signMat);
+        sign.position.y = h + 7;
+        group.add(sign);
+
+      } else if (b.type === "Tech Tower") {
         const bodyGeo = new THREE.BoxGeometry(w, h, d);
         const bodyMat = new THREE.MeshStandardMaterial({
           color: 0x091428,
@@ -137,14 +170,12 @@ class TownRenderer {
         body.receiveShadow = true;
         group.add(body);
 
-        // Neon Edge Wireframe
         const wireGeo = new THREE.EdgesGeometry(bodyGeo);
         const wireMat = new THREE.LineBasicMaterial({ color: colorHex, linewidth: 2 });
         const wire = new THREE.LineSegments(wireGeo, wireMat);
         wire.position.y = h / 2;
         group.add(wire);
 
-        // Roof Spire / Beacon
         const spireGeo = new THREE.CylinderGeometry(0.2, 1.2, 12, 8);
         const spireMat = new THREE.MeshBasicMaterial({ color: colorHex });
         const spire = new THREE.Mesh(spireGeo, spireMat);
@@ -152,14 +183,12 @@ class TownRenderer {
         group.add(spire);
 
       } else if (b.type === "AI Research Lab") {
-        // Hexagonal / Dome Complex
         const baseGeo = new THREE.CylinderGeometry(w / 1.7, w / 1.5, h * 0.8, 8);
         const baseMat = new THREE.MeshStandardMaterial({ color: 0x1e1035, roughness: 0.3, metalness: 0.7 });
         const base = new THREE.Mesh(baseGeo, baseMat);
         base.position.y = (h * 0.8) / 2;
         group.add(base);
 
-        // Glowing Core Dome
         const domeGeo = new THREE.SphereGeometry(w / 2.2, 16, 16, 0, Math.PI * 2, 0, Math.PI / 2);
         const domeMat = new THREE.MeshBasicMaterial({ color: colorHex, wireframe: true });
         const dome = new THREE.Mesh(domeGeo, domeMat);
@@ -167,14 +196,12 @@ class TownRenderer {
         group.add(dome);
 
       } else if (b.type === "Holo Park") {
-        // Green Grass Base
         const lawnGeo = new THREE.BoxGeometry(w, 0.4, d);
         const lawnMat = new THREE.MeshStandardMaterial({ color: 0x064e3b, roughness: 0.8 });
         const lawn = new THREE.Mesh(lawnGeo, lawnMat);
         lawn.position.y = 0.2;
         group.add(lawn);
 
-        // Cyber Trees
         for (let i = 0; i < 4; i++) {
           const tx = (Math.random() - 0.5) * (w * 0.6);
           const tz = (Math.random() - 0.5) * (d * 0.6);
@@ -192,7 +219,6 @@ class TownRenderer {
         }
 
       } else {
-        // Standard Modern Modular Building
         const boxGeo = new THREE.BoxGeometry(w, h, d);
         const boxMat = new THREE.MeshStandardMaterial({
           color: 0x111827,
@@ -205,14 +231,12 @@ class TownRenderer {
         box.receiveShadow = true;
         group.add(box);
 
-        // Accent Frame
         const edges = new THREE.EdgesGeometry(boxGeo);
         const line = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: colorHex }));
         line.position.y = h / 2;
         group.add(line);
       }
 
-      // Metadata for raycasting
       group.userData = { type: 'building', data: b };
       group.children.forEach(c => {
         c.userData = { type: 'building', data: b };
@@ -228,11 +252,9 @@ class TownRenderer {
     vehicles.forEach(v => {
       let vehObj = this.vehicleMeshes.get(v.id);
       if (!vehObj) {
-        // Create 3D Vehicle Model
         const group = new THREE.Group();
         const colorHex = parseInt(v.color.replace('#', '0x'), 16) || 0x00f0ff;
 
-        // Chassis
         const bodyGeo = new THREE.BoxGeometry(3.0, 1.0, 5.0);
         const bodyMat = new THREE.MeshStandardMaterial({
           color: 0x0f172a,
@@ -243,21 +265,18 @@ class TownRenderer {
         body.position.y = 0.5;
         group.add(body);
 
-        // Cockpit Canopy
         const canopyGeo = new THREE.BoxGeometry(2.4, 0.8, 2.5);
         const canopyMat = new THREE.MeshBasicMaterial({ color: colorHex, wireframe: true });
         const canopy = new THREE.Mesh(canopyGeo, canopyMat);
         canopy.position.set(0, 1.2, -0.4);
         group.add(canopy);
 
-        // Headlights (Front Neon)
         const lightGeo = new THREE.BoxGeometry(2.2, 0.2, 0.2);
         const lightMat = new THREE.MeshBasicMaterial({ color: 0x00f0ff });
         const light = new THREE.Mesh(lightGeo, lightMat);
         light.position.set(0, 0.6, 2.55);
         group.add(light);
 
-        // Taillights (Rear Red)
         const tailGeo = new THREE.BoxGeometry(2.2, 0.2, 0.2);
         const tailMat = new THREE.MeshBasicMaterial({ color: 0xf43f5e });
         const tail = new THREE.Mesh(tailGeo, tailMat);
@@ -275,7 +294,6 @@ class TownRenderer {
         vehObj = group;
       }
 
-      // Smooth Position & Rotation Interpolation
       const [tx, ty, tz] = v.position;
       vehObj.position.lerp(new THREE.Vector3(tx, ty, tz), 0.15);
 

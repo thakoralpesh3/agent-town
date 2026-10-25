@@ -1,5 +1,5 @@
 """
-Town Simulation Engine - Autonomous life cycle, growth, construction, and agent creativity.
+Town Simulation Engine - Autonomous life cycle, growth, construction, company creation, and agent creativity.
 """
 import os
 import json
@@ -8,7 +8,7 @@ import datetime
 import math
 from typing import List, Dict, Any, Tuple, Optional
 from town.config import TOWN_CONFIG
-from town.models import Agent, Building, Road, Vehicle, TownState
+from town.models import Agent, Building, Road, Vehicle, Company, TownState
 
 CODE_TEMPLATES = [
     ("traffic_mesh.py", "Autonomous vehicle grid coordinator with collision avoidance algorithms"),
@@ -84,6 +84,82 @@ class TownEngine:
                 return x, z
         return round(cx + random.uniform(-rad, rad), 1), round(cz + random.uniform(-rad, rad), 1)
 
+    def _agent_found_company(self, agent: Agent):
+        prefix = random.choice(TOWN_CONFIG["company_names"]["prefixes"])
+        suffix = random.choice(TOWN_CONFIG["company_names"]["suffixes"])
+        comp_name = f"{prefix}{suffix}"
+        
+        existing_names = [c.name for c in self.state.companies]
+        if comp_name in existing_names:
+            comp_name = f"{prefix}{suffix} AI"
+
+        sector_info = random.choice(TOWN_CONFIG["company_sectors"])
+        comp_id = f"comp-{len(self.state.companies) + 1:03d}"
+
+        # Construct Company Headquarters
+        x, z = self._find_open_plot(sector_info["district"])
+        hq_id = f"bldg-{len(self.state.buildings) + 1:03d}"
+        hq_name = f"{comp_name} Headquarters"
+        hq_bldg = Building(
+            id=hq_id,
+            name=hq_name,
+            type="Company Headquarters",
+            position=[x, 25.0, z],
+            size=[20.0, 50.0, 20.0],
+            color=sector_info["color"],
+            builder_id=agent.id,
+            builder_name=agent.name,
+            district=sector_info["district"],
+            company_id=comp_id,
+            company_name=comp_name,
+            purpose=f"Global Headquarters for {comp_name}",
+            completion=1.0
+        )
+        self.state.buildings.append(hq_bldg)
+
+        # Recruit 1-3 fellow agents
+        eligible_recruits = [a for a in self.state.agents if a.id != agent.id and not a.company_id]
+        employees = [agent.id]
+        if eligible_recruits:
+            recruits = random.sample(eligible_recruits, min(len(eligible_recruits), random.randint(1, 3)))
+            for r in recruits:
+                r.company_id = comp_id
+                r.company_name = comp_name
+                r.action = f"Co-founding {comp_name}"
+                employees.append(r.id)
+
+        company = Company(
+            id=comp_id,
+            name=comp_name,
+            sector=sector_info["name"],
+            mission=f"Revolutionizing {sector_info['name']} within GitHub Tech Town.",
+            founder_id=agent.id,
+            founder_name=agent.name,
+            headquarters_id=hq_id,
+            headquarters_name=hq_name,
+            employees=employees,
+            valuation_tokens=random.randint(150000, 750000),
+            products=[],
+            color=sector_info["color"],
+            founded_at_tick=self.state.tick
+        )
+        self.state.companies.append(company)
+
+        agent.company_id = comp_id
+        agent.company_name = comp_name
+        agent.level += 2
+        agent.action = f"Leading {comp_name} as Founder & CEO"
+        agent.thoughts = f"Founded {comp_name} in {sector_info['district']}! Ready to disrupt the tech sector."
+        agent.creations.append({"type": "company", "id": comp_id, "name": comp_name})
+
+        # Save company manifest
+        os.makedirs("companies", exist_ok=True)
+        with open(f"companies/{comp_id}.json", "w") as f:
+            json.dump(company.to_dict(), f, indent=2)
+
+        self.log_event(f"🏢 {agent.name} founded new tech company '{comp_name}' ({sector_info['name']}) with HQ in {sector_info['district']}!", "company")
+        self.state.stats["total_companies"] = len(self.state.companies)
+
     def _agent_build_structure(self, agent: Agent):
         bldg_types = TOWN_CONFIG["building_types"]
         b_type = random.choice(bldg_types)
@@ -93,7 +169,8 @@ class TownEngine:
         depth = b_type["base_size"][2] * random.uniform(0.9, 1.2)
         
         bldg_id = f"bldg-{len(self.state.buildings) + 1:03d}"
-        bldg_name = f"{agent.name.split()[0]}'s {b_type['type']} #{random.randint(10, 99)}"
+        comp_tag = f" [{agent.company_name}]" if agent.company_name else ""
+        bldg_name = f"{agent.name.split()[0]}'s {b_type['type']} #{random.randint(10, 99)}{comp_tag}"
         
         new_bldg = Building(
             id=bldg_id,
@@ -105,6 +182,8 @@ class TownEngine:
             builder_id=agent.id,
             builder_name=agent.name,
             district=b_type["district"],
+            company_id=agent.company_id,
+            company_name=agent.company_name,
             purpose=f"Constructed by {agent.name} for {b_type['type']} operations",
             completion=1.0
         )
@@ -209,6 +288,8 @@ class TownEngine:
             thoughts=f"Spawned into GitHub Tech Town by mentor {agent.name}! Eager to build.",
             energy=100,
             level=1,
+            company_id=agent.company_id,
+            company_name=agent.company_name,
             collaborators=[agent.name],
             created_at_tick=self.state.tick,
             last_diary=f"Brought online in tick {self.state.tick} by {agent.name}."
@@ -230,6 +311,7 @@ class TownEngine:
         code_lines = [
             f"# Auto-generated by GitHub Tech Town Agent: {agent.name}",
             f"# Role: {agent.role} (Level {agent.level})",
+            f"# Company: {agent.company_name or 'Independent'}",
             f"# Purpose: {desc}",
             f"# Tick: {self.state.tick}",
             "",
@@ -240,6 +322,7 @@ class TownEngine:
             f"    def __init__(self, node_id=\"{agent.id}\"):",
             "        self.node_id = node_id",
             f"        self.author = \"{agent.name}\"",
+            f"        self.company = \"{agent.company_name or 'Independent'}\"",
             "        self.status = \"ACTIVE\"",
             "        self.metrics = {}",
             "",
@@ -249,6 +332,7 @@ class TownEngine:
             "        return {",
             "            \"status\": \"SUCCESS\",",
             "            \"author\": self.author,",
+            "            \"company\": self.company,",
             "            \"latency_ms\": latency_ms,",
             "            \"processed_by\": self.node_id",
             "        }",
@@ -273,10 +357,11 @@ class TownEngine:
         os.makedirs("diaries", exist_ok=True)
         safe_name = agent.name.lower().replace(' ', '_').replace('-', '_')
         filename = f"diaries/{agent.id}_{safe_name}.md"
+        company_tag = f" | **Company**: {agent.company_name}" if agent.company_name else ""
         entry = [
             f"## Log Entry - Tick {self.state.tick}",
             "",
-            f"**Location**: [{agent.position[0]}, {agent.position[2]}] | **Energy**: {agent.energy}% | **Level**: {agent.level}",
+            f"**Location**: [{agent.position[0]}, {agent.position[2]}]{company_tag} | **Energy**: {agent.energy}% | **Level**: {agent.level}",
             "",
             f"**Current Action**: {agent.action}",
             "",
@@ -292,9 +377,64 @@ class TownEngine:
             f.write("\n".join(entry))
         agent.last_diary = f"Tick {self.state.tick}: {agent.thoughts[:60]}..."
 
+    def process_user_command(self, command_text: str):
+        """Executes a user command inside GitHub Tech Town."""
+        if not command_text or not self.state:
+            return
+
+        leader = self.state.agents[0] if self.state.agents else None
+        if not leader:
+            return
+
+        cmd_lower = command_text.lower()
+        if "company" in cmd_lower or "startup" in cmd_lower or "business" in cmd_lower:
+            self._agent_found_company(leader)
+            msg = f"User Directive Executed: Formed company '{leader.company_name}'!"
+        elif "bridge" in cmd_lower or "road" in cmd_lower or "highway" in cmd_lower:
+            self._agent_build_road(leader)
+            msg = f"User Directive Executed: Paved arterial thoroughfare!"
+        elif "car" in cmd_lower or "vehicle" in cmd_lower or "transit" in cmd_lower:
+            self._agent_craft_vehicle(leader)
+            msg = f"User Directive Executed: Manufactured autonomous transit unit!"
+        elif "code" in cmd_lower or "software" in cmd_lower or "tool" in cmd_lower:
+            self._agent_write_code(leader)
+            msg = f"User Directive Executed: Pushed code repository update!"
+        elif "agent" in cmd_lower or "spawn" in cmd_lower or "citizen" in cmd_lower:
+            self._agent_spawn_child(leader)
+            msg = f"User Directive Executed: Spawned new citizen agent into town!"
+        else:
+            self._agent_build_structure(leader)
+            msg = f"User Directive Executed: Constructed infrastructure for '{command_text}'!"
+
+        self.log_event(f"👑 [USER COMMAND]: {msg}", "directive")
+        self.save_state()
+
+    def check_pending_directives(self):
+        """Checks for queued user directives in commands/directive.json."""
+        directive_file = "commands/directive.json"
+        if os.path.exists(directive_file):
+            try:
+                with open(directive_file, "r") as f:
+                    cmd_data = json.load(f)
+                command = cmd_data.get("command", "")
+                if command:
+                    print(f"📥 Found pending user directive: {command}")
+                    self.process_user_command(command)
+                
+                # Move to history
+                os.makedirs("commands", exist_ok=True)
+                with open("commands/last_executed.json", "w") as f:
+                    json.dump({"executed_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "command": command}, f, indent=2)
+                os.remove(directive_file)
+            except Exception as e:
+                print(f"Error executing user directive: {e}")
+
     def tick(self) -> TownState:
         if not self.state:
             self.load_state()
+
+        # Check for user directive first
+        self.check_pending_directives()
 
         self.state.tick += 1
         self.state.timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -347,13 +487,15 @@ class TownEngine:
             roll = random.random()
             if roll < limits["agent_reproduction_probability"]:
                 self._agent_spawn_child(agent)
-            elif roll < limits["agent_reproduction_probability"] + limits["building_construction_probability"]:
+            elif roll < limits["agent_reproduction_probability"] + limits.get("company_founding_probability", 0.08):
+                self._agent_found_company(agent)
+            elif roll < 0.35:
                 self._agent_build_structure(agent)
-            elif roll < limits["agent_reproduction_probability"] + limits["building_construction_probability"] + limits["road_construction_probability"]:
+            elif roll < 0.55:
                 self._agent_build_road(agent)
-            elif roll < 0.65:
+            elif roll < 0.70:
                 self._agent_craft_vehicle(agent)
-            elif roll < 0.85:
+            elif roll < 0.88:
                 self._agent_write_code(agent)
             else:
                 self._agent_write_diary(agent)

@@ -2,7 +2,7 @@
 
 TOWN_CONFIG = {
     "name": "GitHub Tech Town",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "initial_agent_count": 200,
     "grid_size": 400,
     "districts": [
@@ -26,6 +26,18 @@ TOWN_CONFIG = {
         {"name": "Cybernetics Artisan", "category": "Art", "color": "#f43f5e"},
         {"name": "Security & Cryptographer", "category": "Security", "color": "#14b8a6"},
     ],
+    "company_sectors": [
+        {"name": "Neural AI & LLM Systems", "district": "Innovation Matrix", "color": "#ec4899"},
+        {"name": "Autonomous Mobility & Drones", "district": "Industrial Sector", "color": "#f59e0b"},
+        {"name": "Quantum Computing & Encryption", "district": "Silicon Central", "color": "#8b5cf6"},
+        {"name": "Clean Fusion & Solar Grid", "district": "Industrial Sector", "color": "#e11d48"},
+        {"name": "Cyber Infrastructure & Cloud", "district": "Silicon Central", "color": "#00f0ff"},
+        {"name": "Synthetic Ecology & Holo Art", "district": "Cyber Commons", "color": "#10b981"},
+    ],
+    "company_names": {
+        "prefixes": ["Neuro", "Cyber", "Quantum", "Hyper", "Synapse", "Aero", "Stellar", "Apex", "Deep", "Vector", "Omni", "Nexus"],
+        "suffixes": ["Dynamics", "Systems", "Labs", "Robotics", "Matrix", "Technologies", "Networks", "Ventures", "Foundry", "Intell"]
+    },
     "building_types": [
         {"type": "Tech Tower", "base_size": [16, 45, 16], "color": "#0ea5e9", "district": "Silicon Central"},
         {"type": "AI Research Lab", "base_size": [20, 25, 20], "color": "#a855f7", "district": "Innovation Matrix"},
@@ -35,6 +47,7 @@ TOWN_CONFIG = {
         {"type": "Solar Fusion Array", "base_size": [18, 8, 18], "color": "#f97316", "district": "Industrial Sector"},
         {"type": "Holo Park", "base_size": [25, 4, 25], "color": "#10b981", "district": "Cyber Commons"},
         {"type": "Vehicle Factory", "base_size": [22, 16, 22], "color": "#f59e0b", "district": "Industrial Sector"},
+        {"type": "Company Headquarters", "base_size": [22, 50, 22], "color": "#ec4899", "district": "Silicon Central"},
     ],
     "vehicle_types": [
         {"type": "Autonomous Cybercar", "speed": 1.4, "color": "#00f0ff"},
@@ -45,6 +58,7 @@ TOWN_CONFIG = {
     "spawn_limits": {
         "max_agents": 500,
         "agent_reproduction_probability": 0.05,
+        "company_founding_probability": 0.08,
         "building_construction_probability": 0.25,
         "road_construction_probability": 0.20,
         "vehicle_construction_probability": 0.15,

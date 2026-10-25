@@ -1,0 +1,50 @@
+name: Execute User Town Directive
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: 'User Command for Town Agents (e.g., "Build a new robotics company", "Pave a bridge to South Sector", "Spawn 5 AI architects")'
+        required: true
+        default: 'Found a new robotics company'
+  issues:
+    types: [opened, labeled]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  execute-command:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.comment.body, '/command ') || startsWith(github.event.issue.title, '[COMMAND]')
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Extract & Execute User Directive
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            CMD="${{ github.event.inputs.command }}"
+          elif [ -n "${{ github.event.comment.body }}" ]; then
+            CMD=$(echo "${{ github.event.comment.body }}" | sed 's/\/command //')
+          else
+            CMD=$(echo "${{ github.event.issue.title }}" | sed 's/\[COMMAND\] //')
+          fi
+
+          echo "Executing command: $CMD"
+          python3 run_town.py --command "$CMD" --git-commit
+
+      - name: Push Changes
+        run: |
+          git push origin main
