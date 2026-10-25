@@ -1,24 +1,24 @@
 {
   "id": "bldg-019",
-  "name": "Evander's Vehicle Factory #13",
-  "type": "Vehicle Factory",
+  "name": "Noam's Cyber Cafe #47",
+  "type": "Cyber Cafe",
   "position": [
-    146.3,
-    7.2,
-    -111.2
+    -27.4,
+    5.7,
+    -78.3
   ],
   "size": [
-    22.7,
-    14.4,
-    25.3
+    12.9,
+    11.3,
+    14.3
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-141",
-  "builder_name": "Evander Mercer",
-  "district": "Industrial Sector",
+  "color": "#eab308",
+  "builder_id": "agent-109",
+  "builder_name": "Noam Buterin",
+  "district": "Cyber Commons",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Evander Mercer for Vehicle Factory operations"
+  "purpose": "Constructed by Noam Buterin for Cyber Cafe operations"
 }

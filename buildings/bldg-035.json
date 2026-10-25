@@ -1,22 +1,24 @@
 {
   "id": "bldg-035",
-  "name": "Zane's Solar Fusion Array #47",
+  "name": "Cassian's Solar Fusion Array #71 [AeroCyber Robotics]",
   "type": "Solar Fusion Array",
   "position": [
-    62.7,
-    5.4,
-    -141.8
+    76.9,
+    3.9,
+    -65.6
   ],
   "size": [
-    20.0,
-    10.8,
-    17.4
+    18.5,
+    7.9,
+    18.9
   ],
   "color": "#f97316",
-  "builder_id": "agent-076",
-  "builder_name": "Zane Flux",
+  "builder_id": "agent-107",
+  "builder_name": "Cassian Thompson",
   "district": "Industrial Sector",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Zane Flux for Solar Fusion Array operations"
+  "purpose": "Constructed by Cassian Thompson for Solar Fusion Array operations"
 }

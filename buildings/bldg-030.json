@@ -1,24 +1,24 @@
 {
   "id": "bldg-030",
-  "name": "Margaret's Company Headquarters #84",
-  "type": "Company Headquarters",
+  "name": "Nick's Solar Fusion Array #61 [SolarFusion Prime]",
+  "type": "Solar Fusion Array",
   "position": [
-    13.8,
-    23.7,
-    -39.4
+    32.5,
+    5.4,
+    -132.1
   ],
   "size": [
-    26.3,
-    47.4,
-    20.1
+    20.0,
+    10.9,
+    21.6
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-096",
-  "builder_name": "Margaret Perlman",
-  "district": "Silicon Central",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f97316",
+  "builder_id": "agent-196",
+  "builder_name": "Nick Nadella",
+  "district": "Industrial Sector",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Margaret Perlman for Company Headquarters operations"
+  "purpose": "Constructed by Nick Nadella for Solar Fusion Array operations"
 }

@@ -1,22 +1,24 @@
 {
   "id": "bldg-021",
-  "name": "Kira's AI Research Lab #84",
-  "type": "AI Research Lab",
+  "name": "Talia's Quantum Data Center #71",
+  "type": "Quantum Data Center",
   "position": [
-    70.6,
-    12.6,
-    95.8
+    141.6,
+    12.3,
+    -70.4
   ],
   "size": [
-    18.7,
-    25.3,
-    23.3
+    26.5,
+    24.6,
+    25.7
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-066",
-  "builder_name": "Kira Chomsky",
-  "district": "Innovation Matrix",
+  "color": "#6366f1",
+  "builder_id": "agent-191",
+  "builder_name": "Talia Frost",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Kira Chomsky for AI Research Lab operations"
+  "purpose": "Constructed by Talia Frost for Quantum Data Center operations"
 }

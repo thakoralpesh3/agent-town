@@ -1,24 +1,24 @@
 {
   "id": "bldg-024",
-  "name": "Geoffrey's Cyber Cafe #73",
-  "type": "Cyber Cafe",
+  "name": "John's Quantum Data Center #62 [AeroCyber Robotics]",
+  "type": "Quantum Data Center",
   "position": [
-    -37.2,
-    4.5,
-    -47.7
+    146.1,
+    10.5,
+    -121.5
   ],
   "size": [
-    16.2,
-    8.9,
-    13.8
+    25.4,
+    21.1,
+    22.2
   ],
-  "color": "#eab308",
-  "builder_id": "agent-009",
-  "builder_name": "Geoffrey Hinton",
-  "district": "Cyber Commons",
-  "company_id": null,
-  "company_name": null,
+  "color": "#6366f1",
+  "builder_id": "agent-140",
+  "builder_name": "John Cerf",
+  "district": "Industrial Sector",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Geoffrey Hinton for Cyber Cafe operations"
+  "purpose": "Constructed by John Cerf for Quantum Data Center operations"
 }

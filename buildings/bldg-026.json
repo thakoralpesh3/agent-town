@@ -1,24 +1,24 @@
 {
   "id": "bldg-026",
-  "name": "Kairo's Residential Pod #38",
-  "type": "Residential Pod",
+  "name": "Satya's Solar Fusion Array #16 [AeroCyber Robotics]",
+  "type": "Solar Fusion Array",
   "position": [
-    -145.8,
-    10.1,
-    79.7
+    73.0,
+    3.6,
+    -162.2
   ],
   "size": [
-    12.4,
-    20.1,
-    13.7
+    18.7,
+    7.2,
+    20.9
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-194",
-  "builder_name": "Kairo Flux",
-  "district": "Residential Quarter",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f97316",
+  "builder_id": "agent-133",
+  "builder_name": "Satya Armstrong",
+  "district": "Industrial Sector",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Kairo Flux for Residential Pod operations"
+  "purpose": "Constructed by Satya Armstrong for Solar Fusion Array operations"
 }

@@ -1,24 +1,24 @@
 {
   "id": "bldg-025",
-  "name": "Hal's Holo Park #15 [SolarFusion Prime]",
-  "type": "Holo Park",
+  "name": "Greg's Residential Pod #58 [NeuroDynamics AI]",
+  "type": "Residential Pod",
   "position": [
-    -117.5,
-    1.7,
-    -136.9
+    -151.0,
+    8.0,
+    62.1
   ],
   "size": [
-    29.5,
-    3.3,
-    26.2
+    13.6,
+    15.9,
+    13.9
   ],
-  "color": "#10b981",
-  "builder_id": "agent-165",
-  "builder_name": "Hal Winter",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#22c55e",
+  "builder_id": "agent-102",
+  "builder_name": "Greg Turing",
+  "district": "Residential Quarter",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Hal Winter for Holo Park operations"
+  "purpose": "Constructed by Greg Turing for Residential Pod operations"
 }

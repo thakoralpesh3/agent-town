@@ -1,24 +1,24 @@
 {
   "id": "bldg-029",
-  "name": "Roxas's Solar Fusion Array #76",
-  "type": "Solar Fusion Array",
+  "name": "Noam's AI Research Lab #17 [SolarFusion Prime]",
+  "type": "AI Research Lab",
   "position": [
-    103.3,
-    5.5,
-    -44.6
+    42.3,
+    16.0,
+    118.3
   ],
   "size": [
-    16.8,
-    10.9,
-    20.4
+    22.4,
+    32.0,
+    19.7
   ],
-  "color": "#f97316",
-  "builder_id": "agent-122",
-  "builder_name": "Roxas Kahn",
-  "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "color": "#a855f7",
+  "builder_id": "agent-104",
+  "builder_name": "Noam Wozniak",
+  "district": "Innovation Matrix",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Roxas Kahn for Solar Fusion Array operations"
+  "purpose": "Constructed by Noam Wozniak for AI Research Lab operations"
 }

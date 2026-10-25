@@ -1,24 +1,24 @@
 {
   "id": "bldg-023",
-  "name": "Cipher's AI Research Lab #53",
-  "type": "AI Research Lab",
+  "name": "Morrigan's Cyber Cafe #78 [OpenKernel Core]",
+  "type": "Cyber Cafe",
   "position": [
-    131.7,
-    11.6,
-    99.5
+    -127.4,
+    4.2,
+    -94.0
   ],
   "size": [
-    19.6,
-    23.2,
-    21.1
+    14.8,
+    8.4,
+    16.8
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-089",
-  "builder_name": "Cipher Eich",
-  "district": "Innovation Matrix",
-  "company_id": null,
-  "company_name": null,
+  "color": "#eab308",
+  "builder_id": "agent-122",
+  "builder_name": "Morrigan Andreessen",
+  "district": "Cyber Commons",
+  "company_id": "comp-005",
+  "company_name": "OpenKernel Core",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Cipher Eich for AI Research Lab operations"
+  "purpose": "Constructed by Morrigan Andreessen for Cyber Cafe operations"
 }

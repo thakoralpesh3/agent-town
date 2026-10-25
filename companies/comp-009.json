@@ -1,18 +1,19 @@
 {
   "id": "comp-009",
-  "name": "VectorNetworks AI",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
-  "founder_id": "agent-019",
-  "founder_name": "Guido van Rossum",
-  "headquarters_id": "bldg-035",
-  "headquarters_name": "VectorNetworks AI Headquarters",
+  "name": "AeroRobotics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-080",
+  "founder_name": "Callum Sutskever",
+  "headquarters_id": "bldg-036",
+  "headquarters_name": "AeroRobotics Headquarters",
   "employees": [
-    "agent-019",
-    "agent-047"
+    "agent-080",
+    "agent-141",
+    "agent-028"
   ],
-  "valuation_tokens": 681875,
+  "valuation_tokens": 198134,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 3
+  "color": "#ec4899",
+  "founded_at_tick": 2
 }

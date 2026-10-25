@@ -1,24 +1,24 @@
 {
   "id": "bldg-027",
-  "name": "Mira's Quantum Data Center #89",
-  "type": "Quantum Data Center",
+  "name": "Kaelen's Cyber Cafe #43 [SolarFusion Prime]",
+  "type": "Cyber Cafe",
   "position": [
-    59.0,
-    10.6,
-    -69.8
+    -59.0,
+    6.5,
+    -120.6
   ],
   "size": [
-    25.3,
-    21.2,
-    25.4
+    13.2,
+    13.0,
+    15.2
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-065",
-  "builder_name": "Mira Binary",
-  "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "color": "#eab308",
+  "builder_id": "agent-042",
+  "builder_name": "Kaelen Cross",
+  "district": "Cyber Commons",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Mira Binary for Quantum Data Center operations"
+  "purpose": "Constructed by Kaelen Cross for Cyber Cafe operations"
 }

@@ -1,24 +1,24 @@
 {
   "id": "bldg-017",
-  "name": "Katherine's Residential Pod #74 [AeroCyber Robotics]",
-  "type": "Residential Pod",
+  "name": "Grace's Company Headquarters #97",
+  "type": "Company Headquarters",
   "position": [
-    -102.0,
-    11.4,
-    41.5
+    24.9,
+    24.5,
+    -9.9
   ],
   "size": [
-    12.7,
-    22.8,
-    11.0
+    25.5,
+    48.9,
+    22.8
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-011",
-  "builder_name": "Katherine Johnson",
-  "district": "Residential Quarter",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#ec4899",
+  "builder_id": "agent-082",
+  "builder_name": "Grace Vance",
+  "district": "Silicon Central",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Katherine Johnson for Residential Pod operations"
+  "purpose": "Constructed by Grace Vance for Company Headquarters operations"
 }

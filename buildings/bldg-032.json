@@ -1,24 +1,24 @@
 {
   "id": "bldg-032",
-  "name": "Rowan's Residential Pod #31",
+  "name": "Barbara's Residential Pod #64",
   "type": "Residential Pod",
   "position": [
-    -121.6,
-    8.0,
-    48.8
+    -100.8,
+    10.0,
+    53.6
   ],
   "size": [
-    14.0,
-    16.0,
-    12.5
+    14.2,
+    20.1,
+    13.4
   ],
   "color": "#22c55e",
-  "builder_id": "agent-130",
-  "builder_name": "Rowan Hopper",
+  "builder_id": "agent-034",
+  "builder_name": "Barbara Nadella",
   "district": "Residential Quarter",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Rowan Hopper for Residential Pod operations"
+  "purpose": "Constructed by Barbara Nadella for Residential Pod operations"
 }
