@@ -1,24 +1,24 @@
 {
   "id": "bldg-047",
-  "name": "Grace's Vehicle Factory #48 [SynapseDynamics]",
-  "type": "Vehicle Factory",
+  "name": "Stellan's Quantum Data Center #14 [AeroCyber Robotics]",
+  "type": "Quantum Data Center",
   "position": [
-    91.6,
-    6.7,
-    -122.3
+    120.5,
+    10.4,
+    -150.3
   ],
   "size": [
-    20.8,
-    13.3,
-    22.5
+    23.4,
+    20.7,
+    27.9
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-178",
-  "builder_name": "Grace Johnson",
+  "color": "#6366f1",
+  "builder_id": "agent-120",
+  "builder_name": "Stellan Rayne",
   "district": "Industrial Sector",
-  "company_id": "comp-012",
-  "company_name": "SynapseDynamics",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Grace Johnson for Vehicle Factory operations"
+  "purpose": "Constructed by Stellan Rayne for Quantum Data Center operations"
 }

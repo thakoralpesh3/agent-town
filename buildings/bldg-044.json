@@ -1,0 +1,24 @@
+{
+  "id": "bldg-044",
+  "name": "Barbara's Cyber Cafe #35",
+  "type": "Cyber Cafe",
+  "position": [
+    -58.4,
+    5.1,
+    -98.1
+  ],
+  "size": [
+    16.2,
+    10.2,
+    16.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-010",
+  "builder_name": "Barbara Liskov",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Barbara Liskov for Cyber Cafe operations"
+}

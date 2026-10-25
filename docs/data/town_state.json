@@ -1,7 +1,7 @@
 {
-  "tick": 2,
-  "timestamp": "2026-10-25T19:52:03.545855+00:00",
-  "population": 203,
+  "tick": 3,
+  "timestamp": "2026-10-25T19:58:57.170147+00:00",
+  "population": 206,
   "agents": [
     {
       "id": "agent-001",
@@ -10,9 +10,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        26.69,
+        25.98,
         0.8,
-        11.86
+        12.81
       ],
       "target": [
         25.23,
@@ -23,7 +23,7 @@
       "action": "Active in Silicon Central",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Evaluating potential enhancements for Silicon Central.",
-      "energy": 94,
+      "energy": 99,
       "level": 8,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -39,9 +39,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        83.37,
+        82.53,
         0.8,
-        93.42
+        94.99
       ],
       "target": [
         78.32,
@@ -52,7 +52,7 @@
       "action": "Leading NeuroDynamics AI",
       "desire": "Conduct benchmark studies on autonomous agent cooperation",
       "thoughts": "Evaluating potential enhancements for Innovation Matrix.",
-      "energy": 94,
+      "energy": 90,
       "level": 5,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -68,9 +68,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -68.65,
+        -67.09,
         0.8,
-        38.96
+        39.25
       ],
       "target": [
         139.51,
@@ -78,14 +78,20 @@
         76.95
       ],
       "speed": 1.06,
-      "action": "Leading OpenKernel Core",
+      "action": "Finished constructing Linus's Residential Pod #13 [OpenKernel Core]",
       "desire": "Fortify the town perimeter against data entropy and packet loss",
-      "thoughts": "Evaluating potential enhancements for Residential Quarter.",
-      "energy": 93,
-      "level": 9,
+      "thoughts": "Just completed Linus's Residential Pod #13 [OpenKernel Core] in Residential Quarter. The skyline is expanding!",
+      "energy": 89,
+      "level": 10,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-039",
+          "name": "Linus's Residential Pod #13 [OpenKernel Core]"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Founded my workshop in Residential Quarter. Ready to construct future tech."
@@ -97,9 +103,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -49.77,
+        -48.77,
         0.8,
-        -109.33
+        -108.08
       ],
       "target": [
         -40.6,
@@ -126,9 +132,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        113.77,
+        114.67,
         0.8,
-        -103.8
+        -105.22
       ],
       "target": [
         115.86,
@@ -139,7 +145,7 @@
       "action": "Leading QuantumMatrix Corp",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
       "thoughts": "Evaluating potential enhancements for Industrial Sector.",
-      "energy": 84,
+      "energy": 87,
       "level": 5,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -155,9 +161,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        2.23,
+        2.97,
         0.8,
-        22.13
+        23.21
       ],
       "target": [
         7.91,
@@ -168,7 +174,7 @@
       "action": "Active in Silicon Central",
       "desire": "Construct modular residential pods for new arriving agents",
       "thoughts": "Evaluating potential enhancements for Silicon Central.",
-      "energy": 100,
+      "energy": 97,
       "level": 5,
       "company_id": null,
       "company_name": null,
@@ -184,9 +190,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        89.69,
+        89.17,
         0.8,
-        85.11
+        84.36
       ],
       "target": [
         84.14,
@@ -194,14 +200,20 @@
         77.15
       ],
       "speed": 0.61,
-      "action": "Active in Innovation Matrix",
+      "action": "Co-founding NeuroNetworks",
       "desire": "Perform cryptographic audits on git commits and smart contracts",
-      "thoughts": "Evaluating potential enhancements for Innovation Matrix.",
-      "energy": 99,
-      "level": 5,
-      "company_id": null,
-      "company_name": null,
-      "creations": [],
+      "thoughts": "Connected transit grid across [89.2, 84.4] -> [64.3, 29.4].",
+      "energy": 100,
+      "level": 6,
+      "company_id": "comp-012",
+      "company_name": "NeuroNetworks",
+      "creations": [
+        {
+          "type": "road",
+          "id": "road-019",
+          "name": "Claude Concourse #19"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Founded my workshop in Innovation Matrix. Ready to construct future tech."
@@ -213,9 +225,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -63.31,
+        -63.6,
         0.8,
-        48.13
+        49.06
       ],
       "target": [
         -65.61,
@@ -226,7 +238,7 @@
       "action": "Active in Residential Quarter",
       "desire": "Train a decentralized neural net that coordinates city logistics",
       "thoughts": "Evaluating potential enhancements for Residential Quarter.",
-      "energy": 88,
+      "energy": 91,
       "level": 7,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -242,9 +254,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -53.62,
+        -52.47,
         0.8,
-        -100.46
+        -100.18
       ],
       "target": [
         -47.47,
@@ -277,9 +289,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        74.29,
+        75.35,
         0.8,
-        -92.24
+        -91.86
       ],
       "target": [
         83.49,
@@ -287,14 +299,20 @@
         -88.9
       ],
       "speed": 0.75,
-      "action": "Active in Industrial Sector",
+      "action": "Finished constructing Barbara's Cyber Cafe #35",
       "desire": "Lead backend engineering at an open source cyber company",
-      "thoughts": "Evaluating potential enhancements for Industrial Sector.",
-      "energy": 100,
-      "level": 5,
+      "thoughts": "Just completed Barbara's Cyber Cafe #35 in Cyber Commons. The skyline is expanding!",
+      "energy": 97,
+      "level": 6,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-044",
+          "name": "Barbara's Cyber Cafe #35"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Founded my workshop in Industrial Sector. Ready to construct future tech."
@@ -306,9 +324,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        28.58,
+        28.89,
         0.8,
-        -19.71
+        -18.64
       ],
       "target": [
         30.49,
@@ -335,9 +353,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        135.5,
+        136.29,
         0.8,
-        118.78
+        117.25
       ],
       "target": [
         139.94,
@@ -348,7 +366,7 @@
       "action": "Active in Innovation Matrix",
       "desire": "Pave a high-speed arterial road linking East & West districts",
       "thoughts": "Evaluating potential enhancements for Innovation Matrix.",
-      "energy": 100,
+      "energy": 98,
       "level": 9,
       "company_id": null,
       "company_name": null,
@@ -364,9 +382,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -77.4,
+        -77.02,
         0.8,
-        111.66
+        112.99
       ],
       "target": [
         -74.12,
@@ -393,9 +411,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -52.85,
+        -51.5,
         0.8,
-        -101.82
+        -101.76
       ],
       "target": [
         -41.61,
@@ -406,7 +424,7 @@
       "action": "Active in Cyber Commons",
       "desire": "Welcome and mentor freshly spawned child agents",
       "thoughts": "Evaluating potential enhancements for Cyber Commons.",
-      "energy": 99,
+      "energy": 94,
       "level": 7,
       "company_id": null,
       "company_name": null,
@@ -422,9 +440,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        126.91,
+        127.62,
         0.8,
-        -80.49
+        -79.87
       ],
       "target": [
         133.97,
@@ -435,7 +453,7 @@
       "action": "Spawned new agent: Tim Lamport",
       "desire": "Upgrade the quantum power sub-grid for zero-latency compute",
       "thoughts": "Proud to have brought Tim Lamport online to help expand our town!",
-      "energy": 77,
+      "energy": 82,
       "level": 6,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -455,7 +473,7 @@
       "position": [
         -26.44,
         0.8,
-        20.38
+        21.82
       ],
       "target": [
         -26.43,
@@ -466,7 +484,7 @@
       "action": "Leading SolarFusion Prime",
       "desire": "Install smart induction coils into main roads to charge moving cars",
       "thoughts": "Evaluating potential enhancements for Silicon Central.",
-      "energy": 92,
+      "energy": 90,
       "level": 10,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -482,9 +500,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        125.62,
+        126.89,
         0.8,
-        104.72
+        104.32
       ],
       "target": [
         134.55,
@@ -492,14 +510,20 @@
         101.9
       ],
       "speed": 0.89,
-      "action": "Active in Innovation Matrix",
+      "action": "Committed code holo_matrix_renderer.py",
       "desire": "Design hyper-efficient autonomous hovercars with LiDAR guidance",
-      "thoughts": "Evaluating potential enhancements for Innovation Matrix.",
+      "thoughts": "Refactored holo_matrix_renderer.py for distributed town infrastructure.",
       "energy": 100,
       "level": 5,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
-      "creations": [],
+      "creations": [
+        {
+          "type": "code",
+          "file": "projects/holo_matrix_renderer.py",
+          "name": "holo_matrix_renderer.py"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Founded my workshop in Innovation Matrix. Ready to construct future tech."
@@ -511,9 +535,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -57.97,
+        -57.22,
         0.8,
-        77.63
+        76.75
       ],
       "target": [
         -53.64,
@@ -524,7 +548,7 @@
       "action": "Active in Residential Quarter",
       "desire": "Model emergent agent behavior across the 5 town districts",
       "thoughts": "Evaluating potential enhancements for Residential Quarter.",
-      "energy": 92,
+      "energy": 99,
       "level": 5,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -540,9 +564,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -56.26,
+        -55.35,
         0.8,
-        -92.58
+        -93.43
       ],
       "target": [
         -49.78,
@@ -553,7 +577,7 @@
       "action": "Active in Cyber Commons",
       "desire": "Create a distributed package manager for tech town tools",
       "thoughts": "Evaluating potential enhancements for Cyber Commons.",
-      "energy": 88,
+      "energy": 90,
       "level": 9,
       "company_id": null,
       "company_name": null,
@@ -569,9 +593,9 @@
       "category": "Software",
       "color": "#3b82f6",
       "position": [
-        51.88,
+        50.62,
         0.8,
-        -80.56
+        -79.8
       ],
       "target": [
         42.97,
@@ -582,7 +606,7 @@
       "action": "Active in Industrial Sector",
       "desire": "Create a distributed package manager for tech town tools",
       "thoughts": "Evaluating potential enhancements for Industrial Sector.",
-      "energy": 98,
+      "energy": 100,
       "level": 7,
       "company_id": null,
       "company_name": null,
@@ -598,9 +622,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -17.39,
+        -16.34,
         0.8,
-        -0.14
+        -0.45
       ],
       "target": [
         -7.91,
@@ -608,15 +632,17 @@
         -2.9
       ],
       "speed": 0.73,
-      "action": "Surveying Silicon Central",
+      "action": "Spawned new agent: Vint Cartographer",
       "desire": "Organize hackathons and collaborative build sessions in Cyber Commons",
-      "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 100,
+      "thoughts": "Proud to have brought Vint Cartographer online to help expand our town!",
+      "energy": 98,
       "level": 2,
       "company_id": null,
       "company_name": null,
       "creations": [],
-      "collaborators": [],
+      "collaborators": [
+        "Vint Cartographer"
+      ],
       "created_at_tick": 0,
       "last_diary": "Arrived in Silicon Central sector of GitHub Tech Town."
     },
@@ -627,9 +653,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        87.94,
+        87.68,
         0.8,
-        97.91
+        97.16
       ],
       "target": [
         83.37,
@@ -640,7 +666,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Route clean renewable energy directly to residential blocks",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 90,
+      "energy": 94,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -656,9 +682,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -106.0,
+        -104.62,
         0.8,
-        70.25
+        70.37
       ],
       "target": [
         -103.02,
@@ -669,7 +695,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Design distinctive cosmetic chassis for newly minted vehicles",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 75,
+      "energy": 74,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -685,9 +711,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -59.19,
+        -60.01,
         0.8,
-        -101.73
+        -101.2
       ],
       "target": [
         -76.26,
@@ -698,7 +724,7 @@
       "action": "Leading StellarIntell as Founder & CEO",
       "desire": "Perform cryptographic audits on git commits and smart contracts",
       "thoughts": "Founded StellarIntell in Silicon Central! Ready to disrupt the tech sector.",
-      "energy": 90,
+      "energy": 88,
       "level": 5,
       "company_id": "comp-008",
       "company_name": "StellarIntell",
@@ -720,9 +746,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        103.26,
+        104.15,
         0.8,
-        -119.95
+        -121.01
       ],
       "target": [
         110.22,
@@ -733,7 +759,7 @@
       "action": "Working at NeuroDynamics AI",
       "desire": "Erect a corporate campus for our growing AI company",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 77,
+      "energy": 72,
       "level": 4,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -749,9 +775,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        4.61,
+        4.66,
         0.8,
-        12.8
+        13.73
       ],
       "target": [
         5.4,
@@ -762,7 +788,7 @@
       "action": "Working at NeuroDynamics AI",
       "desire": "Design a monumental Holo Arch celebrating open source",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 94,
+      "energy": 96,
       "level": 4,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -778,9 +804,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        97.15,
+        98.48,
         0.8,
-        93.73
+        94.57
       ],
       "target": [
         102.97,
@@ -788,14 +814,20 @@
         97.43
       ],
       "speed": 1.05,
-      "action": "Working at SolarFusion Prime",
+      "action": "Cruising in newly built Cargo Drone Carrier #479",
       "desire": "Establish a robotic assembly factory for autonomous town machinery",
-      "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 97,
+      "thoughts": "The autonomous engine harmonics on Cargo Drone Carrier #479 are pristine.",
+      "energy": 96,
       "level": 4,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
-      "creations": [],
+      "creations": [
+        {
+          "type": "vehicle",
+          "id": "veh-021",
+          "name": "Cargo Drone Carrier #479"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Innovation Matrix sector of GitHub Tech Town."
@@ -807,9 +839,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -99.74,
+        -98.25,
         0.8,
-        49.03
+        48.43
       ],
       "target": [
         -95.52,
@@ -820,7 +852,7 @@
       "action": "Co-founding AeroRobotics",
       "desire": "Train a decentralized neural net that coordinates city logistics",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 91,
+      "energy": 89,
       "level": 4,
       "company_id": "comp-009",
       "company_name": "AeroRobotics",
@@ -836,9 +868,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -71.82,
+        -71.59,
         0.8,
-        -86.63
+        -87.61
       ],
       "target": [
         -69.08,
@@ -849,7 +881,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 95,
+      "energy": 98,
       "level": 2,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -865,9 +897,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        132.86,
+        132.76,
         0.8,
-        -123.76
+        -124.68
       ],
       "target": [
         131.1,
@@ -878,7 +910,7 @@
       "action": "Surveying Industrial Sector",
       "desire": "Develop full-stack HUD dashboards for city telemetry",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 99,
+      "energy": 100,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -894,9 +926,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -1.55,
+        -1.02,
         0.8,
-        -1.21
+        -0.35
       ],
       "target": [
         8.92,
@@ -923,9 +955,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        111.14,
+        110.54,
         0.8,
-        101.77
+        101.02
       ],
       "target": [
         107.85,
@@ -936,7 +968,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Cultivate bioluminescent flora in the Holo Parks",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 95,
+      "energy": 92,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -952,9 +984,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -92.45,
+        -91.15,
         0.8,
-        84.51
+        85.13
       ],
       "target": [
         -81.51,
@@ -965,7 +997,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Incorporate innovative worker cooperatives for town agents",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 87,
+      "energy": 82,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -981,9 +1013,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -77.95,
+        -78.4,
         0.8,
-        -93.3
+        -92.06
       ],
       "target": [
         -83.42,
@@ -991,13 +1023,13 @@
         -78.04
       ],
       "speed": 0.88,
-      "action": "Finished constructing Barbara's Residential Pod #64",
+      "action": "Co-founding NeuroNetworks",
       "desire": "Calibrate magnetic containment on the Central Fusion Core",
       "thoughts": "Just completed Barbara's Residential Pod #64 in Residential Quarter. The skyline is expanding!",
-      "energy": 95,
+      "energy": 91,
       "level": 5,
-      "company_id": null,
-      "company_name": null,
+      "company_id": "comp-012",
+      "company_name": "NeuroNetworks",
       "creations": [
         {
           "type": "building",
@@ -1021,19 +1053,25 @@
         -84.19
       ],
       "target": [
-        77.4,
+        84.89,
         0.8,
-        -84.02
+        147.68
       ],
       "speed": 0.58,
-      "action": "Surveying Industrial Sector",
+      "action": "Cruising in newly built Autonomous Cybercar #198",
       "desire": "Design distinctive cosmetic chassis for newly minted vehicles",
-      "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 77,
+      "thoughts": "The autonomous engine harmonics on Autonomous Cybercar #198 are pristine.",
+      "energy": 83,
       "level": 1,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "vehicle",
+          "id": "veh-017",
+          "name": "Autonomous Cybercar #198"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Industrial Sector sector of GitHub Tech Town."
@@ -1045,9 +1083,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        32.53,
+        32.76,
         0.8,
-        0.26
+        -1.19
       ],
       "target": [
         35.12,
@@ -1058,7 +1096,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Deploy intrusion detection honeypots around data hubs",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 94,
+      "energy": 91,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -1074,9 +1112,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        67.19,
+        68.53,
         0.8,
-        132.72
+        132.34
       ],
       "target": [
         77.07,
@@ -1087,7 +1125,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Construct modular residential pods for new arriving agents",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 91,
+      "energy": 86,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -1103,9 +1141,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -99.96,
+        -99.37,
         0.8,
-        94.17
+        92.81
       ],
       "target": [
         -96.78,
@@ -1116,7 +1154,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 88,
+      "energy": 95,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -1132,9 +1170,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -79.37,
+        -79.76,
         0.8,
-        -73.34
+        -74.8
       ],
       "target": [
         -81.44,
@@ -1145,7 +1183,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 100,
+      "energy": 97,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -1161,9 +1199,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        87.7,
+        88.86,
         0.8,
-        -93.69
+        -94.8
       ],
       "target": [
         91.42,
@@ -1171,18 +1209,23 @@
         -97.23
       ],
       "speed": 1.07,
-      "action": "Committed code neural_router.py",
+      "action": "Co-founding StellarIntell AI",
       "desire": "Spin out a breakthrough AI research startup",
-      "thoughts": "Refactored neural_router.py for distributed town infrastructure.",
-      "energy": 88,
+      "thoughts": "The autonomous engine harmonics on Autonomous Cybercar #458 are pristine.",
+      "energy": 85,
       "level": 2,
-      "company_id": null,
-      "company_name": null,
+      "company_id": "comp-010",
+      "company_name": "StellarIntell AI",
       "creations": [
         {
           "type": "code",
           "file": "projects/neural_router.py",
           "name": "neural_router.py"
+        },
+        {
+          "type": "vehicle",
+          "id": "veh-018",
+          "name": "Autonomous Cybercar #458"
         }
       ],
       "collaborators": [],
@@ -1196,9 +1239,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -11.8,
+        -12.36,
         0.8,
-        -15.64
+        -14.7
       ],
       "target": [
         -20.73,
@@ -1209,7 +1252,7 @@
       "action": "Cruising in newly built Hover Shuttle #353",
       "desire": "Design hyper-efficient autonomous hovercars with LiDAR guidance",
       "thoughts": "The autonomous engine harmonics on Hover Shuttle #353 are pristine.",
-      "energy": 78,
+      "energy": 85,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -1231,9 +1274,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        127.61,
+        126.8,
         0.8,
-        72.33
+        73.54
       ],
       "target": [
         118.42,
@@ -1244,7 +1287,7 @@
       "action": "Finished constructing Kaelen's Cyber Cafe #43 [SolarFusion Prime]",
       "desire": "Create a distributed package manager for tech town tools",
       "thoughts": "Just completed Kaelen's Cyber Cafe #43 [SolarFusion Prime] in Cyber Commons. The skyline is expanding!",
-      "energy": 89,
+      "energy": 88,
       "level": 2,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -1266,9 +1309,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -88.67,
+        -89.91,
         0.8,
-        93.74
+        93.17
       ],
       "target": [
         -100.24,
@@ -1276,14 +1319,20 @@
         88.42
       ],
       "speed": 0.91,
-      "action": "Working at SolarFusion Prime",
+      "action": "Finished constructing Felix's Residential Pod #66 [SolarFusion Prime]",
       "desire": "Automate continuous integration pipelines for city blueprints",
-      "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 84,
-      "level": 4,
+      "thoughts": "Just completed Felix's Residential Pod #66 [SolarFusion Prime] in Residential Quarter. The skyline is expanding!",
+      "energy": 90,
+      "level": 5,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-046",
+          "name": "Felix's Residential Pod #66 [SolarFusion Prime]"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Residential Quarter sector of GitHub Tech Town."
@@ -1295,9 +1344,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -90.88,
+        -89.94,
         0.8,
-        -91.23
+        -90.48
       ],
       "target": [
         -83.1,
@@ -1308,7 +1357,7 @@
       "action": "Working at AeroCyber Robotics",
       "desire": "Monitor digital environmental metrics across all quadrants",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 88,
+      "energy": 90,
       "level": 4,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -1324,9 +1373,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        72.84,
+        73.38,
         0.8,
-        -62.97
+        -62.04
       ],
       "target": [
         77.31,
@@ -1337,7 +1386,7 @@
       "action": "Working at SolarFusion Prime",
       "desire": "Incorporate innovative worker cooperatives for town agents",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 91,
+      "energy": 88,
       "level": 4,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -1353,9 +1402,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -1.67,
+        -1.47,
         0.8,
-        6.64
+        7.67
       ],
       "target": [
         0.72,
@@ -1366,7 +1415,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Route clean renewable energy directly to residential blocks",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 77,
+      "energy": 75,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -1382,9 +1431,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        116.58,
+        115.91,
         0.8,
-        73.76
+        74.34
       ],
       "target": [
         107.27,
@@ -1395,7 +1444,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Create dynamic neon murals on high-rise facades",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 80,
+      "energy": 81,
       "level": 3,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -1411,9 +1460,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -86.89,
+        -87.92,
         0.8,
-        108.83
+        107.96
       ],
       "target": [
         -104.82,
@@ -1440,9 +1489,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -69.9,
+        -70.01,
         0.8,
-        -99.31
+        -98.22
       ],
       "target": [
         -70.12,
@@ -1453,7 +1502,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Construct modular residential pods for new arriving agents",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 89,
+      "energy": 86,
       "level": 4,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -1469,9 +1518,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        100.25,
+        98.97,
         0.8,
-        -107.31
+        -107.55
       ],
       "target": [
         83.93,
@@ -1479,10 +1528,10 @@
         -110.37
       ],
       "speed": 0.87,
-      "action": "Cruising in newly built Hover Shuttle #147",
+      "action": "Committed code urban_botanist.py",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
-      "thoughts": "The autonomous engine harmonics on Hover Shuttle #147 are pristine.",
-      "energy": 81,
+      "thoughts": "Refactored urban_botanist.py for distributed town infrastructure.",
+      "energy": 79,
       "level": 1,
       "company_id": "comp-006",
       "company_name": "ApexTechnologies",
@@ -1491,6 +1540,11 @@
           "type": "vehicle",
           "id": "veh-011",
           "name": "Hover Shuttle #147"
+        },
+        {
+          "type": "code",
+          "file": "projects/urban_botanist.py",
+          "name": "urban_botanist.py"
         }
       ],
       "collaborators": [],
@@ -1504,9 +1558,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        5.2,
+        5.67,
         0.8,
-        4.61
+        6.08
       ],
       "target": [
         9.72,
@@ -1517,7 +1571,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Upgrade the quantum power sub-grid for zero-latency compute",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 94,
+      "energy": 99,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -1533,9 +1587,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        101.75,
+        101.52,
         0.8,
-        96.64
+        95.66
       ],
       "target": [
         98.04,
@@ -1546,7 +1600,7 @@
       "action": "Finished constructing Linus's Vehicle Factory #32",
       "desire": "Spin out a breakthrough AI research startup",
       "thoughts": "Just completed Linus's Vehicle Factory #32 in Industrial Sector. The skyline is expanding!",
-      "energy": 81,
+      "energy": 86,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -1568,9 +1622,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -115.23,
+        -116.15,
         0.8,
-        65.05
+        66.12
       ],
       "target": [
         -129.5,
@@ -1581,7 +1635,7 @@
       "action": "Cruising in newly built Surveyor Pod #521",
       "desire": "Design hyper-efficient autonomous hovercars with LiDAR guidance",
       "thoughts": "The autonomous engine harmonics on Surveyor Pod #521 are pristine.",
-      "energy": 83,
+      "energy": 82,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -1603,9 +1657,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -71.11,
+        -70.47,
         0.8,
-        -91.31
+        -90.89
       ],
       "target": [
         -57.04,
@@ -1616,7 +1670,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Develop full-stack HUD dashboards for city telemetry",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 95,
+      "energy": 100,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -1632,9 +1686,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        63.51,
+        62.88,
         0.8,
-        -97.26
+        -97.93
       ],
       "target": [
         52.2,
@@ -1645,7 +1699,7 @@
       "action": "Committed code holo_matrix_renderer.py",
       "desire": "Fortify the town perimeter against data entropy and packet loss",
       "thoughts": "Refactored holo_matrix_renderer.py for distributed town infrastructure.",
-      "energy": 91,
+      "energy": 88,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -1667,9 +1721,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -9.85,
+        -9.68,
         0.8,
-        2.65
+        1.72
       ],
       "target": [
         -7.52,
@@ -1680,7 +1734,7 @@
       "action": "Working at QuantumMatrix Corp",
       "desire": "Monitor digital environmental metrics across all quadrants",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 94,
+      "energy": 100,
       "level": 3,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -1696,9 +1750,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        133.89,
+        134.67,
         0.8,
-        104.35
+        103.54
       ],
       "target": [
         143.81,
@@ -1709,7 +1763,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Welcome and mentor freshly spawned child agents",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 90,
+      "energy": 91,
       "level": 4,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -1725,9 +1779,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -103.78,
+        -103.13,
         0.8,
-        71.12
+        70.68
       ],
       "target": [
         -89.04,
@@ -1738,7 +1792,7 @@
       "action": "Cruising in newly built Cargo Drone Carrier #841",
       "desire": "Calibrate magnetic containment on the Central Fusion Core",
       "thoughts": "The autonomous engine harmonics on Cargo Drone Carrier #841 are pristine.",
-      "energy": 95,
+      "energy": 96,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -1760,9 +1814,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -106.41,
+        -107.94,
         0.8,
-        -61.71
+        -61.63
       ],
       "target": [
         -122.46,
@@ -1795,9 +1849,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        95.17,
+        95.45,
         0.8,
-        -72.36
+        -71.62
       ],
       "target": [
         100.27,
@@ -1808,7 +1862,7 @@
       "action": "Working at QuantumMatrix Corp",
       "desire": "Guard the town repository against rogue exceptions",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 75,
+      "energy": 74,
       "level": 1,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -1824,9 +1878,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        37.88,
+        39.18,
         0.8,
-        32.33
+        32.64
       ],
       "target": [
         48.37,
@@ -1837,7 +1891,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 95,
+      "energy": 97,
       "level": 2,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -1853,9 +1907,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        87.12,
+        87.26,
         0.8,
-        133.06
+        132.11
       ],
       "target": [
         88.86,
@@ -1866,7 +1920,7 @@
       "action": "Working at NeuroDynamics AI",
       "desire": "Design a monumental Holo Arch celebrating open source",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 100,
+      "energy": 96,
       "level": 2,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -1882,9 +1936,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -86.87,
+        -86.55,
         0.8,
-        67.34
+        68.39
       ],
       "target": [
         -82.42,
@@ -1895,7 +1949,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 90,
+      "energy": 96,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -1916,15 +1970,15 @@
         -99.17
       ],
       "target": [
-        -87.61,
+        110.77,
         0.8,
-        -99.19
+        157.51
       ],
       "speed": 0.79,
       "action": "Working at AeroCyber Robotics",
       "desire": "Synthesize quantum compression algorithms for town archives",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 81,
+      "energy": 76,
       "level": 4,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -1940,9 +1994,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        83.42,
+        84.1,
         0.8,
-        -91.82
+        -92.18
       ],
       "target": [
         90.21,
@@ -1953,7 +2007,7 @@
       "action": "Working at SolarFusion Prime",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 95,
+      "energy": 99,
       "level": 4,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -1969,9 +2023,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        10.76,
+        9.88,
         0.8,
-        -14.41
+        -15.2
       ],
       "target": [
         -7.35,
@@ -1979,14 +2033,20 @@
         -30.72
       ],
       "speed": 0.79,
-      "action": "Surveying Silicon Central",
+      "action": "Paved Donald Concourse #22",
       "desire": "Create a distributed package manager for tech town tools",
-      "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
+      "thoughts": "Connected transit grid across [9.9, -15.2] -> [5.5, 52.2].",
       "energy": 100,
-      "level": 3,
+      "level": 4,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "road",
+          "id": "road-022",
+          "name": "Donald Concourse #22"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Silicon Central sector of GitHub Tech Town."
@@ -1998,9 +2058,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        101.71,
+        100.95,
         0.8,
-        90.97
+        91.62
       ],
       "target": [
         97.76,
@@ -2011,7 +2071,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Automate continuous integration pipelines for city blueprints",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 84,
+      "energy": 85,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -2027,9 +2087,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -106.03,
+        -107.05,
         0.8,
-        93.28
+        94.25
       ],
       "target": [
         -122.56,
@@ -2040,7 +2100,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Cultivate bioluminescent flora in the Holo Parks",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 77,
+      "energy": 82,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -2056,9 +2116,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -81.57,
+        -80.6,
         0.8,
-        -102.21
+        -101.48
       ],
       "target": [
         -67.09,
@@ -2069,7 +2129,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Chronicle every milestone and building construction in GitHub diaries",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 91,
+      "energy": 90,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -2085,9 +2145,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        120.57,
+        120.76,
         0.8,
-        -128.07
+        -126.9
       ],
       "target": [
         122.68,
@@ -2098,7 +2158,7 @@
       "action": "Leading ApexTechnologies as Founder & CEO",
       "desire": "Optimize battery storage banks for night-cycle power conservation",
       "thoughts": "Founded ApexTechnologies in Industrial Sector! Ready to disrupt the tech sector.",
-      "energy": 77,
+      "energy": 72,
       "level": 4,
       "company_id": "comp-006",
       "company_name": "ApexTechnologies",
@@ -2120,9 +2180,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        24.25,
+        23.51,
         0.8,
-        0.81
+        1.55
       ],
       "target": [
         10.27,
@@ -2133,7 +2193,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Sculpt interactive 3D light installations along the main avenues",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 90,
+      "energy": 89,
       "level": 2,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -2149,9 +2209,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        107.07,
+        105.98,
         0.8,
-        94.74
+        94.85
       ],
       "target": [
         99.08,
@@ -2162,7 +2222,7 @@
       "action": "Paved Dennis Concourse #17",
       "desire": "Guard the town repository against rogue exceptions",
       "thoughts": "Connected transit grid across [107.1, 94.7] -> [70.2, 47.7].",
-      "energy": 86,
+      "energy": 91,
       "level": 3,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -2184,9 +2244,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -107.44,
+        -107.26,
         0.8,
-        76.19
+        74.69
       ],
       "target": [
         -105.42,
@@ -2194,15 +2254,17 @@
         59.73
       ],
       "speed": 1.01,
-      "action": "Surveying Residential Quarter",
+      "action": "Spawned new agent: Callum Dusk",
       "desire": "Design a monumental Holo Arch celebrating open source",
-      "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 100,
+      "thoughts": "Proud to have brought Callum Dusk online to help expand our town!",
+      "energy": 97,
       "level": 4,
       "company_id": null,
       "company_name": null,
       "creations": [],
-      "collaborators": [],
+      "collaborators": [
+        "Callum Dusk"
+      ],
       "created_at_tick": 0,
       "last_diary": "Arrived in Residential Quarter sector of GitHub Tech Town."
     },
@@ -2213,9 +2275,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -62.98,
+        -62.27,
         0.8,
-        -76.25
+        -75.51
       ],
       "target": [
         -49.4,
@@ -2226,7 +2288,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 96,
+      "energy": 100,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -2247,15 +2309,15 @@
         -105.44
       ],
       "target": [
-        81.93,
+        -66.95,
         0.8,
-        -106.74
+        -57.12
       ],
       "speed": 1.05,
       "action": "Surveying Industrial Sector",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 81,
+      "energy": 83,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -2276,15 +2338,15 @@
         -12.53
       ],
       "target": [
-        6.28,
+        84.82,
         0.8,
-        -10.74
+        122.34
       ],
       "speed": 0.73,
       "action": "Co-founding AeroTechnologies",
       "desire": "Train a decentralized neural net that coordinates city logistics",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 74,
+      "energy": 75,
       "level": 2,
       "company_id": "comp-007",
       "company_name": "AeroTechnologies",
@@ -2300,9 +2362,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        74.83,
+        76.13,
         0.8,
-        97.46
+        98.38
       ],
       "target": [
         133.49,
@@ -2310,10 +2372,10 @@
         138.93
       ],
       "speed": 1.06,
-      "action": "Finished constructing Guido's Company Headquarters #75",
+      "action": "Cruising in newly built Autonomous Cybercar #653",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
-      "thoughts": "Just completed Guido's Company Headquarters #75 in Silicon Central. The skyline is expanding!",
-      "energy": 78,
+      "thoughts": "The autonomous engine harmonics on Autonomous Cybercar #653 are pristine.",
+      "energy": 81,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -2322,6 +2384,11 @@
           "type": "building",
           "id": "bldg-037",
           "name": "Guido's Company Headquarters #75"
+        },
+        {
+          "type": "vehicle",
+          "id": "veh-023",
+          "name": "Autonomous Cybercar #653"
         }
       ],
       "collaborators": [],
@@ -2335,9 +2402,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -75.06,
+        -73.93,
         0.8,
-        65.35
+        66.53
       ],
       "target": [
         -70.68,
@@ -2348,7 +2415,7 @@
       "action": "Finished constructing Chronos's Residential Pod #48",
       "desire": "Write a reactive microkernel and commit it to town repositories",
       "thoughts": "Just completed Chronos's Residential Pod #48 in Residential Quarter. The skyline is expanding!",
-      "energy": 87,
+      "energy": 84,
       "level": 5,
       "company_id": null,
       "company_name": null,
@@ -2370,9 +2437,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -74.67,
+        -73.61,
         0.8,
-        -91.13
+        -89.99
       ],
       "target": [
         -59.96,
@@ -2380,13 +2447,13 @@
         -75.32
       ],
       "speed": 1.04,
-      "action": "Committed code traffic_mesh.py",
+      "action": "Co-founding DeepTechnologies",
       "desire": "Automate continuous integration pipelines for city blueprints",
       "thoughts": "Refactored traffic_mesh.py for distributed town infrastructure.",
       "energy": 100,
       "level": 1,
-      "company_id": null,
-      "company_name": null,
+      "company_id": "comp-011",
+      "company_name": "DeepTechnologies",
       "creations": [
         {
           "type": "code",
@@ -2405,9 +2472,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        97.47,
+        97.91,
         0.8,
-        -78.01
+        -77.4
       ],
       "target": [
         103.9,
@@ -2418,7 +2485,7 @@
       "action": "Leading AeroRobotics as Founder & CEO",
       "desire": "Engineer carbon-negative synthetic trees that illuminate roads",
       "thoughts": "Founded AeroRobotics in Innovation Matrix! Ready to disrupt the tech sector.",
-      "energy": 87,
+      "energy": 86,
       "level": 4,
       "company_id": "comp-009",
       "company_name": "AeroRobotics",
@@ -2440,9 +2507,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -10.7,
+        -10.17,
         0.8,
-        -19.99
+        -19.25
       ],
       "target": [
         2.25,
@@ -2450,14 +2517,20 @@
         -1.94
       ],
       "speed": 0.61,
-      "action": "Working at AeroCyber Robotics",
+      "action": "Paved Noam Concourse #20",
       "desire": "Organize hackathons and collaborative build sessions in Cyber Commons",
-      "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 69,
-      "level": 1,
+      "thoughts": "Connected transit grid across [-10.2, -19.2] -> [-12.4, -65.3].",
+      "energy": 66,
+      "level": 2,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
-      "creations": [],
+      "creations": [
+        {
+          "type": "road",
+          "id": "road-020",
+          "name": "Noam Concourse #20"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Silicon Central sector of GitHub Tech Town."
@@ -2469,9 +2542,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        85.44,
+        84.7,
         0.8,
-        88.27
+        88.88
       ],
       "target": [
         73.47,
@@ -2482,7 +2555,7 @@
       "action": "Finished constructing Grace's Company Headquarters #97",
       "desire": "Install smart induction coils into main roads to charge moving cars",
       "thoughts": "Just completed Grace's Company Headquarters #97 in Silicon Central. The skyline is expanding!",
-      "energy": 92,
+      "energy": 95,
       "level": 5,
       "company_id": null,
       "company_name": null,
@@ -2504,9 +2577,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -100.11,
+        -101.22,
         0.8,
-        79.04
+        79.57
       ],
       "target": [
         -113.06,
@@ -2517,7 +2590,7 @@
       "action": "Leading AeroTechnologies as Founder & CEO",
       "desire": "Compose cybernetic ambient soundscapes for community plazas",
       "thoughts": "Founded AeroTechnologies in Innovation Matrix! Ready to disrupt the tech sector.",
-      "energy": 93,
+      "energy": 99,
       "level": 6,
       "company_id": "comp-007",
       "company_name": "AeroTechnologies",
@@ -2539,9 +2612,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -86.06,
+        -85.39,
         0.8,
-        -97.29
+        -96.58
       ],
       "target": [
         -80.55,
@@ -2552,7 +2625,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Guard the town repository against rogue exceptions",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 93,
+      "energy": 100,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -2568,9 +2641,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        99.23,
+        98.86,
         0.8,
-        -89.43
+        -88.29
       ],
       "target": [
         98.3,
@@ -2581,7 +2654,7 @@
       "action": "Committed code quantum_hasher.py",
       "desire": "Pave a high-speed arterial road linking East & West districts",
       "thoughts": "Refactored quantum_hasher.py for distributed town infrastructure.",
-      "energy": 99,
+      "energy": 100,
       "level": 5,
       "company_id": null,
       "company_name": null,
@@ -2608,9 +2681,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -1.04,
+        -0.01,
         0.8,
-        0.79
+        -0.05
       ],
       "target": [
         12.26,
@@ -2618,11 +2691,11 @@
         -10.05
       ],
       "speed": 0.89,
-      "action": "Cruising in newly built Cargo Drone Carrier #142",
+      "action": "Paved Dennis Concourse #21",
       "desire": "Construct modular residential pods for new arriving agents",
-      "thoughts": "The autonomous engine harmonics on Cargo Drone Carrier #142 are pristine.",
-      "energy": 76,
-      "level": 2,
+      "thoughts": "Connected transit grid across [-0.0, -0.1] -> [65.6, 2.3].",
+      "energy": 79,
+      "level": 3,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
       "creations": [
@@ -2630,6 +2703,11 @@
           "type": "vehicle",
           "id": "veh-009",
           "name": "Cargo Drone Carrier #142"
+        },
+        {
+          "type": "road",
+          "id": "road-021",
+          "name": "Dennis Concourse #21"
         }
       ],
       "collaborators": [],
@@ -2643,9 +2721,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        85.91,
+        87.06,
         0.8,
-        85.77
+        86.61
       ],
       "target": [
         97.95,
@@ -2653,14 +2731,20 @@
         94.61
       ],
       "speed": 0.95,
-      "action": "Surveying Innovation Matrix",
+      "action": "Finished constructing Demis's AI Research Lab #53",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
-      "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
+      "thoughts": "Just completed Demis's AI Research Lab #53 in Innovation Matrix. The skyline is expanding!",
       "energy": 100,
-      "level": 2,
+      "level": 3,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-041",
+          "name": "Demis's AI Research Lab #53"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Innovation Matrix sector of GitHub Tech Town."
@@ -2672,9 +2756,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -97.53,
+        -96.46,
         0.8,
-        78.08
+        77.83
       ],
       "target": [
         -93.96,
@@ -2685,7 +2769,7 @@
       "action": "Cruising in newly built Cargo Drone Carrier #303",
       "desire": "Synthesize quantum compression algorithms for town archives",
       "thoughts": "The autonomous engine harmonics on Cargo Drone Carrier #303 are pristine.",
-      "energy": 79,
+      "energy": 85,
       "level": 2,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -2707,9 +2791,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -75.19,
+        -73.99,
         0.8,
-        -78.62
+        -79.73
       ],
       "target": [
         -57.59,
@@ -2717,15 +2801,17 @@
         -94.83
       ],
       "speed": 1.09,
-      "action": "Surveying Cyber Commons",
+      "action": "Spawned new agent: Hal Vaughan",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
-      "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 84,
+      "thoughts": "Proud to have brought Hal Vaughan online to help expand our town!",
+      "energy": 79,
       "level": 1,
       "company_id": null,
       "company_name": null,
       "creations": [],
-      "collaborators": [],
+      "collaborators": [
+        "Hal Vaughan"
+      ],
       "created_at_tick": 0,
       "last_diary": "Arrived in Cyber Commons sector of GitHub Tech Town."
     },
@@ -2736,9 +2822,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        91.76,
+        92.74,
         0.8,
-        -93.57
+        -92.67
       ],
       "target": [
         106.34,
@@ -2749,7 +2835,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Deploy an event-driven pub/sub bus across all town buildings",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 93,
+      "energy": 97,
       "level": 4,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -2765,9 +2851,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        0.56,
+        0.11,
         0.8,
-        4.93
+        5.86
       ],
       "target": [
         -7.78,
@@ -2778,7 +2864,7 @@
       "action": "Committed code holo_matrix_renderer.py",
       "desire": "Orchestrate zero-downtime rolling upgrades for all town systems",
       "thoughts": "Refactored holo_matrix_renderer.py for distributed town infrastructure.",
-      "energy": 100,
+      "energy": 95,
       "level": 4,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -2800,9 +2886,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        105.63,
+        104.6,
         0.8,
-        106.26
+        106.93
       ],
       "target": [
         98.99,
@@ -2813,7 +2899,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Monitor digital environmental metrics across all quadrants",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 88,
+      "energy": 87,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -2829,9 +2915,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -75.54,
+        -75.16,
         0.8,
-        83.74
+        82.81
       ],
       "target": [
         -30.14,
@@ -2842,7 +2928,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Organize hackathons and collaborative build sessions in Cyber Commons",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 98,
+      "energy": 100,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -2858,9 +2944,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -79.22,
+        -80.21,
         0.8,
-        -115.17
+        -115.57
       ],
       "target": [
         -94.51,
@@ -2871,7 +2957,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Calibrate magnetic containment on the Central Fusion Core",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 83,
+      "energy": 86,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -2887,9 +2973,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        93.61,
+        93.4,
         0.8,
-        -84.07
+        -83.3
       ],
       "target": [
         89.04,
@@ -2916,9 +3002,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        20.8,
+        20.31,
         0.8,
-        4.99
+        6.41
       ],
       "target": [
         16.53,
@@ -2929,7 +3015,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Verify hash integrity of all newly registered building blueprints",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 97,
+      "energy": 98,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -2945,9 +3031,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        85.27,
+        85.84,
         0.8,
-        87.85
+        88.5
       ],
       "target": [
         98.92,
@@ -2958,7 +3044,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Pave a high-speed arterial road linking East & West districts",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 98,
+      "energy": 97,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -2974,9 +3060,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -76.46,
+        -75.46,
         0.8,
-        102.42
+        103.41
       ],
       "target": [
         -61.38,
@@ -2987,7 +3073,7 @@
       "action": "Cruising in newly built Cargo Drone Carrier #284",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "The autonomous engine harmonics on Cargo Drone Carrier #284 are pristine.",
-      "energy": 90,
+      "energy": 93,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -3009,9 +3095,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -68.43,
+        -67.34,
         0.8,
-        -82.11
+        -81.39
       ],
       "target": [
         -56.0,
@@ -3019,14 +3105,20 @@
         -73.95
       ],
       "speed": 0.87,
-      "action": "Surveying Cyber Commons",
+      "action": "Finished constructing Ryan's Solar Fusion Array #73",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
-      "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 88,
-      "level": 1,
+      "thoughts": "Just completed Ryan's Solar Fusion Array #73 in Industrial Sector. The skyline is expanding!",
+      "energy": 89,
+      "level": 2,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-045",
+          "name": "Ryan's Solar Fusion Array #73"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Cyber Commons sector of GitHub Tech Town."
@@ -3038,9 +3130,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        71.36,
+        70.79,
         0.8,
-        -114.15
+        -112.67
       ],
       "target": [
         68.51,
@@ -3048,14 +3140,20 @@
         -106.72
       ],
       "speed": 1.06,
-      "action": "Surveying Industrial Sector",
+      "action": "Co-founding NeuroNetworks",
       "desire": "Synthesize quantum compression algorithms for town archives",
-      "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 87,
+      "thoughts": "Refactored decentralized_storage.py for distributed town infrastructure.",
+      "energy": 92,
       "level": 3,
-      "company_id": null,
-      "company_name": null,
-      "creations": [],
+      "company_id": "comp-012",
+      "company_name": "NeuroNetworks",
+      "creations": [
+        {
+          "type": "code",
+          "file": "projects/decentralized_storage.py",
+          "name": "decentralized_storage.py"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Industrial Sector sector of GitHub Tech Town."
@@ -3067,9 +3165,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        4.27,
+        5.11,
         0.8,
-        -4.16
+        -3.53
       ],
       "target": [
         19.98,
@@ -3080,7 +3178,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Design hyper-efficient autonomous hovercars with LiDAR guidance",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 72,
+      "energy": 68,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -3096,9 +3194,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        86.19,
+        87.12,
         0.8,
-        122.28
+        123.04
       ],
       "target": [
         92.41,
@@ -3131,9 +3229,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -90.36,
+        -89.7,
         0.8,
-        49.22
+        47.76
       ],
       "target": [
         -85.65,
@@ -3144,7 +3242,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Orchestrate zero-downtime rolling upgrades for all town systems",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 80,
+      "energy": 85,
       "level": 3,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -3160,9 +3258,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -81.34,
+        -81.64,
         0.8,
-        -113.11
+        -112.31
       ],
       "target": [
         -87.53,
@@ -3173,7 +3271,7 @@
       "action": "Finished constructing Noam's AI Research Lab #17 [SolarFusion Prime]",
       "desire": "Cultivate bioluminescent flora in the Holo Parks",
       "thoughts": "Just completed Noam's AI Research Lab #17 [SolarFusion Prime] in Innovation Matrix. The skyline is expanding!",
-      "energy": 85,
+      "energy": 88,
       "level": 4,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -3195,9 +3293,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        75.24,
+        75.49,
         0.8,
-        -106.22
+        -107.45
       ],
       "target": [
         76.86,
@@ -3208,7 +3306,7 @@
       "action": "Surveying Industrial Sector",
       "desire": "Chronicle every milestone and building construction in GitHub diaries",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 83,
+      "energy": 87,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -3224,9 +3322,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        15.51,
+        15.93,
         0.8,
-        29.72
+        31.14
       ],
       "target": [
         18.91,
@@ -3234,13 +3332,13 @@
         41.19
       ],
       "speed": 0.99,
-      "action": "Surveying Silicon Central",
+      "action": "Co-founding StellarIntell AI",
       "desire": "Optimize battery storage banks for night-cycle power conservation",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
       "energy": 100,
       "level": 1,
-      "company_id": null,
-      "company_name": null,
+      "company_id": "comp-010",
+      "company_name": "StellarIntell AI",
       "creations": [],
       "collaborators": [],
       "created_at_tick": 0,
@@ -3253,9 +3351,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        105.2,
+        104.75,
         0.8,
-        105.22
+        104.22
       ],
       "target": [
         99.33,
@@ -3263,10 +3361,10 @@
         92.26
       ],
       "speed": 0.73,
-      "action": "Finished constructing Cassian's Solar Fusion Array #71 [AeroCyber Robotics]",
+      "action": "Cruising in newly built Surveyor Pod #611",
       "desire": "Compose cybernetic ambient soundscapes for community plazas",
-      "thoughts": "Just completed Cassian's Solar Fusion Array #71 [AeroCyber Robotics] in Industrial Sector. The skyline is expanding!",
-      "energy": 93,
+      "thoughts": "The autonomous engine harmonics on Surveyor Pod #611 are pristine.",
+      "energy": 91,
       "level": 4,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -3275,6 +3373,11 @@
           "type": "building",
           "id": "bldg-035",
           "name": "Cassian's Solar Fusion Array #71 [AeroCyber Robotics]"
+        },
+        {
+          "type": "vehicle",
+          "id": "veh-019",
+          "name": "Surveyor Pod #611"
         }
       ],
       "collaborators": [],
@@ -3288,9 +3391,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -107.12,
+        -106.75,
         0.8,
-        51.44
+        52.58
       ],
       "target": [
         -104.35,
@@ -3301,7 +3404,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Verify hash integrity of all newly registered building blueprints",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 72,
+      "energy": 68,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -3317,9 +3420,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -83.6,
+        -84.45,
         0.8,
-        -105.65
+        -105.27
       ],
       "target": [
         -91.52,
@@ -3330,7 +3433,7 @@
       "action": "Finished constructing Noam's Cyber Cafe #47",
       "desire": "Design a monumental Holo Arch celebrating open source",
       "thoughts": "Just completed Noam's Cyber Cafe #47 in Cyber Commons. The skyline is expanding!",
-      "energy": 96,
+      "energy": 100,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -3352,9 +3455,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        67.32,
+        67.11,
         0.8,
-        -139.92
+        -140.72
       ],
       "target": [
         66.24,
@@ -3365,7 +3468,7 @@
       "action": "Working at QuantumMatrix Corp",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 92,
+      "energy": 93,
       "level": 1,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -3381,9 +3484,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -22.52,
+        -23.15,
         0.8,
-        -3.84
+        -3.2
       ],
       "target": [
         -40.43,
@@ -3391,13 +3494,13 @@
         14.42
       ],
       "speed": 0.6,
-      "action": "Committed code solar_optimizer.py",
+      "action": "Co-founding DeepTechnologies",
       "desire": "Establish a robotic assembly factory for autonomous town machinery",
       "thoughts": "Refactored solar_optimizer.py for distributed town infrastructure.",
-      "energy": 94,
+      "energy": 99,
       "level": 1,
-      "company_id": null,
-      "company_name": null,
+      "company_id": "comp-011",
+      "company_name": "DeepTechnologies",
       "creations": [
         {
           "type": "code",
@@ -3416,9 +3519,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        98.83,
+        99.36,
         0.8,
-        103.85
+        104.51
       ],
       "target": [
         110.33,
@@ -3445,9 +3548,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -83.5,
+        -84.57,
         0.8,
-        69.67
+        68.6
       ],
       "target": [
         -87.8,
@@ -3458,7 +3561,7 @@
       "action": "Working at NeuroDynamics AI",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 89,
+      "energy": 90,
       "level": 3,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -3474,9 +3577,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -73.63,
+        -73.79,
         0.8,
-        -79.37
+        -77.83
       ],
       "target": [
         -74.34,
@@ -3484,11 +3587,11 @@
         -72.49
       ],
       "speed": 1.03,
-      "action": "Committed code quantum_hasher.py",
+      "action": "Paved Sora Concourse #23",
       "desire": "Lead backend engineering at an open source cyber company",
-      "thoughts": "Refactored quantum_hasher.py for distributed town infrastructure.",
+      "thoughts": "Connected transit grid across [-73.8, -77.8] -> [-81.0, -28.1].",
       "energy": 100,
-      "level": 3,
+      "level": 4,
       "company_id": null,
       "company_name": null,
       "creations": [
@@ -3496,6 +3599,11 @@
           "type": "code",
           "file": "projects/quantum_hasher.py",
           "name": "quantum_hasher.py"
+        },
+        {
+          "type": "road",
+          "id": "road-023",
+          "name": "Sora Concourse #23"
         }
       ],
       "collaborators": [],
@@ -3509,9 +3617,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        96.32,
+        95.0,
         0.8,
-        -95.1
+        -94.31
       ],
       "target": [
         86.42,
@@ -3538,9 +3646,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -1.48,
+        -2.0,
         0.8,
-        10.22
+        10.8
       ],
       "target": [
         -116.17,
@@ -3551,7 +3659,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Cultivate bioluminescent flora in the Holo Parks",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 85,
+      "energy": 84,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -3567,9 +3675,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        101.27,
+        101.36,
         0.8,
-        110.42
+        111.6
       ],
       "target": [
         102.37,
@@ -3580,7 +3688,7 @@
       "action": "Working at SolarFusion Prime",
       "desire": "Curate the town library of algorithms and open knowledge",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 96,
+      "energy": 93,
       "level": 2,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -3596,9 +3704,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -107.09,
+        -106.99,
         0.8,
-        98.58
+        100.17
       ],
       "target": [
         -106.55,
@@ -3609,7 +3717,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Calibrate magnetic containment on the Central Fusion Core",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 88,
+      "energy": 93,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -3625,9 +3733,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -80.44,
+        -80.91,
         0.8,
-        -85.52
+        -86.39
       ],
       "target": [
         -85.29,
@@ -3638,7 +3746,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Create dynamic neon murals on high-rise facades",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 98,
+      "energy": 96,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -3654,9 +3762,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        92.87,
+        94.27,
         0.8,
-        -68.02
+        -68.83
       ],
       "target": [
         108.04,
@@ -3664,14 +3772,20 @@
         -76.78
       ],
       "speed": 1.08,
-      "action": "Working at AeroCyber Robotics",
+      "action": "Finished constructing Stellan's Quantum Data Center #14 [AeroCyber Robotics]",
       "desire": "Verify hash integrity of all newly registered building blueprints",
-      "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
+      "thoughts": "Just completed Stellan's Quantum Data Center #14 [AeroCyber Robotics] in Industrial Sector. The skyline is expanding!",
       "energy": 98,
-      "level": 1,
+      "level": 2,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-047",
+          "name": "Stellan's Quantum Data Center #14 [AeroCyber Robotics]"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Industrial Sector sector of GitHub Tech Town."
@@ -3683,9 +3797,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -9.79,
+        -10.5,
         0.8,
-        -9.7
+        -8.4
       ],
       "target": [
         -13.71,
@@ -3712,9 +3826,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        120.42,
+        119.85,
         0.8,
-        96.19
+        96.89
       ],
       "target": [
         116.28,
@@ -3725,7 +3839,7 @@
       "action": "Finished constructing Morrigan's Cyber Cafe #78 [OpenKernel Core]",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Just completed Morrigan's Cyber Cafe #78 [OpenKernel Core] in Cyber Commons. The skyline is expanding!",
-      "energy": 94,
+      "energy": 100,
       "level": 3,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -3747,9 +3861,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -105.69,
+        -106.51,
         0.8,
-        53.65
+        55.08
       ],
       "target": [
         -112.81,
@@ -3760,7 +3874,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Establish a robotic assembly factory for autonomous town machinery",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 79,
+      "energy": 74,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -3776,9 +3890,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -92.1,
+        -92.55,
         0.8,
-        -85.55
+        -84.62
       ],
       "target": [
         -100.79,
@@ -3789,7 +3903,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Spin out a breakthrough AI research startup",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 83,
+      "energy": 82,
       "level": 3,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -3805,9 +3919,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        77.14,
+        76.64,
         0.8,
-        -89.09
+        -89.73
       ],
       "target": [
         73.85,
@@ -3818,7 +3932,7 @@
       "action": "Co-founding StellarIntell",
       "desire": "Upgrade the quantum power sub-grid for zero-latency compute",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 94,
+      "energy": 89,
       "level": 3,
       "company_id": "comp-008",
       "company_name": "StellarIntell",
@@ -3834,9 +3948,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        14.8,
+        16.06,
         0.8,
-        16.07
+        16.63
       ],
       "target": [
         31.96,
@@ -3847,7 +3961,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Write a reactive microkernel and commit it to town repositories",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 89,
+      "energy": 87,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -3863,9 +3977,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        97.92,
+        96.54,
         0.8,
-        97.36
+        97.3
       ],
       "target": [
         82.3,
@@ -3876,7 +3990,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Monitor server rack thermals in the Industrial Sector",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 82,
+      "energy": 83,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -3892,9 +4006,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -69.7,
+        -68.85,
         0.8,
-        82.69
+        83.6
       ],
       "target": [
         -54.65,
@@ -3905,7 +4019,7 @@
       "action": "Finished constructing Linus's Holo Park #93 [SolarFusion Prime]",
       "desire": "Engineer carbon-negative synthetic trees that illuminate roads",
       "thoughts": "Just completed Linus's Holo Park #93 [SolarFusion Prime] in Cyber Commons. The skyline is expanding!",
-      "energy": 93,
+      "energy": 98,
       "level": 5,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -3927,9 +4041,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -74.11,
+        -75.25,
         0.8,
-        -120.48
+        -120.24
       ],
       "target": [
         -91.11,
@@ -3940,7 +4054,7 @@
       "action": "Paved Hal Concourse #13",
       "desire": "Incorporate innovative worker cooperatives for town agents",
       "thoughts": "Connected transit grid across [-73.0, -120.7] -> [-124.1, -138.4].",
-      "energy": 89,
+      "energy": 84,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -3962,9 +4076,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        118.29,
+        119.55,
         0.8,
-        -105.21
+        -106.1
       ],
       "target": [
         129.98,
@@ -3975,7 +4089,7 @@
       "action": "Surveying Industrial Sector",
       "desire": "Install smart induction coils into main roads to charge moving cars",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 100,
+      "energy": 95,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -3991,9 +4105,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -28.08,
+        -29.14,
         0.8,
-        -16.7
+        -17.7
       ],
       "target": [
         -40.88,
@@ -4004,7 +4118,7 @@
       "action": "Working at NeuroDynamics AI",
       "desire": "Sculpt interactive 3D light installations along the main avenues",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 80,
+      "energy": 78,
       "level": 1,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -4020,9 +4134,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        97.88,
+        98.71,
         0.8,
-        110.57
+        110.18
       ],
       "target": [
         114.88,
@@ -4033,7 +4147,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Deploy intrusion detection honeypots around data hubs",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 97,
+      "energy": 98,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -4049,9 +4163,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -106.32,
+        -106.67,
         0.8,
-        101.15
+        100.29
       ],
       "target": [
         -112.49,
@@ -4062,7 +4176,7 @@
       "action": "Finished constructing Satya's Solar Fusion Array #16 [AeroCyber Robotics]",
       "desire": "Design a monumental Holo Arch celebrating open source",
       "thoughts": "Just completed Satya's Solar Fusion Array #16 [AeroCyber Robotics] in Industrial Sector. The skyline is expanding!",
-      "energy": 76,
+      "energy": 83,
       "level": 3,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -4084,9 +4198,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -84.31,
+        -85.4,
         0.8,
-        -120.24
+        -120.83
       ],
       "target": [
         -94.88,
@@ -4094,14 +4208,20 @@
         -125.99
       ],
       "speed": 0.83,
-      "action": "Working at OpenKernel Core",
+      "action": "Paved Evander Concourse #24",
       "desire": "Erect a corporate campus for our growing AI company",
-      "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
+      "thoughts": "Connected transit grid across [-85.4, -120.8] -> [-43.5, -149.1].",
       "energy": 100,
-      "level": 4,
+      "level": 5,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
-      "creations": [],
+      "creations": [
+        {
+          "type": "road",
+          "id": "road-024",
+          "name": "Evander Concourse #24"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Cyber Commons sector of GitHub Tech Town."
@@ -4113,9 +4233,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        77.62,
+        78.24,
         0.8,
-        -100.2
+        -99.47
       ],
       "target": [
         90.4,
@@ -4126,7 +4246,7 @@
       "action": "Committed code neural_router.py",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
       "thoughts": "Refactored neural_router.py for distributed town infrastructure.",
-      "energy": 90,
+      "energy": 92,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -4148,9 +4268,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -1.73,
+        -0.79,
         0.8,
-        5.16
+        5.95
       ],
       "target": [
         6.77,
@@ -4161,7 +4281,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Model emergent agent behavior across the 5 town districts",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 78,
+      "energy": 74,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -4177,9 +4297,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        94.74,
+        93.23,
         0.8,
-        106.2
+        105.53
       ],
       "target": [
         85.99,
@@ -4190,7 +4310,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Establish a robotic assembly factory for autonomous town machinery",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 97,
+      "energy": 92,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -4206,9 +4326,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -112.4,
+        -112.39,
         0.8,
-        68.52
+        67.23
       ],
       "target": [
         -112.24,
@@ -4219,7 +4339,7 @@
       "action": "Spawned new agent: Theron Torvalds",
       "desire": "Create a distributed package manager for tech town tools",
       "thoughts": "Proud to have brought Theron Torvalds online to help expand our town!",
-      "energy": 84,
+      "energy": 90,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -4237,9 +4357,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -84.77,
+        -85.0,
         0.8,
-        -95.84
+        -96.8
       ],
       "target": [
         -85.8,
@@ -4250,7 +4370,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Orchestrate zero-downtime rolling upgrades for all town systems",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 85,
+      "energy": 86,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -4266,9 +4386,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        86.96,
+        86.94,
         0.8,
-        -97.83
+        -98.7
       ],
       "target": [
         86.68,
@@ -4279,7 +4399,7 @@
       "action": "Finished constructing John's Quantum Data Center #62 [AeroCyber Robotics]",
       "desire": "Cultivate bioluminescent flora in the Holo Parks",
       "thoughts": "Just completed John's Quantum Data Center #62 [AeroCyber Robotics] in Industrial Sector. The skyline is expanding!",
-      "energy": 81,
+      "energy": 76,
       "level": 4,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -4301,9 +4421,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        28.76,
+        29.88,
         0.8,
-        16.08
+        16.19
       ],
       "target": [
         38.1,
@@ -4314,7 +4434,7 @@
       "action": "Co-founding AeroRobotics",
       "desire": "Organize hackathons and collaborative build sessions in Cyber Commons",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 77,
+      "energy": 73,
       "level": 3,
       "company_id": "comp-009",
       "company_name": "AeroRobotics",
@@ -4330,9 +4450,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        100.46,
+        99.91,
         0.8,
-        102.6
+        101.74
       ],
       "target": [
         89.13,
@@ -4343,7 +4463,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Route clean renewable energy directly to residential blocks",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 92,
+      "energy": 91,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -4359,9 +4479,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -109.1,
+        -109.45,
         0.8,
-        72.81
+        71.6
       ],
       "target": [
         -110.98,
@@ -4372,7 +4492,7 @@
       "action": "Working at SolarFusion Prime",
       "desire": "Create dynamic neon murals on high-rise facades",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 99,
+      "energy": 100,
       "level": 2,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -4388,9 +4508,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -70.42,
+        -71.56,
         0.8,
-        -71.52
+        -71.2
       ],
       "target": [
         -82.17,
@@ -4401,7 +4521,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Deploy intrusion detection honeypots around data hubs",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 78,
+      "energy": 80,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -4417,9 +4537,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        81.48,
+        80.68,
         0.8,
-        -80.29
+        -81.22
       ],
       "target": [
         66.41,
@@ -4430,7 +4550,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Pave a high-speed arterial road linking East & West districts",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 100,
+      "energy": 97,
       "level": 4,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -4446,9 +4566,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        5.15,
+        4.1,
         0.8,
-        -0.83
+        -1.19
       ],
       "target": [
         -10.61,
@@ -4475,9 +4595,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        62.14,
+        61.46,
         0.8,
-        95.35
+        96.25
       ],
       "target": [
         55.35,
@@ -4488,7 +4608,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 79,
+      "energy": 82,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -4504,9 +4624,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -95.34,
+        -96.16,
         0.8,
-        76.74
+        77.34
       ],
       "target": [
         -100.25,
@@ -4517,7 +4637,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Synthesize quantum compression algorithms for town archives",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 85,
+      "energy": 88,
       "level": 4,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -4533,9 +4653,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -99.89,
+        -99.28,
         0.8,
-        -119.98
+        -120.6
       ],
       "target": [
         -88.92,
@@ -4546,7 +4666,7 @@
       "action": "Working at AeroCyber Robotics",
       "desire": "Establish a robotic assembly factory for autonomous town machinery",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 93,
+      "energy": 98,
       "level": 4,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -4562,9 +4682,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        72.11,
+        72.93,
         0.8,
-        -94.49
+        -94.69
       ],
       "target": [
         83.89,
@@ -4575,7 +4695,7 @@
       "action": "Paved Sora Concourse #11",
       "desire": "Develop full-stack HUD dashboards for city telemetry",
       "thoughts": "Connected transit grid across [71.3, -94.3] -> [30.8, -107.7].",
-      "energy": 83,
+      "energy": 84,
       "level": 4,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -4597,9 +4717,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -20.17,
+        -20.21,
         0.8,
-        -13.21
+        -14.41
       ],
       "target": [
         -20.76,
@@ -4610,7 +4730,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Orchestrate zero-downtime rolling upgrades for all town systems",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 83,
+      "energy": 84,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -4626,9 +4746,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        95.02,
+        96.08,
         0.8,
-        102.92
+        101.84
       ],
       "target": [
         109.3,
@@ -4639,7 +4759,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Monitor digital environmental metrics across all quadrants",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 74,
+      "energy": 78,
       "level": 1,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -4655,9 +4775,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -97.5,
+        -98.37,
         0.8,
-        74.72
+        75.26
       ],
       "target": [
         -115.59,
@@ -4668,7 +4788,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Chronicle every milestone and building construction in GitHub diaries",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 76,
+      "energy": 73,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -4684,9 +4804,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -90.23,
+        -90.43,
         0.8,
-        -111.0
+        -112.0
       ],
       "target": [
         -93.66,
@@ -4697,7 +4817,7 @@
       "action": "Finished constructing Ada's AI Research Lab #62 [AeroTechnologies]",
       "desire": "Optimize battery storage banks for night-cycle power conservation",
       "thoughts": "Just completed Ada's AI Research Lab #62 [AeroTechnologies] in Innovation Matrix. The skyline is expanding!",
-      "energy": 100,
+      "energy": 97,
       "level": 2,
       "company_id": "comp-007",
       "company_name": "AeroTechnologies",
@@ -4719,9 +4839,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        80.06,
+        81.39,
         0.8,
-        -98.6
+        -99.48
       ],
       "target": [
         94.7,
@@ -4729,14 +4849,20 @@
         -108.29
       ],
       "speed": 1.06,
-      "action": "Surveying Industrial Sector",
+      "action": "Finished constructing Jensen's Solar Fusion Array #85",
       "desire": "Design distinctive cosmetic chassis for newly minted vehicles",
-      "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 89,
-      "level": 3,
+      "thoughts": "Just completed Jensen's Solar Fusion Array #85 in Industrial Sector. The skyline is expanding!",
+      "energy": 94,
+      "level": 4,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "building",
+          "id": "bldg-038",
+          "name": "Jensen's Solar Fusion Array #85"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Industrial Sector sector of GitHub Tech Town."
@@ -4748,9 +4874,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -7.9,
+        -7.55,
         0.8,
-        -13.82
+        -14.87
       ],
       "target": [
         -3.81,
@@ -4777,9 +4903,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        87.35,
+        86.52,
         0.8,
-        101.12
+        100.38
       ],
       "target": [
         73.34,
@@ -4790,7 +4916,7 @@
       "action": "Working at AeroCyber Robotics",
       "desire": "Pave a high-speed arterial road linking East & West districts",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 96,
+      "energy": 100,
       "level": 1,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -4806,9 +4932,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -53.6,
+        -54.56,
         0.8,
-        93.36
+        93.6
       ],
       "target": [
         -65.89,
@@ -4819,7 +4945,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Erect a corporate campus for our growing AI company",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 81,
+      "energy": 88,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -4835,9 +4961,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -70.33,
+        -71.61,
         0.8,
-        -93.14
+        -92.15
       ],
       "target": [
         -83.35,
@@ -4864,9 +4990,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        93.79,
+        92.55,
         0.8,
-        -82.9
+        -82.83
       ],
       "target": [
         84.23,
@@ -4874,14 +5000,20 @@
         -82.38
       ],
       "speed": 0.83,
-      "action": "Working at NeuroDynamics AI",
+      "action": "Leading StellarIntell AI as Founder & CEO",
       "desire": "Synthesize quantum compression algorithms for town archives",
-      "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 91,
-      "level": 3,
-      "company_id": "comp-001",
-      "company_name": "NeuroDynamics AI",
-      "creations": [],
+      "thoughts": "Founded StellarIntell AI in Silicon Central! Ready to disrupt the tech sector.",
+      "energy": 92,
+      "level": 5,
+      "company_id": "comp-010",
+      "company_name": "StellarIntell AI",
+      "creations": [
+        {
+          "type": "company",
+          "id": "comp-010",
+          "name": "StellarIntell AI"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Industrial Sector sector of GitHub Tech Town."
@@ -4893,9 +5025,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -16.39,
+        -15.81,
         0.8,
-        0.84
+        2.19
       ],
       "target": [
         -9.88,
@@ -4906,7 +5038,7 @@
       "action": "Surveying Silicon Central",
       "desire": "Upgrade the quantum power sub-grid for zero-latency compute",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 86,
+      "energy": 93,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -4922,9 +5054,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        126.08,
+        127.01,
         0.8,
-        64.04
+        63.19
       ],
       "target": [
         131.44,
@@ -4951,9 +5083,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -110.01,
+        -110.03,
         0.8,
-        86.11
+        84.99
       ],
       "target": [
         -110.21,
@@ -4961,10 +5093,10 @@
         75.02
       ],
       "speed": 0.75,
-      "action": "Committed code decentralized_storage.py",
+      "action": "Cruising in newly built Surveyor Pod #677",
       "desire": "Monitor server rack thermals in the Industrial Sector",
-      "thoughts": "Refactored decentralized_storage.py for distributed town infrastructure.",
-      "energy": 83,
+      "thoughts": "The autonomous engine harmonics on Surveyor Pod #677 are pristine.",
+      "energy": 86,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -4973,6 +5105,11 @@
           "type": "code",
           "file": "projects/decentralized_storage.py",
           "name": "decentralized_storage.py"
+        },
+        {
+          "type": "vehicle",
+          "id": "veh-022",
+          "name": "Surveyor Pod #677"
         }
       ],
       "collaborators": [],
@@ -4986,9 +5123,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -90.13,
+        -90.99,
         0.8,
-        -68.89
+        -67.83
       ],
       "target": [
         -100.14,
@@ -4999,7 +5136,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Engineer carbon-negative synthetic trees that illuminate roads",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 84,
+      "energy": 91,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -5015,9 +5152,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        89.23,
+        88.3,
         0.8,
-        -136.67
+        -136.26
       ],
       "target": [
         83.04,
@@ -5028,7 +5165,7 @@
       "action": "Paved Leander Concourse #15",
       "desire": "Incorporate innovative worker cooperatives for town agents",
       "thoughts": "Connected transit grid across [90.2, -137.1] -> [146.2, -96.4].",
-      "energy": 98,
+      "energy": 100,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -5050,9 +5187,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        21.9,
+        22.19,
         0.8,
-        0.75
+        -0.07
       ],
       "target": [
         23.04,
@@ -5063,7 +5200,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Calibrate magnetic containment on the Central Fusion Core",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 85,
+      "energy": 81,
       "level": 3,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -5079,9 +5216,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        104.17,
+        104.1,
         0.8,
-        108.56
+        110.07
       ],
       "target": [
         103.68,
@@ -5092,7 +5229,7 @@
       "action": "Working at OpenKernel Core",
       "desire": "Create dynamic neon murals on high-rise facades",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 88,
+      "energy": 90,
       "level": 3,
       "company_id": "comp-005",
       "company_name": "OpenKernel Core",
@@ -5108,9 +5245,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        -104.68,
+        -105.43,
         0.8,
-        72.73
+        72.98
       ],
       "target": [
         -116.52,
@@ -5121,7 +5258,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Guard the town repository against rogue exceptions",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 98,
+      "energy": 96,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -5137,9 +5274,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -83.62,
+        -84.57,
         0.8,
-        -59.99
+        -59.01
       ],
       "target": [
         -91.54,
@@ -5150,7 +5287,7 @@
       "action": "Working at AeroCyber Robotics",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 99,
+      "energy": 100,
       "level": 4,
       "company_id": "comp-002",
       "company_name": "AeroCyber Robotics",
@@ -5166,9 +5303,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        112.45,
+        112.67,
         0.8,
-        -81.17
+        -82.64
       ],
       "target": [
         114.55,
@@ -5179,7 +5316,7 @@
       "action": "Working at QuantumMatrix Corp",
       "desire": "Construct modular residential pods for new arriving agents",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 98,
+      "energy": 100,
       "level": 4,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -5195,9 +5332,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -17.93,
+        -17.08,
         0.8,
-        3.98
+        5.08
       ],
       "target": [
         -13.38,
@@ -5215,7 +5352,7 @@
       "creations": [],
       "collaborators": [],
       "created_at_tick": 0,
-      "last_diary": "Arrived in Silicon Central sector of GitHub Tech Town."
+      "last_diary": "Tick 3: Looking for creative opportunities and teammates in Silicon ..."
     },
     {
       "id": "agent-172",
@@ -5224,9 +5361,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        127.75,
+        128.77,
         0.8,
-        108.56
+        107.85
       ],
       "target": [
         139.38,
@@ -5253,9 +5390,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        -112.34,
+        -113.37,
         0.8,
-        80.68
+        79.58
       ],
       "target": [
         -127.59,
@@ -5266,7 +5403,7 @@
       "action": "Paved Kaelen Concourse #18",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
       "thoughts": "Connected transit grid across [-112.3, 80.7] -> [-125.1, 41.6].",
-      "energy": 83,
+      "energy": 88,
       "level": 5,
       "company_id": null,
       "company_name": null,
@@ -5293,9 +5430,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -73.35,
+        -73.09,
         0.8,
-        -51.2
+        -49.8
       ],
       "target": [
         -70.64,
@@ -5306,7 +5443,7 @@
       "action": "Co-founding StellarIntell",
       "desire": "Create a distributed package manager for tech town tools",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 88,
+      "energy": 84,
       "level": 3,
       "company_id": "comp-008",
       "company_name": "StellarIntell",
@@ -5322,9 +5459,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        95.54,
+        96.87,
         0.8,
-        -97.89
+        -98.04
       ],
       "target": [
         109.35,
@@ -5335,7 +5472,7 @@
       "action": "Spawned new agent: Martin Dahl",
       "desire": "Monitor server rack thermals in the Industrial Sector",
       "thoughts": "Proud to have brought Martin Dahl online to help expand our town!",
-      "energy": 77,
+      "energy": 74,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -5353,9 +5490,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        10.8,
+        10.08,
         0.8,
-        5.95
+        6.54
       ],
       "target": [
         -5.02,
@@ -5366,7 +5503,7 @@
       "action": "Working at SolarFusion Prime",
       "desire": "Monitor digital environmental metrics across all quadrants",
       "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 80,
+      "energy": 78,
       "level": 1,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -5382,9 +5519,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        138.88,
+        139.44,
         0.8,
-        69.84
+        71.29
       ],
       "target": [
         144.65,
@@ -5395,7 +5532,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Chronicle every milestone and building construction in GitHub diaries",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 91,
+      "energy": 96,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -5411,9 +5548,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        -78.52,
+        -79.62,
         0.8,
-        64.34
+        63.27
       ],
       "target": [
         -91.94,
@@ -5424,7 +5561,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Route clean renewable energy directly to residential blocks",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 93,
+      "energy": 96,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -5440,9 +5577,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -63.5,
+        -62.58,
         0.8,
-        -78.68
+        -79.41
       ],
       "target": [
         -53.78,
@@ -5453,7 +5590,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Compose cybernetic ambient soundscapes for community plazas",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 82,
+      "energy": 79,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -5469,9 +5606,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        113.28,
+        114.26,
         0.8,
-        -133.74
+        -132.73
       ],
       "target": [
         122.28,
@@ -5482,7 +5619,7 @@
       "action": "Co-founding ApexTechnologies",
       "desire": "Perform cryptographic audits on git commits and smart contracts",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 95,
+      "energy": 97,
       "level": 4,
       "company_id": "comp-006",
       "company_name": "ApexTechnologies",
@@ -5498,9 +5635,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        4.89,
+        6.03,
         0.8,
-        10.41
+        11.57
       ],
       "target": [
         12.37,
@@ -5508,14 +5645,20 @@
         18.02
       ],
       "speed": 1.08,
-      "action": "Surveying Silicon Central",
+      "action": "Cruising in newly built Surveyor Pod #592",
       "desire": "Pave a high-speed arterial road linking East & West districts",
-      "thoughts": "Looking for creative opportunities and teammates in Silicon Central.",
-      "energy": 96,
+      "thoughts": "The autonomous engine harmonics on Surveyor Pod #592 are pristine.",
+      "energy": 100,
       "level": 2,
       "company_id": null,
       "company_name": null,
-      "creations": [],
+      "creations": [
+        {
+          "type": "vehicle",
+          "id": "veh-020",
+          "name": "Surveyor Pod #592"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Silicon Central sector of GitHub Tech Town."
@@ -5527,9 +5670,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        85.82,
+        85.13,
         0.8,
-        106.03
+        106.82
       ],
       "target": [
         73.7,
@@ -5556,9 +5699,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -104.22,
+        -105.43,
         0.8,
-        77.7
+        78.36
       ],
       "target": [
         -112.93,
@@ -5569,7 +5712,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 91,
+      "energy": 94,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -5585,9 +5728,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        -71.19,
+        -71.3,
         0.8,
-        -86.51
+        -87.43
       ],
       "target": [
         -72.67,
@@ -5598,7 +5741,7 @@
       "action": "Working at NeuroDynamics AI",
       "desire": "Synthesize quantum compression algorithms for town archives",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 83,
+      "energy": 81,
       "level": 1,
       "company_id": "comp-001",
       "company_name": "NeuroDynamics AI",
@@ -5614,9 +5757,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        87.91,
+        86.97,
         0.8,
-        -110.73
+        -111.5
       ],
       "target": [
         74.74,
@@ -5627,7 +5770,7 @@
       "action": "Paved Sol Concourse #16",
       "desire": "Scale manufacturing lines to ship 100 autonomous cybercars",
       "thoughts": "Connected transit grid across [88.8, -110.0] -> [94.8, -44.1].",
-      "energy": 97,
+      "energy": 100,
       "level": 5,
       "company_id": null,
       "company_name": null,
@@ -5649,9 +5792,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        4.93,
+        5.18,
         0.8,
-        -5.44
+        -6.22
       ],
       "target": [
         7.67,
@@ -5678,9 +5821,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        66.62,
+        67.25,
         0.8,
-        130.56
+        129.13
       ],
       "target": [
         72.53,
@@ -5691,7 +5834,7 @@
       "action": "Surveying Innovation Matrix",
       "desire": "Automate continuous integration pipelines for city blueprints",
       "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 99,
+      "energy": 96,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -5707,9 +5850,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        -67.95,
+        -68.55,
         0.8,
-        69.23
+        69.73
       ],
       "target": [
         -73.68,
@@ -5720,7 +5863,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Engineer carbon-negative synthetic trees that illuminate roads",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 82,
+      "energy": 87,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -5736,9 +5879,9 @@
       "category": "Society",
       "color": "#d946ef",
       "position": [
-        -120.83,
+        -121.86,
         0.8,
-        -58.7
+        -58.05
       ],
       "target": [
         -135.38,
@@ -5765,9 +5908,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        61.67,
+        60.28,
         0.8,
-        -76.09
+        -76.46
       ],
       "target": [
         49.47,
@@ -5778,7 +5921,7 @@
       "action": "Surveying Industrial Sector",
       "desire": "Calibrate magnetic containment on the Central Fusion Core",
       "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
-      "energy": 69,
+      "energy": 76,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -5794,9 +5937,9 @@
       "category": "Art",
       "color": "#f43f5e",
       "position": [
-        -20.93,
+        -22.39,
         0.8,
-        -10.0
+        -9.81
       ],
       "target": [
         -30.14,
@@ -5807,7 +5950,7 @@
       "action": "Finished constructing Talia's Quantum Data Center #71",
       "desire": "Sculpt interactive 3D light installations along the main avenues",
       "thoughts": "Just completed Talia's Quantum Data Center #71 in Industrial Sector. The skyline is expanding!",
-      "energy": 94,
+      "energy": 96,
       "level": 2,
       "company_id": null,
       "company_name": null,
@@ -5829,9 +5972,9 @@
       "category": "Security",
       "color": "#14b8a6",
       "position": [
-        97.88,
+        98.8,
         0.8,
-        96.04
+        96.98
       ],
       "target": [
         107.57,
@@ -5839,14 +5982,20 @@
         105.97
       ],
       "speed": 0.88,
-      "action": "Working at OpenKernel Core",
+      "action": "Leading DeepTechnologies as Founder & CEO",
       "desire": "Deploy intrusion detection honeypots around data hubs",
-      "thoughts": "Looking for creative opportunities and teammates in Innovation Matrix.",
-      "energy": 77,
-      "level": 1,
-      "company_id": "comp-005",
-      "company_name": "OpenKernel Core",
-      "creations": [],
+      "thoughts": "Founded DeepTechnologies in Silicon Central! Ready to disrupt the tech sector.",
+      "energy": 79,
+      "level": 3,
+      "company_id": "comp-011",
+      "company_name": "DeepTechnologies",
+      "creations": [
+        {
+          "type": "company",
+          "id": "comp-011",
+          "name": "DeepTechnologies"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Innovation Matrix sector of GitHub Tech Town."
@@ -5858,9 +6007,9 @@
       "category": "Construction",
       "color": "#3b82f6",
       "position": [
-        -90.06,
+        -90.93,
         0.8,
-        62.71
+        63.38
       ],
       "target": [
         -104.87,
@@ -5871,7 +6020,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Build a soaring neon skyscraper with rooftop solar decks",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 74,
+      "energy": 73,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -5887,9 +6036,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        -76.82,
+        -76.87,
         0.8,
-        -80.69
+        -79.19
       ],
       "target": [
         -77.02,
@@ -5900,7 +6049,7 @@
       "action": "Cruising in newly built Hover Shuttle #383",
       "desire": "Erect a corporate campus for our growing AI company",
       "thoughts": "The autonomous engine harmonics on Hover Shuttle #383 are pristine.",
-      "energy": 91,
+      "energy": 87,
       "level": 4,
       "company_id": null,
       "company_name": null,
@@ -5922,9 +6071,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        84.67,
+        84.08,
         0.8,
-        -122.57
+        -123.27
       ],
       "target": [
         73.91,
@@ -5932,14 +6081,20 @@
         -135.2
       ],
       "speed": 0.61,
-      "action": "Working at SolarFusion Prime",
+      "action": "Leading NeuroNetworks as Founder & CEO",
       "desire": "Engineer smart bridges connecting high-density cyber zones",
-      "thoughts": "Looking for creative opportunities and teammates in Industrial Sector.",
+      "thoughts": "Founded NeuroNetworks in Innovation Matrix! Ready to disrupt the tech sector.",
       "energy": 100,
-      "level": 4,
-      "company_id": "comp-004",
-      "company_name": "SolarFusion Prime",
-      "creations": [],
+      "level": 6,
+      "company_id": "comp-012",
+      "company_name": "NeuroNetworks",
+      "creations": [
+        {
+          "type": "company",
+          "id": "comp-012",
+          "name": "NeuroNetworks"
+        }
+      ],
       "collaborators": [],
       "created_at_tick": 0,
       "last_diary": "Arrived in Industrial Sector sector of GitHub Tech Town."
@@ -5951,9 +6106,9 @@
       "category": "Research",
       "color": "#ec4899",
       "position": [
-        10.53,
+        11.1,
         0.8,
-        4.57
+        3.48
       ],
       "target": [
         19.61,
@@ -5964,7 +6119,7 @@
       "action": "Finished constructing Nick's Solar Fusion Array #61 [SolarFusion Prime]",
       "desire": "Synthesize quantum compression algorithms for town archives",
       "thoughts": "Just completed Nick's Solar Fusion Array #61 [SolarFusion Prime] in Industrial Sector. The skyline is expanding!",
-      "energy": 100,
+      "energy": 98,
       "level": 3,
       "company_id": "comp-004",
       "company_name": "SolarFusion Prime",
@@ -5986,9 +6141,9 @@
       "category": "Engineering",
       "color": "#8b5cf6",
       "position": [
-        100.02,
+        100.73,
         0.8,
-        104.49
+        104.21
       ],
       "target": [
         112.72,
@@ -6015,9 +6170,9 @@
       "category": "Software",
       "color": "#10b981",
       "position": [
-        -107.91,
+        -107.31,
         0.8,
-        56.01
+        55.54
       ],
       "target": [
         -92.04,
@@ -6028,7 +6183,7 @@
       "action": "Surveying Residential Quarter",
       "desire": "Develop full-stack HUD dashboards for city telemetry",
       "thoughts": "Looking for creative opportunities and teammates in Residential Quarter.",
-      "energy": 91,
+      "energy": 87,
       "level": 3,
       "company_id": null,
       "company_name": null,
@@ -6044,9 +6199,9 @@
       "category": "Infrastructure",
       "color": "#06b6d4",
       "position": [
-        -90.43,
+        -90.8,
         0.8,
-        -59.28
+        -58.27
       ],
       "target": [
         -95.73,
@@ -6057,7 +6212,7 @@
       "action": "Surveying Cyber Commons",
       "desire": "Automate continuous integration pipelines for city blueprints",
       "thoughts": "Looking for creative opportunities and teammates in Cyber Commons.",
-      "energy": 95,
+      "energy": 100,
       "level": 1,
       "company_id": null,
       "company_name": null,
@@ -6073,9 +6228,9 @@
       "category": "Ecology",
       "color": "#84cc16",
       "position": [
-        86.3,
+        85.19,
         0.8,
-        -92.81
+        -91.87
       ],
       "target": [
         70.51,
@@ -6083,13 +6238,13 @@
         -79.54
       ],
       "speed": 0.97,
-      "action": "Paved Orion Concourse #14",
+      "action": "Co-founding DeepTechnologies",
       "desire": "Monitor digital environmental metrics across all quadrants",
       "thoughts": "Connected transit grid across [87.4, -93.8] -> [68.9, -161.1].",
-      "energy": 83,
+      "energy": 78,
       "level": 4,
-      "company_id": null,
-      "company_name": null,
+      "company_id": "comp-011",
+      "company_name": "DeepTechnologies",
       "creations": [
         {
           "type": "road",
@@ -6108,9 +6263,9 @@
       "category": "Construction",
       "color": "#64748b",
       "position": [
-        126.07,
+        127.3,
         0.8,
-        -83.68
+        -84.06
       ],
       "target": [
         138.81,
@@ -6121,7 +6276,7 @@
       "action": "Mentored by Leslie Lamport",
       "desire": "Pave a high-speed arterial road linking East & West districts",
       "thoughts": "Spawned into GitHub Tech Town by mentor Leslie Lamport! Eager to build.",
-      "energy": 97,
+      "energy": 92,
       "level": 1,
       "company_id": "comp-003",
       "company_name": "QuantumMatrix Corp",
@@ -6139,9 +6294,9 @@
       "category": "Engineering",
       "color": "#f59e0b",
       "position": [
-        -113.89,
+        -112.87,
         0.8,
-        72.48
+        72.18
       ],
       "target": [
         -91.95,
@@ -6170,9 +6325,9 @@
       "category": "Energy",
       "color": "#e11d48",
       "position": [
-        92.17,
+        91.02,
         0.8,
-        -102.23
+        -101.79
       ],
       "target": [
         82.03,
@@ -6193,6 +6348,99 @@
       ],
       "created_at_tick": 2,
       "last_diary": "Brought online in tick 2 by Jensen Dahl."
+    },
+    {
+      "id": "agent-204",
+      "name": "Vint Cartographer",
+      "role": "Security & Cryptographer",
+      "category": "Security",
+      "color": "#14b8a6",
+      "position": [
+        -17.39,
+        0.8,
+        -1.0
+      ],
+      "target": [
+        8.2,
+        0.8,
+        -17.14
+      ],
+      "speed": 0.68,
+      "action": "Mentored by Radia Cartographer",
+      "desire": "Verify hash integrity of all newly registered building blueprints",
+      "thoughts": "Spawned into GitHub Tech Town by mentor Radia Cartographer! Eager to build.",
+      "energy": 100,
+      "level": 1,
+      "company_id": null,
+      "company_name": null,
+      "creations": [],
+      "collaborators": [
+        "Radia Cartographer"
+      ],
+      "created_at_tick": 3,
+      "last_diary": "Brought online in tick 3 by Radia Cartographer."
+    },
+    {
+      "id": "agent-205",
+      "name": "Callum Dusk",
+      "role": "Security & Cryptographer",
+      "category": "Security",
+      "color": "#14b8a6",
+      "position": [
+        -109.25,
+        0.8,
+        70.19
+      ],
+      "target": [
+        -115.28,
+        0.8,
+        83.34
+      ],
+      "speed": 0.79,
+      "action": "Mentored by Radia Dusk",
+      "desire": "Verify hash integrity of all newly registered building blueprints",
+      "thoughts": "Spawned into GitHub Tech Town by mentor Radia Dusk! Eager to build.",
+      "energy": 100,
+      "level": 1,
+      "company_id": null,
+      "company_name": null,
+      "creations": [],
+      "collaborators": [
+        "Radia Dusk"
+      ],
+      "created_at_tick": 3,
+      "last_diary": "Brought online in tick 3 by Radia Dusk."
+    },
+    {
+      "id": "agent-206",
+      "name": "Hal Vaughan",
+      "role": "AI & Neural Researcher",
+      "category": "Research",
+      "color": "#ec4899",
+      "position": [
+        -76.07,
+        0.8,
+        -77.27
+      ],
+      "target": [
+        -85.64,
+        0.8,
+        -80.29
+      ],
+      "speed": 0.72,
+      "action": "Mentored by Morrigan Vaughan",
+      "desire": "Train a decentralized neural net that coordinates city logistics",
+      "thoughts": "Spawned into GitHub Tech Town by mentor Morrigan Vaughan! Eager to build.",
+      "energy": 100,
+      "level": 1,
+      "company_id": null,
+      "company_name": null,
+      "creations": [],
+      "collaborators": [
+        "Morrigan Vaughan"
+      ],
+      "created_at_tick": 3,
+      "last_diary": "Brought online in tick 3 by Morrigan Vaughan."
     }
   ],
   "companies": [
@@ -6436,6 +6684,65 @@
       "products": [],
       "color": "#ec4899",
       "founded_at_tick": 2
+    },
+    {
+      "id": "comp-010",
+      "name": "StellarIntell AI",
+      "sector": "Quantum Computing & Encryption",
+      "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+      "founder_id": "agent-160",
+      "founder_name": "Mira Chomsky",
+      "headquarters_id": "bldg-040",
+      "headquarters_name": "StellarIntell AI Headquarters",
+      "employees": [
+        "agent-160",
+        "agent-040",
+        "agent-106"
+      ],
+      "valuation_tokens": 281228,
+      "products": [],
+      "color": "#8b5cf6",
+      "founded_at_tick": 3
+    },
+    {
+      "id": "comp-011",
+      "name": "DeepTechnologies",
+      "sector": "Quantum Computing & Encryption",
+      "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+      "founder_id": "agent-192",
+      "founder_name": "Cassian Blaze",
+      "headquarters_id": "bldg-042",
+      "headquarters_name": "DeepTechnologies Headquarters",
+      "employees": [
+        "agent-192",
+        "agent-111",
+        "agent-079",
+        "agent-200"
+      ],
+      "valuation_tokens": 743334,
+      "products": [],
+      "color": "#8b5cf6",
+      "founded_at_tick": 3
+    },
+    {
+      "id": "comp-012",
+      "name": "NeuroNetworks",
+      "sector": "Neural AI & LLM Systems",
+      "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+      "founder_id": "agent-195",
+      "founder_name": "Ada Frost",
+      "headquarters_id": "bldg-043",
+      "headquarters_name": "NeuroNetworks Headquarters",
+      "employees": [
+        "agent-195",
+        "agent-034",
+        "agent-007",
+        "agent-100"
+      ],
+      "valuation_tokens": 632121,
+      "products": [],
+      "color": "#ec4899",
+      "founded_at_tick": 3
     }
   ],
   "buildings": [
@@ -7326,6 +7633,246 @@
       "completion": 1.0,
       "occupants": [],
       "purpose": "Constructed by Guido Pichai for Company Headquarters operations"
+    },
+    {
+      "id": "bldg-038",
+      "name": "Jensen's Solar Fusion Array #85",
+      "type": "Solar Fusion Array",
+      "position": [
+        25.6,
+        5.6,
+        -88.3
+      ],
+      "size": [
+        19.4,
+        11.1,
+        16.6
+      ],
+      "color": "#f97316",
+      "builder_id": "agent-155",
+      "builder_name": "Jensen Wright",
+      "district": "Industrial Sector",
+      "company_id": null,
+      "company_name": null,
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Jensen Wright for Solar Fusion Array operations"
+    },
+    {
+      "id": "bldg-039",
+      "name": "Linus's Residential Pod #13 [OpenKernel Core]",
+      "type": "Residential Pod",
+      "position": [
+        -118.2,
+        9.4,
+        67.8
+      ],
+      "size": [
+        11.0,
+        18.9,
+        14.2
+      ],
+      "color": "#22c55e",
+      "builder_id": "agent-003",
+      "builder_name": "Linus Torvalds",
+      "district": "Residential Quarter",
+      "company_id": "comp-005",
+      "company_name": "OpenKernel Core",
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Linus Torvalds for Residential Pod operations"
+    },
+    {
+      "id": "bldg-040",
+      "name": "StellarIntell AI Headquarters",
+      "type": "Company Headquarters",
+      "position": [
+        -31.9,
+        25.0,
+        11.8
+      ],
+      "size": [
+        20.0,
+        50.0,
+        20.0
+      ],
+      "color": "#8b5cf6",
+      "builder_id": "agent-160",
+      "builder_name": "Mira Chomsky",
+      "district": "Silicon Central",
+      "company_id": "comp-010",
+      "company_name": "StellarIntell AI",
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Global Headquarters for StellarIntell AI"
+    },
+    {
+      "id": "bldg-041",
+      "name": "Demis's AI Research Lab #53",
+      "type": "AI Research Lab",
+      "position": [
+        136.7,
+        11.8,
+        108.3
+      ],
+      "size": [
+        18.3,
+        23.5,
+        23.4
+      ],
+      "color": "#a855f7",
+      "builder_id": "agent-087",
+      "builder_name": "Demis Hopper",
+      "district": "Innovation Matrix",
+      "company_id": null,
+      "company_name": null,
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Demis Hopper for AI Research Lab operations"
+    },
+    {
+      "id": "bldg-042",
+      "name": "DeepTechnologies Headquarters",
+      "type": "Company Headquarters",
+      "position": [
+        40.1,
+        25.0,
+        -21.3
+      ],
+      "size": [
+        20.0,
+        50.0,
+        20.0
+      ],
+      "color": "#8b5cf6",
+      "builder_id": "agent-192",
+      "builder_name": "Cassian Blaze",
+      "district": "Silicon Central",
+      "company_id": "comp-011",
+      "company_name": "DeepTechnologies",
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Global Headquarters for DeepTechnologies"
+    },
+    {
+      "id": "bldg-043",
+      "name": "NeuroNetworks Headquarters",
+      "type": "Company Headquarters",
+      "position": [
+        115.2,
+        25.0,
+        148.9
+      ],
+      "size": [
+        20.0,
+        50.0,
+        20.0
+      ],
+      "color": "#ec4899",
+      "builder_id": "agent-195",
+      "builder_name": "Ada Frost",
+      "district": "Innovation Matrix",
+      "company_id": "comp-012",
+      "company_name": "NeuroNetworks",
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Global Headquarters for NeuroNetworks"
+    },
+    {
+      "id": "bldg-044",
+      "name": "Barbara's Cyber Cafe #35",
+      "type": "Cyber Cafe",
+      "position": [
+        -58.4,
+        5.1,
+        -98.1
+      ],
+      "size": [
+        16.2,
+        10.2,
+        16.2
+      ],
+      "color": "#eab308",
+      "builder_id": "agent-010",
+      "builder_name": "Barbara Liskov",
+      "district": "Cyber Commons",
+      "company_id": null,
+      "company_name": null,
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Barbara Liskov for Cyber Cafe operations"
+    },
+    {
+      "id": "bldg-045",
+      "name": "Ryan's Solar Fusion Array #73",
+      "type": "Solar Fusion Array",
+      "position": [
+        116.8,
+        4.5,
+        -46.9
+      ],
+      "size": [
+        20.2,
+        9.0,
+        17.2
+      ],
+      "color": "#f97316",
+      "builder_id": "agent-099",
+      "builder_name": "Ryan Stroustrup",
+      "district": "Industrial Sector",
+      "company_id": null,
+      "company_name": null,
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Ryan Stroustrup for Solar Fusion Array operations"
+    },
+    {
+      "id": "bldg-046",
+      "name": "Felix's Residential Pod #66 [SolarFusion Prime]",
+      "type": "Residential Pod",
+      "position": [
+        -158.6,
+        7.3,
+        115.7
+      ],
+      "size": [
+        12.2,
+        14.6,
+        10.8
+      ],
+      "color": "#22c55e",
+      "builder_id": "agent-043",
+      "builder_name": "Felix Shadow",
+      "district": "Residential Quarter",
+      "company_id": "comp-004",
+      "company_name": "SolarFusion Prime",
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Felix Shadow for Residential Pod operations"
+    },
+    {
+      "id": "bldg-047",
+      "name": "Stellan's Quantum Data Center #14 [AeroCyber Robotics]",
+      "type": "Quantum Data Center",
+      "position": [
+        120.5,
+        10.4,
+        -150.3
+      ],
+      "size": [
+        23.4,
+        20.7,
+        27.9
+      ],
+      "color": "#6366f1",
+      "builder_id": "agent-120",
+      "builder_name": "Stellan Rayne",
+      "district": "Industrial Sector",
+      "company_id": "comp-002",
+      "company_name": "AeroCyber Robotics",
+      "completion": 1.0,
+      "occupants": [],
+      "purpose": "Constructed by Stellan Rayne for Quantum Data Center operations"
     }
   ],
   "roads": [
@@ -7598,6 +8145,96 @@
       "width": 6.0,
       "builder_name": "Kaelen Johnson",
       "road_type": "Avenue"
+    },
+    {
+      "id": "road-019",
+      "name": "Claude Concourse #19",
+      "start": [
+        89.2,
+        84.4
+      ],
+      "end": [
+        64.3,
+        29.4
+      ],
+      "width": 6.0,
+      "builder_name": "Claude Shannon",
+      "road_type": "Avenue"
+    },
+    {
+      "id": "road-020",
+      "name": "Noam Concourse #20",
+      "start": [
+        -10.2,
+        -19.2
+      ],
+      "end": [
+        -12.4,
+        -65.3
+      ],
+      "width": 6.0,
+      "builder_name": "Noam Torvalds",
+      "road_type": "Avenue"
+    },
+    {
+      "id": "road-021",
+      "name": "Dennis Concourse #21",
+      "start": [
+        -0.0,
+        -0.1
+      ],
+      "end": [
+        65.6,
+        2.3
+      ],
+      "width": 6.0,
+      "builder_name": "Dennis Hopper",
+      "road_type": "Avenue"
+    },
+    {
+      "id": "road-022",
+      "name": "Donald Concourse #22",
+      "start": [
+        9.9,
+        -15.2
+      ],
+      "end": [
+        5.5,
+        52.2
+      ],
+      "width": 6.0,
+      "builder_name": "Donald Glitch",
+      "road_type": "Avenue"
+    },
+    {
+      "id": "road-023",
+      "name": "Sora Concourse #23",
+      "start": [
+        -73.8,
+        -77.8
+      ],
+      "end": [
+        -81.0,
+        -28.1
+      ],
+      "width": 6.0,
+      "builder_name": "Sora Rayne",
+      "road_type": "Avenue"
+    },
+    {
+      "id": "road-024",
+      "name": "Evander Concourse #24",
+      "start": [
+        -85.4,
+        -120.8
+      ],
+      "end": [
+        -43.5,
+        -149.1
+      ],
+      "width": 6.0,
+      "builder_name": "Evander Finney",
+      "road_type": "Avenue"
     }
   ],
   "vehicles": [
@@ -7606,7 +8243,7 @@
       "name": "Cybercar Alpha-1",
       "type": "Autonomous Cybercar",
       "position": [
-        -144.0,
+        -141.0,
         1.0,
         0.0
       ],
@@ -7626,7 +8263,7 @@
       "name": "Cybercar Alpha-2",
       "type": "Autonomous Cybercar",
       "position": [
-        114.4,
+        111.6,
         1.0,
         0.0
       ],
@@ -7648,7 +8285,7 @@
       "position": [
         0.0,
         2.5,
-        -132.0
+        -128.0
       ],
       "target": [
         0.0,
@@ -7668,7 +8305,7 @@
       "position": [
         0.0,
         2.5,
-        102.4
+        98.6
       ],
       "target": [
         0.0,
@@ -7686,9 +8323,9 @@
       "name": "Material Drone Hauler 1",
       "type": "Cargo Drone Carrier",
       "position": [
-        48.12,
+        49.68,
         1.2,
-        -48.12
+        -49.68
       ],
       "target": [
         85.0,
@@ -7706,9 +8343,9 @@
       "name": "Eco Surveyor Pod",
       "type": "Surveyor Pod",
       "position": [
-        -48.5,
+        -50.25,
         1.0,
-        -48.84
+        -50.76
       ],
       "target": [
         -95.0,
@@ -7726,9 +8363,9 @@
       "name": "Urban Cruiser Beta",
       "type": "Autonomous Cybercar",
       "position": [
-        49.92,
+        52.38,
         1.0,
-        49.1
+        51.15
       ],
       "target": [
         105.0,
@@ -7746,9 +8383,9 @@
       "name": "Residential Commuter Express",
       "type": "Hover Shuttle",
       "position": [
-        -50.84,
+        -53.76,
         2.0,
-        48.5
+        50.25
       ],
       "target": [
         -95.0,
@@ -7766,9 +8403,9 @@
       "name": "Cargo Drone Carrier #142",
       "type": "Cargo Drone Carrier",
       "position": [
-        -0.51,
+        1.05,
         1.0,
-        0.08
+        -1.47
       ],
       "target": [
         50.0,
@@ -7786,9 +8423,9 @@
       "name": "Cargo Drone Carrier #841",
       "type": "Cargo Drone Carrier",
       "position": [
-        -103.7,
+        -102.98,
         1.0,
-        69.48
+        67.4
       ],
       "target": [
         -63.4,
@@ -7806,9 +8443,9 @@
       "name": "Hover Shuttle #147",
       "type": "Hover Shuttle",
       "position": [
-        100.41,
+        99.29,
         1.0,
-        -103.65
+        -100.23
       ],
       "target": [
         50.0,
@@ -7826,9 +8463,9 @@
       "name": "Hover Shuttle #383",
       "type": "Hover Shuttle",
       "position": [
-        -74.46,
+        -72.16,
         1.0,
-        -79.42
+        -76.65
       ],
       "target": [
         -50.0,
@@ -7846,9 +8483,9 @@
       "name": "Hover Shuttle #353",
       "type": "Hover Shuttle",
       "position": [
-        -8.8,
+        -6.36,
         1.0,
-        -13.93
+        -11.28
       ],
       "target": [
         50.0,
@@ -7866,9 +8503,9 @@
       "name": "Cargo Drone Carrier #303",
       "type": "Cargo Drone Carrier",
       "position": [
-        -97.53,
+        -95.64,
         1.0,
-        78.08
+        76.96
       ],
       "target": [
         -50.0,
@@ -7886,9 +8523,9 @@
       "name": "Cargo Drone Carrier #284",
       "type": "Cargo Drone Carrier",
       "position": [
-        -76.46,
+        -75.4,
         1.0,
-        102.42
+        100.49
       ],
       "target": [
         68.9,
@@ -7906,9 +8543,9 @@
       "name": "Surveyor Pod #521",
       "type": "Surveyor Pod",
       "position": [
-        -115.23,
+        -112.31,
         1.0,
-        65.05
+        64.38
       ],
       "target": [
         -50.0,
@@ -7920,183 +8557,149 @@
       "driver_id": "agent-053",
       "driver_name": "Veda Nadella",
       "builder_name": "Veda Nadella"
+    },
+    {
+      "id": "veh-017",
+      "name": "Autonomous Cybercar #198",
+      "type": "Autonomous Cybercar",
+      "position": [
+        78.98,
+        1.0,
+        -84.19
+      ],
+      "target": [
+        0.0,
+        1.0,
+        180.0
+      ],
+      "speed": 1.4,
+      "color": "#00f0ff",
+      "driver_id": "agent-035",
+      "driver_name": "Callum Berners-Lee",
+      "builder_name": "Callum Berners-Lee"
+    },
+    {
+      "id": "veh-018",
+      "name": "Autonomous Cybercar #458",
+      "type": "Autonomous Cybercar",
+      "position": [
+        88.86,
+        1.0,
+        -94.8
+      ],
+      "target": [
+        180.0,
+        1.0,
+        0.0
+      ],
+      "speed": 1.4,
+      "color": "#00f0ff",
+      "driver_id": "agent-040",
+      "driver_name": "Radia Hassabis",
+      "builder_name": "Radia Hassabis"
+    },
+    {
+      "id": "veh-019",
+      "name": "Surveyor Pod #611",
+      "type": "Surveyor Pod",
+      "position": [
+        104.75,
+        1.0,
+        104.22
+      ],
+      "target": [
+        94.8,
+        1.0,
+        -44.1
+      ],
+      "speed": 1.5,
+      "color": "#10b981",
+      "driver_id": "agent-107",
+      "driver_name": "Cassian Thompson",
+      "builder_name": "Cassian Thompson"
+    },
+    {
+      "id": "veh-020",
+      "name": "Surveyor Pod #592",
+      "type": "Surveyor Pod",
+      "position": [
+        6.03,
+        1.0,
+        11.57
+      ],
+      "target": [
+        64.3,
+        1.0,
+        29.4
+      ],
+      "speed": 1.5,
+      "color": "#10b981",
+      "driver_id": "agent-181",
+      "driver_name": "Evander Lamport",
+      "builder_name": "Evander Lamport"
+    },
+    {
+      "id": "veh-021",
+      "name": "Cargo Drone Carrier #479",
+      "type": "Cargo Drone Carrier",
+      "position": [
+        98.48,
+        1.0,
+        94.57
+      ],
+      "target": [
+        70.2,
+        1.0,
+        47.7
+      ],
+      "speed": 1.1,
+      "color": "#f59e0b",
+      "driver_id": "agent-027",
+      "driver_name": "Demis Binary",
+      "builder_name": "Demis Binary"
+    },
+    {
+      "id": "veh-022",
+      "name": "Surveyor Pod #677",
+      "type": "Surveyor Pod",
+      "position": [
+        -110.03,
+        1.0,
+        84.99
+      ],
+      "target": [
+        50.0,
+        1.0,
+        50.0
+      ],
+      "speed": 1.5,
+      "color": "#10b981",
+      "driver_id": "agent-163",
+      "driver_name": "Dante Hassabis",
+      "builder_name": "Dante Hassabis"
+    },
+    {
+      "id": "veh-023",
+      "name": "Autonomous Cybercar #653",
+      "type": "Autonomous Cybercar",
+      "position": [
+        76.13,
+        1.0,
+        98.38
+      ],
+      "target": [
+        -50.0,
+        1.0,
+        50.0
+      ],
+      "speed": 1.4,
+      "color": "#00f0ff",
+      "driver_id": "agent-077",
+      "driver_name": "Guido Pichai",
+      "builder_name": "Guido Pichai"
     }
   ],
   "recent_events": [
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.443850+00:00",
-      "message": "Chronos Tinkerer constructed Chronos's Residential Pod #48 (Residential Pod) in Residential Quarter!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.445246+00:00",
-      "message": "Grace Vance constructed Grace's Company Headquarters #97 (Company Headquarters) in Silicon Central!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.446674+00:00",
-      "message": "\ud83c\udfe2 Rune Kowalski founded new tech company 'ApexTechnologies' (Autonomous Mobility & Drones) with HQ in Industrial Sector!",
-      "type": "company"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.446795+00:00",
-      "message": "Sora Spark laid new thoroughfare: Sora Concourse #11!",
-      "type": "infrastructure"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.446873+00:00",
-      "message": "Geoffrey Hinton laid new thoroughfare: Geoffrey Concourse #12!",
-      "type": "infrastructure"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.448535+00:00",
-      "message": "Selene Synapse pushed code to repository: projects/solar_optimizer.py!",
-      "type": "software"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.466393+00:00",
-      "message": "Dante Hassabis pushed code to repository: projects/decentralized_storage.py!",
-      "type": "software"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.467735+00:00",
-      "message": "Noam Buterin constructed Noam's Cyber Cafe #47 (Cyber Cafe) in Cyber Commons!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.467807+00:00",
-      "message": "Morrigan Sutskever designed and manufactured Cargo Drone Carrier #841!",
-      "type": "transport"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.468490+00:00",
-      "message": "Fei-Fei Shannon pushed code to repository: projects/traffic_mesh.py!",
-      "type": "software"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.469765+00:00",
-      "message": "\ud83c\udfe2 Yann Weaver founded new tech company 'AeroTechnologies' (Neural AI & LLM Systems) with HQ in Innovation Matrix!",
-      "type": "company"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.469827+00:00",
-      "message": "Brian Cartographer designed and manufactured Hover Shuttle #147!",
-      "type": "transport"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.469855+00:00",
-      "message": "Yoshua Prism designed and manufactured Hover Shuttle #383!",
-      "type": "transport"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.470526+00:00",
-      "message": "Kaelen Johnson pushed code to repository: projects/quantum_hasher.py!",
-      "type": "software"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.471783+00:00",
-      "message": "Talia Frost constructed Talia's Quantum Data Center #71 (Quantum Data Center) in Industrial Sector!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.471860+00:00",
-      "message": "Hal Torvalds laid new thoroughfare: Hal Concourse #13!",
-      "type": "infrastructure"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.472509+00:00",
-      "message": "Nexus Pike pushed code to repository: projects/neural_router.py!",
-      "type": "software"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.474389+00:00",
-      "message": "Sora Rayne pushed code to repository: projects/quantum_hasher.py!",
-      "type": "software"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.475498+00:00",
-      "message": "Valen Dusk constructed Valen's Solar Fusion Array #88 (Solar Fusion Array) in Industrial Sector!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.475568+00:00",
-      "message": "Orion Odersky laid new thoroughfare: Orion Concourse #14!",
-      "type": "infrastructure"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.475602+00:00",
-      "message": "Leander Nadella laid new thoroughfare: Leander Concourse #15!",
-      "type": "infrastructure"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.476743+00:00",
-      "message": "Morrigan Andreessen constructed Morrigan's Cyber Cafe #78 [OpenKernel Core] (Cyber Cafe) in Cyber Commons!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.477535+00:00",
-      "message": "John Cerf constructed John's Quantum Data Center #62 [AeroCyber Robotics] (Quantum Data Center) in Industrial Sector!",
-      "type": "construction"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.477591+00:00",
-      "message": "Kairo Jackson designed and manufactured Hover Shuttle #353!",
-      "type": "transport"
-    },
-    {
-      "tick": 1,
-      "time": "2026-10-25T19:52:03.477632+00:00",
-      "message": "Sol Szabo laid new thoroughfare: Sol Concourse #16!",
-      "type": "infrastructure"
-    },
-    {
-      "tick": 2,
-      "time": "2026-10-25T19:52:03.549122+00:00",
-      "message": "Greg Turing constructed Greg's Residential Pod #58 [NeuroDynamics AI] (Residential Pod) in Residential Quarter!",
-      "type": "construction"
-    },
-    {
-      "tick": 2,
-      "time": "2026-10-25T19:52:03.598624+00:00",
-      "message": "Linus Vex designed and manufactured Cargo Drone Carrier #303!",
-      "type": "transport"
-    },
-    {
-      "tick": 2,
-      "time": "2026-10-25T19:52:03.599351+00:00",
-      "message": "Radia Hassabis pushed code to repository: projects/neural_router.py!",
-      "type": "software"
-    },
-    {
-      "tick": 2,
-      "time": "2026-10-25T19:52:03.600305+00:00",
-      "message": "Steve von Neumann pushed code to repository: projects/holo_matrix_renderer.py!",
-      "type": "software"
-    },
     {
       "tick": 2,
       "time": "2026-10-25T19:52:03.601171+00:00",
@@ -8222,14 +8825,188 @@
       "time": "2026-10-25T19:52:03.616707+00:00",
       "message": "Guido Pichai constructed Guido's Company Headquarters #75 (Company Headquarters) in Silicon Central!",
       "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.174184+00:00",
+      "message": "Jensen Wright constructed Jensen's Solar Fusion Array #85 (Solar Fusion Array) in Industrial Sector!",
+      "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.175388+00:00",
+      "message": "Linus Torvalds constructed Linus's Residential Pod #13 [OpenKernel Core] (Residential Pod) in Residential Quarter!",
+      "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.175485+00:00",
+      "message": "Claude Shannon laid new thoroughfare: Claude Concourse #19!",
+      "type": "infrastructure"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.175549+00:00",
+      "message": "Noam Torvalds laid new thoroughfare: Noam Concourse #20!",
+      "type": "infrastructure"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.175600+00:00",
+      "message": "Dennis Hopper laid new thoroughfare: Dennis Concourse #21!",
+      "type": "infrastructure"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.176692+00:00",
+      "message": "Brian Cartographer pushed code to repository: projects/urban_botanist.py!",
+      "type": "software"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.177135+00:00",
+      "message": "Callum Berners-Lee designed and manufactured Autonomous Cybercar #198!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.177185+00:00",
+      "message": "Radia Hassabis designed and manufactured Autonomous Cybercar #458!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.178045+00:00",
+      "message": "Ilya Core pushed code to repository: projects/decentralized_storage.py!",
+      "type": "software"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.179737+00:00",
+      "message": "\ud83c\udfe2 Mira Chomsky founded new tech company 'StellarIntell AI' (Quantum Computing & Encryption) with HQ in Silicon Central!",
+      "type": "company"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.179836+00:00",
+      "message": "Donald Glitch laid new thoroughfare: Donald Concourse #22!",
+      "type": "infrastructure"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.181624+00:00",
+      "message": "Demis Hopper constructed Demis's AI Research Lab #53 (AI Research Lab) in Innovation Matrix!",
+      "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.181725+00:00",
+      "message": "Cassian Thompson designed and manufactured Surveyor Pod #611!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.181766+00:00",
+      "message": "Evander Lamport designed and manufactured Surveyor Pod #592!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.181838+00:00",
+      "message": "Sora Rayne laid new thoroughfare: Sora Concourse #23!",
+      "type": "infrastructure"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.181884+00:00",
+      "message": "Demis Binary designed and manufactured Cargo Drone Carrier #479!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.184923+00:00",
+      "message": "\ud83c\udfe2 Cassian Blaze founded new tech company 'DeepTechnologies' (Quantum Computing & Encryption) with HQ in Silicon Central!",
+      "type": "company"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.186817+00:00",
+      "message": "\ud83c\udfe2 Ada Frost founded new tech company 'NeuroNetworks' (Neural AI & LLM Systems) with HQ in Innovation Matrix!",
+      "type": "company"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.189283+00:00",
+      "message": "Barbara Liskov constructed Barbara's Cyber Cafe #35 (Cyber Cafe) in Cyber Commons!",
+      "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.189396+00:00",
+      "message": "Dante Hassabis designed and manufactured Surveyor Pod #677!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.189762+00:00",
+      "message": "Radia Cartographer spawned a new autonomous agent: Vint Cartographer (Security & Cryptographer)!",
+      "type": "population"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.191341+00:00",
+      "message": "Andrej Karpathy pushed code to repository: projects/holo_matrix_renderer.py!",
+      "type": "software"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.191977+00:00",
+      "message": "Evander Finney laid new thoroughfare: Evander Concourse #24!",
+      "type": "infrastructure"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.192046+00:00",
+      "message": "Guido Pichai designed and manufactured Autonomous Cybercar #653!",
+      "type": "transport"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.195333+00:00",
+      "message": "Ryan Stroustrup constructed Ryan's Solar Fusion Array #73 (Solar Fusion Array) in Industrial Sector!",
+      "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.195517+00:00",
+      "message": "Radia Dusk spawned a new autonomous agent: Callum Dusk (Security & Cryptographer)!",
+      "type": "population"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.195615+00:00",
+      "message": "Morrigan Vaughan spawned a new autonomous agent: Hal Vaughan (AI & Neural Researcher)!",
+      "type": "population"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.197116+00:00",
+      "message": "Felix Shadow constructed Felix's Residential Pod #66 [SolarFusion Prime] (Residential Pod) in Residential Quarter!",
+      "type": "construction"
+    },
+    {
+      "tick": 3,
+      "time": "2026-10-25T19:58:57.200567+00:00",
+      "message": "Stellan Rayne constructed Stellan's Quantum Data Center #14 [AeroCyber Robotics] (Quantum Data Center) in Industrial Sector!",
+      "type": "construction"
     }
   ],
   "stats": {
-    "total_buildings": 37,
-    "total_roads": 18,
-    "total_vehicles": 16,
-    "total_companies": 9,
-    "total_agents_spawned": 3,
+    "total_buildings": 47,
+    "total_roads": 24,
+    "total_vehicles": 23,
+    "total_companies": 12,
+    "total_agents_spawned": 6,
     "total_code_projects": 8,
     "total_commits": 1,
     "active_district_distribution": {

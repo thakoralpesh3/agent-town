@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0e17">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>GitHub Autonomous Tech Town | 200 Live Agents</title>
   
   <!-- Google Fonts -->
@@ -35,38 +38,43 @@
       </div>
     </div>
 
-    <!-- Live City Metrics -->
-    <div class="stats-grid">
-      <div class="stat-item">
-        <span class="stat-value" id="stat-pop">200</span>
-        <span class="stat-label">Agents</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value" id="stat-corps" style="color: #ec4899;">5</span>
-        <span class="stat-label">Companies</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value" id="stat-bldg">15</span>
-        <span class="stat-label">Buildings</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value" id="stat-roads">10</span>
-        <span class="stat-label">Roads</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value" id="stat-vehs">8</span>
-        <span class="stat-label">Vehicles</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-value" id="stat-tick">0</span>
-        <span class="stat-label">Tick</span>
+    <!-- Live City Metrics (Scrollable on small mobile screens) -->
+    <div class="stats-grid-wrapper">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-value" id="stat-pop">200</span>
+          <span class="stat-label">Agents</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-corps" style="color: #ec4899;">5</span>
+          <span class="stat-label">Companies</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-bldg">15</span>
+          <span class="stat-label">Buildings</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-roads">10</span>
+          <span class="stat-label">Roads</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-vehs">8</span>
+          <span class="stat-label">Vehicles</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-tick">0</span>
+          <span class="stat-label">Tick</span>
+        </div>
       </div>
     </div>
 
     <!-- Header Actions -->
     <div class="header-actions">
+      <button class="btn-icon" id="btn-toggle-search" title="Search Town">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
       <button class="btn-icon" id="btn-day-night" title="Toggle Day/Night Cycle">
-        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
       </button>
       <button class="btn-icon" id="btn-refresh" title="Force Refresh World State">
         <i class="fa-solid fa-arrows-rotate"></i>
@@ -79,20 +87,23 @@
 
   <!-- Left Floating Camera & Tool Presets -->
   <div id="toolbar-hud" class="glass-panel">
-    <button class="tool-btn active" id="cam-iso"><i class="fa-solid fa-cube"></i> Isometric</button>
-    <button class="tool-btn" id="cam-top"><i class="fa-solid fa-compass"></i> Overview</button>
-    <button class="tool-btn" id="cam-street"><i class="fa-solid fa-person-walking"></i> Street View</button>
-    <button class="tool-btn" id="btn-zoom-in"><i class="fa-solid fa-magnifying-glass-plus"></i> Zoom In (+)</button>
-    <button class="tool-btn" id="btn-zoom-out"><i class="fa-solid fa-magnifying-glass-minus"></i> Zoom Out (-)</button>
-    <button class="tool-btn" id="btn-toggle-labels"><i class="fa-solid fa-tags"></i> Nameplates</button>
-    <button class="tool-btn" id="btn-follow-toggle"><i class="fa-solid fa-crosshairs"></i> Follow Agent</button>
+    <button class="tool-btn active" id="cam-iso"><i class="fa-solid fa-cube"></i> <span class="btn-text">Isometric</span></button>
+    <button class="tool-btn" id="cam-top"><i class="fa-solid fa-compass"></i> <span class="btn-text">Overview</span></button>
+    <button class="tool-btn" id="cam-street"><i class="fa-solid fa-person-walking"></i> <span class="btn-text">Street View</span></button>
+    <button class="tool-btn" id="btn-zoom-in"><i class="fa-solid fa-magnifying-glass-plus"></i> <span class="btn-text">Zoom In (+)</span></button>
+    <button class="tool-btn" id="btn-zoom-out"><i class="fa-solid fa-magnifying-glass-minus"></i> <span class="btn-text">Zoom Out (-)</span></button>
+    <button class="tool-btn" id="btn-toggle-labels"><i class="fa-solid fa-tags"></i> <span class="btn-text">Nameplates</span></button>
+    <button class="tool-btn" id="btn-follow-toggle"><i class="fa-solid fa-crosshairs"></i> <span class="btn-text">Follow Agent</span></button>
   </div>
 
   <!-- Search & Filter HUD -->
   <div id="search-hud" class="glass-panel">
-    <div class="search-input-wrapper">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" id="agent-search-input" placeholder="Search agents, companies, roles...">
+    <div class="search-hud-header">
+      <div class="search-input-wrapper">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="agent-search-input" placeholder="Search agents, companies, roles...">
+      </div>
+      <button class="btn-icon search-close-btn" id="btn-close-search"><i class="fa-solid fa-xmark"></i></button>
     </div>
     <div class="filter-tags" id="district-tags">
       <button class="tag-btn active" data-filter="all">All</button>
@@ -108,12 +119,13 @@
     </div>
   </div>
 
-  <!-- Agent & Object Inspector Drawer -->
+  <!-- Agent & Object Inspector Drawer (Responsive Bottom-Sheet on Mobile / Side-Drawer on Desktop) -->
   <aside id="inspector-drawer" class="glass-panel">
+    <div class="drag-handle"></div>
     <div class="inspector-header">
       <div class="agent-profile-summary">
         <div class="avatar-badge" id="insp-avatar">
-          <i class="fa-solid fa-robot"></i>
+          <i class="fa-solid fa-user"></i>
         </div>
         <div class="agent-title-box">
           <h2 id="insp-name">Ada Lovelace</h2>

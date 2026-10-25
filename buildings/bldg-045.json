@@ -1,24 +1,24 @@
 {
   "id": "bldg-045",
-  "name": "Barbara's Holo Park #24 [StellarLabs]",
-  "type": "Holo Park",
+  "name": "Ryan's Solar Fusion Array #73",
+  "type": "Solar Fusion Array",
   "position": [
-    -77.0,
-    1.7,
-    -106.5
+    116.8,
+    4.5,
+    -46.9
   ],
   "size": [
-    28.5,
-    3.4,
-    26.8
+    20.2,
+    9.0,
+    17.2
   ],
-  "color": "#10b981",
-  "builder_id": "agent-179",
-  "builder_name": "Barbara Hinton",
-  "district": "Cyber Commons",
-  "company_id": "comp-007",
-  "company_name": "StellarLabs",
+  "color": "#f97316",
+  "builder_id": "agent-099",
+  "builder_name": "Ryan Stroustrup",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Barbara Hinton for Holo Park operations"
+  "purpose": "Constructed by Ryan Stroustrup for Solar Fusion Array operations"
 }

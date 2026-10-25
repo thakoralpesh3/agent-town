@@ -1,19 +1,19 @@
 {
   "id": "comp-010",
-  "name": "SynapseTechnologies",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-007",
-  "founder_name": "Claude Shannon",
-  "headquarters_id": "bldg-037",
-  "headquarters_name": "SynapseTechnologies Headquarters",
+  "name": "StellarIntell AI",
+  "sector": "Quantum Computing & Encryption",
+  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+  "founder_id": "agent-160",
+  "founder_name": "Mira Chomsky",
+  "headquarters_id": "bldg-040",
+  "headquarters_name": "StellarIntell AI Headquarters",
   "employees": [
-    "agent-007",
-    "agent-024",
-    "agent-020"
+    "agent-160",
+    "agent-040",
+    "agent-106"
   ],
-  "valuation_tokens": 688562,
+  "valuation_tokens": 281228,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#8b5cf6",
   "founded_at_tick": 3
 }

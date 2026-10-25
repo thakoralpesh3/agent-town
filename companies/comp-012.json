@@ -1,19 +1,20 @@
 {
   "id": "comp-012",
-  "name": "SynapseDynamics",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-042",
-  "founder_name": "Cassian Bengio",
-  "headquarters_id": "bldg-044",
-  "headquarters_name": "SynapseDynamics Headquarters",
+  "name": "NeuroNetworks",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-195",
+  "founder_name": "Ada Frost",
+  "headquarters_id": "bldg-043",
+  "headquarters_name": "NeuroNetworks Headquarters",
   "employees": [
-    "agent-042",
-    "agent-041",
-    "agent-178"
+    "agent-195",
+    "agent-034",
+    "agent-007",
+    "agent-100"
   ],
-  "valuation_tokens": 301673,
+  "valuation_tokens": 632121,
   "products": [],
-  "color": "#10b981",
+  "color": "#ec4899",
   "founded_at_tick": 3
 }

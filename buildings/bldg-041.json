@@ -1,24 +1,24 @@
 {
   "id": "bldg-041",
-  "name": "Jensen's Holo Park #56 [SolarFusion Prime]",
-  "type": "Holo Park",
+  "name": "Demis's AI Research Lab #53",
+  "type": "AI Research Lab",
   "position": [
-    -54.4,
-    2.0,
-    -90.8
+    136.7,
+    11.8,
+    108.3
   ],
   "size": [
-    27.0,
-    4.0,
-    27.9
+    18.3,
+    23.5,
+    23.4
   ],
-  "color": "#10b981",
-  "builder_id": "agent-138",
-  "builder_name": "Jensen Lamport",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#a855f7",
+  "builder_id": "agent-087",
+  "builder_name": "Demis Hopper",
+  "district": "Innovation Matrix",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Jensen Lamport for Holo Park operations"
+  "purpose": "Constructed by Demis Hopper for AI Research Lab operations"
 }

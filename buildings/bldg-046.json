@@ -1,0 +1,24 @@
+{
+  "id": "bldg-046",
+  "name": "Felix's Residential Pod #66 [SolarFusion Prime]",
+  "type": "Residential Pod",
+  "position": [
+    -158.6,
+    7.3,
+    115.7
+  ],
+  "size": [
+    12.2,
+    14.6,
+    10.8
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-043",
+  "builder_name": "Felix Shadow",
+  "district": "Residential Quarter",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Felix Shadow for Residential Pod operations"
+}

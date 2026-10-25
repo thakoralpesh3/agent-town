@@ -25,6 +25,25 @@ class UIController {
       this.closeInspector();
     });
 
+    // Search Drawer Mobile Toggle
+    const searchHud = document.getElementById("search-hud");
+    const btnToggleSearch = document.getElementById("btn-toggle-search");
+    if (btnToggleSearch && searchHud) {
+      btnToggleSearch.addEventListener("click", () => {
+        searchHud.classList.toggle("mobile-open");
+        if (searchHud.classList.contains("mobile-open")) {
+          document.getElementById("agent-search-input")?.focus();
+        }
+      });
+    }
+
+    const btnCloseSearch = document.getElementById("btn-close-search");
+    if (btnCloseSearch && searchHud) {
+      btnCloseSearch.addEventListener("click", () => {
+        searchHud.classList.remove("mobile-open");
+      });
+    }
+
     // Search Input
     const searchInput = document.getElementById("agent-search-input");
     searchInput.addEventListener("input", (e) => {
@@ -182,6 +201,7 @@ class UIController {
       `;
 
       item.addEventListener("click", () => {
+        document.getElementById("search-hud")?.classList.remove("mobile-open");
         if (this.interaction) {
           this.interaction.handleSelection(agent, 'agent');
         }
@@ -208,6 +228,7 @@ class UIController {
       `;
 
       item.addEventListener("click", () => {
+        document.getElementById("search-hud")?.classList.remove("mobile-open");
         // Find company HQ building
         const hq = this.buildingsList.find(b => b.id === comp.headquarters_id || b.name.includes(comp.name));
         if (hq && this.interaction) {

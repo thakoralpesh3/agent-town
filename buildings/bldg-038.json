@@ -1,24 +1,24 @@
 {
   "id": "bldg-038",
-  "name": "Sundar's Residential Pod #10",
-  "type": "Residential Pod",
+  "name": "Jensen's Solar Fusion Array #85",
+  "type": "Solar Fusion Array",
   "position": [
-    -45.9,
-    12.2,
-    87.1
+    25.6,
+    5.6,
+    -88.3
   ],
   "size": [
-    11.5,
-    24.4,
-    14.2
+    19.4,
+    11.1,
+    16.6
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-083",
-  "builder_name": "Sundar Dijkstra",
-  "district": "Residential Quarter",
+  "color": "#f97316",
+  "builder_id": "agent-155",
+  "builder_name": "Jensen Wright",
+  "district": "Industrial Sector",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Sundar Dijkstra for Residential Pod operations"
+  "purpose": "Constructed by Jensen Wright for Solar Fusion Array operations"
 }

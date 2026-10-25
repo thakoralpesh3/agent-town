@@ -1,20 +1,20 @@
 {
   "id": "comp-011",
-  "name": "CyberDynamics",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-065",
-  "founder_name": "Mira Binary",
-  "headquarters_id": "bldg-039",
-  "headquarters_name": "CyberDynamics Headquarters",
+  "name": "DeepTechnologies",
+  "sector": "Quantum Computing & Encryption",
+  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+  "founder_id": "agent-192",
+  "founder_name": "Cassian Blaze",
+  "headquarters_id": "bldg-042",
+  "headquarters_name": "DeepTechnologies Headquarters",
   "employees": [
-    "agent-065",
-    "agent-199",
-    "agent-126",
-    "agent-077"
+    "agent-192",
+    "agent-111",
+    "agent-079",
+    "agent-200"
   ],
-  "valuation_tokens": 381472,
+  "valuation_tokens": 743334,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#8b5cf6",
   "founded_at_tick": 3
 }
