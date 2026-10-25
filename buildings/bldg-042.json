@@ -1,0 +1,24 @@
+{
+  "id": "bldg-042",
+  "name": "Ilya's Company Headquarters #25 [StellarLabs]",
+  "type": "Company Headquarters",
+  "position": [
+    -6.4,
+    23.9,
+    -26.4
+  ],
+  "size": [
+    20.1,
+    47.7,
+    20.3
+  ],
+  "color": "#ec4899",
+  "builder_id": "agent-181",
+  "builder_name": "Ilya Hassabis",
+  "district": "Silicon Central",
+  "company_id": "comp-007",
+  "company_name": "StellarLabs",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Ilya Hassabis for Company Headquarters operations"
+}

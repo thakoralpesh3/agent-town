@@ -1,22 +1,24 @@
 {
   "id": "bldg-027",
-  "name": "Aria's AI Research Lab #85",
-  "type": "AI Research Lab",
+  "name": "Mira's Quantum Data Center #89",
+  "type": "Quantum Data Center",
   "position": [
-    123.0,
-    14.5,
-    119.7
+    59.0,
+    10.6,
+    -69.8
   ],
   "size": [
-    20.2,
-    29.1,
-    21.1
+    25.3,
+    21.2,
+    25.4
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-176",
-  "builder_name": "Aria Eich",
-  "district": "Innovation Matrix",
+  "color": "#6366f1",
+  "builder_id": "agent-065",
+  "builder_name": "Mira Binary",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Aria Eich for AI Research Lab operations"
+  "purpose": "Constructed by Mira Binary for Quantum Data Center operations"
 }

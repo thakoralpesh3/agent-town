@@ -1,22 +1,24 @@
 {
   "id": "bldg-029",
-  "name": "Ken's Solar Fusion Array #88",
+  "name": "Roxas's Solar Fusion Array #76",
   "type": "Solar Fusion Array",
   "position": [
-    90.5,
-    3.8,
-    -132.7
+    103.3,
+    5.5,
+    -44.6
   ],
   "size": [
-    21.3,
-    7.6,
-    18.7
+    16.8,
+    10.9,
+    20.4
   ],
   "color": "#f97316",
-  "builder_id": "agent-035",
-  "builder_name": "Ken Altman",
+  "builder_id": "agent-122",
+  "builder_name": "Roxas Kahn",
   "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Ken Altman for Solar Fusion Array operations"
+  "purpose": "Constructed by Roxas Kahn for Solar Fusion Array operations"
 }

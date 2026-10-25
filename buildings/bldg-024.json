@@ -1,22 +1,24 @@
 {
   "id": "bldg-024",
-  "name": "Radia's Tech Tower #90",
-  "type": "Tech Tower",
+  "name": "Geoffrey's Cyber Cafe #73",
+  "type": "Cyber Cafe",
   "position": [
-    -0.0,
-    21.5,
-    -31.0
+    -37.2,
+    4.5,
+    -47.7
   ],
   "size": [
-    14.7,
-    42.9,
-    16.8
+    16.2,
+    8.9,
+    13.8
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-012",
-  "builder_name": "Radia Perlman",
-  "district": "Silicon Central",
+  "color": "#eab308",
+  "builder_id": "agent-009",
+  "builder_name": "Geoffrey Hinton",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Radia Perlman for Tech Tower operations"
+  "purpose": "Constructed by Geoffrey Hinton for Cyber Cafe operations"
 }

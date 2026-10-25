@@ -1,22 +1,24 @@
 {
   "id": "bldg-018",
-  "name": "Sam's Holo Park #54",
-  "type": "Holo Park",
+  "name": "Alan's Solar Fusion Array #79",
+  "type": "Solar Fusion Array",
   "position": [
-    -55.1,
-    2.2,
-    -38.4
+    100.5,
+    4.8,
+    -75.3
   ],
   "size": [
-    29.5,
-    4.4,
-    25.1
+    18.1,
+    9.7,
+    17.4
   ],
-  "color": "#10b981",
-  "builder_id": "agent-091",
-  "builder_name": "Sam Helix",
-  "district": "Cyber Commons",
+  "color": "#f97316",
+  "builder_id": "agent-097",
+  "builder_name": "Alan Berners-Lee",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Sam Helix for Holo Park operations"
+  "purpose": "Constructed by Alan Berners-Lee for Solar Fusion Array operations"
 }

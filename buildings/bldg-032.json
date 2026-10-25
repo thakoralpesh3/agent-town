@@ -1,22 +1,24 @@
 {
   "id": "bldg-032",
-  "name": "Theron's Solar Fusion Array #56",
-  "type": "Solar Fusion Array",
+  "name": "Rowan's Residential Pod #31",
+  "type": "Residential Pod",
   "position": [
-    67.8,
-    4.3,
-    -92.6
+    -121.6,
+    8.0,
+    48.8
   ],
   "size": [
-    18.7,
-    8.6,
-    16.5
+    14.0,
+    16.0,
+    12.5
   ],
-  "color": "#f97316",
-  "builder_id": "agent-053",
-  "builder_name": "Theron Murati",
-  "district": "Industrial Sector",
+  "color": "#22c55e",
+  "builder_id": "agent-130",
+  "builder_name": "Rowan Hopper",
+  "district": "Residential Quarter",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Theron Murati for Solar Fusion Array operations"
+  "purpose": "Constructed by Rowan Hopper for Residential Pod operations"
 }

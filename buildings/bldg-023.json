@@ -1,22 +1,24 @@
 {
   "id": "bldg-023",
-  "name": "Yann's AI Research Lab #31",
+  "name": "Cipher's AI Research Lab #53",
   "type": "AI Research Lab",
   "position": [
-    142.3,
-    15.2,
-    126.7
+    131.7,
+    11.6,
+    99.5
   ],
   "size": [
-    20.0,
-    30.3,
-    19.2
+    19.6,
+    23.2,
+    21.1
   ],
   "color": "#a855f7",
-  "builder_id": "agent-037",
-  "builder_name": "Yann Mercer",
+  "builder_id": "agent-089",
+  "builder_name": "Cipher Eich",
   "district": "Innovation Matrix",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Yann Mercer for AI Research Lab operations"
+  "purpose": "Constructed by Cipher Eich for AI Research Lab operations"
 }

@@ -1,22 +1,24 @@
 {
   "id": "bldg-038",
-  "name": "Zenith's Residential Pod #86",
+  "name": "Sundar's Residential Pod #10",
   "type": "Residential Pod",
   "position": [
-    -48.8,
-    11.5,
-    41.0
+    -45.9,
+    12.2,
+    87.1
   ],
   "size": [
-    12.1,
-    22.9,
-    12.3
+    11.5,
+    24.4,
+    14.2
   ],
   "color": "#22c55e",
-  "builder_id": "agent-179",
-  "builder_name": "Zenith Perlman",
+  "builder_id": "agent-083",
+  "builder_name": "Sundar Dijkstra",
   "district": "Residential Quarter",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Zenith Perlman for Residential Pod operations"
+  "purpose": "Constructed by Sundar Dijkstra for Residential Pod operations"
 }

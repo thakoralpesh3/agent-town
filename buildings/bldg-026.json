@@ -1,22 +1,24 @@
 {
   "id": "bldg-026",
-  "name": "Sundar's Cyber Cafe #51",
-  "type": "Cyber Cafe",
+  "name": "Kairo's Residential Pod #38",
+  "type": "Residential Pod",
   "position": [
-    -130.7,
-    6.4,
-    -80.9
+    -145.8,
+    10.1,
+    79.7
   ],
   "size": [
-    13.3,
-    12.7,
-    15.5
+    12.4,
+    20.1,
+    13.7
   ],
-  "color": "#eab308",
-  "builder_id": "agent-030",
-  "builder_name": "Sundar Vance",
-  "district": "Cyber Commons",
+  "color": "#22c55e",
+  "builder_id": "agent-194",
+  "builder_name": "Kairo Flux",
+  "district": "Residential Quarter",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Sundar Vance for Cyber Cafe operations"
+  "purpose": "Constructed by Kairo Flux for Residential Pod operations"
 }

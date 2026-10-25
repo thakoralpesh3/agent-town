@@ -1,22 +1,24 @@
 {
   "id": "bldg-017",
-  "name": "Bjarne's Vehicle Factory #20",
-  "type": "Vehicle Factory",
+  "name": "Katherine's Residential Pod #74 [AeroCyber Robotics]",
+  "type": "Residential Pod",
   "position": [
-    113.2,
-    7.6,
-    -141.8
+    -102.0,
+    11.4,
+    41.5
   ],
   "size": [
-    20.6,
-    15.2,
-    23.2
+    12.7,
+    22.8,
+    11.0
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-020",
-  "builder_name": "Bjarne Stroustrup",
-  "district": "Industrial Sector",
+  "color": "#22c55e",
+  "builder_id": "agent-011",
+  "builder_name": "Katherine Johnson",
+  "district": "Residential Quarter",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Bjarne Stroustrup for Vehicle Factory operations"
+  "purpose": "Constructed by Katherine Johnson for Residential Pod operations"
 }

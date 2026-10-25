@@ -1,22 +1,24 @@
 {
   "id": "bldg-031",
-  "name": "Radia's Residential Pod #37",
-  "type": "Residential Pod",
+  "name": "Felix's Holo Park #76 [AeroCyber Robotics]",
+  "type": "Holo Park",
   "position": [
-    -163.8,
-    10.8,
-    88.2
+    -76.2,
+    2.1,
+    -132.9
   ],
   "size": [
-    13.5,
-    21.7,
-    11.3
+    28.9,
+    4.2,
+    24.3
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-106",
-  "builder_name": "Radia Szabo",
-  "district": "Residential Quarter",
+  "color": "#10b981",
+  "builder_id": "agent-023",
+  "builder_name": "Felix Pulse",
+  "district": "Cyber Commons",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Radia Szabo for Residential Pod operations"
+  "purpose": "Constructed by Felix Pulse for Holo Park operations"
 }

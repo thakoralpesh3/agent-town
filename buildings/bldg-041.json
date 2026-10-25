@@ -1,0 +1,24 @@
+{
+  "id": "bldg-041",
+  "name": "Jensen's Holo Park #56 [SolarFusion Prime]",
+  "type": "Holo Park",
+  "position": [
+    -54.4,
+    2.0,
+    -90.8
+  ],
+  "size": [
+    27.0,
+    4.0,
+    27.9
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-138",
+  "builder_name": "Jensen Lamport",
+  "district": "Cyber Commons",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Jensen Lamport for Holo Park operations"
+}

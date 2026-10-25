@@ -1,22 +1,24 @@
 {
   "id": "bldg-019",
-  "name": "Dennis's Holo Park #71",
-  "type": "Holo Park",
+  "name": "Evander's Vehicle Factory #13",
+  "type": "Vehicle Factory",
   "position": [
-    -58.1,
-    1.7,
-    -97.5
+    146.3,
+    7.2,
+    -111.2
   ],
   "size": [
-    29.3,
-    3.4,
-    29.1
+    22.7,
+    14.4,
+    25.3
   ],
-  "color": "#10b981",
-  "builder_id": "agent-095",
-  "builder_name": "Dennis Vance",
-  "district": "Cyber Commons",
+  "color": "#f59e0b",
+  "builder_id": "agent-141",
+  "builder_name": "Evander Mercer",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Dennis Vance for Holo Park operations"
+  "purpose": "Constructed by Evander Mercer for Vehicle Factory operations"
 }

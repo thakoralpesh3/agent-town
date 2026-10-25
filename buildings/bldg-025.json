@@ -1,22 +1,24 @@
 {
   "id": "bldg-025",
-  "name": "Zenith's Solar Fusion Array #28",
-  "type": "Solar Fusion Array",
+  "name": "Hal's Holo Park #15 [SolarFusion Prime]",
+  "type": "Holo Park",
   "position": [
-    104.8,
-    4.9,
-    -76.5
+    -117.5,
+    1.7,
+    -136.9
   ],
   "size": [
-    17.2,
-    9.9,
-    18.3
+    29.5,
+    3.3,
+    26.2
   ],
-  "color": "#f97316",
-  "builder_id": "agent-107",
-  "builder_name": "Zenith Dahl",
-  "district": "Industrial Sector",
+  "color": "#10b981",
+  "builder_id": "agent-165",
+  "builder_name": "Hal Winter",
+  "district": "Cyber Commons",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Zenith Dahl for Solar Fusion Array operations"
+  "purpose": "Constructed by Hal Winter for Holo Park operations"
 }

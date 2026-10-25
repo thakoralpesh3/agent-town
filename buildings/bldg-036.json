@@ -1,22 +1,24 @@
 {
   "id": "bldg-036",
-  "name": "Zenith's Quantum Data Center #76",
+  "name": "Brendan's Quantum Data Center #79",
   "type": "Quantum Data Center",
   "position": [
-    32.8,
-    8.4,
-    -102.1
+    51.2,
+    10.2,
+    -95.8
   ],
   "size": [
-    26.4,
-    16.8,
-    23.7
+    26.3,
+    20.4,
+    22.9
   ],
   "color": "#6366f1",
-  "builder_id": "agent-107",
-  "builder_name": "Zenith Dahl",
+  "builder_id": "agent-024",
+  "builder_name": "Brendan Fletcher",
   "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Zenith Dahl for Quantum Data Center operations"
+  "purpose": "Constructed by Brendan Fletcher for Quantum Data Center operations"
 }

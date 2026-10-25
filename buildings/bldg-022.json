@@ -1,22 +1,24 @@
 {
   "id": "bldg-022",
-  "name": "Rune's Vehicle Factory #58",
-  "type": "Vehicle Factory",
+  "name": "Callum's AI Research Lab #35",
+  "type": "AI Research Lab",
   "position": [
-    123.7,
-    10.7,
-    -43.7
+    44.0,
+    13.0,
+    74.1
   ],
   "size": [
-    24.7,
-    21.4,
-    25.6
+    20.2,
+    25.9,
+    22.0
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-174",
-  "builder_name": "Rune Dusk",
-  "district": "Industrial Sector",
+  "color": "#a855f7",
+  "builder_id": "agent-136",
+  "builder_name": "Callum von Neumann",
+  "district": "Innovation Matrix",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Rune Dusk for Vehicle Factory operations"
+  "purpose": "Constructed by Callum von Neumann for AI Research Lab operations"
 }

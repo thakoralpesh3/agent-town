@@ -1,0 +1,24 @@
+{
+  "id": "bldg-040",
+  "name": "Bob's Holo Park #66",
+  "type": "Holo Park",
+  "position": [
+    -135.6,
+    2.6,
+    -84.3
+  ],
+  "size": [
+    26.5,
+    5.3,
+    25.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-108",
+  "builder_name": "Bob Rayne",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Bob Rayne for Holo Park operations"
+}

@@ -1,22 +1,24 @@
 {
   "id": "bldg-020",
-  "name": "Geoffrey's Residential Pod #49",
-  "type": "Residential Pod",
+  "name": "Alan's Vehicle Factory #42 [QuantumMatrix Corp]",
+  "type": "Vehicle Factory",
   "position": [
-    -107.2,
-    11.2,
-    22.7
+    147.8,
+    9.4,
+    -91.7
   ],
   "size": [
-    11.4,
-    22.3,
-    11.2
+    20.1,
+    18.8,
+    20.7
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-009",
-  "builder_name": "Geoffrey Hinton",
-  "district": "Residential Quarter",
+  "color": "#f59e0b",
+  "builder_id": "agent-114",
+  "builder_name": "Alan Buterin",
+  "district": "Industrial Sector",
+  "company_id": "comp-003",
+  "company_name": "QuantumMatrix Corp",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Geoffrey Hinton for Residential Pod operations"
+  "purpose": "Constructed by Alan Buterin for Vehicle Factory operations"
 }
