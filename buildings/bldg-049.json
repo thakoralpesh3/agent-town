@@ -1,0 +1,24 @@
+{
+  "id": "bldg-049",
+  "name": "Ronan's Vehicle Factory #86 [AeroDynamics]",
+  "type": "Vehicle Factory",
+  "position": [
+    115.8,
+    7.6,
+    -49.9
+  ],
+  "size": [
+    23.8,
+    15.3,
+    24.6
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-189",
+  "builder_name": "Ronan Shadow",
+  "district": "Industrial Sector",
+  "company_id": "comp-008",
+  "company_name": "AeroDynamics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Ronan Shadow for Vehicle Factory operations"
+}

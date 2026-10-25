@@ -1,18 +1,18 @@
 {
   "id": "comp-014",
-  "name": "DeepIntell",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-115",
-  "founder_name": "Stellan Vanguard",
-  "headquarters_id": "bldg-049",
-  "headquarters_name": "DeepIntell Headquarters",
+  "name": "VectorNetworks",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-047",
+  "founder_name": "Alan Berners-Lee",
+  "headquarters_id": "bldg-039",
+  "headquarters_name": "VectorNetworks Headquarters",
   "employees": [
-    "agent-115",
-    "agent-083"
+    "agent-047",
+    "agent-176"
   ],
-  "valuation_tokens": 731184,
+  "valuation_tokens": 620016,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#10b981",
   "founded_at_tick": 4
 }

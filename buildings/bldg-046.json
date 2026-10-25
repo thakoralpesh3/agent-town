@@ -1,24 +1,24 @@
 {
   "id": "bldg-046",
-  "name": "Felix's Residential Pod #66 [SolarFusion Prime]",
-  "type": "Residential Pod",
+  "name": "Radia's Academy of Sciences #81 [OmniNetworks]",
+  "type": "Academy of Sciences",
   "position": [
-    -158.6,
-    7.3,
-    115.7
+    138.9,
+    20.2,
+    58.4
   ],
   "size": [
-    12.2,
-    14.6,
-    10.8
+    23.9,
+    40.3,
+    30.0
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-043",
-  "builder_name": "Felix Shadow",
-  "district": "Residential Quarter",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#a855f7",
+  "builder_id": "agent-173",
+  "builder_name": "Radia Perlman",
+  "district": "Innovation Matrix",
+  "company_id": "comp-006",
+  "company_name": "OmniNetworks",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Felix Shadow for Residential Pod operations"
+  "purpose": "Constructed by Radia Perlman for Academy of Sciences operations"
 }

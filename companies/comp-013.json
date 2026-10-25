@@ -1,20 +1,19 @@
 {
   "id": "comp-013",
-  "name": "CyberSystems",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
-  "founder_id": "agent-056",
-  "founder_name": "Iris Spark",
-  "headquarters_id": "bldg-046",
-  "headquarters_name": "CyberSystems Headquarters",
+  "name": "HyperIntell",
+  "sector": "Autonomous Mobility & Drones",
+  "mission": "Revolutionizing Autonomous Mobility & Drones within GitHub Tech Town.",
+  "founder_id": "agent-163",
+  "founder_name": "Zephyr LeCun",
+  "headquarters_id": "bldg-037",
+  "headquarters_name": "HyperIntell Headquarters",
   "employees": [
-    "agent-056",
-    "agent-086",
-    "agent-029",
-    "agent-009"
+    "agent-163",
+    "agent-194",
+    "agent-164"
   ],
-  "valuation_tokens": 597507,
+  "valuation_tokens": 412170,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#f59e0b",
   "founded_at_tick": 4
 }

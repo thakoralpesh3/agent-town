@@ -1,19 +1,18 @@
 {
   "id": "comp-010",
-  "name": "StellarIntell AI",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
-  "founder_id": "agent-160",
-  "founder_name": "Mira Chomsky",
-  "headquarters_id": "bldg-040",
-  "headquarters_name": "StellarIntell AI Headquarters",
+  "name": "NexusVentures",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-046",
+  "founder_name": "Kaelen Wright",
+  "headquarters_id": "bldg-032",
+  "headquarters_name": "NexusVentures Headquarters",
   "employees": [
-    "agent-160",
-    "agent-040",
-    "agent-106"
+    "agent-046",
+    "agent-134"
   ],
-  "valuation_tokens": 281228,
+  "valuation_tokens": 284194,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 3
+  "color": "#00f0ff",
+  "founded_at_tick": 4
 }

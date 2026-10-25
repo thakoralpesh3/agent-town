@@ -1,24 +1,24 @@
 {
   "id": "bldg-036",
-  "name": "Brendan's Quantum Data Center #79",
+  "name": "Edsger's Quantum Data Center #14",
   "type": "Quantum Data Center",
   "position": [
-    51.2,
-    10.2,
-    -95.8
+    140.5,
+    9.2,
+    -91.2
   ],
   "size": [
-    26.3,
-    20.4,
-    22.9
+    24.0,
+    18.5,
+    25.6
   ],
   "color": "#6366f1",
-  "builder_id": "agent-024",
-  "builder_name": "Brendan Fletcher",
+  "builder_id": "agent-064",
+  "builder_name": "Edsger Andreessen",
   "district": "Industrial Sector",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Brendan Fletcher for Quantum Data Center operations"
+  "purpose": "Constructed by Edsger Andreessen for Quantum Data Center operations"
 }

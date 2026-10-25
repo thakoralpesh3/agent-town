@@ -1,24 +1,24 @@
 {
   "id": "bldg-045",
-  "name": "Ryan's Solar Fusion Array #73",
-  "type": "Solar Fusion Array",
+  "name": "Guido's Cyber Cafe #65",
+  "type": "Cyber Cafe",
   "position": [
-    116.8,
-    4.5,
-    -46.9
+    -113.6,
+    4.6,
+    -51.8
   ],
   "size": [
-    20.2,
-    9.0,
-    17.2
+    14.8,
+    9.2,
+    13.2
   ],
-  "color": "#f97316",
-  "builder_id": "agent-099",
-  "builder_name": "Ryan Stroustrup",
-  "district": "Industrial Sector",
+  "color": "#eab308",
+  "builder_id": "agent-020",
+  "builder_name": "Guido van Rossum",
+  "district": "Cyber Commons",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Ryan Stroustrup for Solar Fusion Array operations"
+  "purpose": "Constructed by Guido van Rossum for Cyber Cafe operations"
 }

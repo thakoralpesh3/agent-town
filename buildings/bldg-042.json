@@ -1,24 +1,24 @@
 {
   "id": "bldg-042",
-  "name": "Ilya's Company Headquarters #25 [StellarLabs]",
+  "name": "Aria's Company Headquarters #24",
   "type": "Company Headquarters",
   "position": [
-    -6.4,
-    23.9,
-    -26.4
+    54.8,
+    25.3,
+    3.6
   ],
   "size": [
-    20.1,
-    47.7,
-    20.3
+    21.9,
+    50.6,
+    23.8
   ],
   "color": "#ec4899",
-  "builder_id": "agent-181",
-  "builder_name": "Ilya Hassabis",
+  "builder_id": "agent-139",
+  "builder_name": "Aria Bengio",
   "district": "Silicon Central",
-  "company_id": "comp-007",
-  "company_name": "StellarLabs",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Ilya Hassabis for Company Headquarters operations"
+  "purpose": "Constructed by Aria Bengio for Company Headquarters operations"
 }

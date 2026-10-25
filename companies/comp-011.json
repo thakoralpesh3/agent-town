@@ -1,20 +1,18 @@
 {
   "id": "comp-011",
-  "name": "DeepTechnologies",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
-  "founder_id": "agent-192",
-  "founder_name": "Cassian Blaze",
-  "headquarters_id": "bldg-042",
-  "headquarters_name": "DeepTechnologies Headquarters",
+  "name": "HyperSynthetics",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-101",
+  "founder_name": "Kira Jackson",
+  "headquarters_id": "bldg-033",
+  "headquarters_name": "HyperSynthetics Headquarters",
   "employees": [
-    "agent-192",
-    "agent-111",
-    "agent-079",
-    "agent-200"
+    "agent-101",
+    "agent-188"
   ],
-  "valuation_tokens": 743334,
+  "valuation_tokens": 738543,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 3
+  "color": "#10b981",
+  "founded_at_tick": 4
 }

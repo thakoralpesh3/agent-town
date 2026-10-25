@@ -1,24 +1,24 @@
 {
   "id": "bldg-041",
-  "name": "Demis's AI Research Lab #53",
-  "type": "AI Research Lab",
+  "name": "Bob's Vehicle Factory #59 [NeuroDynamics AI]",
+  "type": "Vehicle Factory",
   "position": [
-    136.7,
-    11.8,
-    108.3
+    49.1,
+    7.8,
+    -101.7
   ],
   "size": [
-    18.3,
-    23.5,
-    23.4
+    20.5,
+    15.6,
+    25.3
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-087",
-  "builder_name": "Demis Hopper",
-  "district": "Innovation Matrix",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f59e0b",
+  "builder_id": "agent-126",
+  "builder_name": "Bob Torvalds",
+  "district": "Industrial Sector",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Demis Hopper for AI Research Lab operations"
+  "purpose": "Constructed by Bob Torvalds for Vehicle Factory operations"
 }

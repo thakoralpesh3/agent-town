@@ -1,0 +1,20 @@
+{
+  "id": "comp-018",
+  "name": "NexusGenetics",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-190",
+  "founder_name": "Sam Johnson",
+  "headquarters_id": "bldg-051",
+  "headquarters_name": "NexusGenetics Headquarters",
+  "employees": [
+    "agent-190",
+    "agent-171",
+    "agent-179",
+    "agent-201"
+  ],
+  "valuation_tokens": 363401,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 5
+}

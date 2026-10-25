@@ -1,0 +1,18 @@
+{
+  "id": "comp-019",
+  "name": "SolarGenetics",
+  "sector": "Bio-Cybernetics & Longevity",
+  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
+  "founder_id": "agent-058",
+  "founder_name": "Zenith Helix",
+  "headquarters_id": "bldg-052",
+  "headquarters_name": "SolarGenetics Headquarters",
+  "employees": [
+    "agent-058",
+    "agent-052"
+  ],
+  "valuation_tokens": 214422,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 5
+}

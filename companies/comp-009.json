@@ -1,19 +1,20 @@
 {
   "id": "comp-009",
-  "name": "AeroRobotics",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-080",
-  "founder_name": "Callum Sutskever",
-  "headquarters_id": "bldg-036",
-  "headquarters_name": "AeroRobotics Headquarters",
+  "name": "SolarSynthetics",
+  "sector": "Autonomous Mobility & Drones",
+  "mission": "Revolutionizing Autonomous Mobility & Drones within GitHub Tech Town.",
+  "founder_id": "agent-006",
+  "founder_name": "Dennis Ritchie",
+  "headquarters_id": "bldg-031",
+  "headquarters_name": "SolarSynthetics Headquarters",
   "employees": [
-    "agent-080",
-    "agent-141",
-    "agent-028"
+    "agent-006",
+    "agent-204",
+    "agent-143",
+    "agent-082"
   ],
-  "valuation_tokens": 198134,
+  "valuation_tokens": 162707,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 2
+  "color": "#f59e0b",
+  "founded_at_tick": 4
 }

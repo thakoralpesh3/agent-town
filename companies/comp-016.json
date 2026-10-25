@@ -1,18 +1,20 @@
 {
   "id": "comp-016",
-  "name": "ApexRobotics",
-  "sector": "Clean Fusion & Solar Grid",
-  "mission": "Revolutionizing Clean Fusion & Solar Grid within GitHub Tech Town.",
-  "founder_id": "agent-013",
-  "founder_name": "Ken Thompson",
-  "headquarters_id": "bldg-054",
-  "headquarters_name": "ApexRobotics Headquarters",
+  "name": "AeroLabs",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-199",
+  "founder_name": "Satya Wozniak",
+  "headquarters_id": "bldg-047",
+  "headquarters_name": "AeroLabs Headquarters",
   "employees": [
-    "agent-013",
-    "agent-133"
+    "agent-199",
+    "agent-200",
+    "agent-086",
+    "agent-093"
   ],
-  "valuation_tokens": 663900,
+  "valuation_tokens": 479236,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 4
+  "color": "#10b981",
+  "founded_at_tick": 5
 }
