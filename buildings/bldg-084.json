@@ -1,0 +1,24 @@
+{
+  "id": "bldg-084",
+  "name": "Lyra's Residential Pod #66 [NeuroDynamics AI]",
+  "type": "Residential Pod",
+  "position": [
+    -42.4,
+    9.3,
+    87.2
+  ],
+  "size": [
+    14.1,
+    18.6,
+    11.2
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-063",
+  "builder_name": "Lyra Jobs",
+  "district": "Residential Quarter",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Lyra Jobs for Residential Pod operations"
+}

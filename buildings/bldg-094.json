@@ -1,0 +1,24 @@
+{
+  "id": "bldg-094",
+  "name": "Katherine's AI Research Lab #51 [DeepRobotics]",
+  "type": "AI Research Lab",
+  "position": [
+    146.8,
+    14.7,
+    81.7
+  ],
+  "size": [
+    21.9,
+    29.3,
+    23.9
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-092",
+  "builder_name": "Katherine Flux",
+  "district": "Innovation Matrix",
+  "company_id": "comp-030",
+  "company_name": "DeepRobotics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Katherine Flux for AI Research Lab operations"
+}

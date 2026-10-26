@@ -1,0 +1,24 @@
+{
+  "id": "bldg-090",
+  "name": "Margaret's Solar Fusion Array #99",
+  "type": "Solar Fusion Array",
+  "position": [
+    45.9,
+    4.7,
+    -82.3
+  ],
+  "size": [
+    20.1,
+    9.5,
+    17.7
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-088",
+  "builder_name": "Margaret Helix",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Margaret Helix for Solar Fusion Array operations"
+}

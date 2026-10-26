@@ -1,0 +1,24 @@
+{
+  "id": "bldg-093",
+  "name": "Vint's Holo Park #39 [NeuroGenetics]",
+  "type": "Holo Park",
+  "position": [
+    -102.2,
+    2.1,
+    -142.4
+  ],
+  "size": [
+    23.5,
+    4.1,
+    27.8
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-116",
+  "builder_name": "Vint Ritchie",
+  "district": "Cyber Commons",
+  "company_id": "comp-026",
+  "company_name": "NeuroGenetics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Vint Ritchie for Holo Park operations"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "comp-034",
+  "name": "HyperGenetics",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-164",
+  "founder_name": "Leslie Pulse",
+  "headquarters_id": "bldg-100",
+  "headquarters_name": "HyperGenetics Headquarters",
+  "employees": [
+    "agent-164",
+    "agent-110"
+  ],
+  "valuation_tokens": 509633,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 11
+}

@@ -1,0 +1,20 @@
+{
+  "id": "comp-031",
+  "name": "DeepNetworks",
+  "sector": "Bio-Cybernetics & Longevity",
+  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
+  "founder_id": "agent-132",
+  "founder_name": "Noam Smith",
+  "headquarters_id": "bldg-087",
+  "headquarters_name": "DeepNetworks Headquarters",
+  "employees": [
+    "agent-132",
+    "agent-221",
+    "agent-139",
+    "agent-196"
+  ],
+  "valuation_tokens": 564760,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 10
+}

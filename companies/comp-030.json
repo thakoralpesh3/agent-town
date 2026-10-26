@@ -1,0 +1,18 @@
+{
+  "id": "comp-030",
+  "name": "DeepRobotics",
+  "sector": "Bio-Cybernetics & Longevity",
+  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
+  "founder_id": "agent-092",
+  "founder_name": "Katherine Flux",
+  "headquarters_id": "bldg-086",
+  "headquarters_name": "DeepRobotics Headquarters",
+  "employees": [
+    "agent-092",
+    "agent-010"
+  ],
+  "valuation_tokens": 663607,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 10
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bldg-083",
+  "name": "Noam's Company Headquarters #84 [OmniGenetics]",
+  "type": "Company Headquarters",
+  "position": [
+    -16.1,
+    22.9,
+    50.4
+  ],
+  "size": [
+    23.2,
+    45.7,
+    22.1
+  ],
+  "color": "#ec4899",
+  "builder_id": "agent-149",
+  "builder_name": "Noam Liskov",
+  "district": "Silicon Central",
+  "company_id": "comp-027",
+  "company_name": "OmniGenetics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Noam Liskov for Company Headquarters operations"
+}

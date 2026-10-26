@@ -1,0 +1,24 @@
+{
+  "id": "bldg-096",
+  "name": "Dante's Solar Fusion Array #46",
+  "type": "Solar Fusion Array",
+  "position": [
+    52.9,
+    5.0,
+    -59.2
+  ],
+  "size": [
+    17.9,
+    10.0,
+    19.8
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-169",
+  "builder_name": "Dante Mason",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Dante Mason for Solar Fusion Array operations"
+}

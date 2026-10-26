@@ -1,0 +1,24 @@
+{
+  "id": "bldg-091",
+  "name": "Zephyr's Cyber Cafe #83 [HyperIntell]",
+  "type": "Cyber Cafe",
+  "position": [
+    -107.8,
+    6.2,
+    -79.5
+  ],
+  "size": [
+    16.4,
+    12.4,
+    15.6
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-163",
+  "builder_name": "Zephyr LeCun",
+  "district": "Cyber Commons",
+  "company_id": "comp-013",
+  "company_name": "HyperIntell",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zephyr LeCun for Cyber Cafe operations"
+}

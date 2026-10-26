@@ -1,0 +1,18 @@
+{
+  "id": "comp-032",
+  "name": "ApexFoundry",
+  "sector": "DeFi Treasury & Smart Law",
+  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
+  "founder_id": "agent-120",
+  "founder_name": "Selene LeCun",
+  "headquarters_id": "bldg-095",
+  "headquarters_name": "ApexFoundry Headquarters",
+  "employees": [
+    "agent-120",
+    "agent-102"
+  ],
+  "valuation_tokens": 492896,
+  "products": [],
+  "color": "#eab308",
+  "founded_at_tick": 11
+}

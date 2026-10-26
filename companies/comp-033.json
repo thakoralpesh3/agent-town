@@ -1,0 +1,20 @@
+{
+  "id": "comp-033",
+  "name": "NeuroVentures",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-187",
+  "founder_name": "Alan Orbit",
+  "headquarters_id": "bldg-098",
+  "headquarters_name": "NeuroVentures Headquarters",
+  "employees": [
+    "agent-187",
+    "agent-020",
+    "agent-215",
+    "agent-214"
+  ],
+  "valuation_tokens": 486432,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 11
+}

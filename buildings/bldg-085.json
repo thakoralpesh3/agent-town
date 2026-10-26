@@ -1,0 +1,24 @@
+{
+  "id": "bldg-085",
+  "name": "Nexus's Academy of Sciences #74",
+  "type": "Academy of Sciences",
+  "position": [
+    124.9,
+    13.0,
+    152.6
+  ],
+  "size": [
+    24.5,
+    26.0,
+    24.5
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-211",
+  "builder_name": "Nexus Szabo",
+  "district": "Innovation Matrix",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Nexus Szabo for Academy of Sciences operations"
+}

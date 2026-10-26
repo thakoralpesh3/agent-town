@@ -1,0 +1,24 @@
+{
+  "id": "bldg-099",
+  "name": "Axel's Cyber Cafe #51",
+  "type": "Cyber Cafe",
+  "position": [
+    -49.3,
+    4.0,
+    -130.7
+  ],
+  "size": [
+    15.2,
+    8.0,
+    12.6
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-062",
+  "builder_name": "Axel Apex",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Axel Apex for Cyber Cafe operations"
+}
