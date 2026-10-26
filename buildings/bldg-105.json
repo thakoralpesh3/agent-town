@@ -1,0 +1,24 @@
+{
+  "id": "bldg-105",
+  "name": "Satoshi's Cyber Cafe #97 [SolarFusion Prime]",
+  "type": "Cyber Cafe",
+  "position": [
+    -86.9,
+    6.6,
+    -30.1
+  ],
+  "size": [
+    16.7,
+    13.2,
+    15.4
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-197",
+  "builder_name": "Satoshi Rayne",
+  "district": "Cyber Commons",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Satoshi Rayne for Cyber Cafe operations"
+}

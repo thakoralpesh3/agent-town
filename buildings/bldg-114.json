@@ -1,0 +1,24 @@
+{
+  "id": "bldg-114",
+  "name": "Marc's Academy of Sciences #25 [NexusGenetics]",
+  "type": "Academy of Sciences",
+  "position": [
+    62.5,
+    17.0,
+    90.9
+  ],
+  "size": [
+    30.8,
+    34.0,
+    23.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-171",
+  "builder_name": "Marc Helix",
+  "district": "Innovation Matrix",
+  "company_id": "comp-018",
+  "company_name": "NexusGenetics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Marc Helix for Academy of Sciences operations"
+}

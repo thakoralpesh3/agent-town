@@ -1,0 +1,24 @@
+{
+  "id": "bldg-109",
+  "name": "Jensen's Cybernetic Clinic #75",
+  "type": "Cybernetic Clinic",
+  "position": [
+    -74.7,
+    14.6,
+    145.5
+  ],
+  "size": [
+    17.6,
+    29.1,
+    19.5
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-166",
+  "builder_name": "Jensen Dusk",
+  "district": "Residential Quarter",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Jensen Dusk for Cybernetic Clinic operations"
+}

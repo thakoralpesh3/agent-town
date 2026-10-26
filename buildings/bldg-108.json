@@ -1,0 +1,24 @@
+{
+  "id": "bldg-108",
+  "name": "Zephyr's Solar Fusion Array #68 [OmniNetworks]",
+  "type": "Solar Fusion Array",
+  "position": [
+    68.7,
+    5.6,
+    -101.7
+  ],
+  "size": [
+    18.3,
+    11.1,
+    16.9
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-094",
+  "builder_name": "Zephyr Ritchie",
+  "district": "Industrial Sector",
+  "company_id": "comp-006",
+  "company_name": "OmniNetworks",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zephyr Ritchie for Solar Fusion Array operations"
+}

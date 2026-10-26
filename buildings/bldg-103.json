@@ -1,0 +1,24 @@
+{
+  "id": "bldg-103",
+  "name": "Woz's AI Research Lab #91",
+  "type": "AI Research Lab",
+  "position": [
+    151.1,
+    17.2,
+    130.6
+  ],
+  "size": [
+    18.3,
+    34.4,
+    19.6
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-123",
+  "builder_name": "Woz Altman",
+  "district": "Innovation Matrix",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Woz Altman for AI Research Lab operations"
+}

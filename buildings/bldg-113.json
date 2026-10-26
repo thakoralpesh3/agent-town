@@ -1,0 +1,24 @@
+{
+  "id": "bldg-113",
+  "name": "Vesper's Tech Tower #44",
+  "type": "Tech Tower",
+  "position": [
+    29.7,
+    19.2,
+    11.2
+  ],
+  "size": [
+    15.0,
+    38.4,
+    17.1
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-051",
+  "builder_name": "Vesper Cross",
+  "district": "Silicon Central",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Vesper Cross for Tech Tower operations"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "comp-037",
+  "name": "HyperGenetics AI",
+  "sector": "Quantum Computing & Encryption",
+  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
+  "founder_id": "agent-217",
+  "founder_name": "Ronan Blaze",
+  "headquarters_id": "bldg-106",
+  "headquarters_name": "HyperGenetics AI Headquarters",
+  "employees": [
+    "agent-217",
+    "agent-023"
+  ],
+  "valuation_tokens": 588906,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 12
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bldg-117",
+  "name": "Satya's Cybernetic Clinic #48 [VectorMatrix]",
+  "type": "Cybernetic Clinic",
+  "position": [
+    -145.1,
+    11.4,
+    129.4
+  ],
+  "size": [
+    17.1,
+    22.9,
+    16.8
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-142",
+  "builder_name": "Satya Liskov",
+  "district": "Residential Quarter",
+  "company_id": "comp-015",
+  "company_name": "VectorMatrix",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Satya Liskov for Cybernetic Clinic operations"
+}

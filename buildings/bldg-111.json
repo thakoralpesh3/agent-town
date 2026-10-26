@@ -1,0 +1,24 @@
+{
+  "id": "bldg-111",
+  "name": "Linus's Tech Tower #62",
+  "type": "Tech Tower",
+  "position": [
+    52.7,
+    21.9,
+    -14.9
+  ],
+  "size": [
+    18.8,
+    43.8,
+    17.4
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-168",
+  "builder_name": "Linus Frost",
+  "district": "Silicon Central",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Linus Frost for Tech Tower operations"
+}

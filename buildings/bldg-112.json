@@ -1,0 +1,24 @@
+{
+  "id": "bldg-112",
+  "name": "Edsger's Vehicle Factory #37",
+  "type": "Vehicle Factory",
+  "position": [
+    82.0,
+    9.9,
+    -132.4
+  ],
+  "size": [
+    20.4,
+    19.7,
+    24.2
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-064",
+  "builder_name": "Edsger Andreessen",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Edsger Andreessen for Vehicle Factory operations"
+}

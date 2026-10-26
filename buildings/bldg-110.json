@@ -1,0 +1,24 @@
+{
+  "id": "bldg-110",
+  "name": "Mira's Academy of Sciences #24",
+  "type": "Academy of Sciences",
+  "position": [
+    81.5,
+    20.9,
+    101.2
+  ],
+  "size": [
+    28.2,
+    41.8,
+    27.8
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-150",
+  "builder_name": "Mira LeCun",
+  "district": "Innovation Matrix",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Mira LeCun for Academy of Sciences operations"
+}

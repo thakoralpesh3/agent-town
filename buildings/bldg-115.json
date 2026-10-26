@@ -1,0 +1,24 @@
+{
+  "id": "bldg-115",
+  "name": "Zane's Vehicle Factory #48 [QuantumMatrix Corp]",
+  "type": "Vehicle Factory",
+  "position": [
+    27.9,
+    10.2,
+    -83.2
+  ],
+  "size": [
+    20.1,
+    20.5,
+    20.6
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-208",
+  "builder_name": "Zane Johnson",
+  "district": "Industrial Sector",
+  "company_id": "comp-003",
+  "company_name": "QuantumMatrix Corp",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Zane Johnson for Vehicle Factory operations"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bldg-107",
+  "name": "Cipher's Vehicle Factory #17 [AeroCyber Robotics]",
+  "type": "Vehicle Factory",
+  "position": [
+    30.3,
+    10.8,
+    -116.4
+  ],
+  "size": [
+    25.1,
+    21.6,
+    20.6
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-097",
+  "builder_name": "Cipher Armstrong",
+  "district": "Industrial Sector",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Cipher Armstrong for Vehicle Factory operations"
+}
