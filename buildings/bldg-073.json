@@ -1,0 +1,24 @@
+{
+  "id": "bldg-073",
+  "name": "Morrigan's Residential Pod #36",
+  "type": "Residential Pod",
+  "position": [
+    -138.8,
+    8.2,
+    43.5
+  ],
+  "size": [
+    11.1,
+    16.3,
+    13.9
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-031",
+  "builder_name": "Morrigan Buterin",
+  "district": "Residential Quarter",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Morrigan Buterin for Residential Pod operations"
+}

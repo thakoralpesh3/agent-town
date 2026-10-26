@@ -1,0 +1,18 @@
+{
+  "id": "comp-028",
+  "name": "CyberSystems",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-037",
+  "founder_name": "Alan Li",
+  "headquarters_id": "bldg-072",
+  "headquarters_name": "CyberSystems Headquarters",
+  "employees": [
+    "agent-037",
+    "agent-045"
+  ],
+  "valuation_tokens": 565173,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 8
+}

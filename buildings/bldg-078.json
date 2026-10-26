@@ -1,0 +1,24 @@
+{
+  "id": "bldg-078",
+  "name": "Mary's Cyber Cafe #15 [AeroCyber Robotics]",
+  "type": "Cyber Cafe",
+  "position": [
+    -127.9,
+    6.5,
+    -121.3
+  ],
+  "size": [
+    14.0,
+    13.0,
+    14.7
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-026",
+  "builder_name": "Mary Rayne",
+  "district": "Cyber Commons",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Mary Rayne for Cyber Cafe operations"
+}

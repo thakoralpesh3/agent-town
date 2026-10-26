@@ -1,0 +1,24 @@
+{
+  "id": "bldg-077",
+  "name": "Cipher's Vehicle Factory #92",
+  "type": "Vehicle Factory",
+  "position": [
+    96.9,
+    11.0,
+    -60.1
+  ],
+  "size": [
+    23.1,
+    21.9,
+    24.1
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-215",
+  "builder_name": "Cipher Pichai",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Cipher Pichai for Vehicle Factory operations"
+}

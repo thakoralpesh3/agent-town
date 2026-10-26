@@ -1,0 +1,24 @@
+{
+  "id": "bldg-074",
+  "name": "Donald's Cyber Cafe #52 [HyperDynamics]",
+  "type": "Cyber Cafe",
+  "position": [
+    -29.0,
+    6.8,
+    -96.3
+  ],
+  "size": [
+    14.3,
+    13.6,
+    16.6
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-014",
+  "builder_name": "Donald Knuth",
+  "district": "Cyber Commons",
+  "company_id": "comp-017",
+  "company_name": "HyperDynamics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Donald Knuth for Cyber Cafe operations"
+}

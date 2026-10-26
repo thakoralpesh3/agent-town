@@ -1,0 +1,24 @@
+{
+  "id": "bldg-079",
+  "name": "Leslie's Solar Fusion Array #77 [NeuroDynamics AI]",
+  "type": "Solar Fusion Array",
+  "position": [
+    71.5,
+    5.2,
+    -56.8
+  ],
+  "size": [
+    17.9,
+    10.4,
+    19.7
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-124",
+  "builder_name": "Leslie Altman",
+  "district": "Industrial Sector",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Leslie Altman for Solar Fusion Array operations"
+}

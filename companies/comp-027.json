@@ -1,0 +1,20 @@
+{
+  "id": "comp-027",
+  "name": "OmniGenetics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-210",
+  "founder_name": "Helios Smith",
+  "headquarters_id": "bldg-071",
+  "headquarters_name": "OmniGenetics Headquarters",
+  "employees": [
+    "agent-210",
+    "agent-161",
+    "agent-048",
+    "agent-149"
+  ],
+  "valuation_tokens": 156433,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 8
+}

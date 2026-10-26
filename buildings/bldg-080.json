@@ -1,0 +1,24 @@
+{
+  "id": "bldg-080",
+  "name": "Veda's Tech Tower #96 [AeroFoundry]",
+  "type": "Tech Tower",
+  "position": [
+    -11.0,
+    27.9,
+    14.8
+  ],
+  "size": [
+    17.1,
+    55.8,
+    16.0
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-141",
+  "builder_name": "Veda Strata",
+  "district": "Silicon Central",
+  "company_id": "comp-021",
+  "company_name": "AeroFoundry",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Veda Strata for Tech Tower operations"
+}

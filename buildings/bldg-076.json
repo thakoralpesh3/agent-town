@@ -1,0 +1,24 @@
+{
+  "id": "bldg-076",
+  "name": "Margaret's Company Headquarters #92 [QuantumMatrix Corp]",
+  "type": "Company Headquarters",
+  "position": [
+    -25.1,
+    26.4,
+    29.5
+  ],
+  "size": [
+    21.5,
+    52.8,
+    25.4
+  ],
+  "color": "#ec4899",
+  "builder_id": "agent-005",
+  "builder_name": "Margaret Hamilton",
+  "district": "Silicon Central",
+  "company_id": "comp-003",
+  "company_name": "QuantumMatrix Corp",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Margaret Hamilton for Company Headquarters operations"
+}

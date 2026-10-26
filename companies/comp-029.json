@@ -1,0 +1,19 @@
+{
+  "id": "comp-029",
+  "name": "NeuroDynamics",
+  "sector": "Bio-Cybernetics & Longevity",
+  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
+  "founder_id": "agent-050",
+  "founder_name": "Marc Tinkerer",
+  "headquarters_id": "bldg-081",
+  "headquarters_name": "NeuroDynamics Headquarters",
+  "employees": [
+    "agent-050",
+    "agent-218",
+    "agent-038"
+  ],
+  "valuation_tokens": 364935,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 9
+}

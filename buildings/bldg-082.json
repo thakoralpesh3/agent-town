@@ -1,0 +1,24 @@
+{
+  "id": "bldg-082",
+  "name": "Leonardo's Tech Tower #71 [NeuroDynamics AI]",
+  "type": "Tech Tower",
+  "position": [
+    -46.0,
+    24.5,
+    28.4
+  ],
+  "size": [
+    15.9,
+    49.0,
+    15.0
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-018",
+  "builder_name": "Leonardo Cyber",
+  "district": "Silicon Central",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Leonardo Cyber for Tech Tower operations"
+}
