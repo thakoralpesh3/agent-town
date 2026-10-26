@@ -1,24 +1,42 @@
 {
   "id": "bldg-026",
-  "name": "Donald's Academy of Sciences #32 [AeroCyber Robotics]",
-  "type": "Academy of Sciences",
+  "name": "Rune's Cyber Cafe #72 [OpenKernel Core]",
+  "type": "Cyber Cafe",
   "position": [
-    94.0,
-    15.0,
-    70.9
+    -58.0,
+    8.2,
+    -114.8
   ],
   "size": [
-    31.1,
-    30.0,
-    25.5
+    15.3,
+    16.4,
+    19.0
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-033",
-  "builder_name": "Donald Mercer",
-  "district": "Innovation Matrix",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#eab308",
+  "builder_id": "agent-187",
+  "builder_name": "Rune Chomsky",
+  "district": "Cyber Commons",
+  "company_id": "comp-005",
+  "company_name": "OpenKernel Core",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Donald Mercer for Academy of Sciences operations"
+  "occupants": [
+    "Rune Chomsky"
+  ],
+  "purpose": "Constructed by Rune Chomsky for Cyber Cafe operations",
+  "floors": 2,
+  "capacity": 22,
+  "departments": [
+    "Quantum Barista Bar",
+    "Open Hackathon Lounge",
+    "Civic Forum"
+  ],
+  "amenities": [
+    "High-Bandwidth Wi-Fi",
+    "Nutrient Synthesizers",
+    "Acoustic Privacy Pods"
+  ],
+  "power_consumption_mw": 4.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

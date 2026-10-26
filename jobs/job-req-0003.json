@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0003",
+  "role": "Spatial Audio Acoustic Designer",
+  "category": "Art",
+  "specialization": "Noise-Cancelled Serene Districts",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cyber Living Pod Alpha",
+  "salary_offered": 13100,
+  "created_at_tick": 3,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-263",
+  "filled_by_agent_name": "Callum Tinkerer"
+}

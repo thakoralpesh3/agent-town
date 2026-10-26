@@ -1,24 +1,42 @@
 {
   "id": "bldg-024",
-  "name": "John's Quantum Data Center #62 [AeroCyber Robotics]",
-  "type": "Quantum Data Center",
+  "name": "Katherine's Cyber Cafe #48",
+  "type": "Cyber Cafe",
   "position": [
-    146.1,
-    10.5,
-    -121.5
+    -47.7,
+    5.7,
+    -79.9
   ],
   "size": [
-    25.4,
-    21.1,
-    22.2
+    17.8,
+    11.3,
+    15.8
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-140",
-  "builder_name": "John Cerf",
-  "district": "Industrial Sector",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#eab308",
+  "builder_id": "agent-120",
+  "builder_name": "Katherine Apex",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by John Cerf for Quantum Data Center operations"
+  "occupants": [
+    "Katherine Apex"
+  ],
+  "purpose": "Constructed by Katherine Apex for Cyber Cafe operations",
+  "floors": 2,
+  "capacity": 22,
+  "departments": [
+    "Quantum Barista Bar",
+    "Open Hackathon Lounge",
+    "Civic Forum"
+  ],
+  "amenities": [
+    "High-Bandwidth Wi-Fi",
+    "Nutrient Synthesizers",
+    "Acoustic Privacy Pods"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

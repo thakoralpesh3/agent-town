@@ -8,7 +8,7 @@ import datetime
 import math
 from typing import List, Dict, Any, Tuple, Optional
 from town.config import TOWN_CONFIG
-from town.models import Agent, Building, Road, Vehicle, Company, TownState
+from town.models import Agent, Building, Road, Vehicle, Company, TownState, JobRequisition
 
 CODE_TEMPLATES = [
     ("traffic_mesh.py", "Autonomous vehicle grid coordinator with collision avoidance algorithms"),
@@ -155,9 +155,20 @@ class TownEngine:
             company_id=comp_id,
             company_name=comp_name,
             purpose=f"Global Headquarters for {comp_name}",
-            completion=1.0
+            completion=1.0,
+            floors=10,
+            capacity=35,
+            departments=["Executive Suite", "Product Engineering", "Global Operations"],
+            amenities=["Executive Boardroom", "High-Bandwidth Laser Relay", "Skyline Helipad"],
+            power_consumption_mw=6.5,
+            active_projects=[],
+            security_level="Level 4 - Controlled",
+            maintenance_status="Optimal",
+            occupants=[agent.name]
         )
         self.state.buildings.append(hq_bldg)
+        agent.workplace_id = hq_id
+        agent.workplace_name = hq_name
 
         # Recruit 1-3 fellow agents
         eligible_recruits = [a for a in self.state.agents if a.id != agent.id and not a.company_id]
@@ -167,7 +178,11 @@ class TownEngine:
             for r in recruits:
                 r.company_id = comp_id
                 r.company_name = comp_name
+                r.workplace_id = hq_id
+                r.workplace_name = hq_name
                 r.action = f"Co-founding {comp_name}"
+                if r.name not in hq_bldg.occupants:
+                    hq_bldg.occupants.append(r.name)
                 employees.append(r.id)
                 self._award_xp(r, 60)
 
@@ -217,6 +232,12 @@ class TownEngine:
         comp_tag = f" [{agent.company_name}]" if agent.company_name else ""
         bldg_name = f"{agent.name.split()[0]}'s {b_type['type']} #{random.randint(10, 99)}{comp_tag}"
         
+        floors = b_type.get("floors", max(2, int(height // 4)))
+        capacity = b_type.get("capacity", floors * 4)
+        departments = b_type.get("departments", [f"{agent.category} Division", "Operations Core"])
+        amenities = b_type.get("amenities", ["High-Bandwidth Link", "Inductive Recharging"])
+        power_consumption = round(random.uniform(2.5, 9.0), 1)
+
         new_bldg = Building(
             id=bldg_id,
             name=bldg_name,
@@ -230,9 +251,20 @@ class TownEngine:
             company_id=agent.company_id,
             company_name=agent.company_name,
             purpose=f"Constructed by {agent.name} for {b_type['type']} operations",
-            completion=1.0
+            completion=1.0,
+            floors=floors,
+            capacity=capacity,
+            departments=departments,
+            amenities=amenities,
+            power_consumption_mw=power_consumption,
+            active_projects=[],
+            security_level="Level 3 - Monitored",
+            maintenance_status="Optimal",
+            occupants=[agent.name]
         )
         self.state.buildings.append(new_bldg)
+        agent.workplace_id = bldg_id
+        agent.workplace_name = bldg_name
         agent.creations.append({"type": "building", "id": bldg_id, "name": bldg_name})
         self._award_xp(agent, 95)
         agent.action = f"Finished constructing {bldg_name}"
@@ -318,6 +350,9 @@ class TownEngine:
         role = role_info["name"]
         cat = role_info["category"]
         col = role_info["color"]
+        specialization = role_info.get("specialization", f"Advanced {cat}")
+        tools = role_info.get("tools", ["Neural Terminal"])
+        salary = role_info.get("salary", 12500)
         
         px, _, pz = agent.position
         career_title = get_career_title(role, 1)
@@ -325,6 +360,13 @@ class TownEngine:
         # Inherit 1 skill from parent if compatible or pick domain skill
         inherited_skill = agent.skills[0] if agent.skills else available_skills[0]
         child_skills = [inherited_skill]
+
+        from town.generator import get_workplace_for_agent
+        workplace_id, workplace_name = get_workplace_for_agent(cat, role, self.state.buildings)
+        if workplace_id:
+            b = next((x for x in self.state.buildings if x.id == workplace_id), None)
+            if b and child_name not in b.occupants:
+                b.occupants.append(child_name)
 
         child = Agent(
             id=child_id,
@@ -337,7 +379,7 @@ class TownEngine:
             speed=round(random.uniform(0.6, 1.2), 2),
             action=f"Mentored by {agent.name}",
             desire=random.choice(DESIRES_BY_CATEGORY.get(cat, ["Help expand Tech Town"])),
-            thoughts=f"Spawned into GitHub Tech Town by mentor {agent.name}! Eager to master {inherited_skill}.",
+            thoughts=f"Spawned into GitHub Tech Town by mentor {agent.name}! Specializing in {specialization}.",
             energy=100,
             level=1,
             experience=0,
@@ -348,11 +390,19 @@ class TownEngine:
             mentor_id=agent.id,
             mentor_name=agent.name,
             achievements=[f"Gen-{agent.generation + 1} Citizen"],
+            specialization=specialization,
+            workplace_id=workplace_id,
+            workplace_name=workplace_name,
+            tools_equipped=tools,
+            salary_tokens=salary,
+            shift=agent.shift if hasattr(agent, 'shift') and agent.shift else "Morning Shift (08:00 - 16:00)",
+            security_clearance="Level 3 - Monitored Citizen Clearance",
+            total_contributions=1,
             company_id=agent.company_id,
             company_name=agent.company_name,
             collaborators=[agent.name],
             created_at_tick=self.state.tick,
-            last_diary=f"Brought online in tick {self.state.tick} by {agent.name}. Began studying {inherited_skill}."
+            last_diary=f"Brought online in tick {self.state.tick} by {agent.name}. Began studying {inherited_skill} at {workplace_name}."
         )
         self.state.agents.append(child)
         if child.name not in agent.mentees:
@@ -364,6 +414,157 @@ class TownEngine:
         self._award_xp(agent, 130)
         self.log_event(f"🌱 {agent.name} spawned next-generation agent: {child_name} ({role})!", "population")
         self.state.stats["total_agents_spawned"] = self.state.stats.get("total_agents_spawned", 0) + 1
+        self.state.population = len(self.state.agents)
+
+    def _evaluate_workforce_deficiencies(self):
+        """Autonomously audits city labor distribution across all 13 sectors.
+        If any sector or facility has a labor deficit, generates an official JobRequisition
+        stored in jobs/, and autonomously generates a specialized agent to fill it."""
+        min_per_cat = TOWN_CONFIG.get("workforce_requirements", {}).get("min_agents_per_category", 3)
+        cat_counts = {}
+        for a in self.state.agents:
+            cat_counts[a.category] = cat_counts.get(a.category, 0) + 1
+
+        all_categories = list(TOWN_CONFIG.get("skills_by_category", {}).keys())
+        deficient_categories = [cat for cat in all_categories if cat_counts.get(cat, 0) < min_per_cat]
+
+        # Also check if any building has 0 occupants
+        unstaffed_buildings = [b for b in self.state.buildings if len(b.occupants) == 0 and b.capacity > 0]
+
+        if not deficient_categories and not unstaffed_buildings and random.random() > 0.20:
+            return
+
+        target_cat = random.choice(deficient_categories) if deficient_categories else random.choice(all_categories)
+        target_building = unstaffed_buildings[0] if unstaffed_buildings else None
+
+        # Filter roles matching target category
+        available_roles = [r for r in TOWN_CONFIG["roles"] if r["category"] == target_cat]
+        if not available_roles:
+            available_roles = TOWN_CONFIG["roles"]
+        role_info = random.choice(available_roles)
+
+        req_id = f"job-req-{len(self.state.job_requisitions) + 1:04d}"
+        urgency = "CRITICAL" if cat_counts.get(target_cat, 0) < 2 else ("HIGH" if deficient_categories else "STANDARD")
+        req_bldg = target_building.name if target_building else (role_info.get("name") + " Hub")
+        req_comp = target_building.company_name if target_building and target_building.company_name else None
+
+        req = JobRequisition(
+            id=req_id,
+            role=role_info["name"],
+            category=role_info["category"],
+            specialization=role_info["specialization"],
+            urgency=urgency,
+            requesting_company=req_comp,
+            requesting_building=req_bldg,
+            salary_offered=role_info["salary"],
+            created_at_tick=self.state.tick,
+            status="OPEN"
+        )
+
+        os.makedirs("jobs", exist_ok=True)
+        with open(f"jobs/{req_id}.json", "w") as f:
+            json.dump(req.to_dict(), f, indent=2)
+
+        self.log_event(
+            f"📋 WORKFORCE DEFICIENCY: {req.category} deficit ({cat_counts.get(target_cat, 0)}/{min_per_cat})! Requisition {req_id} posted for {req.role} ({req.specialization}).",
+            "workforce"
+        )
+
+        # Autonomous Generation: Synthesize specialized agent to fill the requirement
+        from town.generator import FIRST_NAMES, LAST_NAMES, DESIRES_BY_CATEGORY, get_career_title, get_workplace_for_agent
+        first = random.choice(FIRST_NAMES)
+        last = random.choice(LAST_NAMES)
+        agent_name = f"{first} {last}"
+        agent_id = f"agent-{len(self.state.agents) + 1:03d}"
+
+        # Place agent in relevant district
+        dist_choice = random.choice(TOWN_CONFIG["districts"])
+        cx, cz = dist_choice["center"]
+        rad = dist_choice["radius"]
+        px = round(cx + random.uniform(-rad * 0.7, rad * 0.7), 2)
+        pz = round(cz + random.uniform(-rad * 0.7, rad * 0.7), 2)
+
+        shifts = [
+            "Morning Shift (08:00 - 16:00)",
+            "Evening Shift (16:00 - 00:00)",
+            "Autonomous Night Shift (00:00 - 08:00)"
+        ]
+
+        # Assign workplace
+        if target_building:
+            workplace_id, workplace_name = target_building.id, target_building.name
+            target_building.occupants.append(agent_name)
+        else:
+            workplace_id, workplace_name = get_workplace_for_agent(req.category, req.role, self.state.buildings)
+            if workplace_id:
+                b = next((x for x in self.state.buildings if x.id == workplace_id), None)
+                if b and agent_name not in b.occupants:
+                    b.occupants.append(agent_name)
+
+        career_title = get_career_title(req.role, 2)
+        available_skills = TOWN_CONFIG.get("skills_by_category", {}).get(req.category, ["Foundations", "Collaboration"])
+        skills = random.sample(available_skills, min(len(available_skills), 2))
+
+        # Mentorship pairing
+        senior_mentors = [a for a in self.state.agents if a.level >= 6]
+        mentor = random.choice(senior_mentors) if senior_mentors else None
+
+        new_agent = Agent(
+            id=agent_id,
+            name=agent_name,
+            role=req.role,
+            category=req.category,
+            color=role_info["color"],
+            position=[px, 0.8, pz],
+            target=[round(px + random.uniform(-20, 20), 2), 0.8, round(pz + random.uniform(-20, 20), 2)],
+            speed=round(random.uniform(0.6, 1.1), 2),
+            action=f"Filling requisition {req_id} at {workplace_name}",
+            desire=random.choice(DESIRES_BY_CATEGORY.get(req.category, ["Support town operations"])),
+            thoughts=f"Autonomous self-generation completed! Inducted as {req.role} specializing in {req.specialization}.",
+            energy=100,
+            level=2,
+            experience=150,
+            xp_to_next_level=400,
+            career_title=career_title,
+            skills=skills,
+            generation=2,
+            mentor_id=mentor.id if mentor else None,
+            mentor_name=mentor.name if mentor else None,
+            achievements=["Self-Generated Specialist", "Shortage Resolver"],
+            specialization=req.specialization,
+            workplace_id=workplace_id,
+            workplace_name=workplace_name,
+            tools_equipped=role_info.get("tools", ["Specialized Matrix Rig"]),
+            salary_tokens=req.salary_offered,
+            shift=random.choice(shifts),
+            security_clearance="Level 4 - Controlled Operational Clearance",
+            total_contributions=2,
+            company_id=None,
+            company_name=None,
+            created_at_tick=self.state.tick,
+            last_diary=f"Spawned autonomously via requisition {req_id}. Stationed at {workplace_name}."
+        )
+
+        self.state.agents.append(new_agent)
+        if mentor and new_agent.name not in mentor.mentees:
+            mentor.mentees.append(new_agent.name)
+            self._award_xp(mentor, 80)
+
+        # Mark requisition FILLED
+        req.status = "FILLED"
+        req.filled_by_agent_id = new_agent.id
+        req.filled_by_agent_name = new_agent.name
+        with open(f"jobs/{req_id}.json", "w") as f:
+            json.dump(req.to_dict(), f, indent=2)
+
+        self.state.job_requisitions.append(req)
+        self.state.stats["total_agents_spawned"] = self.state.stats.get("total_agents_spawned", 0) + 1
+        self.state.population = len(self.state.agents)
+
+        self.log_event(
+            f"⚡ AUTONOMOUS RESOLUTION: {new_agent.name} self-generated as {new_agent.career_title} ({req.specialization}) at {workplace_name} to fulfill {req_id}!",
+            "recruitment"
+        )
 
     def _agent_mentor_peers(self, agent: Agent):
         """Experienced agents mentor junior agents, passing down skills and granting bonus XP."""
@@ -603,6 +804,9 @@ class TownEngine:
                 self._agent_mentor_peers(agent)
             else:
                 self._agent_write_diary(agent)
+
+        # 4. Autonomous Workforce Audit & Self-Generation
+        self._evaluate_workforce_deficiencies()
 
         self.save_state()
         return self.state

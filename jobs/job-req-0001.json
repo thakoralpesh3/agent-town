@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0001",
+  "role": "Town Chief Historian",
+  "category": "Society",
+  "specialization": "Cultural Heritage & Civic Milestones",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Von Neumann Citadel",
+  "salary_offered": 12800,
+  "created_at_tick": 1,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-252",
+  "filled_by_agent_name": "Zephyr Thompson"
+}

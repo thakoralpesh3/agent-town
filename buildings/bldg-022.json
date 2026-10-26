@@ -1,24 +1,42 @@
 {
   "id": "bldg-022",
-  "name": "Valen's Solar Fusion Array #88",
-  "type": "Solar Fusion Array",
+  "name": "Rob's Academy of Sciences #98 [PrismDynamics]",
+  "type": "Academy of Sciences",
   "position": [
-    107.6,
-    4.2,
-    -66.6
+    84.6,
+    21.9,
+    98.1
   ],
   "size": [
-    18.8,
-    8.4,
-    18.3
+    32.4,
+    43.9,
+    28.7
   ],
-  "color": "#f97316",
-  "builder_id": "agent-085",
-  "builder_name": "Valen Dusk",
-  "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "color": "#a855f7",
+  "builder_id": "agent-134",
+  "builder_name": "Rob Sutskever",
+  "district": "Innovation Matrix",
+  "company_id": "comp-007",
+  "company_name": "PrismDynamics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Valen Dusk for Solar Fusion Array operations"
+  "occupants": [
+    "Rob Sutskever"
+  ],
+  "purpose": "Constructed by Rob Sutskever for Academy of Sciences operations",
+  "floors": 8,
+  "capacity": 35,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic Guild",
+    "Grand Lecture Amphitheater"
+  ],
+  "amenities": [
+    "Holographic Planetarium",
+    "Ancient Algorithm Archive",
+    "Apprentice Studios"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

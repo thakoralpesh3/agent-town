@@ -1,24 +1,42 @@
 {
   "id": "bldg-021",
-  "name": "Margaret's AI Research Lab #86",
-  "type": "AI Research Lab",
+  "name": "Axel's Cybernetic Clinic #71",
+  "type": "Cybernetic Clinic",
   "position": [
-    126.5,
-    15.7,
-    99.1
+    -92.3,
+    16.4,
+    43.1
   ],
   "size": [
-    23.9,
-    31.4,
-    18.8
+    18.8,
+    32.9,
+    23.5
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-088",
-  "builder_name": "Margaret Helix",
-  "district": "Innovation Matrix",
+  "color": "#ef4444",
+  "builder_id": "agent-108",
+  "builder_name": "Axel Apex",
+  "district": "Residential Quarter",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Margaret Helix for AI Research Lab operations"
+  "occupants": [
+    "Axel Apex"
+  ],
+  "purpose": "Constructed by Axel Apex for Cybernetic Clinic operations",
+  "floors": 6,
+  "capacity": 24,
+  "departments": [
+    "Trauma & First Response",
+    "Nanomedicine Lab",
+    "Prosthetic Integration"
+  ],
+  "amenities": [
+    "Cellular Regeneration Pods",
+    "Bio-Telemetry Network",
+    "Sterile Nanotech Suites"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

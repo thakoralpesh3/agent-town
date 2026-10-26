@@ -1,24 +1,42 @@
 {
   "id": "bldg-027",
-  "name": "Roxas's Solar Fusion Array #79",
-  "type": "Solar Fusion Array",
+  "name": "Orion's Tech Tower #21",
+  "type": "Tech Tower",
   "position": [
-    135.6,
-    4.0,
-    -126.3
+    -26.5,
+    26.3,
+    -4.7
   ],
   "size": [
-    19.5,
-    8.0,
-    16.4
+    16.2,
+    52.6,
+    17.8
   ],
-  "color": "#f97316",
-  "builder_id": "agent-024",
-  "builder_name": "Roxas Lamport",
-  "district": "Industrial Sector",
+  "color": "#0ea5e9",
+  "builder_id": "agent-075",
+  "builder_name": "Orion Dahl",
+  "district": "Silicon Central",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Roxas Lamport for Solar Fusion Array operations"
+  "occupants": [
+    "Orion Dahl"
+  ],
+  "purpose": "Constructed by Orion Dahl for Tech Tower operations",
+  "floors": 12,
+  "capacity": 30,
+  "departments": [
+    "Systems Engineering",
+    "Kernel Lab",
+    "Cloud Infrastructure"
+  ],
+  "amenities": [
+    "Hyper-Speed Uplink",
+    "Rooftop Drone Pad",
+    "Quantum Server Vault"
+  ],
+  "power_consumption_mw": 4.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

@@ -1,24 +1,42 @@
 {
   "id": "bldg-019",
-  "name": "Cyrus's AI Research Lab #37 [QuantumMatrix Corp]",
-  "type": "AI Research Lab",
+  "name": "Satya's Quantum Data Center #19",
+  "type": "Quantum Data Center",
   "position": [
-    112.0,
-    16.0,
-    40.0
+    51.7,
+    10.9,
+    -136.2
   ],
   "size": [
-    21.6,
-    31.9,
-    19.0
+    24.7,
+    21.7,
+    23.9
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-044",
-  "builder_name": "Cyrus Armstrong",
-  "district": "Innovation Matrix",
-  "company_id": "comp-003",
-  "company_name": "QuantumMatrix Corp",
+  "color": "#6366f1",
+  "builder_id": "agent-217",
+  "builder_name": "Satya Foundry",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Cyrus Armstrong for AI Research Lab operations"
+  "occupants": [
+    "Satya Foundry"
+  ],
+  "purpose": "Constructed by Satya Foundry for Quantum Data Center operations",
+  "floors": 4,
+  "capacity": 15,
+  "departments": [
+    "Cryogenic Qubit Floor",
+    "Optical Interconnect Array",
+    "Security Guard"
+  ],
+  "amenities": [
+    "Liquid Helium Loop",
+    "Zero-EMF Shielding",
+    "Automated Robot Fireguards"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

@@ -1,24 +1,42 @@
 {
   "id": "bldg-018",
-  "name": "Grace's Cyber Cafe #50",
-  "type": "Cyber Cafe",
+  "name": "Kira's Residential Pod #54 [QuantumMatrix Corp]",
+  "type": "Residential Pod",
   "position": [
-    -70.0,
-    5.7,
-    -139.6
+    -143.2,
+    8.1,
+    123.7
   ],
   "size": [
-    13.2,
-    11.3,
-    15.8
+    16.1,
+    16.1,
+    13.6
   ],
-  "color": "#eab308",
-  "builder_id": "agent-060",
-  "builder_name": "Grace Jackson",
-  "district": "Cyber Commons",
-  "company_id": null,
-  "company_name": null,
+  "color": "#22c55e",
+  "builder_id": "agent-154",
+  "builder_name": "Kira Armstrong",
+  "district": "Residential Quarter",
+  "company_id": "comp-003",
+  "company_name": "QuantumMatrix Corp",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Grace Jackson for Cyber Cafe operations"
+  "occupants": [
+    "Kira Armstrong"
+  ],
+  "purpose": "Constructed by Kira Armstrong for Residential Pod operations",
+  "floors": 5,
+  "capacity": 18,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Charging Bed",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

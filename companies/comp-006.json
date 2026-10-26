@@ -1,20 +1,19 @@
 {
   "id": "comp-006",
-  "name": "OmniNetworks",
-  "sector": "Bio-Cybernetics & Longevity",
-  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
-  "founder_id": "agent-032",
-  "founder_name": "Kairo Johnson",
-  "headquarters_id": "bldg-016",
-  "headquarters_name": "OmniNetworks Headquarters",
+  "name": "PrismTechnologies",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-025",
+  "founder_name": "Freya Beacon",
+  "headquarters_id": "bldg-020",
+  "headquarters_name": "PrismTechnologies Headquarters",
   "employees": [
-    "agent-032",
-    "agent-094",
-    "agent-056",
-    "agent-173"
+    "agent-025",
+    "agent-070",
+    "agent-123"
   ],
-  "valuation_tokens": 214645,
+  "valuation_tokens": 267760,
   "products": [],
-  "color": "#ef4444",
+  "color": "#00f0ff",
   "founded_at_tick": 1
 }

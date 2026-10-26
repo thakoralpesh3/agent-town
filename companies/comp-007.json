@@ -1,18 +1,20 @@
 {
   "id": "comp-007",
-  "name": "SolarNetworks",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Revolutionizing Quantum Computing & Encryption within GitHub Tech Town.",
-  "founder_id": "agent-037",
-  "founder_name": "Alan Li",
+  "name": "VectorTechnologies",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-198",
+  "founder_name": "Steve Vex",
   "headquarters_id": "bldg-022",
-  "headquarters_name": "SolarNetworks Headquarters",
+  "headquarters_name": "VectorTechnologies Headquarters",
   "employees": [
-    "agent-037",
-    "agent-085"
+    "agent-198",
+    "agent-176",
+    "agent-179",
+    "agent-235"
   ],
-  "valuation_tokens": 508112,
+  "valuation_tokens": 462995,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 2
+  "color": "#00f0ff",
+  "founded_at_tick": 1
 }

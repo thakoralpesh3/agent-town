@@ -1,24 +1,42 @@
 {
   "id": "bldg-032",
-  "name": "Barbara's Residential Pod #64",
-  "type": "Residential Pod",
+  "name": "Edsger's Quantum Data Center #18 [OpenKernel Core]",
+  "type": "Quantum Data Center",
   "position": [
-    -100.8,
-    10.0,
-    53.6
+    111.5,
+    11.1,
+    -125.1
   ],
   "size": [
-    14.2,
-    20.1,
-    13.4
+    30.0,
+    22.3,
+    24.8
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-034",
-  "builder_name": "Barbara Nadella",
-  "district": "Residential Quarter",
-  "company_id": null,
-  "company_name": null,
+  "color": "#6366f1",
+  "builder_id": "agent-201",
+  "builder_name": "Edsger Szabo",
+  "district": "Industrial Sector",
+  "company_id": "comp-005",
+  "company_name": "OpenKernel Core",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Barbara Nadella for Residential Pod operations"
+  "occupants": [
+    "Edsger Szabo"
+  ],
+  "purpose": "Constructed by Edsger Szabo for Quantum Data Center operations",
+  "floors": 4,
+  "capacity": 15,
+  "departments": [
+    "Cryogenic Qubit Floor",
+    "Optical Interconnect Array",
+    "Security Guard"
+  ],
+  "amenities": [
+    "Liquid Helium Loop",
+    "Zero-EMF Shielding",
+    "Automated Robot Fireguards"
+  ],
+  "power_consumption_mw": 3.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

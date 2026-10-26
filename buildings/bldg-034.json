@@ -1,24 +1,42 @@
 {
   "id": "bldg-034",
-  "name": "Linus's Holo Park #93 [SolarFusion Prime]",
-  "type": "Holo Park",
+  "name": "Nexus's Tech Tower #33 [OpenKernel Core]",
+  "type": "Tech Tower",
   "position": [
-    -25.1,
-    2.2,
-    -115.2
+    -20.6,
+    24.3,
+    0.2
   ],
   "size": [
-    24.1,
-    4.4,
-    24.3
+    18.9,
+    48.6,
+    18.8
   ],
-  "color": "#10b981",
-  "builder_id": "agent-128",
-  "builder_name": "Linus Dahl",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#0ea5e9",
+  "builder_id": "agent-158",
+  "builder_name": "Nexus Dusk",
+  "district": "Silicon Central",
+  "company_id": "comp-005",
+  "company_name": "OpenKernel Core",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Linus Dahl for Holo Park operations"
+  "occupants": [
+    "Nexus Dusk"
+  ],
+  "purpose": "Constructed by Nexus Dusk for Tech Tower operations",
+  "floors": 12,
+  "capacity": 30,
+  "departments": [
+    "Systems Engineering",
+    "Kernel Lab",
+    "Cloud Infrastructure"
+  ],
+  "amenities": [
+    "Hyper-Speed Uplink",
+    "Rooftop Drone Pad",
+    "Quantum Server Vault"
+  ],
+  "power_consumption_mw": 3.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

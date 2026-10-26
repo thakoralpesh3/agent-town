@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0002",
+  "role": "Tokenomics Algorithmic Market Maker",
+  "category": "Finance",
+  "specialization": "Dynamic Spread & Slippage Balancing",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Autonomous Robotics Institute",
+  "salary_offered": 16300,
+  "created_at_tick": 2,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-256",
+  "filled_by_agent_name": "Freya Helix"
+}

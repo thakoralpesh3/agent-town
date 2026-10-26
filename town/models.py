@@ -29,6 +29,14 @@ class Agent:
     mentor_name: Optional[str] = None
     mentees: List[str] = field(default_factory=list)
     achievements: List[str] = field(default_factory=list)
+    specialization: str = ""
+    workplace_id: Optional[str] = None
+    workplace_name: Optional[str] = None
+    tools_equipped: List[str] = field(default_factory=list)
+    salary_tokens: int = 12000
+    shift: str = "Standard Day Shift"
+    security_clearance: str = "Level 4 - Operational"
+    total_contributions: int = 1
     company_id: Optional[str] = None
     company_name: Optional[str] = None
     creations: List[Dict[str, Any]] = field(default_factory=list)
@@ -50,7 +58,38 @@ class Agent:
         data.setdefault("mentor_name", None)
         data.setdefault("mentees", [])
         data.setdefault("achievements", [])
+        data.setdefault("specialization", "General Innovation")
+        data.setdefault("workplace_id", None)
+        data.setdefault("workplace_name", "City Mainframe")
+        data.setdefault("tools_equipped", ["Neural Terminal"])
+        data.setdefault("salary_tokens", 12500)
+        data.setdefault("shift", "Day Shift")
+        data.setdefault("security_clearance", "Level 4 - Operational")
+        data.setdefault("total_contributions", 1)
         # Filter for dataclass fields
+        fields = cls.__dataclass_fields__
+        return cls(**{k: v for k, v in data.items() if k in fields})
+
+@dataclass
+class JobRequisition:
+    id: str
+    role: str
+    category: str
+    specialization: str
+    urgency: str
+    requesting_company: Optional[str]
+    requesting_building: Optional[str]
+    salary_offered: int
+    created_at_tick: int
+    status: str = "OPEN"
+    filled_by_agent_id: Optional[str] = None
+    filled_by_agent_name: Optional[str] = None
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'JobRequisition':
         fields = cls.__dataclass_fields__
         return cls(**{k: v for k, v in data.items() if k in fields})
 
@@ -93,13 +132,31 @@ class Building:
     completion: float = 1.0  # 0.0 to 1.0
     occupants: List[str] = field(default_factory=list)
     purpose: str = "Tech Infrastructure"
+    floors: int = 4
+    capacity: int = 25
+    departments: List[str] = field(default_factory=list)
+    amenities: List[str] = field(default_factory=list)
+    power_consumption_mw: float = 3.5
+    active_projects: List[str] = field(default_factory=list)
+    security_level: str = "Level 3 - Monitored"
+    maintenance_status: str = "Optimal"
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'Building':
-        return cls(**data)
+        data.setdefault("floors", 4)
+        data.setdefault("capacity", 25)
+        data.setdefault("departments", ["Operations", "Research Wing"])
+        data.setdefault("amenities", ["High-Bandwidth Link", "Air Purification"])
+        data.setdefault("power_consumption_mw", 3.5)
+        data.setdefault("active_projects", [])
+        data.setdefault("security_level", "Level 3 - Monitored")
+        data.setdefault("maintenance_status", "Optimal")
+        data.setdefault("occupants", [])
+        fields = cls.__dataclass_fields__
+        return cls(**{k: v for k, v in data.items() if k in fields})
 
 @dataclass
 class Road:
@@ -148,6 +205,7 @@ class TownState:
     buildings: List[Building] = field(default_factory=list)
     roads: List[Road] = field(default_factory=list)
     vehicles: List[Vehicle] = field(default_factory=list)
+    job_requisitions: List[JobRequisition] = field(default_factory=list)
     recent_events: List[Dict[str, Any]] = field(default_factory=list)
     stats: Dict[str, Any] = field(default_factory=dict)
 
@@ -161,6 +219,7 @@ class TownState:
             "buildings": [b.to_dict() for b in self.buildings],
             "roads": [r.to_dict() for r in self.roads],
             "vehicles": [v.to_dict() for v in self.vehicles],
+            "job_requisitions": [j.to_dict() for j in self.job_requisitions[-30:]],
             "recent_events": self.recent_events[-50:],
             "stats": self.stats
         }
@@ -172,6 +231,7 @@ class TownState:
         buildings = [Building.from_dict(b) for b in data.get("buildings", [])]
         roads = [Road.from_dict(r) for r in data.get("roads", [])]
         vehicles = [Vehicle.from_dict(v) for v in data.get("vehicles", [])]
+        job_requisitions = [JobRequisition.from_dict(j) for j in data.get("job_requisitions", [])]
         return cls(
             tick=data.get("tick", 0),
             timestamp=data.get("timestamp", ""),
@@ -181,6 +241,7 @@ class TownState:
             buildings=buildings,
             roads=roads,
             vehicles=vehicles,
+            job_requisitions=job_requisitions,
             recent_events=data.get("recent_events", []),
             stats=data.get("stats", {})
         )

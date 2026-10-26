@@ -36,7 +36,7 @@ def serve_web(port: int = 8000, directory: str = "docs"):
 
 def main():
     parser = argparse.ArgumentParser(description="GitHub Autonomous Tech Town Controller")
-    parser.add_argument("--init", action="store_true", help="Generate initial 200 agents, companies, and town foundation")
+    parser.add_argument("--init", action="store_true", help="Generate initial 250 agents, companies, and town foundation")
     parser.add_argument("--tick", type=int, nargs="?", const=1, help="Execute N simulation ticks (default 1)")
     parser.add_argument("--continuous", action="store_true", help="Run 24/7 continuous simulation loop")
     parser.add_argument("--delay", type=float, default=3.0, help="Seconds between continuous ticks (default 3.0)")
@@ -49,7 +49,7 @@ def main():
     engine = TownEngine()
 
     if args.init:
-        print("🏙️  Generating foundational Tech Town, 200 pioneer agents, and 5 enterprises...")
+        print("🏙️  Generating foundational Tech Town, 250 pioneer agents across 60+ professions, and 5 enterprises...")
         state = generate_initial_state()
         engine.state = state
         engine.save_state()

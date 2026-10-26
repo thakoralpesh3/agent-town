@@ -1,24 +1,42 @@
 {
   "id": "bldg-025",
-  "name": "Echo's Academy of Sciences #64 [NeuroDynamics AI]",
-  "type": "Academy of Sciences",
+  "name": "Lyra's Cybernetic Clinic #63 [AeroCyber Robotics]",
+  "type": "Cybernetic Clinic",
   "position": [
-    56.8,
-    18.4,
-    138.5
+    -155.9,
+    15.7,
+    90.7
   ],
   "size": [
-    29.0,
-    36.8,
-    29.5
+    23.7,
+    31.5,
+    20.1
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-089",
-  "builder_name": "Echo Vaughan",
-  "district": "Innovation Matrix",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#ef4444",
+  "builder_id": "agent-043",
+  "builder_name": "Lyra Shannon",
+  "district": "Residential Quarter",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Echo Vaughan for Academy of Sciences operations"
+  "occupants": [
+    "Lyra Shannon"
+  ],
+  "purpose": "Constructed by Lyra Shannon for Cybernetic Clinic operations",
+  "floors": 6,
+  "capacity": 24,
+  "departments": [
+    "Trauma & First Response",
+    "Nanomedicine Lab",
+    "Prosthetic Integration"
+  ],
+  "amenities": [
+    "Cellular Regeneration Pods",
+    "Bio-Telemetry Network",
+    "Sterile Nanotech Suites"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

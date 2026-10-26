@@ -1,24 +1,42 @@
 {
   "id": "bldg-029",
-  "name": "Selene's Academy of Sciences #81",
-  "type": "Academy of Sciences",
+  "name": "Hal's Residential Pod #24",
+  "type": "Residential Pod",
   "position": [
-    53.3,
-    13.2,
-    75.2
+    -37.0,
+    12.1,
+    104.7
   ],
   "size": [
-    26.5,
-    26.4,
-    30.4
+    13.0,
+    24.3,
+    14.0
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-143",
-  "builder_name": "Selene Hinton",
-  "district": "Innovation Matrix",
+  "color": "#22c55e",
+  "builder_id": "agent-141",
+  "builder_name": "Hal Johnson",
+  "district": "Residential Quarter",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Selene Hinton for Academy of Sciences operations"
+  "occupants": [
+    "Hal Johnson"
+  ],
+  "purpose": "Constructed by Hal Johnson for Residential Pod operations",
+  "floors": 5,
+  "capacity": 18,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Charging Bed",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 5.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

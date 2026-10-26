@@ -1,24 +1,42 @@
 {
   "id": "bldg-031",
-  "name": "Linus's Vehicle Factory #32",
+  "name": "Steve's Vehicle Factory #80 [VectorTechnologies]",
   "type": "Vehicle Factory",
   "position": [
-    103.3,
-    8.4,
-    -136.8
+    115.1,
+    12.4,
+    -68.0
   ],
   "size": [
-    21.0,
-    16.9,
-    25.6
+    26.7,
+    24.8,
+    24.1
   ],
   "color": "#f59e0b",
-  "builder_id": "agent-052",
-  "builder_name": "Linus Orbit",
+  "builder_id": "agent-198",
+  "builder_name": "Steve Vex",
   "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "company_id": "comp-007",
+  "company_name": "VectorTechnologies",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Linus Orbit for Vehicle Factory operations"
+  "occupants": [
+    "Steve Vex"
+  ],
+  "purpose": "Constructed by Steve Vex for Vehicle Factory operations",
+  "floors": 3,
+  "capacity": 20,
+  "departments": [
+    "Robotic Assembly Line",
+    "Chassis Stress Testing",
+    "Avionics Calibration"
+  ],
+  "amenities": [
+    "Automated Heavy Cranes",
+    "Induction Test Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

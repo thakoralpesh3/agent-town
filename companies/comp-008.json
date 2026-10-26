@@ -1,19 +1,18 @@
 {
   "id": "comp-008",
-  "name": "AeroDynamics",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-050",
-  "founder_name": "Marc Tinkerer",
-  "headquarters_id": "bldg-024",
-  "headquarters_name": "AeroDynamics Headquarters",
+  "name": "BioTechnologies",
+  "sector": "Bio-Cybernetics & Longevity",
+  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
+  "founder_id": "agent-244",
+  "founder_name": "Cassian Dahl",
+  "headquarters_id": "bldg-023",
+  "headquarters_name": "BioTechnologies Headquarters",
   "employees": [
-    "agent-050",
-    "agent-189",
-    "agent-154"
+    "agent-244",
+    "agent-210"
   ],
-  "valuation_tokens": 154605,
+  "valuation_tokens": 728928,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 2
+  "color": "#ef4444",
+  "founded_at_tick": 1
 }

@@ -38,11 +38,17 @@
       </div>
     </div>
 
+    <!-- Operator Clearance Badge (Confidential View Restriced to User/Operator) -->
+    <div class="operator-badge-hud" id="operator-badge-hud" title="Confidential Operator Clearance Level 5: Private telemetry, internal directives & thoughts decrypted for authorized operator.">
+      <i class="fa-solid fa-shield-halved"></i>
+      <span class="operator-badge-text">OPERATOR L5 // RESTRICTED ACCESS</span>
+    </div>
+
     <!-- Live City Metrics (Scrollable on small mobile screens) -->
     <div class="stats-grid-wrapper">
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-value" id="stat-pop">200</span>
+          <span class="stat-value" id="stat-pop">250</span>
           <span class="stat-label">Agents</span>
         </div>
         <div class="stat-item">
@@ -50,7 +56,7 @@
           <span class="stat-label">Companies</span>
         </div>
         <div class="stat-item">
-          <span class="stat-value" id="stat-bldg">15</span>
+          <span class="stat-value" id="stat-bldg">17</span>
           <span class="stat-label">Buildings</span>
         </div>
         <div class="stat-item">
@@ -79,7 +85,7 @@
       <button class="btn-icon" id="btn-refresh" title="Force Refresh World State">
         <i class="fa-solid fa-arrows-rotate"></i>
       </button>
-      <button class="btn-icon" id="btn-help" title="About Tech Town">
+      <button class="btn-icon" id="btn-help" title="About Tech Town & Operator Clearance">
         <i class="fa-solid fa-circle-info"></i>
       </button>
     </div>
@@ -101,22 +107,27 @@
     <div class="search-hud-header">
       <div class="search-input-wrapper">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" id="agent-search-input" placeholder="Search agents, companies, roles...">
+        <input type="text" id="agent-search-input" placeholder="Search 60+ professions, buildings, agents...">
       </div>
       <button class="btn-icon search-close-btn" id="btn-close-search"><i class="fa-solid fa-xmark"></i></button>
     </div>
     <div class="filter-tags" id="district-tags">
       <button class="tag-btn active" data-filter="all">All</button>
-      <button class="tag-btn" data-filter="companies" style="color: #ec4899; font-weight: bold;"><i class="fa-solid fa-building"></i> Companies</button>
+      <button class="tag-btn" data-filter="companies" style="color: #ec4899; font-weight: bold;"><i class="fa-solid fa-building"></i> Enterprises</button>
       <button class="tag-btn" data-filter="Research"><i class="fa-solid fa-brain"></i> AI & Science</button>
       <button class="tag-btn" data-filter="Construction"><i class="fa-solid fa-trowel-bricks"></i> Architecture</button>
       <button class="tag-btn" data-filter="Software"><i class="fa-solid fa-code"></i> Software</button>
+      <button class="tag-btn" data-filter="Security"><i class="fa-solid fa-shield-halved"></i> Security</button>
+      <button class="tag-btn" data-filter="Infrastructure"><i class="fa-solid fa-network-wired"></i> Infrastructure</button>
       <button class="tag-btn" data-filter="Healthcare"><i class="fa-solid fa-heart-pulse"></i> Healthcare</button>
-      <button class="tag-btn" data-filter="Ecology"><i class="fa-solid fa-seedling"></i> Ecology</button>
       <button class="tag-btn" data-filter="Engineering"><i class="fa-solid fa-gear"></i> Robotics</button>
+      <button class="tag-btn" data-filter="Energy"><i class="fa-solid fa-bolt"></i> Energy & Fusion</button>
+      <button class="tag-btn" data-filter="Ecology"><i class="fa-solid fa-seedling"></i> Ecology</button>
       <button class="tag-btn" data-filter="Education"><i class="fa-solid fa-graduation-cap"></i> Academy</button>
       <button class="tag-btn" data-filter="Finance"><i class="fa-solid fa-coins"></i> Finance</button>
       <button class="tag-btn" data-filter="Law & Ethics"><i class="fa-solid fa-scale-balanced"></i> Law</button>
+      <button class="tag-btn" data-filter="Art"><i class="fa-solid fa-palette"></i> Arts & Culture</button>
+      <button class="tag-btn" data-filter="Hospitality"><i class="fa-solid fa-mug-hot"></i> Hospitality</button>
     </div>
     <div class="search-results-list" id="search-results-list">
       <!-- Populated dynamically -->
@@ -126,6 +137,13 @@
   <!-- Agent & Object Inspector Drawer (Responsive Bottom-Sheet on Mobile / Side-Drawer on Desktop) -->
   <aside id="inspector-drawer" class="glass-panel">
     <div class="drag-handle"></div>
+
+    <!-- Operator Clearance Level 5 Confidential Banner (Exclusive to User/Operator) -->
+    <div class="operator-clearance-bar" id="insp-operator-clearance">
+      <i class="fa-solid fa-lock" style="color: var(--cyan-neon);"></i>
+      <span id="insp-clearance-label">CONFIDENTIAL TELEMETRY // OPERATOR CLEARANCE LEVEL 5</span>
+    </div>
+
     <div class="inspector-header">
       <div class="agent-profile-summary">
         <div class="avatar-badge" id="insp-avatar">
@@ -133,7 +151,10 @@
         </div>
         <div class="agent-title-box">
           <h2 id="insp-name">Ada Lovelace</h2>
-          <span class="role-badge" id="insp-role">Urban Architect (Lv. 8)</span>
+          <div class="role-badge-row">
+            <span class="role-badge" id="insp-role">Urban Architect (Lv. 8)</span>
+            <span class="specialization-pill" id="insp-specialization-pill"><i class="fa-solid fa-microchip"></i> <span id="insp-spec-text">Hyper-Dense Skylines</span></span>
+          </div>
         </div>
       </div>
       <button class="close-btn" id="insp-close"><i class="fa-solid fa-xmark"></i></button>
@@ -153,22 +174,78 @@
       </div>
     </div>
 
+    <!-- Assigned Facility / Workplace Card -->
+    <div class="workplace-card" id="insp-workplace-card" style="display: none;">
+      <div class="wp-icon"><i class="fa-solid fa-building-user"></i></div>
+      <div class="wp-info">
+        <div class="wp-label">ASSIGNED FACILITY / WORKPLACE</div>
+        <div class="wp-val" id="insp-workplace-val">Tower of Turing (City Mainframe)</div>
+      </div>
+      <button class="btn-locate-facility" id="btn-locate-facility" title="Locate workplace facility in 3D">
+        <i class="fa-solid fa-location-crosshairs"></i>
+      </button>
+    </div>
+
     <!-- Company Badge if applicable -->
     <div id="insp-company-wrapper" style="display: none;">
-      <div style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); border-radius: 6px; padding: 6px 10px; font-size: 12px; color: #f472b6; display: flex; align-items: center; gap: 8px;">
+      <div class="company-badge-box">
         <i class="fa-solid fa-building"></i> <span id="insp-company-text">NeuroDynamics AI</span>
       </div>
     </div>
 
     <!-- Live Current Action -->
     <div class="inspector-section">
-      <span class="section-title"><i class="fa-solid fa-bolt" style="color: var(--cyan-neon);"></i> Current Work & Action</span>
+      <span class="section-title"><i class="fa-solid fa-bolt" style="color: var(--cyan-neon);"></i> Current Work & Task</span>
       <div class="status-highlight-card" id="insp-action">
         Constructing Solar Fusion Skyscraper #22
       </div>
     </div>
 
-    <!-- Acquired Skills Tree -->
+    <!-- Building Architecture, Floors & Capacity (Shown for Buildings/Offices) -->
+    <div class="inspector-section" id="insp-building-specs" style="display: none;">
+      <span class="section-title"><i class="fa-solid fa-city" style="color: var(--cyan-neon);"></i> Facility Architecture & Desks</span>
+      <div class="bldg-metrics-grid">
+        <div class="bldg-metric-card">
+          <span class="bm-label">FLOORS</span>
+          <span class="bm-val" id="insp-bldg-floors">14 Floors</span>
+        </div>
+        <div class="bldg-metric-card">
+          <span class="bm-label">DESK CAPACITY</span>
+          <span class="bm-val" id="insp-bldg-cap">38 / 50</span>
+        </div>
+        <div class="bldg-metric-card">
+          <span class="bm-label">POWER GRID</span>
+          <span class="bm-val" id="insp-bldg-power">12.4 MW</span>
+        </div>
+        <div class="bldg-metric-card">
+          <span class="bm-label">SECURITY</span>
+          <span class="bm-val" id="insp-bldg-sec">Level 5</span>
+        </div>
+      </div>
+      <div class="occupancy-bar-wrapper">
+        <div class="occupancy-labels">
+          <span>Desk Occupancy</span>
+          <span id="insp-occupancy-pct">76%</span>
+        </div>
+        <div class="occupancy-bar-bg">
+          <div class="occupancy-bar-fill" id="insp-occupancy-fill" style="width: 76%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Building Active Departments & Amenities -->
+    <div class="inspector-section" id="insp-departments-section" style="display: none;">
+      <span class="section-title"><i class="fa-solid fa-sitemap" style="color: var(--purple-neon);"></i> Active Divisions & Amenities</span>
+      <div class="skills-chips-wrapper" id="insp-departments-chips"></div>
+    </div>
+
+    <!-- Building Interactive Staff & Resident Roster -->
+    <div class="inspector-section" id="insp-tenants-section" style="display: none;">
+      <span class="section-title"><i class="fa-solid fa-users-gear" style="color: var(--green-neon);"></i> Stationed Citizens & Staff (<span id="insp-tenants-count">0</span>)</span>
+      <div class="tenants-list-container" id="insp-tenants-list"></div>
+    </div>
+
+    <!-- Acquired Skills Tree (for Agents) -->
     <div class="inspector-section" id="insp-skills-section">
       <span class="section-title"><i class="fa-solid fa-graduation-cap" style="color: var(--emerald-neon);"></i> Mastered Competencies & Skills</span>
       <div class="skills-chips-wrapper" id="insp-skills-chips">
@@ -176,9 +253,15 @@
       </div>
     </div>
 
-    <!-- Inner Thoughts -->
+    <!-- Equipped Tools & Hardware Gear (for Agents) -->
+    <div class="inspector-section" id="insp-tools-section">
+      <span class="section-title"><i class="fa-solid fa-screwdriver-wrench" style="color: var(--amber-neon);"></i> Equipped Tools & Matrix Gear</span>
+      <div class="skills-chips-wrapper" id="insp-tools-chips"></div>
+    </div>
+
+    <!-- Inner Thoughts (Confidential Operator Intelligence) -->
     <div class="inspector-section">
-      <span class="section-title"><i class="fa-solid fa-brain" style="color: var(--purple-neon);"></i> Inner Thoughts</span>
+      <span class="section-title"><i class="fa-solid fa-brain" style="color: var(--purple-neon);"></i> Inner Thoughts <span class="confidential-pill">RESTRICTED</span></span>
       <div class="quote-box" id="insp-thought">
         "Designing renewable energy links to power the next residential cluster."
       </div>
@@ -192,9 +275,9 @@
       </div>
     </div>
 
-    <!-- Coordinates & Stats -->
+    <!-- Confidential Telemetry, Shift & Status (Operator Level 5) -->
     <div class="inspector-section">
-      <span class="section-title">Telemetry & Status</span>
+      <span class="section-title"><i class="fa-solid fa-fingerprint" style="color: var(--cyan-neon);"></i> Operator Telemetry & Clearances</span>
       <div class="meta-grid">
         <div class="meta-card">
           <div class="label">Coordinates (X, Z)</div>
@@ -205,8 +288,24 @@
           <div class="val" id="insp-energy">96%</div>
         </div>
         <div class="meta-card">
-          <div class="label">ID & Category</div>
+          <div class="label">Citizen / Asset ID</div>
           <div class="val" id="insp-id">agent-001 (Construction)</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">Shift Schedule</div>
+          <div class="val" id="insp-shift">Morning (08:00 - 16:00)</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">Cycle Salary</div>
+          <div class="val" id="insp-salary" style="color: #facc15;">14,500 Tokens</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">Security Clearance</div>
+          <div class="val" id="insp-clearance" style="color: var(--cyan-neon);">Level 4 - Controlled</div>
+        </div>
+        <div class="meta-card">
+          <div class="label">Total Contributions</div>
+          <div class="val" id="insp-contributions" style="color: var(--green-neon);">18 Commits</div>
         </div>
         <div class="meta-card">
           <div class="label">Collaborators</div>
