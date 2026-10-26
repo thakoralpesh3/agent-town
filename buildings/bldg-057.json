@@ -1,24 +1,24 @@
 {
   "id": "bldg-057",
-  "name": "Nick's Solar Fusion Array #38",
-  "type": "Solar Fusion Array",
+  "name": "Adam's Holo Park #89 [AeroCyber Robotics]",
+  "type": "Holo Park",
   "position": [
-    137.7,
-    4.3,
-    -68.5
+    -89.9,
+    2.2,
+    -69.4
   ],
   "size": [
-    21.1,
-    8.6,
-    21.5
+    26.5,
+    4.3,
+    27.5
   ],
-  "color": "#f97316",
-  "builder_id": "agent-033",
-  "builder_name": "Nick Glitch",
-  "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "color": "#10b981",
+  "builder_id": "agent-017",
+  "builder_name": "Adam Smith DeFi",
+  "district": "Cyber Commons",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Nick Glitch for Solar Fusion Array operations"
+  "purpose": "Constructed by Adam Smith DeFi for Holo Park operations"
 }

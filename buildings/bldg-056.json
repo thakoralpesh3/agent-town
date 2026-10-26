@@ -1,24 +1,24 @@
 {
   "id": "bldg-056",
-  "name": "Rich's Residential Pod #61 [NeuroDynamics AI]",
-  "type": "Residential Pod",
+  "name": "Evander's Cybernetic Clinic #96 [NeuroDynamics AI]",
+  "type": "Cybernetic Clinic",
   "position": [
-    -108.6,
-    12.5,
-    115.4
+    -73.2,
+    15.1,
+    35.9
   ],
   "size": [
-    14.3,
-    25.1,
-    12.4
+    19.4,
+    30.2,
+    18.9
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-071",
-  "builder_name": "Rich Dusk",
+  "color": "#ef4444",
+  "builder_id": "agent-135",
+  "builder_name": "Evander Finney",
   "district": "Residential Quarter",
   "company_id": "comp-001",
   "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Rich Dusk for Residential Pod operations"
+  "purpose": "Constructed by Evander Finney for Cybernetic Clinic operations"
 }

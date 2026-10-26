@@ -1,0 +1,20 @@
+{
+  "id": "comp-021",
+  "name": "AeroFoundry",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-066",
+  "founder_name": "Theron Mason",
+  "headquarters_id": "bldg-055",
+  "headquarters_name": "AeroFoundry Headquarters",
+  "employees": [
+    "agent-066",
+    "agent-136",
+    "agent-141",
+    "agent-095"
+  ],
+  "valuation_tokens": 450224,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 6
+}

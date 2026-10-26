@@ -1,0 +1,20 @@
+{
+  "id": "comp-020",
+  "name": "NexusDynamics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-019",
+  "founder_name": "Hestia Nexus",
+  "headquarters_id": "bldg-053",
+  "headquarters_name": "NexusDynamics Headquarters",
+  "employees": [
+    "agent-019",
+    "agent-146",
+    "agent-187",
+    "agent-125"
+  ],
+  "valuation_tokens": 706074,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 6
+}

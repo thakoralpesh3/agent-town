@@ -1,0 +1,24 @@
+{
+  "id": "bldg-054",
+  "name": "Linus's Holo Park #94",
+  "type": "Holo Park",
+  "position": [
+    -41.1,
+    1.8,
+    -64.9
+  ],
+  "size": [
+    22.8,
+    3.6,
+    28.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-162",
+  "builder_name": "Linus Wright",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Linus Wright for Holo Park operations"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bldg-068",
+  "name": "Barbara's Vehicle Factory #75 [SolarFusion Prime]",
+  "type": "Vehicle Factory",
+  "position": [
+    65.0,
+    9.4,
+    -152.1
+  ],
+  "size": [
+    21.3,
+    18.9,
+    20.5
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-059",
+  "builder_name": "Barbara Ritchie",
+  "district": "Industrial Sector",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Barbara Ritchie for Vehicle Factory operations"
+}

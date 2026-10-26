@@ -1,0 +1,20 @@
+{
+  "id": "comp-024",
+  "name": "AetherSystems",
+  "sector": "DeFi Treasury & Smart Law",
+  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
+  "founder_id": "agent-027",
+  "founder_name": "Barbara Quantum",
+  "headquarters_id": "bldg-066",
+  "headquarters_name": "AetherSystems Headquarters",
+  "employees": [
+    "agent-027",
+    "agent-111",
+    "agent-107",
+    "agent-030"
+  ],
+  "valuation_tokens": 566971,
+  "products": [],
+  "color": "#eab308",
+  "founded_at_tick": 7
+}

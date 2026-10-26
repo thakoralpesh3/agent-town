@@ -1,0 +1,18 @@
+{
+  "id": "comp-025",
+  "name": "ChronoVentures",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-155",
+  "founder_name": "Ryan Nadella",
+  "headquarters_id": "bldg-069",
+  "headquarters_name": "ChronoVentures Headquarters",
+  "employees": [
+    "agent-155",
+    "agent-036"
+  ],
+  "valuation_tokens": 422217,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 7
+}

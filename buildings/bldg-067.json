@@ -1,0 +1,24 @@
+{
+  "id": "bldg-067",
+  "name": "Sylvia's Cybernetic Clinic #61 [SolarSynthetics]",
+  "type": "Cybernetic Clinic",
+  "position": [
+    -39.0,
+    10.3,
+    64.5
+  ],
+  "size": [
+    17.0,
+    20.6,
+    17.0
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-082",
+  "builder_name": "Sylvia Circuit",
+  "district": "Residential Quarter",
+  "company_id": "comp-009",
+  "company_name": "SolarSynthetics",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Sylvia Circuit for Cybernetic Clinic operations"
+}

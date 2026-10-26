@@ -1,24 +1,24 @@
 {
   "id": "bldg-058",
-  "name": "Radia's Cyber Cafe #15 [NeuroDynamics AI]",
-  "type": "Cyber Cafe",
+  "name": "Steve's Academy of Sciences #64 [AeroFoundry]",
+  "type": "Academy of Sciences",
   "position": [
-    -41.1,
-    5.3,
-    -77.6
+    158.4,
+    19.8,
+    112.0
   ],
   "size": [
-    16.4,
-    10.5,
-    12.8
+    29.2,
+    39.5,
+    26.9
   ],
-  "color": "#eab308",
-  "builder_id": "agent-100",
-  "builder_name": "Radia Circuit",
-  "district": "Cyber Commons",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#a855f7",
+  "builder_id": "agent-136",
+  "builder_name": "Steve Nakamoto",
+  "district": "Innovation Matrix",
+  "company_id": "comp-021",
+  "company_name": "AeroFoundry",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Radia Circuit for Cyber Cafe operations"
+  "purpose": "Constructed by Steve Nakamoto for Academy of Sciences operations"
 }

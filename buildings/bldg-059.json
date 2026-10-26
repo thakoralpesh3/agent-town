@@ -1,24 +1,24 @@
 {
   "id": "bldg-059",
-  "name": "Nexus's Holo Park #51 [SolarFusion Prime]",
-  "type": "Holo Park",
+  "name": "Maeve's Company Headquarters #47 [AeroCyber Robotics]",
+  "type": "Company Headquarters",
   "position": [
-    -89.4,
-    1.8,
-    -63.2
+    -11.0,
+    29.7,
+    -35.3
   ],
   "size": [
-    29.6,
-    3.7,
-    24.9
+    23.9,
+    59.5,
+    23.1
   ],
-  "color": "#10b981",
-  "builder_id": "agent-187",
-  "builder_name": "Nexus Orbit",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#ec4899",
+  "builder_id": "agent-070",
+  "builder_name": "Maeve Cross",
+  "district": "Silicon Central",
+  "company_id": "comp-002",
+  "company_name": "AeroCyber Robotics",
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Nexus Orbit for Holo Park operations"
+  "purpose": "Constructed by Maeve Cross for Company Headquarters operations"
 }

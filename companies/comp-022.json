@@ -1,0 +1,19 @@
+{
+  "id": "comp-022",
+  "name": "BioLabs",
+  "sector": "Cyber Infrastructure & Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
+  "founder_id": "agent-154",
+  "founder_name": "Bob Liskov",
+  "headquarters_id": "bldg-062",
+  "headquarters_name": "BioLabs Headquarters",
+  "employees": [
+    "agent-154",
+    "agent-029",
+    "agent-180"
+  ],
+  "valuation_tokens": 496299,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 7
+}

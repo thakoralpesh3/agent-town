@@ -1,0 +1,24 @@
+{
+  "id": "bldg-064",
+  "name": "Vector's Vehicle Factory #27",
+  "type": "Vehicle Factory",
+  "position": [
+    129.7,
+    8.5,
+    -71.3
+  ],
+  "size": [
+    24.3,
+    17.0,
+    21.7
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-159",
+  "builder_name": "Vector Berners-Lee",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Vector Berners-Lee for Vehicle Factory operations"
+}

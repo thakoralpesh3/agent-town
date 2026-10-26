@@ -1,0 +1,24 @@
+{
+  "id": "bldg-063",
+  "name": "Edsger's Tech Tower #39 [SolarFusion Prime]",
+  "type": "Tech Tower",
+  "position": [
+    0.8,
+    25.6,
+    38.0
+  ],
+  "size": [
+    18.4,
+    51.2,
+    15.9
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-112",
+  "builder_name": "Edsger Eich",
+  "district": "Silicon Central",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constructed by Edsger Eich for Tech Tower operations"
+}
