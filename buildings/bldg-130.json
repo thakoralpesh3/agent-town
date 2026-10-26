@@ -1,0 +1,42 @@
+{
+  "id": "bldg-130",
+  "name": "Chronos's Cyber Cafe #17 [SolarFusion Prime]",
+  "type": "Cyber Cafe",
+  "position": [
+    -66.5,
+    8.3,
+    -60.8
+  ],
+  "size": [
+    15.6,
+    16.6,
+    18.9
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-386",
+  "builder_name": "Chronos Wozniak",
+  "district": "Cyber Commons",
+  "company_id": "comp-004",
+  "company_name": "SolarFusion Prime",
+  "completion": 1.0,
+  "occupants": [
+    "Chronos Wozniak"
+  ],
+  "purpose": "Constructed by Chronos Wozniak for Cyber Cafe operations",
+  "floors": 2,
+  "capacity": 22,
+  "departments": [
+    "Quantum Barista Bar",
+    "Open Hackathon Lounge",
+    "Civic Forum"
+  ],
+  "amenities": [
+    "High-Bandwidth Wi-Fi",
+    "Nutrient Synthesizers",
+    "Acoustic Privacy Pods"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

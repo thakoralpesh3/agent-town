@@ -1,0 +1,42 @@
+{
+  "id": "bldg-138",
+  "name": "Marie's Cyber Cafe #48",
+  "type": "Cyber Cafe",
+  "position": [
+    -74.9,
+    7.6,
+    -134.7
+  ],
+  "size": [
+    17.4,
+    15.2,
+    18.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-022",
+  "builder_name": "Marie Curie",
+  "district": "Cyber Commons",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Marie Curie"
+  ],
+  "purpose": "Constructed by Marie Curie for Cyber Cafe operations",
+  "floors": 2,
+  "capacity": 22,
+  "departments": [
+    "Quantum Barista Bar",
+    "Open Hackathon Lounge",
+    "Civic Forum"
+  ],
+  "amenities": [
+    "High-Bandwidth Wi-Fi",
+    "Nutrient Synthesizers",
+    "Acoustic Privacy Pods"
+  ],
+  "power_consumption_mw": 6.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

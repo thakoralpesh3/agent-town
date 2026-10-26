@@ -1,0 +1,18 @@
+{
+  "id": "comp-046",
+  "name": "OmniLabs",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-127",
+  "founder_name": "Selene Karpathy",
+  "headquarters_id": "bldg-136",
+  "headquarters_name": "OmniLabs Headquarters",
+  "employees": [
+    "agent-127",
+    "agent-075"
+  ],
+  "valuation_tokens": 321922,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 16
+}

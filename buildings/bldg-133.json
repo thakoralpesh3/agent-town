@@ -1,0 +1,42 @@
+{
+  "id": "bldg-133",
+  "name": "Roxas's Solar Fusion Array #87",
+  "type": "Solar Fusion Array",
+  "position": [
+    128.9,
+    4.2,
+    -114.2
+  ],
+  "size": [
+    20.6,
+    8.4,
+    19.4
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-024",
+  "builder_name": "Roxas Lamport",
+  "district": "Industrial Sector",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Roxas Lamport"
+  ],
+  "purpose": "Constructed by Roxas Lamport for Solar Fusion Array operations",
+  "floors": 2,
+  "capacity": 12,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Grid Dispatch Hub",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Superconducting Busbars",
+    "Radiation Dampeners",
+    "Thermal Energy Recycler"
+  ],
+  "power_consumption_mw": 3.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

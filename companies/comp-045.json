@@ -1,0 +1,19 @@
+{
+  "id": "comp-045",
+  "name": "StellarSolutions",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-068",
+  "founder_name": "Lyra Brockman",
+  "headquarters_id": "bldg-135",
+  "headquarters_name": "StellarSolutions Headquarters",
+  "employees": [
+    "agent-068",
+    "agent-059",
+    "agent-022"
+  ],
+  "valuation_tokens": 541673,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 16
+}

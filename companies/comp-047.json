@@ -1,0 +1,20 @@
+{
+  "id": "comp-047",
+  "name": "TerraEnergy",
+  "sector": "Synthetic Ecology & Holo Art",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
+  "founder_id": "agent-060",
+  "founder_name": "Martin Nakamoto",
+  "headquarters_id": "bldg-140",
+  "headquarters_name": "TerraEnergy Headquarters",
+  "employees": [
+    "agent-060",
+    "agent-072",
+    "agent-077",
+    "agent-101"
+  ],
+  "valuation_tokens": 331636,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 16
+}

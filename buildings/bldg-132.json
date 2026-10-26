@@ -1,0 +1,42 @@
+{
+  "id": "bldg-132",
+  "name": "Kira's Company Headquarters #58 [QuantumMatrix Corp]",
+  "type": "Company Headquarters",
+  "position": [
+    48.4,
+    27.9,
+    24.6
+  ],
+  "size": [
+    22.3,
+    55.8,
+    23.2
+  ],
+  "color": "#ec4899",
+  "builder_id": "agent-189",
+  "builder_name": "Kira Altman",
+  "district": "Silicon Central",
+  "company_id": "comp-003",
+  "company_name": "QuantumMatrix Corp",
+  "completion": 1.0,
+  "occupants": [
+    "Kira Altman"
+  ],
+  "purpose": "Constructed by Kira Altman for Company Headquarters operations",
+  "floors": 15,
+  "capacity": 45,
+  "departments": [
+    "Executive Penthouse",
+    "Product Incubation",
+    "Global Operations"
+  ],
+  "amenities": [
+    "Helipad & Drone Dock",
+    "VIP Boardroom",
+    "Panoramic Observation Deck"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}
