@@ -156,6 +156,15 @@ class UIController {
       alert("🏙️ GitHub Autonomous Tech Town (Operator L5 Active)\n\n• 250 pioneer agents across 60+ specialized professions living 24/7 inside this GitHub repo.\n• All creations, blueprints, job requisitions, and diaries are stored in GitHub.\n• Autonomous Workforce Deficiency Detection: When labor deficits are identified, town agents autonomously post requisitions and self-generate specialized agents.\n• Confidential Operator Level 5 Clearance: Private telemetry, internal directives, token compensations, and thoughts are restricted to your operator HUD.\n• Interactive Inspection: Click any agent or building to view full specs, desk occupancy, departments, and interactive tenant rosters!\n• Bi-Directional Operator Link: Select an agent to query live status, thoughts, tools, or issue priority orders (construction, vehicle craft, road pave, code commit).\n• Use Zoom In/Out (+/-) or mouse wheel to navigate.");
     });
 
+    // Operator Clearance Badge Details Modal
+    const opBadge = document.getElementById("operator-badge-hud");
+    if (opBadge) {
+      opBadge.style.cursor = "pointer";
+      opBadge.addEventListener("click", () => {
+        alert("👑 OPERATOR SECURE CLEARANCE LEVEL 5 // AUTHENTICATED\n\n• Identity: Primary Operator (You)\n• Authority: Sole interaction & command rights over all 250+ citizens\n• Telemetry: Unrestricted access to thoughts, salaries, and blueprints\n• Bi-Directional Comms: Active (Select any agent in 3D to ask questions or order tasks)\n• External Access: Strictly Blocked (All non-operator commands rejected)");
+      });
+    }
+
     // Operator Directive Transmission & Quick Order Chips
     const sendDirectiveBtn = document.getElementById("btn-send-directive");
     const directiveInput = document.getElementById("operator-directive-input");
@@ -755,9 +764,9 @@ class UIController {
 
     const anyWord = (text, words) => words.some(w => text.includes(w));
     const isQuestion = cmdLower.endsWith("?") || 
-      anyWord(cmdLower, ["what", "how", "who", "where", "why", "status", "tell", "explain", "report", "thoughts", "thinking", "tools", "salary", "stipend", "energy", "shift"]);
+      anyWord(cmdLower, ["what", "how", "who", "where", "why", "status", "tell", "explain", "report", "thoughts", "thinking", "tools", "salary", "stipend", "energy", "shift", "friend", "collaborator", "mentor", "skill", "opinion"]);
 
-    if (isQuestion && !anyWord(cmdLower, ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor"])) {
+    if (isQuestion && !anyWord(cmdLower, ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor", "walk", "move", "go to", "recharge", "sleep"])) {
       actionType = "dialogue";
       if (anyWord(cmdLower, ["working", "status", "doing", "task", "activity", "live"])) {
         reply = `Operator, reporting live from [${agent.position[0].toFixed(1)}, ${agent.position[2].toFixed(1)}]. Currently: ${agent.action} at ${agent.workplace_name || 'Civic Matrix'}. Energy reserve is at ${agent.energy}%.`;
@@ -772,12 +781,56 @@ class UIController {
         reply = `Operator, I am ${agent.name}, ${agent.career_title || agent.role} (Lv. ${agent.level}). Specialization: ${agent.specialization || agent.category}.`;
       } else if (anyWord(cmdLower, ["shift", "schedule", "hours"])) {
         reply = `Operator, assigned shift: ${agent.shift || 'Morning Shift (08:00 - 16:00)'} at ${agent.workplace_name || 'Town Core'}.`;
+      } else if (anyWord(cmdLower, ["friend", "collaborator", "peer", "partner", "who do you work with"])) {
+        const collabs = (agent.collaborators && agent.collaborators.length > 0) ? agent.collaborators.join(', ') : 'Independent specialist with cross-sector links';
+        reply = `Operator, active collaborators: ${collabs}. Cross-department matrix links established.`;
+      } else if (anyWord(cmdLower, ["skill", "ability", "competenc", "what can you do"])) {
+        const skills = (agent.skills && agent.skills.length > 0) ? agent.skills.join(', ') : 'Foundational Urban Architecture';
+        reply = `Operator, mastered competencies: ${skills}. Career Level: ${agent.level} (${agent.experience || 0} XP).`;
+      } else if (anyWord(cmdLower, ["mentor", "teacher", "lineage", "generation"])) {
+        reply = `Operator, citizen lineage: Generation ${agent.generation || 1}. Primary mentor: ${agent.mentor_name || 'Self-Taught Founding Pioneer'}.`;
+      } else if (anyWord(cmdLower, ["energy", "tired", "battery", "health", "vitality"])) {
+        reply = `Operator, current energy reserves at ${agent.energy}%. Vitality index is optimal for 24/7 civic operations.`;
+      } else if (anyWord(cmdLower, ["where", "workplace", "facility", "station", "office"])) {
+        reply = `Operator, stationed at ${agent.workplace_name || 'City Mainframe Core'} [Facility ID: ${agent.workplace_id || 'bldg-001'}]. Operating on the ${agent.shift || 'Morning Shift'}.`;
+      } else if (anyWord(cmdLower, ["opinion", "future", "philosophy", "town", "think about", "joke"])) {
+        reply = `Operator, our autonomous town inside GitHub is thriving. 250+ citizens across 60+ professions living and building 24/7 strictly under your clearance level 5 directives.`;
       } else {
         reply = `Operator, live link established. Position: [${agent.position[0].toFixed(1)}, ${agent.position[2].toFixed(1)}]. Current task: ${agent.action}. Standing by for next command.`;
       }
     } else {
       // Action Orders
-      if (anyWord(cmdLower, ["company", "startup", "business", "incorporate", "enterprise"])) {
+      if (anyWord(cmdLower, ["walk", "move", "go to", "head to", "visit", "travel", "navigate"])) {
+        actionType = "movement";
+        let targetX = 0, targetZ = 0, destName = "civic destination";
+        if (cmdLower.includes("silicon")) {
+          targetX = 12; targetZ = -14; destName = "Silicon Central";
+        } else if (cmdLower.includes("science") || cmdLower.includes("quantum")) {
+          targetX = -45; targetZ = -20; destName = "Quantum Science Quad";
+        } else if (cmdLower.includes("living") || cmdLower.includes("resident") || cmdLower.includes("home")) {
+          targetX = -35; targetZ = 35; destName = "Cyber Living District";
+        } else if (cmdLower.includes("energy") || cmdLower.includes("fusion")) {
+          targetX = 55; targetZ = 40; destName = "Energy & Fusion Grid";
+        } else {
+          targetX = Math.round((Math.random() * 120 - 60) * 10) / 10;
+          targetZ = Math.round((Math.random() * 120 - 60) * 10) / 10;
+          destName = `coordinates [${targetX}, ${targetZ}]`;
+        }
+        agent.position = [targetX, 0, targetZ];
+        if (this.agentManager) {
+          const mesh = this.agentManager.agentMeshes.get(agent.id);
+          if (mesh) mesh.userData.targetPos.set(targetX, 0, targetZ);
+        }
+        agent.action = `Walking to ${destName}`;
+        agent.experience = (agent.experience || 0) + 40;
+        reply = `Operator directive executed! Navigating directly to ${destName}. Real-time 3D walking cycle initiated.`;
+      } else if (anyWord(cmdLower, ["recharge", "rest", "sleep", "recover", "relax", "nap"])) {
+        actionType = "recharge";
+        agent.energy = 100;
+        agent.action = "Recharged energy core to 100%";
+        agent.experience = (agent.experience || 0) + 30;
+        reply = `Operator directive executed! Connected to induction charging hub. Energy reserve restored to 100%.`;
+      } else if (anyWord(cmdLower, ["company", "startup", "business", "incorporate", "enterprise"])) {
         actionType = "company";
         const compName = `${agent.name.split(' ')[0]} Dynamic AI`;
         agent.company_name = compName;
@@ -845,28 +898,56 @@ class UIController {
         agent.action = `Conducted masterclass in ${agent.specialization || 'technology'}`;
         agent.experience = (agent.experience || 0) + 65;
         reply = `Operator directive executed! Conducted mentorship masterclass in ${agent.specialization || 'operations'}.`;
-      } else if (anyWord(cmdLower, ["build", "construct", "facility", "structure", "house", "tower", "lab", "pod"])) {
+      } else if (anyWord(cmdLower, ["build", "construct", "facility", "structure", "house", "tower", "lab", "pod", "hospital", "clinic", "observatory", "academy", "park"])) {
         actionType = "construction";
         const bldgId = `bldg-op-${Date.now()}`;
-        const bldgName = `${agent.name}'s Advanced Lab #${Math.floor(Math.random() * 900 + 100)}`;
+        let bldgName = "";
+        let bldgType = "Operator Advanced Facility";
+        let bldgColor = agent.color || "#0284c7";
+        let departments = ["Operator Command Unit", "Advanced R&D"];
+
+        if (anyWord(cmdLower, ["hospital", "clinic", "medic", "infirmary", "health"])) {
+          bldgName = `${agent.name}'s Nanomedical Center #${Math.floor(Math.random() * 900 + 100)}`;
+          bldgType = "Nanomedical Clinic";
+          bldgColor = "#ef4444";
+          departments = ["Trauma Nanomedicine", "Bio-Synthetic Diagnostics", "Neural Ward"];
+        } else if (anyWord(cmdLower, ["observatory", "space", "telescope", "astronomy", "cosmos"])) {
+          bldgName = `${agent.name}'s Quantum Observatory #${Math.floor(Math.random() * 900 + 100)}`;
+          bldgType = "Astrophysics Observatory";
+          bldgColor = "#8b5cf6";
+          departments = ["Deep Space Radio Array", "Gravitational Wave Chamber"];
+        } else if (anyWord(cmdLower, ["academy", "school", "university", "college", "faculty"])) {
+          bldgName = `${agent.name}'s Academy of Sciences #${Math.floor(Math.random() * 900 + 100)}`;
+          bldgType = "Higher Research Academy";
+          bldgColor = "#10b981";
+          departments = ["Neural Systems Institute", "Advanced Mathematics"];
+        } else if (anyWord(cmdLower, ["park", "garden", "green", "nature", "botanic"])) {
+          bldgName = `${agent.name}'s Eco Concourse #${Math.floor(Math.random() * 900 + 100)}`;
+          bldgType = "Ecological Pavilion";
+          bldgColor = "#22c55e";
+          departments = ["Hydroponic Canopy", "Clean Air Bio-Filters"];
+        } else {
+          bldgName = `${agent.name}'s Advanced Lab #${Math.floor(Math.random() * 900 + 100)}`;
+        }
+
         const posX = agent.position[0] + (Math.random() * 16 - 8);
         const posZ = agent.position[2] + (Math.random() * 16 - 8);
         const newBldg = {
           id: bldgId,
           name: bldgName,
-          type: "Operator Advanced Facility",
+          type: bldgType,
           district: agent.category || "Silicon Central",
           position: [posX, 0, posZ],
           size: [16, Math.floor(Math.random() * 25 + 32), 16],
-          color: agent.color || "#0284c7",
+          color: bldgColor,
           builder_name: agent.name,
           builder_id: agent.id,
-          purpose: "Operator Priority Facility",
+          purpose: `Operator Priority ${bldgType}`,
           floors: 14,
           capacity: 56,
           occupants: [agent.name],
           power_consumption_mw: 9.6,
-          departments: ["Operator Command Unit", "Advanced R&D"]
+          departments: departments
         };
         this.buildingsList.push(newBldg);
         if (window.app && window.app.currentState && window.app.currentState.buildings) {

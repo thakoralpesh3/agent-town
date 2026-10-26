@@ -712,23 +712,45 @@ class TownEngine:
             "what", "who", "where", "how", "why", "status", "report", "tell me", "thoughts", "doing", "tools", "workplace", "salary", "shift"
         ]) and not any(order_word in cmd_lower for order_word in ["build", "craft", "create", "pave", "found", "write", "spawn", "mentor"])
 
-        if is_question:
+        if is_question and not any(w in cmd_lower for w in ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor", "walk", "move", "go to", "recharge", "sleep"]):
             if "tool" in cmd_lower or "hardware" in cmd_lower:
                 tools_list = ", ".join(target_agent.tools_equipped) if target_agent.tools_equipped else "Neural Terminal"
                 reply = f"Operator, I am equipped with {tools_list}. These enable me to execute high-precision {target_agent.specialization} tasks."
             elif "workplace" in cmd_lower or "facility" in cmd_lower or "where" in cmd_lower:
                 reply = f"Operator, I am stationed at {target_agent.workplace_name or 'City Mainframe Core'}, working the {target_agent.shift}."
-            elif "thought" in cmd_lower or "thinking" in cmd_lower:
+            elif "thought" in cmd_lower or "thinking" in cmd_lower or "mind" in cmd_lower or "ambition" in cmd_lower:
                 reply = f"Operator, my current analysis is: \"{target_agent.thoughts}\" My active ambition is to {target_agent.desire}."
-            elif "who" in cmd_lower or "role" in cmd_lower:
-                reply = f"Operator, I am {target_agent.name}, {target_agent.career_title} (Level {target_agent.level}). Specialization: {target_agent.specialization}. Security Clearance: {target_agent.security_clearance}."
-            elif "salary" in cmd_lower or "token" in cmd_lower:
+            elif any(w in cmd_lower for w in ["friend", "collaborator", "peer", "partner"]):
+                collabs = ", ".join(target_agent.collaborators) if target_agent.collaborators else "Independent specialist"
+                reply = f"Operator, active collaborators: {collabs}. Cross-department links active."
+            elif any(w in cmd_lower for w in ["skill", "ability", "competenc"]):
+                skills_str = ", ".join(target_agent.skills) if target_agent.skills else "Foundational Systems"
+                reply = f"Operator, mastered competencies: {skills_str}. Current Level: {target_agent.level} ({target_agent.experience} XP)."
+            elif any(w in cmd_lower for w in ["mentor", "teacher", "lineage", "generation"]):
+                reply = f"Operator, citizen lineage: Generation {target_agent.generation}. Primary mentor: {target_agent.mentor_name or 'Founding Pioneer'}."
+            elif any(w in cmd_lower for w in ["energy", "battery", "health", "vitality", "tired"]):
+                reply = f"Operator, current energy reserves at {target_agent.energy}%. Biometric vitality index is optimal."
+            elif any(w in cmd_lower for w in ["salary", "token", "stipend", "pay"]):
                 reply = f"Operator, my operational stipend is {target_agent.salary_tokens:,} Tokens/cycle with {target_agent.total_contributions} verified repository contributions."
+            elif any(w in cmd_lower for w in ["who are you", "what is your name", "role", "specialization", "title", "identity"]):
+                reply = f"Operator, I am {target_agent.name}, {target_agent.career_title} (Level {target_agent.level}). Specialization: {target_agent.specialization}. Security Clearance: {target_agent.security_clearance}."
             else:
                 reply = f"Operator, reporting live from [{target_agent.position[0]}, {target_agent.position[2]}]. Currently {target_agent.action} at {target_agent.workplace_name}. Energy reserve is at {target_agent.energy}%."
         else:
             # Action orders
-            if any(w in cmd_lower for w in ["company", "startup", "business", "incorporate", "enterprise"]):
+            if any(w in cmd_lower for w in ["walk", "move", "go to", "head to", "visit", "navigate"]):
+                action_type = "movement"
+                dest_x = round(random.uniform(-50, 50), 2)
+                dest_z = round(random.uniform(-50, 50), 2)
+                target_agent.position = [dest_x, 0.0, dest_z]
+                target_agent.action = f"Walking to civic coordinates [{dest_x}, {dest_z}]"
+                reply = f"Operator directive executed! Navigating directly to coordinates [{dest_x}, {dest_z}]. Real-time walking cycle initiated."
+            elif any(w in cmd_lower for w in ["recharge", "rest", "sleep", "nap", "battery"]):
+                action_type = "recharge"
+                target_agent.energy = 100
+                target_agent.action = "Recharged energy core to 100%"
+                reply = "Operator directive executed! Connected to induction charging hub. Energy reserve restored to 100%."
+            elif any(w in cmd_lower for w in ["company", "startup", "business", "incorporate", "enterprise"]):
                 action_type = "company"
                 self._agent_found_company(target_agent)
                 reply = f"Operator directive executed! Incorporated '{target_agent.company_name}' with headquarters established in the city."
@@ -750,7 +772,7 @@ class TownEngine:
                 action_type = "education"
                 self._agent_mentor_peers(target_agent)
                 reply = f"Operator directive executed! Conducted mentorship masterclass in {target_agent.specialization} for junior citizens."
-            elif any(w in cmd_lower for w in ["build", "construct", "facility", "structure", "house", "pod", "tower", "lab"]):
+            elif any(w in cmd_lower for w in ["build", "construct", "facility", "structure", "house", "pod", "tower", "lab", "hospital", "clinic", "observatory", "academy", "park"]):
                 action_type = "construction"
                 self._agent_build_structure(target_agent)
                 last_bldg = self.state.buildings[-1] if self.state.buildings else None
