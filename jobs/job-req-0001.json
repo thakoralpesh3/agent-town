@@ -1,14 +1,14 @@
 {
   "id": "job-req-0001",
-  "role": "Town Chief Historian",
-  "category": "Society",
-  "specialization": "Cultural Heritage & Civic Milestones",
+  "role": "Solid-State Battery Chemist",
+  "category": "Energy",
+  "specialization": "Fast-Charging Non-Flammable Cells",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Von Neumann Citadel",
-  "salary_offered": 12800,
-  "created_at_tick": 1,
+  "requesting_building": "Cyber Living Pod Alpha",
+  "salary_offered": 15100,
+  "created_at_tick": 14,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-252",
-  "filled_by_agent_name": "Zephyr Thompson"
+  "filled_by_agent_id": "agent-388",
+  "filled_by_agent_name": "Atlas Hamilton"
 }

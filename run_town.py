@@ -40,7 +40,8 @@ def main():
     parser.add_argument("--tick", type=int, nargs="?", const=1, help="Execute N simulation ticks (default 1)")
     parser.add_argument("--continuous", action="store_true", help="Run 24/7 continuous simulation loop")
     parser.add_argument("--delay", type=float, default=3.0, help="Seconds between continuous ticks (default 3.0)")
-    parser.add_argument("--command", type=str, help="Issue a direct user command to the town agents")
+    parser.add_argument("--command", type=str, help="Issue a direct user command or question to the town agents")
+    parser.add_argument("--agent", type=str, default=None, help="Target specific agent by ID or Name for directive")
     parser.add_argument("--git-commit", action="store_true", help="Automatically git commit town changes")
     parser.add_argument("--serve", action="store_true", help="Serve the 3D Tech Town Viewer locally")
     parser.add_argument("--port", type=int, default=8000, help="Web server port (default 8000)")
@@ -62,13 +63,15 @@ def main():
 
     if args.command:
         engine.load_state()
-        print(f"👑 Executing User Command: '{args.command}'...")
-        engine.process_user_command(args.command)
+        target = args.agent or "agent-001"
+        print(f"👑 [OPERATOR L5 DIRECTIVE] -> Target: '{target}' | Order: '{args.command}'...")
+        res = engine.process_agent_order(target, args.command)
+        print(f"💬 [{res.get('agent_name', target)} ({res.get('career_title', '')})]: \"{res.get('reply')}\"")
         if args.git_commit:
             msg = commit_town_activity(engine.state.recent_events, engine.state.tick)
             if msg:
                 print(f"📦 Git commit: {msg}")
-        print("✅ Command executed by town agents.")
+        print("✅ Order executed and recorded to state and diaries.")
         return
 
     if args.serve and not (args.tick or args.continuous):

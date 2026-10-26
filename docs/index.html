@@ -322,6 +322,69 @@
       </div>
     </div>
 
+    <!-- Operator Bi-Directional Directive & Interrogation Console (Exclusive to Operator) -->
+    <div class="inspector-section" id="insp-operator-console">
+      <div class="operator-console-header">
+        <div class="op-link-status">
+          <span class="op-status-dot"></span>
+          <span class="op-link-title"><i class="fa-solid fa-satellite-dish"></i> OPERATOR COMMS // DIRECT LINK</span>
+        </div>
+        <span class="op-clearance-badge"><i class="fa-solid fa-lock"></i> LEVEL 5 ONLY</span>
+      </div>
+
+      <div class="op-console-desc">
+        Direct link with <strong id="insp-op-agent-name" style="color: var(--cyan-neon);">Citizen</strong>. Only you (the Operator) can query status/thoughts or command priority construction and code tasks.
+      </div>
+
+      <!-- Dialogue Thread -->
+      <div class="operator-dialogue-history" id="operator-dialogue-history"></div>
+
+      <!-- Quick Directive Order Chips -->
+      <div class="quick-orders-section">
+        <div class="quick-orders-label"><i class="fa-solid fa-wand-magic-sparkles"></i> QUICK INQUIRIES & DIRECTIVES</div>
+        <div class="quick-orders-row">
+          <button class="quick-order-chip" data-directive="What are you working on right now?">
+            <i class="fa-solid fa-comment-dots"></i> Live Status
+          </button>
+          <button class="quick-order-chip" data-directive="What are your thoughts and ambition?">
+            <i class="fa-solid fa-brain"></i> Thoughts
+          </button>
+          <button class="quick-order-chip" data-directive="What tools and gear are you equipped with?">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Equipped Tools
+          </button>
+          <button class="quick-order-chip" data-directive="Build an advanced research facility">
+            <i class="fa-solid fa-building"></i> Order: Build Facility
+          </button>
+          <button class="quick-order-chip" data-directive="Craft an autonomous transit vehicle">
+            <i class="fa-solid fa-car-side"></i> Order: Craft Vehicle
+          </button>
+          <button class="quick-order-chip" data-directive="Pave a smart arterial roadway">
+            <i class="fa-solid fa-road"></i> Order: Pave Road
+          </button>
+          <button class="quick-order-chip" data-directive="Write and commit software module">
+            <i class="fa-solid fa-code"></i> Order: Write Code
+          </button>
+          <button class="quick-order-chip" data-directive="Incorporate a new technology company">
+            <i class="fa-solid fa-briefcase"></i> Order: Found Startup
+          </button>
+        </div>
+      </div>
+
+      <!-- Custom Directive Command Line Input -->
+      <div class="directive-input-bar">
+        <input 
+          type="text" 
+          id="operator-directive-input" 
+          placeholder="Ask something or order a task..." 
+          autocomplete="off"
+        />
+        <button id="btn-send-directive" title="Transmit Order to Agent">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Send</span>
+        </button>
+      </div>
+    </div>
+
     <!-- Action Buttons -->
     <div class="inspector-actions">
       <button class="action-btn" id="btn-focus-agent"><i class="fa-solid fa-video"></i> Focus Camera</button>

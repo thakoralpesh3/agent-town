@@ -394,11 +394,20 @@ class AgentManager {
       const compBadge = agent.company_name ? `<span style="color: #f472b6; font-size: 9px; display: block; font-weight: bold;">🏢 ${agent.company_name}</span>` : '';
       const masterStar = (agent.level >= 8) ? '⭐ ' : '';
       const titleText = agent.career_title || agent.role;
+      
+      const isDirectiveTarget = (this.activeDirectiveBubble && this.activeDirectiveBubble.agentId === id && Date.now() < this.activeDirectiveBubble.expiresAt);
+      const directiveMarkup = isDirectiveTarget ? `
+        <div style="margin-top: 4px; padding: 3px 6px; background: rgba(0, 240, 255, 0.28); border: 1px solid #00f0ff; border-radius: 4px; font-size: 9px; color: #fff; text-shadow: 0 0 6px rgba(0, 240, 255, 0.8); animation: pulse 1.5s infinite;">
+          <i class="fa-solid fa-satellite-dish" style="color: #00f0ff; margin-right: 3px;"></i>${this.activeDirectiveBubble.text.substring(0, 52)}...
+        </div>
+      ` : '';
+
       el.innerHTML = `
         <div style="font-size: 8px; font-weight: 700; color: ${agent.color}; letter-spacing: 0.3px;">${masterStar}LV.${agent.level} • ${titleText}</div>
         <span style="font-weight: 700; font-size: 11px;">${agent.name}</span>
         ${compBadge}
         <span class="sub-action" style="font-size: 9px; color: #38bdf8;">${agent.action.substring(0, 28)}</span>
+        ${directiveMarkup}
       `;
 
       // Project 3D coordinate (over head) to 2D Screen
@@ -415,8 +424,17 @@ class AgentManager {
 
       el.style.left = `${x}px`;
       el.style.top = `${y}px`;
-      el.style.opacity = isSelected ? "1" : Math.max(0.25, 1 - (dist / 130)).toString();
-      el.style.borderColor = isSelected ? "#00f0ff" : "rgba(255, 255, 255, 0.25)";
+      el.style.opacity = (isSelected || isDirectiveTarget) ? "1" : Math.max(0.25, 1 - (dist / 130)).toString();
+      el.style.borderColor = (isSelected || isDirectiveTarget) ? "#00f0ff" : "rgba(255, 255, 255, 0.25)";
+      el.style.boxShadow = isDirectiveTarget ? "0 0 20px rgba(0, 240, 255, 0.7)" : "0 4px 16px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 240, 255, 0.15)";
     });
+  }
+
+  showDirectiveFeedback(agentId, text) {
+    this.activeDirectiveBubble = {
+      agentId,
+      text,
+      expiresAt: Date.now() + 6500
+    };
   }
 }

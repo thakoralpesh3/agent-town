@@ -1,0 +1,42 @@
+{
+  "id": "bldg-124",
+  "name": "Edsger's Company Headquarters #72",
+  "type": "Company Headquarters",
+  "position": [
+    -33.8,
+    35.6,
+    -42.5
+  ],
+  "size": [
+    28.1,
+    71.2,
+    23.4
+  ],
+  "color": "#ec4899",
+  "builder_id": "agent-064",
+  "builder_name": "Edsger Andreessen",
+  "district": "Silicon Central",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Edsger Andreessen"
+  ],
+  "purpose": "Constructed by Edsger Andreessen for Company Headquarters operations",
+  "floors": 15,
+  "capacity": 45,
+  "departments": [
+    "Executive Penthouse",
+    "Product Incubation",
+    "Global Operations"
+  ],
+  "amenities": [
+    "Helipad & Drone Dock",
+    "VIP Boardroom",
+    "Panoramic Observation Deck"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

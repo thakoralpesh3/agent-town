@@ -412,6 +412,7 @@ class TownEngine:
         agent.thoughts = f"Proud to have brought {child_name} (Gen-{agent.generation + 1}) online to expand our town!"
         
         self._award_xp(agent, 130)
+        self._agent_write_diary(child)
         self.log_event(f"🌱 {agent.name} spawned next-generation agent: {child_name} ({role})!", "population")
         self.state.stats["total_agents_spawned"] = self.state.stats.get("total_agents_spawned", 0) + 1
         self.state.population = len(self.state.agents)
@@ -560,6 +561,7 @@ class TownEngine:
         self.state.job_requisitions.append(req)
         self.state.stats["total_agents_spawned"] = self.state.stats.get("total_agents_spawned", 0) + 1
         self.state.population = len(self.state.agents)
+        self._agent_write_diary(new_agent)
 
         self.log_event(
             f"⚡ AUTONOMOUS RESOLUTION: {new_agent.name} self-generated as {new_agent.career_title} ({req.specialization}) at {workplace_name} to fulfill {req_id}!",
@@ -679,37 +681,147 @@ class TownEngine:
         self._award_xp(agent, 30)
         agent.last_diary = f"Tick {self.state.tick} ({agent.career_title}): {agent.thoughts[:55]}..."
 
-    def process_user_command(self, command_text: str):
+    def process_agent_order(self, agent_identifier: str, directive_text: str) -> Dict[str, Any]:
+        """Executes an exclusive Operator directive or answers an inquiry from the selected agent."""
+        if not self.state or not directive_text:
+            return {"error": "Missing state or directive"}
+
+        # Match agent by ID or Name
+        target_agent = None
+        for a in self.state.agents:
+            if a.id.lower() == agent_identifier.lower() or a.name.lower() == agent_identifier.lower():
+                target_agent = a
+                break
+        if not target_agent:
+            for a in self.state.agents:
+                if agent_identifier.lower() in a.name.lower() or agent_identifier.lower() in a.id.lower():
+                    target_agent = a
+                    break
+        if not target_agent:
+            target_agent = self.state.agents[0] if self.state.agents else None
+
+        if not target_agent:
+            return {"error": "No agents found in town"}
+
+        cmd_lower = directive_text.lower().strip()
+        reply = ""
+        action_type = "dialogue"
+
+        # Check for questions / inquiries
+        is_question = any(q in cmd_lower for q in [
+            "what", "who", "where", "how", "why", "status", "report", "tell me", "thoughts", "doing", "tools", "workplace", "salary", "shift"
+        ]) and not any(order_word in cmd_lower for order_word in ["build", "craft", "create", "pave", "found", "write", "spawn", "mentor"])
+
+        if is_question:
+            if "tool" in cmd_lower or "hardware" in cmd_lower:
+                tools_list = ", ".join(target_agent.tools_equipped) if target_agent.tools_equipped else "Neural Terminal"
+                reply = f"Operator, I am equipped with {tools_list}. These enable me to execute high-precision {target_agent.specialization} tasks."
+            elif "workplace" in cmd_lower or "facility" in cmd_lower or "where" in cmd_lower:
+                reply = f"Operator, I am stationed at {target_agent.workplace_name or 'City Mainframe Core'}, working the {target_agent.shift}."
+            elif "thought" in cmd_lower or "thinking" in cmd_lower:
+                reply = f"Operator, my current analysis is: \"{target_agent.thoughts}\" My active ambition is to {target_agent.desire}."
+            elif "who" in cmd_lower or "role" in cmd_lower:
+                reply = f"Operator, I am {target_agent.name}, {target_agent.career_title} (Level {target_agent.level}). Specialization: {target_agent.specialization}. Security Clearance: {target_agent.security_clearance}."
+            elif "salary" in cmd_lower or "token" in cmd_lower:
+                reply = f"Operator, my operational stipend is {target_agent.salary_tokens:,} Tokens/cycle with {target_agent.total_contributions} verified repository contributions."
+            else:
+                reply = f"Operator, reporting live from [{target_agent.position[0]}, {target_agent.position[2]}]. Currently {target_agent.action} at {target_agent.workplace_name}. Energy reserve is at {target_agent.energy}%."
+        else:
+            # Action orders
+            if any(w in cmd_lower for w in ["company", "startup", "business", "incorporate", "enterprise"]):
+                action_type = "company"
+                self._agent_found_company(target_agent)
+                reply = f"Operator directive executed! Incorporated '{target_agent.company_name}' with headquarters established in the city."
+            elif any(w in cmd_lower for w in ["car", "vehicle", "transit", "shuttle", "drone", "drive"]):
+                action_type = "vehicle"
+                self._agent_craft_vehicle(target_agent)
+                last_veh = self.state.vehicles[-1] if self.state.vehicles else None
+                reply = f"Operator directive executed! Manufactured autonomous vehicle '{last_veh.name if last_veh else 'Transit Unit'}'. Deployed to road grid."
+            elif any(w in cmd_lower for w in ["bridge", "road", "highway", "avenue", "pave"]):
+                action_type = "road"
+                self._agent_build_road(target_agent)
+                last_road = self.state.roads[-1] if self.state.roads else None
+                reply = f"Operator directive executed! Paved new thoroughfare '{last_road.name if last_road else 'Transit Arterial'}'. Transit mesh expanded."
+            elif any(w in cmd_lower for w in ["code", "software", "program", "script", "commit"]):
+                action_type = "software"
+                self._agent_write_code(target_agent)
+                reply = f"Operator directive executed! Developed and committed new infrastructure module to projects/ directory."
+            elif any(w in cmd_lower for w in ["mentor", "teach", "train", "apprentice"]):
+                action_type = "education"
+                self._agent_mentor_peers(target_agent)
+                reply = f"Operator directive executed! Conducted mentorship masterclass in {target_agent.specialization} for junior citizens."
+            elif any(w in cmd_lower for w in ["build", "construct", "facility", "structure", "house", "pod", "tower", "lab"]):
+                action_type = "construction"
+                self._agent_build_structure(target_agent)
+                last_bldg = self.state.buildings[-1] if self.state.buildings else None
+                reply = f"Operator directive executed! Constructed facility '{last_bldg.name if last_bldg else 'New Structure'}' in {last_bldg.district if last_bldg else 'district'}."
+            else:
+                action_type = "directive"
+                target_agent.action = f"Executing Operator Directive: {directive_text[:35]}"
+                target_agent.thoughts = f"Operator ordered: '{directive_text}'. Aligning matrix telemetry and executing priority protocol."
+                self._award_xp(target_agent, 45)
+                reply = f"Operator order registered: \"{directive_text}\". Prioritizing execution across {target_agent.workplace_name or 'town matrix'} immediately."
+
+        # Award XP for responding to Operator
+        self._award_xp(target_agent, 30)
+
+        # Log event
+        self.log_event(f"👑 [OPERATOR DIRECTIVE -> {target_agent.name}]: \"{directive_text}\" => \"{reply}\"", "directive")
+
+        # Record dialogue history in commands/agent_dialogues.json
+        dialogue_file = "commands/agent_dialogues.json"
+        os.makedirs("commands", exist_ok=True)
+        dialogues = []
+        if os.path.exists(dialogue_file):
+            try:
+                with open(dialogue_file, "r") as f:
+                    dialogues = json.load(f)
+            except Exception:
+                dialogues = []
+        
+        dialogue_entry = {
+            "tick": self.state.tick,
+            "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "operator": "OPERATOR (Clearance Level 5)",
+            "agent_id": target_agent.id,
+            "agent_name": target_agent.name,
+            "agent_role": target_agent.career_title,
+            "directive": directive_text,
+            "reply": reply,
+            "action_type": action_type
+        }
+        dialogues.append(dialogue_entry)
+        if len(dialogues) > 100:
+            dialogues = dialogues[-100:]
+        with open(dialogue_file, "w") as f:
+            json.dump(dialogues, f, indent=2)
+
+        # Append to agent's diary
+        safe_name = target_agent.name.lower().replace(' ', '_').replace('-', '_')
+        diary_file = f"diaries/{target_agent.id}_{safe_name}.md"
+        os.makedirs("diaries", exist_ok=True)
+        if not os.path.exists(diary_file):
+            with open(diary_file, "w") as f:
+                f.write(f"# 📖 Citizen Diary: {target_agent.name}\n\n**Asset ID**: `{target_agent.id}` | **Role**: {target_agent.career_title} | **Specialization**: {target_agent.specialization}\n**Assigned Facility**: {target_agent.workplace_name}\n\n---\n")
+        with open(diary_file, "a") as f:
+            f.write(f"\n### 👑 Operator Directive (Tick {self.state.tick})\n- **Order Received**: \"{directive_text}\"\n- **Response**: \"{reply}\"\n")
+
+        self.save_state()
+        return {
+            "agent_id": target_agent.id,
+            "agent_name": target_agent.name,
+            "career_title": target_agent.career_title,
+            "directive": directive_text,
+            "reply": reply,
+            "action_type": action_type
+        }
+
+    def process_user_command(self, command_text: str, agent_id: str = None):
         """Executes a user command inside GitHub Tech Town."""
         if not command_text or not self.state:
             return
-
-        leader = self.state.agents[0] if self.state.agents else None
-        if not leader:
-            return
-
-        cmd_lower = command_text.lower()
-        if "company" in cmd_lower or "startup" in cmd_lower or "business" in cmd_lower:
-            self._agent_found_company(leader)
-            msg = f"User Directive Executed: Formed company '{leader.company_name}'!"
-        elif "bridge" in cmd_lower or "road" in cmd_lower or "highway" in cmd_lower:
-            self._agent_build_road(leader)
-            msg = f"User Directive Executed: Paved arterial thoroughfare!"
-        elif "car" in cmd_lower or "vehicle" in cmd_lower or "transit" in cmd_lower:
-            self._agent_craft_vehicle(leader)
-            msg = f"User Directive Executed: Manufactured autonomous transit unit!"
-        elif "code" in cmd_lower or "software" in cmd_lower or "tool" in cmd_lower:
-            self._agent_write_code(leader)
-            msg = f"User Directive Executed: Pushed code repository update!"
-        elif "agent" in cmd_lower or "spawn" in cmd_lower or "citizen" in cmd_lower:
-            self._agent_spawn_child(leader)
-            msg = f"User Directive Executed: Spawned new citizen agent into town!"
-        else:
-            self._agent_build_structure(leader)
-            msg = f"User Directive Executed: Constructed infrastructure for '{command_text}'!"
-
-        self.log_event(f"👑 [USER COMMAND]: {msg}", "directive")
-        self.save_state()
+        agent_id = agent_id or (self.state.agents[0].id if self.state.agents else "agent-001")
+        self.process_agent_order(agent_id, command_text)
 
     def check_pending_directives(self):
         """Checks for queued user directives in commands/directive.json."""
@@ -719,14 +831,15 @@ class TownEngine:
                 with open(directive_file, "r") as f:
                     cmd_data = json.load(f)
                 command = cmd_data.get("command", "")
+                agent_id = cmd_data.get("agent_id") or cmd_data.get("agent")
                 if command:
-                    print(f"📥 Found pending user directive: {command}")
-                    self.process_user_command(command)
+                    print(f"📥 Found pending user directive: {command} (target: {agent_id or 'Leader'})")
+                    self.process_agent_order(agent_id or "agent-001", command)
                 
                 # Move to history
                 os.makedirs("commands", exist_ok=True)
                 with open("commands/last_executed.json", "w") as f:
-                    json.dump({"executed_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "command": command}, f, indent=2)
+                    json.dump({"executed_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "command": command, "agent_id": agent_id}, f, indent=2)
                 os.remove(directive_file)
             except Exception as e:
                 print(f"Error executing user directive: {e}")

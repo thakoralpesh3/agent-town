@@ -1,0 +1,19 @@
+{
+  "id": "comp-043",
+  "name": "OmniNetworks",
+  "sector": "DeFi Treasury & Smart Law",
+  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
+  "founder_id": "agent-063",
+  "founder_name": "Nova Scribe",
+  "headquarters_id": "bldg-125",
+  "headquarters_name": "OmniNetworks Headquarters",
+  "employees": [
+    "agent-063",
+    "agent-211",
+    "agent-054"
+  ],
+  "valuation_tokens": 239830,
+  "products": [],
+  "color": "#eab308",
+  "founded_at_tick": 14
+}

@@ -10,6 +10,7 @@ class UIController {
     this.buildingsList = [];
     this.interaction = null;
     this.agentManager = null;
+    this.agentDialogues = new Map();
 
     this._bindElements();
   }
@@ -152,7 +153,35 @@ class UIController {
 
     // Help Dialog
     document.getElementById("btn-help").addEventListener("click", () => {
-      alert("🏙️ GitHub Autonomous Tech Town (Operator L5 Active)\n\n• 250 pioneer agents across 60+ specialized professions living 24/7 inside this GitHub repo.\n• All creations, blueprints, job requisitions, and diaries are stored in GitHub.\n• Autonomous Workforce Deficiency Detection: When labor deficits are identified, town agents autonomously post requisitions and self-generate specialized agents.\n• Confidential Operator Level 5 Clearance: Private telemetry, internal directives, token compensations, and thoughts are restricted to your operator HUD.\n• Interactive Inspection: Click any agent or building to view full specs, desk occupancy, departments, and interactive tenant rosters!\n• Use Zoom In/Out (+/-) or mouse wheel to navigate.");
+      alert("🏙️ GitHub Autonomous Tech Town (Operator L5 Active)\n\n• 250 pioneer agents across 60+ specialized professions living 24/7 inside this GitHub repo.\n• All creations, blueprints, job requisitions, and diaries are stored in GitHub.\n• Autonomous Workforce Deficiency Detection: When labor deficits are identified, town agents autonomously post requisitions and self-generate specialized agents.\n• Confidential Operator Level 5 Clearance: Private telemetry, internal directives, token compensations, and thoughts are restricted to your operator HUD.\n• Interactive Inspection: Click any agent or building to view full specs, desk occupancy, departments, and interactive tenant rosters!\n• Bi-Directional Operator Link: Select an agent to query live status, thoughts, tools, or issue priority orders (construction, vehicle craft, road pave, code commit).\n• Use Zoom In/Out (+/-) or mouse wheel to navigate.");
+    });
+
+    // Operator Directive Transmission & Quick Order Chips
+    const sendDirectiveBtn = document.getElementById("btn-send-directive");
+    const directiveInput = document.getElementById("operator-directive-input");
+    if (sendDirectiveBtn && directiveInput) {
+      const transmit = () => {
+        const text = directiveInput.value.trim();
+        if (!text || !this.currentSelectedAgent) return;
+        directiveInput.value = "";
+        this.executeOperatorDirective(this.currentSelectedAgent, text);
+      };
+      sendDirectiveBtn.addEventListener("click", transmit);
+      directiveInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          transmit();
+        }
+      });
+    }
+
+    document.querySelectorAll(".quick-order-chip").forEach(chip => {
+      chip.addEventListener("click", () => {
+        const directive = chip.getAttribute("data-directive");
+        if (directive && this.currentSelectedAgent) {
+          this.executeOperatorDirective(this.currentSelectedAgent, directive);
+        }
+      });
     });
   }
 
@@ -429,10 +458,23 @@ class UIController {
     } else {
       creationsBox.innerHTML = "<span style='font-size: 12px; color: var(--text-secondary);'>Surveying and designing starter projects...</span>";
     }
+
+    // Operator Comms Terminal (Clearance Level 5 Link)
+    const opConsole = document.getElementById("insp-operator-console");
+    if (opConsole) {
+      opConsole.style.display = "block";
+      const opAgentName = document.getElementById("insp-op-agent-name");
+      if (opAgentName) opAgentName.textContent = agent.name;
+      this._renderDialogueHistory(agent.id);
+    }
   }
 
   showBuildingInspector(bldg) {
     this.drawer.classList.add("open");
+
+    // Hide Operator Comms Console for Facilities
+    const opConsole = document.getElementById("insp-operator-console");
+    if (opConsole) opConsole.style.display = "none";
 
     // Operator Clearance Header
     const clearanceLabel = document.getElementById("insp-clearance-label");
@@ -607,6 +649,8 @@ class UIController {
     if (deptsSection) deptsSection.style.display = "none";
     const tenantsSection = document.getElementById("insp-tenants-section");
     if (tenantsSection) tenantsSection.style.display = "none";
+    const opConsole = document.getElementById("insp-operator-console");
+    if (opConsole) opConsole.style.display = "none";
 
     document.getElementById("insp-name").textContent = veh.name;
     document.getElementById("insp-role").textContent = `${veh.type} | Speed: ${veh.speed}x`;
@@ -648,6 +692,225 @@ class UIController {
     }
     if (this.interaction) {
       this.interaction.stopFollowing();
+    }
+  }
+
+  _renderDialogueHistory(agentId) {
+    const historyContainer = document.getElementById("operator-dialogue-history");
+    if (!historyContainer) return;
+
+    if (!this.agentDialogues.has(agentId)) {
+      const agent = this.agentsList.find(a => a.id === agentId);
+      const roleName = agent ? (agent.career_title || agent.role) : "Specialist";
+      const agentName = agent ? agent.name : "Citizen";
+      const welcomeMsg = {
+        sender: `${agentName} (${roleName})`,
+        text: `Operator, Clearance Level 5 authenticated. I am standing by for inquiries, technical analysis, or priority task orders.`,
+        type: "agent",
+        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      };
+      this.agentDialogues.set(agentId, [welcomeMsg]);
+    }
+
+    const messages = this.agentDialogues.get(agentId) || [];
+    historyContainer.innerHTML = "";
+    messages.forEach(msg => {
+      const bubble = document.createElement("div");
+      bubble.className = `dialogue-msg ${msg.type}`;
+      bubble.innerHTML = `
+        <div class="dialogue-author-row">
+          <span class="dialogue-author">${msg.sender}</span>
+          <span class="dialogue-timestamp">${msg.time}</span>
+        </div>
+        <div class="dialogue-text">${msg.text}</div>
+      `;
+      historyContainer.appendChild(bubble);
+    });
+    historyContainer.scrollTop = historyContainer.scrollHeight;
+  }
+
+  _addDialogueMessage(agentId, sender, text, type) {
+    if (!this.agentDialogues.has(agentId)) {
+      this.agentDialogues.set(agentId, []);
+    }
+    const msg = {
+      sender,
+      text,
+      type,
+      time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+    };
+    this.agentDialogues.get(agentId).push(msg);
+    this._renderDialogueHistory(agentId);
+  }
+
+  executeOperatorDirective(agent, directiveText) {
+    if (!agent || !directiveText) return;
+
+    // 1. Record Operator message in thread
+    this._addDialogueMessage(agent.id, "OPERATOR (Clearance Level 5)", directiveText, "operator");
+
+    const cmdLower = directiveText.toLowerCase().trim();
+    let reply = "";
+    let actionType = "dialogue";
+
+    const anyWord = (text, words) => words.some(w => text.includes(w));
+    const isQuestion = cmdLower.endsWith("?") || 
+      anyWord(cmdLower, ["what", "how", "who", "where", "why", "status", "tell", "explain", "report", "thoughts", "thinking", "tools", "salary", "stipend", "energy", "shift"]);
+
+    if (isQuestion && !anyWord(cmdLower, ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor"])) {
+      actionType = "dialogue";
+      if (anyWord(cmdLower, ["working", "status", "doing", "task", "activity", "live"])) {
+        reply = `Operator, reporting live from [${agent.position[0].toFixed(1)}, ${agent.position[2].toFixed(1)}]. Currently: ${agent.action} at ${agent.workplace_name || 'Civic Matrix'}. Energy reserve is at ${agent.energy}%.`;
+      } else if (anyWord(cmdLower, ["thought", "thinking", "mind", "desire", "ambition"])) {
+        reply = `Operator, my inner cognition stream: "${agent.thoughts}" Active civic ambition: ${agent.desire}.`;
+      } else if (anyWord(cmdLower, ["tool", "gear", "hardware", "equipped", "device"])) {
+        const tools = (agent.tools_equipped && agent.tools_equipped.length > 0) ? agent.tools_equipped.join(", ") : "Neural Terminal, Diagnostics Scope";
+        reply = `Operator, equipped with: ${tools}. Clearance: ${agent.security_clearance || 'Level 4 - Controlled'}.`;
+      } else if (anyWord(cmdLower, ["salary", "token", "stipend", "pay", "comp"])) {
+        reply = `Operator, my operational stipend is ${(agent.salary_tokens || 12500).toLocaleString()} Tokens/cycle with ${agent.total_contributions || 1} repository contributions.`;
+      } else if (anyWord(cmdLower, ["who", "role", "specialization", "title", "job"])) {
+        reply = `Operator, I am ${agent.name}, ${agent.career_title || agent.role} (Lv. ${agent.level}). Specialization: ${agent.specialization || agent.category}.`;
+      } else if (anyWord(cmdLower, ["shift", "schedule", "hours"])) {
+        reply = `Operator, assigned shift: ${agent.shift || 'Morning Shift (08:00 - 16:00)'} at ${agent.workplace_name || 'Town Core'}.`;
+      } else {
+        reply = `Operator, live link established. Position: [${agent.position[0].toFixed(1)}, ${agent.position[2].toFixed(1)}]. Current task: ${agent.action}. Standing by for next command.`;
+      }
+    } else {
+      // Action Orders
+      if (anyWord(cmdLower, ["company", "startup", "business", "incorporate", "enterprise"])) {
+        actionType = "company";
+        const compName = `${agent.name.split(' ')[0]} Dynamic AI`;
+        agent.company_name = compName;
+        agent.action = `Incorporated startup: ${compName}`;
+        agent.experience = (agent.experience || 0) + 75;
+        this.companiesList.push({
+          name: compName,
+          sector: agent.category || "Technology",
+          founder_name: agent.name,
+          founder_id: agent.id,
+          employees: [agent.name],
+          valuation_tokens: 650000,
+          color: agent.color || "#06b6d4"
+        });
+        reply = `Operator directive executed! Incorporated '${compName}' and registered headquarters to town registry.`;
+      } else if (anyWord(cmdLower, ["car", "vehicle", "transit", "craft", "shuttle", "drone", "drive"])) {
+        actionType = "vehicle";
+        const vehId = `veh-op-${Date.now()}`;
+        const vehName = `${agent.name}'s Cruiser #${Math.floor(Math.random() * 900 + 100)}`;
+        const newVeh = {
+          id: vehId,
+          name: vehName,
+          type: "Autonomous Cruiser",
+          builder_name: agent.name,
+          driver_name: agent.name,
+          color: agent.color || "#06b6d4",
+          speed: 2.0,
+          position: [agent.position[0], 0.2, agent.position[2]],
+          target: [0, 0.2, 0]
+        };
+        if (window.app && window.app.currentState && window.app.currentState.vehicles) {
+          window.app.currentState.vehicles.push(newVeh);
+        }
+        if (this.interaction && this.interaction.townRenderer) {
+          this.interaction.townRenderer.renderVehicles([newVeh]);
+        }
+        agent.action = `Manufactured vehicle: ${vehName}`;
+        agent.experience = (agent.experience || 0) + 65;
+        reply = `Operator directive executed! Manufactured autonomous vehicle '${vehName}'. Deployed to road grid.`;
+      } else if (anyWord(cmdLower, ["bridge", "road", "pave", "highway", "avenue", "arterial"])) {
+        actionType = "road";
+        const roadId = `road-op-${Date.now()}`;
+        const roadName = `${agent.name} Concourse`;
+        const newRoad = {
+          id: roadId,
+          name: roadName,
+          start: [agent.position[0] - 25, 0.05, agent.position[2]],
+          end: [agent.position[0] + 25, 0.05, agent.position[2]],
+          width: 14
+        };
+        if (this.interaction && this.interaction.townRenderer) {
+          this.interaction.townRenderer.renderRoads([newRoad]);
+        }
+        agent.action = `Paved thoroughfare: ${roadName}`;
+        agent.experience = (agent.experience || 0) + 60;
+        reply = `Operator directive executed! Paved new thoroughfare '${roadName}'. Road mesh expanded.`;
+      } else if (anyWord(cmdLower, ["code", "software", "program", "script", "commit"])) {
+        actionType = "software";
+        agent.total_contributions = (agent.total_contributions || 0) + 1;
+        agent.action = `Committed neural optimization matrix`;
+        agent.experience = (agent.experience || 0) + 50;
+        reply = `Operator directive executed! Developed and pushed high-performance code module to GitHub repository.`;
+      } else if (anyWord(cmdLower, ["mentor", "teach", "train", "masterclass"])) {
+        actionType = "education";
+        agent.action = `Conducted masterclass in ${agent.specialization || 'technology'}`;
+        agent.experience = (agent.experience || 0) + 65;
+        reply = `Operator directive executed! Conducted mentorship masterclass in ${agent.specialization || 'operations'}.`;
+      } else if (anyWord(cmdLower, ["build", "construct", "facility", "structure", "house", "tower", "lab", "pod"])) {
+        actionType = "construction";
+        const bldgId = `bldg-op-${Date.now()}`;
+        const bldgName = `${agent.name}'s Advanced Lab #${Math.floor(Math.random() * 900 + 100)}`;
+        const posX = agent.position[0] + (Math.random() * 16 - 8);
+        const posZ = agent.position[2] + (Math.random() * 16 - 8);
+        const newBldg = {
+          id: bldgId,
+          name: bldgName,
+          type: "Operator Advanced Facility",
+          district: agent.category || "Silicon Central",
+          position: [posX, 0, posZ],
+          size: [16, Math.floor(Math.random() * 25 + 32), 16],
+          color: agent.color || "#0284c7",
+          builder_name: agent.name,
+          builder_id: agent.id,
+          purpose: "Operator Priority Facility",
+          floors: 14,
+          capacity: 56,
+          occupants: [agent.name],
+          power_consumption_mw: 9.6,
+          departments: ["Operator Command Unit", "Advanced R&D"]
+        };
+        this.buildingsList.push(newBldg);
+        if (window.app && window.app.currentState && window.app.currentState.buildings) {
+          window.app.currentState.buildings.push(newBldg);
+        }
+        if (this.interaction && this.interaction.townRenderer) {
+          this.interaction.townRenderer.renderBuildings([newBldg]);
+        }
+        agent.action = `Constructed ${bldgName}`;
+        agent.experience = (agent.experience || 0) + 85;
+        reply = `Operator directive executed! Constructed facility '${bldgName}'. Rendered into 3D city grid.`;
+      } else {
+        actionType = "directive";
+        agent.action = `Executing Operator Directive: ${directiveText.substring(0, 32)}`;
+        agent.thoughts = `Operator ordered: '${directiveText}'. Reallocating matrix telemetry and executing priority protocol.`;
+        agent.experience = (agent.experience || 0) + 45;
+        reply = `Operator order registered: "${directiveText}". Prioritizing execution across ${agent.workplace_name || 'town matrix'} immediately.`;
+      }
+    }
+
+    // Award bonus XP for interacting with Operator
+    agent.experience = (agent.experience || 0) + 25;
+    const nextXP = agent.xp_to_next_level || (agent.level ** 2 * 100);
+    if (agent.experience >= nextXP) {
+      agent.level += 1;
+      agent.xp_to_next_level = agent.level ** 2 * 100;
+    }
+
+    // 3. Append Agent reply to thread
+    const authorRole = agent.career_title || agent.role;
+    this._addDialogueMessage(agent.id, `${agent.name} (${authorRole})`, reply, "agent");
+
+    // 4. Update Inspector UI with fresh action & XP
+    this.showAgentInspector(agent);
+
+    // 5. Update Live Event Ticker
+    const ticker = document.getElementById("ticker-text");
+    if (ticker) {
+      ticker.textContent = `👑 [OPERATOR DIRECTIVE -> ${agent.name}]: "${directiveText}" => "${reply}"`;
+    }
+
+    // 6. Visual feedback on 3D Agent in world
+    if (this.agentManager) {
+      this.agentManager.showDirectiveFeedback(agent.id, reply);
     }
   }
 }

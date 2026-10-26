@@ -1,0 +1,42 @@
+{
+  "id": "bldg-123",
+  "name": "Grace's Tech Tower #47 [NeuroDynamics AI]",
+  "type": "Tech Tower",
+  "position": [
+    -23.4,
+    24.2,
+    15.8
+  ],
+  "size": [
+    18.1,
+    48.3,
+    16.7
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-004",
+  "builder_name": "Grace Hopper",
+  "district": "Silicon Central",
+  "company_id": "comp-001",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Grace Hopper"
+  ],
+  "purpose": "Constructed by Grace Hopper for Tech Tower operations",
+  "floors": 12,
+  "capacity": 30,
+  "departments": [
+    "Systems Engineering",
+    "Kernel Lab",
+    "Cloud Infrastructure"
+  ],
+  "amenities": [
+    "Hyper-Speed Uplink",
+    "Rooftop Drone Pad",
+    "Quantum Server Vault"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}
