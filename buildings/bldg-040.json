@@ -1,41 +1,41 @@
 {
   "id": "bldg-040",
-  "name": "John's National Archives & Git Ledger #47",
-  "type": "National Archives & Git Ledger",
+  "name": "Fei-Fei's Autonomous Vehicle Mega-Plant #35 [NeuroDynamics AI]",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    -25.9,
-    16.7,
-    -45.8
+    126.3,
+    16.6,
+    -146.8
   ],
   "size": [
-    30.2,
-    33.5,
-    28.5
+    38.2,
+    33.3,
+    34.5
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-260",
-  "builder_name": "John Vex",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f59e0b",
+  "builder_id": "agent-147",
+  "builder_name": "Fei-Fei Brockman",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [
-    "John Vex"
+    "Fei-Fei Brockman"
   ],
-  "purpose": "Constructed by John Vex for National Archives & Git Ledger operations",
-  "floors": 7,
-  "capacity": 30,
+  "purpose": "Constructed by Fei-Fei Brockman for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
   "departments": [
-    "State Serialization Vault",
-    "Cold Storage Optical Discs",
-    "Genesis Commit Monument"
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
   ],
   "amenities": [
-    "Liquid Nitrogen Immersion",
-    "Electromagnetic Shielding",
-    "Perpetual Ledger Screen"
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
   ],
-  "power_consumption_mw": 7.7,
+  "power_consumption_mw": 5.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

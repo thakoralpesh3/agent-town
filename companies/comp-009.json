@@ -1,20 +1,18 @@
 {
   "id": "comp-009",
-  "name": "ChronoGenetics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-192",
-  "founder_name": "Rich Odersky",
-  "headquarters_id": "bldg-032",
-  "headquarters_name": "ChronoGenetics Headquarters",
+  "name": "StellarLabs",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-136",
+  "founder_name": "Andrej Hinton",
+  "headquarters_id": "bldg-034",
+  "headquarters_name": "StellarLabs Headquarters",
   "employees": [
-    "agent-192",
-    "agent-163",
-    "agent-166",
-    "agent-170"
+    "agent-136",
+    "agent-277"
   ],
-  "valuation_tokens": 200346,
+  "valuation_tokens": 377128,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#ec4899",
   "founded_at_tick": 1
 }

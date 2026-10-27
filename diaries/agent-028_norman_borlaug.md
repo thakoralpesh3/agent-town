@@ -2,7 +2,7 @@
 
 **Role**: Master National Food Security Minister | **Specialization**: National Nutritional Sovereignty | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
 **Stationed Facility**: Hydroponic Agricultural Biodome (bldg-025) | **Shift**: Morning Shift (08:00 - 16:00)
-**Mastered Skills**: Vertical Aeroponics Farming, Bioluminescent Crop Genetics, Autonomous Drone Pollination, Caloric Reserve Allocation, Molecular Protein Fermentation, Soil Microbiome Telemetry
+**Mastered Skills**: Molecular Protein Fermentation, Vertical Aeroponics Farming, Autonomous Drone Pollination, Bioluminescent Crop Genetics, Soil Microbiome Telemetry, Caloric Reserve Allocation, Closed-Loop Hydroponics
 
 ---
 

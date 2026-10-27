@@ -1,42 +1,41 @@
 {
   "id": "bldg-037",
-  "name": "Athena's National Central Bank & Treasury #55",
-  "type": "National Central Bank & Treasury",
+  "name": "Valeria's Hyperloop Central Terminus #47",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    56.2,
-    23.3,
-    -10.3
+    110.5,
+    10.0,
+    -135.8
   ],
   "size": [
-    34.5,
-    46.7,
-    34.3
+    39.2,
+    20.0,
+    38.4
   ],
-  "color": "#eab308",
-  "builder_id": "agent-039",
-  "builder_name": "Athena Vex",
-  "district": "Capitol Hill & National Plaza",
+  "color": "#f97316",
+  "builder_id": "agent-077",
+  "builder_name": "Valeria Finney",
+  "district": "Industrial Harbor & Transit Hub",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Athena Vex"
+    "Valeria Finney"
   ],
-  "purpose": "Constructed by Athena Vex for National Central Bank & Treasury operations",
-  "floors": 8,
+  "purpose": "Constructed by Valeria Finney for Hyperloop Central Terminus operations",
+  "floors": 4,
   "capacity": 45,
   "departments": [
-    "Sovereign Wealth Reserve",
-    "Algorithmic Monetary Core",
-    "DeFi Liquidity Hub",
-    "Bond Issuance"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Deep Underground Cold Vault",
-    "Quantum Key Distribution Link",
-    "Dynamic Exchange Floor"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 5.7,
+  "power_consumption_mw": 8.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

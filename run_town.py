@@ -28,7 +28,7 @@ def serve_web(port: int = 8000, directory: str = "docs"):
     print(f"🚀 3D Tech Town Viewer live at: http://localhost:{port}")
     print(f"Press Ctrl+C to stop.")
     print(f"=======================================================\n")
-    with socketserver.TCPServer(("", port), Handler) as httpd:
+    with http.server.ThreadingHTTPServer(("", port), Handler) as httpd:
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:

@@ -1055,7 +1055,7 @@ class TownEngine:
                 veh.position[2] = round(vz + (dz / dist) * step, 2)
 
         # 2. Update Agents (Circadian Rhythm: Day Labor vs Night Sleep)
-        from town.generator import determine_work_mode
+        from town.generator import determine_work_mode, get_workstation_coords, get_bed_coords
         for agent in self.state.agents:
             if is_daytime:
                 # DAYTIME: Work at assigned offices, facilities, and desks
@@ -1066,10 +1066,8 @@ class TownEngine:
                 # Move into assigned workplace workstation slot
                 wp = next((b for b in self.state.buildings if b.id == agent.workplace_id), None)
                 if wp:
-                    bx, by, bz = wp.position
-                    slot_angle = (agent.desk_slot * 0.45) % (2 * math.pi)
-                    slot_rad = min(wp.size[0], wp.size[2]) * 0.28
-                    agent.target = [round(bx + math.cos(slot_angle) * slot_rad, 2), 0.8, round(bz + math.sin(slot_angle) * slot_rad, 2)]
+                    gx, gy, gz = get_workstation_coords(wp, agent.desk_slot, agent.work_mode)
+                    agent.target = [gx, gy, gz]
 
                 # Active labor gradually consumes energy
                 agent.energy = max(25, agent.energy - random.randint(1, 3))
@@ -1096,10 +1094,8 @@ class TownEngine:
                 # Move to designated residential apartment bed slot
                 hb = next((b for b in self.state.buildings if b.id == agent.home_building_id), None)
                 if hb:
-                    hx, hy, hz = hb.position
-                    bed_angle = (agent.bed_slot * 0.4) % (2 * math.pi)
-                    bed_rad = min(hb.size[0], hb.size[2]) * 0.25
-                    agent.target = [round(hx + math.cos(bed_angle) * bed_rad, 2), 0.8, round(hz + math.sin(bed_angle) * bed_rad, 2)]
+                    hx, hy, hz = get_bed_coords(hb, agent.bed_slot)
+                    agent.target = [hx, hy, hz]
 
                 # Sleep recharges biometric energy
                 agent.energy = min(100, agent.energy + random.randint(15, 25))
@@ -1118,10 +1114,15 @@ class TownEngine:
             dx = tx - ax
             dz = tz - az
             dist = math.hypot(dx, dz)
-            if dist > 0.15:
-                step = min(agent.speed * 1.8, dist)
+            if dist > 0.05:
+                step = min(max(2.5, agent.speed * 2.5), dist)
                 agent.position[0] = round(ax + (dx / dist) * step, 2)
                 agent.position[2] = round(az + (dz / dist) * step, 2)
+                agent.position[1] = round(ty, 2)
+            else:
+                agent.position[0] = tx
+                agent.position[1] = ty
+                agent.position[2] = tz
 
         # 3. Autonomous Creative Actions
         active_agents = random.sample(self.state.agents, min(35, len(self.state.agents)))

@@ -47,7 +47,9 @@ class InteractionController {
       const intersects = this.raycaster.intersectObjects(objects);
 
       if (intersects.length > 0) {
-        const hit = intersects[0].object;
+        // Prioritize clicking agent meshes inside rooms over exterior building shells
+        const agentHit = intersects.find(i => i.object.userData && i.object.userData.type === 'agent');
+        const hit = agentHit ? agentHit.object : intersects[0].object;
         if (hit.userData) {
           this.handleSelection(hit.userData.data, hit.userData.type);
         }
@@ -58,11 +60,22 @@ class InteractionController {
   handleSelection(data, type) {
     if (type === 'agent') {
       this.agentManager.selectAgent(data.id);
-      this.ui.showAgentInspector(data);
-      this.focusOnPosition(data.position, 25);
+      const mesh = this.agentManager.agentMeshes.get(data.id);
+      const liveData = mesh?.userData?.data || data;
+      this.ui.showAgentInspector(liveData);
+      const isSleeping = (liveData.schedule_state === 'SLEEPING') || (liveData.work_mode === 'SLEEPING') || (window.app && window.app.isNightMode);
+      const bldgId = isSleeping ? liveData.home_building_id : liveData.workplace_id;
+      if (bldgId && this.townRenderer) {
+        this.townRenderer.focusBuildingInterior(bldgId);
+      }
+      const focusPos = mesh ? [mesh.position.x, mesh.position.y, mesh.position.z] : liveData.position;
+      this.focusOnPosition(focusPos, 14);
     } else if (type === 'building') {
       this.ui.showBuildingInspector(data);
-      this.focusOnPosition(data.position, 40);
+      if (this.townRenderer) {
+        this.townRenderer.focusBuildingInterior(data.id);
+      }
+      this.focusOnPosition(data.position, 28);
     } else if (type === 'vehicle') {
       this.ui.showVehicleInspector(data);
       this.focusOnPosition(data.position, 20);

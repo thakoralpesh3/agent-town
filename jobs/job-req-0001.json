@@ -1,14 +1,14 @@
 {
   "id": "job-req-0001",
-  "role": "Wildlife Corridors Manager",
-  "category": "Ecology",
-  "specialization": "Safe Animal Transit Through Metropolises",
+  "role": "Rare Earth Elements Refiner",
+  "category": "Manufacturing",
+  "specialization": "Neodymium & Lithium Purity Refining",
   "urgency": "STANDARD",
   "requesting_company": null,
   "requesting_building": "Supreme Court of Justice",
-  "salary_offered": 13900,
+  "salary_offered": 15200,
   "created_at_tick": 1,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-326",
-  "filled_by_agent_name": "Maeve Sterling"
+  "filled_by_agent_id": "agent-325",
+  "filled_by_agent_name": "Barbara Flux"
 }

@@ -1,20 +1,19 @@
 {
   "id": "comp-013",
-  "name": "SynapseLabs",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-163",
-  "founder_name": "Edsger Sterling",
-  "headquarters_id": "bldg-044",
-  "headquarters_name": "SynapseLabs Headquarters",
+  "name": "SynapseSynthetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-249",
+  "founder_name": "Selene Weaver",
+  "headquarters_id": "bldg-041",
+  "headquarters_name": "SynapseSynthetics Headquarters",
   "employees": [
-    "agent-163",
-    "agent-293",
-    "agent-231",
-    "agent-236"
+    "agent-249",
+    "agent-315",
+    "agent-172"
   ],
-  "valuation_tokens": 189455,
+  "valuation_tokens": 579386,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 2
+  "color": "#ef4444",
+  "founded_at_tick": 1
 }

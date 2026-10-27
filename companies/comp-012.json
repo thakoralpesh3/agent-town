@@ -1,19 +1,20 @@
 {
   "id": "comp-012",
-  "name": "PrismMatrix",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-281",
-  "founder_name": "Freya Odersky",
-  "headquarters_id": "bldg-041",
-  "headquarters_name": "PrismMatrix Headquarters",
+  "name": "HyperSynthetics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-187",
+  "founder_name": "Yoshua Solstice",
+  "headquarters_id": "bldg-038",
+  "headquarters_name": "HyperSynthetics Headquarters",
   "employees": [
-    "agent-281",
-    "agent-011",
-    "agent-208"
+    "agent-187",
+    "agent-176",
+    "agent-294",
+    "agent-069"
   ],
-  "valuation_tokens": 545625,
+  "valuation_tokens": 361927,
   "products": [],
-  "color": "#ec4899",
+  "color": "#f59e0b",
   "founded_at_tick": 1
 }

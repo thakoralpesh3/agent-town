@@ -142,6 +142,29 @@ class TechTownApp {
       this.dirLight.color.setHex(0xfffbeb);
       if (btn) btn.innerHTML = `<i class="fa-solid fa-sun"></i>`;
     }
+
+    // Update Circadian HUD Badge
+    const statCircadian = document.getElementById("stat-circadian");
+    const statCircadianLabel = document.getElementById("stat-circadian-label");
+    if (statCircadian) {
+      statCircadian.style.color = isNight ? "#818cf8" : "#facc15";
+      statCircadian.innerHTML = isNight ? '<i class="fa-solid fa-moon"></i> 23:00' : '<i class="fa-solid fa-sun"></i> 11:00';
+    }
+    if (statCircadianLabel) {
+      statCircadianLabel.textContent = isNight ? "NIGHT (Rest & REM)" : "DAY (Work Shift)";
+    }
+
+    // Update all live agents in 3D: Day labor at workstation desks vs Night sleep in beds
+    if (this.agentManager && this.currentState) {
+      this.agentManager.setCircadianSchedule(isNight, this.currentState.buildings);
+      const selId = this.agentManager.selectedAgentId;
+      if (this.ui && selId) {
+        const mesh = this.agentManager.agentMeshes.get(selId);
+        if (mesh && mesh.userData.data) {
+          this.ui.showAgentInspector(mesh.userData.data);
+        }
+      }
+    }
   }
 
   _setupDayNightToggle() {
@@ -195,6 +218,12 @@ class TechTownApp {
     this.townRenderer.renderBuildings(state.buildings);
     this.townRenderer.renderVehicles(state.vehicles);
     this.agentManager.updateAgents(state.agents);
+
+    // Preserve user manual day/night override across background polls
+    if (this.manualNightOverride) {
+      this.agentManager.setCircadianSchedule(this.isNightMode, state.buildings);
+    }
+
     this.ui.updateHUD(state);
 
     if (!isPolling) {

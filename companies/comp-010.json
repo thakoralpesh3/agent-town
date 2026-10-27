@@ -1,18 +1,18 @@
 {
   "id": "comp-010",
-  "name": "CyberFederation",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-262",
-  "founder_name": "Hal Synapse",
-  "headquarters_id": "bldg-034",
-  "headquarters_name": "CyberFederation Headquarters",
+  "name": "QuantumSynthetics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-215",
+  "founder_name": "Sylvia Circuit",
+  "headquarters_id": "bldg-035",
+  "headquarters_name": "QuantumSynthetics Headquarters",
   "employees": [
-    "agent-262",
-    "agent-007"
+    "agent-215",
+    "agent-063"
   ],
-  "valuation_tokens": 363601,
+  "valuation_tokens": 420025,
   "products": [],
-  "color": "#e11d48",
+  "color": "#10b981",
   "founded_at_tick": 1
 }

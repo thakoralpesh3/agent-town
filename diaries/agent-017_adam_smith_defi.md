@@ -1,8 +1,8 @@
 # Citizen Journal: Adam Smith DeFi (agent-017)
 
-**Role**: Master Central Bank Governor | **Specialization**: Macroeconomic Stability & Monetary Policy | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
+**Role**: Lead Central Bank Governor | **Specialization**: Macroeconomic Stability & Monetary Policy | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
 **Stationed Facility**: National Central Bank & Treasury (bldg-003) | **Shift**: Evening Shift (16:00 - 00:00)
-**Mastered Skills**: Automated Revenue Siphoning, Venture Seed Capital Allocation, Dynamic Exchange Rates, DeFi Liquidity Pool Management, Algorithmic Inflation Equilibrium, Micro-Lending Risk Analysis, Sovereign Bond Issuance
+**Mastered Skills**: Algorithmic Inflation Equilibrium, Dynamic Exchange Rates, Central Bank Monetary Policy, Sovereign Bond Issuance, DeFi Liquidity Pool Management
 
 ---
 

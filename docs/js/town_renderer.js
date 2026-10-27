@@ -25,8 +25,16 @@ class TownRenderer {
     this.buildingMeshes = new Map();
     this.interactiveObjects = [];
 
-    this.isInteriorMode = false;
+    this.isInteriorMode = true;
     this.focusedBuildingId = null;
+    this.sharedGlassMat = new THREE.MeshStandardMaterial({
+      color: 0x93c5fd,
+      transparent: true,
+      opacity: 0.12,
+      roughness: 0.1,
+      metalness: 0.1,
+      depthWrite: false
+    });
     this.interiorMaterials = this._createInteriorMaterials();
 
     // Cache procedural textures
@@ -70,14 +78,14 @@ class TownRenderer {
       screenGlowCyan: new THREE.MeshStandardMaterial({
         color: 0x00f0ff,
         emissive: 0x00f0ff,
-        emissiveIntensity: 0.85,
-        roughness: 0.2
+        emissiveIntensity: 1.5,
+        roughness: 0.1
       }),
       screenGlowAmber: new THREE.MeshStandardMaterial({
         color: 0xf59e0b,
         emissive: 0xf59e0b,
-        emissiveIntensity: 0.75,
-        roughness: 0.2
+        emissiveIntensity: 1.3,
+        roughness: 0.1
       }),
       keyboardMat: new THREE.MeshStandardMaterial({
         color: 0x1e293b,
@@ -87,8 +95,8 @@ class TownRenderer {
       blueprintCyan: new THREE.MeshStandardMaterial({
         color: 0x0284c7,
         emissive: 0x0369a1,
-        emissiveIntensity: 0.3,
-        roughness: 0.8
+        emissiveIntensity: 0.6,
+        roughness: 0.6
       }),
       paperWhite: new THREE.MeshStandardMaterial({
         color: 0xf8fafc,
@@ -97,8 +105,8 @@ class TownRenderer {
       stylusNeon: new THREE.MeshStandardMaterial({
         color: 0x06b6d4,
         emissive: 0x06b6d4,
-        emissiveIntensity: 0.6,
-        roughness: 0.3
+        emissiveIntensity: 0.9,
+        roughness: 0.2
       }),
       bedFrameWood: new THREE.MeshStandardMaterial({
         color: 0x451a03,
@@ -115,15 +123,15 @@ class TownRenderer {
       nightLampGlow: new THREE.MeshStandardMaterial({
         color: 0xfef08a,
         emissive: 0xfef08a,
-        emissiveIntensity: 0.9,
+        emissiveIntensity: 1.5,
         roughness: 0.1
       }),
       holoBeacon: new THREE.MeshStandardMaterial({
         color: 0x00f0ff,
         emissive: 0x00f0ff,
-        emissiveIntensity: 0.6,
+        emissiveIntensity: 0.8,
         transparent: true,
-        opacity: 0.65
+        opacity: 0.7
       }),
       labSteel: new THREE.MeshStandardMaterial({
         color: 0xe2e8f0,
@@ -133,9 +141,9 @@ class TownRenderer {
       labGlassGlow: new THREE.MeshStandardMaterial({
         color: 0x38bdf8,
         emissive: 0x38bdf8,
-        emissiveIntensity: 0.5,
+        emissiveIntensity: 0.8,
         transparent: true,
-        opacity: 0.75
+        opacity: 0.8
       })
     };
   }
@@ -1127,6 +1135,7 @@ class TownRenderer {
       group.userData = {
         type: 'building',
         data: b,
+        height: h,
         exteriorMeshes: exteriorMeshes,
         interiorGroup: interiorGroup
       };
@@ -1139,6 +1148,10 @@ class TownRenderer {
       this.buildingGroup.add(group);
       this.buildingMeshes.set(b.id, group);
     });
+
+    if (this.isInteriorMode) {
+      this.toggleInteriorMode(true);
+    }
   }
 
   renderVehicles(vehicles) {
@@ -1257,6 +1270,11 @@ class TownRenderer {
     floorMesh.position.y = 0.06;
     floorMesh.receiveShadow = true;
     interiorGroup.add(floorMesh);
+
+    // 2. Soft Overhead Interior Illumination
+    const interiorLight = new THREE.PointLight(isResidential ? 0xfef08a : 0xbae6fd, 1.2, Math.max(w, d) * 1.6);
+    interiorLight.position.set(0, 3.8, 0);
+    interiorGroup.add(interiorLight);
 
     if (isResidential) {
       // Residential Bedroom Suites with Comfortable Beds & Nightstands
@@ -1581,22 +1599,29 @@ class TownRenderer {
     this.buildingMeshes.forEach((group, id) => {
       const extMeshes = group.userData.exteriorMeshes || [];
       const interior = group.userData.interiorGroup;
+      const bldgHeight = group.userData.height || (group.userData.data && group.userData.data.size ? group.userData.data.size[1] : 30);
       const isFocused = (this.focusedBuildingId === id);
-      const makeTransparent = this.isInteriorMode || isFocused;
+      const makeCutaway = this.isInteriorMode || isFocused;
 
       extMeshes.forEach(mesh => {
         if (!mesh.userData.origMaterial) {
           mesh.userData.origMaterial = mesh.material;
         }
-        if (makeTransparent) {
-          if (!mesh.userData.transparentMat) {
-            mesh.userData.transparentMat = mesh.material.clone();
-            mesh.userData.transparentMat.transparent = true;
-            mesh.userData.transparentMat.opacity = 0.20;
-            mesh.userData.transparentMat.depthWrite = false;
+        if (mesh.userData.origVisible === undefined) {
+          mesh.userData.origVisible = mesh.visible;
+        }
+
+        if (makeCutaway) {
+          // Architectural Cutaway: Hide roofs, spires, penthouses & upper facades for pristine top-down visibility
+          const isUpperStructure = (mesh.position.y > (bldgHeight * 0.45) && mesh.position.y > 5.5) || mesh.userData.isRoof;
+          if (isUpperStructure) {
+            mesh.visible = false;
+          } else {
+            mesh.visible = true;
+            mesh.material = this.sharedGlassMat;
           }
-          mesh.material = mesh.userData.transparentMat;
         } else {
+          mesh.visible = mesh.userData.origVisible;
           mesh.material = mesh.userData.origMaterial;
         }
       });
@@ -1610,7 +1635,10 @@ class TownRenderer {
   }
 
   focusBuildingInterior(buildingId) {
+    if (this.focusedBuildingId === buildingId && this.isInteriorMode) return;
     this.focusedBuildingId = buildingId;
-    this.toggleInteriorMode(this.isInteriorMode);
+    if (!this.isInteriorMode) {
+      this.toggleInteriorMode(true);
+    }
   }
 }

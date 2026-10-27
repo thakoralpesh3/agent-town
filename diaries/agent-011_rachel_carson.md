@@ -1,8 +1,8 @@
 # Citizen Journal: Rachel Carson (agent-011)
 
-**Role**: Lead Biosphere Reserve Custodian | **Specialization**: Holistic National Flora & Fauna Harmony | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
+**Role**: Master Biosphere Reserve Custodian | **Specialization**: Holistic National Flora & Fauna Harmony | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
 **Stationed Facility**: National Botanical Reserve Conservatory (bldg-027) | **Shift**: Evening Shift (16:00 - 00:00)
-**Mastered Skills**: Holistic Biosphere Management, Living Street Tree Forestry, Wildlife Eco-Corridor Transit, Aquatic Freshwater eDNA Testing, Atmospheric Particle Scrubbing, Microclimate Thermal Stabilization
+**Mastered Skills**: Bioluminescent Flora Cultivation, Living Street Tree Forestry, Atmospheric Particle Scrubbing, Active Noise Cancellation Fields, Microclimate Thermal Stabilization, Wildlife Eco-Corridor Transit, Holistic Biosphere Management, Aquatic Freshwater eDNA Testing
 
 ---
 

@@ -1,42 +1,47 @@
 {
   "id": "bldg-039",
-  "name": "Rune's Cyber Living Township Beta #40",
-  "type": "Cyber Living Township Beta",
+  "name": "Nick's Sovereign Capitol Building #73 [AeroCyber Mobility]",
+  "type": "Sovereign Capitol Building",
   "position": [
-    -56.1,
-    16.8,
-    -79.0
+    -33.6,
+    20.8,
+    55.2
   ],
   "size": [
-    29.9,
-    33.5,
-    25.5
+    42.6,
+    41.5,
+    32.9
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-277",
-  "builder_name": "Rune Finney",
-  "district": "Cyber Living Townships",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f59e0b",
+  "builder_id": "agent-064",
+  "builder_name": "Nick Tinkerer",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Rune Finney"
+    "Nick Tinkerer"
   ],
-  "purpose": "Constructed by Rune Finney for Cyber Living Township Beta operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Nick Tinkerer for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Residential Living",
-    "Private Study Modules",
-    "Biometric Circadian Suites"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Living Mycelium Soil Mesh",
-    "Acoustic Noise Cloak",
-    "Community Dining Hall"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 5.0,
+  "power_consumption_mw": 5.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

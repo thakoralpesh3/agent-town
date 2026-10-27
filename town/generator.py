@@ -802,6 +802,44 @@ def determine_work_mode(category: str, role: str) -> str:
         return "MEETING"
     return "PC_TYPING"
 
+def get_workstation_coords(wp_building: Building, slot_index: int, work_mode: str) -> Tuple[float, float, float]:
+    bx, _, bz = wp_building.position
+    w, _, d = wp_building.size
+    if work_mode == "PC_TYPING":
+        stations = [
+            (-w * 0.26, -d * 0.25 + 0.85),
+            (w * 0.26, -d * 0.25 + 0.85),
+            (-w * 0.26, d * 0.25 - 0.85),
+        ]
+        chosen = stations[slot_index % len(stations)]
+        return round(bx + chosen[0], 2), 0.0, round(bz + chosen[1], 2)
+    elif work_mode == "PAPER_WRITING":
+        return round(bx + w * 0.26, 2), 0.0, round(bz + d * 0.25 - 0.85, 2)
+    elif work_mode == "MEETING":
+        conf_chairs = [
+            (-1.1, 1.25), (0.0, 1.25), (1.1, 1.25),
+            (-1.1, -1.25), (0.0, -1.25), (1.1, -1.25)
+        ]
+        chosen = conf_chairs[slot_index % len(conf_chairs)]
+        return round(bx + chosen[0], 2), 0.0, round(bz + chosen[1], 2)
+    elif work_mode == "RESEARCHING":
+        return round(bx, 2), 0.0, round(bz - d * 0.35 + 0.7, 2)
+    else:
+        return round(bx - w * 0.26, 2), 0.0, round(bz - d * 0.25 + 0.85, 2)
+
+def get_bed_coords(home_building: Building, slot_index: int) -> Tuple[float, float, float]:
+    bx, _, bz = home_building.position
+    w, _, d = home_building.size
+    offsets = [
+        (-w * 0.28, -d * 0.25),
+        (w * 0.28, -d * 0.25),
+        (-w * 0.28, d * 0.25),
+        (w * 0.28, d * 0.25)
+    ]
+    base_x, base_z = offsets[slot_index % len(offsets)]
+    tier_offset = (slot_index // 4) * 0.5
+    return round(bx + base_x + tier_offset, 2), 0.42, round(bz + base_z, 2)
+
 def generate_initial_agents(count: int = 320, companies: List[Company] = None, buildings: List[Building] = None) -> List[Agent]:
     agents = []
     used_names = set()
@@ -871,6 +909,14 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
         home_id, home_name = get_home_for_agent(idx, buildings)
         work_mode = determine_work_mode(cat, role)
         dream = DREAM_ARCHETYPES[idx % len(DREAM_ARCHETYPES)]
+        desk_slot = idx % 24
+        bed_slot = idx % 60
+        wp_bldg = next((b for b in (buildings or []) if b.id == workplace_id), None)
+        if wp_bldg:
+            init_x, init_y, init_z = get_workstation_coords(wp_bldg, desk_slot, work_mode)
+        else:
+            init_x, init_y, init_z = round(px, 2), 0.0, round(pz, 2)
+
         if buildings and workplace_id:
             bldg = next((b for b in buildings if b.id == workplace_id), None)
             if bldg and name not in bldg.occupants:
@@ -890,8 +936,8 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
             role=role,
             category=cat,
             color=col,
-            position=[round(px, 2), 0.8, round(pz, 2)],
-            target=[round(px + random.uniform(-15, 15), 2), 0.8, round(pz + random.uniform(-15, 15), 2)],
+            position=[init_x, init_y, init_z],
+            target=[init_x, init_y, init_z],
             speed=round(random.uniform(0.6, 1.2), 2),
             action=action_text,
             desire=random.choice(desires),
@@ -982,6 +1028,13 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
         mentor = random.choice(potential_mentors) if potential_mentors and random.random() < 0.65 else None
 
         clearance = "Level 4 - Controlled Operational Clearance" if level >= 4 else "Level 3 - Monitored Citizen Clearance"
+        desk_slot = idx % 24
+        bed_slot = idx % 60
+        wp_bldg = next((b for b in (buildings or []) if b.id == workplace_id), None)
+        if wp_bldg:
+            init_x, init_y, init_z = get_workstation_coords(wp_bldg, desk_slot, work_mode)
+        else:
+            init_x, init_y, init_z = round(px, 2), 0.0, round(pz, 2)
 
         agent = Agent(
             id=agent_id,
@@ -989,8 +1042,8 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
             role=role,
             category=cat,
             color=col,
-            position=[round(px, 2), 0.8, round(pz, 2)],
-            target=[round(px + random.uniform(-20, 20), 2), 0.8, round(pz + random.uniform(-20, 20), 2)],
+            position=[init_x, init_y, init_z],
+            target=[init_x, init_y, init_z],
             speed=round(random.uniform(0.5, 1.1), 2),
             action=action_text,
             desire=random.choice(desires),

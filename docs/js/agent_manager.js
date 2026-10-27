@@ -357,8 +357,9 @@ class AgentManager {
       const dreamGroup = mesh.userData.dreamGroup;
 
       if (isSleeping) {
-        // Human Sleep State on Bed: Lie down horizontally
+        // Human Sleep State on Bed: Lie down horizontally along mattress
         mesh.rotation.x = -Math.PI / 2; // Flat on back
+        mesh.rotation.z = -Math.PI / 2; // Aligned with bed pillow
         mesh.position.y = 0.42;         // On mattress height
 
         // Limbs resting calmly
@@ -379,6 +380,7 @@ class AgentManager {
       } else {
         // Awake: reset horizontal tilt
         mesh.rotation.x = 0;
+        mesh.rotation.z = 0;
         if (dreamGroup) dreamGroup.visible = false;
 
         if (isWalking) {
@@ -397,10 +399,14 @@ class AgentManager {
         } else {
           // Stationary in Workplace or Civic District:
           if (agent.work_mode === "PC_TYPING") {
-            // SITTING & TYPING AT PC WORKSTATION (using PC & monitors)
+            // SITTING & TYPING AT PC WORKSTATION (using PC & dual monitors)
             mesh.position.y = -0.15; // lower into chair
             mesh.userData.leftLeg.rotation.x = -Math.PI / 2.2;  // bent at hips
             mesh.userData.rightLeg.rotation.x = -Math.PI / 2.2; // bent at hips
+
+            // Orient facing desk monitors
+            const deskSlot = agent.desk_slot || 0;
+            mesh.rotation.y = (deskSlot % 4 <= 1) ? Math.PI : 0;
 
             // Active dual-handed keyboard typing strokes
             mesh.userData.leftArm.rotation.x = -Math.PI / 3.2 + Math.sin(time * 14 + mesh.userData.animPhase) * 0.06;
@@ -415,6 +421,7 @@ class AgentManager {
             mesh.position.y = -0.15;
             mesh.userData.leftLeg.rotation.x = -Math.PI / 2.2;
             mesh.userData.rightLeg.rotation.x = -Math.PI / 2.2;
+            mesh.rotation.y = 0; // facing drafting desk
 
             // Left hand resting on paper, right hand writing with stylus
             mesh.userData.leftArm.rotation.x = -Math.PI / 4;
@@ -554,5 +561,62 @@ class AgentManager {
       text,
       expiresAt: Date.now() + 6500
     };
+  }
+
+  setCircadianSchedule(isNight, buildingsList) {
+    this.agentMeshes.forEach((mesh, id) => {
+      const agent = mesh.userData.data;
+      if (!agent) return;
+
+      if (isNight) {
+        agent.schedule_state = "SLEEPING";
+        agent.work_mode = "SLEEPING";
+
+        const homeBldg = buildingsList ? buildingsList.find(b => b.id === agent.home_building_id) : null;
+        if (homeBldg) {
+          const w = homeBldg.size[0];
+          const d = homeBldg.size[2];
+          const bx = homeBldg.position[0];
+          const bz = homeBldg.position[2];
+          const offsets = [
+            [-w * 0.28, -d * 0.25],
+            [w * 0.28, -d * 0.25],
+            [-w * 0.28, d * 0.25],
+            [w * 0.28, d * 0.25]
+          ];
+          const bedSlot = (agent.bed_slot || 0) % offsets.length;
+          const [ox, oz] = offsets[bedSlot];
+          mesh.userData.targetPos.set(bx + ox, 0.42, bz + oz);
+          mesh.position.set(bx + ox, 0.42, bz + oz);
+        }
+      } else {
+        agent.schedule_state = "WORKING";
+        if (agent.work_mode === "SLEEPING") {
+          agent.work_mode = "PC_TYPING";
+        }
+
+        const wpBldg = buildingsList ? buildingsList.find(b => b.id === agent.workplace_id) : null;
+        if (wpBldg) {
+          const w = wpBldg.size[0];
+          const d = wpBldg.size[2];
+          const bx = wpBldg.position[0];
+          const bz = wpBldg.position[2];
+          const deskSlot = (agent.desk_slot || 0);
+          if (agent.work_mode === "PAPER_WRITING") {
+            mesh.userData.targetPos.set(bx + w * 0.26, 0, bz + d * 0.25 - 0.85);
+            mesh.position.set(bx + w * 0.26, 0, bz + d * 0.25 - 0.85);
+          } else {
+            const stations = [
+              [-w * 0.26, -d * 0.25 + 0.85],
+              [w * 0.26, -d * 0.25 + 0.85],
+              [-w * 0.26, d * 0.25 - 0.85],
+            ];
+            const [ox, oz] = stations[deskSlot % stations.length];
+            mesh.userData.targetPos.set(bx + ox, 0, bz + oz);
+            mesh.position.set(bx + ox, 0, bz + oz);
+          }
+        }
+      }
+    });
   }
 }

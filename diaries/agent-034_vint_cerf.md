@@ -2,7 +2,7 @@
 
 **Role**: Master Ambassador of Open Source | **Specialization**: Global Repository Alliances & Treaties | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
 **Stationed Facility**: Sovereign Capitol & Parliament (bldg-001) | **Shift**: Morning Shift (08:00 - 16:00)
-**Mastered Skills**: Civil Identity Provenance, Democratic Zero-Knowledge Voting, Smart Contract Charters, Public Ombudsman Inquiries, Statutory Algorithmic Drafting, Constitutional Law, Parliamentary Procedure, Diplomatic Treaty Negotiation
+**Mastered Skills**: Diplomatic Treaty Negotiation, Public Ombudsman Inquiries, Democratic Zero-Knowledge Voting, Smart Contract Charters, Constitutional Law, Parliamentary Procedure, Statutory Algorithmic Drafting
 
 ---
 

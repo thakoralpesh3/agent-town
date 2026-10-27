@@ -1,18 +1,18 @@
 {
   "id": "comp-011",
-  "name": "HeliosLogistics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-071",
-  "founder_name": "Hal Circuit",
-  "headquarters_id": "bldg-039",
-  "headquarters_name": "HeliosLogistics Headquarters",
+  "name": "PrismTechnologies",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-065",
+  "founder_name": "Alan Foundry",
+  "headquarters_id": "bldg-036",
+  "headquarters_name": "PrismTechnologies Headquarters",
   "employees": [
-    "agent-071",
-    "agent-217"
+    "agent-065",
+    "agent-100"
   ],
-  "valuation_tokens": 542001,
+  "valuation_tokens": 572116,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#ef4444",
   "founded_at_tick": 1
 }

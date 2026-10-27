@@ -2,7 +2,7 @@
 
 **Role**: Master Autonomous Fleet Director | **Specialization**: Zero-Wait Nationwide Public Transit | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
 **Stationed Facility**: Autonomous Vehicle Mega-Plant (bldg-021) | **Shift**: Morning Shift (08:00 - 16:00) | **Company**: NeuroDynamics AI
-**Mastered Skills**: Drone Freight Routing, Sub-Orbital Orbital Mechanics, Autonomous Fleet Guidance, VTOL 3D Air Traffic Control, Hyperloop Vacuum Propulsion, Maglev Linear Induction, Micro-Mobility Swarm Balancing
+**Mastered Skills**: Hyperloop Vacuum Propulsion, Micro-Mobility Swarm Balancing, Sub-Orbital Orbital Mechanics, Maglev Linear Induction, Autonomous Maritime Harbor Docking, Autonomous Fleet Guidance, Drone Freight Routing
 
 ---
 

@@ -1,41 +1,41 @@
 {
   "id": "bldg-032",
-  "name": "Julian's Tokamak Fusion Reactor Station #59",
-  "type": "Tokamak Fusion Reactor Station",
+  "name": "Brian's The Agora Civic Forum #24",
+  "type": "The Agora Civic Forum",
   "position": [
-    37.8,
-    13.5,
-    -107.3
+    -131.6,
+    10.1,
+    -37.0
   ],
   "size": [
-    27.6,
-    27.1,
-    28.6
+    30.3,
+    20.1,
+    33.3
   ],
-  "color": "#be123c",
-  "builder_id": "agent-161",
-  "builder_name": "Julian Buterin",
-  "district": "Biosphere Reserve & Fusion Grid",
+  "color": "#eab308",
+  "builder_id": "agent-146",
+  "builder_name": "Brian Jackson",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Julian Buterin"
+    "Brian Jackson"
   ],
-  "purpose": "Constructed by Julian Buterin for Tokamak Fusion Reactor Station operations",
+  "purpose": "Constructed by Brian Jackson for The Agora Civic Forum operations",
   "floors": 4,
-  "capacity": 30,
+  "capacity": 50,
   "departments": [
-    "Magnetic Containment Pod",
-    "Superconducting Grid Dispatch",
-    "Plasma Diagnostics"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Toroidal Vacuum Chamber",
-    "Cryo-Containment Ring",
-    "Direct Power Feeder"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 8.9,
+  "power_consumption_mw": 4.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -469,7 +469,7 @@ class UIController {
     // Circadian Sleep & Dream vs Daytime Work Mode
     const dreamCard = document.getElementById("insp-dream-card");
     const workModeCard = document.getElementById("insp-work-mode-card");
-    const isSleeping = (agent.schedule_state === "SLEEPING");
+    const isSleeping = (agent.schedule_state === "SLEEPING") || (agent.work_mode === "SLEEPING") || (window.app && window.app.isNightMode);
 
     if (isSleeping) {
       if (dreamCard) dreamCard.style.display = "block";

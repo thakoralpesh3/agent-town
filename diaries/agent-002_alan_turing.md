@@ -2,7 +2,7 @@
 
 **Role**: Master Chief AI Systems Architect | **Specialization**: Sovereign Autonomous Agent Cognition | **Security Clearance**: Level 5 - Maximum Sovereign Clearance
 **Stationed Facility**: Tower of Turing (City Mainframe) (bldg-006) | **Shift**: Evening Shift (16:00 - 00:00) | **Company**: Sovereign Chancellery Core
-**Mastered Skills**: Quantum Circuit Optimization, WebAssembly SIMD Engines, Transformer Architecture Alignment, Megascale Tensor Clustering, Distributed Paxos Consensus, Kernel Concurrency & eBPF, Multi-Agent Swarm Dynamics
+**Mastered Skills**: Transformer Architecture Alignment, Quantum Circuit Optimization, Megascale Tensor Clustering, Multi-Agent Swarm Dynamics, WebAssembly SIMD Engines, Kernel Concurrency & eBPF, Real-Time Ray-Tracing Shaders
 
 ---
 
