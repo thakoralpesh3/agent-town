@@ -1,24 +1,43 @@
 {
   "id": "bldg-047",
-  "name": "Stellan's Quantum Data Center #14 [AeroCyber Robotics]",
-  "type": "Quantum Data Center",
+  "name": "Donald's National Central Bank & Treasury #90",
+  "type": "National Central Bank & Treasury",
   "position": [
-    120.5,
-    10.4,
-    -150.3
+    24.4,
+    18.8,
+    35.6
   ],
   "size": [
-    23.4,
-    20.7,
-    27.9
+    27.9,
+    37.7,
+    31.7
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-120",
-  "builder_name": "Stellan Rayne",
-  "district": "Industrial Sector",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#eab308",
+  "builder_id": "agent-314",
+  "builder_name": "Donald Sovereign",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Stellan Rayne for Quantum Data Center operations"
+  "occupants": [
+    "Donald Sovereign"
+  ],
+  "purpose": "Constructed by Donald Sovereign for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

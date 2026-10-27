@@ -1,0 +1,42 @@
+{
+  "id": "bldg-055",
+  "name": "Kira's Tower of Turing (City Mainframe) #24",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    -14.1,
+    34.2,
+    124.3
+  ],
+  "size": [
+    25.2,
+    68.5,
+    28.2
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-109",
+  "builder_name": "Kira Blaze",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Kira Blaze"
+  ],
+  "purpose": "Constructed by Kira Blaze for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

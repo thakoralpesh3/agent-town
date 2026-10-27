@@ -1,18 +1,20 @@
 {
   "id": "comp-014",
-  "name": "VectorNetworks",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-047",
-  "founder_name": "Alan Berners-Lee",
-  "headquarters_id": "bldg-039",
-  "headquarters_name": "VectorNetworks Headquarters",
+  "name": "TerraVentures",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-171",
+  "founder_name": "Margaret Cross",
+  "headquarters_id": "bldg-053",
+  "headquarters_name": "TerraVentures Headquarters",
   "employees": [
-    "agent-047",
-    "agent-176"
+    "agent-171",
+    "agent-131",
+    "agent-165",
+    "agent-308"
   ],
-  "valuation_tokens": 620016,
+  "valuation_tokens": 409168,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 4
+  "color": "#eab308",
+  "founded_at_tick": 5
 }

@@ -1,24 +1,42 @@
 {
   "id": "bldg-059",
-  "name": "Maeve's Company Headquarters #47 [AeroCyber Robotics]",
-  "type": "Company Headquarters",
+  "name": "Athena's Autonomous Vehicle Mega-Plant #32",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    -11.0,
-    29.7,
-    -35.3
+    166.0,
+    15.8,
+    -69.2
   ],
   "size": [
-    23.9,
-    59.5,
-    23.1
+    33.1,
+    31.6,
+    35.7
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-070",
-  "builder_name": "Maeve Cross",
-  "district": "Silicon Central",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#f59e0b",
+  "builder_id": "agent-083",
+  "builder_name": "Athena Apex",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Maeve Cross for Company Headquarters operations"
+  "occupants": [
+    "Athena Apex"
+  ],
+  "purpose": "Constructed by Athena Apex for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

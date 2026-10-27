@@ -1,24 +1,41 @@
 {
   "id": "bldg-048",
-  "name": "Ryan's Quantum Data Center #98",
-  "type": "Quantum Data Center",
+  "name": "Geoffrey's Biosphere Atmospheric Scrubber #77",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    94.0,
-    9.9,
-    -153.3
+    10.5,
+    17.4,
+    -156.9
   ],
   "size": [
-    23.1,
-    19.7,
-    25.3
+    20.3,
+    34.8,
+    23.3
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-155",
-  "builder_name": "Ryan Nadella",
-  "district": "Industrial Sector",
+  "color": "#10b981",
+  "builder_id": "agent-156",
+  "builder_name": "Geoffrey Core",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Ryan Nadella for Quantum Data Center operations"
+  "occupants": [
+    "Geoffrey Core"
+  ],
+  "purpose": "Constructed by Geoffrey Core for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 5.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

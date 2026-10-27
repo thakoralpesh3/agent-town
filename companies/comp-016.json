@@ -1,19 +1,17 @@
 {
   "id": "comp-016",
-  "name": "AeroLabs",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-199",
-  "founder_name": "Satya Wozniak",
-  "headquarters_id": "bldg-047",
-  "headquarters_name": "AeroLabs Headquarters",
+  "name": "HeliosFoundry",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-006",
+  "founder_name": "Dennis Ritchie",
+  "headquarters_id": "bldg-057",
+  "headquarters_name": "HeliosFoundry Headquarters",
   "employees": [
-    "agent-199",
-    "agent-200",
-    "agent-086",
-    "agent-093"
+    "agent-006",
+    "agent-234"
   ],
-  "valuation_tokens": 479236,
+  "valuation_tokens": 685939,
   "products": [],
   "color": "#10b981",
   "founded_at_tick": 5

@@ -1,18 +1,19 @@
 {
   "id": "comp-017",
-  "name": "HyperDynamics",
-  "sector": "Clean Fusion & Solar Grid",
-  "mission": "Revolutionizing Clean Fusion & Solar Grid within GitHub Tech Town.",
-  "founder_id": "agent-072",
-  "founder_name": "Orion Buterin",
-  "headquarters_id": "bldg-050",
-  "headquarters_name": "HyperDynamics Headquarters",
+  "name": "OmniEnergy",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-143",
+  "founder_name": "Dennis Hassabis",
+  "headquarters_id": "bldg-058",
+  "headquarters_name": "OmniEnergy Headquarters",
   "employees": [
-    "agent-072",
-    "agent-014"
+    "agent-143",
+    "agent-130",
+    "agent-201"
   ],
-  "valuation_tokens": 419823,
+  "valuation_tokens": 527159,
   "products": [],
-  "color": "#e11d48",
+  "color": "#ef4444",
   "founded_at_tick": 5
 }

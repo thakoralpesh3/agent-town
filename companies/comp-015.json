@@ -1,20 +1,18 @@
 {
   "id": "comp-015",
-  "name": "VectorMatrix",
+  "name": "QuantumVentures",
   "sector": "Neural AI & LLM Systems",
   "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-206",
-  "founder_name": "Kairo Murati",
-  "headquarters_id": "bldg-044",
-  "headquarters_name": "VectorMatrix Headquarters",
+  "founder_id": "agent-218",
+  "founder_name": "Satya von Neumann",
+  "headquarters_id": "bldg-056",
+  "headquarters_name": "QuantumVentures Headquarters",
   "employees": [
-    "agent-206",
-    "agent-057",
-    "agent-099",
-    "agent-142"
+    "agent-218",
+    "agent-119"
   ],
-  "valuation_tokens": 664242,
+  "valuation_tokens": 492529,
   "products": [],
   "color": "#ec4899",
-  "founded_at_tick": 4
+  "founded_at_tick": 5
 }

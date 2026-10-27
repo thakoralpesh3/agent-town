@@ -1,20 +1,20 @@
 {
   "id": "comp-012",
-  "name": "StellarFoundry",
-  "sector": "Clean Fusion & Solar Grid",
-  "mission": "Revolutionizing Clean Fusion & Solar Grid within GitHub Tech Town.",
-  "founder_id": "agent-113",
-  "founder_name": "Rob Cross",
-  "headquarters_id": "bldg-034",
-  "headquarters_name": "StellarFoundry Headquarters",
+  "name": "NexusFederation",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-037",
+  "founder_name": "Alan Node",
+  "headquarters_id": "bldg-049",
+  "headquarters_name": "NexusFederation Headquarters",
   "employees": [
-    "agent-113",
-    "agent-115",
-    "agent-034",
-    "agent-027"
+    "agent-037",
+    "agent-149",
+    "agent-179",
+    "agent-222"
   ],
-  "valuation_tokens": 679160,
+  "valuation_tokens": 553870,
   "products": [],
-  "color": "#e11d48",
+  "color": "#10b981",
   "founded_at_tick": 4
 }

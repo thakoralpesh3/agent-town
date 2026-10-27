@@ -1,18 +1,19 @@
 {
   "id": "comp-013",
-  "name": "HyperIntell",
-  "sector": "Autonomous Mobility & Drones",
-  "mission": "Revolutionizing Autonomous Mobility & Drones within GitHub Tech Town.",
-  "founder_id": "agent-163",
-  "founder_name": "Zephyr LeCun",
-  "headquarters_id": "bldg-037",
-  "headquarters_name": "HyperIntell Headquarters",
+  "name": "BioRobotics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-066",
+  "founder_name": "Diana Mason",
+  "headquarters_id": "bldg-051",
+  "headquarters_name": "BioRobotics Headquarters",
   "employees": [
-    "agent-163",
-    "agent-194",
-    "agent-164"
+    "agent-066",
+    "agent-070",
+    "agent-078",
+    "agent-127"
   ],
-  "valuation_tokens": 412170,
+  "valuation_tokens": 329138,
   "products": [],
   "color": "#f59e0b",
   "founded_at_tick": 4
