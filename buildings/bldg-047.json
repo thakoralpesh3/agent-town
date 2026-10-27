@@ -1,40 +1,42 @@
 {
   "id": "bldg-047",
-  "name": "Carl's Drone Logistics Freight Port #23 [TerraFlora Synthetics]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Helios's Hypatia Grand University of Sciences #67",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    90.9,
-    14.8,
-    -67.7
+    173.1,
+    26.2,
+    2.8
   ],
   "size": [
-    30.0,
-    29.7,
-    24.8
+    36.9,
+    52.5,
+    40.7
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-027",
-  "builder_name": "Carl Sagan",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "color": "#a855f7",
+  "builder_id": "agent-220",
+  "builder_name": "Helios Blaze",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Carl Sagan"
+    "Helios Blaze"
   ],
-  "purpose": "Constructed by Carl Sagan for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Helios Blaze for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 5.8,
+  "power_consumption_mw": 2.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

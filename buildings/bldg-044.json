@@ -1,42 +1,45 @@
 {
   "id": "bldg-044",
-  "name": "Gavin's Supreme Court of Justice #80 [OpenKernel Federation]",
-  "type": "Supreme Court of Justice",
+  "name": "Aria's National Archives & Git Ledger #55 [Sovereign Chancellery Core]",
+  "type": "National Archives & Git Ledger",
   "position": [
-    61.3,
-    18.2,
-    -23.1
+    -27.2,
+    16.7,
+    -27.6
   ],
   "size": [
-    25.5,
-    36.4,
-    30.6
+    28.3,
+    33.4,
+    30.7
   ],
-  "color": "#d97706",
-  "builder_id": "agent-295",
-  "builder_name": "Gavin Vance",
+  "color": "#6366f1",
+  "builder_id": "agent-080",
+  "builder_name": "Aria Stroustrup",
   "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-002",
-  "company_name": "OpenKernel Federation",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Gavin Vance"
+    "Aria Stroustrup"
   ],
-  "purpose": "Constructed by Gavin Vance for Supreme Court of Justice operations",
-  "floors": 6,
-  "capacity": 35,
+  "purpose": "Constructed by Aria Stroustrup for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
   "departments": [
-    "High Constitutional Tribunal",
-    "Smart Contract Arbitration Bench",
-    "Appeals Chamber"
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
   ],
   "amenities": [
-    "Formal Verification Prover",
-    "Holographic Evidence Display",
-    "Juror Isolation Chambers"
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
   ],
-  "power_consumption_mw": 2.7,
+  "power_consumption_mw": 8.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

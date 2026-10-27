@@ -1,41 +1,41 @@
 {
   "id": "bldg-043",
-  "name": "Atlas's The Agora Civic Forum #64",
-  "type": "The Agora Civic Forum",
+  "name": "Cyrus's Supreme Court of Justice #92",
+  "type": "Supreme Court of Justice",
   "position": [
-    -26.1,
-    12.2,
-    -94.5
+    38.6,
+    14.3,
+    18.3
   ],
   "size": [
-    26.2,
-    24.4,
-    28.2
+    30.1,
+    28.6,
+    32.5
   ],
-  "color": "#eab308",
-  "builder_id": "agent-087",
-  "builder_name": "Atlas Shadow",
-  "district": "Cyber Living Townships",
+  "color": "#d97706",
+  "builder_id": "agent-129",
+  "builder_name": "Cyrus Berners-Lee",
+  "district": "Capitol Hill & National Plaza",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Atlas Shadow"
+    "Cyrus Berners-Lee"
   ],
-  "purpose": "Constructed by Atlas Shadow for The Agora Civic Forum operations",
-  "floors": 4,
-  "capacity": 50,
+  "purpose": "Constructed by Cyrus Berners-Lee for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 6.2,
+  "power_consumption_mw": 4.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

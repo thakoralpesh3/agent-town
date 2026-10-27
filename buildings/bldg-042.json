@@ -1,41 +1,41 @@
 {
   "id": "bldg-042",
-  "name": "Cyrus's Hydroponic Agricultural Biodome #61",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Vint's Autonomous Vehicle Mega-Plant #47 [Sovereign Chancellery Core]",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    17.3,
-    8.5,
-    -101.4
+    183.4,
+    16.1,
+    -126.3
   ],
   "size": [
-    31.8,
-    17.1,
-    29.0
+    32.1,
+    32.3,
+    35.4
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-160",
-  "builder_name": "Cyrus Solstice",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f59e0b",
+  "builder_id": "agent-264",
+  "builder_name": "Vint Praetor",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Cyrus Solstice"
+    "Vint Praetor"
   ],
-  "purpose": "Constructed by Cyrus Solstice for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Vint Praetor for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
   ],
-  "power_consumption_mw": 3.5,
+  "power_consumption_mw": 8.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

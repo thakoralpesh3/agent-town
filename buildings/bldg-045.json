@@ -1,42 +1,45 @@
 {
   "id": "bldg-045",
-  "name": "Kairo's Hyperloop Central Terminus #12 [TerraFlora Synthetics]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Roxas's Cyber Living Township Beta #12 [SolarFusion Grid]",
+  "type": "Cyber Living Township Beta",
   "position": [
-    130.2,
-    9.0,
-    -133.7
+    -119.8,
+    16.5,
+    -83.8
   ],
   "size": [
-    36.1,
-    18.1,
-    40.5
+    23.8,
+    32.9,
+    30.5
   ],
-  "color": "#f97316",
-  "builder_id": "agent-325",
-  "builder_name": "Kairo Sutskever",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "color": "#16a34a",
+  "builder_id": "agent-190",
+  "builder_name": "Roxas Lamport",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Kairo Sutskever"
+    "Roxas Lamport"
   ],
-  "purpose": "Constructed by Kairo Sutskever for Hyperloop Central Terminus operations",
-  "floors": 4,
+  "purpose": "Constructed by Roxas Lamport for Cyber Living Township Beta operations",
+  "floors": 7,
   "capacity": 45,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 4.5,
+  "power_consumption_mw": 5.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

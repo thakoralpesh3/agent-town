@@ -1,20 +1,18 @@
 {
   "id": "comp-014",
-  "name": "AxiomSolutions",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-208",
-  "founder_name": "Andrej Spark",
-  "headquarters_id": "bldg-045",
-  "headquarters_name": "AxiomSolutions Headquarters",
+  "name": "AxiomFoundry",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-016",
+  "founder_name": "Aristotle Veritas",
+  "headquarters_id": "bldg-046",
+  "headquarters_name": "AxiomFoundry Headquarters",
   "employees": [
-    "agent-208",
-    "agent-212",
-    "agent-151",
-    "agent-074"
+    "agent-016",
+    "agent-120"
   ],
-  "valuation_tokens": 623980,
+  "valuation_tokens": 389348,
   "products": [],
-  "color": "#10b981",
+  "color": "#ec4899",
   "founded_at_tick": 2
 }
