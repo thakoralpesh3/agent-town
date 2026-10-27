@@ -1,41 +1,45 @@
 {
   "id": "bldg-063",
-  "name": "Nexus's Shannon Information Spire #35 [Sovereign Chancellery Core]",
-  "type": "Shannon Information Spire",
+  "name": "Rune's Grand Astronomical Observatory #21",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    74.7,
-    25.1,
-    101.8
+    183.6,
+    18.4,
+    59.9
   ],
   "size": [
-    21.2,
-    50.2,
-    18.5
+    23.6,
+    36.7,
+    21.9
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-062",
-  "builder_name": "Nexus Fletcher",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "color": "#c084fc",
+  "builder_id": "agent-200",
+  "builder_name": "Rune Apex",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Nexus Fletcher"
+    "Rune Apex"
   ],
-  "purpose": "Constructed by Nexus Fletcher for Shannon Information Spire operations",
-  "floors": 12,
-  "capacity": 35,
+  "purpose": "Constructed by Rune Apex for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 7.4,
+  "power_consumption_mw": 3.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

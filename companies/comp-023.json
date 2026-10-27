@@ -1,20 +1,19 @@
 {
   "id": "comp-023",
-  "name": "AxiomTechnologies",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-012",
-  "founder_name": "Dorothy Vaughan",
-  "headquarters_id": "bldg-074",
-  "headquarters_name": "AxiomTechnologies Headquarters",
+  "name": "HyperIntell",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-178",
+  "founder_name": "Athena Strata",
+  "headquarters_id": "bldg-064",
+  "headquarters_name": "HyperIntell Headquarters",
   "employees": [
-    "agent-012",
-    "agent-052",
-    "agent-098",
-    "agent-344"
+    "agent-178",
+    "agent-101",
+    "agent-187"
   ],
-  "valuation_tokens": 289664,
+  "valuation_tokens": 659201,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 7
+  "color": "#ec4899",
+  "founded_at_tick": 5
 }

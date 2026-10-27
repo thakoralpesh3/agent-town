@@ -1,20 +1,20 @@
 {
   "id": "comp-026",
-  "name": "NeuroGenetics",
-  "sector": "Clean Fusion & Solar Grid",
-  "mission": "Revolutionizing Clean Fusion & Solar Grid within GitHub Tech Town.",
-  "founder_id": "agent-116",
-  "founder_name": "Vint Ritchie",
-  "headquarters_id": "bldg-070",
-  "headquarters_name": "NeuroGenetics Headquarters",
+  "name": "TerraGenetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-315",
+  "founder_name": "Jensen Szabo",
+  "headquarters_id": "bldg-072",
+  "headquarters_name": "TerraGenetics Headquarters",
   "employees": [
-    "agent-116",
-    "agent-184",
-    "agent-009",
-    "agent-147"
+    "agent-315",
+    "agent-042",
+    "agent-185",
+    "agent-159"
   ],
-  "valuation_tokens": 560346,
+  "valuation_tokens": 353168,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 7
+  "color": "#ef4444",
+  "founded_at_tick": 6
 }

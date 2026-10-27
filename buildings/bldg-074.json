@@ -1,24 +1,45 @@
 {
   "id": "bldg-074",
-  "name": "Donald's Cyber Cafe #52 [HyperDynamics]",
-  "type": "Cyber Cafe",
+  "name": "Barbara's Hyperloop Central Terminus #89 [BioLongevity Solutions]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    -29.0,
-    6.8,
-    -96.3
+    124.9,
+    13.6,
+    -156.2
   ],
   "size": [
-    14.3,
-    13.6,
-    16.6
+    31.0,
+    27.3,
+    33.8
   ],
-  "color": "#eab308",
-  "builder_id": "agent-014",
-  "builder_name": "Donald Knuth",
-  "district": "Cyber Commons",
-  "company_id": "comp-017",
-  "company_name": "HyperDynamics",
+  "color": "#f97316",
+  "builder_id": "agent-100",
+  "builder_name": "Barbara Andreessen",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Donald Knuth for Cyber Cafe operations"
+  "occupants": [
+    "Barbara Andreessen"
+  ],
+  "purpose": "Constructed by Barbara Andreessen for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

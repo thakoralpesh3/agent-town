@@ -1,20 +1,19 @@
 {
   "id": "comp-027",
-  "name": "OmniGenetics",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-210",
-  "founder_name": "Helios Smith",
-  "headquarters_id": "bldg-071",
-  "headquarters_name": "OmniGenetics Headquarters",
+  "name": "SolarSystems",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-284",
+  "founder_name": "Leander Hinton",
+  "headquarters_id": "bldg-073",
+  "headquarters_name": "SolarSystems Headquarters",
   "employees": [
-    "agent-210",
-    "agent-161",
-    "agent-048",
-    "agent-149"
+    "agent-284",
+    "agent-060",
+    "agent-017"
   ],
-  "valuation_tokens": 156433,
+  "valuation_tokens": 173724,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 8
+  "color": "#10b981",
+  "founded_at_tick": 6
 }

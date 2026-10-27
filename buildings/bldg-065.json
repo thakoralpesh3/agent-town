@@ -1,42 +1,45 @@
 {
   "id": "bldg-065",
-  "name": "Leslie's Hydroponic Agricultural Biodome #43",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Darian's The Agora Civic Forum #93 [Sovereign Chancellery Core]",
+  "type": "The Agora Civic Forum",
   "position": [
-    -25.4,
-    9.6,
-    -184.2
+    -61.7,
+    10.3,
+    -131.0
   ],
   "size": [
-    37.6,
-    19.1,
-    35.7
+    29.4,
+    20.6,
+    32.8
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-202",
-  "builder_name": "Leslie Murati",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": null,
-  "company_name": null,
+  "color": "#eab308",
+  "builder_id": "agent-322",
+  "builder_name": "Darian Vex",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Leslie Murati"
+    "Darian Vex"
   ],
-  "purpose": "Constructed by Leslie Murati for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Darian Vex for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
   "power_consumption_mw": 7.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

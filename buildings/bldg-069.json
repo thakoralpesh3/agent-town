@@ -1,42 +1,45 @@
 {
   "id": "bldg-069",
-  "name": "Callum's Hydroponic Agricultural Biodome #41",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Noam's The Agora Civic Forum #70",
+  "type": "The Agora Civic Forum",
   "position": [
-    -16.7,
-    10.6,
-    -165.9
+    -130.0,
+    11.4,
+    -25.1
   ],
   "size": [
-    29.6,
-    21.1,
-    35.5
+    30.3,
+    22.8,
+    29.0
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-315",
-  "builder_name": "Callum Node",
-  "district": "Biosphere Reserve & Fusion Grid",
+  "color": "#eab308",
+  "builder_id": "agent-092",
+  "builder_name": "Noam Hinton",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Callum Node"
+    "Noam Hinton"
   ],
-  "purpose": "Constructed by Callum Node for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Noam Hinton for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 6.0,
+  "power_consumption_mw": 7.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -1,43 +1,44 @@
 {
   "id": "bldg-066",
-  "name": "Edsger's National Hospital & Nanomedical Citadel #48",
-  "type": "National Hospital & Nanomedical Citadel",
+  "name": "Norman's Shannon Information Spire #29",
+  "type": "Shannon Information Spire",
   "position": [
-    -145.5,
-    20.9,
-    2.6
+    -64.0,
+    27.4,
+    143.4
   ],
   "size": [
-    36.0,
-    41.8,
-    35.2
+    17.5,
+    54.8,
+    17.0
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-194",
-  "builder_name": "Edsger Node",
-  "district": "Health Citadel & Medical Complex",
+  "color": "#0284c7",
+  "builder_id": "agent-028",
+  "builder_name": "Norman Borlaug",
+  "district": "Silicon Central Metropolis",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Edsger Node"
+    "Norman Borlaug"
   ],
-  "purpose": "Constructed by Edsger Node for National Hospital & Nanomedical Citadel operations",
-  "floors": 10,
-  "capacity": 55,
+  "purpose": "Constructed by Norman Borlaug for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Emergency Trauma & Triage",
-    "Nanotech Robotic Surgery",
-    "Cellular Regeneration",
-    "Epidemic Control"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "Rooftop VTOL Helipads",
-    "Cryogenic Stasis Chambers",
-    "Sterile Nanotech Cleanrooms"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
-  "power_consumption_mw": 8.3,
+  "power_consumption_mw": 6.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -1,20 +1,18 @@
 {
   "id": "comp-025",
-  "name": "AeroMatrix",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-276",
-  "founder_name": "Ryan Hopper",
-  "headquarters_id": "bldg-077",
-  "headquarters_name": "AeroMatrix Headquarters",
+  "name": "SynapseMatrix",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-067",
+  "founder_name": "Valeria Flux",
+  "headquarters_id": "bldg-071",
+  "headquarters_name": "SynapseMatrix Headquarters",
   "employees": [
-    "agent-276",
-    "agent-300",
-    "agent-121",
-    "agent-061"
+    "agent-067",
+    "agent-097"
   ],
-  "valuation_tokens": 435391,
+  "valuation_tokens": 640302,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 7
+  "color": "#10b981",
+  "founded_at_tick": 6
 }
