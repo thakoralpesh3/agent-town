@@ -1,40 +1,41 @@
 {
   "id": "bldg-053",
-  "name": "Marcus's Drone Logistics Freight Port #40",
-  "type": "Drone Logistics Freight Port",
+  "name": "Hypatia's Grand Astronomical Observatory #21 [BioLongevity Solutions]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    105.8,
-    13.3,
-    -170.1
+    140.2,
+    20.1,
+    48.6
   ],
   "size": [
-    26.8,
-    26.6,
-    29.9
+    22.2,
+    40.1,
+    24.1
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-076",
-  "builder_name": "Marcus Winter",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": null,
-  "company_name": null,
+  "color": "#c084fc",
+  "builder_id": "agent-015",
+  "builder_name": "Hypatia Alexandria",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
   "occupants": [
-    "Marcus Winter"
+    "Hypatia Alexandria"
   ],
-  "purpose": "Constructed by Marcus Winter for Drone Logistics Freight Port operations",
+  "purpose": "Constructed by Hypatia Alexandria for Grand Astronomical Observatory operations",
   "floors": 6,
-  "capacity": 30,
+  "capacity": 25,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 5.9,
+  "power_consumption_mw": 7.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

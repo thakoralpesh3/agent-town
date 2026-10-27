@@ -1,20 +1,18 @@
 {
   "id": "comp-018",
-  "name": "QuantumSynthetics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-262",
-  "founder_name": "Hal Synapse",
-  "headquarters_id": "bldg-051",
-  "headquarters_name": "QuantumSynthetics Headquarters",
+  "name": "SynapseSolutions",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-016",
+  "founder_name": "Aristotle Veritas",
+  "headquarters_id": "bldg-052",
+  "headquarters_name": "SynapseSolutions Headquarters",
   "employees": [
-    "agent-262",
-    "agent-241",
-    "agent-057",
-    "agent-234"
+    "agent-016",
+    "agent-308"
   ],
-  "valuation_tokens": 154770,
+  "valuation_tokens": 548781,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#eab308",
   "founded_at_tick": 3
 }

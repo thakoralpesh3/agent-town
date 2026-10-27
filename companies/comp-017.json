@@ -1,18 +1,18 @@
 {
   "id": "comp-017",
-  "name": "DeepSynthetics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-075",
-  "founder_name": "Bob von Neumann",
+  "name": "AxiomIntell",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-276",
+  "founder_name": "Pixel Lamport",
   "headquarters_id": "bldg-050",
-  "headquarters_name": "DeepSynthetics Headquarters",
+  "headquarters_name": "AxiomIntell Headquarters",
   "employees": [
-    "agent-075",
-    "agent-274"
+    "agent-276",
+    "agent-037"
   ],
-  "valuation_tokens": 638586,
+  "valuation_tokens": 629074,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#e11d48",
   "founded_at_tick": 3
 }

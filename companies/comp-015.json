@@ -1,18 +1,18 @@
 {
   "id": "comp-015",
-  "name": "StellarSynthetics",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-282",
-  "founder_name": "Fei-Fei Wright",
-  "headquarters_id": "bldg-046",
-  "headquarters_name": "StellarSynthetics Headquarters",
+  "name": "NexusRobotics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-317",
+  "founder_name": "Vint Quantum",
+  "headquarters_id": "bldg-048",
+  "headquarters_name": "NexusRobotics Headquarters",
   "employees": [
-    "agent-282",
-    "agent-203"
+    "agent-317",
+    "agent-145"
   ],
-  "valuation_tokens": 613561,
+  "valuation_tokens": 297038,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 2
+  "color": "#ec4899",
+  "founded_at_tick": 3
 }

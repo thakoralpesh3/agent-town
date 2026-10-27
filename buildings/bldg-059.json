@@ -1,41 +1,41 @@
 {
   "id": "bldg-059",
-  "name": "Nexus's The Agora Civic Forum #77",
-  "type": "The Agora Civic Forum",
+  "name": "Sora's Tokamak Fusion Reactor Station #75 [Sovereign Chancellery Core]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    -58.9,
-    8.6,
-    -87.1
+    39.7,
+    11.8,
+    -116.6
   ],
   "size": [
-    27.6,
-    17.2,
-    31.4
+    27.7,
+    23.6,
+    32.8
   ],
-  "color": "#eab308",
-  "builder_id": "agent-038",
-  "builder_name": "Nexus Torvalds",
-  "district": "Cyber Living Townships",
-  "company_id": null,
-  "company_name": null,
+  "color": "#be123c",
+  "builder_id": "agent-104",
+  "builder_name": "Sora Cross",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Nexus Torvalds"
+    "Sora Cross"
   ],
-  "purpose": "Constructed by Nexus Torvalds for The Agora Civic Forum operations",
+  "purpose": "Constructed by Sora Cross for Tokamak Fusion Reactor Station operations",
   "floors": 4,
-  "capacity": 50,
+  "capacity": 30,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 6.8,
+  "power_consumption_mw": 2.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

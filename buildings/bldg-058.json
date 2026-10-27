@@ -1,41 +1,41 @@
 {
   "id": "bldg-058",
-  "name": "Ryan's National Archives & Git Ledger #47",
-  "type": "National Archives & Git Ledger",
+  "name": "Dennis's Grand Astronomical Observatory #42 [Sovereign Chancellery Core]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    55.7,
-    19.9,
-    34.6
+    129.6,
+    15.8,
+    98.2
   ],
   "size": [
-    25.7,
-    39.8,
-    24.4
+    22.6,
+    31.7,
+    23.8
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-079",
-  "builder_name": "Ryan LeCun",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": null,
-  "company_name": null,
+  "color": "#c084fc",
+  "builder_id": "agent-311",
+  "builder_name": "Dennis Archon",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Ryan LeCun"
+    "Dennis Archon"
   ],
-  "purpose": "Constructed by Ryan LeCun for National Archives & Git Ledger operations",
-  "floors": 7,
-  "capacity": 30,
+  "purpose": "Constructed by Dennis Archon for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
   "departments": [
-    "State Serialization Vault",
-    "Cold Storage Optical Discs",
-    "Genesis Commit Monument"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Liquid Nitrogen Immersion",
-    "Electromagnetic Shielding",
-    "Perpetual Ledger Screen"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 4.8,
+  "power_consumption_mw": 8.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

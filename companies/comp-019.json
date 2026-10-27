@@ -1,18 +1,18 @@
 {
   "id": "comp-019",
-  "name": "SynapseSystems",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-121",
-  "founder_name": "Brian Quantum",
+  "name": "TerraVentures",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-092",
+  "founder_name": "Sylvia Binary",
   "headquarters_id": "bldg-054",
-  "headquarters_name": "SynapseSystems Headquarters",
+  "headquarters_name": "TerraVentures Headquarters",
   "employees": [
-    "agent-121",
-    "agent-049"
+    "agent-092",
+    "agent-281"
   ],
-  "valuation_tokens": 359346,
+  "valuation_tokens": 617737,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 4
+  "color": "#e11d48",
+  "founded_at_tick": 3
 }

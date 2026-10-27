@@ -1,24 +1,44 @@
 {
   "id": "bldg-056",
-  "name": "Evander's Cybernetic Clinic #96 [NeuroDynamics AI]",
-  "type": "Cybernetic Clinic",
+  "name": "Sol's Shannon Information Spire #81 [AeroCyber Mobility]",
+  "type": "Shannon Information Spire",
   "position": [
-    -73.2,
-    15.1,
-    35.9
+    -25.8,
+    31.6,
+    111.7
   ],
   "size": [
-    19.4,
-    30.2,
-    18.9
+    16.3,
+    63.3,
+    18.3
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-135",
-  "builder_name": "Evander Finney",
-  "district": "Residential Quarter",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#0284c7",
+  "builder_id": "agent-048",
+  "builder_name": "Sol Vanguard",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Evander Finney for Cybernetic Clinic operations"
+  "occupants": [
+    "Sol Vanguard"
+  ],
+  "purpose": "Constructed by Sol Vanguard for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

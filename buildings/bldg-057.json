@@ -1,24 +1,44 @@
 {
   "id": "bldg-057",
-  "name": "Adam's Holo Park #89 [AeroCyber Robotics]",
-  "type": "Holo Park",
+  "name": "Aurelia's Drone Logistics Freight Port #97",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    -89.9,
-    2.2,
-    -69.4
+    134.5,
+    12.0,
+    -123.4
   ],
   "size": [
-    26.5,
-    4.3,
-    27.5
+    25.6,
+    23.9,
+    30.3
   ],
-  "color": "#10b981",
-  "builder_id": "agent-017",
-  "builder_name": "Adam Smith DeFi",
-  "district": "Cyber Commons",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#ea580c",
+  "builder_id": "agent-314",
+  "builder_name": "Aurelia von Neumann",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Adam Smith DeFi for Holo Park operations"
+  "occupants": [
+    "Aurelia von Neumann"
+  ],
+  "purpose": "Constructed by Aurelia von Neumann for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 4.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -1,18 +1,20 @@
 {
   "id": "comp-016",
-  "name": "AxiomLabs",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-003",
-  "founder_name": "Linus Torvalds",
-  "headquarters_id": "bldg-048",
-  "headquarters_name": "AxiomLabs Headquarters",
+  "name": "QuantumMatrix",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-230",
+  "founder_name": "Morrigan Finney",
+  "headquarters_id": "bldg-049",
+  "headquarters_name": "QuantumMatrix Headquarters",
   "employees": [
-    "agent-003",
-    "agent-228"
+    "agent-230",
+    "agent-232",
+    "agent-324",
+    "agent-020"
   ],
-  "valuation_tokens": 403499,
+  "valuation_tokens": 351627,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#e11d48",
   "founded_at_tick": 3
 }

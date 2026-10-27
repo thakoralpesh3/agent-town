@@ -1,19 +1,20 @@
 {
   "id": "comp-020",
-  "name": "TerraLabs",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-208",
-  "founder_name": "Andrej Spark",
-  "headquarters_id": "bldg-056",
-  "headquarters_name": "TerraLabs Headquarters",
+  "name": "HyperTechnologies",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-140",
+  "founder_name": "Ilya Buterin",
+  "headquarters_id": "bldg-055",
+  "headquarters_name": "HyperTechnologies Headquarters",
   "employees": [
-    "agent-208",
-    "agent-233",
-    "agent-029"
+    "agent-140",
+    "agent-085",
+    "agent-150",
+    "agent-134"
   ],
-  "valuation_tokens": 318953,
+  "valuation_tokens": 462686,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 4
+  "color": "#8b5cf6",
+  "founded_at_tick": 3
 }
