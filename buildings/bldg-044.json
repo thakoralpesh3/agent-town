@@ -1,24 +1,42 @@
 {
   "id": "bldg-044",
-  "name": "Barbara's Cyber Cafe #35",
-  "type": "Cyber Cafe",
+  "name": "Gavin's Supreme Court of Justice #80 [OpenKernel Federation]",
+  "type": "Supreme Court of Justice",
   "position": [
-    -58.4,
-    5.1,
-    -98.1
+    61.3,
+    18.2,
+    -23.1
   ],
   "size": [
-    16.2,
-    10.2,
-    16.2
+    25.5,
+    36.4,
+    30.6
   ],
-  "color": "#eab308",
-  "builder_id": "agent-010",
-  "builder_name": "Barbara Liskov",
-  "district": "Cyber Commons",
-  "company_id": null,
-  "company_name": null,
+  "color": "#d97706",
+  "builder_id": "agent-295",
+  "builder_name": "Gavin Vance",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Barbara Liskov for Cyber Cafe operations"
+  "occupants": [
+    "Gavin Vance"
+  ],
+  "purpose": "Constructed by Gavin Vance for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

@@ -1,24 +1,42 @@
 {
   "id": "bldg-042",
-  "name": "Aria's Company Headquarters #24",
-  "type": "Company Headquarters",
+  "name": "Selene's Hydroponic Agricultural Biodome #75",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    54.8,
-    25.3,
-    3.6
+    -56.9,
+    9.8,
+    -144.4
   ],
   "size": [
-    21.9,
-    50.6,
-    23.8
+    33.8,
+    19.5,
+    33.1
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-139",
-  "builder_name": "Aria Bengio",
-  "district": "Silicon Central",
+  "color": "#16a34a",
+  "builder_id": "agent-238",
+  "builder_name": "Selene Bengio",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Aria Bengio for Company Headquarters operations"
+  "occupants": [
+    "Selene Bengio"
+  ],
+  "purpose": "Constructed by Selene Bengio for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

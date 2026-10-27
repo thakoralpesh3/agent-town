@@ -1,24 +1,41 @@
 {
   "id": "bldg-040",
-  "name": "Sora's Residential Pod #32",
-  "type": "Residential Pod",
+  "name": "Felix's Drone Logistics Freight Port #91 [AetherDynamics]",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    -102.2,
-    10.3,
-    42.0
+    128.9,
+    17.8,
+    -71.0
   ],
   "size": [
-    12.7,
-    20.6,
-    12.3
+    26.7,
+    35.6,
+    27.5
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-146",
-  "builder_name": "Sora Lamport",
-  "district": "Residential Quarter",
-  "company_id": null,
-  "company_name": null,
+  "color": "#ea580c",
+  "builder_id": "agent-278",
+  "builder_name": "Felix Cerf",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-010",
+  "company_name": "AetherDynamics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Sora Lamport for Residential Pod operations"
+  "occupants": [
+    "Felix Cerf"
+  ],
+  "purpose": "Constructed by Felix Cerf for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

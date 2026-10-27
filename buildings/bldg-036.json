@@ -1,24 +1,41 @@
 {
   "id": "bldg-036",
-  "name": "Edsger's Quantum Data Center #14",
-  "type": "Quantum Data Center",
+  "name": "Martin's Cloud Matrix Exchange #34",
+  "type": "Cloud Matrix Exchange",
   "position": [
-    140.5,
-    9.2,
-    -91.2
+    27.1,
+    31.3,
+    81.9
   ],
   "size": [
-    24.0,
-    18.5,
-    25.6
+    22.9,
+    62.6,
+    24.3
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-064",
-  "builder_name": "Edsger Andreessen",
-  "district": "Industrial Sector",
+  "color": "#38bdf8",
+  "builder_id": "agent-267",
+  "builder_name": "Martin Thompson",
+  "district": "Silicon Central Metropolis",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Edsger Andreessen for Quantum Data Center operations"
+  "occupants": [
+    "Martin Thompson"
+  ],
+  "purpose": "Constructed by Martin Thompson for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

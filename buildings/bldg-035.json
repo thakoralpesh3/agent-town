@@ -1,24 +1,41 @@
 {
   "id": "bldg-035",
-  "name": "Sol's Cyber Cafe #32 [AeroCyber Robotics]",
-  "type": "Cyber Cafe",
+  "name": "Vitalik's Cloud Matrix Exchange #90",
+  "type": "Cloud Matrix Exchange",
   "position": [
-    -92.4,
-    5.0,
-    -118.0
+    -24.3,
+    23.0,
+    96.5
   ],
   "size": [
-    13.0,
-    10.0,
-    15.9
+    22.7,
+    45.9,
+    23.3
   ],
-  "color": "#eab308",
-  "builder_id": "agent-025",
-  "builder_name": "Sol Smith",
-  "district": "Cyber Commons",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#38bdf8",
+  "builder_id": "agent-233",
+  "builder_name": "Vitalik Flux",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Sol Smith for Cyber Cafe operations"
+  "occupants": [
+    "Vitalik Flux"
+  ],
+  "purpose": "Constructed by Vitalik Flux for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 6.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

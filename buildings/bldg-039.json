@@ -1,24 +1,42 @@
 {
   "id": "bldg-039",
-  "name": "Linus's Residential Pod #13 [OpenKernel Core]",
-  "type": "Residential Pod",
+  "name": "Rune's Cyber Living Township Beta #40",
+  "type": "Cyber Living Township Beta",
   "position": [
-    -118.2,
-    9.4,
-    67.8
+    -56.1,
+    16.8,
+    -79.0
   ],
   "size": [
-    11.0,
-    18.9,
-    14.2
+    29.9,
+    33.5,
+    25.5
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-003",
-  "builder_name": "Linus Torvalds",
-  "district": "Residential Quarter",
-  "company_id": "comp-005",
-  "company_name": "OpenKernel Core",
+  "color": "#16a34a",
+  "builder_id": "agent-277",
+  "builder_name": "Rune Finney",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Linus Torvalds for Residential Pod operations"
+  "occupants": [
+    "Rune Finney"
+  ],
+  "purpose": "Constructed by Rune Finney for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

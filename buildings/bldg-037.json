@@ -1,24 +1,42 @@
 {
   "id": "bldg-037",
-  "name": "Guido's Company Headquarters #75",
-  "type": "Company Headquarters",
+  "name": "Nick's The Agora Civic Forum #84",
+  "type": "The Agora Civic Forum",
   "position": [
-    -0.1,
-    32.7,
-    -37.2
+    -155.1,
+    13.4,
+    -153.6
   ],
   "size": [
-    25.0,
-    65.4,
-    25.4
+    32.3,
+    26.8,
+    33.6
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-077",
-  "builder_name": "Guido Pichai",
-  "district": "Silicon Central",
+  "color": "#eab308",
+  "builder_id": "agent-234",
+  "builder_name": "Nick Andreessen",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Guido Pichai for Company Headquarters operations"
+  "occupants": [
+    "Nick Andreessen"
+  ],
+  "purpose": "Constructed by Nick Andreessen for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

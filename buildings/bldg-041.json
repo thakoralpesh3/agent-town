@@ -1,24 +1,43 @@
 {
   "id": "bldg-041",
-  "name": "Bob's Vehicle Factory #59 [NeuroDynamics AI]",
-  "type": "Vehicle Factory",
+  "name": "Radia's National Hospital & Nanomedical Citadel #91 [SolarFusion Grid]",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    49.1,
-    7.8,
-    -101.7
+    -73.6,
+    22.0,
+    25.9
   ],
   "size": [
-    20.5,
-    15.6,
-    25.3
+    29.1,
+    44.0,
+    36.5
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-126",
-  "builder_name": "Bob Torvalds",
-  "district": "Industrial Sector",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#ef4444",
+  "builder_id": "agent-323",
+  "builder_name": "Radia Core",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Bob Torvalds for Vehicle Factory operations"
+  "occupants": [
+    "Radia Core"
+  ],
+  "purpose": "Constructed by Radia Core for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

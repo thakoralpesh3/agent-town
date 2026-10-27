@@ -1,41 +1,40 @@
 {
   "id": "bldg-034",
-  "name": "Nexus's Tech Tower #33 [OpenKernel Core]",
-  "type": "Tech Tower",
+  "name": "Kairo's Cloud Matrix Exchange #75 [Sovereign Chancellery Core]",
+  "type": "Cloud Matrix Exchange",
   "position": [
-    -20.6,
-    24.3,
-    0.2
+    -3.3,
+    21.9,
+    83.4
   ],
   "size": [
-    18.9,
-    48.6,
-    18.8
+    20.1,
+    43.7,
+    20.5
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-158",
-  "builder_name": "Nexus Dusk",
-  "district": "Silicon Central",
-  "company_id": "comp-005",
-  "company_name": "OpenKernel Core",
+  "color": "#38bdf8",
+  "builder_id": "agent-272",
+  "builder_name": "Kairo Finney",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Nexus Dusk"
+    "Kairo Finney"
   ],
-  "purpose": "Constructed by Nexus Dusk for Tech Tower operations",
-  "floors": 12,
-  "capacity": 30,
+  "purpose": "Constructed by Kairo Finney for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
   "departments": [
-    "Systems Engineering",
-    "Kernel Lab",
-    "Cloud Infrastructure"
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
   ],
   "amenities": [
-    "Hyper-Speed Uplink",
-    "Rooftop Drone Pad",
-    "Quantum Server Vault"
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
   ],
-  "power_consumption_mw": 3.2,
+  "power_consumption_mw": 6.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal"
