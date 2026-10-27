@@ -1,19 +1,20 @@
 {
   "id": "comp-023",
-  "name": "NeuroLabs",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-087",
-  "founder_name": "Maeve von Neumann",
-  "headquarters_id": "bldg-065",
-  "headquarters_name": "NeuroLabs Headquarters",
+  "name": "AxiomTechnologies",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-012",
+  "founder_name": "Dorothy Vaughan",
+  "headquarters_id": "bldg-074",
+  "headquarters_name": "AxiomTechnologies Headquarters",
   "employees": [
-    "agent-087",
-    "agent-117",
-    "agent-104"
+    "agent-012",
+    "agent-052",
+    "agent-098",
+    "agent-344"
   ],
-  "valuation_tokens": 332173,
+  "valuation_tokens": 289664,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#8b5cf6",
   "founded_at_tick": 7
 }

@@ -1,18 +1,20 @@
 {
   "id": "comp-025",
-  "name": "ChronoVentures",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-155",
-  "founder_name": "Ryan Nadella",
-  "headquarters_id": "bldg-069",
-  "headquarters_name": "ChronoVentures Headquarters",
+  "name": "AeroMatrix",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-276",
+  "founder_name": "Ryan Hopper",
+  "headquarters_id": "bldg-077",
+  "headquarters_name": "AeroMatrix Headquarters",
   "employees": [
-    "agent-155",
-    "agent-036"
+    "agent-276",
+    "agent-300",
+    "agent-121",
+    "agent-061"
   ],
-  "valuation_tokens": 422217,
+  "valuation_tokens": 435391,
   "products": [],
-  "color": "#ec4899",
+  "color": "#eab308",
   "founded_at_tick": 7
 }

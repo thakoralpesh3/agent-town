@@ -1,24 +1,42 @@
 {
   "id": "bldg-073",
-  "name": "Morrigan's Residential Pod #36",
-  "type": "Residential Pod",
+  "name": "Stellan's Cyber Living Township Alpha #87 [BioLongevity Solutions]",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    -138.8,
-    8.2,
-    43.5
+    -147.9,
+    12.4,
+    -89.3
   ],
   "size": [
-    11.1,
-    16.3,
-    13.9
+    23.5,
+    24.8,
+    24.1
   ],
   "color": "#22c55e",
-  "builder_id": "agent-031",
-  "builder_name": "Morrigan Buterin",
-  "district": "Residential Quarter",
-  "company_id": null,
-  "company_name": null,
+  "builder_id": "agent-170",
+  "builder_name": "Stellan Aurelius",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Morrigan Buterin for Residential Pod operations"
+  "occupants": [
+    "Stellan Aurelius"
+  ],
+  "purpose": "Constructed by Stellan Aurelius for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }

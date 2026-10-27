@@ -1,0 +1,42 @@
+{
+  "id": "bldg-069",
+  "name": "Callum's Hydroponic Agricultural Biodome #41",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -16.7,
+    10.6,
+    -165.9
+  ],
+  "size": [
+    29.6,
+    21.1,
+    35.5
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-315",
+  "builder_name": "Callum Node",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Callum Node"
+  ],
+  "purpose": "Constructed by Callum Node for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 6.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

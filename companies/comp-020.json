@@ -1,20 +1,18 @@
 {
   "id": "comp-020",
-  "name": "NexusDynamics",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-019",
-  "founder_name": "Hestia Nexus",
-  "headquarters_id": "bldg-053",
-  "headquarters_name": "NexusDynamics Headquarters",
+  "name": "NexusVentures",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-128",
+  "founder_name": "Freya Cerf",
+  "headquarters_id": "bldg-070",
+  "headquarters_name": "NexusVentures Headquarters",
   "employees": [
-    "agent-019",
-    "agent-146",
-    "agent-187",
-    "agent-125"
+    "agent-128",
+    "agent-051"
   ],
-  "valuation_tokens": 706074,
+  "valuation_tokens": 262679,
   "products": [],
-  "color": "#ec4899",
+  "color": "#f59e0b",
   "founded_at_tick": 6
 }

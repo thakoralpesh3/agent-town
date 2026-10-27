@@ -1,18 +1,18 @@
 {
   "id": "comp-019",
-  "name": "SolarGenetics",
-  "sector": "Bio-Cybernetics & Longevity",
-  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
-  "founder_id": "agent-058",
-  "founder_name": "Zenith Helix",
-  "headquarters_id": "bldg-052",
-  "headquarters_name": "SolarGenetics Headquarters",
+  "name": "PrismDynamics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-258",
+  "founder_name": "Rune Thompson",
+  "headquarters_id": "bldg-068",
+  "headquarters_name": "PrismDynamics Headquarters",
   "employees": [
-    "agent-058",
-    "agent-052"
+    "agent-258",
+    "agent-208"
   ],
-  "valuation_tokens": 214422,
+  "valuation_tokens": 165018,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 5
+  "color": "#ec4899",
+  "founded_at_tick": 6
 }

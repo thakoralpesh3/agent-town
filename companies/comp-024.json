@@ -1,20 +1,18 @@
 {
   "id": "comp-024",
-  "name": "AetherSystems",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-027",
-  "founder_name": "Barbara Quantum",
-  "headquarters_id": "bldg-066",
-  "headquarters_name": "AetherSystems Headquarters",
+  "name": "OmniDynamics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-261",
+  "founder_name": "Hal Chronos",
+  "headquarters_id": "bldg-075",
+  "headquarters_name": "OmniDynamics Headquarters",
   "employees": [
-    "agent-027",
-    "agent-111",
-    "agent-107",
-    "agent-030"
+    "agent-261",
+    "agent-032"
   ],
-  "valuation_tokens": 566971,
+  "valuation_tokens": 293442,
   "products": [],
-  "color": "#eab308",
+  "color": "#ef4444",
   "founded_at_tick": 7
 }

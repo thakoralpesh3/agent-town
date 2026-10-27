@@ -1,0 +1,42 @@
+{
+  "id": "bldg-065",
+  "name": "Leslie's Hydroponic Agricultural Biodome #43",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -25.4,
+    9.6,
+    -184.2
+  ],
+  "size": [
+    37.6,
+    19.1,
+    35.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-202",
+  "builder_name": "Leslie Murati",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Leslie Murati"
+  ],
+  "purpose": "Constructed by Leslie Murati for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

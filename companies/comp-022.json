@@ -1,19 +1,20 @@
 {
   "id": "comp-022",
-  "name": "BioLabs",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-154",
-  "founder_name": "Bob Liskov",
-  "headquarters_id": "bldg-062",
-  "headquarters_name": "BioLabs Headquarters",
+  "name": "NexusEnergy",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-003",
+  "founder_name": "Linus Torvalds",
+  "headquarters_id": "bldg-072",
+  "headquarters_name": "NexusEnergy Headquarters",
   "employees": [
-    "agent-154",
-    "agent-029",
-    "agent-180"
+    "agent-003",
+    "agent-229",
+    "agent-204",
+    "agent-120"
   ],
-  "valuation_tokens": 496299,
+  "valuation_tokens": 583662,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#ef4444",
   "founded_at_tick": 7
 }

@@ -1,20 +1,19 @@
 {
   "id": "comp-021",
-  "name": "AeroFoundry",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-066",
-  "founder_name": "Theron Mason",
-  "headquarters_id": "bldg-055",
-  "headquarters_name": "AeroFoundry Headquarters",
+  "name": "CyberTechnologies",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-071",
+  "founder_name": "Valeria Thorne",
+  "headquarters_id": "bldg-071",
+  "headquarters_name": "CyberTechnologies Headquarters",
   "employees": [
-    "agent-066",
-    "agent-136",
-    "agent-141",
-    "agent-095"
+    "agent-071",
+    "agent-276",
+    "agent-138"
   ],
-  "valuation_tokens": 450224,
+  "valuation_tokens": 521645,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 6
+  "color": "#00f0ff",
+  "founded_at_tick": 7
 }

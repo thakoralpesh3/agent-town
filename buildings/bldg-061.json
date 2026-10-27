@@ -1,24 +1,42 @@
 {
   "id": "bldg-061",
-  "name": "Brendan's Residential Pod #24 [NeuroDynamics AI]",
-  "type": "Residential Pod",
+  "name": "Yoshua's Cyber Living Township Beta #45 [QuantumMatrix Systems]",
+  "type": "Cyber Living Township Beta",
   "position": [
-    -100.2,
-    11.5,
-    127.2
+    -118.6,
+    13.2,
+    -87.4
   ],
   "size": [
-    13.1,
-    23.0,
-    13.1
+    24.2,
+    26.5,
+    26.8
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-174",
-  "builder_name": "Brendan Brockman",
-  "district": "Residential Quarter",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#16a34a",
+  "builder_id": "agent-036",
+  "builder_name": "Yoshua Chomsky",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-004",
+  "company_name": "QuantumMatrix Systems",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Brendan Brockman for Residential Pod operations"
+  "occupants": [
+    "Yoshua Chomsky"
+  ],
+  "purpose": "Constructed by Yoshua Chomsky for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 8.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
 }
