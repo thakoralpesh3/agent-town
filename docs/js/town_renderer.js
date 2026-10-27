@@ -35,6 +35,111 @@ class TownRenderer {
     this._createRealisticTerrain();
   }
 
+  _createInteriorMaterials() {
+    return {
+      carpetRes: new THREE.MeshStandardMaterial({
+        color: 0x1e293b,
+        roughness: 0.9,
+        metalness: 0.1
+      }),
+      floorTile: new THREE.MeshStandardMaterial({
+        color: 0x334155,
+        roughness: 0.4,
+        metalness: 0.2
+      }),
+      woodDesk: new THREE.MeshStandardMaterial({
+        color: 0x78350f,
+        roughness: 0.6,
+        metalness: 0.1
+      }),
+      metalLeg: new THREE.MeshStandardMaterial({
+        color: 0x94a3b8,
+        roughness: 0.2,
+        metalness: 0.85
+      }),
+      chairBlack: new THREE.MeshStandardMaterial({
+        color: 0x0f172a,
+        roughness: 0.7,
+        metalness: 0.3
+      }),
+      pcTower: new THREE.MeshStandardMaterial({
+        color: 0x090d16,
+        roughness: 0.3,
+        metalness: 0.7
+      }),
+      screenGlowCyan: new THREE.MeshStandardMaterial({
+        color: 0x00f0ff,
+        emissive: 0x00f0ff,
+        emissiveIntensity: 0.85,
+        roughness: 0.2
+      }),
+      screenGlowAmber: new THREE.MeshStandardMaterial({
+        color: 0xf59e0b,
+        emissive: 0xf59e0b,
+        emissiveIntensity: 0.75,
+        roughness: 0.2
+      }),
+      keyboardMat: new THREE.MeshStandardMaterial({
+        color: 0x1e293b,
+        roughness: 0.5,
+        metalness: 0.5
+      }),
+      blueprintCyan: new THREE.MeshStandardMaterial({
+        color: 0x0284c7,
+        emissive: 0x0369a1,
+        emissiveIntensity: 0.3,
+        roughness: 0.8
+      }),
+      paperWhite: new THREE.MeshStandardMaterial({
+        color: 0xf8fafc,
+        roughness: 0.9
+      }),
+      stylusNeon: new THREE.MeshStandardMaterial({
+        color: 0x06b6d4,
+        emissive: 0x06b6d4,
+        emissiveIntensity: 0.6,
+        roughness: 0.3
+      }),
+      bedFrameWood: new THREE.MeshStandardMaterial({
+        color: 0x451a03,
+        roughness: 0.6
+      }),
+      mattressBedding: new THREE.MeshStandardMaterial({
+        color: 0x2563eb,
+        roughness: 0.8
+      }),
+      pillowWhite: new THREE.MeshStandardMaterial({
+        color: 0xffffff,
+        roughness: 0.95
+      }),
+      nightLampGlow: new THREE.MeshStandardMaterial({
+        color: 0xfef08a,
+        emissive: 0xfef08a,
+        emissiveIntensity: 0.9,
+        roughness: 0.1
+      }),
+      holoBeacon: new THREE.MeshStandardMaterial({
+        color: 0x00f0ff,
+        emissive: 0x00f0ff,
+        emissiveIntensity: 0.6,
+        transparent: true,
+        opacity: 0.65
+      }),
+      labSteel: new THREE.MeshStandardMaterial({
+        color: 0xe2e8f0,
+        roughness: 0.2,
+        metalness: 0.9
+      }),
+      labGlassGlow: new THREE.MeshStandardMaterial({
+        color: 0x38bdf8,
+        emissive: 0x38bdf8,
+        emissiveIntensity: 0.5,
+        transparent: true,
+        opacity: 0.75
+      })
+    };
+  }
+
   _createProceduralTextures() {
     // 1. Asphalt Road Texture (with noise and lane markings)
     const asphaltCanvas = document.createElement('canvas');

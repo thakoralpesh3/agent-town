@@ -1,18 +1,18 @@
 {
   "id": "comp-019",
-  "name": "PrismDynamics",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-258",
-  "founder_name": "Rune Thompson",
-  "headquarters_id": "bldg-068",
-  "headquarters_name": "PrismDynamics Headquarters",
+  "name": "SynapseSystems",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-121",
+  "founder_name": "Brian Quantum",
+  "headquarters_id": "bldg-054",
+  "headquarters_name": "SynapseSystems Headquarters",
   "employees": [
-    "agent-258",
-    "agent-208"
+    "agent-121",
+    "agent-049"
   ],
-  "valuation_tokens": 165018,
+  "valuation_tokens": 359346,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 6
+  "color": "#00f0ff",
+  "founded_at_tick": 4
 }

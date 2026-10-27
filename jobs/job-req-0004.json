@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0004",
+  "role": "Theoretical Physics Chair",
+  "category": "Education",
+  "specialization": "Unified Field Theories & Quantum Gravity",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Shannon Information Spire",
+  "salary_offered": 17800,
+  "created_at_tick": 4,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-336",
+  "filled_by_agent_name": "Nexus Li"
+}

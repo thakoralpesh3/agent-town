@@ -170,28 +170,35 @@ class TechTownApp {
       const res = await fetch(`data/town_state.json?t=${Date.now()}`);
       if (!res.ok) throw new Error("Could not load town_state.json");
       const state = await res.json();
-      this.currentState = state;
-
-      if (state.circadian_cycle && !this.manualNightOverride) {
-        const isNight = (state.circadian_cycle === "NIGHT");
-        if (this.isNightMode !== isNight) {
-          this.setNightMode(isNight);
-        }
-      }
-
-      this.townRenderer.renderRoads(state.roads);
-      this.townRenderer.renderBuildings(state.buildings);
-      this.townRenderer.renderVehicles(state.vehicles);
-      this.agentManager.updateAgents(state.agents);
-      this.ui.updateHUD(state);
-
-      if (!isPolling) {
-        console.log(`🏙️ Tech Town State loaded. Population: ${state.agents.length}, Tick: ${state.tick}`);
-      }
+      this.applyWorldState(state, isPolling);
     } catch (err) {
-      if (!isPolling) {
+      if (!this.currentState && window.FALLBACK_TOWN_STATE) {
+        console.info("Using embedded world state fallback (CORS / local file mode active).");
+        this.applyWorldState(window.FALLBACK_TOWN_STATE, isPolling);
+      } else if (!isPolling) {
         console.warn("Could not load town_state.json automatically, using fallback.", err);
       }
+    }
+  }
+
+  applyWorldState(state, isPolling = false) {
+    this.currentState = state;
+
+    if (state.circadian_cycle && !this.manualNightOverride) {
+      const isNight = (state.circadian_cycle === "NIGHT");
+      if (this.isNightMode !== isNight) {
+        this.setNightMode(isNight);
+      }
+    }
+
+    this.townRenderer.renderRoads(state.roads);
+    this.townRenderer.renderBuildings(state.buildings);
+    this.townRenderer.renderVehicles(state.vehicles);
+    this.agentManager.updateAgents(state.agents);
+    this.ui.updateHUD(state);
+
+    if (!isPolling) {
+      console.log(`🏙️ Tech Town State loaded. Population: ${state.agents.length}, Tick: ${state.tick}`);
     }
   }
 

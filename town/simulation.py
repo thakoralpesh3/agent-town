@@ -49,6 +49,9 @@ class TownEngine:
             json.dump(data, f, indent=2)
         with open(self.docs_data_file, "w") as f:
             json.dump(data, f, indent=2)
+        fallback_file = os.path.join(os.path.dirname(self.docs_data_file), "fallback_data.js")
+        with open(fallback_file, "w") as f:
+            f.write("window.FALLBACK_TOWN_STATE = " + json.dumps(data) + ";\n")
 
     def log_event(self, message: str, event_type: str = "activity"):
         if not self.state:

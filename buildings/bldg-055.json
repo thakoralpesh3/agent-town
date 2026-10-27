@@ -1,42 +1,46 @@
 {
   "id": "bldg-055",
-  "name": "Kira's Tower of Turing (City Mainframe) #24",
-  "type": "Tower of Turing (City Mainframe)",
+  "name": "Juno's Hypatia Grand University of Sciences #10",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -14.1,
-    34.2,
-    124.3
+    125.8,
+    25.5,
+    98.3
   ],
   "size": [
-    25.2,
-    68.5,
-    28.2
+    37.2,
+    50.9,
+    38.2
   ],
-  "color": "#00f0ff",
-  "builder_id": "agent-109",
-  "builder_name": "Kira Blaze",
-  "district": "Silicon Central Metropolis",
+  "color": "#a855f7",
+  "builder_id": "agent-187",
+  "builder_name": "Juno Johnson",
+  "district": "Quantum Science & University Campus",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Kira Blaze"
+    "Juno Johnson"
   ],
-  "purpose": "Constructed by Kira Blaze for Tower of Turing (City Mainframe) operations",
-  "floors": 16,
+  "purpose": "Constructed by Juno Johnson for Hypatia Grand University of Sciences operations",
+  "floors": 9,
   "capacity": 50,
   "departments": [
-    "Kernel Architecture",
-    "Low-Latency Networks",
-    "System Security Division"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Quantum Server Core",
-    "High-Bandwidth Laser Uplink",
-    "Penthouse War Room"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 8.5,
+  "power_consumption_mw": 7.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

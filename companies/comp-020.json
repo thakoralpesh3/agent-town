@@ -1,18 +1,19 @@
 {
   "id": "comp-020",
-  "name": "NexusVentures",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-128",
-  "founder_name": "Freya Cerf",
-  "headquarters_id": "bldg-070",
-  "headquarters_name": "NexusVentures Headquarters",
+  "name": "TerraLabs",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-208",
+  "founder_name": "Andrej Spark",
+  "headquarters_id": "bldg-056",
+  "headquarters_name": "TerraLabs Headquarters",
   "employees": [
-    "agent-128",
-    "agent-051"
+    "agent-208",
+    "agent-233",
+    "agent-029"
   ],
-  "valuation_tokens": 262679,
+  "valuation_tokens": 318953,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 6
+  "color": "#ef4444",
+  "founded_at_tick": 4
 }

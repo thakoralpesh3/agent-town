@@ -1,20 +1,20 @@
 {
   "id": "comp-022",
-  "name": "NexusEnergy",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-003",
-  "founder_name": "Linus Torvalds",
-  "headquarters_id": "bldg-072",
-  "headquarters_name": "NexusEnergy Headquarters",
+  "name": "VectorLabs",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-128",
+  "founder_name": "Alexander Murati",
+  "headquarters_id": "bldg-060",
+  "headquarters_name": "VectorLabs Headquarters",
   "employees": [
-    "agent-003",
-    "agent-229",
-    "agent-204",
-    "agent-120"
+    "agent-128",
+    "agent-288",
+    "agent-124",
+    "agent-314"
   ],
-  "valuation_tokens": 583662,
+  "valuation_tokens": 562589,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 7
+  "color": "#eab308",
+  "founded_at_tick": 4
 }

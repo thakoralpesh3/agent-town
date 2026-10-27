@@ -1,19 +1,18 @@
 {
   "id": "comp-021",
-  "name": "CyberTechnologies",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-071",
-  "founder_name": "Valeria Thorne",
-  "headquarters_id": "bldg-071",
-  "headquarters_name": "CyberTechnologies Headquarters",
+  "name": "AeroDynamics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-156",
+  "founder_name": "Ilya Hassabis",
+  "headquarters_id": "bldg-057",
+  "headquarters_name": "AeroDynamics Headquarters",
   "employees": [
-    "agent-071",
-    "agent-276",
-    "agent-138"
+    "agent-156",
+    "agent-052"
   ],
-  "valuation_tokens": 521645,
+  "valuation_tokens": 242925,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 7
+  "color": "#8b5cf6",
+  "founded_at_tick": 4
 }

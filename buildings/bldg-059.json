@@ -1,42 +1,45 @@
 {
   "id": "bldg-059",
-  "name": "Athena's Autonomous Vehicle Mega-Plant #32",
-  "type": "Autonomous Vehicle Mega-Plant",
+  "name": "Nexus's The Agora Civic Forum #77",
+  "type": "The Agora Civic Forum",
   "position": [
-    166.0,
-    15.8,
-    -69.2
+    -58.9,
+    8.6,
+    -87.1
   ],
   "size": [
-    33.1,
-    31.6,
-    35.7
+    27.6,
+    17.2,
+    31.4
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-083",
-  "builder_name": "Athena Apex",
-  "district": "Industrial Harbor & Transit Hub",
+  "color": "#eab308",
+  "builder_id": "agent-038",
+  "builder_name": "Nexus Torvalds",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Athena Apex"
+    "Nexus Torvalds"
   ],
-  "purpose": "Constructed by Athena Apex for Autonomous Vehicle Mega-Plant operations",
-  "floors": 5,
-  "capacity": 40,
+  "purpose": "Constructed by Nexus Torvalds for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
   "departments": [
-    "Robotic Chassis Stamping",
-    "Avionics Calibration",
-    "Induction Drive Assembly"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Automated Gantry Cranes",
-    "High-Speed Induction Dyno Track",
-    "Paint Spray Booths"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 7.4,
+  "power_consumption_mw": 6.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }
