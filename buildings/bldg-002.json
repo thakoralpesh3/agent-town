@@ -1,0 +1,42 @@
+{
+  "id": "bldg-002",
+  "name": "Supreme Court of Justice",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -32.0,
+    15.0,
+    0.0
+  ],
+  "size": [
+    28.0,
+    30.0,
+    28.0
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-002",
+  "builder_name": "Aristotle Veritas",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Constitutional Jurisprudence & Smart Contract Arbitration",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [
+    "smart_arbitration.py"
+  ],
+  "security_level": "Level 4 - Controlled High Court",
+  "maintenance_status": "Optimal"
+}

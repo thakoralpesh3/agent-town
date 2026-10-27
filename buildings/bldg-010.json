@@ -1,0 +1,67 @@
+{
+  "id": "bldg-010",
+  "name": "Hypatia Grand University of Sciences",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    120.0,
+    19.0,
+    40.0
+  ],
+  "size": [
+    34.0,
+    38.0,
+    34.0
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-010",
+  "builder_name": "Hypatia Alexandria",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Donald Knuth",
+    "Hypatia Alexandria",
+    "Marie Curie",
+    "Edsger Dijkstra",
+    "Carl Sagan",
+    "Geoffrey Sterling",
+    "Morrigan Hinton",
+    "Athena Apex",
+    "Vint Hassabis",
+    "Axel Pike",
+    "Sol Odersky",
+    "Gavin Jackson",
+    "Nexus Nakamoto",
+    "Steve Praetor",
+    "Felix Berners-Lee",
+    "Brian Karpathy",
+    "Corin Glitch",
+    "Vector Archon",
+    "Margaret Shadow",
+    "Rune Lovelace",
+    "Dennis Vex",
+    "Zenith Shannon",
+    "Dennis Sterling"
+  ],
+  "purpose": "Higher Academic Pedagogy, Theoretical Physics & Scientific Discovery",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [
+    "epistemic_logic.py"
+  ],
+  "security_level": "Level 3 - Academic Access",
+  "maintenance_status": "Optimal"
+}

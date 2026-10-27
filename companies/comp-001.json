@@ -1,22 +1,23 @@
 {
   "id": "comp-001",
-  "name": "NeuroDynamics AI",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Pioneer artificial general intelligence and distributed neural routing across GitHub.",
-  "founder_id": "agent-002",
-  "founder_name": "Alan Turing",
-  "headquarters_id": "bldg-004",
-  "headquarters_name": "Deep Neural Research Lab",
+  "name": "Sovereign Chancellery Core",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Safeguard constitutional integrity, citizen rights, and national sovereignty inside GitHub.",
+  "founder_id": "agent-001",
+  "founder_name": "Ada Lovelace",
+  "headquarters_id": "bldg-001",
+  "headquarters_name": "Sovereign Capitol & Parliament",
   "employees": [
+    "agent-001",
     "agent-002",
-    "agent-004",
-    "agent-008",
-    "agent-018"
+    "agent-003",
+    "agent-005"
   ],
-  "valuation_tokens": 500000,
+  "valuation_tokens": 1500000,
   "products": [
-    "neural_router.py"
+    "national_constitution.sol",
+    "sovereign_governance.py"
   ],
-  "color": "#ec4899",
+  "color": "#f59e0b",
   "founded_at_tick": 0
 }

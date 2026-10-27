@@ -1,20 +1,18 @@
 {
   "id": "comp-009",
-  "name": "SolarSynthetics",
-  "sector": "Autonomous Mobility & Drones",
-  "mission": "Revolutionizing Autonomous Mobility & Drones within GitHub Tech Town.",
-  "founder_id": "agent-006",
-  "founder_name": "Dennis Ritchie",
-  "headquarters_id": "bldg-031",
-  "headquarters_name": "SolarSynthetics Headquarters",
+  "name": "NeuroEnergy",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-076",
+  "founder_name": "Geoffrey Hamilton",
+  "headquarters_id": "bldg-029",
+  "headquarters_name": "NeuroEnergy Headquarters",
   "employees": [
-    "agent-006",
-    "agent-204",
-    "agent-143",
-    "agent-082"
+    "agent-076",
+    "agent-114"
   ],
-  "valuation_tokens": 162707,
+  "valuation_tokens": 431655,
   "products": [],
   "color": "#f59e0b",
-  "founded_at_tick": 4
+  "founded_at_tick": 1
 }

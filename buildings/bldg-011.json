@@ -1,0 +1,42 @@
+{
+  "id": "bldg-011",
+  "name": "Grand Astronomical Observatory",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    148.0,
+    16.0,
+    65.0
+  ],
+  "size": [
+    24.0,
+    32.0,
+    24.0
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-011",
+  "builder_name": "Carl Sagan",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Deep Space Optics, Gravitational Waves & Orbital Tracking",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [
+    "warp_trajectory.py"
+  ],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal"
+}

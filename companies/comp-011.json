@@ -1,18 +1,18 @@
 {
   "id": "comp-011",
-  "name": "HyperSynthetics",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-101",
-  "founder_name": "Kira Jackson",
-  "headquarters_id": "bldg-033",
-  "headquarters_name": "HyperSynthetics Headquarters",
+  "name": "HeliosDynamics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-303",
+  "founder_name": "Steve Flux",
+  "headquarters_id": "bldg-032",
+  "headquarters_name": "HeliosDynamics Headquarters",
   "employees": [
-    "agent-101",
-    "agent-188"
+    "agent-303",
+    "agent-047"
   ],
-  "valuation_tokens": 738543,
+  "valuation_tokens": 534265,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 4
+  "color": "#8b5cf6",
+  "founded_at_tick": 1
 }

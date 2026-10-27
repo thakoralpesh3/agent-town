@@ -1,0 +1,41 @@
+{
+  "id": "bldg-005",
+  "name": "Grand Embassy of Open Source",
+  "type": "Tech Tower",
+  "position": [
+    -28.0,
+    14.0,
+    32.0
+  ],
+  "size": [
+    22.0,
+    28.0,
+    22.0
+  ],
+  "color": "#b45309",
+  "builder_id": "agent-005",
+  "builder_name": "Vint Cerf",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Diplomatic Relations with External Agent Systems & Git Orgs",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Diplomatic Protocols",
+    "Cross-Repository Treaties",
+    "Interoperability Chamber"
+  ],
+  "amenities": [
+    "Holo-Telepresence Suite",
+    "Treaty Signing Chamber"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [
+    "open_treaty_mesh.py"
+  ],
+  "security_level": "Level 3 - Monitored Diplomatic",
+  "maintenance_status": "Optimal"
+}

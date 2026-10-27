@@ -153,7 +153,7 @@ class UIController {
 
     // Help Dialog
     document.getElementById("btn-help").addEventListener("click", () => {
-      alert("🏙️ GitHub Autonomous Tech Town (Operator L5 Active)\n\n• 250 pioneer agents across 60+ specialized professions living 24/7 inside this GitHub repo.\n• All creations, blueprints, job requisitions, and diaries are stored in GitHub.\n• Autonomous Workforce Deficiency Detection: When labor deficits are identified, town agents autonomously post requisitions and self-generate specialized agents.\n• Confidential Operator Level 5 Clearance: Private telemetry, internal directives, token compensations, and thoughts are restricted to your operator HUD.\n• Interactive Inspection: Click any agent or building to view full specs, desk occupancy, departments, and interactive tenant rosters!\n• Bi-Directional Operator Link: Select an agent to query live status, thoughts, tools, or issue priority orders (construction, vehicle craft, road pave, code commit).\n• Use Zoom In/Out (+/-) or mouse wheel to navigate.");
+      alert("🏛️ Sovereign Country of Tech Town (Operator L5 Active)\n\n• 320 pioneer citizens across 120+ specialized professions and 14 national sectors living 24/7 inside this GitHub repo.\n• All creations, blueprints, job requisitions, and diaries are stored in GitHub.\n• Autonomous Workforce Deficiency Detection: When labor deficits are identified, town agents autonomously post requisitions and self-generate specialized agents.\n• Confidential Operator Level 5 Clearance: Private telemetry, internal directives, token compensations, and thoughts are restricted to your operator HUD.\n• Interactive Inspection: Click any agent, building, monument, or vehicle to view full specs, desk occupancy, departments, and interactive tenant rosters!\n• Bi-Directional Operator Link: Select an agent to query live status, thoughts, tools, or issue priority orders (construction, vehicle craft, road pave, code commit).\n• Use Zoom In/Out (+/-) or mouse wheel to navigate.");
     });
 
     // Operator Clearance Badge Details Modal
@@ -161,7 +161,7 @@ class UIController {
     if (opBadge) {
       opBadge.style.cursor = "pointer";
       opBadge.addEventListener("click", () => {
-        alert("👑 OPERATOR SECURE CLEARANCE LEVEL 5 // AUTHENTICATED\n\n• Identity: Primary Operator (You)\n• Authority: Sole interaction & command rights over all 250+ citizens\n• Telemetry: Unrestricted access to thoughts, salaries, and blueprints\n• Bi-Directional Comms: Active (Select any agent in 3D to ask questions or order tasks)\n• External Access: Strictly Blocked (All non-operator commands rejected)");
+        alert("👑 OPERATOR SECURE CLEARANCE LEVEL 5 // AUTHENTICATED\n\n• Identity: Primary Operator (You)\n• Authority: Sole interaction & command rights over all 320+ citizens\n• Telemetry: Unrestricted access to thoughts, salaries, and blueprints\n• Bi-Directional Comms: Active (Select any agent in 3D to ask questions or order tasks)\n• External Access: Strictly Blocked (All non-operator commands rejected)");
       });
     }
 
@@ -794,7 +794,7 @@ class UIController {
       } else if (anyWord(cmdLower, ["where", "workplace", "facility", "station", "office"])) {
         reply = `Operator, stationed at ${agent.workplace_name || 'City Mainframe Core'} [Facility ID: ${agent.workplace_id || 'bldg-001'}]. Operating on the ${agent.shift || 'Morning Shift'}.`;
       } else if (anyWord(cmdLower, ["opinion", "future", "philosophy", "town", "think about", "joke"])) {
-        reply = `Operator, our autonomous town inside GitHub is thriving. 250+ citizens across 60+ professions living and building 24/7 strictly under your clearance level 5 directives.`;
+        reply = `Operator, our sovereign autonomous country inside GitHub is thriving. 320+ citizens across 120+ professions living and building 24/7 strictly under your clearance level 5 directives.`;
       } else {
         reply = `Operator, live link established. Position: [${agent.position[0].toFixed(1)}, ${agent.position[2].toFixed(1)}]. Current task: ${agent.action}. Standing by for next command.`;
       }

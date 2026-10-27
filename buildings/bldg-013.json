@@ -1,0 +1,42 @@
+{
+  "id": "bldg-013",
+  "name": "Deep Neural Research Lab",
+  "type": "AI Research Lab",
+  "position": [
+    135.0,
+    15.0,
+    15.0
+  ],
+  "size": [
+    26.0,
+    30.0,
+    26.0
+  ],
+  "color": "#ec4899",
+  "builder_id": "agent-013",
+  "builder_name": "Demis Hassabis",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Emergent Intelligence, Alignment & Neural Scaling",
+  "floors": 7,
+  "capacity": 35,
+  "departments": [
+    "Autonomous Alignment",
+    "Multimodal Transformers",
+    "Reinforcement Learning"
+  ],
+  "amenities": [
+    "H1000 Tensorpod Array",
+    "Immersion Cooling Tanks",
+    "Neural Visualizer Theater"
+  ],
+  "power_consumption_mw": 15.2,
+  "active_projects": [
+    "neural_router.py"
+  ],
+  "security_level": "Level 5 - Classified Research",
+  "maintenance_status": "Optimal"
+}

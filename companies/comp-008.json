@@ -1,18 +1,21 @@
 {
   "id": "comp-008",
-  "name": "BioTechnologies",
-  "sector": "Bio-Cybernetics & Longevity",
-  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
-  "founder_id": "agent-244",
-  "founder_name": "Cassian Dahl",
-  "headquarters_id": "bldg-023",
-  "headquarters_name": "BioTechnologies Headquarters",
+  "name": "TerraFlora Synthetics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Maintain ecological balance, aeroponics food security, and bioluminescent public reserves.",
+  "founder_id": "agent-025",
+  "founder_name": "Norman Borlaug",
+  "headquarters_id": "bldg-025",
+  "headquarters_name": "Hydroponic Agricultural Biodome",
   "employees": [
-    "agent-244",
-    "agent-210"
+    "agent-025",
+    "agent-026",
+    "agent-027"
   ],
-  "valuation_tokens": 728928,
-  "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 1
+  "valuation_tokens": 780000,
+  "products": [
+    "urban_botanist.py"
+  ],
+  "color": "#10b981",
+  "founded_at_tick": 0
 }

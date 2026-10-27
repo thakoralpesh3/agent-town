@@ -1,24 +1,41 @@
 {
   "id": "bldg-016",
-  "name": "Chronos's Residential Pod #48",
-  "type": "Residential Pod",
+  "name": "Longevity & Genetic Engineering Institute",
+  "type": "Cybernetic Clinic",
   "position": [
-    -161.5,
-    9.8,
-    84.8
+    -95.0,
+    14.0,
+    25.0
   ],
   "size": [
-    13.7,
-    19.6,
-    12.7
+    24.0,
+    28.0,
+    24.0
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-078",
-  "builder_name": "Chronos Tinkerer",
-  "district": "Residential Quarter",
+  "color": "#dc2626",
+  "builder_id": "agent-016",
+  "builder_name": "Rosalind Franklin",
+  "district": "Health Citadel & Medical Complex",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Chronos Tinkerer for Residential Pod operations"
+  "purpose": "CRISPR Gene Therapies, Telomere Restoration & Bio-Synthetic Augmentation",
+  "floors": 7,
+  "capacity": 32,
+  "departments": [
+    "Gene Therapy Lab",
+    "Neural Interface Lab",
+    "Synthetic Biology Core"
+  ],
+  "amenities": [
+    "Gene Sequencer Cluster",
+    "Prosthetic Calibration Pods"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [
+    "telomere_synth.py"
+  ],
+  "security_level": "Level 4 - Restrict BioLab",
+  "maintenance_status": "Optimal"
 }

@@ -1,0 +1,41 @@
+{
+  "id": "bldg-012",
+  "name": "Quantum Logic Foundry",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    95.0,
+    14.0,
+    55.0
+  ],
+  "size": [
+    26.0,
+    28.0,
+    26.0
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-012",
+  "builder_name": "Richard Feynman",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": "QuantumMatrix Systems",
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Topological Superconducting Qubits & Error Correction Circuits",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 9.4,
+  "active_projects": [
+    "quantum_hasher.py"
+  ],
+  "security_level": "Level 5 - Classified Research",
+  "maintenance_status": "Optimal"
+}

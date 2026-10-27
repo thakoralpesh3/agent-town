@@ -1,0 +1,39 @@
+{
+  "id": "bldg-015",
+  "name": "St. Ada Emergency Trauma Center",
+  "type": "Cybernetic Clinic",
+  "position": [
+    -145.0,
+    13.0,
+    65.0
+  ],
+  "size": [
+    22.0,
+    26.0,
+    22.0
+  ],
+  "color": "#f87171",
+  "builder_id": "agent-015",
+  "builder_name": "Florence Nightingale",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "24/7 Rapid Emergency Response & Intensive Trauma Stabilization",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Rapid Field Triage",
+    "Decontamination Pods",
+    "ICU Telemetry"
+  ],
+  "amenities": [
+    "Automated Stretcher Gantry",
+    "Defibrillator Pods"
+  ],
+  "power_consumption_mw": 6.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Emergency Access",
+  "maintenance_status": "Optimal"
+}

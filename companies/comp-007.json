@@ -1,20 +1,19 @@
 {
   "id": "comp-007",
-  "name": "VectorTechnologies",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-198",
-  "founder_name": "Steve Vex",
-  "headquarters_id": "bldg-022",
-  "headquarters_name": "VectorTechnologies Headquarters",
+  "name": "SolarFusion Grid",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Operate the National Tokamak core and route clean fusion power across superconducting arteries.",
+  "founder_id": "agent-024",
+  "founder_name": "Dorothy Vaughan",
+  "headquarters_id": "bldg-024",
+  "headquarters_name": "Tokamak Fusion Reactor Station",
   "employees": [
-    "agent-198",
-    "agent-176",
-    "agent-179",
-    "agent-235"
+    "agent-024"
   ],
-  "valuation_tokens": 462995,
-  "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 1
+  "valuation_tokens": 1100000,
+  "products": [
+    "solar_optimizer.py"
+  ],
+  "color": "#be123c",
+  "founded_at_tick": 0
 }

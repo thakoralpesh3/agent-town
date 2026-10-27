@@ -1,21 +1,22 @@
 {
   "id": "comp-002",
-  "name": "AeroCyber Robotics",
-  "sector": "Autonomous Mobility & Drones",
-  "mission": "Fabricate next-gen autonomous hovercars and transit networks for the town.",
-  "founder_id": "agent-011",
-  "founder_name": "Katherine Johnson",
-  "headquarters_id": "bldg-013",
-  "headquarters_name": "Autonomous Cybercar Assembly Plant",
+  "name": "OpenKernel Federation",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Engineer deterministic OS microkernels, zero-latency pub/sub buses, and microservices.",
+  "founder_id": "agent-006",
+  "founder_name": "Alan Turing",
+  "headquarters_id": "bldg-006",
+  "headquarters_name": "Tower of Turing (City Mainframe)",
   "employees": [
-    "agent-011",
-    "agent-017"
+    "agent-006",
+    "agent-008",
+    "agent-009"
   ],
-  "valuation_tokens": 350000,
+  "valuation_tokens": 1200000,
   "products": [
-    "traffic_mesh.py",
-    "Cybercar Alpha-1"
+    "agent_orchestrator.py",
+    "decentralized_storage.py"
   ],
-  "color": "#f59e0b",
+  "color": "#00f0ff",
   "founded_at_tick": 0
 }

@@ -1,0 +1,41 @@
+{
+  "id": "bldg-008",
+  "name": "Cloud Matrix Sovereign Exchange",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -32.0,
+    26.0,
+    130.0
+  ],
+  "size": [
+    22.0,
+    52.0,
+    22.0
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-008",
+  "builder_name": "Linus Torvalds",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "GitOps Cloud Infrastructure, Container Orchestration & DHT",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 12.4,
+  "active_projects": [
+    "matrix_scheduler.py"
+  ],
+  "security_level": "Level 4 - Controlled",
+  "maintenance_status": "Optimal"
+}

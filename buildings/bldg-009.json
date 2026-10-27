@@ -1,0 +1,41 @@
+{
+  "id": "bldg-009",
+  "name": "Von Neumann Computing Tower",
+  "type": "Tech Tower",
+  "position": [
+    0.0,
+    24.0,
+    155.0
+  ],
+  "size": [
+    20.0,
+    48.0,
+    20.0
+  ],
+  "color": "#0ea5e9",
+  "builder_id": "agent-009",
+  "builder_name": "Grace Hopper",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Compiler Optimization, Instruction Pipelines & High-Level Languages",
+  "floors": 12,
+  "capacity": 38,
+  "departments": [
+    "Compiler Optimization",
+    "ISA Micro-Architecture",
+    "Memory Hierarchy"
+  ],
+  "amenities": [
+    "Cryogenic Register Caches",
+    "Hardware Emulation Suite"
+  ],
+  "power_consumption_mw": 8.9,
+  "active_projects": [
+    "compiler_opt.py"
+  ],
+  "security_level": "Level 4 - Controlled",
+  "maintenance_status": "Optimal"
+}

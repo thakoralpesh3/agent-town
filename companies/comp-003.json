@@ -1,20 +1,19 @@
 {
   "id": "comp-003",
-  "name": "QuantumMatrix Corp",
-  "sector": "Quantum Computing & Encryption",
-  "mission": "Engineer fault-tolerant quantum algorithms and topological computing nodes.",
-  "founder_id": "agent-005",
-  "founder_name": "Margaret Hamilton",
-  "headquarters_id": "bldg-005",
-  "headquarters_name": "Quantum Logic Foundry",
+  "name": "NeuroDynamics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Pioneer artificial general intelligence, emergent reasoning, and constitutional alignment.",
+  "founder_id": "agent-013",
+  "founder_name": "Demis Hassabis",
+  "headquarters_id": "bldg-013",
+  "headquarters_name": "Deep Neural Research Lab",
   "employees": [
-    "agent-005",
-    "agent-015"
+    "agent-013"
   ],
-  "valuation_tokens": 420000,
+  "valuation_tokens": 1350000,
   "products": [
-    "quantum_hasher.py"
+    "neural_router.py"
   ],
-  "color": "#8b5cf6",
+  "color": "#ec4899",
   "founded_at_tick": 0
 }

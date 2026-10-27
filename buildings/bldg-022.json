@@ -1,42 +1,64 @@
 {
   "id": "bldg-022",
-  "name": "Rob's Academy of Sciences #98 [PrismDynamics]",
-  "type": "Academy of Sciences",
+  "name": "Hyperloop Central Terminus",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    84.6,
-    21.9,
-    98.1
+    140.0,
+    11.0,
+    -90.0
   ],
   "size": [
-    32.4,
-    43.9,
-    28.7
+    34.0,
+    22.0,
+    34.0
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-134",
-  "builder_name": "Rob Sutskever",
-  "district": "Innovation Matrix",
-  "company_id": "comp-007",
-  "company_name": "PrismDynamics",
+  "color": "#f97316",
+  "builder_id": "agent-022",
+  "builder_name": "Isambard Brunel",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Rob Sutskever"
+    "Bob von Neumann",
+    "Edsger Node",
+    "Steve Ritchie",
+    "Corin Wozniak",
+    "Theron Valerius",
+    "Liora Apex",
+    "Dante Liskov",
+    "Rowan Cerf",
+    "Sundar Bengio",
+    "Kaelen Nadella",
+    "Leslie Quantum",
+    "Chronos Vex",
+    "Hal LeCun",
+    "Kira Hassabis",
+    "Theron Orbit",
+    "Vesper Synapse",
+    "Donald Sovereign",
+    "Callum Node",
+    "Demis Hickey",
+    "Axel Bengio",
+    "Cassian LeCun"
   ],
-  "purpose": "Constructed by Rob Sutskever for Academy of Sciences operations",
-  "floors": 8,
-  "capacity": 35,
+  "purpose": "Sub-Sonic Vacuum Tube Rail & Inter-District Passenger Switching",
+  "floors": 4,
+  "capacity": 45,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic Guild",
-    "Grand Lecture Amphitheater"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Holographic Planetarium",
-    "Ancient Algorithm Archive",
-    "Apprentice Studios"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 8.1,
-  "active_projects": [],
-  "security_level": "Level 3 - Monitored",
+  "power_consumption_mw": 11.0,
+  "active_projects": [
+    "hyperloop_dispatch.py"
+  ],
+  "security_level": "Level 3 - Transit Hub",
   "maintenance_status": "Optimal"
 }

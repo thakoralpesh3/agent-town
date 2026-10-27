@@ -1,14 +1,14 @@
 {
   "id": "job-req-0001",
-  "role": "Solid-State Battery Chemist",
-  "category": "Energy",
-  "specialization": "Fast-Charging Non-Flammable Cells",
+  "role": "DeFi Liquidity Overseer",
+  "category": "Treasury",
+  "specialization": "Dynamic Capital Reserves & Slippage Balancing",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Cyber Living Pod Alpha",
-  "salary_offered": 15100,
-  "created_at_tick": 14,
+  "requesting_building": "Supreme Court of Justice",
+  "salary_offered": 16800,
+  "created_at_tick": 1,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-388",
-  "filled_by_agent_name": "Atlas Hamilton"
+  "filled_by_agent_id": "agent-324",
+  "filled_by_agent_name": "Martin Quantum"
 }

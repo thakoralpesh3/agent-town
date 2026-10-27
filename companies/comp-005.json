@@ -1,21 +1,21 @@
 {
   "id": "comp-005",
-  "name": "OpenKernel Core",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Develop open source OS kernel, high-throughput pub/sub buses, and microservices.",
-  "founder_id": "agent-003",
-  "founder_name": "Linus Torvalds",
-  "headquarters_id": "bldg-001",
-  "headquarters_name": "Tower of Turing (City Mainframe)",
+  "name": "BioLongevity Solutions",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Provide comprehensive health regeneration, nanomedical surgery, and longevity therapies.",
+  "founder_id": "agent-014",
+  "founder_name": "Hippocrates Cyber",
+  "headquarters_id": "bldg-014",
+  "headquarters_name": "National Hospital & Nanomedical Citadel",
   "employees": [
-    "agent-003",
-    "agent-001",
-    "agent-013"
+    "agent-014",
+    "agent-015",
+    "agent-016"
   ],
-  "valuation_tokens": 600000,
+  "valuation_tokens": 890000,
   "products": [
-    "agent_orchestrator.py"
+    "cellular_repair.py"
   ],
-  "color": "#00f0ff",
+  "color": "#ef4444",
   "founded_at_tick": 0
 }

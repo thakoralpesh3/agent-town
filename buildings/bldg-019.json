@@ -1,42 +1,61 @@
 {
   "id": "bldg-019",
-  "name": "Satya's Quantum Data Center #19",
-  "type": "Quantum Data Center",
+  "name": "The Agora Civic Forum",
+  "type": "The Agora Civic Forum",
   "position": [
-    51.7,
-    10.9,
-    -136.2
+    -75.0,
+    10.0,
+    -75.0
   ],
   "size": [
-    24.7,
-    21.7,
-    23.9
+    28.0,
+    20.0,
+    28.0
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-217",
-  "builder_name": "Satya Foundry",
-  "district": "Industrial Sector",
+  "color": "#eab308",
+  "builder_id": "agent-019",
+  "builder_name": "Ken Thompson",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Satya Foundry"
+    "Zenith Thorne",
+    "Rich Archon",
+    "Dennis Valerius",
+    "Ken LeCun",
+    "Kira Sutskever",
+    "Seraph Liskov",
+    "Nick Node",
+    "Noam Szabo",
+    "Juno Odersky",
+    "Satya Knuth",
+    "Katherine Andreessen",
+    "Vint Odersky",
+    "Edsger Circuit",
+    "Brian Finney",
+    "Satya von Neumann",
+    "Vint Eich",
+    "John Blaze",
+    "Nexus Torvalds"
   ],
-  "purpose": "Constructed by Satya Foundry for Quantum Data Center operations",
+  "purpose": "Public Assembly, Civic Townhalls & Collaborative Hackathons",
   "floors": 4,
-  "capacity": 15,
+  "capacity": 50,
   "departments": [
-    "Cryogenic Qubit Floor",
-    "Optical Interconnect Array",
-    "Security Guard"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Liquid Helium Loop",
-    "Zero-EMF Shielding",
-    "Automated Robot Fireguards"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 5.2,
-  "active_projects": [],
-  "security_level": "Level 3 - Monitored",
+  "power_consumption_mw": 4.2,
+  "active_projects": [
+    "civic_voting.py"
+  ],
+  "security_level": "Level 1 - Public Access",
   "maintenance_status": "Optimal"
 }

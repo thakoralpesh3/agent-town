@@ -1,19 +1,19 @@
 {
   "id": "comp-004",
-  "name": "SolarFusion Prime",
-  "sector": "Clean Fusion & Solar Grid",
-  "mission": "Harvest clean energy from fusion reactors and distribute via inductive highways.",
-  "founder_id": "agent-016",
-  "founder_name": "Dorothy Vaughan",
-  "headquarters_id": "bldg-014",
-  "headquarters_name": "Tokamak Fusion Core Array",
+  "name": "QuantumMatrix Systems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Design topological error-corrected quantum gates and zero-knowledge commit audits.",
+  "founder_id": "agent-012",
+  "founder_name": "Richard Feynman",
+  "headquarters_id": "bldg-012",
+  "headquarters_name": "Quantum Logic Foundry",
   "employees": [
-    "agent-016"
+    "agent-012"
   ],
-  "valuation_tokens": 300000,
+  "valuation_tokens": 980000,
   "products": [
-    "solar_optimizer.py"
+    "quantum_hasher.py"
   ],
-  "color": "#e11d48",
+  "color": "#8b5cf6",
   "founded_at_tick": 0
 }

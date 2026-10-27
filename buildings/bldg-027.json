@@ -1,42 +1,61 @@
 {
   "id": "bldg-027",
-  "name": "Orion's Tech Tower #21",
-  "type": "Tech Tower",
+  "name": "National Botanical Reserve Conservatory",
+  "type": "Holo Park",
   "position": [
-    -26.5,
-    26.3,
-    -4.7
+    0.0,
+    3.0,
+    -180.0
   ],
   "size": [
-    16.2,
-    52.6,
-    17.8
+    34.0,
+    6.0,
+    34.0
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-075",
-  "builder_name": "Orion Dahl",
-  "district": "Silicon Central",
+  "color": "#059669",
+  "builder_id": "agent-027",
+  "builder_name": "Gregor Mendel",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Orion Dahl"
+    "Rachel Carson",
+    "Gregor Mendel",
+    "Leslie Huang",
+    "Katherine Bengio",
+    "Jensen Perlman",
+    "Cyrus Zenith",
+    "Greg von Neumann",
+    "Leander Frost",
+    "Zane Knuth",
+    "Claude Zenith",
+    "Maeve Tinkerer",
+    "Ken Prism",
+    "Zane Dahl",
+    "Morrigan Jackson",
+    "Marc Sovereign",
+    "Fei-Fei Scribe",
+    "Morrigan Chronos",
+    "Radia Vex"
   ],
-  "purpose": "Constructed by Orion Dahl for Tech Tower operations",
-  "floors": 12,
-  "capacity": 30,
+  "purpose": "Bioluminescent Plant Breeding, Living Street Trees & Natural Preserve",
+  "floors": 1,
+  "capacity": 60,
   "departments": [
-    "Systems Engineering",
-    "Kernel Lab",
-    "Cloud Infrastructure"
+    "Botanical Biosphere",
+    "Public Amphitheater",
+    "Meditation Glade"
   ],
   "amenities": [
-    "Hyper-Speed Uplink",
-    "Rooftop Drone Pad",
-    "Quantum Server Vault"
+    "Holographic Weather Canopy",
+    "Living Mycelium Soil Mesh",
+    "Carbon Scrubber Trees"
   ],
-  "power_consumption_mw": 4.6,
-  "active_projects": [],
-  "security_level": "Level 3 - Monitored",
+  "power_consumption_mw": 2.5,
+  "active_projects": [
+    "urban_botanist.py"
+  ],
+  "security_level": "Level 1 - Public Access",
   "maintenance_status": "Optimal"
 }

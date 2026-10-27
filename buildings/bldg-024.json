@@ -1,42 +1,71 @@
 {
   "id": "bldg-024",
-  "name": "Katherine's Cyber Cafe #48",
-  "type": "Cyber Cafe",
+  "name": "Tokamak Fusion Reactor Station",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    -47.7,
-    5.7,
-    -79.9
+    0.0,
+    10.0,
+    -140.0
   ],
   "size": [
-    17.8,
-    11.3,
-    15.8
+    30.0,
+    20.0,
+    30.0
   ],
-  "color": "#eab308",
-  "builder_id": "agent-120",
-  "builder_name": "Katherine Apex",
-  "district": "Cyber Commons",
+  "color": "#be123c",
+  "builder_id": "agent-024",
+  "builder_name": "Dorothy Vaughan",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
-  "company_name": null,
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Katherine Apex"
+    "Dorothy Vaughan",
+    "Fei-Fei Lamport",
+    "Ken Sutskever",
+    "Athena Sterling",
+    "Liora Tinkerer",
+    "Radia Dusk",
+    "Cassian Cartographer",
+    "Tim Buterin",
+    "Nexus Fletcher",
+    "Zenith Citadel",
+    "Freya Pulse",
+    "Astrid Wozniak",
+    "Kassandra Dusk",
+    "Julian Dijkstra",
+    "Bob Orbit",
+    "Demis Vaughan",
+    "Woz Hamilton",
+    "Diana Forge",
+    "Felix Hickey",
+    "Sylvia Karpathy",
+    "Nova Circuit",
+    "Steve Flux",
+    "Linus Stroustrup",
+    "Ilya Synapse",
+    "Mira Murati",
+    "Sundar LeCun",
+    "Kairo Vaughan",
+    "Chronos Glitch"
   ],
-  "purpose": "Constructed by Katherine Apex for Cyber Cafe operations",
-  "floors": 2,
-  "capacity": 22,
+  "purpose": "Clean D-T Magnetic Fusion Power & Nationwide Superconducting Grid",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Quantum Barista Bar",
-    "Open Hackathon Lounge",
-    "Civic Forum"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "High-Bandwidth Wi-Fi",
-    "Nutrient Synthesizers",
-    "Acoustic Privacy Pods"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 3.0,
-  "active_projects": [],
-  "security_level": "Level 3 - Monitored",
+  "power_consumption_mw": 0.0,
+  "active_projects": [
+    "solar_optimizer.py"
+  ],
+  "security_level": "Level 5 - Critical Infrastructure",
   "maintenance_status": "Optimal"
 }

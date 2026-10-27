@@ -119,5 +119,27 @@
     "directive": "Build a Quantum Space Observatory",
     "reply": "Operator directive executed! Constructed facility 'Ada's Cyber Cafe #60 [OpenKernel Core]' in Cyber Commons.",
     "action_type": "construction"
+  },
+  {
+    "tick": 1,
+    "timestamp": "2026-10-27T00:01:28.124303+00:00",
+    "operator": "OPERATOR (Clearance Level 5)",
+    "agent_id": "agent-001",
+    "agent_name": "Ada Lovelace",
+    "agent_role": "Master Head of State & Chancellor",
+    "directive": "What is your opinion on our sovereign republic?",
+    "reply": "Operator, reporting live from [-30.93, 17.6]. Currently Leading Sovereign Chancellery Core at Sovereign Capitol & Parliament. Energy reserve is at 100%.",
+    "action_type": "dialogue"
+  },
+  {
+    "tick": 1,
+    "timestamp": "2026-10-27T00:01:34.686231+00:00",
+    "operator": "OPERATOR (Clearance Level 5)",
+    "agent_id": "agent-002",
+    "agent_name": "Alan Turing",
+    "agent_role": "Master Chief AI Systems Architect",
+    "directive": "Build an advanced research facility",
+    "reply": "Operator directive executed! Constructed facility 'Alan's Sovereign Capitol Building #15 [Sovereign Chancellery Core]' in Capitol Hill & National Plaza.",
+    "action_type": "construction"
   }
 ]

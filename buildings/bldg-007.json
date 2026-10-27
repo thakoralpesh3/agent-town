@@ -1,0 +1,41 @@
+{
+  "id": "bldg-007",
+  "name": "Shannon Information Spire",
+  "type": "Shannon Information Spire",
+  "position": [
+    32.0,
+    24.0,
+    130.0
+  ],
+  "size": [
+    18.0,
+    48.0,
+    18.0
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-007",
+  "builder_name": "Claude Shannon",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "High-Speed Packet Routing, Photonic Backbones & Mesh Transit",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 9.2,
+  "active_projects": [
+    "traffic_mesh.py"
+  ],
+  "security_level": "Level 4 - Controlled Mesh",
+  "maintenance_status": "Optimal"
+}

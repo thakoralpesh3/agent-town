@@ -1,0 +1,61 @@
+{
+  "id": "bldg-003",
+  "name": "National Central Bank & Treasury",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    32.0,
+    18.0,
+    0.0
+  ],
+  "size": [
+    30.0,
+    36.0,
+    30.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-003",
+  "builder_name": "Adam Smith DeFi",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": "Sovereign Wealth Reserve",
+  "completion": 1.0,
+  "occupants": [
+    "Adam Smith DeFi",
+    "Margaret Scribe",
+    "Kassandra Core",
+    "Dennis Jobs",
+    "Nick Vance",
+    "Guido Node",
+    "Maeve Nakamoto",
+    "Leslie Aurelius",
+    "Cyrus Winter",
+    "Hal Node",
+    "Leslie Smith",
+    "Alan Strata",
+    "Rune Thompson",
+    "Gavin Pichai",
+    "Pixel Sovereign",
+    "Hal Chronos",
+    "Kira Johnson"
+  ],
+  "purpose": "Sovereign Wealth Management, Token Reserves & Monetary Stability",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 11.2,
+  "active_projects": [
+    "treasury_equilibrium.py"
+  ],
+  "security_level": "Level 5 - Maximum Vault Security",
+  "maintenance_status": "Optimal"
+}

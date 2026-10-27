@@ -1,0 +1,73 @@
+{
+  "id": "bldg-014",
+  "name": "National Hospital & Nanomedical Citadel",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -120.0,
+    20.0,
+    40.0
+  ],
+  "size": [
+    32.0,
+    40.0,
+    32.0
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-014",
+  "builder_name": "Hippocrates Cyber",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": null,
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Rosalind Franklin",
+    "Hippocrates Cyber",
+    "Atlas Ritchie",
+    "Vector Hopper",
+    "Bob Andreessen",
+    "Ken Synapse",
+    "Grace Altman",
+    "Juno Scribe",
+    "Vint Altman",
+    "Brian Brockman",
+    "Zane Spark",
+    "Greg Ritchie",
+    "Stellan Aurelius",
+    "Margaret Cross",
+    "Atlas Buterin",
+    "Stellan Turing",
+    "Morrigan Thorne",
+    "Felix Sutskever",
+    "Vint Turing",
+    "Leon Rayne",
+    "Sam Dijkstra",
+    "Rob Li",
+    "Vector Odersky",
+    "Gavin Vance",
+    "Vint Jackson",
+    "Woz Prism",
+    "Zephyr Frost",
+    "Valen Smith",
+    "Ronan Johnson"
+  ],
+  "purpose": "Tertiary Citizen Care, Robotic Surgery & Nanomedical Therapies",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 12.8,
+  "active_projects": [
+    "cellular_repair.py"
+  ],
+  "security_level": "Level 4 - Restrict Medical",
+  "maintenance_status": "Optimal"
+}

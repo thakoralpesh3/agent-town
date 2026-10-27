@@ -1,42 +1,41 @@
 {
   "id": "bldg-026",
-  "name": "Rune's Cyber Cafe #72 [OpenKernel Core]",
-  "type": "Cyber Cafe",
+  "name": "Biosphere Atmospheric Scrubber",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    -58.0,
-    8.2,
-    -114.8
+    -35.0,
+    13.0,
+    -160.0
   ],
   "size": [
-    15.3,
-    16.4,
-    19.0
+    20.0,
+    26.0,
+    20.0
   ],
-  "color": "#eab308",
-  "builder_id": "agent-187",
-  "builder_name": "Rune Chomsky",
-  "district": "Cyber Commons",
-  "company_id": "comp-005",
-  "company_name": "OpenKernel Core",
+  "color": "#10b981",
+  "builder_id": "agent-026",
+  "builder_name": "Rachel Carson",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [
-    "Rune Chomsky"
-  ],
-  "purpose": "Constructed by Rune Chomsky for Cyber Cafe operations",
-  "floors": 2,
-  "capacity": 22,
+  "occupants": [],
+  "purpose": "Direct Air Carbon Mineralization & Urban Clean Air Filtration",
+  "floors": 5,
+  "capacity": 20,
   "departments": [
-    "Quantum Barista Bar",
-    "Open Hackathon Lounge",
-    "Civic Forum"
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
   ],
   "amenities": [
-    "High-Bandwidth Wi-Fi",
-    "Nutrient Synthesizers",
-    "Acoustic Privacy Pods"
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
   ],
-  "power_consumption_mw": 4.1,
-  "active_projects": [],
+  "power_consumption_mw": 5.2,
+  "active_projects": [
+    "air_purity_mesh.py"
+  ],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal"
 }

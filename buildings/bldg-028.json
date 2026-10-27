@@ -1,41 +1,42 @@
 {
   "id": "bldg-028",
-  "name": "Freya's Vehicle Factory #66 [PrismTechnologies]",
-  "type": "Vehicle Factory",
+  "name": "Rob's National Hospital & Nanomedical Citadel #97",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    59.5,
-    10.1,
-    -83.2
+    -91.5,
+    18.2,
+    66.7
   ],
   "size": [
-    28.4,
-    20.2,
-    25.2
+    30.1,
+    36.4,
+    35.8
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-025",
-  "builder_name": "Freya Beacon",
-  "district": "Industrial Sector",
-  "company_id": "comp-006",
-  "company_name": "PrismTechnologies",
+  "color": "#ef4444",
+  "builder_id": "agent-102",
+  "builder_name": "Rob Hassabis",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Freya Beacon"
+    "Rob Hassabis"
   ],
-  "purpose": "Constructed by Freya Beacon for Vehicle Factory operations",
-  "floors": 3,
-  "capacity": 20,
+  "purpose": "Constructed by Rob Hassabis for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
   "departments": [
-    "Robotic Assembly Line",
-    "Chassis Stress Testing",
-    "Avionics Calibration"
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
   ],
   "amenities": [
-    "Automated Heavy Cranes",
-    "Induction Test Track",
-    "Paint Spray Booths"
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
   ],
-  "power_consumption_mw": 3.3,
+  "power_consumption_mw": 4.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal"

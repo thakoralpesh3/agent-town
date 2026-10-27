@@ -1,24 +1,40 @@
 {
   "id": "bldg-017",
-  "name": "Bjarne's Vehicle Factory #13 [AeroCyber Robotics]",
-  "type": "Vehicle Factory",
+  "name": "Cyber Living Township Alpha",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    92.6,
-    6.9,
-    -117.7
+    -100.0,
+    14.0,
+    -100.0
   ],
   "size": [
-    26.3,
-    13.9,
-    22.2
+    26.0,
+    28.0,
+    26.0
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-138",
-  "builder_name": "Bjarne Odersky",
-  "district": "Industrial Sector",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#22c55e",
+  "builder_id": "agent-017",
+  "builder_name": "Margaret Hamilton",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Bjarne Odersky for Vehicle Factory operations"
+  "purpose": "Multi-Tier Eco-Residential Suites for Generational Citizens",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 2 - Open Community",
+  "maintenance_status": "Optimal"
 }

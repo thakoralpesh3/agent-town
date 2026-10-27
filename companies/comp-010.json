@@ -1,18 +1,19 @@
 {
   "id": "comp-010",
-  "name": "NexusVentures",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-046",
-  "founder_name": "Kaelen Wright",
-  "headquarters_id": "bldg-032",
-  "headquarters_name": "NexusVentures Headquarters",
+  "name": "AetherDynamics",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-278",
+  "founder_name": "Felix Cerf",
+  "headquarters_id": "bldg-030",
+  "headquarters_name": "AetherDynamics Headquarters",
   "employees": [
-    "agent-046",
-    "agent-134"
+    "agent-278",
+    "agent-135",
+    "agent-101"
   ],
-  "valuation_tokens": 284194,
+  "valuation_tokens": 422729,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 4
+  "color": "#eab308",
+  "founded_at_tick": 1
 }

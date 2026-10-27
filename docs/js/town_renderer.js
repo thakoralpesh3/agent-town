@@ -148,11 +148,11 @@ class TownRenderer {
   }
 
   _createRealisticTerrain() {
-    // 1. Lush Green City Turf
-    const groundGeo = new THREE.PlaneGeometry(650, 650);
+    // 1. Lush Green City Turf (National Territory 900x900)
+    const groundGeo = new THREE.PlaneGeometry(900, 900);
     const groundMat = new THREE.MeshStandardMaterial({
-      color: 0x2d5a27,
-      roughness: 0.85,
+      color: 0x1f3d1b,
+      roughness: 0.9,
       metalness: 0.05
     });
     const ground = new THREE.Mesh(groundGeo, groundMat);
@@ -160,43 +160,202 @@ class TownRenderer {
     ground.receiveShadow = true;
     this.scene.add(ground);
 
-    // 2. Concrete Plaza Central Base
-    const plazaGeo = new THREE.CylinderGeometry(60, 60, 0.15, 48);
+    // 2. Grand National Plaza Marble Base
+    const plazaGeo = new THREE.CylinderGeometry(70, 70, 0.2, 64);
     const plazaMat = new THREE.MeshStandardMaterial({
-      color: 0xcfd8dc,
-      roughness: 0.6,
-      metalness: 0.1
+      color: 0xe2e8f0,
+      roughness: 0.45,
+      metalness: 0.15
     });
     const plaza = new THREE.Mesh(plazaGeo, plazaMat);
-    plaza.position.y = 0.08;
+    plaza.position.y = 0.1;
     plaza.receiveShadow = true;
     this.scene.add(plaza);
 
-    // 3. Central Plaza Fountain
-    this._createPlazaFountain(0, 0);
+    // 3. Grand Sovereign Obelisk (Center of National Plaza [0, 0])
+    this._createNationalMonumentObelisk(0, 0);
 
-    // 4. District Boundary Ground Inlays
+    // 4. Sovereign National Flagpole
+    this._createNationalFlagpole(16, -16);
+
+    // 5. Grand Central Plaza Fountain
+    this._createPlazaFountain(0, -26);
+
+    // 6. 7 Sovereign Territory District Inlays
     const districts = [
-      { name: "Silicon Central", center: [0, 0], radius: 52, color: 0x0284c7 },
-      { name: "Innovation Matrix", center: [100, 100], radius: 62, color: 0x9333ea },
-      { name: "Residential Quarter", center: [-100, 80], radius: 65, color: 0x16a34a },
-      { name: "Cyber Commons", center: [-80, -90], radius: 58, color: 0xd97706 },
-      { name: "Industrial Sector", center: [90, -100], radius: 62, color: 0xe11d48 },
+      { name: "Capitol Hill & National Plaza", center: [0, 0], radius: 65, color: 0xf59e0b },
+      { name: "Silicon Central Metropolis", center: [0, 110], radius: 70, color: 0x00f0ff },
+      { name: "Quantum Science & University Campus", center: [120, 40], radius: 65, color: 0xa855f7 },
+      { name: "Health Citadel & Medical Complex", center: [-120, 40], radius: 60, color: 0xef4444 },
+      { name: "Cyber Living Townships", center: [-100, -100], radius: 75, color: 0x22c55e },
+      { name: "Industrial Harbor & Transit Hub", center: [110, -110], radius: 70, color: 0xf97316 },
+      { name: "Biosphere Reserve & Fusion Grid", center: [0, -140], radius: 65, color: 0x10b981 },
     ];
 
     districts.forEach(d => {
-      const ringGeo = new THREE.RingGeometry(d.radius - 0.8, d.radius, 64);
+      const ringGeo = new THREE.RingGeometry(d.radius - 1.2, d.radius, 64);
       const ringMat = new THREE.MeshBasicMaterial({
         color: d.color,
         side: THREE.DoubleSide,
         transparent: true,
-        opacity: 0.5
+        opacity: 0.55
       });
       const ring = new THREE.Mesh(ringGeo, ringMat);
       ring.rotation.x = -Math.PI / 2;
-      ring.position.set(d.center[0], 0.12, d.center[1]);
+      ring.position.set(d.center[0], 0.14, d.center[1]);
       this.scene.add(ring);
     });
+  }
+
+  _createNationalMonumentObelisk(x, z) {
+    const obeliskGroup = new THREE.Group();
+    obeliskGroup.position.set(x, 0, z);
+
+    // Stepped Marble Pedestal
+    const step1 = new THREE.Mesh(new THREE.BoxGeometry(14, 0.8, 14), new THREE.MeshStandardMaterial({ color: 0x94a3b8, roughness: 0.4 }));
+    step1.position.y = 0.4;
+    step1.receiveShadow = true;
+    obeliskGroup.add(step1);
+
+    const step2 = new THREE.Mesh(new THREE.BoxGeometry(10, 0.8, 10), new THREE.MeshStandardMaterial({ color: 0xcfd8dc, roughness: 0.4 }));
+    step2.position.y = 1.2;
+    step2.receiveShadow = true;
+    obeliskGroup.add(step2);
+
+    const plinth = new THREE.Mesh(new THREE.BoxGeometry(6.5, 2.5, 6.5), new THREE.MeshStandardMaterial({ color: 0x334155, metalness: 0.3, roughness: 0.5 }));
+    plinth.position.y = 2.85;
+    plinth.castShadow = true;
+    obeliskGroup.add(plinth);
+
+    // 4-sided Tapered Obelisk Shaft (Height 32m)
+    const shaftGeo = new THREE.CylinderGeometry(1.6, 3.2, 30, 4);
+    const shaftMat = new THREE.MeshStandardMaterial({
+      color: 0xe2e8f0,
+      roughness: 0.3,
+      metalness: 0.2
+    });
+    const shaft = new THREE.Mesh(shaftGeo, shaftMat);
+    shaft.rotation.y = Math.PI / 4; // Align 4 flat faces with axes
+    shaft.position.y = 4.1 + 15;
+    shaft.castShadow = true;
+    obeliskGroup.add(shaft);
+
+    // Golden Pyramidion Apex
+    const apexGeo = new THREE.ConeGeometry(2.26, 4.2, 4);
+    const apexMat = new THREE.MeshStandardMaterial({
+      color: 0xfbbf24,
+      emissive: 0xd97706,
+      emissiveIntensity: 0.6,
+      metalness: 0.95,
+      roughness: 0.1
+    });
+    const apex = new THREE.Mesh(apexGeo, apexMat);
+    apex.rotation.y = Math.PI / 4;
+    apex.position.y = 4.1 + 30 + 2.1;
+    apex.castShadow = true;
+    obeliskGroup.add(apex);
+
+    // Vertical Glowing Cybernetic Inscription Runes along each face
+    const runeMat = new THREE.MeshBasicMaterial({ color: 0x00f0ff });
+    for (let angle = 0; angle < 4; angle++) {
+      const rot = (angle * Math.PI) / 2;
+      const stripeGeo = new THREE.PlaneGeometry(0.35, 26);
+      const stripe = new THREE.Mesh(stripeGeo, runeMat);
+      stripe.position.y = 4.1 + 15;
+      if (angle === 0) stripe.position.z = 2.4;
+      else if (angle === 1) { stripe.position.x = 2.4; stripe.rotation.y = Math.PI / 2; }
+      else if (angle === 2) { stripe.position.z = -2.4; stripe.rotation.y = Math.PI; }
+      else if (angle === 3) { stripe.position.x = -2.4; stripe.rotation.y = -Math.PI / 2; }
+      obeliskGroup.add(stripe);
+    }
+
+    const monumentData = {
+      id: "monument-001",
+      name: "Grand Sovereign Obelisk",
+      type: "National Monument",
+      district: "Capitol Hill & National Plaza",
+      position: [x, 18, z],
+      size: [14, 38, 14],
+      color: "#f59e0b",
+      builder_name: "Leonardo Cyber",
+      builder_id: "agent-018",
+      purpose: "Sovereign Monument celebrating 320 autonomous citizens and perpetual Git immutability",
+      floors: 1,
+      capacity: 100,
+      departments: ["National Memorial", "Genesis Rune Chamber"],
+      amenities: ["Golden Pyramidion Beacon", "Quantum Cyber-Inscribed Runes", "Ceremonial Steps"],
+      power_consumption_mw: 0.5,
+      security_level: "Level 1 - Public National Monument",
+      maintenance_status: "Perpetual Optimal",
+      occupants: []
+    };
+
+    obeliskGroup.userData = { type: 'building', data: monumentData };
+    obeliskGroup.children.forEach(c => {
+      c.userData = { type: 'building', data: monumentData };
+      this.interactiveObjects.push(c);
+    });
+
+    this.streetFurnitureGroup.add(obeliskGroup);
+    this.buildingMeshes.set("monument-001", obeliskGroup);
+  }
+
+  _createNationalFlagpole(x, z) {
+    const flagGroup = new THREE.Group();
+    flagGroup.position.set(x, 0, z);
+
+    // Marble Base
+    const base = new THREE.Mesh(new THREE.CylinderGeometry(1.5, 1.8, 0.8, 16), new THREE.MeshStandardMaterial({ color: 0x475569 }));
+    base.position.y = 0.4;
+    flagGroup.add(base);
+
+    // Tall Chrome Pole (20m)
+    const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.22, 22, 16), new THREE.MeshStandardMaterial({ color: 0xe2e8f0, metalness: 0.95, roughness: 0.1 }));
+    pole.position.y = 11.4;
+    pole.castShadow = true;
+    flagGroup.add(pole);
+
+    // Gold Finial Sphere
+    const finial = new THREE.Mesh(new THREE.SphereGeometry(0.4, 16, 16), new THREE.MeshStandardMaterial({ color: 0xfbbf24, metalness: 0.9, roughness: 0.2 }));
+    finial.position.y = 22.6;
+    flagGroup.add(finial);
+
+    // Flag Canvas Texture
+    const fCanvas = document.createElement('canvas');
+    fCanvas.width = 256;
+    fCanvas.height = 160;
+    const fctx = fCanvas.getContext('2d');
+    fctx.fillStyle = '#0f172a';
+    fctx.fillRect(0, 0, 256, 160);
+    // Cyan stripe
+    fctx.fillStyle = '#00f0ff';
+    fctx.fillRect(0, 0, 256, 24);
+    fctx.fillRect(0, 136, 256, 24);
+    // Gold emblem shield in center
+    fctx.fillStyle = '#f59e0b';
+    fctx.beginPath();
+    fctx.arc(128, 80, 36, 0, Math.PI * 2);
+    fctx.fill();
+    fctx.fillStyle = '#0f172a';
+    fctx.font = 'bold 22px Rajdhani, sans-serif';
+    fctx.textAlign = 'center';
+    fctx.fillText('TECH', 128, 76);
+    fctx.fillText('TOWN', 128, 96);
+
+    const flagTex = new THREE.CanvasTexture(fCanvas);
+    const flagGeo = new THREE.PlaneGeometry(6.5, 4.0, 12, 6);
+    // Subtle wave
+    const flagMat = new THREE.MeshStandardMaterial({
+      map: flagTex,
+      side: THREE.DoubleSide,
+      roughness: 0.5
+    });
+    const flag = new THREE.Mesh(flagGeo, flagMat);
+    flag.position.set(3.4, 20.0, 0);
+    flag.castShadow = true;
+    flagGroup.add(flag);
+
+    this.streetFurnitureGroup.add(flagGroup);
   }
 
   _createPlazaFountain(x, z) {
@@ -428,7 +587,259 @@ class TownRenderer {
 
       const colorHex = parseInt(b.color.replace('#', '0x'), 16) || 0x0284c7;
 
-      if (b.type === "Company Headquarters" || b.company_name) {
+      if (b.type === "Sovereign Capitol Building") {
+        // Grand Sovereign Capitol & Parliament (Neoclassical-Futuristic Rotunda)
+        // Main podium base & ceremonial steps
+        const baseGeo = new THREE.BoxGeometry(w, 4, d);
+        const marbleMat = new THREE.MeshStandardMaterial({ color: 0xf1f5f9, roughness: 0.35, metalness: 0.1 });
+        const baseMesh = new THREE.Mesh(baseGeo, marbleMat);
+        baseMesh.position.y = 2;
+        baseMesh.castShadow = true;
+        baseMesh.receiveShadow = true;
+        group.add(baseMesh);
+
+        // Main Parliamentary Building Body
+        const bodyHeight = h * 0.55;
+        const bodyGeo = new THREE.BoxGeometry(w * 0.9, bodyHeight, d * 0.9);
+        const bodyMesh = new THREE.Mesh(bodyGeo, marbleMat);
+        bodyMesh.position.y = 4 + bodyHeight / 2;
+        bodyMesh.castShadow = true;
+        bodyMesh.receiveShadow = true;
+        group.add(bodyMesh);
+
+        // Classical Front Portico Colonnade (6 Stately Columns)
+        const colGeo = new THREE.CylinderGeometry(0.8, 0.9, bodyHeight, 16);
+        const colMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.25 });
+        for (let i = -2.5; i <= 2.5; i += 1) {
+          const col = new THREE.Mesh(colGeo, colMat);
+          col.position.set(i * (w * 0.14), 4 + bodyHeight / 2, (d * 0.45) + 1.2);
+          col.castShadow = true;
+          group.add(col);
+        }
+
+        // Triangular Pediment over Portico
+        const pedGeo = new THREE.ConeGeometry(w * 0.45, 5, 4);
+        pedGeo.rotateY(Math.PI / 4);
+        const goldMat = new THREE.MeshStandardMaterial({ color: 0xfbbf24, metalness: 0.85, roughness: 0.2 });
+        const ped = new THREE.Mesh(pedGeo, goldMat);
+        ped.position.set(0, 4 + bodyHeight + 2.5, (d * 0.45) + 1.2);
+        group.add(ped);
+
+        // Central Rotunda Cylindrical Drum
+        const drumHeight = h * 0.25;
+        const drumRadius = w * 0.28;
+        const drumGeo = new THREE.CylinderGeometry(drumRadius, drumRadius, drumHeight, 32);
+        const drum = new THREE.Mesh(drumGeo, marbleMat);
+        drum.position.y = 4 + bodyHeight + drumHeight / 2;
+        drum.castShadow = true;
+        group.add(drum);
+
+        // Grand Golden Dome
+        const domeGeo = new THREE.SphereGeometry(drumRadius * 1.05, 32, 16, 0, Math.PI * 2, 0, Math.PI / 2);
+        const dome = new THREE.Mesh(domeGeo, goldMat);
+        dome.position.y = 4 + bodyHeight + drumHeight;
+        dome.castShadow = true;
+        group.add(dome);
+
+        // Lantern Cupola & Golden Sovereign Spire
+        const spireGeo = new THREE.CylinderGeometry(0.2, 0.6, 6, 8);
+        const spire = new THREE.Mesh(spireGeo, goldMat);
+        spire.position.y = 4 + bodyHeight + drumHeight + (drumRadius * 1.05) + 3;
+        group.add(spire);
+
+      } else if (b.type === "Supreme Court of Justice") {
+        // Supreme Court of Justice (Stately Pillared Courthouse)
+        const baseGeo = new THREE.BoxGeometry(w, 3, d);
+        const marbleMat = new THREE.MeshStandardMaterial({ color: 0xf8fafc, roughness: 0.3 });
+        const baseMesh = new THREE.Mesh(baseGeo, marbleMat);
+        baseMesh.position.y = 1.5;
+        group.add(baseMesh);
+
+        const bodyGeo = new THREE.BoxGeometry(w * 0.85, h * 0.65, d * 0.85);
+        const bodyMesh = new THREE.Mesh(bodyGeo, marbleMat);
+        bodyMesh.position.y = 3 + (h * 0.65) / 2;
+        bodyMesh.castShadow = true;
+        group.add(bodyMesh);
+
+        // Perimeter Classical Pillars
+        const colGeo = new THREE.CylinderGeometry(0.7, 0.8, h * 0.65, 12);
+        const colMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0 });
+        for (let i = -3; i <= 3; i += 2) {
+          const col = new THREE.Mesh(colGeo, colMat);
+          col.position.set(i * (w * 0.12), 3 + (h * 0.65) / 2, (d * 0.42) + 0.8);
+          group.add(col);
+        }
+
+        // Roof Pediment with Golden Scales of Justice Sign
+        const roofGeo = new THREE.ConeGeometry(w * 0.5, 4.5, 4);
+        roofGeo.rotateY(Math.PI / 4);
+        const roof = new THREE.Mesh(roofGeo, new THREE.MeshStandardMaterial({ color: 0xd97706, metalness: 0.7 }));
+        roof.position.set(0, 3 + (h * 0.65) + 2.25, 0);
+        group.add(roof);
+
+      } else if (b.type === "National Central Bank & Treasury") {
+        // Fortified Ziggurat Vault with Golden Inlays
+        const steps = 4;
+        for (let s = 0; s < steps; s++) {
+          const sw = w * (1 - s * 0.12);
+          const sd = d * (1 - s * 0.12);
+          const sh = h / steps;
+          const sGeo = new THREE.BoxGeometry(sw, sh, sd);
+          const sMat = new THREE.MeshStandardMaterial({
+            color: s % 2 === 0 ? 0x1e293b : 0x334155,
+            metalness: 0.6,
+            roughness: 0.4
+          });
+          const tier = new THREE.Mesh(sGeo, sMat);
+          tier.position.y = s * sh + sh / 2;
+          tier.castShadow = true;
+          group.add(tier);
+
+          // Golden Accent Trims
+          const trimGeo = new THREE.BoxGeometry(sw + 0.4, 0.6, sd + 0.4);
+          const trimMat = new THREE.MeshStandardMaterial({ color: 0xfbbf24, metalness: 0.95, roughness: 0.1 });
+          const trim = new THREE.Mesh(trimGeo, trimMat);
+          trim.position.y = (s + 1) * sh;
+          group.add(trim);
+        }
+
+      } else if (b.type === "National Hospital & Nanomedical Citadel" || b.type === "Cybernetic Clinic") {
+        // Modern White Medical Citadel with Glowing Red Cross & Helipad
+        const bodyGeo = new THREE.BoxGeometry(w, h * 0.85, d);
+        const medMat = new THREE.MeshStandardMaterial({ color: 0xf8fafc, roughness: 0.25 });
+        const body = new THREE.Mesh(bodyGeo, medMat);
+        body.position.y = (h * 0.85) / 2;
+        body.castShadow = true;
+        group.add(body);
+
+        // Cantilever Cross Wing
+        const wingGeo = new THREE.BoxGeometry(w * 1.15, h * 0.35, d * 0.7);
+        const wing = new THREE.Mesh(wingGeo, new THREE.MeshStandardMaterial({ color: 0xe2e8f0 }));
+        wing.position.y = (h * 0.85) * 0.55;
+        group.add(wing);
+
+        // Glowing 3D Red Cross Insignia on Facade
+        const crossMat = new THREE.MeshBasicMaterial({ color: 0xef4444 });
+        const crossV = new THREE.Mesh(new THREE.BoxGeometry(1.4, 5.0, 0.4), crossMat);
+        crossV.position.set(0, (h * 0.85) * 0.7, (d / 2) + 0.3);
+        group.add(crossV);
+        const crossH = new THREE.Mesh(new THREE.BoxGeometry(5.0, 1.4, 0.4), crossMat);
+        crossH.position.set(0, (h * 0.85) * 0.7, (d / 2) + 0.3);
+        group.add(crossH);
+
+        // Rooftop Helipad
+        const heliBase = new THREE.Mesh(new THREE.CylinderGeometry(w * 0.35, w * 0.35, 0.4, 24), new THREE.MeshStandardMaterial({ color: 0x334155 }));
+        heliBase.position.y = (h * 0.85) + 0.2;
+        group.add(heliBase);
+        const heliRing = new THREE.Mesh(new THREE.RingGeometry(w * 0.25, w * 0.28, 24), new THREE.MeshBasicMaterial({ color: 0xfacc15, side: THREE.DoubleSide }));
+        heliRing.rotation.x = -Math.PI / 2;
+        heliRing.position.y = (h * 0.85) + 0.42;
+        group.add(heliRing);
+
+      } else if (b.type === "Grand Astronomical Observatory") {
+        // Cylindrical Observatory Tower with Rotating Hemispherical Dome
+        const towerGeo = new THREE.CylinderGeometry(w * 0.42, w * 0.48, h * 0.7, 32);
+        const towerMat = new THREE.MeshStandardMaterial({ color: 0x475569, roughness: 0.5 });
+        const tower = new THREE.Mesh(towerGeo, towerMat);
+        tower.position.y = (h * 0.7) / 2;
+        tower.castShadow = true;
+        group.add(tower);
+
+        // Half-Sphere Dome
+        const domeGeo = new THREE.SphereGeometry(w * 0.45, 32, 16, 0, Math.PI * 2, 0, Math.PI / 2);
+        const domeMat = new THREE.MeshStandardMaterial({ color: 0x94a3b8, metalness: 0.8, roughness: 0.2 });
+        const dome = new THREE.Mesh(domeGeo, domeMat);
+        dome.position.y = h * 0.7;
+        dome.castShadow = true;
+        group.add(dome);
+
+        // Telescope Barrel pointing upward at 45 degrees
+        const scopeGeo = new THREE.CylinderGeometry(0.8, 1.1, 8, 16);
+        const scopeMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, metalness: 0.9, roughness: 0.1 });
+        const scope = new THREE.Mesh(scopeGeo, scopeMat);
+        scope.rotation.x = Math.PI / 4;
+        scope.position.set(0, (h * 0.7) + (w * 0.28), w * 0.18);
+        group.add(scope);
+
+      } else if (b.type === "Tokamak Fusion Reactor Station" || b.type === "Solar Fusion Array") {
+        // Heavy Containment Bunker + Roof Magnetic Torus Coil
+        const bunkerGeo = new THREE.BoxGeometry(w, h * 0.65, d);
+        const bunkerMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.7 });
+        const bunker = new THREE.Mesh(bunkerGeo, bunkerMat);
+        bunker.position.y = (h * 0.65) / 2;
+        bunker.castShadow = true;
+        group.add(bunker);
+
+        // Magnetic Torus Ring
+        const torusGeo = new THREE.TorusGeometry(w * 0.32, 2.0, 16, 32);
+        const torusMat = new THREE.MeshStandardMaterial({ color: 0xbe123c, metalness: 0.85, roughness: 0.2 });
+        const torus = new THREE.Mesh(torusGeo, torusMat);
+        torus.rotation.x = Math.PI / 2;
+        torus.position.y = (h * 0.65) + 2.5;
+        group.add(torus);
+
+        // Glowing Pulsing Plasma Core Sphere
+        const plasmaGeo = new THREE.SphereGeometry(w * 0.18, 16, 16);
+        const plasmaMat = new THREE.MeshBasicMaterial({ color: 0xef4444 });
+        const plasma = new THREE.Mesh(plasmaGeo, plasmaMat);
+        plasma.position.y = (h * 0.65) + 2.5;
+        group.add(plasma);
+
+      } else if (b.type === "Hydroponic Agricultural Biodome") {
+        // Translucent Green Geodesic Biodome
+        const baseGeo = new THREE.CylinderGeometry(w * 0.52, w * 0.52, 2, 32);
+        const baseMesh = new THREE.Mesh(baseGeo, new THREE.MeshStandardMaterial({ color: 0x334155 }));
+        baseMesh.position.y = 1;
+        group.add(baseMesh);
+
+        // Geodesic Glass Dome
+        const domeGeo = new THREE.SphereGeometry(w * 0.5, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2);
+        const domeMat = new THREE.MeshStandardMaterial({
+          color: 0x22c55e,
+          transparent: true,
+          opacity: 0.65,
+          roughness: 0.1,
+          metalness: 0.3
+        });
+        const dome = new THREE.Mesh(domeGeo, domeMat);
+        dome.position.y = 2;
+        dome.castShadow = true;
+        group.add(dome);
+
+        // Interior Spiraling Aeroponics Plant Columns
+        for (let i = 0; i < 4; i++) {
+          const colGeo = new THREE.CylinderGeometry(0.8, 0.8, h * 0.6, 8);
+          const colMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.8 });
+          const plantCol = new THREE.Mesh(colGeo, colMat);
+          const a = (i * Math.PI) / 2;
+          plantCol.position.set(Math.cos(a) * (w * 0.22), (h * 0.6) / 2 + 2, Math.sin(a) * (w * 0.22));
+          group.add(plantCol);
+        }
+
+      } else if (b.type === "Autonomous Vehicle Mega-Plant" || b.type === "Hyperloop Central Terminus" || b.type === "Drone Logistics Freight Port") {
+        // Industrial Manufacturing Facility with Gantry Trusses
+        const factoryGeo = new THREE.BoxGeometry(w, h * 0.7, d);
+        const factoryMat = new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.6, metalness: 0.4 });
+        const factory = new THREE.Mesh(factoryGeo, factoryMat);
+        factory.position.y = (h * 0.7) / 2;
+        factory.castShadow = true;
+        group.add(factory);
+
+        // Sawtooth / Gantry Roof Truss
+        const trussGeo = new THREE.BoxGeometry(w * 0.95, 3.5, d * 0.95);
+        const trussMat = new THREE.MeshStandardMaterial({ color: 0xf59e0b, metalness: 0.8 });
+        const truss = new THREE.Mesh(trussGeo, trussMat);
+        truss.position.y = (h * 0.7) + 1.75;
+        group.add(truss);
+
+        // Industrial Warning Stripe Bands
+        const stripeGeo = new THREE.BoxGeometry(w + 0.2, 1.2, d + 0.2);
+        const stripeMat = new THREE.MeshBasicMaterial({ color: 0xfbbf24 });
+        const stripe = new THREE.Mesh(stripeGeo, stripeMat);
+        stripe.position.y = (h * 0.7) * 0.45;
+        group.add(stripe);
+
+      } else if (b.type === "Company Headquarters" || b.company_name) {
         // High-Rise Modern Glass Corporate Megatower
         const bodyGeo = new THREE.BoxGeometry(w, h, d);
         const tex = this.textures.glass.clone();
@@ -483,7 +894,7 @@ class TownRenderer {
         sign.position.y = h + 7.5;
         group.add(sign);
 
-      } else if (b.type === "Tech Tower") {
+      } else if (b.type === "Tech Tower" || b.type.includes("Tower") || b.type.includes("Spire") || b.type.includes("Exchange")) {
         // Modern Commercial Skyscraper
         const bodyGeo = new THREE.BoxGeometry(w, h, d);
         const tex = this.textures.glass.clone();
@@ -515,7 +926,7 @@ class TownRenderer {
         beacon.position.y = h + 14.2;
         group.add(beacon);
 
-      } else if (b.type === "Residential Pod") {
+      } else if (b.type.includes("Residential") || b.type.includes("Township")) {
         // Modern Apartment Complex with Balconies
         const bodyGeo = new THREE.BoxGeometry(w, h, d);
         const tex = this.textures.residential.clone();
@@ -542,7 +953,7 @@ class TownRenderer {
           group.add(bal);
         }
 
-      } else if (b.type === "Holo Park") {
+      } else if (b.type === "Holo Park" || b.type.includes("Park") || b.type.includes("Reserve")) {
         // City Garden / Park with Ponds & Benches
         const lawnGeo = new THREE.BoxGeometry(w, 0.4, d);
         const lawnMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.9 });

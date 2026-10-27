@@ -1,0 +1,42 @@
+{
+  "id": "bldg-004",
+  "name": "National Archives & Genesis Vault",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    0.0,
+    16.0,
+    -32.0
+  ],
+  "size": [
+    26.0,
+    32.0,
+    26.0
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-004",
+  "builder_name": "Donald Knuth",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [],
+  "purpose": "Permanent State Serialization, Genesis Commits & Legal Precedents",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 8.4,
+  "active_projects": [
+    "git_archival_engine.py"
+  ],
+  "security_level": "Level 5 - Maximum Archive Security",
+  "maintenance_status": "Optimal"
+}

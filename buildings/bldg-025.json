@@ -1,42 +1,62 @@
 {
   "id": "bldg-025",
-  "name": "Lyra's Cybernetic Clinic #63 [AeroCyber Robotics]",
-  "type": "Cybernetic Clinic",
+  "name": "Hydroponic Agricultural Biodome",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    -155.9,
-    15.7,
-    90.7
+    35.0,
+    9.0,
+    -160.0
   ],
   "size": [
-    23.7,
-    31.5,
-    20.1
+    32.0,
+    18.0,
+    32.0
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-043",
-  "builder_name": "Lyra Shannon",
-  "district": "Residential Quarter",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#16a34a",
+  "builder_id": "agent-025",
+  "builder_name": "Norman Borlaug",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": "TerraFlora Synthetics",
   "completion": 1.0,
   "occupants": [
-    "Lyra Shannon"
+    "Norman Borlaug",
+    "Morrigan Hassabis",
+    "Sol Solstice",
+    "Selene Brockman",
+    "Geoffrey Hamilton",
+    "Cassian Liskov",
+    "Mira Stroustrup",
+    "Linus Perlman",
+    "Bob Thorne",
+    "Gavin Fletcher",
+    "Corin Ritchie",
+    "Cipher Mercer",
+    "Vint Dusk",
+    "Kaelen Smith",
+    "Satoshi Hickey",
+    "Leslie Murati",
+    "Liora Foundry",
+    "Edsger Rayne",
+    "Nick Dahl"
   ],
-  "purpose": "Constructed by Lyra Shannon for Cybernetic Clinic operations",
-  "floors": 6,
-  "capacity": 24,
+  "purpose": "Automated Vertical Aeroponics & National Caloric Food Security",
+  "floors": 3,
+  "capacity": 35,
   "departments": [
-    "Trauma & First Response",
-    "Nanomedicine Lab",
-    "Prosthetic Integration"
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
   ],
   "amenities": [
-    "Cellular Regeneration Pods",
-    "Bio-Telemetry Network",
-    "Sterile Nanotech Suites"
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 5.1,
-  "active_projects": [],
-  "security_level": "Level 3 - Monitored",
+  "power_consumption_mw": 4.5,
+  "active_projects": [
+    "crop_optimizer.py"
+  ],
+  "security_level": "Level 2 - Open Agro",
   "maintenance_status": "Optimal"
 }

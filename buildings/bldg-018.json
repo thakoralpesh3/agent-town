@@ -1,42 +1,40 @@
 {
   "id": "bldg-018",
-  "name": "Kira's Residential Pod #54 [QuantumMatrix Corp]",
-  "type": "Residential Pod",
+  "name": "Cyber Living Township Beta",
+  "type": "Cyber Living Township Beta",
   "position": [
-    -143.2,
-    8.1,
-    123.7
+    -125.0,
+    14.0,
+    -125.0
   ],
   "size": [
-    16.1,
-    16.1,
-    13.6
+    26.0,
+    28.0,
+    26.0
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-154",
-  "builder_name": "Kira Armstrong",
-  "district": "Residential Quarter",
-  "company_id": "comp-003",
-  "company_name": "QuantumMatrix Corp",
+  "color": "#16a34a",
+  "builder_id": "agent-018",
+  "builder_name": "Barbara Liskov",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [
-    "Kira Armstrong"
-  ],
-  "purpose": "Constructed by Kira Armstrong for Residential Pod operations",
-  "floors": 5,
-  "capacity": 18,
+  "occupants": [],
+  "purpose": "Eco Habitation & High-Elevation Suites with Acoustic Cloaking",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Charging Bed",
-    "Filtered Atmosphere"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 7.6,
+  "power_consumption_mw": 3.6,
   "active_projects": [],
-  "security_level": "Level 3 - Monitored",
+  "security_level": "Level 2 - Open Community",
   "maintenance_status": "Optimal"
 }

@@ -1,41 +1,41 @@
 {
   "id": "bldg-031",
-  "name": "Steve's Vehicle Factory #80 [VectorTechnologies]",
-  "type": "Vehicle Factory",
+  "name": "Hypatia's Tower of Turing (City Mainframe) #72 [BioLongevity Solutions]",
+  "type": "Tower of Turing (City Mainframe)",
   "position": [
-    115.1,
-    12.4,
-    -68.0
+    3.2,
+    33.3,
+    133.1
   ],
   "size": [
     26.7,
-    24.8,
-    24.1
+    66.6,
+    28.4
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-198",
-  "builder_name": "Steve Vex",
-  "district": "Industrial Sector",
-  "company_id": "comp-007",
-  "company_name": "VectorTechnologies",
+  "color": "#00f0ff",
+  "builder_id": "agent-015",
+  "builder_name": "Hypatia Alexandria",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
   "occupants": [
-    "Steve Vex"
+    "Hypatia Alexandria"
   ],
-  "purpose": "Constructed by Steve Vex for Vehicle Factory operations",
-  "floors": 3,
-  "capacity": 20,
+  "purpose": "Constructed by Hypatia Alexandria for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
   "departments": [
-    "Robotic Assembly Line",
-    "Chassis Stress Testing",
-    "Avionics Calibration"
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
   ],
   "amenities": [
-    "Automated Heavy Cranes",
-    "Induction Test Track",
-    "Paint Spray Booths"
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
   ],
-  "power_consumption_mw": 4.9,
+  "power_consumption_mw": 8.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal"

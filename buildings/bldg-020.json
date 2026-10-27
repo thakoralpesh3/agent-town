@@ -1,24 +1,59 @@
 {
   "id": "bldg-020",
-  "name": "Hestia's Cybernetic Clinic #53",
-  "type": "Cybernetic Clinic",
+  "name": "The Bit & Byte Cyber Lounge",
+  "type": "Cyber Cafe",
   "position": [
-    -120.2,
-    9.1,
-    115.6
+    -75.0,
+    7.0,
+    -115.0
   ],
   "size": [
-    16.3,
-    18.2,
-    17.7
+    20.0,
+    14.0,
+    20.0
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-019",
+  "color": "#fbbf24",
+  "builder_id": "agent-020",
   "builder_name": "Hestia Nexus",
-  "district": "Residential Quarter",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Hestia Nexus for Cybernetic Clinic operations"
+  "occupants": [
+    "Hestia Nexus",
+    "Barbara Liskov",
+    "Woz Kahn",
+    "Kira Blaze",
+    "Lyra Lamport",
+    "Tim Archon",
+    "John Sovereign",
+    "Liora Pulse",
+    "Juno Archon",
+    "Diana Wright",
+    "Vitalik Orbit",
+    "Gavin Pike",
+    "Vitalik Flux",
+    "Nick Andreessen",
+    "Corin Cerf",
+    "Selene Cross",
+    "Kaelen Huang",
+    "Selene Bengio"
+  ],
+  "purpose": "Social Gathering, Quantum Foam Coffee & Cross-District Networking",
+  "floors": 2,
+  "capacity": 40,
+  "departments": [
+    "Artisan Barista Station",
+    "Collaborative Hack Lounge",
+    "Reading Nook"
+  ],
+  "amenities": [
+    "High-Bandwidth Open Wi-Fi",
+    "Molecular Infusion Bar",
+    "Acoustic Noise Cloak"
+  ],
+  "power_consumption_mw": 2.1,
+  "active_projects": [],
+  "security_level": "Level 1 - Public Access",
+  "maintenance_status": "Optimal"
 }

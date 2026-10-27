@@ -1,24 +1,41 @@
 {
   "id": "bldg-023",
-  "name": "Freya's Company Headquarters #55",
-  "type": "Company Headquarters",
+  "name": "Drone Logistics Freight Port",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    7.5,
-    32.6,
-    19.1
+    85.0,
+    14.0,
+    -135.0
   ],
   "size": [
-    25.2,
-    65.2,
-    20.8
+    26.0,
+    28.0,
+    26.0
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-038",
-  "builder_name": "Freya Mason",
-  "district": "Silicon Central",
+  "color": "#ea580c",
+  "builder_id": "agent-023",
+  "builder_name": "Orville Wright",
+  "district": "Industrial Harbor & Transit Hub",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Freya Mason for Company Headquarters operations"
+  "purpose": "Automated Aerial Freight Logistics & Last-Mile Drone Routing",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [
+    "drone_mesh.py"
+  ],
+  "security_level": "Level 4 - Freight Port",
+  "maintenance_status": "Optimal"
 }

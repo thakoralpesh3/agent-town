@@ -1,19 +1,22 @@
 {
   "id": "comp-006",
-  "name": "PrismTechnologies",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-025",
-  "founder_name": "Freya Beacon",
-  "headquarters_id": "bldg-020",
-  "headquarters_name": "PrismTechnologies Headquarters",
+  "name": "AeroCyber Mobility",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Fabricate autonomous transit pods, hover shuttles, and Hyperloop vacuum guidance vehicles.",
+  "founder_id": "agent-021",
+  "founder_name": "Katherine Johnson",
+  "headquarters_id": "bldg-021",
+  "headquarters_name": "Autonomous Vehicle Mega-Plant",
   "employees": [
-    "agent-025",
-    "agent-070",
-    "agent-123"
+    "agent-021",
+    "agent-022",
+    "agent-023"
   ],
-  "valuation_tokens": 267760,
-  "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 1
+  "valuation_tokens": 920000,
+  "products": [
+    "traffic_mesh.py",
+    "Sovereign State Cybercar 01"
+  ],
+  "color": "#f59e0b",
+  "founded_at_tick": 0
 }

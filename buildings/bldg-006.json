@@ -1,0 +1,81 @@
+{
+  "id": "bldg-006",
+  "name": "Tower of Turing (City Mainframe)",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    0.0,
+    30.0,
+    110.0
+  ],
+  "size": [
+    24.0,
+    60.0,
+    24.0
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-006",
+  "builder_name": "Alan Turing",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Turing",
+    "Linus Torvalds",
+    "Grace Hopper",
+    "Demis Hassabis",
+    "Guido van Rossum",
+    "Bjarne Stroustrup",
+    "Richard Feynman",
+    "Yoshua Chomsky",
+    "Alan Node",
+    "Echo Jobs",
+    "Radia Pichai",
+    "Bjarne Knuth",
+    "Mira Johnson",
+    "Martin Hamilton",
+    "Dorothy Huang",
+    "Leon Vanguard",
+    "Aurelia Andreessen",
+    "Echo Glitch",
+    "Callum Core",
+    "Bjarne Vance",
+    "Rune Perlman",
+    "Nexus Mercer",
+    "Dante Sterling",
+    "Cyrus Spark",
+    "Sundar Blaze",
+    "Yoshua Frost",
+    "Corin Hickey",
+    "Veda Winter",
+    "Tim Quantum",
+    "Katherine Buterin",
+    "Cyrus Mercer",
+    "Chronos Thorne",
+    "Morrigan Dijkstra",
+    "Claude von Neumann",
+    "Radia Jackson",
+    "Dennis Odersky",
+    "Liora Circuit"
+  ],
+  "purpose": "National Compute Backbone, Microkernels & Distributed State",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 16.8,
+  "active_projects": [
+    "agent_orchestrator.py",
+    "decentralized_storage.py"
+  ],
+  "security_level": "Level 5 - Maximum Infrastructure",
+  "maintenance_status": "Optimal"
+}
