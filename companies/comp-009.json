@@ -1,18 +1,20 @@
 {
   "id": "comp-009",
-  "name": "NeuroEnergy",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-076",
-  "founder_name": "Geoffrey Hamilton",
-  "headquarters_id": "bldg-029",
-  "headquarters_name": "NeuroEnergy Headquarters",
+  "name": "ChronoGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-192",
+  "founder_name": "Rich Odersky",
+  "headquarters_id": "bldg-032",
+  "headquarters_name": "ChronoGenetics Headquarters",
   "employees": [
-    "agent-076",
-    "agent-114"
+    "agent-192",
+    "agent-163",
+    "agent-166",
+    "agent-170"
   ],
-  "valuation_tokens": 431655,
+  "valuation_tokens": 200346,
   "products": [],
-  "color": "#f59e0b",
+  "color": "#00f0ff",
   "founded_at_tick": 1
 }

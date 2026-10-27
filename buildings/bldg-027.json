@@ -22,22 +22,22 @@
   "occupants": [
     "Rachel Carson",
     "Gregor Mendel",
-    "Leslie Huang",
-    "Katherine Bengio",
-    "Jensen Perlman",
-    "Cyrus Zenith",
-    "Greg von Neumann",
-    "Leander Frost",
-    "Zane Knuth",
-    "Claude Zenith",
-    "Maeve Tinkerer",
-    "Ken Prism",
-    "Zane Dahl",
-    "Morrigan Jackson",
-    "Marc Sovereign",
-    "Fei-Fei Scribe",
-    "Morrigan Chronos",
-    "Radia Vex"
+    "Cassian von Neumann",
+    "Fei-Fei Thompson",
+    "John Solstice",
+    "Valeria Forge",
+    "Brian Winter",
+    "Brian Quantum",
+    "John Lamport",
+    "Zenith Solstice",
+    "Claude Dijkstra",
+    "Ryan Weaver",
+    "Donald Prism",
+    "Satoshi Shannon",
+    "Sundar Cerf",
+    "Brian Foundry",
+    "John von Neumann",
+    "Ronan Beacon"
   ],
   "purpose": "Bioluminescent Plant Breeding, Living Street Trees & Natural Preserve",
   "floors": 1,
@@ -57,5 +57,8 @@
     "urban_botanist.py"
   ],
   "security_level": "Level 1 - Public Access",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "LOUNGE",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -1,20 +1,20 @@
 {
   "id": "comp-014",
-  "name": "TerraVentures",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-171",
-  "founder_name": "Margaret Cross",
-  "headquarters_id": "bldg-053",
-  "headquarters_name": "TerraVentures Headquarters",
+  "name": "AxiomSolutions",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-208",
+  "founder_name": "Andrej Spark",
+  "headquarters_id": "bldg-045",
+  "headquarters_name": "AxiomSolutions Headquarters",
   "employees": [
-    "agent-171",
-    "agent-131",
-    "agent-165",
-    "agent-308"
+    "agent-208",
+    "agent-212",
+    "agent-151",
+    "agent-074"
   ],
-  "valuation_tokens": 409168,
+  "valuation_tokens": 623980,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 5
+  "color": "#10b981",
+  "founded_at_tick": 2
 }

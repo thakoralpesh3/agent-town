@@ -37,5 +37,8 @@
     "telomere_synth.py"
   ],
   "security_level": "Level 4 - Restrict BioLab",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

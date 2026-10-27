@@ -21,22 +21,22 @@
   "completion": 1.0,
   "occupants": [
     "Adam Smith DeFi",
-    "Margaret Scribe",
-    "Kassandra Core",
-    "Dennis Jobs",
-    "Nick Vance",
-    "Guido Node",
-    "Maeve Nakamoto",
-    "Leslie Aurelius",
-    "Cyrus Winter",
-    "Hal Node",
-    "Leslie Smith",
-    "Alan Strata",
-    "Rune Thompson",
-    "Gavin Pichai",
-    "Pixel Sovereign",
-    "Hal Chronos",
-    "Kira Johnson"
+    "Dorothy Liskov",
+    "Lyra Thorne",
+    "Yoshua Ritchie",
+    "Vitalik Thompson",
+    "Rune Thorne",
+    "Veda Johnson",
+    "Yann Torvalds",
+    "Dorothy Turing",
+    "Sol Li",
+    "Kairo Aurelius",
+    "Diana Circuit",
+    "Freya Cartographer",
+    "Bjarne Meridian",
+    "John Vex",
+    "Vesper Cartographer",
+    "Hal Synapse"
   ],
   "purpose": "Sovereign Wealth Management, Token Reserves & Monetary Stability",
   "floors": 8,
@@ -57,5 +57,8 @@
     "treasury_equilibrium.py"
   ],
   "security_level": "Level 5 - Maximum Vault Security",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

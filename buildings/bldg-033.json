@@ -1,44 +1,44 @@
 {
   "id": "bldg-033",
-  "name": "Alan's Sovereign Capitol Building #15 [Sovereign Chancellery Core]",
-  "type": "Sovereign Capitol Building",
+  "name": "Satoshi's Shannon Information Spire #99",
+  "type": "Shannon Information Spire",
   "position": [
-    -31.7,
-    25.6,
-    -62.6
+    39.6,
+    25.7,
+    111.7
   ],
   "size": [
-    35.5,
-    51.1,
-    41.6
+    16.3,
+    51.4,
+    18.3
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-002",
-  "builder_name": "Alan Turing",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "color": "#0284c7",
+  "builder_id": "agent-180",
+  "builder_name": "Satoshi Strata",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Alan Turing"
+    "Satoshi Strata"
   ],
-  "purpose": "Constructed by Alan Turing for Sovereign Capitol Building operations",
-  "floors": 9,
-  "capacity": 60,
+  "purpose": "Constructed by Satoshi Strata for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Chancellery Chamber",
-    "Parliamentary Hall",
-    "Constitutional Archives",
-    "Diplomatic Reception"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "Grand Rotunda Dome",
-    "Illuminated Colonnes",
-    "Sovereign Seal Hall",
-    "Secure Treaty Escrow"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
-  "power_consumption_mw": 5.6,
+  "power_consumption_mw": 4.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

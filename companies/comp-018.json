@@ -1,20 +1,20 @@
 {
   "id": "comp-018",
-  "name": "StellarIntell",
+  "name": "QuantumSynthetics",
   "sector": "Cyber Infrastructure & Sovereign Cloud",
   "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-191",
-  "founder_name": "Jensen Odersky",
-  "headquarters_id": "bldg-067",
-  "headquarters_name": "StellarIntell Headquarters",
+  "founder_id": "agent-262",
+  "founder_name": "Hal Synapse",
+  "headquarters_id": "bldg-051",
+  "headquarters_name": "QuantumSynthetics Headquarters",
   "employees": [
-    "agent-191",
-    "agent-285",
-    "agent-156",
-    "agent-254"
+    "agent-262",
+    "agent-241",
+    "agent-057",
+    "agent-234"
   ],
-  "valuation_tokens": 474106,
+  "valuation_tokens": 154770,
   "products": [],
   "color": "#00f0ff",
-  "founded_at_tick": 6
+  "founded_at_tick": 3
 }

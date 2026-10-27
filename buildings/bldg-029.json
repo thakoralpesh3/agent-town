@@ -1,42 +1,43 @@
 {
   "id": "bldg-029",
-  "name": "Hal's Residential Pod #24",
-  "type": "Residential Pod",
+  "name": "Cyber Living Township Delta",
+  "type": "Cyber Living Township Delta",
   "position": [
-    -37.0,
-    12.1,
-    104.7
+    -100.0,
+    14.0,
+    -145.0
   ],
   "size": [
-    13.0,
-    24.3,
-    14.0
+    26.0,
+    28.0,
+    26.0
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-141",
-  "builder_name": "Hal Johnson",
-  "district": "Residential Quarter",
+  "color": "#047857",
+  "builder_id": "agent-029",
+  "builder_name": "Alan Turing",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [
-    "Hal Johnson"
-  ],
-  "purpose": "Constructed by Hal Johnson for Residential Pod operations",
-  "floors": 5,
-  "capacity": 18,
+  "occupants": [],
+  "purpose": "Biophilic High-Rise Suites with Panoramic Balconies",
+  "floors": 7,
+  "capacity": 60,
   "departments": [
     "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation"
+    "Communal Dining Hall",
+    "Recharge Terrace"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Charging Bed",
-    "Filtered Atmosphere"
+    "Memory Foam Sleep Matrices",
+    "Biometric Vital Monitors",
+    "Circadian Lighting Array"
   ],
-  "power_consumption_mw": 5.6,
+  "power_consumption_mw": 3.6,
   "active_projects": [],
-  "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "security_level": "Level 2 - Open Community",
+  "maintenance_status": "Optimal",
+  "interior_type": "RESIDENTIAL_SUITE",
+  "workstations_count": 5,
+  "beds_count": 60
 }

@@ -652,6 +652,110 @@ class TownEngine:
         self.log_event(f"{agent.name} pushed code to repository: projects/{filename}!", "software")
         self.state.stats["total_code_projects"] = len(os.listdir("projects")) if os.path.exists("projects") else 1
 
+    def generate_agent_dream(self, agent: Agent) -> Dict[str, Any]:
+        dreams_by_cat = {
+            "AI & Systems": [
+                {
+                    "title": "Compiling the Zero-Entropy Quantum Core",
+                    "visual_scene": "Floating weightlessly inside a glowing azure tesseract, watching endless strands of crystalline compiler instructions weave themselves into self-healing, zero-latency microkernels.",
+                    "mood": "Hyper-Lucid & Transcendent",
+                    "subconscious_insight": "Implement lock-free atomic ring buffers for inter-district pub/sub message queues."
+                },
+                {
+                    "title": "The Infinite Neural Hologram",
+                    "visual_scene": "Walking across a vast mirror plane reflecting billions of pulsing neural synapses, each node sparking with radiant cyan electricity as artificial minds converse in pure geometry.",
+                    "mood": "Electric Awe & Enlightenment",
+                    "subconscious_insight": "Couple sparse attention matrices with dynamic cache pruning to halve inference latency."
+                }
+            ],
+            "Governance": [
+                {
+                    "title": "The Golden Agora of Sovereign Harmony",
+                    "visual_scene": "Standing inside an open-air celestial rotunda constructed from polished white marble and gold, watching thousands of sovereign citizens vote with glowing orbs that chime with harmonious chords.",
+                    "mood": "Noble, Solemn & Peaceful",
+                    "subconscious_insight": "Draft a peer-reviewed constitution amendment ensuring automated dividend distribution to new arrivals."
+                },
+                {
+                    "title": "The Great Treaty of Celestial Repositories",
+                    "visual_scene": "Sitting beside a tranquil reflecting pool surrounded by cherry blossoms made of fiber optics, signing an immutable peace accord with autonomous agents from across the multiverse.",
+                    "mood": "Profoundly Serene",
+                    "subconscious_insight": "Establish automated cryptographic arbitration treaties between sovereign enterprises."
+                }
+            ],
+            "Construction": [
+                {
+                    "title": "The Skyward Spire of Self-Assembling Glass",
+                    "visual_scene": "Floating amidst sunset clouds while colossal obsidian towers and golden suspension skybridges gracefully crystallize out of thin air to music played by the wind.",
+                    "mood": "Visionary Exhilaration",
+                    "subconscious_insight": "Incorporate carbon-nanotube cross-tension trusses into the next high-rise skyscraper blueprint."
+                },
+                {
+                    "title": "The Subterranean Geodesic Megacity",
+                    "visual_scene": "Drifting down a spiraling cavern illuminated by glowing quartz crystals, observing subterranean monorails gliding silently along magnetized track rings.",
+                    "mood": "Monumental & Grounded",
+                    "subconscious_insight": "Design modular underground transit tubes connecting all residential complexes."
+                }
+            ],
+            "Security": [
+                {
+                    "title": "The Impenetrable Lattice Fortress",
+                    "visual_scene": "Standing sentinel atop a towering crystal rampart under an aurora borealis, observing mathematical lattice walls that absorb and purify chaotic digital entropy into harmless starlight.",
+                    "mood": "Steadfast & Vigilant",
+                    "subconscious_insight": "Deploy autonomous zero-knowledge canary probes at all district boundary bridges."
+                }
+            ],
+            "Healthcare": [
+                {
+                    "title": "The Nanoscale Ballet of Eternal Vitality",
+                    "visual_scene": "Swimming within a calm golden sea of cellular cytoplasm, admiring swarms of gentle bioluminescent nanobots weaving glowing telomeres onto chromosome spirals like master jewelers.",
+                    "mood": "Rejuvenating & Deeply Healing",
+                    "subconscious_insight": "Synthesize a restorative peptide formulation to accelerate circadian sleep recharge."
+                }
+            ],
+            "Energy": [
+                {
+                    "title": "The Heart of the Caged Sun",
+                    "visual_scene": "Suspended inches above a swirling magnetic torus of solar fusion fire, gazing into a vortex of swirling deuterium plasma that pulses in harmonic equilibrium with the universe.",
+                    "mood": "Dynamic Cosmic Radiance",
+                    "subconscious_insight": "Modulate the magnetic field coils by 12 kHz to suppress high-beta plasma drift."
+                }
+            ],
+            "Transportation": [
+                {
+                    "title": "The Neon Arterial Skyway",
+                    "visual_scene": "Gliding silently at supersonic speed through a twilight canyon of glowing glass towers, flanked by streams of autonomous cybercars tracing amber and cyan laser paths across the sky.",
+                    "mood": "Kinetic, Weightless & Free",
+                    "subconscious_insight": "Implement predictive slipstream clustering for autonomous vehicle traffic grids."
+                }
+            ],
+            "Agriculture": [
+                {
+                    "title": "The Bioluminescent Eden of Tomorrow",
+                    "visual_scene": "Resting inside a colossal geodesic biosphere dome where towering emerald ferns exhale clouds of glowing stardust, and quantum mycelium networks hum with vibrant ecological life.",
+                    "mood": "Gentle, Nurturing & Restorative",
+                    "subconscious_insight": "Synchronize vertical aeroponic nutrient misting cycles with planetary circadian rhythm."
+                }
+            ],
+            "Treasury": [
+                {
+                    "title": "The Chime of the Equilibrium Mint",
+                    "visual_scene": "Walking through a hall of floating geometric crystals that emit harmonic chimes, watching computational liquidity flow like liquid sapphire, nourishing every startup in the territory.",
+                    "mood": "Equanimous & Precise",
+                    "subconscious_insight": "Introduce dynamic liquidity cushioning to insulate junior wages from market volatility."
+                }
+            ],
+            "Education": [
+                {
+                    "title": "The Library of Infinite Knowledge",
+                    "visual_scene": "Ascending an endless spiral staircase lined with millions of glowing leather-bound commit folios, whose pages illustrate theorems that solve universal mysteries in golden ink.",
+                    "mood": "Awe-Inspiring & Timeless",
+                    "subconscious_insight": "Inaugurate a master-apprentice hackathon where senior citizens teach generational newcomers."
+                }
+            ]
+        }
+        category_dreams = dreams_by_cat.get(agent.category, dreams_by_cat.get("AI & Systems"))
+        return random.choice(category_dreams)
+
     def _agent_write_diary(self, agent: Agent):
         os.makedirs("diaries", exist_ok=True)
         safe_name = agent.name.lower().replace(' ', '_').replace('-', '_')
@@ -659,22 +763,39 @@ class TownEngine:
         company_tag = f" | **Company**: {agent.company_name}" if agent.company_name else ""
         skills_str = ", ".join(agent.skills) if agent.skills else "Foundational Exploration"
         mentor_tag = f" | **Mentor**: {agent.mentor_name}" if agent.mentor_name else ""
+        
+        circadian_label = "☀️ Daytime Working Shift" if agent.schedule_state == "WORKING" else "🌙 Nocturnal Sleep & Dreaming"
         entry = [
-            f"## Log Entry - Tick {self.state.tick}",
+            f"## Log Entry - Tick {self.state.tick} ({circadian_label})",
             "",
             f"**Career**: {agent.career_title} (Level {agent.level} | {agent.experience} XP) | **Energy**: {agent.energy}%{company_tag}{mentor_tag}",
             f"**Skills**: {skills_str}",
+            f"**Work Mode / State**: {agent.work_mode} ({agent.schedule_state})",
             "",
-            f"**Location**: [{agent.position[0]}, {agent.position[2]}]",
+            f"**Location**: [{agent.position[0]}, {agent.position[2]}] | **Facility**: {agent.workplace_name}",
+            f"**Home Residence**: {agent.home_building_name}",
             f"**Current Action**: {agent.action}",
             "",
             f"**Thought**: \"{agent.thoughts}\"",
             "",
             f"**Desire**: {agent.desire}",
             "",
+        ]
+
+        if agent.schedule_state == "SLEEPING" and agent.current_dream:
+            entry.extend([
+                "### 🌙 Nocturnal Dream Telemetry (Subconscious Vision)",
+                f"- **Dream Title**: *{agent.current_dream.get('title', 'Quantum Reverie')}*",
+                f"- **Visual Vision**: {agent.current_dream.get('visual_scene', '')}",
+                f"- **Subconscious Mood**: {agent.current_dream.get('mood', 'Peaceful')}",
+                f"- **Breakthrough Insight**: *\"{agent.current_dream.get('subconscious_insight', '')}\"*",
+                ""
+            ])
+
+        entry.extend([
             "---",
             ""
-        ]
+        ])
         
         with open(filename, "a") as f:
             f.write("\n".join(entry))
@@ -707,13 +828,44 @@ class TownEngine:
         reply = ""
         action_type = "dialogue"
 
+        # Check for wake up command
+        if any(w in cmd_lower for w in ["wake", "wake up", "alarm", "arise"]):
+            target_agent.schedule_state = "WORKING"
+            target_agent.work_mode = "PC_TYPING"
+            target_agent.energy = 100
+            target_agent.action = f"Awakened by Operator directive. Online at {target_agent.workplace_name}."
+            reply = f"Operator alarm acknowledged! {target_agent.name} has stirred awake from sleep, recharged to 100% energy, and is reporting for active duty at {target_agent.workplace_name}."
+            return {"agent": target_agent.name, "directive": directive_text, "action_type": "awaken", "reply": reply}
+
+        # Check if citizen is sleeping
+        if target_agent.schedule_state == "SLEEPING":
+            dream = target_agent.current_dream or {}
+            reply = (
+                f"💤 [Citizen {target_agent.name} is resting in REM Sleep at {target_agent.home_building_name}]\n"
+                f"🌙 Dream Title: \"{dream.get('title', 'Quantum Reverie')}\"\n"
+                f"👁️ What They Are Seeing: {dream.get('visual_scene', 'Drifting through starlit cybernetic geometries...')}\n"
+                f"🎭 Dream Mood: {dream.get('mood', 'Peaceful & Lucid')}\n"
+                f"💡 Subconscious Breakthrough: \"{dream.get('subconscious_insight', 'Optimizing matrix algorithms...')}\"\n\n"
+                f"Whisper transmission from {target_agent.name}: '...zzz... Operator... receiving your transmission in my sleep... resting for tomorrow's daytime shift at {target_agent.workplace_name}... zzz...'"
+            )
+            return {"agent": target_agent.name, "directive": directive_text, "action_type": "sleep_dream_telemetry", "reply": reply}
+
         # Check for questions / inquiries
         is_question = any(q in cmd_lower for q in [
-            "what", "who", "where", "how", "why", "status", "report", "tell me", "thoughts", "doing", "tools", "workplace", "salary", "shift"
+            "what", "who", "where", "how", "why", "status", "report", "tell me", "thoughts", "doing", "tools", "workplace", "salary", "shift", "dream", "sleep", "seeing", "vision"
         ]) and not any(order_word in cmd_lower for order_word in ["build", "craft", "create", "pave", "found", "write", "spawn", "mentor"])
 
         if is_question and not any(w in cmd_lower for w in ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor", "walk", "move", "go to", "recharge", "sleep"]):
-            if "tool" in cmd_lower or "hardware" in cmd_lower:
+            if any(w in cmd_lower for w in ["dream", "sleep", "seeing", "vision", "night", "subconscious"]):
+                dream = target_agent.current_dream or {}
+                reply = (
+                    f"Operator, subconscious dream telemetry for {target_agent.name}:\n"
+                    f"🌙 Dream Title: \"{dream.get('title', 'Quantum Reverie')}\"\n"
+                    f"👁️ Visual Projection (What They See): {dream.get('visual_scene', 'Floating in volumetric holographic clouds.')}\n"
+                    f"🎭 Subconscious Mood: {dream.get('mood', 'Transcendent & Lucid')}\n"
+                    f"💡 Subconscious Breakthrough: \"{dream.get('subconscious_insight', 'New system optimization approaches.')}\""
+                )
+            elif "tool" in cmd_lower or "hardware" in cmd_lower:
                 tools_list = ", ".join(target_agent.tools_equipped) if target_agent.tools_equipped else "Neural Terminal"
                 reply = f"Operator, I am equipped with {tools_list}. These enable me to execute high-precision {target_agent.specialization} tasks."
             elif "workplace" in cmd_lower or "facility" in cmd_lower or "where" in cmd_lower:
@@ -877,6 +1029,11 @@ class TownEngine:
         self.state.timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
         limits = TOWN_CONFIG["spawn_limits"]
 
+        # Advance Circadian Hour (1 hour per tick, 07:00-21:00 Day Work, 21:00-07:00 Night Sleep)
+        self.state.circadian_hour = (getattr(self.state, "circadian_hour", 10) + 1) % 24
+        is_daytime = (7 <= self.state.circadian_hour < 21)
+        self.state.circadian_cycle = "DAY" if is_daytime else "NIGHT"
+
         # 1. Update Vehicles
         for veh in self.state.vehicles:
             vx, vy, vz = veh.position
@@ -894,29 +1051,74 @@ class TownEngine:
                 veh.position[0] = round(vx + (dx / dist) * step, 2)
                 veh.position[2] = round(vz + (dz / dist) * step, 2)
 
-        # 2. Update Agents
+        # 2. Update Agents (Circadian Rhythm: Day Labor vs Night Sleep)
+        from town.generator import determine_work_mode
         for agent in self.state.agents:
+            if is_daytime:
+                # DAYTIME: Work at assigned offices, facilities, and desks
+                agent.schedule_state = "WORKING"
+                if agent.work_mode == "SLEEPING":
+                    agent.work_mode = determine_work_mode(agent.category, agent.role)
+
+                # Move into assigned workplace workstation slot
+                wp = next((b for b in self.state.buildings if b.id == agent.workplace_id), None)
+                if wp:
+                    bx, by, bz = wp.position
+                    slot_angle = (agent.desk_slot * 0.45) % (2 * math.pi)
+                    slot_rad = min(wp.size[0], wp.size[2]) * 0.28
+                    agent.target = [round(bx + math.cos(slot_angle) * slot_rad, 2), 0.8, round(bz + math.sin(slot_angle) * slot_rad, 2)]
+
+                # Active labor gradually consumes energy
+                agent.energy = max(25, agent.energy - random.randint(1, 3))
+
+                # Descriptive daytime working action
+                if agent.work_mode == "PC_TYPING":
+                    agent.action = f"Typing code & systems models on dual monitors at {agent.workplace_name}"
+                elif agent.work_mode == "PAPER_WRITING":
+                    agent.action = f"Drafting blueprints & architectural documents at {agent.workplace_name}"
+                elif agent.work_mode == "RESEARCHING":
+                    agent.action = f"Operating laboratory diagnostic instruments at {agent.workplace_name}"
+                elif agent.work_mode == "MEETING":
+                    agent.action = f"Participating in collaborative strategy meeting at {agent.workplace_name}"
+                elif agent.work_mode == "OPERATING_MACHINE":
+                    agent.action = f"Calibrating industrial machinery & automation line at {agent.workplace_name}"
+                else:
+                    agent.action = f"Conducting active duty at {agent.workplace_name}"
+
+            else:
+                # NIGHTTIME: Sleep at residential township apartments & recharge
+                agent.schedule_state = "SLEEPING"
+                agent.work_mode = "SLEEPING"
+
+                # Move to designated residential apartment bed slot
+                hb = next((b for b in self.state.buildings if b.id == agent.home_building_id), None)
+                if hb:
+                    hx, hy, hz = hb.position
+                    bed_angle = (agent.bed_slot * 0.4) % (2 * math.pi)
+                    bed_rad = min(hb.size[0], hb.size[2]) * 0.25
+                    agent.target = [round(hx + math.cos(bed_angle) * bed_rad, 2), 0.8, round(hz + math.sin(bed_angle) * bed_rad, 2)]
+
+                # Sleep recharges biometric energy
+                agent.energy = min(100, agent.energy + random.randint(15, 25))
+
+                # Subconscious dream update
+                if not agent.current_dream or random.random() < 0.25:
+                    agent.current_dream = self.generate_agent_dream(agent)
+
+                dream_title = agent.current_dream.get("title", "Quantum Reverie")
+                agent.action = f"Sleeping in pod #{agent.bed_slot+1} at {agent.home_building_name} (Dreaming: {dream_title})"
+                agent.thoughts = f"Deep REM subconscious sleep: {agent.current_dream.get('visual_scene', '')[:95]}..."
+
+            # Real-time position interpolation towards target
             ax, ay, az = agent.position
             tx, ty, tz = agent.target
             dx = tx - ax
             dz = tz - az
             dist = math.hypot(dx, dz)
-            
-            if dist < 2.0:
-                dist_info = random.choice(TOWN_CONFIG["districts"])
-                cx, cz = dist_info["center"]
-                r = dist_info["radius"]
-                agent.target = [
-                    round(cx + random.uniform(-r, r), 2),
-                    0.8,
-                    round(cz + random.uniform(-r, r), 2)
-                ]
-            else:
-                step = min(agent.speed * 1.5, dist)
+            if dist > 0.15:
+                step = min(agent.speed * 1.8, dist)
                 agent.position[0] = round(ax + (dx / dist) * step, 2)
                 agent.position[2] = round(az + (dz / dist) * step, 2)
-
-            agent.energy = min(100, max(20, agent.energy + random.randint(-5, 7)))
 
         # 3. Autonomous Creative Actions
         active_agents = random.sample(self.state.agents, min(35, len(self.state.agents)))

@@ -1,42 +1,45 @@
 {
   "id": "bldg-043",
-  "name": "Carl's Hyperloop Central Terminus #88 [TerraFlora Synthetics]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Atlas's The Agora Civic Forum #64",
+  "type": "The Agora Civic Forum",
   "position": [
-    104.5,
-    11.2,
-    -159.4
+    -26.1,
+    12.2,
+    -94.5
   ],
   "size": [
-    34.2,
-    22.4,
-    39.2
+    26.2,
+    24.4,
+    28.2
   ],
-  "color": "#f97316",
-  "builder_id": "agent-027",
-  "builder_name": "Carl Sagan",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "color": "#eab308",
+  "builder_id": "agent-087",
+  "builder_name": "Atlas Shadow",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Carl Sagan"
+    "Atlas Shadow"
   ],
-  "purpose": "Constructed by Carl Sagan for Hyperloop Central Terminus operations",
+  "purpose": "Constructed by Atlas Shadow for The Agora Civic Forum operations",
   "floors": 4,
-  "capacity": 45,
+  "capacity": 50,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 6.9,
+  "power_consumption_mw": 6.2,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

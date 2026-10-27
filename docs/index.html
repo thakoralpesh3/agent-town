@@ -71,6 +71,10 @@
           <span class="stat-value" id="stat-tick">0</span>
           <span class="stat-label">Tick</span>
         </div>
+        <div class="stat-item" id="circadian-badge" style="border-left: 1px solid rgba(255,255,255,0.15); padding-left: 10px;">
+          <span class="stat-value" id="stat-circadian" style="color: #facc15;"><i class="fa-solid fa-sun"></i> 10:00</span>
+          <span class="stat-label" id="stat-circadian-label">DAY (Work)</span>
+        </div>
       </div>
     </div>
 
@@ -96,6 +100,7 @@
     <button class="tool-btn active" id="cam-iso"><i class="fa-solid fa-cube"></i> <span class="btn-text">Isometric</span></button>
     <button class="tool-btn" id="cam-top"><i class="fa-solid fa-compass"></i> <span class="btn-text">Overview</span></button>
     <button class="tool-btn" id="cam-street"><i class="fa-solid fa-person-walking"></i> <span class="btn-text">Street View</span></button>
+    <button class="tool-btn" id="btn-interior-view" title="Toggle 3D Interior View (X-Ray) [Key: I]" style="border-color: rgba(0, 240, 255, 0.4);"><i class="fa-solid fa-door-open" style="color: var(--cyan-neon);"></i> <span class="btn-text">Interior View</span></button>
     <button class="tool-btn" id="btn-zoom-in"><i class="fa-solid fa-magnifying-glass-plus"></i> <span class="btn-text">Zoom In (+)</span></button>
     <button class="tool-btn" id="btn-zoom-out"><i class="fa-solid fa-magnifying-glass-minus"></i> <span class="btn-text">Zoom Out (-)</span></button>
     <button class="tool-btn" id="btn-toggle-labels"><i class="fa-solid fa-tags"></i> <span class="btn-text">Nameplates</span></button>
@@ -193,8 +198,61 @@
       </div>
     </div>
 
+    <!-- Nocturnal Sleep State & Subconscious Dream Telemetry Card (Shown when Sleeping) -->
+    <div class="dream-telemetry-card" id="insp-dream-card" style="display: none;">
+      <div class="dream-card-header">
+        <div class="dream-status-pill">
+          <span class="dream-pulse-dot"></span>
+          <i class="fa-solid fa-moon"></i> DEEP REM SLEEP // ENERGY RECHARGE
+        </div>
+        <span class="dream-bed-label" id="insp-dream-bed"><i class="fa-solid fa-bed"></i> Pod #12</span>
+      </div>
+
+      <div class="dream-title-box">
+        <span class="dream-label-sub">ACTIVE SUBCONSCIOUS DREAM</span>
+        <h3 class="dream-title" id="insp-dream-title">Compiling the Zero-Entropy Quantum Core</h3>
+      </div>
+
+      <div class="dream-scene-box">
+        <span class="dream-label-sub"><i class="fa-solid fa-eye" style="color: #38bdf8;"></i> WHAT THE CITIZEN IS SEEING:</span>
+        <p class="dream-scene-text" id="insp-dream-scene">
+          "Floating weightlessly inside a glowing azure tesseract, watching endless strands of crystalline compiler instructions weave themselves into self-healing, zero-latency microkernels."
+        </p>
+      </div>
+
+      <div class="dream-meta-row">
+        <div class="dream-meta-item">
+          <span class="dm-label">DREAMSCAPE MOOD</span>
+          <span class="dm-val" id="insp-dream-mood" style="color: #c084fc;">Lucid & Transcendent</span>
+        </div>
+        <div class="dream-meta-item">
+          <span class="dm-label">RECHARGE RATE</span>
+          <span class="dm-val" id="insp-dream-recharge" style="color: #22c55e;">+20% Energy/Tick</span>
+        </div>
+      </div>
+
+      <div class="dream-insight-box">
+        <div class="di-header"><i class="fa-solid fa-lightbulb" style="color: #facc15;"></i> SUBCONSCIOUS BREAKTHROUGH INSIGHT</div>
+        <div class="di-text" id="insp-dream-insight">"Implement lock-free atomic ring buffers for inter-district pub/sub message queues."</div>
+      </div>
+    </div>
+
+    <!-- Daytime Working Shift & Workstation Card (Shown when Working) -->
+    <div class="work-mode-card" id="insp-work-mode-card">
+      <div class="wm-header">
+        <span class="wm-shift-badge"><i class="fa-solid fa-sun" style="color: #facc15;"></i> DAYTIME WORKING SHIFT</span>
+        <span class="wm-desk-label" id="insp-wm-desk"><i class="fa-solid fa-desktop"></i> Workstation #5</span>
+      </div>
+      <div class="wm-mode-title" id="insp-wm-mode-title">
+        <i class="fa-solid fa-keyboard" style="color: var(--cyan-neon);"></i> PC Workstation (Dual-Monitor Development)
+      </div>
+      <div class="wm-desc" id="insp-wm-desc">
+        Actively typing code & systems models on dual glowing LED monitors at assigned facility workstation.
+      </div>
+    </div>
+
     <!-- Live Current Action -->
-    <div class="inspector-section">
+    <div class="inspector-section" id="insp-action-section">
       <span class="section-title"><i class="fa-solid fa-bolt" style="color: var(--cyan-neon);"></i> Current Work & Task</span>
       <div class="status-highlight-card" id="insp-action">
         Constructing Solar Fusion Skyscraper #22
@@ -345,6 +403,12 @@
         <div class="quick-orders-row">
           <button class="quick-order-chip" data-directive="What are you working on right now?">
             <i class="fa-solid fa-comment-dots"></i> Live Status
+          </button>
+          <button class="quick-order-chip" id="btn-quick-dream" data-directive="What kind of dream are you having and what are you seeing?">
+            <i class="fa-solid fa-moon" style="color: #c084fc;"></i> Inspect Dream
+          </button>
+          <button class="quick-order-chip" data-directive="Operator priority alert: Wake up for urgent duty!">
+            <i class="fa-solid fa-bell" style="color: #facc15;"></i> Order: Wake Up
           </button>
           <button class="quick-order-chip" data-directive="What are your thoughts and ambition?">
             <i class="fa-solid fa-brain"></i> Thoughts

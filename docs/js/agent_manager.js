@@ -260,6 +260,44 @@ class AgentManager {
     ring.name = "selectionRing";
     humanGroup.add(ring);
 
+    // 11. 3D Floating Dream Particle & "Zzz" Bubble Indicator
+    const dreamGroup = new THREE.Group();
+    dreamGroup.position.set(0, 0.4, 0);
+
+    const mainBubbleMat = new THREE.MeshBasicMaterial({ color: 0xa855f7, transparent: true, opacity: 0.8 });
+    const mainBubble = new THREE.Mesh(new THREE.SphereGeometry(0.24, 12, 12), mainBubbleMat);
+    mainBubble.position.set(0.1, 2.3, 0);
+    dreamGroup.add(mainBubble);
+
+    const subBubbleMat = new THREE.MeshBasicMaterial({ color: 0x38bdf8, transparent: true, opacity: 0.75 });
+    const subBubble1 = new THREE.Mesh(new THREE.SphereGeometry(0.12, 8, 8), subBubbleMat);
+    subBubble1.position.set(-0.15, 2.12, 0.08);
+    dreamGroup.add(subBubble1);
+
+    const subBubble2 = new THREE.Mesh(new THREE.SphereGeometry(0.06, 6, 6), new THREE.MeshBasicMaterial({ color: 0xf472b6, transparent: true, opacity: 0.75 }));
+    subBubble2.position.set(-0.26, 1.98, 0.12);
+    dreamGroup.add(subBubble2);
+
+    // Glowing "Zzz" Canvas Sprite
+    const zCanvas = document.createElement('canvas');
+    zCanvas.width = 128;
+    zCanvas.height = 64;
+    const zctx = zCanvas.getContext('2d');
+    zctx.font = 'bold 36px sans-serif';
+    zctx.fillStyle = '#fef08a';
+    zctx.shadowColor = '#a855f7';
+    zctx.shadowBlur = 10;
+    zctx.fillText('Zzz 💭', 10, 45);
+    const zTex = new THREE.CanvasTexture(zCanvas);
+    const zMat = new THREE.SpriteMaterial({ map: zTex, transparent: true });
+    const zSprite = new THREE.Sprite(zMat);
+    zSprite.position.set(0.2, 2.45, 0);
+    zSprite.scale.set(1.1, 0.55, 1);
+    dreamGroup.add(zSprite);
+
+    dreamGroup.visible = false;
+    humanGroup.add(dreamGroup);
+
     // Initial position
     const [x, y, z] = agent.position;
     humanGroup.position.set(x, 0, z);
@@ -274,6 +312,7 @@ class AgentManager {
       rightLeg: rightLegGroup,
       head: headGroup,
       ring: ring,
+      dreamGroup: dreamGroup,
       animPhase: Math.random() * Math.PI * 2
     };
 
@@ -313,36 +352,115 @@ class AgentManager {
       const dist = Math.hypot(dx, dz);
       const isWalking = dist > 0.08;
 
-      if (isWalking) {
-        // Rotate towards movement direction
-        const targetAngle = Math.atan2(dx, dz);
-        mesh.rotation.y = targetAngle;
+      const agent = mesh.userData.data || {};
+      const isSleeping = (agent.schedule_state === "SLEEPING") || (agent.work_mode === "SLEEPING");
+      const dreamGroup = mesh.userData.dreamGroup;
 
-        // Realistic Alternating Human Walking Stride Animation
-        const walkCycle = Math.sin(time * 10 + mesh.userData.animPhase);
+      if (isSleeping) {
+        // Human Sleep State on Bed: Lie down horizontally
+        mesh.rotation.x = -Math.PI / 2; // Flat on back
+        mesh.position.y = 0.42;         // On mattress height
 
-        // Legs swinging forward and backward
-        mesh.userData.leftLeg.rotation.x = walkCycle * 0.65;
-        mesh.userData.rightLeg.rotation.x = -walkCycle * 0.65;
-
-        // Arms swinging in natural opposition to legs
-        mesh.userData.leftArm.rotation.x = -walkCycle * 0.55;
-        mesh.userData.rightArm.rotation.x = walkCycle * 0.55;
-
-        // Subtle vertical pelvic bounce
-        mesh.position.y = Math.abs(Math.sin(time * 10)) * 0.06;
-      } else {
-        // Idle Human Breathing & Looking Around
-        mesh.position.y = 0;
+        // Limbs resting calmly
         mesh.userData.leftLeg.rotation.x = 0;
         mesh.userData.rightLeg.rotation.x = 0;
+        mesh.userData.leftArm.rotation.x = 0;
+        mesh.userData.rightArm.rotation.x = 0;
+        mesh.userData.head.rotation.x = 0;
+        mesh.userData.head.rotation.y = 0;
 
-        // Idle arm posture
-        mesh.userData.leftArm.rotation.x = Math.sin(time * 2 + mesh.userData.animPhase) * 0.08;
-        mesh.userData.rightArm.rotation.x = -Math.sin(time * 2 + mesh.userData.animPhase) * 0.08;
+        // Animate Floating 3D "Zzz" & Glowing Dream Particle Bubble
+        if (dreamGroup) {
+          dreamGroup.visible = true;
+          dreamGroup.position.y = Math.sin(time * 2.5 + mesh.userData.animPhase) * 0.12;
+          const dreamScale = 1.0 + Math.sin(time * 3 + mesh.userData.animPhase) * 0.08;
+          dreamGroup.scale.set(dreamScale, dreamScale, dreamScale);
+        }
+      } else {
+        // Awake: reset horizontal tilt
+        mesh.rotation.x = 0;
+        if (dreamGroup) dreamGroup.visible = false;
 
-        // Subtle head turning
-        mesh.userData.head.rotation.y = Math.sin(time * 1.2 + mesh.userData.animPhase) * 0.2;
+        if (isWalking) {
+          // Rotate towards movement direction
+          const targetAngle = Math.atan2(dx, dz);
+          mesh.rotation.y = targetAngle;
+
+          // Realistic Alternating Human Walking Stride Animation
+          const walkCycle = Math.sin(time * 10 + mesh.userData.animPhase);
+          mesh.userData.leftLeg.rotation.x = walkCycle * 0.65;
+          mesh.userData.rightLeg.rotation.x = -walkCycle * 0.65;
+          mesh.userData.leftArm.rotation.x = -walkCycle * 0.55;
+          mesh.userData.rightArm.rotation.x = walkCycle * 0.55;
+          mesh.position.y = Math.abs(Math.sin(time * 10)) * 0.06;
+          mesh.userData.head.rotation.x = 0;
+        } else {
+          // Stationary in Workplace or Civic District:
+          if (agent.work_mode === "PC_TYPING") {
+            // SITTING & TYPING AT PC WORKSTATION (using PC & monitors)
+            mesh.position.y = -0.15; // lower into chair
+            mesh.userData.leftLeg.rotation.x = -Math.PI / 2.2;  // bent at hips
+            mesh.userData.rightLeg.rotation.x = -Math.PI / 2.2; // bent at hips
+
+            // Active dual-handed keyboard typing strokes
+            mesh.userData.leftArm.rotation.x = -Math.PI / 3.2 + Math.sin(time * 14 + mesh.userData.animPhase) * 0.06;
+            mesh.userData.rightArm.rotation.x = -Math.PI / 3.2 - Math.sin(time * 14 + mesh.userData.animPhase) * 0.06;
+
+            // Head tilted forward toward glowing PC monitors
+            mesh.userData.head.rotation.x = 0.18;
+            mesh.userData.head.rotation.y = Math.sin(time * 1.5) * 0.08;
+
+          } else if (agent.work_mode === "PAPER_WRITING") {
+            // SITTING & DRAFTING ON ARCHITECTURAL BLUEPRINTS / PAPERS
+            mesh.position.y = -0.15;
+            mesh.userData.leftLeg.rotation.x = -Math.PI / 2.2;
+            mesh.userData.rightLeg.rotation.x = -Math.PI / 2.2;
+
+            // Left hand resting on paper, right hand writing with stylus
+            mesh.userData.leftArm.rotation.x = -Math.PI / 4;
+            mesh.userData.rightArm.rotation.x = -Math.PI / 3.5 + Math.sin(time * 8 + mesh.userData.animPhase) * 0.05;
+            mesh.userData.rightArm.rotation.z = Math.cos(time * 8 + mesh.userData.animPhase) * 0.04;
+
+            // Head tilted down toward blueprint sheet
+            mesh.userData.head.rotation.x = 0.28;
+            mesh.userData.head.rotation.y = 0;
+
+          } else if (agent.work_mode === "MEETING") {
+            // SITTING AT CONFERENCE TABLE PARTICIPATING IN STRATEGY MEETING
+            mesh.position.y = -0.15;
+            mesh.userData.leftLeg.rotation.x = -Math.PI / 2.2;
+            mesh.userData.rightLeg.rotation.x = -Math.PI / 2.2;
+
+            // Arms resting on table
+            mesh.userData.leftArm.rotation.x = -Math.PI / 4.5;
+            mesh.userData.rightArm.rotation.x = -Math.PI / 4.5;
+
+            // Attentive head movement conversing
+            mesh.userData.head.rotation.x = 0.05;
+            mesh.userData.head.rotation.y = Math.sin(time * 1.8 + mesh.userData.animPhase) * 0.25;
+
+          } else if (agent.work_mode === "RESEARCHING" || agent.work_mode === "OPERATING_MACHINE") {
+            // STANDING & OPERATING INSTRUMENTS / LAB ARRAYS
+            mesh.position.y = 0;
+            mesh.userData.leftLeg.rotation.x = 0;
+            mesh.userData.rightLeg.rotation.x = 0;
+
+            mesh.userData.leftArm.rotation.x = -Math.PI / 6;
+            mesh.userData.rightArm.rotation.x = -Math.PI / 3 + Math.sin(time * 3) * 0.12;
+            mesh.userData.head.rotation.x = 0.15;
+            mesh.userData.head.rotation.y = Math.sin(time * 2) * 0.1;
+
+          } else {
+            // Standard Idle Breathing & Looking Around
+            mesh.position.y = 0;
+            mesh.userData.leftLeg.rotation.x = 0;
+            mesh.userData.rightLeg.rotation.x = 0;
+            mesh.userData.leftArm.rotation.x = Math.sin(time * 2 + mesh.userData.animPhase) * 0.08;
+            mesh.userData.rightArm.rotation.x = -Math.sin(time * 2 + mesh.userData.animPhase) * 0.08;
+            mesh.userData.head.rotation.x = 0;
+            mesh.userData.head.rotation.y = Math.sin(time * 1.2 + mesh.userData.animPhase) * 0.2;
+          }
+        }
       }
 
       // Animate selection ring

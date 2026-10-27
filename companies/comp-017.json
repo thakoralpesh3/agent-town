@@ -1,19 +1,18 @@
 {
   "id": "comp-017",
-  "name": "OmniEnergy",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-143",
-  "founder_name": "Dennis Hassabis",
-  "headquarters_id": "bldg-058",
-  "headquarters_name": "OmniEnergy Headquarters",
+  "name": "DeepSynthetics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-075",
+  "founder_name": "Bob von Neumann",
+  "headquarters_id": "bldg-050",
+  "headquarters_name": "DeepSynthetics Headquarters",
   "employees": [
-    "agent-143",
-    "agent-130",
-    "agent-201"
+    "agent-075",
+    "agent-274"
   ],
-  "valuation_tokens": 527159,
+  "valuation_tokens": 638586,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 5
+  "color": "#8b5cf6",
+  "founded_at_tick": 3
 }

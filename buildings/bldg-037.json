@@ -1,42 +1,46 @@
 {
   "id": "bldg-037",
-  "name": "Nick's The Agora Civic Forum #84",
-  "type": "The Agora Civic Forum",
+  "name": "Athena's National Central Bank & Treasury #55",
+  "type": "National Central Bank & Treasury",
   "position": [
-    -155.1,
-    13.4,
-    -153.6
+    56.2,
+    23.3,
+    -10.3
   ],
   "size": [
-    32.3,
-    26.8,
-    33.6
+    34.5,
+    46.7,
+    34.3
   ],
   "color": "#eab308",
-  "builder_id": "agent-234",
-  "builder_name": "Nick Andreessen",
-  "district": "Cyber Living Townships",
+  "builder_id": "agent-039",
+  "builder_name": "Athena Vex",
+  "district": "Capitol Hill & National Plaza",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Nick Andreessen"
+    "Athena Vex"
   ],
-  "purpose": "Constructed by Nick Andreessen for The Agora Civic Forum operations",
-  "floors": 4,
-  "capacity": 50,
+  "purpose": "Constructed by Athena Vex for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 6.9,
+  "power_consumption_mw": 5.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

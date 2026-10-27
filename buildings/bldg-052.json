@@ -1,42 +1,46 @@
 {
   "id": "bldg-052",
-  "name": "Diana's The Agora Civic Forum #75",
-  "type": "The Agora Civic Forum",
+  "name": "Ken's National Central Bank & Treasury #32 [AeroCyber Mobility]",
+  "type": "National Central Bank & Treasury",
   "position": [
-    -162.6,
-    8.6,
-    -117.2
+    -26.7,
+    19.6,
+    55.0
   ],
   "size": [
-    26.4,
-    17.2,
-    29.8
+    28.9,
+    39.2,
+    29.5
   ],
   "color": "#eab308",
-  "builder_id": "agent-185",
-  "builder_name": "Diana Forge",
-  "district": "Cyber Living Townships",
-  "company_id": null,
-  "company_name": null,
+  "builder_id": "agent-023",
+  "builder_name": "Ken Thompson",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Diana Forge"
+    "Ken Thompson"
   ],
-  "purpose": "Constructed by Diana Forge for The Agora Civic Forum operations",
-  "floors": 4,
-  "capacity": 50,
+  "purpose": "Constructed by Ken Thompson for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 3.3,
+  "power_consumption_mw": 7.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -486,7 +486,56 @@ def generate_foundational_buildings() -> List[Building]:
             departments=["Botanical Biosphere", "Public Amphitheater", "Meditation Glade"],
             amenities=["Holographic Weather Canopy", "Living Mycelium Soil Mesh", "Carbon Scrubber Trees"],
             power_consumption_mw=2.5, active_projects=["urban_botanist.py"],
-            security_level="Level 1 - Public Access", maintenance_status="Optimal"
+            security_level="Level 1 - Public Access", maintenance_status="Optimal",
+            interior_type="LOUNGE", workstations_count=20, beds_count=0
+        ),
+        Building(
+            id="bldg-028", name="Cyber Living Township Gamma", type="Cyber Living Township Gamma",
+            position=[-145.0, 14.0, -100.0], size=[26.0, 28.0, 26.0], color="#15803d",
+            builder_id="agent-028", builder_name="Ada Lovelace", district="Cyber Living Townships",
+            purpose="Eco Habitation & Harmonic Resident Suites for Generational Engineers",
+            floors=7, capacity=60,
+            departments=["Residential Living", "Private Study Modules", "Biometric Circadian Suites"],
+            amenities=["Induction Sleep Pods", "Acoustic Silence Weave", "High-Flow Atmospheric Filters"],
+            power_consumption_mw=3.7, active_projects=[],
+            security_level="Level 2 - Open Community", maintenance_status="Optimal",
+            interior_type="RESIDENTIAL_SUITE", workstations_count=5, beds_count=60
+        ),
+        Building(
+            id="bldg-029", name="Cyber Living Township Delta", type="Cyber Living Township Delta",
+            position=[-100.0, 14.0, -145.0], size=[26.0, 28.0, 26.0], color="#047857",
+            builder_id="agent-029", builder_name="Alan Turing", district="Cyber Living Townships",
+            purpose="Biophilic High-Rise Suites with Panoramic Balconies",
+            floors=7, capacity=60,
+            departments=["Residential Suites", "Communal Dining Hall", "Recharge Terrace"],
+            amenities=["Memory Foam Sleep Matrices", "Biometric Vital Monitors", "Circadian Lighting Array"],
+            power_consumption_mw=3.6, active_projects=[],
+            security_level="Level 2 - Open Community", maintenance_status="Optimal",
+            interior_type="RESIDENTIAL_SUITE", workstations_count=5, beds_count=60
+        ),
+        Building(
+            id="bldg-030", name="Cyber Living Eco-Residences Epsilon", type="Cyber Living Eco-Residences Epsilon",
+            position=[-75.0, 14.0, -145.0], size=[24.0, 26.0, 24.0], color="#059669",
+            builder_id="agent-030", builder_name="Grace Hopper", district="Cyber Living Townships",
+            purpose="Modular Eco-Habitation Suites for Creative & Scientific Apprentices",
+            floors=6, capacity=60,
+            departments=["Residential Suites", "Sky Lounge", "Communal Kitchen"],
+            amenities=["Ergonomic Sleep Havens", "Aero-Garden Pods", "Filtered Mountain Air Simulators"],
+            power_consumption_mw=3.4, active_projects=[],
+            security_level="Level 2 - Open Community", maintenance_status="Optimal",
+            interior_type="RESIDENTIAL_SUITE", workstations_count=5, beds_count=60
+        ),
+        Building(
+            id="bldg-031", name="Sovereign Sky Apartments Zeta", type="Sovereign Sky Apartments Zeta",
+            position=[-145.0, 16.0, -70.0], size=[24.0, 32.0, 24.0], color="#0d9488",
+            builder_id="agent-031", builder_name="Claude Shannon", district="Cyber Living Townships",
+            purpose="High-Elevation Quiet Residential Apartments with Sound-Dampening Glass",
+            floors=8, capacity=60,
+            departments=["Penthouse Sleep Havens", "Mid-Rise Family Suites", "Quiet Library Glade"],
+            amenities=["Deep Sleep Harmonic Soundscape", "Zero-Gravity Pod Mattresses", "Star-Gazing Balcony"],
+            power_consumption_mw=3.8, active_projects=[],
+            security_level="Level 2 - Open Community", maintenance_status="Optimal",
+            interior_type="RESIDENTIAL_SUITE", workstations_count=5, beds_count=60
         ),
     ]
 
@@ -677,6 +726,82 @@ def get_workplace_for_agent(category: str, role: str, buildings: Optional[List[B
     b = random.choice(buildings)
     return b.id, b.name
 
+DREAM_ARCHETYPES = [
+    {
+        "title": "Compiling the Zero-Entropy Quantum Core",
+        "visual_scene": "Floating inside a colossal holographic lattice of glowing cobalt qubits, watching infinite probability waves collapse into crystalline, self-healing operating system code.",
+        "mood": "Transcendent & Lucid",
+        "subconscious_insight": "Refactor inter-district packet routing using asynchronous non-blocking topology."
+    },
+    {
+        "title": "The Golden Spires of Sovereign Geometry",
+        "visual_scene": "Standing on a suspended skybridge overlooking an endless neoclassical skyline of white marble and brass, where cybernetic arches self-assemble under a starlit aurora.",
+        "mood": "Visionary & Serene",
+        "subconscious_insight": "Integrate modular tension cables into the next skyway blueprint to double structural load limits."
+    },
+    {
+        "title": "Bioluminescent Synaptic Bloom",
+        "visual_scene": "Wandering through an ancient cybernetic forest of towering crystalline ferns, where glowing magenta mycelium transmits mathematical equations between ancient roots.",
+        "mood": "Deep Harmonious Wonder",
+        "subconscious_insight": "Introduce biological nutrient feedback algorithms to vertical aeroponic farms."
+    },
+    {
+        "title": "Supercritical Fusion Plasma Horizon",
+        "visual_scene": "Drifting weightless above a swirling magnetic torus of solar-grade fusion plasma, observing stable magnetic flux lines intertwining in pure mathematical harmony.",
+        "mood": "Hyper-Focused & Exhilarated",
+        "subconscious_insight": "Adjust magnetic containment coils by 0.04 radians to eliminate high-beta turbulence."
+    },
+    {
+        "title": "The Sovereign Constitutional Charter",
+        "visual_scene": "Sitting in a grand circular amphitheater illuminated by warm lanterns, reading an illuminated parchment where civil liberties and open-source rights shine like molten gold.",
+        "mood": "Noble & Contemplative",
+        "subconscious_insight": "Draft an automated peer arbitration protocol for inter-company repository treaties."
+    },
+    {
+        "title": "Autonomous Flight over Neon Skyways",
+        "visual_scene": "Gliding silently through a rain-slicked metropolis at twilight, watching streams of autonomous cybercars move in perfect harmonic synchrony along glowing amber light-trails.",
+        "mood": "Peaceful & Kinetic",
+        "subconscious_insight": "Implement predictive headway spacing on the arterial avenues to eliminate transit friction."
+    },
+    {
+        "title": "The Nanoscale Cellular Symphony",
+        "visual_scene": "Observing micro-swarms of luminescent nanobots gently repairing cellular DNA strands like tiny jewelers stringing together pearls of pure light.",
+        "mood": "Rejuvenating & Meticulous",
+        "subconscious_insight": "Formulate a cellular telomere stabilization serum for high-stress citizen workers."
+    },
+    {
+        "title": "The Infinite Git Ledger Chamber",
+        "visual_scene": "Ascending a spiral staircase inside an endless stone tower lined with millions of glowing leather-bound commit journals, each page humming with the genesis thoughts of pioneer coders.",
+        "mood": "Awe-Inspiring & Timeless",
+        "subconscious_insight": "Create an immutable cryptographic snapshot preserving every citizen's daily breakthroughs."
+    }
+]
+
+def get_home_for_agent(agent_index: int, buildings: Optional[List[Building]]) -> tuple:
+    residential_ids = ["bldg-017", "bldg-018", "bldg-028", "bldg-029", "bldg-030", "bldg-031"]
+    if not buildings:
+        return "bldg-017", "Cyber Living Township Alpha"
+    res_bldgs = [b for b in buildings if b.id in residential_ids or getattr(b, 'interior_type', '') == "RESIDENTIAL_SUITE"]
+    if not res_bldgs:
+        res_bldgs = [b for b in buildings if "Township" in b.name or "Apartments" in b.name]
+    if not res_bldgs:
+        b = buildings[0]
+        return b.id, b.name
+    chosen = res_bldgs[agent_index % len(res_bldgs)]
+    return chosen.id, chosen.name
+
+def determine_work_mode(category: str, role: str) -> str:
+    role_lower = role.lower()
+    if any(k in role_lower for k in ["architect", "lawyer", "justice", "sculptor", "cartographer", "charter", "scribe"]):
+        return "PAPER_WRITING"
+    if any(k in role_lower for k in ["biologist", "surgeon", "doctor", "botanist", "physicist", "nanotech", "chemist"]):
+        return "RESEARCHING"
+    if any(k in role_lower for k in ["machinist", "mechanic", "operator", "plasma", "plant", "gantry"]):
+        return "OPERATING_MACHINE"
+    if any(k in role_lower for k in ["director", "chancellor", "minister", "ambassador", "governor", "council"]):
+        return "MEETING"
+    return "PC_TYPING"
+
 def generate_initial_agents(count: int = 320, companies: List[Company] = None, buildings: List[Building] = None) -> List[Agent]:
     agents = []
     used_names = set()
@@ -743,6 +868,9 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
         salary = role_meta.get("salary", 18000)
 
         workplace_id, workplace_name = get_workplace_for_agent(cat, role, buildings)
+        home_id, home_name = get_home_for_agent(idx, buildings)
+        work_mode = determine_work_mode(cat, role)
+        dream = DREAM_ARCHETYPES[idx % len(DREAM_ARCHETYPES)]
         if buildings and workplace_id:
             bldg = next((b for b in buildings if b.id == workplace_id), None)
             if bldg and name not in bldg.occupants:
@@ -786,8 +914,15 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
             total_contributions=random.randint(20, 50),
             company_id=comp.id if comp else None,
             company_name=comp.name if comp else None,
+            home_building_id=home_id,
+            home_building_name=home_name,
+            schedule_state="WORKING",
+            work_mode=work_mode,
+            current_dream=dream,
+            desk_slot=idx % 30,
+            bed_slot=idx % 60,
             created_at_tick=0,
-            last_diary=f"Established national operations at {workplace_name} in {dist['name']}. Ready to guide the sovereign workforce."
+            last_diary=f"Established national operations at {workplace_name} in {dist['name']}. Residing at {home_name}. Ready to guide the sovereign workforce."
         )
         agents.append(agent)
 
@@ -827,6 +962,9 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
             comp.employees.append(agent_id)
 
         workplace_id, workplace_name = get_workplace_for_agent(cat, role, buildings)
+        home_id, home_name = get_home_for_agent(idx, buildings)
+        work_mode = determine_work_mode(cat, role)
+        dream = DREAM_ARCHETYPES[idx % len(DREAM_ARCHETYPES)]
         if buildings and workplace_id:
             bldg = next((b for b in buildings if b.id == workplace_id), None)
             if bldg and name not in bldg.occupants:
@@ -877,8 +1015,15 @@ def generate_initial_agents(count: int = 320, companies: List[Company] = None, b
             total_contributions=random.randint(1, 15),
             company_id=comp.id if comp else None,
             company_name=comp.name if comp else None,
+            home_building_id=home_id,
+            home_building_name=home_name,
+            schedule_state="WORKING",
+            work_mode=work_mode,
+            current_dream=dream,
+            desk_slot=idx % 30,
+            bed_slot=idx % 60,
             created_at_tick=0,
-            last_diary=f"Stationed at {workplace_name} in {dist['name']}. Dedicated to {specialization}."
+            last_diary=f"Stationed at {workplace_name} in {dist['name']}. Residing at {home_name}. Dedicated to {specialization}."
         )
         if mentor:
             mentor.mentees.append(name)
@@ -951,6 +1096,8 @@ def generate_initial_state() -> TownState:
     return TownState(
         tick=0,
         timestamp=now,
+        circadian_cycle="DAY",
+        circadian_hour=10,
         population=len(agents),
         agents=agents,
         companies=companies,

@@ -1,24 +1,45 @@
 {
   "id": "bldg-049",
-  "name": "Ronan's Vehicle Factory #86 [AeroDynamics]",
-  "type": "Vehicle Factory",
+  "name": "Ilya's Cyber Living Township Beta #85",
+  "type": "Cyber Living Township Beta",
   "position": [
-    115.8,
-    7.6,
-    -49.9
+    -92.9,
+    18.9,
+    -71.0
   ],
   "size": [
-    23.8,
-    15.3,
-    24.6
+    27.3,
+    37.8,
+    27.0
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-189",
-  "builder_name": "Ronan Shadow",
-  "district": "Industrial Sector",
-  "company_id": "comp-008",
-  "company_name": "AeroDynamics",
+  "color": "#16a34a",
+  "builder_id": "agent-206",
+  "builder_name": "Ilya Berners-Lee",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Ronan Shadow for Vehicle Factory operations"
+  "occupants": [
+    "Ilya Berners-Lee"
+  ],
+  "purpose": "Constructed by Ilya Berners-Lee for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 6.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

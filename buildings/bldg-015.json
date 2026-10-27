@@ -35,5 +35,8 @@
   "power_consumption_mw": 6.5,
   "active_projects": [],
   "security_level": "Level 3 - Emergency Access",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

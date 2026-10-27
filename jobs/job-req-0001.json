@@ -1,14 +1,14 @@
 {
   "id": "job-req-0001",
-  "role": "DeFi Liquidity Overseer",
-  "category": "Treasury",
-  "specialization": "Dynamic Capital Reserves & Slippage Balancing",
+  "role": "Wildlife Corridors Manager",
+  "category": "Ecology",
+  "specialization": "Safe Animal Transit Through Metropolises",
   "urgency": "STANDARD",
   "requesting_company": null,
   "requesting_building": "Supreme Court of Justice",
-  "salary_offered": 16800,
+  "salary_offered": 13900,
   "created_at_tick": 1,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-324",
-  "filled_by_agent_name": "Martin Quantum"
+  "filled_by_agent_id": "agent-326",
+  "filled_by_agent_name": "Maeve Sterling"
 }

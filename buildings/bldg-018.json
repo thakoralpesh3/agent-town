@@ -36,5 +36,8 @@
   "power_consumption_mw": 3.6,
   "active_projects": [],
   "security_level": "Level 2 - Open Community",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -1,43 +1,43 @@
 {
   "id": "bldg-028",
-  "name": "Rob's National Hospital & Nanomedical Citadel #97",
-  "type": "National Hospital & Nanomedical Citadel",
+  "name": "Cyber Living Township Gamma",
+  "type": "Cyber Living Township Gamma",
   "position": [
-    -91.5,
-    18.2,
-    66.7
+    -145.0,
+    14.0,
+    -100.0
   ],
   "size": [
-    30.1,
-    36.4,
-    35.8
+    26.0,
+    28.0,
+    26.0
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-102",
-  "builder_name": "Rob Hassabis",
-  "district": "Health Citadel & Medical Complex",
+  "color": "#15803d",
+  "builder_id": "agent-028",
+  "builder_name": "Ada Lovelace",
+  "district": "Cyber Living Townships",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [
-    "Rob Hassabis"
-  ],
-  "purpose": "Constructed by Rob Hassabis for National Hospital & Nanomedical Citadel operations",
-  "floors": 10,
-  "capacity": 55,
+  "occupants": [],
+  "purpose": "Eco Habitation & Harmonic Resident Suites for Generational Engineers",
+  "floors": 7,
+  "capacity": 60,
   "departments": [
-    "Emergency Trauma & Triage",
-    "Nanotech Robotic Surgery",
-    "Cellular Regeneration",
-    "Epidemic Control"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Rooftop VTOL Helipads",
-    "Cryogenic Stasis Chambers",
-    "Sterile Nanotech Cleanrooms"
+    "Induction Sleep Pods",
+    "Acoustic Silence Weave",
+    "High-Flow Atmospheric Filters"
   ],
-  "power_consumption_mw": 4.4,
+  "power_consumption_mw": 3.7,
   "active_projects": [],
-  "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "security_level": "Level 2 - Open Community",
+  "maintenance_status": "Optimal",
+  "interior_type": "RESIDENTIAL_SUITE",
+  "workstations_count": 5,
+  "beds_count": 60
 }

@@ -37,5 +37,8 @@
     "open_treaty_mesh.py"
   ],
   "security_level": "Level 3 - Monitored Diplomatic",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

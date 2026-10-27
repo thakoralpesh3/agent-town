@@ -1,28 +1,28 @@
 {
   "id": "bldg-042",
-  "name": "Selene's Hydroponic Agricultural Biodome #75",
+  "name": "Cyrus's Hydroponic Agricultural Biodome #61",
   "type": "Hydroponic Agricultural Biodome",
   "position": [
-    -56.9,
-    9.8,
-    -144.4
+    17.3,
+    8.5,
+    -101.4
   ],
   "size": [
-    33.8,
-    19.5,
-    33.1
+    31.8,
+    17.1,
+    29.0
   ],
   "color": "#16a34a",
-  "builder_id": "agent-238",
-  "builder_name": "Selene Bengio",
+  "builder_id": "agent-160",
+  "builder_name": "Cyrus Solstice",
   "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Selene Bengio"
+    "Cyrus Solstice"
   ],
-  "purpose": "Constructed by Selene Bengio for Hydroponic Agricultural Biodome operations",
+  "purpose": "Constructed by Cyrus Solstice for Hydroponic Agricultural Biodome operations",
   "floors": 3,
   "capacity": 35,
   "departments": [
@@ -35,8 +35,11 @@
     "Automated Harvesting Gantry",
     "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 5.8,
+  "power_consumption_mw": 3.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

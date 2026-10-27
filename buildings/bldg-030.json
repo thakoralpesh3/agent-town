@@ -1,24 +1,43 @@
 {
   "id": "bldg-030",
-  "name": "Cipher's Company Headquarters #73 [NeuroDynamics AI]",
-  "type": "Company Headquarters",
+  "name": "Cyber Living Eco-Residences Epsilon",
+  "type": "Cyber Living Eco-Residences Epsilon",
   "position": [
-    35.1,
-    20.2,
-    -28.0
+    -75.0,
+    14.0,
+    -145.0
   ],
   "size": [
-    19.9,
-    40.4,
-    20.2
+    24.0,
+    26.0,
+    24.0
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-121",
-  "builder_name": "Cipher Thorne",
-  "district": "Silicon Central",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#059669",
+  "builder_id": "agent-030",
+  "builder_name": "Grace Hopper",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [],
-  "purpose": "Constructed by Cipher Thorne for Company Headquarters operations"
+  "purpose": "Modular Eco-Habitation Suites for Creative & Scientific Apprentices",
+  "floors": 6,
+  "capacity": 60,
+  "departments": [
+    "Residential Suites",
+    "Sky Lounge",
+    "Communal Kitchen"
+  ],
+  "amenities": [
+    "Ergonomic Sleep Havens",
+    "Aero-Garden Pods",
+    "Filtered Mountain Air Simulators"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 2 - Open Community",
+  "maintenance_status": "Optimal",
+  "interior_type": "RESIDENTIAL_SUITE",
+  "workstations_count": 5,
+  "beds_count": 60
 }

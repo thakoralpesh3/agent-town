@@ -1,20 +1,19 @@
 {
   "id": "comp-012",
-  "name": "NexusFederation",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-037",
-  "founder_name": "Alan Node",
-  "headquarters_id": "bldg-049",
-  "headquarters_name": "NexusFederation Headquarters",
+  "name": "PrismMatrix",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-281",
+  "founder_name": "Freya Odersky",
+  "headquarters_id": "bldg-041",
+  "headquarters_name": "PrismMatrix Headquarters",
   "employees": [
-    "agent-037",
-    "agent-149",
-    "agent-179",
-    "agent-222"
+    "agent-281",
+    "agent-011",
+    "agent-208"
   ],
-  "valuation_tokens": 553870,
+  "valuation_tokens": 545625,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 4
+  "color": "#ec4899",
+  "founded_at_tick": 1
 }

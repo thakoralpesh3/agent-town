@@ -1,18 +1,18 @@
 {
   "id": "comp-016",
-  "name": "HeliosFoundry",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-006",
-  "founder_name": "Dennis Ritchie",
-  "headquarters_id": "bldg-057",
-  "headquarters_name": "HeliosFoundry Headquarters",
+  "name": "AxiomLabs",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-003",
+  "founder_name": "Linus Torvalds",
+  "headquarters_id": "bldg-048",
+  "headquarters_name": "AxiomLabs Headquarters",
   "employees": [
-    "agent-006",
-    "agent-234"
+    "agent-003",
+    "agent-228"
   ],
-  "valuation_tokens": 685939,
+  "valuation_tokens": 403499,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 5
+  "color": "#8b5cf6",
+  "founded_at_tick": 3
 }

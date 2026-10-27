@@ -1,18 +1,18 @@
 {
   "id": "comp-011",
-  "name": "HeliosDynamics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-303",
-  "founder_name": "Steve Flux",
-  "headquarters_id": "bldg-032",
-  "headquarters_name": "HeliosDynamics Headquarters",
+  "name": "HeliosLogistics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-071",
+  "founder_name": "Hal Circuit",
+  "headquarters_id": "bldg-039",
+  "headquarters_name": "HeliosLogistics Headquarters",
   "employees": [
-    "agent-303",
-    "agent-047"
+    "agent-071",
+    "agent-217"
   ],
-  "valuation_tokens": 534265,
+  "valuation_tokens": 542001,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#00f0ff",
   "founded_at_tick": 1
 }

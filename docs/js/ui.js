@@ -10,14 +10,16 @@ class UIController {
     this.buildingsList = [];
     this.interaction = null;
     this.agentManager = null;
+    this.townRenderer = null;
     this.agentDialogues = new Map();
 
     this._bindElements();
   }
 
-  setControllers(interaction, agentManager) {
+  setControllers(interaction, agentManager, townRenderer) {
     this.interaction = interaction;
     this.agentManager = agentManager;
+    this.townRenderer = townRenderer || (interaction ? interaction.townRenderer : null);
   }
 
   _bindElements() {
@@ -106,6 +108,28 @@ class UIController {
       }
     });
     btnLabels.classList.add("active");
+
+    // 3D Interior View (X-Ray / See-Through) Toggle
+    const btnInterior = document.getElementById("btn-interior-view");
+    if (btnInterior) {
+      btnInterior.addEventListener("click", () => {
+        if (this.townRenderer) {
+          const active = this.townRenderer.toggleInteriorMode();
+          btnInterior.classList.toggle("active", active);
+        }
+      });
+    }
+
+    // Key shortcut 'I' for Interior View
+    window.addEventListener("keydown", (e) => {
+      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+      if (e.key === "i" || e.key === "I") {
+        if (this.townRenderer) {
+          const active = this.townRenderer.toggleInteriorMode();
+          if (btnInterior) btnInterior.classList.toggle("active", active);
+        }
+      }
+    });
 
     // Camera Presets
     document.getElementById("cam-iso").addEventListener("click", (e) => {
@@ -224,6 +248,21 @@ class UIController {
     document.getElementById("stat-roads").textContent = state.roads.length;
     document.getElementById("stat-vehs").textContent = state.vehicles.length;
     document.getElementById("stat-tick").textContent = state.tick;
+
+    // Circadian Clock Metric
+    const statCircadian = document.getElementById("stat-circadian");
+    const statCircadianLabel = document.getElementById("stat-circadian-label");
+    if (statCircadian && state.circadian_hour !== undefined) {
+      const hour = state.circadian_hour;
+      const hourStr = `${hour < 10 ? '0' : ''}${hour}:00`;
+      const isDay = (state.circadian_cycle === "DAY") || (hour >= 7 && hour < 21);
+      const icon = isDay ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+      statCircadian.style.color = isDay ? "#facc15" : "#818cf8";
+      statCircadian.innerHTML = `${icon} ${hourStr}`;
+      if (statCircadianLabel) {
+        statCircadianLabel.textContent = isDay ? "DAY (Work Shift)" : "NIGHT (Rest & REM)";
+      }
+    }
 
     if (state.recent_events && state.recent_events.length > 0) {
       const latest = state.recent_events[state.recent_events.length - 1];
@@ -427,7 +466,84 @@ class UIController {
       });
     }
 
-    document.getElementById("insp-action").textContent = agent.action;
+    // Circadian Sleep & Dream vs Daytime Work Mode
+    const dreamCard = document.getElementById("insp-dream-card");
+    const workModeCard = document.getElementById("insp-work-mode-card");
+    const isSleeping = (agent.schedule_state === "SLEEPING");
+
+    if (isSleeping) {
+      if (dreamCard) dreamCard.style.display = "block";
+      if (workModeCard) workModeCard.style.display = "none";
+
+      const bedLabel = document.getElementById("insp-dream-bed");
+      if (bedLabel) {
+        const bedNum = (agent.bed_slot !== undefined) ? agent.bed_slot + 1 : 1;
+        const homeName = agent.home_building_name || "Township Residential";
+        bedLabel.innerHTML = `<i class="fa-solid fa-bed"></i> Pod #${bedNum} (${homeName})`;
+      }
+
+      const dream = agent.current_dream || {
+        title: "Compiling the Zero-Entropy Quantum Core",
+        visual_scene: "Floating weightlessly inside an azure tesseract, watching endless strands of crystalline compiler instructions weave themselves into self-healing, zero-latency microkernels.",
+        mood: "Lucid & Transcendent",
+        subconscious_insight: "Implement lock-free atomic ring buffers for inter-district pub/sub message queues."
+      };
+
+      const dreamTitle = document.getElementById("insp-dream-title");
+      if (dreamTitle) dreamTitle.textContent = dream.title || "Lucid REM Synthesis";
+
+      const dreamScene = document.getElementById("insp-dream-scene");
+      if (dreamScene) dreamScene.textContent = `"${dream.visual_scene || dream.description || 'Deep dream state in progress...'}"`;
+
+      const dreamMood = document.getElementById("insp-dream-mood");
+      if (dreamMood) dreamMood.textContent = dream.mood || "Transcendent";
+
+      const dreamRecharge = document.getElementById("insp-dream-recharge");
+      if (dreamRecharge) dreamRecharge.textContent = `+20% Energy/Cycle (${agent.energy}% charged)`;
+
+      const dreamInsight = document.getElementById("insp-dream-insight");
+      if (dreamInsight) dreamInsight.textContent = `"${dream.subconscious_insight || dream.insight || 'Algorithmic breakthrough synchronizing into persistent storage.'}"`;
+
+      document.getElementById("insp-action").textContent = `Resting in Pod #${(agent.bed_slot || 0) + 1} at ${agent.home_building_name || 'Town Residence'}`;
+    } else {
+      if (dreamCard) dreamCard.style.display = "none";
+      if (workModeCard) workModeCard.style.display = "block";
+
+      const deskLabel = document.getElementById("insp-wm-desk");
+      if (deskLabel) {
+        const deskNum = (agent.desk_slot !== undefined) ? agent.desk_slot + 1 : 1;
+        const wpName = agent.workplace_name || "Office Mainframe";
+        deskLabel.innerHTML = `<i class="fa-solid fa-desktop"></i> Workstation #${deskNum} (${wpName})`;
+      }
+
+      const modeTitle = document.getElementById("insp-wm-mode-title");
+      const modeDesc = document.getElementById("insp-wm-desc");
+
+      const mode = agent.work_mode || "PC_TYPING";
+      if (mode === "PAPER_WRITING") {
+        if (modeTitle) modeTitle.innerHTML = `<i class="fa-solid fa-file-signature" style="color: #f59e0b;"></i> Paper & Blueprint Drafting Table`;
+        if (modeDesc) modeDesc.textContent = "Drafting architectural schematics, civic charters, and physical blueprints with precision stylus and paper documents.";
+      } else if (mode === "MEETING") {
+        if (modeTitle) modeTitle.innerHTML = `<i class="fa-solid fa-users" style="color: #a855f7;"></i> Conference Table Discussion`;
+        if (modeDesc) modeDesc.textContent = "Collaborating with colleagues in real-time strategic alignment, civic planning, and executive symposium.";
+      } else if (mode === "RESEARCHING") {
+        if (modeTitle) modeTitle.innerHTML = `<i class="fa-solid fa-flask" style="color: #10b981;"></i> Research & Diagnostics Bench`;
+        if (modeDesc) modeDesc.textContent = "Running chemical simulations, diagnostic testing, and empirical verification on specialized lab equipment.";
+      } else {
+        if (modeTitle) modeTitle.innerHTML = `<i class="fa-solid fa-keyboard" style="color: var(--cyan-neon);"></i> PC Workstation (Dual-Monitor Development)`;
+        if (modeDesc) modeDesc.textContent = "Actively typing code & systems models on dual glowing LED monitors at assigned facility workstation.";
+      }
+
+      document.getElementById("insp-action").textContent = agent.action;
+    }
+
+    if (this.townRenderer) {
+      const targetBldg = isSleeping ? agent.home_building_id : agent.workplace_id;
+      if (targetBldg) {
+        this.townRenderer.focusBuildingInterior(targetBldg);
+      }
+    }
+
     document.getElementById("insp-thought").textContent = `"${agent.thoughts}"`;
     document.getElementById("insp-desire").textContent = agent.desire;
     document.getElementById("insp-coords").textContent = `[${agent.position[0]}, ${agent.position[2]}]`;
@@ -504,6 +620,11 @@ class UIController {
     }
 
     // Toggle Panels for Building View
+    const dreamCard = document.getElementById("insp-dream-card");
+    if (dreamCard) dreamCard.style.display = "none";
+    const workModeCard = document.getElementById("insp-work-mode-card");
+    if (workModeCard) workModeCard.style.display = "none";
+
     const growthCard = document.getElementById("insp-growth-wrapper");
     if (growthCard) growthCard.style.display = "none";
     const skillsSection = document.getElementById("insp-skills-section");
@@ -512,6 +633,10 @@ class UIController {
     if (toolsSection) toolsSection.style.display = "none";
     const wpCard = document.getElementById("insp-workplace-card");
     if (wpCard) wpCard.style.display = "none";
+
+    if (this.townRenderer) {
+      this.townRenderer.focusBuildingInterior(bldg.id);
+    }
 
     const bldgSpecs = document.getElementById("insp-building-specs");
     if (bldgSpecs) bldgSpecs.style.display = "block";
@@ -644,6 +769,12 @@ class UIController {
       clearanceLabel.textContent = `CONFIDENTIAL VEHICLE TELEMETRY // OPERATOR CLEARANCE LEVEL 5`;
     }
 
+    // Hide Dream & Work Mode cards
+    const dreamCard = document.getElementById("insp-dream-card");
+    if (dreamCard) dreamCard.style.display = "none";
+    const workModeCard = document.getElementById("insp-work-mode-card");
+    if (workModeCard) workModeCard.style.display = "none";
+
     const growthCard = document.getElementById("insp-growth-wrapper");
     if (growthCard) growthCard.style.display = "none";
     const skillsSection = document.getElementById("insp-skills-section");
@@ -701,6 +832,9 @@ class UIController {
     }
     if (this.interaction) {
       this.interaction.stopFollowing();
+    }
+    if (this.townRenderer && !this.townRenderer.isInteriorMode) {
+      this.townRenderer.focusBuildingInterior(null);
     }
   }
 
@@ -764,11 +898,23 @@ class UIController {
 
     const anyWord = (text, words) => words.some(w => text.includes(w));
     const isQuestion = cmdLower.endsWith("?") || 
-      anyWord(cmdLower, ["what", "how", "who", "where", "why", "status", "tell", "explain", "report", "thoughts", "thinking", "tools", "salary", "stipend", "energy", "shift", "friend", "collaborator", "mentor", "skill", "opinion"]);
+      anyWord(cmdLower, ["what", "how", "who", "where", "why", "status", "tell", "explain", "report", "thoughts", "thinking", "tools", "salary", "stipend", "energy", "shift", "friend", "collaborator", "mentor", "skill", "opinion", "dream", "nightmare"]);
 
-    if (isQuestion && !anyWord(cmdLower, ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor", "walk", "move", "go to", "recharge", "sleep"])) {
+    if (isQuestion && !anyWord(cmdLower, ["build", "construct", "craft", "pave", "create", "make", "found", "incorporate", "code", "mentor", "walk", "move", "go to", "recharge", "sleep", "wake up", "wake", "alarm"])) {
       actionType = "dialogue";
-      if (anyWord(cmdLower, ["working", "status", "doing", "task", "activity", "live"])) {
+      if (anyWord(cmdLower, ["dream", "dreaming", "nightmare", "vision", "subconscious", "sleep thought"])) {
+        if (agent.schedule_state === "SLEEPING" || agent.current_dream) {
+          const dream = agent.current_dream || {
+            title: "Zero-Entropy Matrix Synthesis",
+            visual_scene: "Floating within an azure tesseract viewing compiler pathways",
+            mood: "Lucid & Focused",
+            subconscious_insight: "Implement lock-free atomic queues"
+          };
+          reply = `Operator, current subconscious dream: "${dream.title}". Vision: "${dream.visual_scene}". Dream mood: ${dream.mood}. Breakthrough insight: "${dream.subconscious_insight}".`;
+        } else {
+          reply = `Operator, I am currently awake and on active shift at ${agent.workplace_name || 'workplace'}. Subconscious dream cycles activate during nocturnal rest hours in my residential pod.`;
+        }
+      } else if (anyWord(cmdLower, ["working", "status", "doing", "task", "activity", "live"])) {
         reply = `Operator, reporting live from [${agent.position[0].toFixed(1)}, ${agent.position[2].toFixed(1)}]. Currently: ${agent.action} at ${agent.workplace_name || 'Civic Matrix'}. Energy reserve is at ${agent.energy}%.`;
       } else if (anyWord(cmdLower, ["thought", "thinking", "mind", "desire", "ambition"])) {
         reply = `Operator, my inner cognition stream: "${agent.thoughts}" Active civic ambition: ${agent.desire}.`;
@@ -800,7 +946,22 @@ class UIController {
       }
     } else {
       // Action Orders
-      if (anyWord(cmdLower, ["walk", "move", "go to", "head to", "visit", "travel", "navigate"])) {
+      if (anyWord(cmdLower, ["wake up", "wake", "alarm", "get up", "arise"])) {
+        actionType = "wake";
+        agent.schedule_state = "WORKING";
+        agent.energy = Math.max(85, agent.energy);
+        agent.action = `Awakened by Operator directive; heading to workstation at ${agent.workplace_name || 'workplace'}`;
+        if (this.agentManager) {
+          const mesh = this.agentManager.agentMeshes.get(agent.id);
+          if (mesh) {
+            mesh.rotation.x = 0;
+            mesh.position.y = 0;
+            const dg = mesh.getObjectByName("dreamGroup");
+            if (dg) dg.visible = false;
+          }
+        }
+        reply = `Operator directive executed! REM sleep cycle suspended. Telemetry synchronized and reporting for duty at ${agent.workplace_name || 'workplace'}.`;
+      } else if (anyWord(cmdLower, ["walk", "move", "go to", "head to", "visit", "travel", "navigate"])) {
         actionType = "movement";
         let targetX = 0, targetZ = 0, destName = "civic destination";
         if (cmdLower.includes("silicon")) {
@@ -826,10 +987,28 @@ class UIController {
         reply = `Operator directive executed! Navigating directly to ${destName}. Real-time 3D walking cycle initiated.`;
       } else if (anyWord(cmdLower, ["recharge", "rest", "sleep", "recover", "relax", "nap"])) {
         actionType = "recharge";
+        agent.schedule_state = "SLEEPING";
         agent.energy = 100;
-        agent.action = "Recharged energy core to 100%";
+        agent.action = `Resting in Pod #${(agent.bed_slot || 0) + 1} at ${agent.home_building_name || 'Township Housing'}`;
         agent.experience = (agent.experience || 0) + 30;
-        reply = `Operator directive executed! Connected to induction charging hub. Energy reserve restored to 100%.`;
+        if (!agent.current_dream) {
+          agent.current_dream = {
+            title: "Simulating Harmonic Civic Resonance",
+            visual_scene: "A luminous geometric landscape of glowing crystalline data structures pulsing to harmonic frequencies.",
+            mood: "Serene & Restorative",
+            subconscious_insight: "Scale distributed consensus across all municipal districts seamlessly."
+          };
+        }
+        if (this.agentManager) {
+          const mesh = this.agentManager.agentMeshes.get(agent.id);
+          if (mesh) {
+            mesh.rotation.x = -Math.PI / 2;
+            mesh.position.y = 0.42;
+            const dg = mesh.getObjectByName("dreamGroup");
+            if (dg) dg.visible = true;
+          }
+        }
+        reply = `Operator directive executed! Entered sleep pod at ${agent.home_building_name || 'Residential Housing'}. Energy core restored to 100% and REM dream cycle activated.`;
       } else if (anyWord(cmdLower, ["company", "startup", "business", "incorporate", "enterprise"])) {
         actionType = "company";
         const compName = `${agent.name.split(' ')[0]} Dynamic AI`;

@@ -38,5 +38,8 @@
     "git_archival_engine.py"
   ],
   "security_level": "Level 5 - Maximum Archive Security",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

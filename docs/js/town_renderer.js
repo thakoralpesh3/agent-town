@@ -25,6 +25,10 @@ class TownRenderer {
     this.buildingMeshes = new Map();
     this.interactiveObjects = [];
 
+    this.isInteriorMode = false;
+    this.focusedBuildingId = null;
+    this.interiorMaterials = this._createInteriorMaterials();
+
     // Cache procedural textures
     this.textures = this._createProceduralTextures();
 
@@ -1003,7 +1007,25 @@ class TownRenderer {
         group.add(band);
       }
 
-      group.userData = { type: 'building', data: b };
+      // Collect exterior meshes before adding interior
+      const exteriorMeshes = [];
+      group.traverse(child => {
+        if (child.isMesh) {
+          exteriorMeshes.push(child);
+        }
+      });
+
+      // Build and attach detailed 3D interior
+      const interiorGroup = this._buildBuildingInterior(b, w, h, d);
+      group.add(interiorGroup);
+
+      group.userData = {
+        type: 'building',
+        data: b,
+        exteriorMeshes: exteriorMeshes,
+        interiorGroup: interiorGroup
+      };
+
       group.children.forEach(c => {
         c.userData = { type: 'building', data: b };
         this.interactiveObjects.push(c);
@@ -1115,5 +1137,375 @@ class TownRenderer {
       }
       vehObj.userData.data = v;
     });
+  }
+
+  _buildBuildingInterior(b, w, h, d) {
+    const interiorGroup = new THREE.Group();
+    const mats = this.interiorMaterials;
+
+    const isResidential = (b.interior_type === "RESIDENTIAL_SUITE") ||
+                          (b.name && (b.name.includes("Township") || b.name.includes("Apartment") || b.name.includes("Residences")));
+
+    // 1. Interior Floor Slab
+    const floorGeo = new THREE.BoxGeometry(w * 0.86, 0.12, d * 0.86);
+    const floorMesh = new THREE.Mesh(floorGeo, isResidential ? mats.carpetRes : mats.floorTile);
+    floorMesh.position.y = 0.06;
+    floorMesh.receiveShadow = true;
+    interiorGroup.add(floorMesh);
+
+    if (isResidential) {
+      // Residential Bedroom Suites with Comfortable Beds & Nightstands
+      const bedPositions = [
+        [-(w * 0.28), 0, -(d * 0.25), 0],
+        [(w * 0.28), 0, -(d * 0.25), 0],
+        [-(w * 0.28), 0, (d * 0.25), Math.PI],
+        [(w * 0.28), 0, (d * 0.25), Math.PI],
+      ];
+
+      bedPositions.forEach(([bx, by, bz, rot]) => {
+        const bedUnit = this._buildBedUnit(mats);
+        bedUnit.position.set(bx, by, bz);
+        bedUnit.rotation.y = rot;
+        interiorGroup.add(bedUnit);
+      });
+
+      // Central Living Room Lounge: Sofa + Coffee Table + Area Rug
+      const rugGeo = new THREE.BoxGeometry(3.6, 0.02, 2.4);
+      const rug = new THREE.Mesh(rugGeo, new THREE.MeshStandardMaterial({ color: 0x1e3a8a, roughness: 0.9 }));
+      rug.position.set(0, 0.13, 0);
+      interiorGroup.add(rug);
+
+      const sofaGeo = new THREE.BoxGeometry(2.8, 0.65, 1.1);
+      const sofa = new THREE.Mesh(sofaGeo, new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.7 }));
+      sofa.position.set(0, 0.45, 0.8);
+      interiorGroup.add(sofa);
+
+      const tableGeo = new THREE.BoxGeometry(1.6, 0.35, 0.8);
+      const table = new THREE.Mesh(tableGeo, mats.woodDesk);
+      table.position.set(0, 0.3, 0);
+      interiorGroup.add(table);
+
+    } else {
+      // Workplace / Corporate / Lab Interior:
+      // A. Dual-Monitor PC Workstations (Typing Code & Matrix Operations)
+      const pcPositions = [
+        [-(w * 0.26), 0, -(d * 0.25), 0],
+        [(w * 0.26), 0, -(d * 0.25), 0],
+        [-(w * 0.26), 0, (d * 0.25), Math.PI],
+      ];
+      pcPositions.forEach(([px, py, pz, rot]) => {
+        const pcStation = this._buildOfficeWorkstation(mats, true, false);
+        pcStation.position.set(px, py, pz);
+        pcStation.rotation.y = rot;
+        interiorGroup.add(pcStation);
+      });
+
+      // B. Architectural Drafting & Paper Blueprints Station (Writing on blueprints & charters)
+      const paperStation = this._buildOfficeWorkstation(mats, false, true);
+      paperStation.position.set(w * 0.26, 0, d * 0.25);
+      paperStation.rotation.y = Math.PI;
+      interiorGroup.add(paperStation);
+
+      // C. Central Conference / Boardroom Strategy Table with Holographic Projector
+      const confTable = this._buildConferenceTable(mats, w, d);
+      confTable.position.set(0, 0, 0);
+      interiorGroup.add(confTable);
+
+      // D. Laboratory Research Bench if lab/hospital/university
+      if (b.interior_type === "LABORATORY" || (b.name && (b.name.includes("Lab") || b.name.includes("Citadel") || b.name.includes("University") || b.name.includes("Foundry")))) {
+        const labBench = this._buildLabBench(mats);
+        labBench.position.set(0, 0, -(d * 0.35));
+        interiorGroup.add(labBench);
+      }
+    }
+
+    return interiorGroup;
+  }
+
+  _buildOfficeWorkstation(mats, hasPC, hasPaper) {
+    const ws = new THREE.Group();
+
+    // 1. Sturdy Work Desk Top
+    const deskGeo = new THREE.BoxGeometry(2.4, 0.08, 1.2);
+    const desk = new THREE.Mesh(deskGeo, mats.woodDesk);
+    desk.position.y = 0.75;
+    desk.castShadow = true;
+    ws.add(desk);
+
+    // 4 Metallic Desk Legs
+    const legGeo = new THREE.CylinderGeometry(0.04, 0.04, 0.75, 8);
+    const legPositions = [
+      [1.05, 0.375, 0.45],
+      [-1.05, 0.375, 0.45],
+      [1.05, 0.375, -0.45],
+      [-1.05, 0.375, -0.45]
+    ];
+    legPositions.forEach(([lx, ly, lz]) => {
+      const leg = new THREE.Mesh(legGeo, mats.metalLeg);
+      leg.position.set(lx, ly, lz);
+      ws.add(leg);
+    });
+
+    // 2. Ergonomic Office Chair
+    const seatGeo = new THREE.BoxGeometry(0.55, 0.08, 0.55);
+    const seat = new THREE.Mesh(seatGeo, mats.chairBlack);
+    seat.position.set(0, 0.48, 0.85);
+    ws.add(seat);
+
+    const backGeo = new THREE.BoxGeometry(0.55, 0.52, 0.08);
+    const back = new THREE.Mesh(backGeo, mats.chairBlack);
+    back.position.set(0, 0.78, 1.08);
+    ws.add(back);
+
+    const chairBaseGeo = new THREE.CylinderGeometry(0.04, 0.04, 0.48, 8);
+    const chairBase = new THREE.Mesh(chairBaseGeo, mats.metalLeg);
+    chairBase.position.set(0, 0.24, 0.85);
+    ws.add(chairBase);
+
+    if (hasPC) {
+      // 3. Computer Tower under desk
+      const towerGeo = new THREE.BoxGeometry(0.24, 0.45, 0.45);
+      const tower = new THREE.Mesh(towerGeo, mats.pcTower);
+      tower.position.set(0.85, 0.25, -0.2);
+      ws.add(tower);
+
+      // 4. Dual Monitors (Left: Cyan Code Screen, Right: Amber Systems Screen)
+      const standGeo = new THREE.CylinderGeometry(0.03, 0.03, 0.38, 8);
+      const stand = new THREE.Mesh(standGeo, mats.metalLeg);
+      stand.position.set(0, 0.98, -0.28);
+      ws.add(stand);
+
+      const crossbarGeo = new THREE.BoxGeometry(1.6, 0.04, 0.04);
+      const crossbar = new THREE.Mesh(crossbarGeo, mats.metalLeg);
+      crossbar.position.set(0, 1.15, -0.28);
+      ws.add(crossbar);
+
+      // Left Monitor (IDE / Code in glowing cyan)
+      const leftMonGeo = new THREE.BoxGeometry(0.85, 0.52, 0.03);
+      const leftMon = new THREE.Mesh(leftMonGeo, mats.screenGlowCyan);
+      leftMon.position.set(-0.42, 1.15, -0.25);
+      leftMon.rotation.y = 0.18;
+      ws.add(leftMon);
+
+      // Right Monitor (Telemetry / Terminal in glowing amber)
+      const rightMonGeo = new THREE.BoxGeometry(0.85, 0.52, 0.03);
+      const rightMon = new THREE.Mesh(rightMonGeo, mats.screenGlowAmber);
+      rightMon.position.set(0.42, 1.15, -0.25);
+      rightMon.rotation.y = -0.18;
+      ws.add(rightMon);
+
+      // 5. Keyboard with Keys
+      const kbGeo = new THREE.BoxGeometry(0.65, 0.02, 0.22);
+      const kb = new THREE.Mesh(kbGeo, mats.keyboardMat);
+      kb.position.set(0, 0.8, 0.1);
+      ws.add(kb);
+
+      // Mouse
+      const mouseGeo = new THREE.BoxGeometry(0.08, 0.025, 0.12);
+      const mouse = new THREE.Mesh(mouseGeo, mats.chairBlack);
+      mouse.position.set(0.45, 0.8, 0.1);
+      ws.add(mouse);
+    }
+
+    if (hasPaper) {
+      // 6. Architectural Blueprint Sheet
+      const bpGeo = new THREE.BoxGeometry(1.2, 0.02, 0.8);
+      const bp = new THREE.Mesh(bpGeo, mats.blueprintCyan);
+      bp.position.set(-0.2, 0.8, 0.05);
+      ws.add(bp);
+
+      // 7. Stack of White Paper Documents / Charters
+      const paperGeo = new THREE.BoxGeometry(0.4, 0.08, 0.3);
+      const papers = new THREE.Mesh(paperGeo, mats.paperWhite);
+      papers.position.set(0.75, 0.83, -0.15);
+      papers.rotation.y = 0.12;
+      ws.add(papers);
+
+      // 8. Rolled Blueprint Scroll
+      const scrollGeo = new THREE.CylinderGeometry(0.06, 0.06, 0.65, 12);
+      const scroll = new THREE.Mesh(scrollGeo, mats.paperWhite);
+      scroll.position.set(0.75, 0.83, 0.25);
+      scroll.rotation.z = Math.PI / 2;
+      ws.add(scroll);
+
+      // 9. Digital Stylus Drafting Pen
+      const penGeo = new THREE.CylinderGeometry(0.015, 0.015, 0.28, 8);
+      const pen = new THREE.Mesh(penGeo, mats.stylusNeon);
+      pen.position.set(-0.15, 0.82, 0.15);
+      pen.rotation.z = Math.PI / 2;
+      pen.rotation.y = 0.35;
+      ws.add(pen);
+    }
+
+    return ws;
+  }
+
+  _buildBedUnit(mats) {
+    const bed = new THREE.Group();
+
+    // 1. Bed Frame
+    const frameGeo = new THREE.BoxGeometry(2.3, 0.35, 1.35);
+    const frame = new THREE.Mesh(frameGeo, mats.bedFrameWood);
+    frame.position.y = 0.2;
+    bed.add(frame);
+
+    // 2. Headboard
+    const headboardGeo = new THREE.BoxGeometry(0.12, 0.8, 1.35);
+    const headboard = new THREE.Mesh(headboardGeo, mats.bedFrameWood);
+    headboard.position.set(-1.1, 0.55, 0);
+    bed.add(headboard);
+
+    // 3. Mattress & Bedding Blanket
+    const matGeo = new THREE.BoxGeometry(2.15, 0.22, 1.25);
+    const mattress = new THREE.Mesh(matGeo, mats.mattressBedding);
+    mattress.position.set(0.05, 0.42, 0);
+    bed.add(mattress);
+
+    // 4. Soft White Pillow
+    const pilGeo = new THREE.BoxGeometry(0.48, 0.12, 0.85);
+    const pillow = new THREE.Mesh(pilGeo, mats.pillowWhite);
+    pillow.position.set(-0.75, 0.56, 0);
+    bed.add(pillow);
+
+    // 5. Beside Nightstand
+    const standGeo = new THREE.BoxGeometry(0.55, 0.45, 0.55);
+    const stand = new THREE.Mesh(standGeo, mats.bedFrameWood);
+    stand.position.set(-0.85, 0.25, 1.05);
+    bed.add(stand);
+
+    // 6. Glowing Nightlamp
+    const lampStem = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.25, 8), mats.metalLeg);
+    lampStem.position.set(-0.85, 0.58, 1.05);
+    bed.add(lampStem);
+
+    const lampShade = new THREE.Mesh(new THREE.SphereGeometry(0.14, 12, 12), mats.nightLampGlow);
+    lampShade.position.set(-0.85, 0.74, 1.05);
+    bed.add(lampShade);
+
+    return bed;
+  }
+
+  _buildConferenceTable(mats, w, d) {
+    const conf = new THREE.Group();
+
+    // Table Top
+    const tableGeo = new THREE.BoxGeometry(3.8, 0.1, 1.8);
+    const table = new THREE.Mesh(tableGeo, mats.woodDesk);
+    table.position.y = 0.75;
+    conf.add(table);
+
+    // Pedestal Supports
+    const p1 = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.25, 0.72, 12), mats.metalLeg);
+    p1.position.set(-1.1, 0.36, 0);
+    conf.add(p1);
+
+    const p2 = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.25, 0.72, 12), mats.metalLeg);
+    p2.position.set(1.1, 0.36, 0);
+    conf.add(p2);
+
+    // 6 Chairs
+    const chairOffsets = [
+      [-1.1, 0, 1.25, Math.PI],
+      [0, 0, 1.25, Math.PI],
+      [1.1, 0, 1.25, Math.PI],
+      [-1.1, 0, -1.25, 0],
+      [0, 0, -1.25, 0],
+      [1.1, 0, -1.25, 0],
+    ];
+    chairOffsets.forEach(([cx, cy, cz, rot]) => {
+      const chairSeat = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.08, 0.5), mats.chairBlack);
+      chairSeat.position.set(cx, 0.48, cz);
+      const chairBack = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.5, 0.08), mats.chairBlack);
+      chairBack.position.set(cx, 0.76, cz + (rot === 0 ? -0.22 : 0.22));
+      conf.add(chairSeat);
+      conf.add(chairBack);
+    });
+
+    // Central Holographic Projector Beacon
+    const beaconBase = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.4, 0.08, 16), mats.metalLeg);
+    beaconBase.position.y = 0.84;
+    conf.add(beaconBase);
+
+    const holoCone = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.45, 1.2, 16), mats.holoBeacon);
+    holoCone.position.y = 1.48;
+    conf.add(holoCone);
+
+    return conf;
+  }
+
+  _buildLabBench(mats) {
+    const lab = new THREE.Group();
+
+    // Stainless Steel Countertop
+    const benchGeo = new THREE.BoxGeometry(3.2, 0.1, 1.0);
+    const bench = new THREE.Mesh(benchGeo, mats.labSteel);
+    bench.position.y = 0.85;
+    lab.add(bench);
+
+    // Legs
+    const l1 = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.85, 0.9), mats.metalLeg);
+    l1.position.set(-1.45, 0.425, 0);
+    lab.add(l1);
+    const l2 = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.85, 0.9), mats.metalLeg);
+    l2.position.set(1.45, 0.425, 0);
+    lab.add(l2);
+
+    // Diagnostic Hologram Screen
+    const diagGeo = new THREE.BoxGeometry(1.2, 0.65, 0.02);
+    const diagScreen = new THREE.Mesh(diagGeo, mats.labGlassGlow);
+    diagScreen.position.set(0, 1.35, -0.2);
+    lab.add(diagScreen);
+
+    // Sample Rack with Glowing Tubes
+    for (let i = -0.4; i <= 0.4; i += 0.2) {
+      const tube = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 0.25, 8), mats.screenGlowCyan);
+      tube.position.set(i, 1.0, 0.2);
+      lab.add(tube);
+    }
+
+    return lab;
+  }
+
+  toggleInteriorMode(forceState) {
+    if (typeof forceState === 'boolean') {
+      this.isInteriorMode = forceState;
+    } else {
+      this.isInteriorMode = !this.isInteriorMode;
+    }
+
+    this.buildingMeshes.forEach((group, id) => {
+      const extMeshes = group.userData.exteriorMeshes || [];
+      const interior = group.userData.interiorGroup;
+      const isFocused = (this.focusedBuildingId === id);
+      const makeTransparent = this.isInteriorMode || isFocused;
+
+      extMeshes.forEach(mesh => {
+        if (!mesh.userData.origMaterial) {
+          mesh.userData.origMaterial = mesh.material;
+        }
+        if (makeTransparent) {
+          if (!mesh.userData.transparentMat) {
+            mesh.userData.transparentMat = mesh.material.clone();
+            mesh.userData.transparentMat.transparent = true;
+            mesh.userData.transparentMat.opacity = 0.20;
+            mesh.userData.transparentMat.depthWrite = false;
+          }
+          mesh.material = mesh.userData.transparentMat;
+        } else {
+          mesh.material = mesh.userData.origMaterial;
+        }
+      });
+
+      if (interior) {
+        interior.visible = true;
+      }
+    });
+
+    return this.isInteriorMode;
+  }
+
+  focusBuildingInterior(buildingId) {
+    this.focusedBuildingId = buildingId;
+    this.toggleInteriorMode(this.isInteriorMode);
   }
 }

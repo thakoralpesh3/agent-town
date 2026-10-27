@@ -1,19 +1,18 @@
 {
   "id": "comp-010",
-  "name": "AetherDynamics",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-278",
-  "founder_name": "Felix Cerf",
-  "headquarters_id": "bldg-030",
-  "headquarters_name": "AetherDynamics Headquarters",
+  "name": "CyberFederation",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-262",
+  "founder_name": "Hal Synapse",
+  "headquarters_id": "bldg-034",
+  "headquarters_name": "CyberFederation Headquarters",
   "employees": [
-    "agent-278",
-    "agent-135",
-    "agent-101"
+    "agent-262",
+    "agent-007"
   ],
-  "valuation_tokens": 422729,
+  "valuation_tokens": 363601,
   "products": [],
-  "color": "#eab308",
+  "color": "#e11d48",
   "founded_at_tick": 1
 }

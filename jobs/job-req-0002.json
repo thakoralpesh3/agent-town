@@ -1,14 +1,14 @@
 {
   "id": "job-req-0002",
-  "role": "Tokenomics Algorithmic Market Maker",
-  "category": "Finance",
-  "specialization": "Dynamic Spread & Slippage Balancing",
+  "role": "Hyperloop Vacuum Track Engineer",
+  "category": "Transportation",
+  "specialization": "Sub-Sonic Inter-City Transit Tubes",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Autonomous Robotics Institute",
-  "salary_offered": 16300,
+  "requesting_building": "National Archives & Genesis Vault",
+  "salary_offered": 17000,
   "created_at_tick": 2,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-256",
-  "filled_by_agent_name": "Freya Helix"
+  "filled_by_agent_id": "agent-331",
+  "filled_by_agent_name": "Yoshua Nadella"
 }

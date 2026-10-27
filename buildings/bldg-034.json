@@ -1,41 +1,44 @@
 {
   "id": "bldg-034",
-  "name": "Kairo's Cloud Matrix Exchange #75 [Sovereign Chancellery Core]",
-  "type": "Cloud Matrix Exchange",
+  "name": "Orion's Drone Logistics Freight Port #33",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    -3.3,
-    21.9,
-    83.4
+    125.4,
+    14.4,
+    -169.1
   ],
   "size": [
-    20.1,
-    43.7,
-    20.5
+    29.0,
+    28.8,
+    30.6
   ],
-  "color": "#38bdf8",
-  "builder_id": "agent-272",
-  "builder_name": "Kairo Finney",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "color": "#ea580c",
+  "builder_id": "agent-188",
+  "builder_name": "Orion Knuth",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Kairo Finney"
+    "Orion Knuth"
   ],
-  "purpose": "Constructed by Kairo Finney for Cloud Matrix Exchange operations",
-  "floors": 14,
-  "capacity": 40,
+  "purpose": "Constructed by Orion Knuth for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Multi-Cluster GitOps",
-    "Distributed DHT Storage",
-    "High-Throughput APIs"
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
   ],
   "amenities": [
-    "Direct Fiber Backbone",
-    "Liquid Immersion Server Racks"
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
   ],
-  "power_consumption_mw": 6.7,
+  "power_consumption_mw": 7.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -42,7 +42,7 @@ class TechTownApp {
       this.townRenderer, 
       this.ui
     );
-    this.ui.setControllers(this.interaction, this.agentManager);
+    this.ui.setControllers(this.interaction, this.agentManager, this.townRenderer);
 
     this._setupDayNightToggle();
     this._setupAutoRefresh();
@@ -118,33 +118,40 @@ class TechTownApp {
     this.scene.add(ambientLight);
   }
 
+  setNightMode(isNight) {
+    this.isNightMode = isNight;
+    const btn = document.getElementById("btn-day-night");
+    if (this.isNightMode) {
+      // Deep Atmospheric Night
+      this.scene.background.setHex(0x060913);
+      this.scene.fog.color.setHex(0x060913);
+      this.hemiLight.intensity = 0.45;
+      this.hemiLight.color.setHex(0x38bdf8);
+      this.hemiLight.groundColor.setHex(0x091428);
+      this.dirLight.intensity = 0.55;
+      this.dirLight.color.setHex(0x93c5fd);
+      if (btn) btn.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+    } else {
+      // Crisp Natural Daylight
+      this.scene.background.setHex(0x93c5fd);
+      this.scene.fog.color.setHex(0xbae6fd);
+      this.hemiLight.intensity = 0.95;
+      this.hemiLight.color.setHex(0xe0f2fe);
+      this.hemiLight.groundColor.setHex(0x334155);
+      this.dirLight.intensity = 1.3;
+      this.dirLight.color.setHex(0xfffbeb);
+      if (btn) btn.innerHTML = `<i class="fa-solid fa-sun"></i>`;
+    }
+  }
+
   _setupDayNightToggle() {
     const btn = document.getElementById("btn-day-night");
-    btn.innerHTML = `<i class="fa-solid fa-sun"></i>`; // Day mode active by default
+    this.manualNightOverride = false;
+    this.setNightMode(false); // Day mode active by default
 
     btn.addEventListener("click", () => {
-      this.isNightMode = !this.isNightMode;
-      if (this.isNightMode) {
-        // Deep Atmospheric Night
-        this.scene.background.setHex(0x060913);
-        this.scene.fog.color.setHex(0x060913);
-        this.hemiLight.intensity = 0.45;
-        this.hemiLight.color.setHex(0x38bdf8);
-        this.hemiLight.groundColor.setHex(0x091428);
-        this.dirLight.intensity = 0.55;
-        this.dirLight.color.setHex(0x93c5fd);
-        btn.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-      } else {
-        // Crisp Natural Daylight
-        this.scene.background.setHex(0x93c5fd);
-        this.scene.fog.color.setHex(0xbae6fd);
-        this.hemiLight.intensity = 0.95;
-        this.hemiLight.color.setHex(0xe0f2fe);
-        this.hemiLight.groundColor.setHex(0x334155);
-        this.dirLight.intensity = 1.3;
-        this.dirLight.color.setHex(0xfffbeb);
-        btn.innerHTML = `<i class="fa-solid fa-sun"></i>`;
-      }
+      this.manualNightOverride = true;
+      this.setNightMode(!this.isNightMode);
     });
 
     document.getElementById("btn-refresh").addEventListener("click", () => {
@@ -164,6 +171,13 @@ class TechTownApp {
       if (!res.ok) throw new Error("Could not load town_state.json");
       const state = await res.json();
       this.currentState = state;
+
+      if (state.circadian_cycle && !this.manualNightOverride) {
+        const isNight = (state.circadian_cycle === "NIGHT");
+        if (this.isNightMode !== isNight) {
+          this.setNightMode(isNight);
+        }
+      }
 
       this.townRenderer.renderRoads(state.roads);
       this.townRenderer.renderBuildings(state.buildings);

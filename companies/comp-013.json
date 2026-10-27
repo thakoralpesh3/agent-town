@@ -1,20 +1,20 @@
 {
   "id": "comp-013",
-  "name": "BioRobotics",
+  "name": "SynapseLabs",
   "sector": "Autonomous Mobility & Aerospace",
   "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-066",
-  "founder_name": "Diana Mason",
-  "headquarters_id": "bldg-051",
-  "headquarters_name": "BioRobotics Headquarters",
+  "founder_id": "agent-163",
+  "founder_name": "Edsger Sterling",
+  "headquarters_id": "bldg-044",
+  "headquarters_name": "SynapseLabs Headquarters",
   "employees": [
-    "agent-066",
-    "agent-070",
-    "agent-078",
-    "agent-127"
+    "agent-163",
+    "agent-293",
+    "agent-231",
+    "agent-236"
   ],
-  "valuation_tokens": 329138,
+  "valuation_tokens": 189455,
   "products": [],
   "color": "#f59e0b",
-  "founded_at_tick": 4
+  "founded_at_tick": 2
 }

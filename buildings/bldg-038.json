@@ -1,41 +1,47 @@
 {
   "id": "bldg-038",
-  "name": "Axel's Quantum Logic Foundry #91",
-  "type": "Quantum Logic Foundry",
+  "name": "Ada's Sovereign Capitol Building #17 [AeroCyber Mobility]",
+  "type": "Sovereign Capitol Building",
   "position": [
-    99.6,
-    18.1,
-    15.5
+    53.5,
+    17.2,
+    -38.9
   ],
   "size": [
-    26.2,
-    36.1,
-    28.6
+    42.9,
+    34.3,
+    36.7
   ],
-  "color": "#8b5cf6",
-  "builder_id": "agent-317",
-  "builder_name": "Axel Bengio",
-  "district": "Quantum Science & University Campus",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f59e0b",
+  "builder_id": "agent-207",
+  "builder_name": "Ada Strata",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Axel Bengio"
+    "Ada Strata"
   ],
-  "purpose": "Constructed by Axel Bengio for Quantum Logic Foundry operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Ada Strata for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Topological Qubit Design",
-    "Lattice Cryptography",
-    "Quantum Error Correction"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Milli-Kelvin Dilution Refrigerators",
-    "Superconducting Shielded Vault"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 7.1,
+  "power_consumption_mw": 7.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

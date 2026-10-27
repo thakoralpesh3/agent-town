@@ -1,14 +1,14 @@
 {
   "id": "job-req-0003",
-  "role": "Spatial Audio Acoustic Designer",
-  "category": "Art",
-  "specialization": "Noise-Cancelled Serene Districts",
+  "role": "Gene Therapy Bio-Engineer",
+  "category": "Healthcare",
+  "specialization": "Telomere Extension & Cellular Rejuvenation",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Cyber Living Pod Alpha",
-  "salary_offered": 13100,
+  "requesting_building": "Grand Embassy of Open Source",
+  "salary_offered": 17400,
   "created_at_tick": 3,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-263",
-  "filled_by_agent_name": "Callum Tinkerer"
+  "filled_by_agent_id": "agent-333",
+  "filled_by_agent_name": "John Meridian"
 }
