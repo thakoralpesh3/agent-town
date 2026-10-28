@@ -1,24 +1,44 @@
 {
   "id": "bldg-118",
-  "name": "Kairo's Quantum Data Center #96 [VectorMatrix]",
-  "type": "Quantum Data Center",
+  "name": "Sundar's Shannon Information Spire #82 [BioLongevity Solutions]",
+  "type": "Shannon Information Spire",
   "position": [
-    116.5,
-    10.1,
-    -131.5
+    22.5,
+    21.4,
+    69.8
   ],
   "size": [
-    23.6,
-    20.1,
-    25.3
+    18.2,
+    42.8,
+    20.3
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-206",
-  "builder_name": "Kairo Murati",
-  "district": "Industrial Sector",
-  "company_id": "comp-015",
-  "company_name": "VectorMatrix",
+  "color": "#0284c7",
+  "builder_id": "agent-224",
+  "builder_name": "Sundar Prism",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Kairo Murati for Quantum Data Center operations"
+  "occupants": [
+    "Sundar Prism"
+  ],
+  "purpose": "Constructed by Sundar Prism for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 4.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

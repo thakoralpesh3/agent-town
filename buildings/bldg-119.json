@@ -1,24 +1,44 @@
 {
   "id": "bldg-119",
-  "name": "Martin's AI Research Lab #23 [QuantumMatrix Corp]",
-  "type": "AI Research Lab",
+  "name": "Nick's Biosphere Atmospheric Scrubber #14 [AeroCyber Mobility]",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    76.0,
-    16.7,
-    56.0
+    23.8,
+    15.5,
+    -107.4
   ],
   "size": [
-    21.8,
-    33.3,
-    18.8
+    21.4,
+    31.1,
+    23.5
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-098",
-  "builder_name": "Martin Ritchie",
-  "district": "Innovation Matrix",
-  "company_id": "comp-003",
-  "company_name": "QuantumMatrix Corp",
+  "color": "#10b981",
+  "builder_id": "agent-064",
+  "builder_name": "Nick Tinkerer",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Martin Ritchie for AI Research Lab operations"
+  "occupants": [
+    "Nick Tinkerer"
+  ],
+  "purpose": "Constructed by Nick Tinkerer for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 4.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

@@ -1,24 +1,45 @@
 {
   "id": "bldg-116",
-  "name": "Evander's Academy of Sciences #22 [NeuroDynamics AI]",
-  "type": "Academy of Sciences",
+  "name": "Roxas's Supreme Court of Justice #22 [AeroCyber Mobility]",
+  "type": "Supreme Court of Justice",
   "position": [
-    85.0,
-    16.1,
-    160.2
+    20.1,
+    19.0,
+    26.1
   ],
   "size": [
-    28.2,
-    32.2,
-    23.5
+    32.0,
+    38.0,
+    32.8
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-135",
-  "builder_name": "Evander Finney",
-  "district": "Innovation Matrix",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#d97706",
+  "builder_id": "agent-141",
+  "builder_name": "Roxas Aurelius",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Evander Finney for Academy of Sciences operations"
+  "occupants": [
+    "Roxas Aurelius"
+  ],
+  "purpose": "Constructed by Roxas Aurelius for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

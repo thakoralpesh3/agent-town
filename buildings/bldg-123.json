@@ -1,42 +1,47 @@
 {
   "id": "bldg-123",
-  "name": "Grace's Tech Tower #47 [NeuroDynamics AI]",
-  "type": "Tech Tower",
+  "name": "Noam's Sovereign Capitol Building #87 [HyperFoundry]",
+  "type": "Sovereign Capitol Building",
   "position": [
-    -23.4,
-    24.2,
-    15.8
+    -10.6,
+    26.1,
+    -10.7
   ],
   "size": [
-    18.1,
-    48.3,
-    16.7
+    36.3,
+    52.2,
+    34.7
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-004",
-  "builder_name": "Grace Hopper",
-  "district": "Silicon Central",
-  "company_id": "comp-001",
-  "company_name": "NeuroDynamics AI",
+  "color": "#f59e0b",
+  "builder_id": "agent-290",
+  "builder_name": "Noam Core",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-046",
+  "company_name": "HyperFoundry",
   "completion": 1.0,
   "occupants": [
-    "Grace Hopper"
+    "Noam Core"
   ],
-  "purpose": "Constructed by Grace Hopper for Tech Tower operations",
-  "floors": 12,
-  "capacity": 30,
+  "purpose": "Constructed by Noam Core for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Systems Engineering",
-    "Kernel Lab",
-    "Cloud Infrastructure"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Hyper-Speed Uplink",
-    "Rooftop Drone Pad",
-    "Quantum Server Vault"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 7.0,
+  "power_consumption_mw": 2.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

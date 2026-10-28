@@ -1,24 +1,45 @@
 {
   "id": "bldg-117",
-  "name": "Satya's Cybernetic Clinic #48 [VectorMatrix]",
-  "type": "Cybernetic Clinic",
+  "name": "Felix's Cyber Living Township Alpha #50",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    -145.1,
-    11.4,
-    129.4
+    -144.9,
+    18.2,
+    -132.1
   ],
   "size": [
-    17.1,
-    22.9,
-    16.8
+    23.6,
+    36.4,
+    30.6
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-142",
-  "builder_name": "Satya Liskov",
-  "district": "Residential Quarter",
-  "company_id": "comp-015",
-  "company_name": "VectorMatrix",
+  "color": "#22c55e",
+  "builder_id": "agent-305",
+  "builder_name": "Felix Praetor",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Satya Liskov for Cybernetic Clinic operations"
+  "occupants": [
+    "Felix Praetor"
+  ],
+  "purpose": "Constructed by Felix Praetor for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 4.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

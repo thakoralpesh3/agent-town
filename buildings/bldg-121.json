@@ -1,0 +1,45 @@
+{
+  "id": "bldg-121",
+  "name": "Sundar's The Agora Civic Forum #87",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -48.8,
+    11.9,
+    -136.7
+  ],
+  "size": [
+    29.7,
+    23.8,
+    31.1
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-124",
+  "builder_name": "Sundar Hassabis",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Sundar Hassabis"
+  ],
+  "purpose": "Constructed by Sundar Hassabis for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

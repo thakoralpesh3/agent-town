@@ -1,0 +1,45 @@
+{
+  "id": "bldg-125",
+  "name": "Leonardo's Grand Astronomical Observatory #22",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    76.1,
+    13.7,
+    71.6
+  ],
+  "size": [
+    26.5,
+    27.4,
+    27.7
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-018",
+  "builder_name": "Leonardo Cyber",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Leonardo Cyber"
+  ],
+  "purpose": "Constructed by Leonardo Cyber for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 8.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

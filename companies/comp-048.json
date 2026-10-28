@@ -1,0 +1,19 @@
+{
+  "id": "comp-048",
+  "name": "HyperEnergy",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-304",
+  "founder_name": "Iris Node",
+  "headquarters_id": "bldg-122",
+  "headquarters_name": "HyperEnergy Headquarters",
+  "employees": [
+    "agent-304",
+    "agent-252",
+    "agent-337"
+  ],
+  "valuation_tokens": 494534,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 13
+}
