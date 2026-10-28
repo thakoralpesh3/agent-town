@@ -1,24 +1,45 @@
 {
   "id": "bldg-109",
-  "name": "Jensen's Cybernetic Clinic #75",
-  "type": "Cybernetic Clinic",
+  "name": "Aurelia's Hydroponic Agricultural Biodome #22 [VectorRobotics]",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    -74.7,
-    14.6,
-    145.5
+    13.9,
+    7.9,
+    -92.1
   ],
   "size": [
-    17.6,
-    29.1,
-    19.5
+    32.8,
+    15.7,
+    29.5
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-166",
-  "builder_name": "Jensen Dusk",
-  "district": "Residential Quarter",
-  "company_id": null,
-  "company_name": null,
+  "color": "#16a34a",
+  "builder_id": "agent-314",
+  "builder_name": "Aurelia von Neumann",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-031",
+  "company_name": "VectorRobotics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Jensen Dusk for Cybernetic Clinic operations"
+  "occupants": [
+    "Aurelia von Neumann"
+  ],
+  "purpose": "Constructed by Aurelia von Neumann for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 6.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

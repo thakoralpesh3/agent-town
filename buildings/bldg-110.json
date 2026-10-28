@@ -1,24 +1,45 @@
 {
   "id": "bldg-110",
-  "name": "Mira's Academy of Sciences #24",
-  "type": "Academy of Sciences",
+  "name": "Vitalik's Hyperloop Central Terminus #23 [AetherSystems]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    81.5,
-    20.9,
-    101.2
+    161.3,
+    11.7,
+    -71.7
   ],
   "size": [
-    28.2,
-    41.8,
-    27.8
+    39.4,
+    23.4,
+    37.7
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-150",
-  "builder_name": "Mira LeCun",
-  "district": "Innovation Matrix",
-  "company_id": null,
-  "company_name": null,
+  "color": "#f97316",
+  "builder_id": "agent-323",
+  "builder_name": "Vitalik Buterin",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-029",
+  "company_name": "AetherSystems",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Mira LeCun for Academy of Sciences operations"
+  "occupants": [
+    "Vitalik Buterin"
+  ],
+  "purpose": "Constructed by Vitalik Buterin for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

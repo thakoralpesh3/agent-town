@@ -1,0 +1,19 @@
+{
+  "id": "comp-041",
+  "name": "AeroIntell",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-286",
+  "founder_name": "Martin Fletcher",
+  "headquarters_id": "bldg-102",
+  "headquarters_name": "AeroIntell Headquarters",
+  "employees": [
+    "agent-286",
+    "agent-068",
+    "agent-222"
+  ],
+  "valuation_tokens": 581663,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 11
+}

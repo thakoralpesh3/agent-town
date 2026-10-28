@@ -1,19 +1,19 @@
 {
   "id": "comp-043",
-  "name": "OmniNetworks",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-063",
-  "founder_name": "Nova Scribe",
-  "headquarters_id": "bldg-125",
-  "headquarters_name": "OmniNetworks Headquarters",
+  "name": "VectorEnergy",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-093",
+  "founder_name": "Morrigan Praetor",
+  "headquarters_id": "bldg-104",
+  "headquarters_name": "VectorEnergy Headquarters",
   "employees": [
-    "agent-063",
-    "agent-211",
-    "agent-054"
+    "agent-093",
+    "agent-173",
+    "agent-183"
   ],
-  "valuation_tokens": 239830,
+  "valuation_tokens": 536500,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 14
+  "color": "#f59e0b",
+  "founded_at_tick": 11
 }

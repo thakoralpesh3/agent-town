@@ -1,0 +1,45 @@
+{
+  "id": "bldg-101",
+  "name": "Kairo's Cyber Living Township Beta #17",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -99.0,
+    18.2,
+    -54.6
+  ],
+  "size": [
+    26.6,
+    36.5,
+    28.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-350",
+  "builder_name": "Kairo Prism",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Kairo Prism"
+  ],
+  "purpose": "Constructed by Kairo Prism for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

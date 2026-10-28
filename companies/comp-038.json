@@ -1,0 +1,20 @@
+{
+  "id": "comp-038",
+  "name": "ApexMatrix",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-235",
+  "founder_name": "Andrej Tinkerer",
+  "headquarters_id": "bldg-098",
+  "headquarters_name": "ApexMatrix Headquarters",
+  "employees": [
+    "agent-235",
+    "agent-321",
+    "agent-204",
+    "agent-349"
+  ],
+  "valuation_tokens": 529291,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 11
+}

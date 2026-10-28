@@ -1,19 +1,19 @@
 {
   "id": "comp-045",
-  "name": "StellarSolutions",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-068",
-  "founder_name": "Lyra Brockman",
-  "headquarters_id": "bldg-135",
-  "headquarters_name": "StellarSolutions Headquarters",
+  "name": "StellarGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-073",
+  "founder_name": "Morrigan Synapse",
+  "headquarters_id": "bldg-106",
+  "headquarters_name": "StellarGenetics Headquarters",
   "employees": [
-    "agent-068",
-    "agent-059",
-    "agent-022"
+    "agent-073",
+    "agent-196",
+    "agent-211"
   ],
-  "valuation_tokens": 541673,
+  "valuation_tokens": 288483,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 16
+  "color": "#00f0ff",
+  "founded_at_tick": 11
 }

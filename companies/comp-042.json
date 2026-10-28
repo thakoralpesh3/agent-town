@@ -1,0 +1,19 @@
+{
+  "id": "comp-042",
+  "name": "SovereignTechnologies AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-316",
+  "founder_name": "Talia Li",
+  "headquarters_id": "bldg-103",
+  "headquarters_name": "SovereignTechnologies AI Headquarters",
+  "employees": [
+    "agent-316",
+    "agent-174",
+    "agent-242"
+  ],
+  "valuation_tokens": 480550,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 11
+}

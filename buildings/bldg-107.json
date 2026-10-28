@@ -1,24 +1,44 @@
 {
   "id": "bldg-107",
-  "name": "Cipher's Vehicle Factory #17 [AeroCyber Robotics]",
-  "type": "Vehicle Factory",
+  "name": "Stellan's Biosphere Atmospheric Scrubber #49 [QuantumGenetics]",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    30.3,
-    10.8,
-    -116.4
+    -7.8,
+    15.4,
+    -199.8
   ],
   "size": [
-    25.1,
-    21.6,
-    20.6
+    19.8,
+    30.7,
+    18.3
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-097",
-  "builder_name": "Cipher Armstrong",
-  "district": "Industrial Sector",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#10b981",
+  "builder_id": "agent-095",
+  "builder_name": "Stellan Vaughan",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-028",
+  "company_name": "QuantumGenetics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Cipher Armstrong for Vehicle Factory operations"
+  "occupants": [
+    "Stellan Vaughan"
+  ],
+  "purpose": "Constructed by Stellan Vaughan for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 5.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

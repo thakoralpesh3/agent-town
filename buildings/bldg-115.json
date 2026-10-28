@@ -1,24 +1,45 @@
 {
   "id": "bldg-115",
-  "name": "Zane's Vehicle Factory #48 [QuantumMatrix Corp]",
-  "type": "Vehicle Factory",
+  "name": "Leslie's Hydroponic Agricultural Biodome #13 [NeuroDynamics AI]",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    27.9,
-    10.2,
-    -83.2
+    -47.1,
+    12.2,
+    -185.4
   ],
   "size": [
-    20.1,
-    20.5,
-    20.6
+    31.4,
+    24.4,
+    35.1
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-208",
-  "builder_name": "Zane Johnson",
-  "district": "Industrial Sector",
+  "color": "#16a34a",
+  "builder_id": "agent-288",
+  "builder_name": "Leslie Wozniak",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": "comp-003",
-  "company_name": "QuantumMatrix Corp",
+  "company_name": "NeuroDynamics AI",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Zane Johnson for Vehicle Factory operations"
+  "occupants": [
+    "Leslie Wozniak"
+  ],
+  "purpose": "Constructed by Leslie Wozniak for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 4.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

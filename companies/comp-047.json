@@ -1,20 +1,18 @@
 {
   "id": "comp-047",
-  "name": "TerraEnergy",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-060",
-  "founder_name": "Martin Nakamoto",
-  "headquarters_id": "bldg-140",
-  "headquarters_name": "TerraEnergy Headquarters",
+  "name": "OmniVentures",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-283",
+  "founder_name": "Nick Brockman",
+  "headquarters_id": "bldg-114",
+  "headquarters_name": "OmniVentures Headquarters",
   "employees": [
-    "agent-060",
-    "agent-072",
-    "agent-077",
-    "agent-101"
+    "agent-283",
+    "agent-279"
   ],
-  "valuation_tokens": 331636,
+  "valuation_tokens": 542450,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 16
+  "color": "#ef4444",
+  "founded_at_tick": 12
 }

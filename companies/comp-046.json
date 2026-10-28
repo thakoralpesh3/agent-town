@@ -1,18 +1,18 @@
 {
   "id": "comp-046",
-  "name": "OmniLabs",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-127",
-  "founder_name": "Selene Karpathy",
-  "headquarters_id": "bldg-136",
-  "headquarters_name": "OmniLabs Headquarters",
+  "name": "HyperFoundry",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-061",
+  "founder_name": "Vitalik Finney",
+  "headquarters_id": "bldg-111",
+  "headquarters_name": "HyperFoundry Headquarters",
   "employees": [
-    "agent-127",
-    "agent-075"
+    "agent-061",
+    "agent-290"
   ],
-  "valuation_tokens": 321922,
+  "valuation_tokens": 643605,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 16
+  "color": "#eab308",
+  "founded_at_tick": 12
 }

@@ -1,19 +1,19 @@
 {
   "id": "comp-044",
-  "name": "DeepEnergy",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-219",
-  "founder_name": "Woz Vanguard",
-  "headquarters_id": "bldg-134",
-  "headquarters_name": "DeepEnergy Headquarters",
+  "name": "VectorGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-295",
+  "founder_name": "Claude Circuit",
+  "headquarters_id": "bldg-105",
+  "headquarters_name": "VectorGenetics Headquarters",
   "employees": [
-    "agent-219",
-    "agent-114",
-    "agent-021"
+    "agent-295",
+    "agent-073",
+    "agent-087"
   ],
-  "valuation_tokens": 539830,
+  "valuation_tokens": 335939,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 15
+  "color": "#00f0ff",
+  "founded_at_tick": 11
 }

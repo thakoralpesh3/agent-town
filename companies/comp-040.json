@@ -1,0 +1,19 @@
+{
+  "id": "comp-040",
+  "name": "CyberSystems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-296",
+  "founder_name": "Ada Cartographer",
+  "headquarters_id": "bldg-100",
+  "headquarters_name": "CyberSystems Headquarters",
+  "employees": [
+    "agent-296",
+    "agent-155",
+    "agent-034"
+  ],
+  "valuation_tokens": 329939,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 11
+}

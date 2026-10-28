@@ -1,24 +1,46 @@
 {
   "id": "bldg-097",
-  "name": "Martin's AI Research Lab #46 [QuantumMatrix Corp]",
-  "type": "AI Research Lab",
+  "name": "Katherine's Hypatia Grand University of Sciences #63",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    83.5,
-    16.2,
-    42.4
+    97.3,
+    19.7,
+    6.0
   ],
   "size": [
-    22.3,
-    32.4,
-    23.5
+    34.0,
+    39.4,
+    32.7
   ],
   "color": "#a855f7",
-  "builder_id": "agent-098",
-  "builder_name": "Martin Ritchie",
-  "district": "Innovation Matrix",
-  "company_id": "comp-003",
-  "company_name": "QuantumMatrix Corp",
+  "builder_id": "agent-144",
+  "builder_name": "Katherine Beacon",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Martin Ritchie for AI Research Lab operations"
+  "occupants": [
+    "Katherine Beacon"
+  ],
+  "purpose": "Constructed by Katherine Beacon for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

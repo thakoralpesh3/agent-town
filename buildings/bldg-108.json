@@ -1,24 +1,46 @@
 {
   "id": "bldg-108",
-  "name": "Zephyr's Solar Fusion Array #68 [OmniNetworks]",
-  "type": "Solar Fusion Array",
+  "name": "Fei-Fei's Hypatia Grand University of Sciences #52 [BioLongevity Solutions]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    68.7,
-    5.6,
-    -101.7
+    124.9,
+    17.1,
+    59.5
   ],
   "size": [
-    18.3,
-    11.1,
-    16.9
+    35.2,
+    34.1,
+    31.1
   ],
-  "color": "#f97316",
-  "builder_id": "agent-094",
-  "builder_name": "Zephyr Ritchie",
-  "district": "Industrial Sector",
-  "company_id": "comp-006",
-  "company_name": "OmniNetworks",
+  "color": "#a855f7",
+  "builder_id": "agent-298",
+  "builder_name": "Fei-Fei Valerius",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Zephyr Ritchie for Solar Fusion Array operations"
+  "occupants": [
+    "Fei-Fei Valerius"
+  ],
+  "purpose": "Constructed by Fei-Fei Valerius for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }
