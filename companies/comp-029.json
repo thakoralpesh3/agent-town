@@ -1,19 +1,20 @@
 {
   "id": "comp-029",
-  "name": "NeuroDynamics",
-  "sector": "Bio-Cybernetics & Longevity",
-  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
-  "founder_id": "agent-050",
-  "founder_name": "Marc Tinkerer",
+  "name": "AetherSystems",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-159",
+  "founder_name": "Thorne Jobs",
   "headquarters_id": "bldg-081",
-  "headquarters_name": "NeuroDynamics Headquarters",
+  "headquarters_name": "AetherSystems Headquarters",
   "employees": [
-    "agent-050",
-    "agent-218",
-    "agent-038"
+    "agent-159",
+    "agent-323",
+    "agent-126",
+    "agent-342"
   ],
-  "valuation_tokens": 364935,
+  "valuation_tokens": 603232,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 9
+  "color": "#f59e0b",
+  "founded_at_tick": 8
 }

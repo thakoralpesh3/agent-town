@@ -1,18 +1,20 @@
 {
   "id": "comp-028",
-  "name": "CyberSystems",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-037",
-  "founder_name": "Alan Li",
-  "headquarters_id": "bldg-072",
-  "headquarters_name": "CyberSystems Headquarters",
+  "name": "QuantumGenetics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-335",
+  "founder_name": "Kaelen Chomsky",
+  "headquarters_id": "bldg-079",
+  "headquarters_name": "QuantumGenetics Headquarters",
   "employees": [
-    "agent-037",
-    "agent-045"
+    "agent-335",
+    "agent-200",
+    "agent-095",
+    "agent-225"
   ],
-  "valuation_tokens": 565173,
+  "valuation_tokens": 637468,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 8
+  "color": "#f59e0b",
+  "founded_at_tick": 7
 }

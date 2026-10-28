@@ -1,18 +1,20 @@
 {
   "id": "comp-030",
-  "name": "DeepRobotics",
-  "sector": "Bio-Cybernetics & Longevity",
-  "mission": "Revolutionizing Bio-Cybernetics & Longevity within GitHub Tech Town.",
-  "founder_id": "agent-092",
-  "founder_name": "Katherine Flux",
-  "headquarters_id": "bldg-086",
-  "headquarters_name": "DeepRobotics Headquarters",
+  "name": "NexusGenetics",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-324",
+  "founder_name": "Steve Smith",
+  "headquarters_id": "bldg-082",
+  "headquarters_name": "NexusGenetics Headquarters",
   "employees": [
-    "agent-092",
-    "agent-010"
+    "agent-324",
+    "agent-265",
+    "agent-235",
+    "agent-017"
   ],
-  "valuation_tokens": 663607,
+  "valuation_tokens": 177602,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 10
+  "color": "#eab308",
+  "founded_at_tick": 8
 }

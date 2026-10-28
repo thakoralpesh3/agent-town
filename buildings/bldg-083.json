@@ -1,24 +1,44 @@
 {
   "id": "bldg-083",
-  "name": "Noam's Company Headquarters #84 [OmniGenetics]",
-  "type": "Company Headquarters",
+  "name": "Sol's Drone Logistics Freight Port #26",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    -16.1,
-    22.9,
-    50.4
+    59.9,
+    15.1,
+    -124.9
   ],
   "size": [
-    23.2,
-    45.7,
-    22.1
+    31.0,
+    30.2,
+    29.6
   ],
-  "color": "#ec4899",
-  "builder_id": "agent-149",
-  "builder_name": "Noam Liskov",
-  "district": "Silicon Central",
-  "company_id": "comp-027",
-  "company_name": "OmniGenetics",
+  "color": "#ea580c",
+  "builder_id": "agent-320",
+  "builder_name": "Sol Strata",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Noam Liskov for Company Headquarters operations"
+  "occupants": [
+    "Sol Strata"
+  ],
+  "purpose": "Constructed by Sol Strata for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

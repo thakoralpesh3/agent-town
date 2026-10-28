@@ -1,18 +1,18 @@
 {
   "id": "comp-032",
-  "name": "ApexFoundry",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-120",
-  "founder_name": "Selene LeCun",
-  "headquarters_id": "bldg-095",
-  "headquarters_name": "ApexFoundry Headquarters",
+  "name": "SynapseSynthetics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-330",
+  "founder_name": "Ryan Lovelace",
+  "headquarters_id": "bldg-086",
+  "headquarters_name": "SynapseSynthetics AI Headquarters",
   "employees": [
-    "agent-120",
-    "agent-102"
+    "agent-330",
+    "agent-307"
   ],
-  "valuation_tokens": 492896,
+  "valuation_tokens": 432039,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 11
+  "color": "#ef4444",
+  "founded_at_tick": 8
 }

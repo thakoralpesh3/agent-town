@@ -1,19 +1,18 @@
 {
   "id": "comp-027",
-  "name": "SolarSystems",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-284",
-  "founder_name": "Leander Hinton",
-  "headquarters_id": "bldg-073",
-  "headquarters_name": "SolarSystems Headquarters",
+  "name": "ChronoFoundry",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-246",
+  "founder_name": "Bjarne Vaughan",
+  "headquarters_id": "bldg-078",
+  "headquarters_name": "ChronoFoundry Headquarters",
   "employees": [
-    "agent-284",
-    "agent-060",
-    "agent-017"
+    "agent-246",
+    "agent-061"
   ],
-  "valuation_tokens": 173724,
+  "valuation_tokens": 166012,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 6
+  "color": "#eab308",
+  "founded_at_tick": 7
 }

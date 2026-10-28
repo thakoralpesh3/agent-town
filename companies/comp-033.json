@@ -1,20 +1,19 @@
 {
   "id": "comp-033",
-  "name": "NeuroVentures",
-  "sector": "Cyber Infrastructure & Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Cloud within GitHub Tech Town.",
-  "founder_id": "agent-187",
-  "founder_name": "Alan Orbit",
-  "headquarters_id": "bldg-098",
-  "headquarters_name": "NeuroVentures Headquarters",
+  "name": "PrismSystems",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-117",
+  "founder_name": "Vitalik Kowalski",
+  "headquarters_id": "bldg-087",
+  "headquarters_name": "PrismSystems Headquarters",
   "employees": [
-    "agent-187",
-    "agent-020",
-    "agent-215",
-    "agent-214"
+    "agent-117",
+    "agent-107",
+    "agent-060"
   ],
-  "valuation_tokens": 486432,
+  "valuation_tokens": 605035,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 11
+  "color": "#ec4899",
+  "founded_at_tick": 8
 }

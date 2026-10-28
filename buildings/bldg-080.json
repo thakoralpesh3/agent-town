@@ -1,24 +1,45 @@
 {
   "id": "bldg-080",
-  "name": "Veda's Tech Tower #96 [AeroFoundry]",
-  "type": "Tech Tower",
+  "name": "Yann's Autonomous Vehicle Mega-Plant #35",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    -11.0,
-    27.9,
-    14.8
+    87.6,
+    10.7,
+    -55.1
   ],
   "size": [
-    17.1,
-    55.8,
-    16.0
+    32.3,
+    21.5,
+    35.2
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-141",
-  "builder_name": "Veda Strata",
-  "district": "Silicon Central",
-  "company_id": "comp-021",
-  "company_name": "AeroFoundry",
+  "color": "#f59e0b",
+  "builder_id": "agent-090",
+  "builder_name": "Yann Mercer",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Veda Strata for Tech Tower operations"
+  "occupants": [
+    "Yann Mercer"
+  ],
+  "purpose": "Constructed by Yann Mercer for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 4.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

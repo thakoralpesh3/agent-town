@@ -1,20 +1,18 @@
 {
   "id": "comp-026",
-  "name": "TerraGenetics",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-315",
-  "founder_name": "Jensen Szabo",
-  "headquarters_id": "bldg-072",
-  "headquarters_name": "TerraGenetics Headquarters",
+  "name": "AeroMatrix",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-234",
+  "founder_name": "Alexander Node",
+  "headquarters_id": "bldg-077",
+  "headquarters_name": "AeroMatrix Headquarters",
   "employees": [
-    "agent-315",
-    "agent-042",
-    "agent-185",
-    "agent-159"
+    "agent-234",
+    "agent-238"
   ],
-  "valuation_tokens": 353168,
+  "valuation_tokens": 152641,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 6
+  "color": "#8b5cf6",
+  "founded_at_tick": 7
 }
