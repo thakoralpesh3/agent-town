@@ -1,24 +1,46 @@
 {
   "id": "bldg-092",
-  "name": "Noam's Tech Tower #53 [ChronoVentures]",
-  "type": "Tech Tower",
+  "name": "Steve's Hypatia Grand University of Sciences #99 [SolarFusion Grid]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    23.5,
-    29.6,
-    44.2
+    146.4,
+    18.3,
+    104.9
   ],
   "size": [
-    14.5,
-    59.2,
-    19.1
+    37.9,
+    36.5,
+    37.9
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-036",
-  "builder_name": "Noam Eich",
-  "district": "Silicon Central",
-  "company_id": "comp-025",
-  "company_name": "ChronoVentures",
+  "color": "#a855f7",
+  "builder_id": "agent-106",
+  "builder_name": "Steve Nadella",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Noam Eich for Tech Tower operations"
+  "occupants": [
+    "Steve Nadella"
+  ],
+  "purpose": "Constructed by Steve Nadella for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

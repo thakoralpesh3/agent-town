@@ -1,18 +1,18 @@
 {
   "id": "comp-034",
-  "name": "HyperGenetics",
-  "sector": "Synthetic Ecology & Holo Art",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Art within GitHub Tech Town.",
-  "founder_id": "agent-164",
-  "founder_name": "Leslie Pulse",
-  "headquarters_id": "bldg-100",
-  "headquarters_name": "HyperGenetics Headquarters",
+  "name": "AetherVentures",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-340",
+  "founder_name": "Vector Kahn",
+  "headquarters_id": "bldg-088",
+  "headquarters_name": "AetherVentures Headquarters",
   "employees": [
-    "agent-164",
-    "agent-110"
+    "agent-340",
+    "agent-090"
   ],
-  "valuation_tokens": 509633,
+  "valuation_tokens": 246632,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 11
+  "color": "#00f0ff",
+  "founded_at_tick": 9
 }

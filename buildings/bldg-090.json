@@ -1,24 +1,44 @@
 {
   "id": "bldg-090",
-  "name": "Margaret's Solar Fusion Array #99",
-  "type": "Solar Fusion Array",
+  "name": "Cipher's Biosphere Atmospheric Scrubber #91",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    45.9,
-    4.7,
-    -82.3
+    -4.0,
+    11.7,
+    -69.9
   ],
   "size": [
-    20.1,
-    9.5,
-    17.7
+    20.6,
+    23.3,
+    20.4
   ],
-  "color": "#f97316",
-  "builder_id": "agent-088",
-  "builder_name": "Margaret Helix",
-  "district": "Industrial Sector",
+  "color": "#10b981",
+  "builder_id": "agent-122",
+  "builder_name": "Cipher Armstrong",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Margaret Helix for Solar Fusion Array operations"
+  "occupants": [
+    "Cipher Armstrong"
+  ],
+  "purpose": "Constructed by Cipher Armstrong for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 4.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

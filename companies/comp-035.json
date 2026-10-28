@@ -1,20 +1,19 @@
 {
   "id": "comp-035",
-  "name": "StellarFoundry AI",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-033",
-  "founder_name": "Donald Mercer",
-  "headquarters_id": "bldg-101",
-  "headquarters_name": "StellarFoundry AI Headquarters",
+  "name": "AeroGenetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-036",
+  "founder_name": "Talia Zenith",
+  "headquarters_id": "bldg-091",
+  "headquarters_name": "AeroGenetics Headquarters",
   "employees": [
-    "agent-033",
-    "agent-062",
-    "agent-043",
-    "agent-103"
+    "agent-036",
+    "agent-096",
+    "agent-184"
   ],
-  "valuation_tokens": 156659,
+  "valuation_tokens": 704019,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 12
+  "color": "#ef4444",
+  "founded_at_tick": 10
 }

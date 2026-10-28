@@ -1,24 +1,45 @@
 {
   "id": "bldg-093",
-  "name": "Vint's Holo Park #39 [NeuroGenetics]",
-  "type": "Holo Park",
+  "name": "Claude's Tokamak Fusion Reactor Station #33",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    -102.2,
-    2.1,
-    -142.4
+    56.6,
+    12.5,
+    -176.0
   ],
   "size": [
-    23.5,
-    4.1,
-    27.8
+    31.5,
+    25.0,
+    27.2
   ],
-  "color": "#10b981",
-  "builder_id": "agent-116",
-  "builder_name": "Vint Ritchie",
-  "district": "Cyber Commons",
-  "company_id": "comp-026",
-  "company_name": "NeuroGenetics",
+  "color": "#be123c",
+  "builder_id": "agent-007",
+  "builder_name": "Claude Shannon",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Vint Ritchie for Holo Park operations"
+  "occupants": [
+    "Claude Shannon"
+  ],
+  "purpose": "Constructed by Claude Shannon for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

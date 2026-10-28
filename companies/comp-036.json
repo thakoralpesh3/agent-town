@@ -1,18 +1,20 @@
 {
   "id": "comp-036",
-  "name": "NeuroGenetics AI",
-  "sector": "DeFi Treasury & Smart Law",
-  "mission": "Revolutionizing DeFi Treasury & Smart Law within GitHub Tech Town.",
-  "founder_id": "agent-111",
-  "founder_name": "Steve Rayne",
-  "headquarters_id": "bldg-102",
-  "headquarters_name": "NeuroGenetics AI Headquarters",
+  "name": "SynapseLogistics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-069",
+  "founder_name": "Ilya Node",
+  "headquarters_id": "bldg-095",
+  "headquarters_name": "SynapseLogistics Headquarters",
   "employees": [
-    "agent-111",
-    "agent-028"
+    "agent-069",
+    "agent-237",
+    "agent-180",
+    "agent-296"
   ],
-  "valuation_tokens": 340782,
+  "valuation_tokens": 281664,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 12
+  "color": "#10b981",
+  "founded_at_tick": 10
 }

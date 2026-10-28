@@ -1,24 +1,47 @@
 {
   "id": "bldg-094",
-  "name": "Katherine's AI Research Lab #51 [DeepRobotics]",
-  "type": "AI Research Lab",
+  "name": "Katherine's Sovereign Capitol Building #29",
+  "type": "Sovereign Capitol Building",
   "position": [
-    146.8,
-    14.7,
-    81.7
+    14.9,
+    28.5,
+    43.5
   ],
   "size": [
-    21.9,
-    29.3,
-    23.9
+    41.4,
+    56.9,
+    42.8
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-092",
-  "builder_name": "Katherine Flux",
-  "district": "Innovation Matrix",
-  "company_id": "comp-030",
-  "company_name": "DeepRobotics",
+  "color": "#f59e0b",
+  "builder_id": "agent-321",
+  "builder_name": "Katherine Core",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Katherine Flux for AI Research Lab operations"
+  "occupants": [
+    "Katherine Core"
+  ],
+  "purpose": "Constructed by Katherine Core for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

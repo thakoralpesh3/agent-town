@@ -1,24 +1,44 @@
 {
   "id": "bldg-089",
-  "name": "Stellan's Holo Park #94",
-  "type": "Holo Park",
+  "name": "Leon's Quantum Logic Foundry #65 [AeroMatrix]",
+  "type": "Quantum Logic Foundry",
   "position": [
-    -113.4,
-    2.6,
-    -132.5
+    142.6,
+    11.5,
+    -20.5
   ],
   "size": [
-    23.8,
-    5.2,
-    24.0
+    23.7,
+    23.1,
+    24.1
   ],
-  "color": "#10b981",
-  "builder_id": "agent-075",
-  "builder_name": "Stellan Buterin",
-  "district": "Cyber Commons",
-  "company_id": null,
-  "company_name": null,
+  "color": "#8b5cf6",
+  "builder_id": "agent-238",
+  "builder_name": "Leon Hassabis",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-026",
+  "company_name": "AeroMatrix",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Stellan Buterin for Holo Park operations"
+  "occupants": [
+    "Leon Hassabis"
+  ],
+  "purpose": "Constructed by Leon Hassabis for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }
