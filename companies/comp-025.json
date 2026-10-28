@@ -1,18 +1,18 @@
 {
   "id": "comp-025",
-  "name": "SynapseMatrix",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-067",
-  "founder_name": "Valeria Flux",
-  "headquarters_id": "bldg-071",
-  "headquarters_name": "SynapseMatrix Headquarters",
+  "name": "BioSynthetics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-268",
+  "founder_name": "Chronos Vanguard",
+  "headquarters_id": "bldg-076",
+  "headquarters_name": "BioSynthetics Headquarters",
   "employees": [
-    "agent-067",
-    "agent-097"
+    "agent-268",
+    "agent-179"
   ],
-  "valuation_tokens": 640302,
+  "valuation_tokens": 515569,
   "products": [],
-  "color": "#10b981",
+  "color": "#8b5cf6",
   "founded_at_tick": 6
 }

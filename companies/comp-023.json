@@ -1,19 +1,20 @@
 {
   "id": "comp-023",
-  "name": "HyperIntell",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-178",
-  "founder_name": "Athena Strata",
-  "headquarters_id": "bldg-064",
-  "headquarters_name": "HyperIntell Headquarters",
+  "name": "AetherLogistics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-051",
+  "founder_name": "Woz Aurelius",
+  "headquarters_id": "bldg-069",
+  "headquarters_name": "AetherLogistics Headquarters",
   "employees": [
-    "agent-178",
-    "agent-101",
-    "agent-187"
+    "agent-051",
+    "agent-250",
+    "agent-032",
+    "agent-030"
   ],
-  "valuation_tokens": 659201,
+  "valuation_tokens": 730505,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 5
+  "color": "#e11d48",
+  "founded_at_tick": 6
 }

@@ -1,41 +1,41 @@
 {
   "id": "bldg-065",
-  "name": "Darian's The Agora Civic Forum #93 [Sovereign Chancellery Core]",
-  "type": "The Agora Civic Forum",
+  "name": "Sora's Hyperloop Central Terminus #42",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    -61.7,
-    10.3,
-    -131.0
+    65.0,
+    12.5,
+    -48.6
   ],
   "size": [
-    29.4,
-    20.6,
-    32.8
+    30.9,
+    24.9,
+    34.4
   ],
-  "color": "#eab308",
-  "builder_id": "agent-322",
-  "builder_name": "Darian Vex",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "color": "#f97316",
+  "builder_id": "agent-160",
+  "builder_name": "Sora Solstice",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Darian Vex"
+    "Sora Solstice"
   ],
-  "purpose": "Constructed by Darian Vex for The Agora Civic Forum operations",
+  "purpose": "Constructed by Sora Solstice for Hyperloop Central Terminus operations",
   "floors": 4,
-  "capacity": 50,
+  "capacity": 45,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 7.1,
+  "power_consumption_mw": 4.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

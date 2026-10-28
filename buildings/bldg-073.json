@@ -1,42 +1,46 @@
 {
   "id": "bldg-073",
-  "name": "Stellan's Cyber Living Township Alpha #87 [BioLongevity Solutions]",
-  "type": "Cyber Living Township Alpha",
+  "name": "Leon's Hypatia Grand University of Sciences #73",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -147.9,
-    12.4,
-    -89.3
+    184.5,
+    16.4,
+    41.5
   ],
   "size": [
-    23.5,
-    24.8,
-    24.1
+    33.5,
+    32.7,
+    33.1
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-170",
-  "builder_name": "Stellan Aurelius",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "color": "#a855f7",
+  "builder_id": "agent-238",
+  "builder_name": "Leon Hassabis",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Stellan Aurelius"
+    "Leon Hassabis"
   ],
-  "purpose": "Constructed by Stellan Aurelius for Cyber Living Township Alpha operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Leon Hassabis for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation Glade"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Recharging Beds",
-    "Filtered Atmosphere"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 7.6,
+  "power_consumption_mw": 4.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

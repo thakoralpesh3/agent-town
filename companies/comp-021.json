@@ -1,18 +1,18 @@
 {
   "id": "comp-021",
-  "name": "AeroDynamics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-156",
-  "founder_name": "Ilya Hassabis",
-  "headquarters_id": "bldg-057",
-  "headquarters_name": "AeroDynamics Headquarters",
+  "name": "HyperSystems",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-139",
+  "founder_name": "Seraph Tinkerer",
+  "headquarters_id": "bldg-063",
+  "headquarters_name": "HyperSystems Headquarters",
   "employees": [
-    "agent-156",
-    "agent-052"
+    "agent-139",
+    "agent-212"
   ],
-  "valuation_tokens": 242925,
+  "valuation_tokens": 539286,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 4
+  "color": "#e11d48",
+  "founded_at_tick": 5
 }

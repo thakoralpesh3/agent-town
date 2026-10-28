@@ -1,41 +1,41 @@
 {
   "id": "bldg-061",
-  "name": "Bjarne's Tokamak Fusion Reactor Station #66 [AeroCyber Mobility]",
-  "type": "Tokamak Fusion Reactor Station",
+  "name": "Sundar's Hydroponic Agricultural Biodome #33 [TerraFlora Synthetics]",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    37.7,
-    13.2,
-    -136.5
+    -56.7,
+    9.9,
+    -153.8
   ],
   "size": [
-    27.4,
-    26.5,
-    30.3
+    31.4,
+    19.7,
+    35.3
   ],
-  "color": "#be123c",
-  "builder_id": "agent-021",
-  "builder_name": "Bjarne Stroustrup",
+  "color": "#16a34a",
+  "builder_id": "agent-255",
+  "builder_name": "Sundar Sutskever",
   "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-006",
-  "company_name": "AeroCyber Mobility",
+  "company_id": "comp-008",
+  "company_name": "TerraFlora Synthetics",
   "completion": 1.0,
   "occupants": [
-    "Bjarne Stroustrup"
+    "Sundar Sutskever"
   ],
-  "purpose": "Constructed by Bjarne Stroustrup for Tokamak Fusion Reactor Station operations",
-  "floors": 4,
-  "capacity": 30,
+  "purpose": "Constructed by Sundar Sutskever for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
   "departments": [
-    "Magnetic Containment Pod",
-    "Superconducting Grid Dispatch",
-    "Plasma Diagnostics"
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
   ],
   "amenities": [
-    "Toroidal Vacuum Chamber",
-    "Cryo-Containment Ring",
-    "Direct Power Feeder"
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 5.2,
+  "power_consumption_mw": 4.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

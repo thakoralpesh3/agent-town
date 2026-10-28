@@ -1,20 +1,20 @@
 {
   "id": "comp-022",
-  "name": "VectorLabs",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-128",
-  "founder_name": "Alexander Murati",
-  "headquarters_id": "bldg-060",
-  "headquarters_name": "VectorLabs Headquarters",
+  "name": "SovereignTechnologies",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-159",
+  "founder_name": "Thorne Jobs",
+  "headquarters_id": "bldg-067",
+  "headquarters_name": "SovereignTechnologies Headquarters",
   "employees": [
-    "agent-128",
-    "agent-288",
-    "agent-124",
-    "agent-314"
+    "agent-159",
+    "agent-329",
+    "agent-228",
+    "agent-292"
   ],
-  "valuation_tokens": 562589,
+  "valuation_tokens": 705275,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 4
+  "color": "#ef4444",
+  "founded_at_tick": 5
 }

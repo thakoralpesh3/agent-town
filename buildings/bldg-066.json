@@ -1,40 +1,41 @@
 {
   "id": "bldg-066",
-  "name": "Norman's Shannon Information Spire #29",
-  "type": "Shannon Information Spire",
+  "name": "Valeria's Tokamak Fusion Reactor Station #62",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    -64.0,
-    27.4,
-    143.4
+    -29.0,
+    13.3,
+    -116.7
   ],
   "size": [
-    17.5,
-    54.8,
-    17.0
+    30.8,
+    26.5,
+    28.6
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-028",
-  "builder_name": "Norman Borlaug",
-  "district": "Silicon Central Metropolis",
+  "color": "#be123c",
+  "builder_id": "agent-077",
+  "builder_name": "Valeria Finney",
+  "district": "Biosphere Reserve & Fusion Grid",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Norman Borlaug"
+    "Valeria Finney"
   ],
-  "purpose": "Constructed by Norman Borlaug for Shannon Information Spire operations",
-  "floors": 12,
-  "capacity": 35,
+  "purpose": "Constructed by Valeria Finney for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 6.7,
+  "power_consumption_mw": 5.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

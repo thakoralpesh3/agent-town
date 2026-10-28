@@ -1,40 +1,41 @@
 {
   "id": "bldg-062",
-  "name": "Leander's Drone Logistics Freight Port #61 [TerraFlora Synthetics]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Sora's Hyperloop Central Terminus #71 [Sovereign Chancellery Core]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    144.4,
+    105.7,
     13.3,
-    -72.4
+    -79.2
   ],
   "size": [
-    25.0,
+    40.5,
     26.6,
-    24.3
+    38.8
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-268",
-  "builder_name": "Leander Odersky",
+  "color": "#f97316",
+  "builder_id": "agent-104",
+  "builder_name": "Sora Cross",
   "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Leander Odersky"
+    "Sora Cross"
   ],
-  "purpose": "Constructed by Leander Odersky for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Sora Cross for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 7.1,
+  "power_consumption_mw": 7.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

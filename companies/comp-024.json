@@ -1,20 +1,18 @@
 {
   "id": "comp-024",
-  "name": "NexusSystems",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-109",
-  "founder_name": "Linus Tinkerer",
-  "headquarters_id": "bldg-070",
-  "headquarters_name": "NexusSystems Headquarters",
+  "name": "VectorLabs",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-210",
+  "founder_name": "Seraph Odersky",
+  "headquarters_id": "bldg-071",
+  "headquarters_name": "VectorLabs Headquarters",
   "employees": [
-    "agent-109",
-    "agent-079",
-    "agent-224",
-    "agent-211"
+    "agent-210",
+    "agent-019"
   ],
-  "valuation_tokens": 233802,
+  "valuation_tokens": 587514,
   "products": [],
-  "color": "#eab308",
+  "color": "#8b5cf6",
   "founded_at_tick": 6
 }
