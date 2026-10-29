@@ -1,0 +1,20 @@
+{
+  "id": "comp-053",
+  "name": "StellarFederation",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-089",
+  "founder_name": "Gavin Altman",
+  "headquarters_id": "bldg-136",
+  "headquarters_name": "StellarFederation Headquarters",
+  "employees": [
+    "agent-089",
+    "agent-165",
+    "agent-193",
+    "agent-305"
+  ],
+  "valuation_tokens": 328520,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 16
+}

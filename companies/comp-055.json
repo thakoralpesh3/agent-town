@@ -1,0 +1,19 @@
+{
+  "id": "comp-055",
+  "name": "HeliosLabs",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-121",
+  "founder_name": "Fei-Fei Winter",
+  "headquarters_id": "bldg-141",
+  "headquarters_name": "HeliosLabs Headquarters",
+  "employees": [
+    "agent-121",
+    "agent-333",
+    "agent-332"
+  ],
+  "valuation_tokens": 295579,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 16
+}

@@ -1,0 +1,20 @@
+{
+  "id": "comp-057",
+  "name": "CyberMatrix",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-328",
+  "founder_name": "Pixel Kahn",
+  "headquarters_id": "bldg-143",
+  "headquarters_name": "CyberMatrix Headquarters",
+  "employees": [
+    "agent-328",
+    "agent-057",
+    "agent-110",
+    "agent-114"
+  ],
+  "valuation_tokens": 457142,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 16
+}

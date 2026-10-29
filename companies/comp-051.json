@@ -1,0 +1,20 @@
+{
+  "id": "comp-051",
+  "name": "CyberLogistics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-280",
+  "founder_name": "Lyra Nadella",
+  "headquarters_id": "bldg-133",
+  "headquarters_name": "CyberLogistics Headquarters",
+  "employees": [
+    "agent-280",
+    "agent-029",
+    "agent-056",
+    "agent-239"
+  ],
+  "valuation_tokens": 282157,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 15
+}

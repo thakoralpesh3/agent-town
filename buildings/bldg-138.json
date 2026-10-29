@@ -1,42 +1,44 @@
 {
   "id": "bldg-138",
-  "name": "Marie's Cyber Cafe #48",
-  "type": "Cyber Cafe",
+  "name": "Vint's Shannon Information Spire #50 [SolarFusion Grid]",
+  "type": "Shannon Information Spire",
   "position": [
-    -74.9,
-    7.6,
-    -134.7
+    19.4,
+    23.9,
+    170.1
   ],
   "size": [
     17.4,
-    15.2,
-    18.2
+    47.9,
+    17.7
   ],
-  "color": "#eab308",
-  "builder_id": "agent-022",
-  "builder_name": "Marie Curie",
-  "district": "Cyber Commons",
-  "company_id": null,
-  "company_name": null,
+  "color": "#0284c7",
+  "builder_id": "agent-083",
+  "builder_name": "Vint Nakamoto",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Marie Curie"
+    "Vint Nakamoto"
   ],
-  "purpose": "Constructed by Marie Curie for Cyber Cafe operations",
-  "floors": 2,
-  "capacity": 22,
+  "purpose": "Constructed by Vint Nakamoto for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Quantum Barista Bar",
-    "Open Hackathon Lounge",
-    "Civic Forum"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "High-Bandwidth Wi-Fi",
-    "Nutrient Synthesizers",
-    "Acoustic Privacy Pods"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
-  "power_consumption_mw": 6.2,
+  "power_consumption_mw": 8.3,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

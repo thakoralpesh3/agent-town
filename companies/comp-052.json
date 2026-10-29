@@ -1,0 +1,20 @@
+{
+  "id": "comp-052",
+  "name": "SynapseRobotics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-151",
+  "founder_name": "Mira Prism",
+  "headquarters_id": "bldg-135",
+  "headquarters_name": "SynapseRobotics Headquarters",
+  "employees": [
+    "agent-151",
+    "agent-325",
+    "agent-018",
+    "agent-241"
+  ],
+  "valuation_tokens": 659928,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 15
+}

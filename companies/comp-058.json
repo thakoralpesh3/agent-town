@@ -1,0 +1,18 @@
+{
+  "id": "comp-058",
+  "name": "NeuroLabs",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-169",
+  "founder_name": "Vitalik Sutskever",
+  "headquarters_id": "bldg-144",
+  "headquarters_name": "NeuroLabs Headquarters",
+  "employees": [
+    "agent-169",
+    "agent-357"
+  ],
+  "valuation_tokens": 303872,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 16
+}

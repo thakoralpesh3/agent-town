@@ -1,0 +1,18 @@
+{
+  "id": "comp-049",
+  "name": "AeroGenetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-015",
+  "founder_name": "Hypatia Alexandria",
+  "headquarters_id": "bldg-127",
+  "headquarters_name": "AeroGenetics AI Headquarters",
+  "employees": [
+    "agent-015",
+    "agent-151"
+  ],
+  "valuation_tokens": 250765,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 15
+}

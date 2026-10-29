@@ -1,0 +1,44 @@
+{
+  "id": "bldg-140",
+  "name": "Maeve's Quantum Logic Foundry #96",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    165.8,
+    19.5,
+    33.7
+  ],
+  "size": [
+    24.0,
+    39.0,
+    24.7
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-358",
+  "builder_name": "Maeve Orbit",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Maeve Orbit"
+  ],
+  "purpose": "Constructed by Maeve Orbit for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

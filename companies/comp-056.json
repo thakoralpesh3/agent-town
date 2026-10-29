@@ -1,0 +1,18 @@
+{
+  "id": "comp-056",
+  "name": "PrismGenetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-027",
+  "founder_name": "Carl Sagan",
+  "headquarters_id": "bldg-142",
+  "headquarters_name": "PrismGenetics Headquarters",
+  "employees": [
+    "agent-027",
+    "agent-124"
+  ],
+  "valuation_tokens": 662242,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 16
+}

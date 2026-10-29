@@ -1,0 +1,18 @@
+{
+  "id": "comp-054",
+  "name": "StellarSystems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-209",
+  "founder_name": "Barbara Frost",
+  "headquarters_id": "bldg-137",
+  "headquarters_name": "StellarSystems Headquarters",
+  "employees": [
+    "agent-209",
+    "agent-253"
+  ],
+  "valuation_tokens": 552385,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 16
+}

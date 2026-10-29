@@ -1,0 +1,44 @@
+{
+  "id": "bldg-134",
+  "name": "Dante's Drone Logistics Freight Port #44 [SolarFusion Grid]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    142.0,
+    18.4,
+    -61.4
+  ],
+  "size": [
+    31.2,
+    36.9,
+    25.3
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-313",
+  "builder_name": "Dante Kahn",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Dante Kahn"
+  ],
+  "purpose": "Constructed by Dante Kahn for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
