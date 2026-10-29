@@ -1,0 +1,45 @@
+{
+  "id": "bldg-178",
+  "name": "Mira's Tokamak Fusion Reactor Station #91",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    9.6,
+    9.5,
+    -110.3
+  ],
+  "size": [
+    33.6,
+    18.9,
+    28.5
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-137",
+  "builder_name": "Mira Hickey",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Mira Hickey"
+  ],
+  "purpose": "Constructed by Mira Hickey for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-164",
+  "name": "Hippocrates's Hypatia Grand University of Sciences #51",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    88.4,
+    16.4,
+    -18.5
+  ],
+  "size": [
+    39.3,
+    32.7,
+    30.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-010",
+  "builder_name": "Hippocrates Cyber",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Hippocrates Cyber"
+  ],
+  "purpose": "Constructed by Hippocrates Cyber for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

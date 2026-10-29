@@ -1,0 +1,20 @@
+{
+  "id": "comp-066",
+  "name": "NeuroEnergy",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-284",
+  "founder_name": "Julian Node",
+  "headquarters_id": "bldg-182",
+  "headquarters_name": "NeuroEnergy Headquarters",
+  "employees": [
+    "agent-284",
+    "agent-344",
+    "agent-352",
+    "agent-044"
+  ],
+  "valuation_tokens": 421127,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 20
+}

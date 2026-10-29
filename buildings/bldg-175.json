@@ -1,0 +1,45 @@
+{
+  "id": "bldg-175",
+  "name": "Woz's Cyber Living Township Alpha #36 [AetherLogistics]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -120.9,
+    14.1,
+    -154.1
+  ],
+  "size": [
+    28.8,
+    28.3,
+    30.3
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-051",
+  "builder_name": "Woz Aurelius",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-023",
+  "company_name": "AetherLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Woz Aurelius"
+  ],
+  "purpose": "Constructed by Woz Aurelius for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

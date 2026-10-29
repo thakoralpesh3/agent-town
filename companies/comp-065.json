@@ -1,0 +1,18 @@
+{
+  "id": "comp-065",
+  "name": "SovereignTechnologies AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-360",
+  "founder_name": "Nick Helix",
+  "headquarters_id": "bldg-176",
+  "headquarters_name": "SovereignTechnologies AI Headquarters",
+  "employees": [
+    "agent-360",
+    "agent-388"
+  ],
+  "valuation_tokens": 431372,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 20
+}

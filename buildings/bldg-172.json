@@ -1,0 +1,45 @@
+{
+  "id": "bldg-172",
+  "name": "Kaelen's The Agora Civic Forum #37",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -172.2,
+    13.6,
+    -117.2
+  ],
+  "size": [
+    31.3,
+    27.2,
+    29.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-354",
+  "builder_name": "Kaelen Valerius",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Kaelen Valerius"
+  ],
+  "purpose": "Constructed by Kaelen Valerius for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

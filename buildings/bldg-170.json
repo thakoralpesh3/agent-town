@@ -1,0 +1,45 @@
+{
+  "id": "bldg-170",
+  "name": "Yoshua's Hydroponic Agricultural Biodome #41 [AeroIntell]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    24.2,
+    10.6,
+    -132.1
+  ],
+  "size": [
+    35.7,
+    21.3,
+    33.2
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-222",
+  "builder_name": "Yoshua Brockman",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-041",
+  "company_name": "AeroIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Yoshua Brockman"
+  ],
+  "purpose": "Constructed by Yoshua Brockman for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 2.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

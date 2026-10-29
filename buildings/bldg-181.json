@@ -1,0 +1,45 @@
+{
+  "id": "bldg-181",
+  "name": "Lyra's Grand Astronomical Observatory #35",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    177.3,
+    19.1,
+    61.9
+  ],
+  "size": [
+    26.8,
+    38.3,
+    27.5
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-131",
+  "builder_name": "Lyra Apex",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Apex"
+  ],
+  "purpose": "Constructed by Lyra Apex for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 3.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

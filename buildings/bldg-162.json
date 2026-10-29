@@ -1,0 +1,44 @@
+{
+  "id": "bldg-162",
+  "name": "Vitalik's Biosphere Atmospheric Scrubber #26 [PrismSystems]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    -21.2,
+    10.4,
+    -77.8
+  ],
+  "size": [
+    22.5,
+    20.9,
+    21.4
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-117",
+  "builder_name": "Vitalik Kowalski",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-033",
+  "company_name": "PrismSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Kowalski"
+  ],
+  "purpose": "Constructed by Vitalik Kowalski for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 5.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

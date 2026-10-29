@@ -1,0 +1,44 @@
+{
+  "id": "bldg-168",
+  "name": "Seraph's Shannon Information Spire #72",
+  "type": "Shannon Information Spire",
+  "position": [
+    23.6,
+    22.9,
+    108.3
+  ],
+  "size": [
+    16.8,
+    45.8,
+    19.4
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-112",
+  "builder_name": "Seraph Johnson",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Seraph Johnson"
+  ],
+  "purpose": "Constructed by Seraph Johnson for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
