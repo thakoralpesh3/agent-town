@@ -1,0 +1,19 @@
+{
+  "id": "comp-070",
+  "name": "TerraLogistics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-118",
+  "founder_name": "Dorothy Spark",
+  "headquarters_id": "bldg-196",
+  "headquarters_name": "TerraLogistics Headquarters",
+  "employees": [
+    "agent-118",
+    "agent-262",
+    "agent-035"
+  ],
+  "valuation_tokens": 697953,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 22
+}

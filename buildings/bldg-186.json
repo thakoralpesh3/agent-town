@@ -1,0 +1,45 @@
+{
+  "id": "bldg-186",
+  "name": "Dennis's Hydroponic Agricultural Biodome #34 [QuantumMatrix Systems]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -15.4,
+    11.8,
+    -130.5
+  ],
+  "size": [
+    29.8,
+    23.7,
+    31.2
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-039",
+  "builder_name": "Dennis Vaughan",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-004",
+  "company_name": "QuantumMatrix Systems",
+  "completion": 1.0,
+  "occupants": [
+    "Dennis Vaughan"
+  ],
+  "purpose": "Constructed by Dennis Vaughan for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 7.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

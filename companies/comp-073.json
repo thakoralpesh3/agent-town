@@ -1,0 +1,19 @@
+{
+  "id": "comp-073",
+  "name": "CyberVentures",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-060",
+  "founder_name": "Diana Sutskever",
+  "headquarters_id": "bldg-205",
+  "headquarters_name": "CyberVentures Headquarters",
+  "employees": [
+    "agent-060",
+    "agent-041",
+    "agent-326"
+  ],
+  "valuation_tokens": 592899,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 22
+}

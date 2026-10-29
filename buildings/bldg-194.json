@@ -1,0 +1,45 @@
+{
+  "id": "bldg-194",
+  "name": "Ronan's Hydroponic Agricultural Biodome #19 [QuantumMatrix Systems]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    67.5,
+    9.7,
+    -155.0
+  ],
+  "size": [
+    36.0,
+    19.4,
+    30.9
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-231",
+  "builder_name": "Ronan Synapse",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-004",
+  "company_name": "QuantumMatrix Systems",
+  "completion": 1.0,
+  "occupants": [
+    "Ronan Synapse"
+  ],
+  "purpose": "Constructed by Ronan Synapse for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 3.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

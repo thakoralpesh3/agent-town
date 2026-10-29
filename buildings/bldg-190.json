@@ -1,0 +1,45 @@
+{
+  "id": "bldg-190",
+  "name": "Barbara's Autonomous Vehicle Mega-Plant #80 [CyberMatrix]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    120.7,
+    11.0,
+    -67.4
+  ],
+  "size": [
+    35.1,
+    22.0,
+    33.4
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-114",
+  "builder_name": "Barbara Mercer",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-057",
+  "company_name": "CyberMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Barbara Mercer"
+  ],
+  "purpose": "Constructed by Barbara Mercer for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

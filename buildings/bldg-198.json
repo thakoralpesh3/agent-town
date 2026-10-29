@@ -1,0 +1,45 @@
+{
+  "id": "bldg-198",
+  "name": "Nick's Supreme Court of Justice #57 [OmniVentures]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -58.5,
+    20.7,
+    -18.0
+  ],
+  "size": [
+    31.9,
+    41.4,
+    31.3
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-283",
+  "builder_name": "Nick Brockman",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-047",
+  "company_name": "OmniVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Nick Brockman"
+  ],
+  "purpose": "Constructed by Nick Brockman for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

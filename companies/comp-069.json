@@ -1,0 +1,18 @@
+{
+  "id": "comp-069",
+  "name": "CyberIntell",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-384",
+  "founder_name": "Athena Rossum",
+  "headquarters_id": "bldg-191",
+  "headquarters_name": "CyberIntell Headquarters",
+  "employees": [
+    "agent-384",
+    "agent-263"
+  ],
+  "valuation_tokens": 460426,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 21
+}

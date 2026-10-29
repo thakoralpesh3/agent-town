@@ -1,0 +1,44 @@
+{
+  "id": "bldg-192",
+  "name": "Brendan's Biosphere Atmospheric Scrubber #10 [CyberIntell]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    -40.6,
+    17.3,
+    -105.1
+  ],
+  "size": [
+    20.0,
+    34.5,
+    19.1
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-263",
+  "builder_name": "Brendan Altman",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-069",
+  "company_name": "CyberIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Brendan Altman"
+  ],
+  "purpose": "Constructed by Brendan Altman for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

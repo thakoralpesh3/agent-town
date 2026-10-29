@@ -1,0 +1,45 @@
+{
+  "id": "bldg-187",
+  "name": "Bjarne's Grand Astronomical Observatory #96 [SolarMatrix]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    115.9,
+    15.7,
+    14.0
+  ],
+  "size": [
+    23.7,
+    31.4,
+    22.7
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-205",
+  "builder_name": "Bjarne Scribe",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-060",
+  "company_name": "SolarMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Bjarne Scribe"
+  ],
+  "purpose": "Constructed by Bjarne Scribe for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

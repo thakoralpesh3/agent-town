@@ -1,0 +1,45 @@
+{
+  "id": "bldg-195",
+  "name": "Felix's Supreme Court of Justice #89 [StellarFederation]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    50.8,
+    20.4,
+    42.5
+  ],
+  "size": [
+    29.1,
+    40.8,
+    29.0
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-305",
+  "builder_name": "Felix Praetor",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-053",
+  "company_name": "StellarFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Felix Praetor"
+  ],
+  "purpose": "Constructed by Felix Praetor for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

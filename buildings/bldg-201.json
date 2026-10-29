@@ -1,0 +1,45 @@
+{
+  "id": "bldg-201",
+  "name": "Alan's National Archives & Git Ledger #33 [AxiomRobotics]",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    12.7,
+    13.6,
+    8.8
+  ],
+  "size": [
+    25.3,
+    27.1,
+    27.3
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-130",
+  "builder_name": "Alan Smith",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-062",
+  "company_name": "AxiomRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Smith"
+  ],
+  "purpose": "Constructed by Alan Smith for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

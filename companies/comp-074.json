@@ -1,0 +1,19 @@
+{
+  "id": "comp-074",
+  "name": "HyperSynthetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-185",
+  "founder_name": "Marc Finney",
+  "headquarters_id": "bldg-206",
+  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "employees": [
+    "agent-185",
+    "agent-088",
+    "agent-081"
+  ],
+  "valuation_tokens": 495964,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 22
+}

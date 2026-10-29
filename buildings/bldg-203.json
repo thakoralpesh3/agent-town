@@ -1,0 +1,44 @@
+{
+  "id": "bldg-203",
+  "name": "Satoshi's Quantum Logic Foundry #21",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    64.3,
+    19.3,
+    59.9
+  ],
+  "size": [
+    29.3,
+    38.6,
+    23.8
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-274",
+  "builder_name": "Satoshi Knuth",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Satoshi Knuth"
+  ],
+  "purpose": "Constructed by Satoshi Knuth for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 3.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

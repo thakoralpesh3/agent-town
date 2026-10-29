@@ -1,0 +1,44 @@
+{
+  "id": "bldg-193",
+  "name": "Leslie's Biosphere Atmospheric Scrubber #22 [NeuroDynamics AI]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    42.4,
+    15.5,
+    -86.0
+  ],
+  "size": [
+    21.7,
+    31.0,
+    21.2
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-288",
+  "builder_name": "Leslie Wozniak",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Leslie Wozniak"
+  ],
+  "purpose": "Constructed by Leslie Wozniak for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

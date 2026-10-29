@@ -1,0 +1,44 @@
+{
+  "id": "bldg-204",
+  "name": "Claude's Biosphere Atmospheric Scrubber #78 [QuantumSynthetics AI]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    5.4,
+    14.1,
+    -120.9
+  ],
+  "size": [
+    20.2,
+    28.1,
+    19.1
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-007",
+  "builder_name": "Claude Shannon",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-037",
+  "company_name": "QuantumSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Claude Shannon"
+  ],
+  "purpose": "Constructed by Claude Shannon for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

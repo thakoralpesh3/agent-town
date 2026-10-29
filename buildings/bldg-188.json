@@ -1,0 +1,47 @@
+{
+  "id": "bldg-188",
+  "name": "Selene's Sovereign Capitol Building #79 [OmniNetworks]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -10.9,
+    27.0,
+    48.2
+  ],
+  "size": [
+    41.8,
+    54.0,
+    35.1
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-249",
+  "builder_name": "Selene Weaver",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-064",
+  "company_name": "OmniNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Selene Weaver"
+  ],
+  "purpose": "Constructed by Selene Weaver for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

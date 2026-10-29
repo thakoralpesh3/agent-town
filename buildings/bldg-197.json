@@ -1,0 +1,46 @@
+{
+  "id": "bldg-197",
+  "name": "Diana's National Hospital & Nanomedical Citadel #75",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -117.8,
+    24.8,
+    14.0
+  ],
+  "size": [
+    35.1,
+    49.7,
+    31.7
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-098",
+  "builder_name": "Diana Rayne",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Diana Rayne"
+  ],
+  "purpose": "Constructed by Diana Rayne for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
