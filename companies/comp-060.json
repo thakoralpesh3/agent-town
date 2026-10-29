@@ -1,0 +1,19 @@
+{
+  "id": "comp-060",
+  "name": "SolarMatrix",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-069",
+  "founder_name": "Ilya Node",
+  "headquarters_id": "bldg-153",
+  "headquarters_name": "SolarMatrix Headquarters",
+  "employees": [
+    "agent-069",
+    "agent-360",
+    "agent-205"
+  ],
+  "valuation_tokens": 173944,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 18
+}

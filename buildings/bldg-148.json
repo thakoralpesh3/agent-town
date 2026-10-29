@@ -1,0 +1,46 @@
+{
+  "id": "bldg-148",
+  "name": "Axel's Hypatia Grand University of Sciences #87",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    90.8,
+    22.4,
+    31.8
+  ],
+  "size": [
+    39.6,
+    44.7,
+    36.9
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-260",
+  "builder_name": "Axel Smith",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Axel Smith"
+  ],
+  "purpose": "Constructed by Axel Smith for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

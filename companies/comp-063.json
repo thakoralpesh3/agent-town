@@ -1,0 +1,18 @@
+{
+  "id": "comp-063",
+  "name": "ApexDynamics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-031",
+  "founder_name": "Gregor Mendel",
+  "headquarters_id": "bldg-160",
+  "headquarters_name": "ApexDynamics Headquarters",
+  "employees": [
+    "agent-031",
+    "agent-097"
+  ],
+  "valuation_tokens": 296622,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 18
+}

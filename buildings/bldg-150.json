@@ -1,0 +1,46 @@
+{
+  "id": "bldg-150",
+  "name": "Ken's National Central Bank & Treasury #63",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    -3.9,
+    15.9,
+    -2.6
+  ],
+  "size": [
+    31.7,
+    31.8,
+    27.9
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-071",
+  "builder_name": "Ken Glitch",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Ken Glitch"
+  ],
+  "purpose": "Constructed by Ken Glitch for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

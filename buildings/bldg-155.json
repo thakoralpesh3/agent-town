@@ -1,0 +1,46 @@
+{
+  "id": "bldg-155",
+  "name": "Pixel's National Central Bank & Treasury #57 [CyberMatrix]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    -55.6,
+    19.0,
+    43.4
+  ],
+  "size": [
+    32.3,
+    38.1,
+    29.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-328",
+  "builder_name": "Pixel Kahn",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-057",
+  "company_name": "CyberMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Kahn"
+  ],
+  "purpose": "Constructed by Pixel Kahn for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

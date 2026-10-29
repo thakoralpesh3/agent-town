@@ -1,0 +1,44 @@
+{
+  "id": "bldg-159",
+  "name": "Zephyr's Biosphere Atmospheric Scrubber #35",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    44.5,
+    14.6,
+    -191.0
+  ],
+  "size": [
+    19.6,
+    29.2,
+    20.0
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-223",
+  "builder_name": "Zephyr Cartographer",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Zephyr Cartographer"
+  ],
+  "purpose": "Constructed by Zephyr Cartographer for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

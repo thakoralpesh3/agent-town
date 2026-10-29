@@ -1,0 +1,44 @@
+{
+  "id": "bldg-156",
+  "name": "Ryan's Drone Logistics Freight Port #64 [StellarFoundry]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    167.2,
+    17.8,
+    -153.1
+  ],
+  "size": [
+    28.1,
+    35.6,
+    27.0
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-303",
+  "builder_name": "Ryan Li",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-061",
+  "company_name": "StellarFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Ryan Li"
+  ],
+  "purpose": "Constructed by Ryan Li for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

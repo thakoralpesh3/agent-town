@@ -1,0 +1,45 @@
+{
+  "id": "bldg-152",
+  "name": "Julian's Hyperloop Central Terminus #80 [Sovereign Chancellery Core]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    86.4,
+    12.1,
+    -156.2
+  ],
+  "size": [
+    32.2,
+    24.2,
+    34.2
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-070",
+  "builder_name": "Julian Flux",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Flux"
+  ],
+  "purpose": "Constructed by Julian Flux for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

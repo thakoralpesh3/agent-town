@@ -1,0 +1,19 @@
+{
+  "id": "comp-059",
+  "name": "VectorFederation",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-267",
+  "founder_name": "Alan Murati",
+  "headquarters_id": "bldg-146",
+  "headquarters_name": "VectorFederation Headquarters",
+  "employees": [
+    "agent-267",
+    "agent-028",
+    "agent-345"
+  ],
+  "valuation_tokens": 301505,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 17
+}

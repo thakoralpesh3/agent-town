@@ -1,0 +1,18 @@
+{
+  "id": "comp-061",
+  "name": "StellarFoundry",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-125",
+  "founder_name": "Ada Dahl",
+  "headquarters_id": "bldg-154",
+  "headquarters_name": "StellarFoundry Headquarters",
+  "employees": [
+    "agent-125",
+    "agent-303"
+  ],
+  "valuation_tokens": 602010,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 18
+}
