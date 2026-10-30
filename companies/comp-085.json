@@ -1,0 +1,18 @@
+{
+  "id": "comp-085",
+  "name": "AxiomSystems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-168",
+  "founder_name": "Hal Hopper",
+  "headquarters_id": "bldg-235",
+  "headquarters_name": "AxiomSystems Headquarters",
+  "employees": [
+    "agent-168",
+    "agent-072"
+  ],
+  "valuation_tokens": 173674,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 27
+}

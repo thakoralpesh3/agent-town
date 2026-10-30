@@ -1,0 +1,46 @@
+{
+  "id": "bldg-239",
+  "name": "Nick's Hypatia Grand University of Sciences #37 [StellarSystems]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    163.6,
+    22.1,
+    34.5
+  ],
+  "size": [
+    40.3,
+    44.2,
+    31.6
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-253",
+  "builder_name": "Nick Dijkstra",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-054",
+  "company_name": "StellarSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Nick Dijkstra"
+  ],
+  "purpose": "Constructed by Nick Dijkstra for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

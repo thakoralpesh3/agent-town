@@ -1,0 +1,46 @@
+{
+  "id": "bldg-233",
+  "name": "Morrigan's National Hospital & Nanomedical Citadel #32 [ApexFoundry]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -178.9,
+    22.5,
+    47.7
+  ],
+  "size": [
+    37.8,
+    45.1,
+    33.4
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-167",
+  "builder_name": "Morrigan Chronos",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-077",
+  "company_name": "ApexFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Morrigan Chronos"
+  ],
+  "purpose": "Constructed by Morrigan Chronos for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

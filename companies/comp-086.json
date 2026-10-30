@@ -1,0 +1,19 @@
+{
+  "id": "comp-086",
+  "name": "CyberLogistics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-186",
+  "founder_name": "Brendan Finney",
+  "headquarters_id": "bldg-236",
+  "headquarters_name": "CyberLogistics AI Headquarters",
+  "employees": [
+    "agent-186",
+    "agent-245",
+    "agent-135"
+  ],
+  "valuation_tokens": 422117,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 27
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-234",
+  "name": "Alexander's Supreme Court of Justice #10 [AeroMatrix]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -45.3,
+    20.2,
+    40.8
+  ],
+  "size": [
+    33.3,
+    40.5,
+    32.1
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-234",
+  "builder_name": "Alexander Node",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-026",
+  "company_name": "AeroMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Alexander Node"
+  ],
+  "purpose": "Constructed by Alexander Node for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

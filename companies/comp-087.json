@@ -1,0 +1,20 @@
+{
+  "id": "comp-087",
+  "name": "QuantumRobotics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-407",
+  "founder_name": "Felix Thorne",
+  "headquarters_id": "bldg-237",
+  "headquarters_name": "QuantumRobotics Headquarters",
+  "employees": [
+    "agent-407",
+    "agent-138",
+    "agent-011",
+    "agent-350"
+  ],
+  "valuation_tokens": 720651,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 28
+}

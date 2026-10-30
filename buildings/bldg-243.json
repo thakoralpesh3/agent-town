@@ -1,0 +1,45 @@
+{
+  "id": "bldg-243",
+  "name": "Felix's Grand Astronomical Observatory #59 [StellarFederation]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    151.3,
+    21.3,
+    -7.0
+  ],
+  "size": [
+    28.6,
+    42.7,
+    24.1
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-305",
+  "builder_name": "Felix Praetor",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-053",
+  "company_name": "StellarFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Felix Praetor"
+  ],
+  "purpose": "Constructed by Felix Praetor for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 6.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

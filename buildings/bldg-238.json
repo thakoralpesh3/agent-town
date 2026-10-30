@@ -1,0 +1,45 @@
+{
+  "id": "bldg-238",
+  "name": "Lyra's Autonomous Vehicle Mega-Plant #79 [OpenKernel Federation]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    121.7,
+    14.4,
+    -74.2
+  ],
+  "size": [
+    37.1,
+    28.8,
+    32.0
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-116",
+  "builder_name": "Lyra Vaughan",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Vaughan"
+  ],
+  "purpose": "Constructed by Lyra Vaughan for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 3.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

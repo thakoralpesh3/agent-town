@@ -1,0 +1,45 @@
+{
+  "id": "bldg-242",
+  "name": "Nova's Cyber Living Township Alpha #12 [PrismSystems]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -125.7,
+    16.9,
+    -173.9
+  ],
+  "size": [
+    28.9,
+    33.8,
+    28.3
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-107",
+  "builder_name": "Nova Tinkerer",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-033",
+  "company_name": "PrismSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Nova Tinkerer"
+  ],
+  "purpose": "Constructed by Nova Tinkerer for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 8.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
