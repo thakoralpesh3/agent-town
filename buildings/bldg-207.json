@@ -1,0 +1,44 @@
+{
+  "id": "bldg-207",
+  "name": "Ilya's Drone Logistics Freight Port #94 [HyperTechnologies]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    109.8,
+    18.1,
+    -155.6
+  ],
+  "size": [
+    31.2,
+    36.3,
+    26.6
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-140",
+  "builder_name": "Ilya Buterin",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-020",
+  "company_name": "HyperTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Buterin"
+  ],
+  "purpose": "Constructed by Ilya Buterin for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

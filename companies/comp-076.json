@@ -1,0 +1,18 @@
+{
+  "id": "comp-076",
+  "name": "TerraRobotics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-009",
+  "founder_name": "Rosalind Franklin",
+  "headquarters_id": "bldg-213",
+  "headquarters_name": "TerraRobotics Headquarters",
+  "employees": [
+    "agent-009",
+    "agent-297"
+  ],
+  "valuation_tokens": 253140,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 23
+}

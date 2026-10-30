@@ -1,0 +1,20 @@
+{
+  "id": "comp-075",
+  "name": "HyperGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-362",
+  "founder_name": "Noam Core",
+  "headquarters_id": "bldg-210",
+  "headquarters_name": "HyperGenetics Headquarters",
+  "employees": [
+    "agent-362",
+    "agent-148",
+    "agent-178",
+    "agent-356"
+  ],
+  "valuation_tokens": 658616,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 23
+}

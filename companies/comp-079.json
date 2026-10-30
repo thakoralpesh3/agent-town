@@ -1,0 +1,20 @@
+{
+  "id": "comp-079",
+  "name": "AeroGenetics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-284",
+  "founder_name": "Julian Node",
+  "headquarters_id": "bldg-219",
+  "headquarters_name": "AeroGenetics AI Headquarters",
+  "employees": [
+    "agent-284",
+    "agent-112",
+    "agent-390",
+    "agent-115"
+  ],
+  "valuation_tokens": 161141,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 24
+}

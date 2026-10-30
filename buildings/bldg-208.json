@@ -1,0 +1,44 @@
+{
+  "id": "bldg-208",
+  "name": "Helios's Drone Logistics Freight Port #90",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    116.0,
+    16.2,
+    -92.5
+  ],
+  "size": [
+    27.1,
+    32.4,
+    30.7
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-220",
+  "builder_name": "Helios Blaze",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Helios Blaze"
+  ],
+  "purpose": "Constructed by Helios Blaze for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 9.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

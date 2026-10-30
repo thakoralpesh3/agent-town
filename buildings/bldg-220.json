@@ -1,0 +1,45 @@
+{
+  "id": "bldg-220",
+  "name": "Andrej's The Agora Civic Forum #27 [OpenKernel Federation]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -162.4,
+    10.9,
+    -150.7
+  ],
+  "size": [
+    27.0,
+    21.9,
+    26.4
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-302",
+  "builder_name": "Andrej Sutskever",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Andrej Sutskever"
+  ],
+  "purpose": "Constructed by Andrej Sutskever for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

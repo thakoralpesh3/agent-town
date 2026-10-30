@@ -1,0 +1,44 @@
+{
+  "id": "bldg-212",
+  "name": "Helios's Quantum Logic Foundry #58",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    171.4,
+    13.6,
+    33.2
+  ],
+  "size": [
+    25.9,
+    27.2,
+    27.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-365",
+  "builder_name": "Helios Perlman",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Helios Perlman"
+  ],
+  "purpose": "Constructed by Helios Perlman for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

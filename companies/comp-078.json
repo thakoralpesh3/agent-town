@@ -1,0 +1,20 @@
+{
+  "id": "comp-078",
+  "name": "AxiomLogistics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-021",
+  "founder_name": "Bjarne Stroustrup",
+  "headquarters_id": "bldg-217",
+  "headquarters_name": "AxiomLogistics Headquarters",
+  "employees": [
+    "agent-021",
+    "agent-343",
+    "agent-078",
+    "agent-327"
+  ],
+  "valuation_tokens": 410292,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 24
+}
