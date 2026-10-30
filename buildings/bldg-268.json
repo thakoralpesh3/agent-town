@@ -1,0 +1,44 @@
+{
+  "id": "bldg-268",
+  "name": "Felix's Shannon Information Spire #68 [QuantumRobotics]",
+  "type": "Shannon Information Spire",
+  "position": [
+    50.6,
+    33.5,
+    103.1
+  ],
+  "size": [
+    17.7,
+    67.0,
+    17.7
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-407",
+  "builder_name": "Felix Thorne",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-087",
+  "company_name": "QuantumRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Felix Thorne"
+  ],
+  "purpose": "Constructed by Felix Thorne for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

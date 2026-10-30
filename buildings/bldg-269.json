@@ -1,0 +1,45 @@
+{
+  "id": "bldg-269",
+  "name": "Alan's Hyperloop Central Terminus #28 [NexusVentures]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    116.1,
+    13.6,
+    -70.0
+  ],
+  "size": [
+    40.7,
+    27.2,
+    36.6
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-043",
+  "builder_name": "Alan Armstrong",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-084",
+  "company_name": "NexusVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Armstrong"
+  ],
+  "purpose": "Constructed by Alan Armstrong for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

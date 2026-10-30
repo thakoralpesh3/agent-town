@@ -1,0 +1,20 @@
+{
+  "id": "comp-096",
+  "name": "AetherSolutions",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-267",
+  "founder_name": "Alan Murati",
+  "headquarters_id": "bldg-264",
+  "headquarters_name": "AetherSolutions Headquarters",
+  "employees": [
+    "agent-267",
+    "agent-191",
+    "agent-278",
+    "agent-208"
+  ],
+  "valuation_tokens": 517125,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 31
+}

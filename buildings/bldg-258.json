@@ -1,0 +1,44 @@
+{
+  "id": "bldg-258",
+  "name": "Vint's Quantum Logic Foundry #66 [NeuroLogistics]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    115.8,
+    15.5,
+    14.5
+  ],
+  "size": [
+    26.1,
+    31.0,
+    24.9
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-086",
+  "builder_name": "Vint Odersky",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-083",
+  "company_name": "NeuroLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Vint Odersky"
+  ],
+  "purpose": "Constructed by Vint Odersky for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

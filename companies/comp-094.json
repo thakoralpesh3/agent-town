@@ -1,0 +1,20 @@
+{
+  "id": "comp-094",
+  "name": "OmniSynthetics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-236",
+  "founder_name": "Roxas Glitch",
+  "headquarters_id": "bldg-259",
+  "headquarters_name": "OmniSynthetics Headquarters",
+  "employees": [
+    "agent-236",
+    "agent-082",
+    "agent-377",
+    "agent-310"
+  ],
+  "valuation_tokens": 492539,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 31
+}

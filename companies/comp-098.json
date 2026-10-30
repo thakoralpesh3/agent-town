@@ -1,0 +1,19 @@
+{
+  "id": "comp-098",
+  "name": "TerraRobotics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-341",
+  "founder_name": "Astrid Zenith",
+  "headquarters_id": "bldg-270",
+  "headquarters_name": "TerraRobotics AI Headquarters",
+  "employees": [
+    "agent-341",
+    "agent-157",
+    "agent-383"
+  ],
+  "valuation_tokens": 446586,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 32
+}

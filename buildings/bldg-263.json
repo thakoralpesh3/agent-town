@@ -1,0 +1,45 @@
+{
+  "id": "bldg-263",
+  "name": "Andrej's Autonomous Vehicle Mega-Plant #99 [StellarLabs]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    148.2,
+    11.6,
+    -91.3
+  ],
+  "size": [
+    29.8,
+    23.2,
+    34.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-136",
+  "builder_name": "Andrej Hinton",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-009",
+  "company_name": "StellarLabs",
+  "completion": 1.0,
+  "occupants": [
+    "Andrej Hinton"
+  ],
+  "purpose": "Constructed by Andrej Hinton for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

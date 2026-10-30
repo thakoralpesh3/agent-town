@@ -1,0 +1,18 @@
+{
+  "id": "comp-097",
+  "name": "NeuroGenetics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-387",
+  "founder_name": "Katherine Torvalds",
+  "headquarters_id": "bldg-265",
+  "headquarters_name": "NeuroGenetics Headquarters",
+  "employees": [
+    "agent-387",
+    "agent-074"
+  ],
+  "valuation_tokens": 392012,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 31
+}

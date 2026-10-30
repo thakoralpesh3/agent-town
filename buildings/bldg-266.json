@@ -1,0 +1,44 @@
+{
+  "id": "bldg-266",
+  "name": "Cyrus's Biosphere Atmospheric Scrubber #92 [TerraLogistics]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    55.3,
+    16.0,
+    -99.5
+  ],
+  "size": [
+    19.1,
+    32.0,
+    23.9
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-035",
+  "builder_name": "Cyrus Dijkstra",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-070",
+  "company_name": "TerraLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Cyrus Dijkstra"
+  ],
+  "purpose": "Constructed by Cyrus Dijkstra for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
