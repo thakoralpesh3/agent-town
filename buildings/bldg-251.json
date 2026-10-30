@@ -1,0 +1,44 @@
+{
+  "id": "bldg-251",
+  "name": "Alan's Shannon Information Spire #80 [NexusVentures]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -55.5,
+    32.2,
+    74.9
+  ],
+  "size": [
+    20.2,
+    64.4,
+    16.2
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-043",
+  "builder_name": "Alan Armstrong",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-084",
+  "company_name": "NexusVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Armstrong"
+  ],
+  "purpose": "Constructed by Alan Armstrong for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 5.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

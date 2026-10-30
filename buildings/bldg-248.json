@@ -1,0 +1,45 @@
+{
+  "id": "bldg-248",
+  "name": "Sundar's Tokamak Fusion Reactor Station #44 [DeepRobotics]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -49.3,
+    9.7,
+    -79.7
+  ],
+  "size": [
+    33.7,
+    19.4,
+    33.8
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-181",
+  "builder_name": "Sundar Zenith",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-080",
+  "company_name": "DeepRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Sundar Zenith"
+  ],
+  "purpose": "Constructed by Sundar Zenith for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 3.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

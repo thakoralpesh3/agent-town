@@ -1,0 +1,45 @@
+{
+  "id": "bldg-255",
+  "name": "Kassandra's Hydroponic Agricultural Biodome #12 [NeuroEnergy]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    14.5,
+    12.5,
+    -175.9
+  ],
+  "size": [
+    33.4,
+    25.1,
+    36.8
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-344",
+  "builder_name": "Kassandra Johnson",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-066",
+  "company_name": "NeuroEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Kassandra Johnson"
+  ],
+  "purpose": "Constructed by Kassandra Johnson for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

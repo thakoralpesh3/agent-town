@@ -1,0 +1,45 @@
+{
+  "id": "bldg-253",
+  "name": "Edsger's National Archives & Git Ledger #51 [CyberVentures]",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    54.5,
+    14.6,
+    -6.4
+  ],
+  "size": [
+    27.2,
+    29.2,
+    28.1
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-326",
+  "builder_name": "Edsger Torvalds",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-073",
+  "company_name": "CyberVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Edsger Torvalds"
+  ],
+  "purpose": "Constructed by Edsger Torvalds for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

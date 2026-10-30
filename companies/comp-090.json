@@ -1,0 +1,19 @@
+{
+  "id": "comp-090",
+  "name": "ApexDynamics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-184",
+  "founder_name": "Donald Foundry",
+  "headquarters_id": "bldg-247",
+  "headquarters_name": "ApexDynamics AI Headquarters",
+  "employees": [
+    "agent-184",
+    "agent-371",
+    "agent-160"
+  ],
+  "valuation_tokens": 337106,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 29
+}

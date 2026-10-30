@@ -1,0 +1,45 @@
+{
+  "id": "bldg-244",
+  "name": "Hal's Tower of Turing (City Mainframe) #35",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    -31.5,
+    30.4,
+    93.3
+  ],
+  "size": [
+    22.3,
+    60.7,
+    27.3
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-177",
+  "builder_name": "Hal Hickey",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Hal Hickey"
+  ],
+  "purpose": "Constructed by Hal Hickey for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 3.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

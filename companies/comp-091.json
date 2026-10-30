@@ -1,0 +1,20 @@
+{
+  "id": "comp-091",
+  "name": "SynapseNetworks",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-083",
+  "founder_name": "Vint Nakamoto",
+  "headquarters_id": "bldg-249",
+  "headquarters_name": "SynapseNetworks Headquarters",
+  "employees": [
+    "agent-083",
+    "agent-365",
+    "agent-220",
+    "agent-380"
+  ],
+  "valuation_tokens": 461044,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 29
+}

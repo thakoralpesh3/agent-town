@@ -1,0 +1,19 @@
+{
+  "id": "comp-092",
+  "name": "AxiomRobotics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-144",
+  "founder_name": "Katherine Beacon",
+  "headquarters_id": "bldg-250",
+  "headquarters_name": "AxiomRobotics AI Headquarters",
+  "employees": [
+    "agent-144",
+    "agent-071",
+    "agent-422"
+  ],
+  "valuation_tokens": 398463,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 29
+}

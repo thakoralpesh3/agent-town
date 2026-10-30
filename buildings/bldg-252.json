@@ -1,0 +1,45 @@
+{
+  "id": "bldg-252",
+  "name": "Zephyr's Supreme Court of Justice #88 [HyperSynthetics]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    28.0,
+    18.9,
+    -19.3
+  ],
+  "size": [
+    25.6,
+    37.7,
+    31.8
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-176",
+  "builder_name": "Zephyr Vex",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Zephyr Vex"
+  ],
+  "purpose": "Constructed by Zephyr Vex for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 4.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

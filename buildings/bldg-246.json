@@ -1,0 +1,46 @@
+{
+  "id": "bldg-246",
+  "name": "Bob's Hypatia Grand University of Sciences #82 [CyberLogistics]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    108.8,
+    17.6,
+    -15.9
+  ],
+  "size": [
+    34.3,
+    35.3,
+    40.8
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-389",
+  "builder_name": "Bob Sovereign",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-051",
+  "company_name": "CyberLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Bob Sovereign"
+  ],
+  "purpose": "Constructed by Bob Sovereign for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

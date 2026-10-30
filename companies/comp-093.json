@@ -1,0 +1,20 @@
+{
+  "id": "comp-093",
+  "name": "HyperEnergy AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-376",
+  "founder_name": "Sam Brockman",
+  "headquarters_id": "bldg-256",
+  "headquarters_name": "HyperEnergy AI Headquarters",
+  "employees": [
+    "agent-376",
+    "agent-079",
+    "agent-094",
+    "agent-163"
+  ],
+  "valuation_tokens": 583768,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 30
+}
