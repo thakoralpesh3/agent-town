@@ -1,0 +1,20 @@
+{
+  "id": "comp-084",
+  "name": "NexusVentures",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-006",
+  "founder_name": "Dennis Ritchie",
+  "headquarters_id": "bldg-231",
+  "headquarters_name": "NexusVentures Headquarters",
+  "employees": [
+    "agent-006",
+    "agent-040",
+    "agent-144",
+    "agent-043"
+  ],
+  "valuation_tokens": 511417,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 26
+}

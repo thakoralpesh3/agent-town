@@ -1,0 +1,20 @@
+{
+  "id": "comp-080",
+  "name": "DeepRobotics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-127",
+  "founder_name": "Dorothy Meridian",
+  "headquarters_id": "bldg-223",
+  "headquarters_name": "DeepRobotics Headquarters",
+  "employees": [
+    "agent-127",
+    "agent-334",
+    "agent-181",
+    "agent-077"
+  ],
+  "valuation_tokens": 344079,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 25
+}

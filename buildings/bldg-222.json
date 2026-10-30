@@ -1,0 +1,45 @@
+{
+  "id": "bldg-222",
+  "name": "Astrid's Grand Astronomical Observatory #30 [SolarFusion Grid]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    172.1,
+    16.4,
+    7.2
+  ],
+  "size": [
+    25.3,
+    32.8,
+    24.1
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-218",
+  "builder_name": "Astrid Liskov",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Astrid Liskov"
+  ],
+  "purpose": "Constructed by Astrid Liskov for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 7.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

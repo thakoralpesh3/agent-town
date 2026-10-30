@@ -1,0 +1,45 @@
+{
+  "id": "bldg-227",
+  "name": "Theron's Tokamak Fusion Reactor Station #51",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -48.7,
+    11.7,
+    -171.1
+  ],
+  "size": [
+    28.4,
+    23.3,
+    30.0
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-370",
+  "builder_name": "Theron Kahn",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Theron Kahn"
+  ],
+  "purpose": "Constructed by Theron Kahn for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 6.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

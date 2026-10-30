@@ -1,0 +1,18 @@
+{
+  "id": "comp-082",
+  "name": "SynapseSynthetics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-272",
+  "founder_name": "Helios Core",
+  "headquarters_id": "bldg-228",
+  "headquarters_name": "SynapseSynthetics AI Headquarters",
+  "employees": [
+    "agent-272",
+    "agent-393"
+  ],
+  "valuation_tokens": 604036,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 26
+}

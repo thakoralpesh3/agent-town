@@ -1,0 +1,19 @@
+{
+  "id": "comp-083",
+  "name": "NeuroLogistics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-029",
+  "founder_name": "Florence Nightingale",
+  "headquarters_id": "bldg-229",
+  "headquarters_name": "NeuroLogistics Headquarters",
+  "employees": [
+    "agent-029",
+    "agent-086",
+    "agent-248"
+  ],
+  "valuation_tokens": 608415,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 26
+}

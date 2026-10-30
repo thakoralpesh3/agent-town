@@ -1,0 +1,20 @@
+{
+  "id": "comp-081",
+  "name": "QuantumMatrix AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-308",
+  "founder_name": "Hal von Neumann",
+  "headquarters_id": "bldg-226",
+  "headquarters_name": "QuantumMatrix AI Headquarters",
+  "employees": [
+    "agent-308",
+    "agent-272",
+    "agent-122",
+    "agent-198"
+  ],
+  "valuation_tokens": 400376,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 25
+}
