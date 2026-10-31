@@ -1,0 +1,45 @@
+{
+  "id": "bldg-309",
+  "name": "Gavin's National Archives & Git Ledger #80 [StellarFederation]",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    17.3,
+    15.8,
+    24.7
+  ],
+  "size": [
+    24.6,
+    31.5,
+    24.9
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-089",
+  "builder_name": "Gavin Altman",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-053",
+  "company_name": "StellarFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Altman"
+  ],
+  "purpose": "Constructed by Gavin Altman for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

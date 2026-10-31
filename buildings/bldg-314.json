@@ -1,0 +1,45 @@
+{
+  "id": "bldg-314",
+  "name": "Astrid's Cyber Living Township Beta #48 [SolarFusion Grid]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -134.5,
+    15.4,
+    -40.4
+  ],
+  "size": [
+    28.8,
+    30.9,
+    24.9
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-218",
+  "builder_name": "Astrid Liskov",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Astrid Liskov"
+  ],
+  "purpose": "Constructed by Astrid Liskov for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 3.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

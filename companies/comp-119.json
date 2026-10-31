@@ -1,0 +1,17 @@
+{
+  "id": "comp-119",
+  "name": "ChronoLogistics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-014",
+  "founder_name": "Donald Knuth",
+  "headquarters_id": "bldg-317",
+  "headquarters_name": "ChronoLogistics Headquarters",
+  "employees": [
+    "agent-014"
+  ],
+  "valuation_tokens": 371501,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 38
+}

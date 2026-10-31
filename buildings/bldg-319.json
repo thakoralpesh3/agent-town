@@ -1,0 +1,45 @@
+{
+  "id": "bldg-319",
+  "name": "Katherine's The Agora Civic Forum #76 [AeroSystems]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -173.8,
+    8.3,
+    -161.2
+  ],
+  "size": [
+    31.9,
+    16.5,
+    25.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-144",
+  "builder_name": "Katherine Beacon",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-106",
+  "company_name": "AeroSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Beacon"
+  ],
+  "purpose": "Constructed by Katherine Beacon for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-303",
+  "name": "Ada's Drone Logistics Freight Port #65 [AxiomRobotics]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    129.2,
+    14.0,
+    -176.9
+  ],
+  "size": [
+    25.1,
+    27.9,
+    29.9
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-062",
+  "builder_name": "Ada Knuth",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-062",
+  "company_name": "AxiomRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Ada Knuth"
+  ],
+  "purpose": "Constructed by Ada Knuth for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 3.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

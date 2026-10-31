@@ -1,0 +1,44 @@
+{
+  "id": "bldg-302",
+  "name": "Seraph's Shannon Information Spire #74 [AxiomFoundry AI]",
+  "type": "Shannon Information Spire",
+  "position": [
+    22.6,
+    31.9,
+    81.7
+  ],
+  "size": [
+    20.8,
+    63.8,
+    20.0
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-153",
+  "builder_name": "Seraph Szabo",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-099",
+  "company_name": "AxiomFoundry AI",
+  "completion": 1.0,
+  "occupants": [
+    "Seraph Szabo"
+  ],
+  "purpose": "Constructed by Seraph Szabo for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

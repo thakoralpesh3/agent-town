@@ -1,0 +1,19 @@
+{
+  "id": "comp-118",
+  "name": "NeuroRobotics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-320",
+  "founder_name": "Sol Strata",
+  "headquarters_id": "bldg-316",
+  "headquarters_name": "NeuroRobotics Headquarters",
+  "employees": [
+    "agent-320",
+    "agent-142",
+    "agent-300"
+  ],
+  "valuation_tokens": 679324,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 38
+}

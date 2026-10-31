@@ -1,0 +1,45 @@
+{
+  "id": "bldg-306",
+  "name": "Andrej's Supreme Court of Justice #24 [SynapseNetworks]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    49.5,
+    15.9,
+    -16.2
+  ],
+  "size": [
+    30.3,
+    31.8,
+    33.6
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-380",
+  "builder_name": "Andrej Pike",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-091",
+  "company_name": "SynapseNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Andrej Pike"
+  ],
+  "purpose": "Constructed by Andrej Pike for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

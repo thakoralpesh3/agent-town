@@ -1,0 +1,18 @@
+{
+  "id": "comp-115",
+  "name": "BioMatrix",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-222",
+  "founder_name": "Yoshua Brockman",
+  "headquarters_id": "bldg-311",
+  "headquarters_name": "BioMatrix Headquarters",
+  "employees": [
+    "agent-222",
+    "agent-146"
+  ],
+  "valuation_tokens": 701159,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 38
+}

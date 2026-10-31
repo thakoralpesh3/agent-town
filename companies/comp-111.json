@@ -1,0 +1,20 @@
+{
+  "id": "comp-111",
+  "name": "CyberMatrix AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-063",
+  "founder_name": "Greg Bengio",
+  "headquarters_id": "bldg-305",
+  "headquarters_name": "CyberMatrix AI Headquarters",
+  "employees": [
+    "agent-063",
+    "agent-010",
+    "agent-363",
+    "agent-223"
+  ],
+  "valuation_tokens": 521240,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 37
+}

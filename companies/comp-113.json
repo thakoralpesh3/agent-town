@@ -1,0 +1,18 @@
+{
+  "id": "comp-113",
+  "name": "StellarLabs AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-223",
+  "founder_name": "Zephyr Cartographer",
+  "headquarters_id": "bldg-308",
+  "headquarters_name": "StellarLabs AI Headquarters",
+  "employees": [
+    "agent-223",
+    "agent-137"
+  ],
+  "valuation_tokens": 223759,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 37
+}

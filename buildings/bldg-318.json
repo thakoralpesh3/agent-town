@@ -1,0 +1,46 @@
+{
+  "id": "bldg-318",
+  "name": "Steve's Hypatia Grand University of Sciences #89 [TerraRobotics AI]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    183.1,
+    16.1,
+    33.0
+  ],
+  "size": [
+    37.1,
+    32.1,
+    40.6
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-383",
+  "builder_name": "Steve Nakamoto",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-098",
+  "company_name": "TerraRobotics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Steve Nakamoto"
+  ],
+  "purpose": "Constructed by Steve Nakamoto for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 2.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
