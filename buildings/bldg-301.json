@@ -1,0 +1,44 @@
+{
+  "id": "bldg-301",
+  "name": "Steve's Drone Logistics Freight Port #81 [SolarFusion Grid]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    134.3,
+    16.9,
+    -175.6
+  ],
+  "size": [
+    26.5,
+    33.8,
+    28.8
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-106",
+  "builder_name": "Steve Nadella",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Steve Nadella"
+  ],
+  "purpose": "Constructed by Steve Nadella for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

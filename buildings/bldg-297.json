@@ -1,0 +1,44 @@
+{
+  "id": "bldg-297",
+  "name": "Dorothy's Shannon Information Spire #78 [QuantumMatrix Systems]",
+  "type": "Shannon Information Spire",
+  "position": [
+    63.1,
+    20.7,
+    129.9
+  ],
+  "size": [
+    17.4,
+    41.5,
+    18.7
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-012",
+  "builder_name": "Dorothy Vaughan",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-004",
+  "company_name": "QuantumMatrix Systems",
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Vaughan"
+  ],
+  "purpose": "Constructed by Dorothy Vaughan for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 5.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

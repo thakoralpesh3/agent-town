@@ -1,0 +1,46 @@
+{
+  "id": "bldg-299",
+  "name": "Valeria's Hypatia Grand University of Sciences #19 [SovereignIntell]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    174.8,
+    21.4,
+    55.4
+  ],
+  "size": [
+    32.7,
+    42.8,
+    37.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-158",
+  "builder_name": "Valeria Zenith",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-102",
+  "company_name": "SovereignIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Valeria Zenith"
+  ],
+  "purpose": "Constructed by Valeria Zenith for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

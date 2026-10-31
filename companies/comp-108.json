@@ -1,0 +1,19 @@
+{
+  "id": "comp-108",
+  "name": "VectorVentures",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-322",
+  "founder_name": "Yann Lamport",
+  "headquarters_id": "bldg-296",
+  "headquarters_name": "VectorVentures Headquarters",
+  "employees": [
+    "agent-322",
+    "agent-058",
+    "agent-221"
+  ],
+  "valuation_tokens": 234397,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 35
+}

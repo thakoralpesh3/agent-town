@@ -1,0 +1,20 @@
+{
+  "id": "comp-102",
+  "name": "SovereignIntell",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-158",
+  "founder_name": "Valeria Zenith",
+  "headquarters_id": "bldg-289",
+  "headquarters_name": "SovereignIntell Headquarters",
+  "employees": [
+    "agent-158",
+    "agent-416",
+    "agent-299",
+    "agent-128"
+  ],
+  "valuation_tokens": 523666,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 35
+}

@@ -1,0 +1,18 @@
+{
+  "id": "comp-110",
+  "name": "VectorDynamics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-162",
+  "founder_name": "Roxas Vanguard",
+  "headquarters_id": "bldg-300",
+  "headquarters_name": "VectorDynamics Headquarters",
+  "employees": [
+    "agent-162",
+    "agent-354"
+  ],
+  "valuation_tokens": 413022,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 36
+}

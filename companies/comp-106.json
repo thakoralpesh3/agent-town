@@ -1,0 +1,19 @@
+{
+  "id": "comp-106",
+  "name": "AeroSystems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-144",
+  "founder_name": "Katherine Beacon",
+  "headquarters_id": "bldg-294",
+  "headquarters_name": "AeroSystems Headquarters",
+  "employees": [
+    "agent-144",
+    "agent-301",
+    "agent-355"
+  ],
+  "valuation_tokens": 372317,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 35
+}

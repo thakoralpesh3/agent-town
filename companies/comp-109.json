@@ -1,0 +1,18 @@
+{
+  "id": "comp-109",
+  "name": "SynapseLogistics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-261",
+  "founder_name": "Kassandra Flux",
+  "headquarters_id": "bldg-298",
+  "headquarters_name": "SynapseLogistics AI Headquarters",
+  "employees": [
+    "agent-261",
+    "agent-052"
+  ],
+  "valuation_tokens": 684347,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 36
+}
