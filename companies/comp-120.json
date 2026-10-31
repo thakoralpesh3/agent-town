@@ -1,0 +1,18 @@
+{
+  "id": "comp-120",
+  "name": "NeuroEnergy AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-347",
+  "founder_name": "Donald Scribe",
+  "headquarters_id": "bldg-320",
+  "headquarters_name": "NeuroEnergy AI Headquarters",
+  "employees": [
+    "agent-347",
+    "agent-459"
+  ],
+  "valuation_tokens": 432647,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 39
+}

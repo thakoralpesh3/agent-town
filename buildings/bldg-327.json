@@ -1,0 +1,44 @@
+{
+  "id": "bldg-327",
+  "name": "Noam's Cloud Matrix Exchange #81 [HyperFoundry]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    23.6,
+    35.5,
+    102.5
+  ],
+  "size": [
+    22.3,
+    71.0,
+    24.4
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-290",
+  "builder_name": "Noam Core",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-046",
+  "company_name": "HyperFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Noam Core"
+  ],
+  "purpose": "Constructed by Noam Core for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 7.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

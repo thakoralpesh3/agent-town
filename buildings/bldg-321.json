@@ -1,0 +1,45 @@
+{
+  "id": "bldg-321",
+  "name": "Chronos's Hyperloop Central Terminus #21 [BioSynthetics]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    149.2,
+    11.6,
+    -140.9
+  ],
+  "size": [
+    31.8,
+    23.3,
+    30.8
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-268",
+  "builder_name": "Chronos Vanguard",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-025",
+  "company_name": "BioSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Chronos Vanguard"
+  ],
+  "purpose": "Constructed by Chronos Vanguard for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 6.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

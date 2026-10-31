@@ -1,0 +1,17 @@
+{
+  "id": "comp-121",
+  "name": "NeuroIntell",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-088",
+  "founder_name": "Evander Jobs",
+  "headquarters_id": "bldg-323",
+  "headquarters_name": "NeuroIntell Headquarters",
+  "employees": [
+    "agent-088"
+  ],
+  "valuation_tokens": 597926,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 39
+}

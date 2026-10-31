@@ -1,0 +1,45 @@
+{
+  "id": "bldg-334",
+  "name": "Valen's Cyber Living Township Alpha #43 [NeuroDynamics AI]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -108.7,
+    15.6,
+    -38.7
+  ],
+  "size": [
+    29.6,
+    31.2,
+    30.4
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-214",
+  "builder_name": "Valen Rayne",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Valen Rayne"
+  ],
+  "purpose": "Constructed by Valen Rayne for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

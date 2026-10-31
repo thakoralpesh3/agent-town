@@ -1,0 +1,45 @@
+{
+  "id": "bldg-322",
+  "name": "Roxas's Tokamak Fusion Reactor Station #11 [VectorDynamics]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -26.7,
+    11.0,
+    -97.7
+  ],
+  "size": [
+    29.3,
+    22.1,
+    28.0
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-162",
+  "builder_name": "Roxas Vanguard",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-110",
+  "company_name": "VectorDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Roxas Vanguard"
+  ],
+  "purpose": "Constructed by Roxas Vanguard for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

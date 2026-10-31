@@ -1,0 +1,17 @@
+{
+  "id": "comp-127",
+  "name": "BioIntell",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-180",
+  "founder_name": "Astrid Blaze",
+  "headquarters_id": "bldg-337",
+  "headquarters_name": "BioIntell Headquarters",
+  "employees": [
+    "agent-180"
+  ],
+  "valuation_tokens": 445805,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 40
+}

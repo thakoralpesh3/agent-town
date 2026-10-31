@@ -1,0 +1,18 @@
+{
+  "id": "comp-123",
+  "name": "SynapseRobotics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-342",
+  "founder_name": "Selene Citadel",
+  "headquarters_id": "bldg-330",
+  "headquarters_name": "SynapseRobotics AI Headquarters",
+  "employees": [
+    "agent-342",
+    "agent-463"
+  ],
+  "valuation_tokens": 188630,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 40
+}

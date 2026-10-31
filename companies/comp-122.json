@@ -1,0 +1,17 @@
+{
+  "id": "comp-122",
+  "name": "NexusTechnologies AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-281",
+  "founder_name": "Grace Sutskever",
+  "headquarters_id": "bldg-326",
+  "headquarters_name": "NexusTechnologies AI Headquarters",
+  "employees": [
+    "agent-281"
+  ],
+  "valuation_tokens": 312942,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 39
+}

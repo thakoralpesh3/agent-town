@@ -1,0 +1,17 @@
+{
+  "id": "comp-125",
+  "name": "AxiomLabs",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-120",
+  "founder_name": "Ilya Lovelace",
+  "headquarters_id": "bldg-335",
+  "headquarters_name": "AxiomLabs Headquarters",
+  "employees": [
+    "agent-120"
+  ],
+  "valuation_tokens": 550758,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 40
+}

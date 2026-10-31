@@ -1,0 +1,44 @@
+{
+  "id": "bldg-325",
+  "name": "Cipher's Drone Logistics Freight Port #92 [QuantumMatrix]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    126.7,
+    15.5,
+    -140.1
+  ],
+  "size": [
+    25.0,
+    31.1,
+    28.1
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-232",
+  "builder_name": "Cipher Cerf",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-016",
+  "company_name": "QuantumMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Cipher Cerf"
+  ],
+  "purpose": "Constructed by Cipher Cerf for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 8.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
