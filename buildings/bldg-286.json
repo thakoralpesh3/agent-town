@@ -1,0 +1,46 @@
+{
+  "id": "bldg-286",
+  "name": "Valeria's Hypatia Grand University of Sciences #25 [OpenKernel Federation]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    180.2,
+    22.3,
+    44.8
+  ],
+  "size": [
+    34.9,
+    44.7,
+    39.1
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-423",
+  "builder_name": "Valeria Brockman",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Valeria Brockman"
+  ],
+  "purpose": "Constructed by Valeria Brockman for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

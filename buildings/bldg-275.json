@@ -1,0 +1,44 @@
+{
+  "id": "bldg-275",
+  "name": "Gavin's Shannon Information Spire #90 [AeroCyber Mobility]",
+  "type": "Shannon Information Spire",
+  "position": [
+    7.9,
+    20.4,
+    138.0
+  ],
+  "size": [
+    18.8,
+    40.9,
+    17.1
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-076",
+  "builder_name": "Gavin Hopper",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Hopper"
+  ],
+  "purpose": "Constructed by Gavin Hopper for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

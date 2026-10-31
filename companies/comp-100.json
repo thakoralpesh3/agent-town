@@ -1,0 +1,18 @@
+{
+  "id": "comp-100",
+  "name": "HyperNetworks",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-264",
+  "founder_name": "Vint Praetor",
+  "headquarters_id": "bldg-276",
+  "headquarters_name": "HyperNetworks Headquarters",
+  "employees": [
+    "agent-264",
+    "agent-054"
+  ],
+  "valuation_tokens": 659236,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 33
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-288",
+  "name": "Theron's Shannon Information Spire #36 [CyberSystems]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -65.9,
+    26.1,
+    138.7
+  ],
+  "size": [
+    20.7,
+    52.1,
+    21.5
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-155",
+  "builder_name": "Theron Node",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-040",
+  "company_name": "CyberSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Theron Node"
+  ],
+  "purpose": "Constructed by Theron Node for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

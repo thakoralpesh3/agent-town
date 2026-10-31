@@ -1,0 +1,45 @@
+{
+  "id": "bldg-278",
+  "name": "Cipher's Hydroponic Agricultural Biodome #60 [QuantumMatrix AI]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    29.7,
+    12.2,
+    -141.8
+  ],
+  "size": [
+    34.7,
+    24.4,
+    29.4
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-122",
+  "builder_name": "Cipher Armstrong",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-081",
+  "company_name": "QuantumMatrix AI",
+  "completion": 1.0,
+  "occupants": [
+    "Cipher Armstrong"
+  ],
+  "purpose": "Constructed by Cipher Armstrong for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

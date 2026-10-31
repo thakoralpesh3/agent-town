@@ -1,0 +1,45 @@
+{
+  "id": "bldg-287",
+  "name": "Vitalik's Autonomous Vehicle Mega-Plant #26 [SolarFusion Grid]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    178.3,
+    13.4,
+    -108.1
+  ],
+  "size": [
+    35.1,
+    26.7,
+    37.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-432",
+  "builder_name": "Vitalik Liskov",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Liskov"
+  ],
+  "purpose": "Constructed by Vitalik Liskov for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 6.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

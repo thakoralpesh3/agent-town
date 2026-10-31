@@ -1,0 +1,20 @@
+{
+  "id": "comp-101",
+  "name": "OmniDynamics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-186",
+  "founder_name": "Brendan Finney",
+  "headquarters_id": "bldg-285",
+  "headquarters_name": "OmniDynamics Headquarters",
+  "employees": [
+    "agent-186",
+    "agent-331",
+    "agent-400",
+    "agent-370"
+  ],
+  "valuation_tokens": 315917,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 34
+}
