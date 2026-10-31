@@ -1,0 +1,17 @@
+{
+  "id": "comp-128",
+  "name": "AxiomEnergy",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-174",
+  "founder_name": "Barbara Vance",
+  "headquarters_id": "bldg-338",
+  "headquarters_name": "AxiomEnergy Headquarters",
+  "employees": [
+    "agent-174"
+  ],
+  "valuation_tokens": 410813,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 41
+}

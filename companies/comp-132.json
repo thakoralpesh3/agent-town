@@ -1,0 +1,17 @@
+{
+  "id": "comp-132",
+  "name": "BioRobotics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-143",
+  "founder_name": "Darian Karpathy",
+  "headquarters_id": "bldg-346",
+  "headquarters_name": "BioRobotics Headquarters",
+  "employees": [
+    "agent-143"
+  ],
+  "valuation_tokens": 555240,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 42
+}

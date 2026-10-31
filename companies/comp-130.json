@@ -1,0 +1,17 @@
+{
+  "id": "comp-130",
+  "name": "VectorDynamics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-208",
+  "founder_name": "Nexus Meridian",
+  "headquarters_id": "bldg-340",
+  "headquarters_name": "VectorDynamics AI Headquarters",
+  "employees": [
+    "agent-208"
+  ],
+  "valuation_tokens": 303458,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 41
+}

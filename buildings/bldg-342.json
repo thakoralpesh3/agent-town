@@ -1,0 +1,45 @@
+{
+  "id": "bldg-342",
+  "name": "Vint's Grand Astronomical Observatory #50 [AeroGenetics]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    149.8,
+    14.1,
+    100.7
+  ],
+  "size": [
+    23.7,
+    28.2,
+    23.7
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-411",
+  "builder_name": "Vint Foundry",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-035",
+  "company_name": "AeroGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Vint Foundry"
+  ],
+  "purpose": "Constructed by Vint Foundry for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-131",
+  "name": "BioSolutions",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-457",
+  "founder_name": "Vitalik Lovelace",
+  "headquarters_id": "bldg-344",
+  "headquarters_name": "BioSolutions Headquarters",
+  "employees": [
+    "agent-457"
+  ],
+  "valuation_tokens": 527586,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 42
+}

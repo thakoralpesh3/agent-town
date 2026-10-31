@@ -1,0 +1,17 @@
+{
+  "id": "comp-129",
+  "name": "SynapseSystems",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-424",
+  "founder_name": "John Karpathy",
+  "headquarters_id": "bldg-339",
+  "headquarters_name": "SynapseSystems Headquarters",
+  "employees": [
+    "agent-424"
+  ],
+  "valuation_tokens": 269464,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 41
+}

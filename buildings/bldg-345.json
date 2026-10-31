@@ -1,0 +1,44 @@
+{
+  "id": "bldg-345",
+  "name": "Seraph's Drone Logistics Freight Port #15 [AeroGenetics AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    100.2,
+    14.5,
+    -110.4
+  ],
+  "size": [
+    25.7,
+    28.9,
+    26.0
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-112",
+  "builder_name": "Seraph Johnson",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-079",
+  "company_name": "AeroGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Seraph Johnson"
+  ],
+  "purpose": "Constructed by Seraph Johnson for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 5.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

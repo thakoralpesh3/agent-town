@@ -1,0 +1,17 @@
+{
+  "id": "comp-134",
+  "name": "PrismGenetics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-410",
+  "founder_name": "Cyrus Huang",
+  "headquarters_id": "bldg-348",
+  "headquarters_name": "PrismGenetics AI Headquarters",
+  "employees": [
+    "agent-410"
+  ],
+  "valuation_tokens": 560752,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 42
+}
