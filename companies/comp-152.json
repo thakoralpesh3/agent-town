@@ -1,0 +1,17 @@
+{
+  "id": "comp-152",
+  "name": "StellarLogistics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-268",
+  "founder_name": "Chronos Vanguard",
+  "headquarters_id": "bldg-403",
+  "headquarters_name": "StellarLogistics Headquarters",
+  "employees": [
+    "agent-268"
+  ],
+  "valuation_tokens": 174535,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 50
+}

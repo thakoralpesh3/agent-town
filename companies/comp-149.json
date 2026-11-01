@@ -1,0 +1,17 @@
+{
+  "id": "comp-149",
+  "name": "ChronoEnergy",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-243",
+  "founder_name": "Geoffrey Kahn",
+  "headquarters_id": "bldg-398",
+  "headquarters_name": "ChronoEnergy Headquarters",
+  "employees": [
+    "agent-243"
+  ],
+  "valuation_tokens": 297670,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 49
+}

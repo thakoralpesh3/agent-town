@@ -1,0 +1,17 @@
+{
+  "id": "comp-154",
+  "name": "HeliosGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-133",
+  "founder_name": "Bob Kowalski",
+  "headquarters_id": "bldg-405",
+  "headquarters_name": "HeliosGenetics Headquarters",
+  "employees": [
+    "agent-133"
+  ],
+  "valuation_tokens": 329217,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 50
+}

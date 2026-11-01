@@ -1,0 +1,46 @@
+{
+  "id": "bldg-406",
+  "name": "Roxas's National Hospital & Nanomedical Citadel #82 [AeroCyber Mobility]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -76.7,
+    22.3,
+    33.5
+  ],
+  "size": [
+    28.9,
+    44.7,
+    37.3
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-141",
+  "builder_name": "Roxas Aurelius",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Roxas Aurelius"
+  ],
+  "purpose": "Constructed by Roxas Aurelius for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 4.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

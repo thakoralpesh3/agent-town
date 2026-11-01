@@ -1,0 +1,17 @@
+{
+  "id": "comp-150",
+  "name": "SovereignFoundry",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-159",
+  "founder_name": "Thorne Jobs",
+  "headquarters_id": "bldg-400",
+  "headquarters_name": "SovereignFoundry Headquarters",
+  "employees": [
+    "agent-159"
+  ],
+  "valuation_tokens": 728646,
+  "products": [],
+  "color": "#eab308",
+  "founded_at_tick": 49
+}

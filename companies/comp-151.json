@@ -1,0 +1,17 @@
+{
+  "id": "comp-151",
+  "name": "HyperFederation",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-018",
+  "founder_name": "Leonardo Cyber",
+  "headquarters_id": "bldg-402",
+  "headquarters_name": "HyperFederation Headquarters",
+  "employees": [
+    "agent-018"
+  ],
+  "valuation_tokens": 450460,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 49
+}

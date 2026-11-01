@@ -1,0 +1,17 @@
+{
+  "id": "comp-147",
+  "name": "HyperSynthetics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-152",
+  "founder_name": "Alan Dijkstra",
+  "headquarters_id": "bldg-396",
+  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "employees": [
+    "agent-152"
+  ],
+  "valuation_tokens": 611198,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 49
+}

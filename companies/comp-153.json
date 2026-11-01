@@ -1,0 +1,17 @@
+{
+  "id": "comp-153",
+  "name": "HyperNetworks AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-369",
+  "founder_name": "Evander Hopper",
+  "headquarters_id": "bldg-404",
+  "headquarters_name": "HyperNetworks AI Headquarters",
+  "employees": [
+    "agent-369"
+  ],
+  "valuation_tokens": 563138,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 50
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-148",
+  "name": "SynapseRobotics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-405",
+  "founder_name": "Aurelia Dahl",
+  "headquarters_id": "bldg-397",
+  "headquarters_name": "SynapseRobotics AI Headquarters",
+  "employees": [
+    "agent-405"
+  ],
+  "valuation_tokens": 680077,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 49
+}

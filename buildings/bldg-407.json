@@ -1,0 +1,44 @@
+{
+  "id": "bldg-407",
+  "name": "Katherine's Cloud Matrix Exchange #37 [TerraFlora Synthetics]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -63.0,
+    33.5,
+    131.3
+  ],
+  "size": [
+    20.3,
+    67.0,
+    20.4
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-285",
+  "builder_name": "Katherine Glitch",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-008",
+  "company_name": "TerraFlora Synthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Glitch"
+  ],
+  "purpose": "Constructed by Katherine Glitch for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
