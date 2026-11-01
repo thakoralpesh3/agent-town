@@ -1,0 +1,17 @@
+{
+  "id": "comp-145",
+  "name": "HeliosDynamics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-212",
+  "founder_name": "Morrigan Hassabis",
+  "headquarters_id": "bldg-388",
+  "headquarters_name": "HeliosDynamics Headquarters",
+  "employees": [
+    "agent-212"
+  ],
+  "valuation_tokens": 207806,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 47
+}

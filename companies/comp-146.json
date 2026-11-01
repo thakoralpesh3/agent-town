@@ -1,0 +1,17 @@
+{
+  "id": "comp-146",
+  "name": "SovereignFederation",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-421",
+  "founder_name": "Pixel Hassabis",
+  "headquarters_id": "bldg-390",
+  "headquarters_name": "SovereignFederation Headquarters",
+  "employees": [
+    "agent-421"
+  ],
+  "valuation_tokens": 724098,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 48
+}

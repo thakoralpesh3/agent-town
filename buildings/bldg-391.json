@@ -1,0 +1,45 @@
+{
+  "id": "bldg-391",
+  "name": "Vitalik's The Agora Civic Forum #73 [SolarFusion Grid]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -37.5,
+    12.9,
+    -46.2
+  ],
+  "size": [
+    28.4,
+    25.9,
+    30.6
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-432",
+  "builder_name": "Vitalik Liskov",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Liskov"
+  ],
+  "purpose": "Constructed by Vitalik Liskov for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

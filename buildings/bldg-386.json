@@ -1,0 +1,46 @@
+{
+  "id": "bldg-386",
+  "name": "Ada's Hypatia Grand University of Sciences #57 [HyperEnergy]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    150.9,
+    25.0,
+    13.8
+  ],
+  "size": [
+    31.4,
+    50.0,
+    32.5
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-252",
+  "builder_name": "Ada Synapse",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-048",
+  "company_name": "HyperEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Ada Synapse"
+  ],
+  "purpose": "Constructed by Ada Synapse for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-382",
+  "name": "Veda's Hypatia Grand University of Sciences #42 [SynapseSynthetics]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    146.0,
+    20.4,
+    81.2
+  ],
+  "size": [
+    36.4,
+    40.9,
+    38.6
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-172",
+  "builder_name": "Veda Praetor",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-013",
+  "company_name": "SynapseSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Veda Praetor"
+  ],
+  "purpose": "Constructed by Veda Praetor for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

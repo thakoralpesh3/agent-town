@@ -1,0 +1,44 @@
+{
+  "id": "bldg-385",
+  "name": "Lyra's Quantum Logic Foundry #22 [BioSynthetics]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    162.9,
+    11.5,
+    65.3
+  ],
+  "size": [
+    25.9,
+    23.0,
+    25.8
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-468",
+  "builder_name": "Lyra Rayne",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-025",
+  "company_name": "BioSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Rayne"
+  ],
+  "purpose": "Constructed by Lyra Rayne for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

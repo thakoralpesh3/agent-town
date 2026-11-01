@@ -1,0 +1,45 @@
+{
+  "id": "bldg-383",
+  "name": "Vector's Grand Astronomical Observatory #36 [QuantumGenetics]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    109.8,
+    21.2,
+    33.2
+  ],
+  "size": [
+    27.2,
+    42.5,
+    25.9
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-225",
+  "builder_name": "Vector Tinkerer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-028",
+  "company_name": "QuantumGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Vector Tinkerer"
+  ],
+  "purpose": "Constructed by Vector Tinkerer for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 9.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
