@@ -1,0 +1,17 @@
+{
+  "id": "comp-137",
+  "name": "CyberRobotics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-109",
+  "founder_name": "Aria Archon",
+  "headquarters_id": "bldg-358",
+  "headquarters_name": "CyberRobotics Headquarters",
+  "employees": [
+    "agent-109"
+  ],
+  "valuation_tokens": 312446,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 44
+}

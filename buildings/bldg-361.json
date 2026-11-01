@@ -1,0 +1,47 @@
+{
+  "id": "bldg-361",
+  "name": "Maeve's Sovereign Capitol Building #19 [StellarFederation]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    12.7,
+    28.6,
+    45.0
+  ],
+  "size": [
+    37.3,
+    57.1,
+    35.7
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-165",
+  "builder_name": "Maeve Stroustrup",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-053",
+  "company_name": "StellarFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Maeve Stroustrup"
+  ],
+  "purpose": "Constructed by Maeve Stroustrup for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

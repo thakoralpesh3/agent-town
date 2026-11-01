@@ -1,0 +1,17 @@
+{
+  "id": "comp-136",
+  "name": "VectorFederation AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-042",
+  "founder_name": "Zane Odersky",
+  "headquarters_id": "bldg-351",
+  "headquarters_name": "VectorFederation AI Headquarters",
+  "employees": [
+    "agent-042"
+  ],
+  "valuation_tokens": 202096,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 43
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-349",
+  "name": "Roxas's Autonomous Vehicle Mega-Plant #45 [AeroCyber Mobility]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    82.7,
+    16.6,
+    -73.9
+  ],
+  "size": [
+    30.9,
+    33.2,
+    30.8
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-141",
+  "builder_name": "Roxas Aurelius",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Roxas Aurelius"
+  ],
+  "purpose": "Constructed by Roxas Aurelius for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

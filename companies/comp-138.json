@@ -1,0 +1,17 @@
+{
+  "id": "comp-138",
+  "name": "SynapseLabs",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-280",
+  "founder_name": "Lyra Nadella",
+  "headquarters_id": "bldg-363",
+  "headquarters_name": "SynapseLabs Headquarters",
+  "employees": [
+    "agent-280"
+  ],
+  "valuation_tokens": 637511,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 44
+}
