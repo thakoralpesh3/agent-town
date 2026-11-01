@@ -1,0 +1,46 @@
+{
+  "id": "bldg-372",
+  "name": "Donald's National Central Bank & Treasury #63 [ChronoLogistics]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    8.8,
+    17.4,
+    -61.5
+  ],
+  "size": [
+    35.4,
+    34.9,
+    29.7
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-014",
+  "builder_name": "Donald Knuth",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-119",
+  "company_name": "ChronoLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Donald Knuth"
+  ],
+  "purpose": "Constructed by Donald Knuth for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

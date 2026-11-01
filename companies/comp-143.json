@@ -1,0 +1,17 @@
+{
+  "id": "comp-143",
+  "name": "TerraFederation",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-157",
+  "founder_name": "Ilya Thompson",
+  "headquarters_id": "bldg-375",
+  "headquarters_name": "TerraFederation Headquarters",
+  "employees": [
+    "agent-157"
+  ],
+  "valuation_tokens": 485992,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 45
+}

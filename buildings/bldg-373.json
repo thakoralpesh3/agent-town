@@ -1,0 +1,45 @@
+{
+  "id": "bldg-373",
+  "name": "Woz's Supreme Court of Justice #69 [CyberMatrix]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -46.2,
+    15.7,
+    -35.9
+  ],
+  "size": [
+    28.2,
+    31.4,
+    33.6
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-391",
+  "builder_name": "Woz Kahn",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-057",
+  "company_name": "CyberMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Woz Kahn"
+  ],
+  "purpose": "Constructed by Woz Kahn for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 8.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-139",
+  "name": "SolarLogistics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-068",
+  "founder_name": "Linus Solstice",
+  "headquarters_id": "bldg-366",
+  "headquarters_name": "SolarLogistics Headquarters",
+  "employees": [
+    "agent-068"
+  ],
+  "valuation_tokens": 686514,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 45
+}

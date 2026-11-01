@@ -1,0 +1,45 @@
+{
+  "id": "bldg-377",
+  "name": "Iris's Hyperloop Central Terminus #29 [HyperEnergy]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    111.4,
+    14.2,
+    -136.3
+  ],
+  "size": [
+    31.1,
+    28.3,
+    32.5
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-304",
+  "builder_name": "Iris Node",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-048",
+  "company_name": "HyperEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Iris Node"
+  ],
+  "purpose": "Constructed by Iris Node for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

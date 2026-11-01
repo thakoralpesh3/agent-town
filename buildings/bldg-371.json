@@ -1,0 +1,44 @@
+{
+  "id": "bldg-371",
+  "name": "Marcus's Drone Logistics Freight Port #30 [CyberDynamics]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    169.3,
+    19.3,
+    -111.0
+  ],
+  "size": [
+    28.2,
+    38.6,
+    29.4
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-417",
+  "builder_name": "Marcus Orbit",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-068",
+  "company_name": "CyberDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Marcus Orbit"
+  ],
+  "purpose": "Constructed by Marcus Orbit for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

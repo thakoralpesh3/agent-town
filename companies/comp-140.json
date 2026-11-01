@@ -1,0 +1,17 @@
+{
+  "id": "comp-140",
+  "name": "PrismFederation",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-089",
+  "founder_name": "Gavin Altman",
+  "headquarters_id": "bldg-369",
+  "headquarters_name": "PrismFederation Headquarters",
+  "employees": [
+    "agent-089"
+  ],
+  "valuation_tokens": 464052,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 45
+}

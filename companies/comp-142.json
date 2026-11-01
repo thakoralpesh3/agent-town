@@ -1,0 +1,17 @@
+{
+  "id": "comp-142",
+  "name": "OmniVentures AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-052",
+  "founder_name": "Ronan Smith",
+  "headquarters_id": "bldg-374",
+  "headquarters_name": "OmniVentures AI Headquarters",
+  "employees": [
+    "agent-052"
+  ],
+  "valuation_tokens": 716953,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 45
+}

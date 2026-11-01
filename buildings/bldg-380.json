@@ -1,0 +1,45 @@
+{
+  "id": "bldg-380",
+  "name": "Rich's Cyber Living Township Alpha #98 [AxiomRobotics AI]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -158.1,
+    15.4,
+    -95.6
+  ],
+  "size": [
+    29.1,
+    30.7,
+    26.1
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-422",
+  "builder_name": "Rich Murati",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-092",
+  "company_name": "AxiomRobotics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Rich Murati"
+  ],
+  "purpose": "Constructed by Rich Murati for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
