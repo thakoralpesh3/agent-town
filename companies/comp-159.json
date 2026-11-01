@@ -1,0 +1,17 @@
+{
+  "id": "comp-159",
+  "name": "DeepLabs",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-294",
+  "founder_name": "Corin Solstice",
+  "headquarters_id": "bldg-412",
+  "headquarters_name": "DeepLabs Headquarters",
+  "employees": [
+    "agent-294"
+  ],
+  "valuation_tokens": 667180,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 51
+}

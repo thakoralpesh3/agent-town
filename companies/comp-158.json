@@ -1,0 +1,17 @@
+{
+  "id": "comp-158",
+  "name": "ApexMatrix AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-472",
+  "founder_name": "Yann Sutskever",
+  "headquarters_id": "bldg-411",
+  "headquarters_name": "ApexMatrix AI Headquarters",
+  "employees": [
+    "agent-472"
+  ],
+  "valuation_tokens": 710320,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 51
+}

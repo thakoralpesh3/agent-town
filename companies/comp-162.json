@@ -1,0 +1,17 @@
+{
+  "id": "comp-162",
+  "name": "TerraRobotics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-269",
+  "founder_name": "Grace Szabo",
+  "headquarters_id": "bldg-419",
+  "headquarters_name": "TerraRobotics AI Headquarters",
+  "employees": [
+    "agent-269"
+  ],
+  "valuation_tokens": 434247,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 52
+}

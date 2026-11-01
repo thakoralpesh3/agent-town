@@ -1,0 +1,17 @@
+{
+  "id": "comp-161",
+  "name": "HeliosVentures",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-418",
+  "founder_name": "Edsger Flux",
+  "headquarters_id": "bldg-416",
+  "headquarters_name": "HeliosVentures Headquarters",
+  "employees": [
+    "agent-418"
+  ],
+  "valuation_tokens": 370664,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 52
+}

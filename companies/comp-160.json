@@ -1,0 +1,17 @@
+{
+  "id": "comp-160",
+  "name": "SynapseEnergy",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-430",
+  "founder_name": "Fei-Fei Zenith",
+  "headquarters_id": "bldg-413",
+  "headquarters_name": "SynapseEnergy Headquarters",
+  "employees": [
+    "agent-430"
+  ],
+  "valuation_tokens": 675083,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 51
+}

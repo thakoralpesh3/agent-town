@@ -1,0 +1,45 @@
+{
+  "id": "bldg-414",
+  "name": "Helios's National Archives & Git Ledger #23 [SynapseNetworks]",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    40.3,
+    20.6,
+    19.4
+  ],
+  "size": [
+    28.6,
+    41.3,
+    25.2
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-365",
+  "builder_name": "Helios Perlman",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-091",
+  "company_name": "SynapseNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Helios Perlman"
+  ],
+  "purpose": "Constructed by Helios Perlman for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

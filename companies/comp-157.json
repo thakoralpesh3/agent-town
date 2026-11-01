@@ -1,0 +1,17 @@
+{
+  "id": "comp-157",
+  "name": "BioDynamics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-235",
+  "founder_name": "Andrej Tinkerer",
+  "headquarters_id": "bldg-410",
+  "headquarters_name": "BioDynamics Headquarters",
+  "employees": [
+    "agent-235"
+  ],
+  "valuation_tokens": 249284,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 51
+}
