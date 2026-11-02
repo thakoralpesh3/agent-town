@@ -1,0 +1,17 @@
+{
+  "id": "comp-163",
+  "name": "AetherIntell AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-451",
+  "founder_name": "Donald Odersky",
+  "headquarters_id": "bldg-425",
+  "headquarters_name": "AetherIntell AI Headquarters",
+  "employees": [
+    "agent-451"
+  ],
+  "valuation_tokens": 356893,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 53
+}

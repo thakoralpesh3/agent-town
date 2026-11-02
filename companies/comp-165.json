@@ -1,0 +1,18 @@
+{
+  "id": "comp-165",
+  "name": "NeuroFoundry",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-141",
+  "founder_name": "Roxas Aurelius",
+  "headquarters_id": "bldg-430",
+  "headquarters_name": "NeuroFoundry Headquarters",
+  "employees": [
+    "agent-141",
+    "agent-506"
+  ],
+  "valuation_tokens": 279810,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 54
+}

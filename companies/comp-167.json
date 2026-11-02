@@ -1,0 +1,17 @@
+{
+  "id": "comp-167",
+  "name": "PrismEnergy",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-471",
+  "founder_name": "Andrej Core",
+  "headquarters_id": "bldg-434",
+  "headquarters_name": "PrismEnergy Headquarters",
+  "employees": [
+    "agent-471"
+  ],
+  "valuation_tokens": 500016,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 54
+}

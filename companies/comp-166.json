@@ -1,0 +1,17 @@
+{
+  "id": "comp-166",
+  "name": "HeliosVentures AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-232",
+  "founder_name": "Cipher Cerf",
+  "headquarters_id": "bldg-433",
+  "headquarters_name": "HeliosVentures AI Headquarters",
+  "employees": [
+    "agent-232"
+  ],
+  "valuation_tokens": 531031,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 54
+}

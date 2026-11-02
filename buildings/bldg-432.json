@@ -1,0 +1,45 @@
+{
+  "id": "bldg-432",
+  "name": "Brendan's Autonomous Vehicle Mega-Plant #53 [ApexDynamics]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    107.8,
+    11.0,
+    -107.4
+  ],
+  "size": [
+    32.4,
+    21.9,
+    38.2
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-490",
+  "builder_name": "Brendan Altman",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-063",
+  "company_name": "ApexDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Brendan Altman"
+  ],
+  "purpose": "Constructed by Brendan Altman for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

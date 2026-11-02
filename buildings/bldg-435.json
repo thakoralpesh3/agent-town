@@ -1,0 +1,45 @@
+{
+  "id": "bldg-435",
+  "name": "Sol's Cyber Living Township Beta #32 [NeuroRobotics]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -100.5,
+    11.8,
+    -137.9
+  ],
+  "size": [
+    24.3,
+    23.5,
+    24.3
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-320",
+  "builder_name": "Sol Strata",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-118",
+  "company_name": "NeuroRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Sol Strata"
+  ],
+  "purpose": "Constructed by Sol Strata for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 5.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-428",
+  "name": "Callum's Cloud Matrix Exchange #57 [StellarGenetics]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -51.3,
+    33.9,
+    51.2
+  ],
+  "size": [
+    20.8,
+    67.7,
+    22.8
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-466",
+  "builder_name": "Callum Circuit",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-045",
+  "company_name": "StellarGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Callum Circuit"
+  ],
+  "purpose": "Constructed by Callum Circuit for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

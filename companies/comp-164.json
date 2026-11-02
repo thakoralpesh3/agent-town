@@ -1,0 +1,17 @@
+{
+  "id": "comp-164",
+  "name": "SovereignRobotics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-169",
+  "founder_name": "Vitalik Sutskever",
+  "headquarters_id": "bldg-426",
+  "headquarters_name": "SovereignRobotics Headquarters",
+  "employees": [
+    "agent-169"
+  ],
+  "valuation_tokens": 163715,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 53
+}
