@@ -1,0 +1,45 @@
+{
+  "id": "bldg-443",
+  "name": "Pixel's Autonomous Vehicle Mega-Plant #57 [SovereignFederation]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    115.2,
+    13.7,
+    -100.4
+  ],
+  "size": [
+    33.4,
+    27.4,
+    29.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-421",
+  "builder_name": "Pixel Hassabis",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-146",
+  "company_name": "SovereignFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Hassabis"
+  ],
+  "purpose": "Constructed by Pixel Hassabis for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

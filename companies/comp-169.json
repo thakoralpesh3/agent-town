@@ -1,0 +1,17 @@
+{
+  "id": "comp-169",
+  "name": "VectorVentures AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-501",
+  "founder_name": "Brian Solstice",
+  "headquarters_id": "bldg-438",
+  "headquarters_name": "VectorVentures AI Headquarters",
+  "employees": [
+    "agent-501"
+  ],
+  "valuation_tokens": 677569,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 55
+}

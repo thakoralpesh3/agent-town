@@ -1,0 +1,17 @@
+{
+  "id": "comp-175",
+  "name": "PrismTechnologies AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-462",
+  "founder_name": "Yann Wood",
+  "headquarters_id": "bldg-449",
+  "headquarters_name": "PrismTechnologies AI Headquarters",
+  "employees": [
+    "agent-462"
+  ],
+  "valuation_tokens": 296660,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 56
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-172",
+  "name": "AxiomNetworks",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-076",
+  "founder_name": "Gavin Hopper",
+  "headquarters_id": "bldg-442",
+  "headquarters_name": "AxiomNetworks Headquarters",
+  "employees": [
+    "agent-076"
+  ],
+  "valuation_tokens": 630245,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 55
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-171",
+  "name": "VectorFederation AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-026",
+  "founder_name": "Edsger Dijkstra",
+  "headquarters_id": "bldg-440",
+  "headquarters_name": "VectorFederation AI Headquarters",
+  "employees": [
+    "agent-026"
+  ],
+  "valuation_tokens": 461144,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 55
+}

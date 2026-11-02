@@ -1,0 +1,17 @@
+{
+  "id": "comp-170",
+  "name": "ApexDynamics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-375",
+  "founder_name": "Vesper Archon",
+  "headquarters_id": "bldg-439",
+  "headquarters_name": "ApexDynamics AI Headquarters",
+  "employees": [
+    "agent-375"
+  ],
+  "valuation_tokens": 353040,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 55
+}
