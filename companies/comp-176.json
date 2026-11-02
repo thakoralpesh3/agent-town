@@ -1,0 +1,18 @@
+{
+  "id": "comp-176",
+  "name": "BioEnergy",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-073",
+  "founder_name": "Morrigan Synapse",
+  "headquarters_id": "bldg-455",
+  "headquarters_name": "BioEnergy Headquarters",
+  "employees": [
+    "agent-073",
+    "agent-521"
+  ],
+  "valuation_tokens": 622591,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 57
+}

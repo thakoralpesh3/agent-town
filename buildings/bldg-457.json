@@ -1,0 +1,45 @@
+{
+  "id": "bldg-457",
+  "name": "Katherine's Grand Astronomical Observatory #35 [BioLongevity Solutions]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    110.4,
+    13.8,
+    4.3
+  ],
+  "size": [
+    22.6,
+    27.6,
+    24.3
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-103",
+  "builder_name": "Katherine Hamilton",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Hamilton"
+  ],
+  "purpose": "Constructed by Katherine Hamilton for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 6.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

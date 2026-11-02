@@ -1,0 +1,45 @@
+{
+  "id": "bldg-462",
+  "name": "Maeve's Hydroponic Agricultural Biodome #15 [SovereignTechnologies]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    64.4,
+    8.8,
+    -161.3
+  ],
+  "size": [
+    32.8,
+    17.6,
+    33.1
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-329",
+  "builder_name": "Maeve Valerius",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-022",
+  "company_name": "SovereignTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Maeve Valerius"
+  ],
+  "purpose": "Constructed by Maeve Valerius for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

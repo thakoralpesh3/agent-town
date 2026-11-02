@@ -1,0 +1,17 @@
+{
+  "id": "comp-180",
+  "name": "ChronoRobotics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-343",
+  "founder_name": "Chronos Meridian",
+  "headquarters_id": "bldg-465",
+  "headquarters_name": "ChronoRobotics Headquarters",
+  "employees": [
+    "agent-343"
+  ],
+  "valuation_tokens": 743640,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 58
+}

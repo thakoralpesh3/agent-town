@@ -1,0 +1,45 @@
+{
+  "id": "bldg-466",
+  "name": "Katherine's The Agora Civic Forum #77 [QuantumLogistics AI]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -89.7,
+    11.1,
+    -51.6
+  ],
+  "size": [
+    33.4,
+    22.2,
+    29.9
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-511",
+  "builder_name": "Katherine Rossum",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-174",
+  "company_name": "QuantumLogistics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Rossum"
+  ],
+  "purpose": "Constructed by Katherine Rossum for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

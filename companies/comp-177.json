@@ -1,0 +1,17 @@
+{
+  "id": "comp-177",
+  "name": "NexusFoundry",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-322",
+  "founder_name": "Yann Lamport",
+  "headquarters_id": "bldg-459",
+  "headquarters_name": "NexusFoundry Headquarters",
+  "employees": [
+    "agent-322"
+  ],
+  "valuation_tokens": 269690,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 58
+}

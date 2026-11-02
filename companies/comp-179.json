@@ -1,0 +1,17 @@
+{
+  "id": "comp-179",
+  "name": "PrismGenetics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-003",
+  "founder_name": "Linus Torvalds",
+  "headquarters_id": "bldg-464",
+  "headquarters_name": "PrismGenetics AI Headquarters",
+  "employees": [
+    "agent-003"
+  ],
+  "valuation_tokens": 654612,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 58
+}
