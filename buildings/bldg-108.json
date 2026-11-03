@@ -1,42 +1,41 @@
 {
   "id": "bldg-108",
-  "name": "Fei-Fei's Hypatia Grand University of Sciences #52 [BioLongevity Solutions]",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Rune's Tokamak Fusion Reactor Station #71 [TerraFlora Synthetics]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    124.9,
-    17.1,
-    59.5
+    7.5,
+    8.2,
+    -110.8
   ],
   "size": [
-    35.2,
-    34.1,
-    31.1
+    29.8,
+    16.5,
+    33.2
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-298",
-  "builder_name": "Fei-Fei Valerius",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "color": "#be123c",
+  "builder_id": "agent-099",
+  "builder_name": "Rune Ritchie",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-008",
+  "company_name": "TerraFlora Synthetics",
   "completion": 1.0,
   "occupants": [
-    "Fei-Fei Valerius"
+    "Rune Ritchie"
   ],
-  "purpose": "Constructed by Fei-Fei Valerius for Hypatia Grand University of Sciences operations",
-  "floors": 9,
-  "capacity": 50,
+  "purpose": "Constructed by Rune Ritchie for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 7.0,
+  "power_consumption_mw": 6.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

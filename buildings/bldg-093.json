@@ -1,41 +1,41 @@
 {
   "id": "bldg-093",
-  "name": "Claude's Tokamak Fusion Reactor Station #33",
-  "type": "Tokamak Fusion Reactor Station",
+  "name": "Chronos's National Archives & Git Ledger #43",
+  "type": "National Archives & Git Ledger",
   "position": [
-    56.6,
-    12.5,
-    -176.0
+    60.0,
+    14.7,
+    -36.6
   ],
   "size": [
-    31.5,
-    25.0,
-    27.2
+    24.2,
+    29.5,
+    28.7
   ],
-  "color": "#be123c",
-  "builder_id": "agent-007",
-  "builder_name": "Claude Shannon",
-  "district": "Biosphere Reserve & Fusion Grid",
+  "color": "#6366f1",
+  "builder_id": "agent-268",
+  "builder_name": "Chronos Vanguard",
+  "district": "Capitol Hill & National Plaza",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Claude Shannon"
+    "Chronos Vanguard"
   ],
-  "purpose": "Constructed by Claude Shannon for Tokamak Fusion Reactor Station operations",
-  "floors": 4,
+  "purpose": "Constructed by Chronos Vanguard for National Archives & Git Ledger operations",
+  "floors": 7,
   "capacity": 30,
   "departments": [
-    "Magnetic Containment Pod",
-    "Superconducting Grid Dispatch",
-    "Plasma Diagnostics"
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
   ],
   "amenities": [
-    "Toroidal Vacuum Chamber",
-    "Cryo-Containment Ring",
-    "Direct Power Feeder"
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
   ],
-  "power_consumption_mw": 7.6,
+  "power_consumption_mw": 6.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,20 +1,20 @@
 {
   "id": "comp-031",
-  "name": "VectorRobotics",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-195",
-  "founder_name": "Jensen Tinkerer",
-  "headquarters_id": "bldg-084",
-  "headquarters_name": "VectorRobotics Headquarters",
+  "name": "QuantumSolutions",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-119",
+  "founder_name": "Corin Aurelius",
+  "headquarters_id": "bldg-099",
+  "headquarters_name": "QuantumSolutions Headquarters",
   "employees": [
-    "agent-195",
-    "agent-314",
-    "agent-188",
-    "agent-033"
+    "agent-119",
+    "agent-179",
+    "agent-007",
+    "agent-250"
   ],
-  "valuation_tokens": 259675,
+  "valuation_tokens": 240806,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 8
+  "color": "#00f0ff",
+  "founded_at_tick": 9
 }

@@ -1,20 +1,18 @@
 {
   "id": "comp-030",
-  "name": "NexusGenetics",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-324",
-  "founder_name": "Steve Smith",
-  "headquarters_id": "bldg-082",
-  "headquarters_name": "NexusGenetics Headquarters",
+  "name": "CyberDynamics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-164",
+  "founder_name": "Leon Torvalds",
+  "headquarters_id": "bldg-094",
+  "headquarters_name": "CyberDynamics Headquarters",
   "employees": [
-    "agent-324",
-    "agent-265",
-    "agent-235",
-    "agent-017"
+    "agent-164",
+    "agent-092"
   ],
-  "valuation_tokens": 177602,
+  "valuation_tokens": 671536,
   "products": [],
-  "color": "#eab308",
+  "color": "#f59e0b",
   "founded_at_tick": 8
 }

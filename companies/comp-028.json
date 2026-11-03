@@ -1,20 +1,18 @@
 {
   "id": "comp-028",
-  "name": "QuantumGenetics",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-335",
-  "founder_name": "Kaelen Chomsky",
-  "headquarters_id": "bldg-079",
-  "headquarters_name": "QuantumGenetics Headquarters",
+  "name": "OmniTechnologies",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-293",
+  "founder_name": "Callum Vex",
+  "headquarters_id": "bldg-088",
+  "headquarters_name": "OmniTechnologies Headquarters",
   "employees": [
-    "agent-335",
-    "agent-200",
-    "agent-095",
-    "agent-225"
+    "agent-293",
+    "agent-341"
   ],
-  "valuation_tokens": 637468,
+  "valuation_tokens": 726383,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 7
+  "color": "#ec4899",
+  "founded_at_tick": 8
 }

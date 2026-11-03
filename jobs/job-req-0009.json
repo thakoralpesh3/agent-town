@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0009",
+  "role": "Molecular Nutrition Synthesizer",
+  "category": "Hospitality",
+  "specialization": "Personalized High-Performance Nutrition",
+  "urgency": "STANDARD",
+  "requesting_company": "NeuroDynamics AI",
+  "requesting_building": "Deep Neural Research Lab",
+  "salary_offered": 14200,
+  "created_at_tick": 9,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-356",
+  "filled_by_agent_name": "Sora Lamport"
+}

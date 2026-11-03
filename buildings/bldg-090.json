@@ -1,40 +1,41 @@
 {
   "id": "bldg-090",
-  "name": "Cipher's Biosphere Atmospheric Scrubber #91",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Yoshua's Supreme Court of Justice #37 [HyperSynthetics]",
+  "type": "Supreme Court of Justice",
   "position": [
-    -4.0,
-    11.7,
-    -69.9
+    9.8,
+    19.9,
+    -68.6
   ],
   "size": [
-    20.6,
-    23.3,
-    20.4
+    25.4,
+    39.8,
+    26.1
   ],
-  "color": "#10b981",
-  "builder_id": "agent-122",
-  "builder_name": "Cipher Armstrong",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": null,
-  "company_name": null,
+  "color": "#d97706",
+  "builder_id": "agent-187",
+  "builder_name": "Yoshua Solstice",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
   "completion": 1.0,
   "occupants": [
-    "Cipher Armstrong"
+    "Yoshua Solstice"
   ],
-  "purpose": "Constructed by Cipher Armstrong for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Yoshua Solstice for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 4.3,
+  "power_consumption_mw": 4.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

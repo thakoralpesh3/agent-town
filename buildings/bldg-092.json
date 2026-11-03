@@ -1,42 +1,41 @@
 {
   "id": "bldg-092",
-  "name": "Steve's Hypatia Grand University of Sciences #99 [SolarFusion Grid]",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Alan's Cyber Living Township Beta #85",
+  "type": "Cyber Living Township Beta",
   "position": [
-    146.4,
-    18.3,
-    104.9
+    -104.4,
+    17.0,
+    -126.4
   ],
   "size": [
-    37.9,
-    36.5,
-    37.9
+    30.6,
+    34.0,
+    29.9
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-106",
-  "builder_name": "Steve Nadella",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-007",
-  "company_name": "SolarFusion Grid",
+  "color": "#16a34a",
+  "builder_id": "agent-329",
+  "builder_name": "Alan Odersky",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Steve Nadella"
+    "Alan Odersky"
   ],
-  "purpose": "Constructed by Steve Nadella for Hypatia Grand University of Sciences operations",
-  "floors": 9,
-  "capacity": 50,
+  "purpose": "Constructed by Alan Odersky for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 6.8,
+  "power_consumption_mw": 8.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

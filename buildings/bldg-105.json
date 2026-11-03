@@ -1,24 +1,45 @@
 {
   "id": "bldg-105",
-  "name": "Satoshi's Cyber Cafe #97 [SolarFusion Prime]",
-  "type": "Cyber Cafe",
+  "name": "Rachel's Autonomous Vehicle Mega-Plant #41",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    -86.9,
-    6.6,
-    -30.1
+    92.8,
+    12.1,
+    -92.5
   ],
   "size": [
-    16.7,
-    13.2,
-    15.4
+    36.5,
+    24.1,
+    29.2
   ],
-  "color": "#eab308",
-  "builder_id": "agent-197",
-  "builder_name": "Satoshi Rayne",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#f59e0b",
+  "builder_id": "agent-011",
+  "builder_name": "Rachel Carson",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Satoshi Rayne for Cyber Cafe operations"
+  "occupants": [
+    "Rachel Carson"
+  ],
+  "purpose": "Constructed by Rachel Carson for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

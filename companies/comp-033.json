@@ -1,19 +1,20 @@
 {
   "id": "comp-033",
-  "name": "PrismSystems",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-117",
-  "founder_name": "Vitalik Kowalski",
-  "headquarters_id": "bldg-087",
-  "headquarters_name": "PrismSystems Headquarters",
+  "name": "BioVentures",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-013",
+  "founder_name": "Katherine Johnson",
+  "headquarters_id": "bldg-103",
+  "headquarters_name": "BioVentures Headquarters",
   "employees": [
-    "agent-117",
-    "agent-107",
-    "agent-060"
+    "agent-013",
+    "agent-251",
+    "agent-169",
+    "agent-115"
   ],
-  "valuation_tokens": 605035,
+  "valuation_tokens": 217533,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 8
+  "color": "#ef4444",
+  "founded_at_tick": 9
 }

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-106",
+  "name": "Nick's Cloud Matrix Exchange #70 [AeroCyber Mobility]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    14.4,
+    31.7,
+    183.4
+  ],
+  "size": [
+    25.7,
+    63.4,
+    24.7
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-064",
+  "builder_name": "Nick Tinkerer",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Nick Tinkerer"
+  ],
+  "purpose": "Constructed by Nick Tinkerer for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

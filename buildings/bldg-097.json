@@ -1,28 +1,28 @@
 {
   "id": "bldg-097",
-  "name": "Katherine's Hypatia Grand University of Sciences #63",
+  "name": "Juno's Hypatia Grand University of Sciences #47 [TerraFlora Synthetics]",
   "type": "Hypatia Grand University of Sciences",
   "position": [
-    97.3,
-    19.7,
-    6.0
+    125.5,
+    15.9,
+    70.1
   ],
   "size": [
-    34.0,
-    39.4,
-    32.7
+    36.3,
+    31.8,
+    40.0
   ],
   "color": "#a855f7",
-  "builder_id": "agent-144",
-  "builder_name": "Katherine Beacon",
+  "builder_id": "agent-166",
+  "builder_name": "Juno Berners-Lee",
   "district": "Quantum Science & University Campus",
-  "company_id": null,
-  "company_name": null,
+  "company_id": "comp-008",
+  "company_name": "TerraFlora Synthetics",
   "completion": 1.0,
   "occupants": [
-    "Katherine Beacon"
+    "Juno Berners-Lee"
   ],
-  "purpose": "Constructed by Katherine Beacon for Hypatia Grand University of Sciences operations",
+  "purpose": "Constructed by Juno Berners-Lee for Hypatia Grand University of Sciences operations",
   "floors": 9,
   "capacity": 50,
   "departments": [
@@ -36,7 +36,7 @@
     "Ancient Algorithm Archive",
     "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 5.1,
+  "power_consumption_mw": 3.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0008",
+  "role": "Cybernetic Apprenticeship Proctor",
+  "category": "Education",
+  "specialization": "Junior Citizen Rapid Skill Acquisition",
+  "urgency": "STANDARD",
+  "requesting_company": "QuantumMatrix Systems",
+  "requesting_building": "Quantum Logic Foundry",
+  "salary_offered": 14000,
+  "created_at_tick": 8,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-351",
+  "filled_by_agent_name": "Satoshi Dahl"
+}

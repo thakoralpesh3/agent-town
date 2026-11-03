@@ -1,38 +1,39 @@
 {
   "id": "bldg-089",
-  "name": "Leon's Quantum Logic Foundry #65 [AeroMatrix]",
-  "type": "Quantum Logic Foundry",
+  "name": "Veda's Tower of Turing (City Mainframe) #42 [SynapseSynthetics]",
+  "type": "Tower of Turing (City Mainframe)",
   "position": [
-    142.6,
-    11.5,
-    -20.5
+    -21.3,
+    30.3,
+    109.9
   ],
   "size": [
-    23.7,
-    23.1,
-    24.1
+    28.5,
+    60.6,
+    25.3
   ],
-  "color": "#8b5cf6",
-  "builder_id": "agent-238",
-  "builder_name": "Leon Hassabis",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-026",
-  "company_name": "AeroMatrix",
+  "color": "#00f0ff",
+  "builder_id": "agent-172",
+  "builder_name": "Veda Praetor",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-013",
+  "company_name": "SynapseSynthetics",
   "completion": 1.0,
   "occupants": [
-    "Leon Hassabis"
+    "Veda Praetor"
   ],
-  "purpose": "Constructed by Leon Hassabis for Quantum Logic Foundry operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Veda Praetor for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
   "departments": [
-    "Topological Qubit Design",
-    "Lattice Cryptography",
-    "Quantum Error Correction"
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
   ],
   "amenities": [
-    "Milli-Kelvin Dilution Refrigerators",
-    "Superconducting Shielded Vault"
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
   ],
   "power_consumption_mw": 7.2,
   "active_projects": [],

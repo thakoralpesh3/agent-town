@@ -1,20 +1,18 @@
 {
   "id": "comp-029",
-  "name": "AetherSystems",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-159",
-  "founder_name": "Thorne Jobs",
-  "headquarters_id": "bldg-081",
-  "headquarters_name": "AetherSystems Headquarters",
+  "name": "QuantumFederation",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-323",
+  "founder_name": "Vitalik Buterin",
+  "headquarters_id": "bldg-091",
+  "headquarters_name": "QuantumFederation Headquarters",
   "employees": [
-    "agent-159",
     "agent-323",
-    "agent-126",
-    "agent-342"
+    "agent-068"
   ],
-  "valuation_tokens": 603232,
+  "valuation_tokens": 246379,
   "products": [],
-  "color": "#f59e0b",
+  "color": "#ec4899",
   "founded_at_tick": 8
 }

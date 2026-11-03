@@ -1,18 +1,20 @@
 {
   "id": "comp-032",
-  "name": "SynapseSynthetics AI",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-330",
-  "founder_name": "Ryan Lovelace",
-  "headquarters_id": "bldg-086",
-  "headquarters_name": "SynapseSynthetics AI Headquarters",
+  "name": "SynapseSystems",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-086",
+  "founder_name": "Vint Odersky",
+  "headquarters_id": "bldg-101",
+  "headquarters_name": "SynapseSystems Headquarters",
   "employees": [
-    "agent-330",
-    "agent-307"
+    "agent-086",
+    "agent-348",
+    "agent-032",
+    "agent-018"
   ],
-  "valuation_tokens": 432039,
+  "valuation_tokens": 630447,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 8
+  "color": "#00f0ff",
+  "founded_at_tick": 9
 }

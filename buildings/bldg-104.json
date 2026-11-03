@@ -1,24 +1,46 @@
 {
   "id": "bldg-104",
-  "name": "Sol's Cybernetic Clinic #24 [AeroCyber Robotics]",
-  "type": "Cybernetic Clinic",
+  "name": "Grace's Hypatia Grand University of Sciences #92 [StellarDynamics]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -58.6,
-    14.7,
-    78.0
+    96.2,
+    20.4,
+    21.9
   ],
   "size": [
-    19.9,
-    29.4,
-    18.9
+    37.5,
+    40.8,
+    37.7
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-025",
-  "builder_name": "Sol Smith",
-  "district": "Residential Quarter",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "color": "#a855f7",
+  "builder_id": "agent-319",
+  "builder_name": "Grace Circuit",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-022",
+  "company_name": "StellarDynamics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Sol Smith for Cybernetic Clinic operations"
+  "occupants": [
+    "Grace Circuit"
+  ],
+  "purpose": "Constructed by Grace Circuit for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }
