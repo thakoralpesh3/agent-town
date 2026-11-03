@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0005",
+  "role": "Gene Therapy Bio-Engineer",
+  "category": "Healthcare",
+  "specialization": "Telomere Extension & Cellular Rejuvenation",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cloud Matrix Sovereign Exchange",
+  "salary_offered": 17400,
+  "created_at_tick": 5,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-338",
+  "filled_by_agent_name": "Barbara Perlman"
+}

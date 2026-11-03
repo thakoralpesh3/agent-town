@@ -1,41 +1,45 @@
 {
   "id": "bldg-054",
-  "name": "Mary's Biosphere Atmospheric Scrubber #13 [Sovereign Chancellery Core]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Martin's Hydroponic Agricultural Biodome #23",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    64.7,
-    14.7,
-    -114.6
+    32.6,
+    10.0,
+    -131.2
   ],
   "size": [
-    22.0,
-    29.4,
-    22.6
+    34.2,
+    20.1,
+    31.5
   ],
-  "color": "#10b981",
-  "builder_id": "agent-334",
-  "builder_name": "Mary Cross",
+  "color": "#16a34a",
+  "builder_id": "agent-286",
+  "builder_name": "Martin Fletcher",
   "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Mary Cross"
+    "Martin Fletcher"
   ],
-  "purpose": "Constructed by Mary Cross for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Martin Fletcher for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 6.8,
+  "power_consumption_mw": 5.3,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

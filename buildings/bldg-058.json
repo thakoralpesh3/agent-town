@@ -1,41 +1,43 @@
 {
   "id": "bldg-058",
-  "name": "Dennis's Grand Astronomical Observatory #42 [Sovereign Chancellery Core]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Stellan's Sovereign Capitol Building #67",
+  "type": "Sovereign Capitol Building",
   "position": [
-    129.6,
-    15.8,
-    98.2
+    -11.6,
+    23.1,
+    -46.5
   ],
   "size": [
-    22.6,
-    31.7,
-    23.8
+    35.3,
+    46.2,
+    37.4
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-311",
-  "builder_name": "Dennis Archon",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "color": "#f59e0b",
+  "builder_id": "agent-095",
+  "builder_name": "Stellan Vaughan",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Dennis Archon"
+    "Stellan Vaughan"
   ],
-  "purpose": "Constructed by Dennis Archon for Grand Astronomical Observatory operations",
-  "floors": 6,
-  "capacity": 25,
+  "purpose": "Constructed by Stellan Vaughan for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 8.6,
+  "power_consumption_mw": 5.3,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

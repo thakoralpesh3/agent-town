@@ -1,41 +1,41 @@
 {
   "id": "bldg-066",
-  "name": "Valeria's Tokamak Fusion Reactor Station #62",
-  "type": "Tokamak Fusion Reactor Station",
+  "name": "Marc's Supreme Court of Justice #25 [ApexIntell]",
+  "type": "Supreme Court of Justice",
   "position": [
-    -29.0,
-    13.3,
-    -116.7
+    -37.6,
+    19.9,
+    -47.9
   ],
   "size": [
-    30.8,
-    26.5,
-    28.6
+    33.2,
+    39.8,
+    30.0
   ],
-  "color": "#be123c",
-  "builder_id": "agent-077",
-  "builder_name": "Valeria Finney",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": null,
-  "company_name": null,
+  "color": "#d97706",
+  "builder_id": "agent-242",
+  "builder_name": "Marc Murati",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-017",
+  "company_name": "ApexIntell",
   "completion": 1.0,
   "occupants": [
-    "Valeria Finney"
+    "Marc Murati"
   ],
-  "purpose": "Constructed by Valeria Finney for Tokamak Fusion Reactor Station operations",
-  "floors": 4,
-  "capacity": 30,
+  "purpose": "Constructed by Marc Murati for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Magnetic Containment Pod",
-    "Superconducting Grid Dispatch",
-    "Plasma Diagnostics"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Toroidal Vacuum Chamber",
-    "Cryo-Containment Ring",
-    "Direct Power Feeder"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 5.7,
+  "power_consumption_mw": 8.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

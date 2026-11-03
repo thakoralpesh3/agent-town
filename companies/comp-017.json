@@ -1,18 +1,20 @@
 {
   "id": "comp-017",
-  "name": "AxiomIntell",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-276",
-  "founder_name": "Pixel Lamport",
-  "headquarters_id": "bldg-050",
-  "headquarters_name": "AxiomIntell Headquarters",
+  "name": "ApexIntell",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-034",
+  "founder_name": "Vint Cerf",
+  "headquarters_id": "bldg-060",
+  "headquarters_name": "ApexIntell Headquarters",
   "employees": [
-    "agent-276",
-    "agent-037"
+    "agent-034",
+    "agent-178",
+    "agent-139",
+    "agent-242"
   ],
-  "valuation_tokens": 629074,
+  "valuation_tokens": 417802,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 3
+  "color": "#ef4444",
+  "founded_at_tick": 4
 }

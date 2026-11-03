@@ -1,41 +1,41 @@
 {
   "id": "bldg-053",
-  "name": "Hypatia's Grand Astronomical Observatory #21 [BioLongevity Solutions]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Zephyr's Cyber Living Township Alpha #50",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    140.2,
-    20.1,
-    48.6
+    -164.9,
+    16.3,
+    -70.7
   ],
   "size": [
-    22.2,
-    40.1,
-    24.1
+    25.9,
+    32.5,
+    30.8
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-015",
-  "builder_name": "Hypatia Alexandria",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "color": "#22c55e",
+  "builder_id": "agent-148",
+  "builder_name": "Zephyr Ritchie",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Hypatia Alexandria"
+    "Zephyr Ritchie"
   ],
-  "purpose": "Constructed by Hypatia Alexandria for Grand Astronomical Observatory operations",
-  "floors": 6,
-  "capacity": 25,
+  "purpose": "Constructed by Zephyr Ritchie for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 6.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

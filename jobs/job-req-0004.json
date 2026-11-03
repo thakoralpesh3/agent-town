@@ -1,14 +1,14 @@
 {
   "id": "job-req-0004",
-  "role": "Theoretical Physics Chair",
-  "category": "Education",
-  "specialization": "Unified Field Theories & Quantum Gravity",
+  "role": "Supply Chain Logistics Flow Analyst",
+  "category": "Manufacturing",
+  "specialization": "Just-in-Time Component Fulfillment",
   "urgency": "STANDARD",
   "requesting_company": null,
   "requesting_building": "Shannon Information Spire",
-  "salary_offered": 17800,
+  "salary_offered": 15500,
   "created_at_tick": 4,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-336",
-  "filled_by_agent_name": "Nexus Li"
+  "filled_by_agent_id": "agent-335",
+  "filled_by_agent_name": "Kira Synapse"
 }

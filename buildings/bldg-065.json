@@ -1,41 +1,41 @@
 {
   "id": "bldg-065",
-  "name": "Sora's Hyperloop Central Terminus #42",
-  "type": "Hyperloop Central Terminus",
+  "name": "Sam's Autonomous Vehicle Mega-Plant #66",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    65.0,
-    12.5,
-    -48.6
+    83.3,
+    13.3,
+    -113.3
   ],
   "size": [
-    30.9,
-    24.9,
-    34.4
+    30.4,
+    26.6,
+    33.3
   ],
-  "color": "#f97316",
-  "builder_id": "agent-160",
-  "builder_name": "Sora Solstice",
+  "color": "#f59e0b",
+  "builder_id": "agent-150",
+  "builder_name": "Sam Weaver",
   "district": "Industrial Harbor & Transit Hub",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Sora Solstice"
+    "Sam Weaver"
   ],
-  "purpose": "Constructed by Sora Solstice for Hyperloop Central Terminus operations",
-  "floors": 4,
-  "capacity": 45,
+  "purpose": "Constructed by Sam Weaver for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
   ],
-  "power_consumption_mw": 4.7,
+  "power_consumption_mw": 6.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

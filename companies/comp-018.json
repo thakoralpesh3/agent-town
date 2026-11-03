@@ -1,18 +1,19 @@
 {
   "id": "comp-018",
-  "name": "SynapseSolutions",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-016",
-  "founder_name": "Aristotle Veritas",
-  "headquarters_id": "bldg-052",
-  "headquarters_name": "SynapseSolutions Headquarters",
+  "name": "AeroSystems",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-019",
+  "founder_name": "Hestia Nexus",
+  "headquarters_id": "bldg-064",
+  "headquarters_name": "AeroSystems Headquarters",
   "employees": [
-    "agent-016",
-    "agent-308"
+    "agent-019",
+    "agent-265",
+    "agent-124"
   ],
-  "valuation_tokens": 548781,
+  "valuation_tokens": 395822,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 3
+  "color": "#ec4899",
+  "founded_at_tick": 5
 }

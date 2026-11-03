@@ -1,18 +1,19 @@
 {
   "id": "comp-019",
-  "name": "TerraVentures",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-092",
-  "founder_name": "Sylvia Binary",
-  "headquarters_id": "bldg-054",
-  "headquarters_name": "TerraVentures Headquarters",
+  "name": "HeliosEnergy",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-051",
+  "founder_name": "Woz Aurelius",
+  "headquarters_id": "bldg-067",
+  "headquarters_name": "HeliosEnergy Headquarters",
   "employees": [
-    "agent-092",
-    "agent-281"
+    "agent-051",
+    "agent-258",
+    "agent-094"
   ],
-  "valuation_tokens": 617737,
+  "valuation_tokens": 189863,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 3
+  "color": "#ec4899",
+  "founded_at_tick": 5
 }

@@ -1,41 +1,41 @@
 {
   "id": "bldg-059",
-  "name": "Sora's Tokamak Fusion Reactor Station #75 [Sovereign Chancellery Core]",
-  "type": "Tokamak Fusion Reactor Station",
+  "name": "Woz's Supreme Court of Justice #65 [AeroCyber Mobility]",
+  "type": "Supreme Court of Justice",
   "position": [
-    39.7,
-    11.8,
-    -116.6
+    66.7,
+    18.4,
+    20.7
   ],
   "size": [
-    27.7,
-    23.6,
-    32.8
+    29.7,
+    36.8,
+    29.4
   ],
-  "color": "#be123c",
-  "builder_id": "agent-104",
-  "builder_name": "Sora Cross",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-001",
-  "company_name": "Sovereign Chancellery Core",
+  "color": "#d97706",
+  "builder_id": "agent-051",
+  "builder_name": "Woz Aurelius",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Sora Cross"
+    "Woz Aurelius"
   ],
-  "purpose": "Constructed by Sora Cross for Tokamak Fusion Reactor Station operations",
-  "floors": 4,
-  "capacity": 30,
+  "purpose": "Constructed by Woz Aurelius for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Magnetic Containment Pod",
-    "Superconducting Grid Dispatch",
-    "Plasma Diagnostics"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Toroidal Vacuum Chamber",
-    "Cryo-Containment Ring",
-    "Direct Power Feeder"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 2.8,
+  "power_consumption_mw": 4.2,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
