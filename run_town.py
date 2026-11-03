@@ -7,15 +7,16 @@ import argparse
 import sys
 import os
 import time
+import json
 import http.server
-import socketserver
 import threading
+from typing import Optional
 from town.simulation import TownEngine
 from town.generator import generate_initial_state
 from town.git_ops import commit_town_activity
 
-def serve_web(port: int = 8000, directory: str = "docs"):
-    """Serves the 3D Tech Town WebGL viewer."""
+def serve_web(port: int = 8000, directory: str = "docs", engine: Optional[TownEngine] = None, auto_commit: bool = False):
+    """Serves the 3D Tech Town WebGL viewer with live API endpoint for operator orders."""
     class Handler(http.server.SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, directory=directory, **kwargs)
@@ -23,6 +24,39 @@ def serve_web(port: int = 8000, directory: str = "docs"):
         def log_message(self, format, *args):
             # Suppress noisy HTTP asset logs
             pass
+
+        def do_POST(self):
+            if self.path == "/api/command" and engine:
+                content_length = int(self.headers.get("Content-Length", 0))
+                body = self.rfile.read(content_length).decode("utf-8") if content_length > 0 else "{}"
+                try:
+                    data = json.loads(body)
+                    cmd = data.get("command", "")
+                    agent_id = data.get("agent_id") or "agent-001"
+                    res = engine.process_agent_order(agent_id, cmd)
+                    engine.save_state()
+                    if auto_commit:
+                        commit_town_activity(engine.state.recent_events, engine.state.tick)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json")
+                    self.end_headers()
+                    self.wfile.write(json.dumps(res).encode("utf-8"))
+                except Exception as e:
+                    self.send_response(500)
+                    self.send_header("Content-Type", "application/json")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
+            elif self.path == "/api/tick" and engine:
+                state = engine.tick()
+                if auto_commit:
+                    commit_town_activity(state.recent_events, state.tick)
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self.end_headers()
+                self.wfile.write(json.dumps({"tick": state.tick, "population": len(state.agents)}).encode("utf-8"))
+            else:
+                self.send_response(404)
+                self.end_headers()
 
     print(f"\n=======================================================")
     print(f"🚀 3D Tech Town Viewer live at: http://localhost:{port}")
@@ -45,6 +79,7 @@ def main():
     parser.add_argument("--git-commit", action="store_true", help="Automatically git commit town changes")
     parser.add_argument("--serve", action="store_true", help="Serve the 3D Tech Town Viewer locally")
     parser.add_argument("--port", type=int, default=8000, help="Web server port (default 8000)")
+    parser.add_argument("--no-sim", action="store_true", help="Disable the background simulation engine loop when serving")
 
     args = parser.parse_args()
     engine = TownEngine()
@@ -74,29 +109,6 @@ def main():
         print("✅ Order executed and recorded to state and diaries.")
         return
 
-    if args.serve and not (args.tick or args.continuous):
-        serve_web(port=args.port)
-        return
-
-    if args.serve and args.continuous:
-        t = threading.Thread(target=serve_web, args=(args.port,), daemon=True)
-        t.start()
-
-    if args.continuous:
-        print(f"⚙️  Starting 24/7 Autonomous Tech Town loop (Interval: {args.delay}s)...")
-        engine.load_state()
-        try:
-            while True:
-                state = engine.tick()
-                latest_event = state.recent_events[-1]["message"] if state.recent_events else "Cycle complete"
-                print(f"[Tick {state.tick}] Pop: {len(state.agents)} | Corps: {len(state.companies)} | Bldgs: {len(state.buildings)} | {latest_event}")
-                if args.git_commit:
-                    commit_town_activity(state.recent_events, state.tick)
-                time.sleep(args.delay)
-        except KeyboardInterrupt:
-            print("\n🛑 Town simulation paused by user.")
-        return
-
     if args.tick is not None:
         engine.load_state()
         num_ticks = max(1, args.tick)
@@ -113,17 +125,31 @@ def main():
         print("✅ Simulation tick(s) finished.")
         return
 
-    # Default action
+    # Serve locally (default behavior or when --serve is passed)
     if not os.path.exists("state/town_state.json"):
-        print("Initializing new Tech Town with 200 agents...")
+        print("🏛️  Initializing new Tech Town foundation...")
         state = generate_initial_state()
         engine.state = state
         engine.save_state()
-        print(f"✅ Town initialized with 200 agents and companies.")
     else:
         engine.load_state()
-        state = engine.tick()
-        print(f"Tick {state.tick} executed. Population: {len(state.agents)}. Run with --help for options.")
+
+    def run_sim_loop():
+        while True:
+            try:
+                state = engine.tick()
+                if args.git_commit:
+                    commit_town_activity(state.recent_events, state.tick)
+            except Exception as e:
+                print(f"[Sim Error] {e}")
+            time.sleep(args.delay)
+
+    if not args.no_sim:
+        sim_thread = threading.Thread(target=run_sim_loop, daemon=True)
+        sim_thread.start()
+        print(f"🤖 Autonomous simulation engine running (interval: {args.delay}s).")
+
+    serve_web(port=args.port, engine=engine, auto_commit=args.git_commit)
 
 if __name__ == "__main__":
     main()

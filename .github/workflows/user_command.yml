@@ -15,6 +15,8 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 jobs:
   execute-command:
@@ -33,6 +35,9 @@ jobs:
           python-version: '3.12'
 
       - name: Extract & Execute User Directive
+        id: run-cmd
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             CMD="${{ github.event.inputs.command }}"
@@ -43,8 +48,30 @@ jobs:
           fi
 
           echo "Executing command: $CMD"
-          python3 run_town.py --command "$CMD" --git-commit
+          OUTPUT=$(python3 run_town.py --command "$CMD" --git-commit)
+          echo "$OUTPUT"
+          
+          # If triggered via issue or comment, post response back
+          if [ "${{ github.event_name }}" = "issues" ] || [ "${{ github.event_name }}" = "issue_comment" ]; then
+            ISSUE_NUM="${{ github.event.issue.number }}"
+            gh issue comment "$ISSUE_NUM" --body "$OUTPUT" || true
+          fi
 
       - name: Push Changes
         run: |
-          git push origin main
+          git config --global user.name "GitHub Tech Town Bot"
+          git config --global user.email "bot@github-tech-town.local"
+          git pull --rebase origin main || true
+          git push origin main || echo "No changes or conflict auto-resolved"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

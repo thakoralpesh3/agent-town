@@ -1,41 +1,42 @@
 {
   "id": "bldg-051",
-  "name": "Vector's Cyber Living Township Alpha #80",
-  "type": "Cyber Living Township Alpha",
+  "name": "Kairo's National Central Bank & Treasury #72 [SolarFusion Grid]",
+  "type": "National Central Bank & Treasury",
   "position": [
-    -96.9,
-    15.6,
-    -181.8
+    39.0,
+    16.9,
+    -35.0
   ],
   "size": [
-    26.1,
-    31.3,
-    26.4
+    28.6,
+    33.8,
+    28.5
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-040",
-  "builder_name": "Vector Core",
-  "district": "Cyber Living Townships",
-  "company_id": null,
-  "company_name": null,
+  "color": "#eab308",
+  "builder_id": "agent-189",
+  "builder_name": "Kairo Hickey",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Vector Core"
+    "Kairo Hickey"
   ],
-  "purpose": "Constructed by Vector Core for Cyber Living Township Alpha operations",
-  "floors": 7,
+  "purpose": "Constructed by Kairo Hickey for National Central Bank & Treasury operations",
+  "floors": 8,
   "capacity": 45,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation Glade"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Recharging Beds",
-    "Filtered Atmosphere"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 7.3,
+  "power_consumption_mw": 2.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

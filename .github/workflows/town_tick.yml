@@ -41,4 +41,19 @@ jobs:
 
       - name: Push Agent Commits to GitHub
         run: |
+          git config --global user.name "GitHub Tech Town Bot"
+          git config --global user.email "bot@github-tech-town.local"
+          git pull --rebase origin main || true
           git push origin main || echo "No changes or conflict auto-resolved"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

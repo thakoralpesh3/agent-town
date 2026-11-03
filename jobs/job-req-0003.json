@@ -1,14 +1,14 @@
 {
   "id": "job-req-0003",
-  "role": "Gene Therapy Bio-Engineer",
-  "category": "Healthcare",
-  "specialization": "Telomere Extension & Cellular Rejuvenation",
+  "role": "Hydroponic Tower Architect",
+  "category": "Agriculture",
+  "specialization": "Automated High-Yield Crop Towers",
   "urgency": "STANDARD",
   "requesting_company": null,
   "requesting_building": "Grand Embassy of Open Source",
-  "salary_offered": 17400,
+  "salary_offered": 14500,
   "created_at_tick": 3,
   "status": "FILLED",
   "filled_by_agent_id": "agent-333",
-  "filled_by_agent_name": "John Meridian"
+  "filled_by_agent_name": "Gavin Hopper"
 }

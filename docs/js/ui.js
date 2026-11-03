@@ -889,6 +889,13 @@ class UIController {
   executeOperatorDirective(agent, directiveText) {
     if (!agent || !directiveText) return;
 
+    // Sync directive to backend simulation engine if running locally
+    fetch("api/command", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ agent_id: agent.id, command: directiveText })
+    }).catch(() => {});
+
     // 1. Record Operator message in thread
     this._addDialogueMessage(agent.id, "OPERATOR (Clearance Level 5)", directiveText, "operator");
 
