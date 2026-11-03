@@ -1,20 +1,19 @@
 {
   "id": "comp-020",
-  "name": "HyperTechnologies",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-140",
-  "founder_name": "Ilya Buterin",
-  "headquarters_id": "bldg-055",
-  "headquarters_name": "HyperTechnologies Headquarters",
+  "name": "AxiomFederation",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-185",
+  "founder_name": "Marc Finney",
+  "headquarters_id": "bldg-071",
+  "headquarters_name": "AxiomFederation Headquarters",
   "employees": [
-    "agent-140",
-    "agent-085",
-    "agent-150",
-    "agent-134"
+    "agent-185",
+    "agent-208",
+    "agent-144"
   ],
-  "valuation_tokens": 462686,
+  "valuation_tokens": 511565,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 3
+  "color": "#ec4899",
+  "founded_at_tick": 6
 }

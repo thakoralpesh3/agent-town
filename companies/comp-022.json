@@ -1,20 +1,18 @@
 {
   "id": "comp-022",
-  "name": "SovereignTechnologies",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-159",
-  "founder_name": "Thorne Jobs",
-  "headquarters_id": "bldg-067",
-  "headquarters_name": "SovereignTechnologies Headquarters",
+  "name": "StellarDynamics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-319",
+  "founder_name": "Grace Circuit",
+  "headquarters_id": "bldg-073",
+  "headquarters_name": "StellarDynamics Headquarters",
   "employees": [
-    "agent-159",
-    "agent-329",
-    "agent-228",
-    "agent-292"
+    "agent-319",
+    "agent-326"
   ],
-  "valuation_tokens": 705275,
+  "valuation_tokens": 387173,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 5
+  "color": "#8b5cf6",
+  "founded_at_tick": 6
 }

@@ -1,24 +1,46 @@
 {
   "id": "bldg-078",
-  "name": "Mary's Cyber Cafe #15 [AeroCyber Robotics]",
-  "type": "Cyber Cafe",
+  "name": "Martin's National Central Bank & Treasury #31",
+  "type": "National Central Bank & Treasury",
   "position": [
-    -127.9,
-    6.5,
-    -121.3
+    13.4,
+    15.7,
+    63.6
   ],
   "size": [
-    14.0,
-    13.0,
-    14.7
+    33.6,
+    31.4,
+    28.8
   ],
   "color": "#eab308",
-  "builder_id": "agent-026",
-  "builder_name": "Mary Rayne",
-  "district": "Cyber Commons",
-  "company_id": "comp-002",
-  "company_name": "AeroCyber Robotics",
+  "builder_id": "agent-079",
+  "builder_name": "Martin Pichai",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Mary Rayne for Cyber Cafe operations"
+  "occupants": [
+    "Martin Pichai"
+  ],
+  "purpose": "Constructed by Martin Pichai for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 3.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

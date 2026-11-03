@@ -1,18 +1,18 @@
 {
   "id": "comp-026",
-  "name": "AeroMatrix",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-234",
-  "founder_name": "Alexander Node",
-  "headquarters_id": "bldg-077",
-  "headquarters_name": "AeroMatrix Headquarters",
+  "name": "SynapseIntell",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-084",
+  "founder_name": "Darian Archon",
+  "headquarters_id": "bldg-082",
+  "headquarters_name": "SynapseIntell Headquarters",
   "employees": [
-    "agent-234",
-    "agent-238"
+    "agent-084",
+    "agent-181"
   ],
-  "valuation_tokens": 152641,
+  "valuation_tokens": 567448,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#10b981",
   "founded_at_tick": 7
 }

@@ -1,18 +1,20 @@
 {
   "id": "comp-027",
-  "name": "ChronoFoundry",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-246",
-  "founder_name": "Bjarne Vaughan",
-  "headquarters_id": "bldg-078",
-  "headquarters_name": "ChronoFoundry Headquarters",
+  "name": "OmniGenetics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-027",
+  "founder_name": "Carl Sagan",
+  "headquarters_id": "bldg-085",
+  "headquarters_name": "OmniGenetics Headquarters",
   "employees": [
-    "agent-246",
-    "agent-061"
+    "agent-027",
+    "agent-211",
+    "agent-060",
+    "agent-192"
   ],
-  "valuation_tokens": 166012,
+  "valuation_tokens": 372453,
   "products": [],
-  "color": "#eab308",
+  "color": "#e11d48",
   "founded_at_tick": 7
 }

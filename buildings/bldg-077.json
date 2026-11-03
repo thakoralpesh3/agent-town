@@ -1,24 +1,45 @@
 {
   "id": "bldg-077",
-  "name": "Cipher's Vehicle Factory #92",
-  "type": "Vehicle Factory",
+  "name": "Claude's Grand Astronomical Observatory #72 [TerraFlora Synthetics]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    96.9,
-    11.0,
-    -60.1
+    108.8,
+    20.3,
+    -13.0
   ],
   "size": [
-    23.1,
-    21.9,
-    24.1
+    25.4,
+    40.7,
+    23.3
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-215",
-  "builder_name": "Cipher Pichai",
-  "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "color": "#c084fc",
+  "builder_id": "agent-295",
+  "builder_name": "Claude Circuit",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-008",
+  "company_name": "TerraFlora Synthetics",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Cipher Pichai for Vehicle Factory operations"
+  "occupants": [
+    "Claude Circuit"
+  ],
+  "purpose": "Constructed by Claude Circuit for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 3.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

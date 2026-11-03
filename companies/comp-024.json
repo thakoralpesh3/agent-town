@@ -1,18 +1,18 @@
 {
   "id": "comp-024",
-  "name": "VectorLabs",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-210",
-  "founder_name": "Seraph Odersky",
-  "headquarters_id": "bldg-071",
-  "headquarters_name": "VectorLabs Headquarters",
+  "name": "NexusVentures",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-219",
+  "founder_name": "Valen Johnson",
+  "headquarters_id": "bldg-076",
+  "headquarters_name": "NexusVentures Headquarters",
   "employees": [
-    "agent-210",
-    "agent-019"
+    "agent-219",
+    "agent-085"
   ],
-  "valuation_tokens": 587514,
+  "valuation_tokens": 644821,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#eab308",
   "founded_at_tick": 6
 }

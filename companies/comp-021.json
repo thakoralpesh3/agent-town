@@ -1,18 +1,20 @@
 {
   "id": "comp-021",
-  "name": "HyperSystems",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-139",
-  "founder_name": "Seraph Tinkerer",
-  "headquarters_id": "bldg-063",
-  "headquarters_name": "HyperSystems Headquarters",
+  "name": "SynapseNetworks",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-177",
+  "founder_name": "Hal Hickey",
+  "headquarters_id": "bldg-072",
+  "headquarters_name": "SynapseNetworks Headquarters",
   "employees": [
-    "agent-139",
-    "agent-212"
+    "agent-177",
+    "agent-078",
+    "agent-158",
+    "agent-228"
   ],
-  "valuation_tokens": 539286,
+  "valuation_tokens": 623180,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 5
+  "color": "#00f0ff",
+  "founded_at_tick": 6
 }

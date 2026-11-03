@@ -1,18 +1,19 @@
 {
   "id": "comp-025",
-  "name": "BioSynthetics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-268",
-  "founder_name": "Chronos Vanguard",
-  "headquarters_id": "bldg-076",
-  "headquarters_name": "BioSynthetics Headquarters",
+  "name": "BioSolutions",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-019",
+  "founder_name": "Hestia Nexus",
+  "headquarters_id": "bldg-081",
+  "headquarters_name": "BioSolutions Headquarters",
   "employees": [
-    "agent-268",
-    "agent-179"
+    "agent-019",
+    "agent-216",
+    "agent-225"
   ],
-  "valuation_tokens": 515569,
+  "valuation_tokens": 419809,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 6
+  "color": "#ef4444",
+  "founded_at_tick": 7
 }

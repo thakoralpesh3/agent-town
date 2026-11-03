@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0006",
+  "role": "Autonomous Cybercar Chassis Designer",
+  "category": "Transportation",
+  "specialization": "Level-5 Autonomous Guidance Platforms",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Von Neumann Computing Tower",
+  "salary_offered": 15500,
+  "created_at_tick": 6,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-344",
+  "filled_by_agent_name": "Ilya Sovereign"
+}

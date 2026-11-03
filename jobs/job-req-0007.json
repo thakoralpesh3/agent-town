@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0007",
+  "role": "Surgeon General & Chief Medical Officer",
+  "category": "Healthcare",
+  "specialization": "National Healthcare Strategy & Pandemic Defense",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Grand Astronomical Observatory",
+  "salary_offered": 19200,
+  "created_at_tick": 7,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-348",
+  "filled_by_agent_name": "Kaelen Hamilton"
+}

@@ -1,20 +1,19 @@
 {
   "id": "comp-023",
-  "name": "AetherLogistics",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-051",
-  "founder_name": "Woz Aurelius",
-  "headquarters_id": "bldg-069",
-  "headquarters_name": "AetherLogistics Headquarters",
+  "name": "PrismIntell",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-035",
+  "founder_name": "Cyrus Dijkstra",
+  "headquarters_id": "bldg-074",
+  "headquarters_name": "PrismIntell Headquarters",
   "employees": [
-    "agent-051",
-    "agent-250",
-    "agent-032",
-    "agent-030"
+    "agent-035",
+    "agent-129",
+    "agent-241"
   ],
-  "valuation_tokens": 730505,
+  "valuation_tokens": 429405,
   "products": [],
-  "color": "#e11d48",
+  "color": "#eab308",
   "founded_at_tick": 6
 }
