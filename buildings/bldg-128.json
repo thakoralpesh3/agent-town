@@ -1,42 +1,41 @@
 {
   "id": "bldg-128",
-  "name": "Roxas's National Hospital & Nanomedical Citadel #85",
-  "type": "National Hospital & Nanomedical Citadel",
+  "name": "Dennis's The Agora Civic Forum #38 [Sovereign Chancellery Core]",
+  "type": "The Agora Civic Forum",
   "position": [
-    -151.9,
-    25.9,
-    9.3
+    -177.7,
+    10.9,
+    -87.2
   ],
   "size": [
-    36.8,
-    51.8,
-    36.9
+    28.6,
+    21.8,
+    28.5
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-332",
-  "builder_name": "Roxas Vex",
-  "district": "Health Citadel & Medical Complex",
-  "company_id": null,
-  "company_name": null,
+  "color": "#eab308",
+  "builder_id": "agent-311",
+  "builder_name": "Dennis Archon",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Roxas Vex"
+    "Dennis Archon"
   ],
-  "purpose": "Constructed by Roxas Vex for National Hospital & Nanomedical Citadel operations",
-  "floors": 10,
-  "capacity": 55,
+  "purpose": "Constructed by Dennis Archon for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
   "departments": [
-    "Emergency Trauma & Triage",
-    "Nanotech Robotic Surgery",
-    "Cellular Regeneration",
-    "Epidemic Control"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Rooftop VTOL Helipads",
-    "Cryogenic Stasis Chambers",
-    "Sterile Nanotech Cleanrooms"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 5.5,
+  "power_consumption_mw": 3.3,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

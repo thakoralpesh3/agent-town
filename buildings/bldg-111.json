@@ -1,24 +1,45 @@
 {
   "id": "bldg-111",
-  "name": "Linus's Tech Tower #62",
-  "type": "Tech Tower",
+  "name": "Julian's Grand Astronomical Observatory #23 [AeroCyber Mobility]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    52.7,
-    21.9,
-    -14.9
+    184.5,
+    14.0,
+    64.1
   ],
   "size": [
-    18.8,
-    43.8,
-    17.4
+    23.5,
+    27.9,
+    26.6
   ],
-  "color": "#0ea5e9",
-  "builder_id": "agent-168",
-  "builder_name": "Linus Frost",
-  "district": "Silicon Central",
-  "company_id": null,
-  "company_name": null,
+  "color": "#c084fc",
+  "builder_id": "agent-284",
+  "builder_name": "Julian Node",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
-  "occupants": [],
-  "purpose": "Constructed by Linus Frost for Tech Tower operations"
+  "occupants": [
+    "Julian Node"
+  ],
+  "purpose": "Constructed by Julian Node for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 4.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

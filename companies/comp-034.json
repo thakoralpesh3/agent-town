@@ -1,18 +1,19 @@
 {
   "id": "comp-034",
-  "name": "AetherVentures",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-340",
-  "founder_name": "Vector Kahn",
-  "headquarters_id": "bldg-088",
-  "headquarters_name": "AetherVentures Headquarters",
+  "name": "ApexDynamics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-088",
+  "founder_name": "Evander Jobs",
+  "headquarters_id": "bldg-110",
+  "headquarters_name": "ApexDynamics Headquarters",
   "employees": [
-    "agent-340",
-    "agent-090"
+    "agent-088",
+    "agent-207",
+    "agent-193"
   ],
-  "valuation_tokens": 246632,
+  "valuation_tokens": 542925,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 9
+  "color": "#10b981",
+  "founded_at_tick": 10
 }

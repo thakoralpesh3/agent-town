@@ -1,41 +1,41 @@
 {
   "id": "bldg-116",
-  "name": "Roxas's Supreme Court of Justice #22 [AeroCyber Mobility]",
-  "type": "Supreme Court of Justice",
+  "name": "Greg's Cyber Living Township Beta #14 [QuantumSynthetics]",
+  "type": "Cyber Living Township Beta",
   "position": [
-    20.1,
-    19.0,
-    26.1
+    -56.5,
+    18.8,
+    -53.6
   ],
   "size": [
-    32.0,
-    38.0,
-    32.8
+    25.4,
+    37.7,
+    25.3
   ],
-  "color": "#d97706",
-  "builder_id": "agent-141",
-  "builder_name": "Roxas Aurelius",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-006",
-  "company_name": "AeroCyber Mobility",
+  "color": "#16a34a",
+  "builder_id": "agent-063",
+  "builder_name": "Greg Bengio",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-010",
+  "company_name": "QuantumSynthetics",
   "completion": 1.0,
   "occupants": [
-    "Roxas Aurelius"
+    "Greg Bengio"
   ],
-  "purpose": "Constructed by Roxas Aurelius for Supreme Court of Justice operations",
-  "floors": 6,
-  "capacity": 35,
+  "purpose": "Constructed by Greg Bengio for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "High Constitutional Tribunal",
-    "Smart Contract Arbitration Bench",
-    "Appeals Chamber"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Formal Verification Prover",
-    "Holographic Evidence Display",
-    "Juror Isolation Chambers"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 8.7,
+  "power_consumption_mw": 4.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

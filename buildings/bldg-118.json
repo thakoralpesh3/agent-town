@@ -1,28 +1,28 @@
 {
   "id": "bldg-118",
-  "name": "Sundar's Shannon Information Spire #82 [BioLongevity Solutions]",
+  "name": "Morrigan's Shannon Information Spire #38",
   "type": "Shannon Information Spire",
   "position": [
-    22.5,
-    21.4,
-    69.8
+    27.6,
+    23.5,
+    110.1
   ],
   "size": [
-    18.2,
-    42.8,
-    20.3
+    18.8,
+    46.9,
+    20.4
   ],
   "color": "#0284c7",
-  "builder_id": "agent-224",
-  "builder_name": "Sundar Prism",
+  "builder_id": "agent-073",
+  "builder_name": "Morrigan Synapse",
   "district": "Silicon Central Metropolis",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Sundar Prism"
+    "Morrigan Synapse"
   ],
-  "purpose": "Constructed by Sundar Prism for Shannon Information Spire operations",
+  "purpose": "Constructed by Morrigan Synapse for Shannon Information Spire operations",
   "floors": 12,
   "capacity": 35,
   "departments": [
@@ -34,7 +34,7 @@
     "Free-Space Optical Transceivers",
     "Zero-Latency Buffer Pool"
   ],
-  "power_consumption_mw": 4.5,
+  "power_consumption_mw": 7.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

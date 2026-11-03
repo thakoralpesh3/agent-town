@@ -1,41 +1,41 @@
 {
   "id": "bldg-113",
-  "name": "Rob's Hyperloop Central Terminus #35 [VectorGenetics]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Iris's Tokamak Fusion Reactor Station #35 [StellarLabs]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    92.4,
-    12.4,
-    -174.0
+    25.7,
+    12.6,
+    -96.5
   ],
   "size": [
-    31.3,
-    24.9,
-    33.1
+    34.5,
+    25.2,
+    28.8
   ],
-  "color": "#f97316",
-  "builder_id": "agent-087",
-  "builder_name": "Rob Weaver",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-044",
-  "company_name": "VectorGenetics",
+  "color": "#be123c",
+  "builder_id": "agent-277",
+  "builder_name": "Iris Perlman",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-009",
+  "company_name": "StellarLabs",
   "completion": 1.0,
   "occupants": [
-    "Rob Weaver"
+    "Iris Perlman"
   ],
-  "purpose": "Constructed by Rob Weaver for Hyperloop Central Terminus operations",
+  "purpose": "Constructed by Iris Perlman for Tokamak Fusion Reactor Station operations",
   "floors": 4,
-  "capacity": 45,
+  "capacity": 30,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 6.9,
+  "power_consumption_mw": 8.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

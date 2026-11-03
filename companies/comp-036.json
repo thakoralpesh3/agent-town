@@ -1,20 +1,20 @@
 {
   "id": "comp-036",
-  "name": "SynapseLogistics",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-069",
-  "founder_name": "Ilya Node",
-  "headquarters_id": "bldg-095",
-  "headquarters_name": "SynapseLogistics Headquarters",
+  "name": "HyperMatrix",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-192",
+  "founder_name": "Kira Zenith",
+  "headquarters_id": "bldg-117",
+  "headquarters_name": "HyperMatrix Headquarters",
   "employees": [
-    "agent-069",
-    "agent-237",
-    "agent-180",
-    "agent-296"
+    "agent-192",
+    "agent-329",
+    "agent-229",
+    "agent-328"
   ],
-  "valuation_tokens": 281664,
+  "valuation_tokens": 253450,
   "products": [],
-  "color": "#10b981",
+  "color": "#8b5cf6",
   "founded_at_tick": 10
 }

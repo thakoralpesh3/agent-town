@@ -1,20 +1,19 @@
 {
   "id": "comp-037",
-  "name": "QuantumSynthetics AI",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-309",
-  "founder_name": "Freya Buterin",
-  "headquarters_id": "bldg-096",
-  "headquarters_name": "QuantumSynthetics AI Headquarters",
+  "name": "HeliosRobotics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-150",
+  "founder_name": "Sam Weaver",
+  "headquarters_id": "bldg-120",
+  "headquarters_name": "HeliosRobotics Headquarters",
   "employees": [
-    "agent-309",
-    "agent-007",
-    "agent-289",
-    "agent-207"
+    "agent-150",
+    "agent-155",
+    "agent-299"
   ],
-  "valuation_tokens": 748387,
+  "valuation_tokens": 566012,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 11
+  "color": "#ef4444",
+  "founded_at_tick": 10
 }

@@ -1,41 +1,42 @@
 {
   "id": "bldg-115",
-  "name": "Leslie's Hydroponic Agricultural Biodome #13 [NeuroDynamics AI]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Claude's National Central Bank & Treasury #34",
+  "type": "National Central Bank & Treasury",
   "position": [
-    -47.1,
-    12.2,
-    -185.4
+    -14.2,
+    24.7,
+    8.7
   ],
   "size": [
-    31.4,
-    24.4,
-    35.1
+    35.5,
+    49.5,
+    34.4
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-288",
-  "builder_name": "Leslie Wozniak",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-003",
-  "company_name": "NeuroDynamics AI",
+  "color": "#eab308",
+  "builder_id": "agent-221",
+  "builder_name": "Claude Spark",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Leslie Wozniak"
+    "Claude Spark"
   ],
-  "purpose": "Constructed by Leslie Wozniak for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Claude Spark for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 4.8,
+  "power_consumption_mw": 7.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

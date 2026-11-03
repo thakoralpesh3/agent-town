@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0010",
+  "role": "Nanotech Medic",
+  "category": "Healthcare",
+  "specialization": "Field Emergency Trauma Stabilization",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "St. Ada Emergency Trauma Center",
+  "salary_offered": 14800,
+  "created_at_tick": 10,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-357",
+  "filled_by_agent_name": "Evander Finney"
+}

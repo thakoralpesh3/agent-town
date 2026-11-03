@@ -1,41 +1,42 @@
 {
   "id": "bldg-124",
-  "name": "Juno's Cyber Living Township Alpha #96 [TerraFlora Synthetics]",
-  "type": "Cyber Living Township Alpha",
+  "name": "Alan's Hypatia Grand University of Sciences #29 [PrismTechnologies]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -65.6,
-    12.9,
-    -90.4
+    134.9,
+    19.6,
+    90.2
   ],
   "size": [
-    30.8,
-    25.7,
-    30.0
+    37.6,
+    39.2,
+    34.6
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-166",
-  "builder_name": "Juno Berners-Lee",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "color": "#a855f7",
+  "builder_id": "agent-065",
+  "builder_name": "Alan Foundry",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-011",
+  "company_name": "PrismTechnologies",
   "completion": 1.0,
   "occupants": [
-    "Juno Berners-Lee"
+    "Alan Foundry"
   ],
-  "purpose": "Constructed by Juno Berners-Lee for Cyber Living Township Alpha operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Alan Foundry for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation Glade"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Recharging Beds",
-    "Filtered Atmosphere"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 4.1,
+  "power_consumption_mw": 3.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

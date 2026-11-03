@@ -1,41 +1,41 @@
 {
   "id": "bldg-126",
-  "name": "Katherine's Cyber Living Township Beta #75 [TerraFlora Synthetics]",
-  "type": "Cyber Living Township Beta",
+  "name": "Ronan's Tokamak Fusion Reactor Station #79 [SolarFusion Grid]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    -97.1,
-    13.0,
-    -79.1
+    -18.0,
+    10.2,
+    -126.2
   ],
   "size": [
-    28.0,
-    25.9,
-    27.9
+    34.9,
+    20.3,
+    33.7
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-285",
-  "builder_name": "Katherine Glitch",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "color": "#be123c",
+  "builder_id": "agent-273",
+  "builder_name": "Ronan Torvalds",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Katherine Glitch"
+    "Ronan Torvalds"
   ],
-  "purpose": "Constructed by Katherine Glitch for Cyber Living Township Beta operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Ronan Torvalds for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Residential Living",
-    "Private Study Modules",
-    "Biometric Circadian Suites"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Living Mycelium Soil Mesh",
-    "Acoustic Noise Cloak",
-    "Community Dining Hall"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 8.2,
+  "power_consumption_mw": 8.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

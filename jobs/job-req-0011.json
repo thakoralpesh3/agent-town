@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0011",
+  "role": "Hydroponic Tower Architect",
+  "category": "Agriculture",
+  "specialization": "Automated High-Yield Crop Towers",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Longevity & Genetic Engineering Institute",
+  "salary_offered": 14500,
+  "created_at_tick": 11,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-360",
+  "filled_by_agent_name": "Sora Strata"
+}

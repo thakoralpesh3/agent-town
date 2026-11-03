@@ -1,20 +1,19 @@
 {
   "id": "comp-038",
-  "name": "ApexMatrix",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-235",
-  "founder_name": "Andrej Tinkerer",
-  "headquarters_id": "bldg-098",
-  "headquarters_name": "ApexMatrix Headquarters",
+  "name": "SolarFoundry",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-289",
+  "founder_name": "Nick Hamilton",
+  "headquarters_id": "bldg-125",
+  "headquarters_name": "SolarFoundry Headquarters",
   "employees": [
-    "agent-235",
-    "agent-321",
-    "agent-204",
-    "agent-349"
+    "agent-289",
+    "agent-135",
+    "agent-054"
   ],
-  "valuation_tokens": 529291,
+  "valuation_tokens": 546175,
   "products": [],
-  "color": "#ef4444",
+  "color": "#8b5cf6",
   "founded_at_tick": 11
 }
