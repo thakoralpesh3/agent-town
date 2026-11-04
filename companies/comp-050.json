@@ -1,18 +1,18 @@
 {
   "id": "comp-050",
-  "name": "HeliosIntell",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-154",
-  "founder_name": "Helios Helix",
-  "headquarters_id": "bldg-130",
-  "headquarters_name": "HeliosIntell Headquarters",
+  "name": "SolarNetworks",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-061",
+  "founder_name": "Vitalik Finney",
+  "headquarters_id": "bldg-155",
+  "headquarters_name": "SolarNetworks Headquarters",
   "employees": [
-    "agent-154",
-    "agent-158"
+    "agent-061",
+    "agent-184"
   ],
-  "valuation_tokens": 552214,
+  "valuation_tokens": 696606,
   "products": [],
-  "color": "#ec4899",
+  "color": "#f59e0b",
   "founded_at_tick": 15
 }

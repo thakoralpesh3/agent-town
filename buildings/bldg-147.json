@@ -1,41 +1,41 @@
 {
   "id": "bldg-147",
-  "name": "Cyrus's Tower of Turing (City Mainframe) #36 [ApexRobotics]",
-  "type": "Tower of Turing (City Mainframe)",
+  "name": "Satya's The Agora Civic Forum #42 [BioVentures]",
+  "type": "The Agora Civic Forum",
   "position": [
-    46.2,
-    37.9,
-    114.6
+    -73.3,
+    11.2,
+    -86.0
   ],
   "size": [
-    25.7,
-    75.7,
-    26.4
+    27.5,
+    22.4,
+    26.1
   ],
-  "color": "#00f0ff",
-  "builder_id": "agent-129",
-  "builder_name": "Cyrus Berners-Lee",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-039",
-  "company_name": "ApexRobotics",
+  "color": "#eab308",
+  "builder_id": "agent-115",
+  "builder_name": "Satya Smith",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-033",
+  "company_name": "BioVentures",
   "completion": 1.0,
   "occupants": [
-    "Cyrus Berners-Lee"
+    "Satya Smith"
   ],
-  "purpose": "Constructed by Cyrus Berners-Lee for Tower of Turing (City Mainframe) operations",
-  "floors": 16,
+  "purpose": "Constructed by Satya Smith for The Agora Civic Forum operations",
+  "floors": 4,
   "capacity": 50,
   "departments": [
-    "Kernel Architecture",
-    "Low-Latency Networks",
-    "System Security Division"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Quantum Server Core",
-    "High-Bandwidth Laser Uplink",
-    "Penthouse War Room"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 6.2,
+  "power_consumption_mw": 8.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

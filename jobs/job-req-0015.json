@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0015",
+  "role": "National Bond Comptroller",
+  "category": "Treasury",
+  "specialization": "Civic Infrastructure Bond Financing",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cyber Living Township Gamma",
+  "salary_offered": 16000,
+  "created_at_tick": 15,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-380",
+  "filled_by_agent_name": "Vint Mason"
+}

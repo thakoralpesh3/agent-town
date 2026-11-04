@@ -1,18 +1,20 @@
 {
   "id": "comp-047",
-  "name": "OmniVentures",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-283",
-  "founder_name": "Nick Brockman",
-  "headquarters_id": "bldg-114",
-  "headquarters_name": "OmniVentures Headquarters",
+  "name": "BioLabs",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-202",
+  "founder_name": "Callum Valerius",
+  "headquarters_id": "bldg-151",
+  "headquarters_name": "BioLabs Headquarters",
   "employees": [
-    "agent-283",
-    "agent-279"
+    "agent-202",
+    "agent-134",
+    "agent-029",
+    "agent-324"
   ],
-  "valuation_tokens": 542450,
+  "valuation_tokens": 437918,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 12
+  "color": "#ec4899",
+  "founded_at_tick": 15
 }

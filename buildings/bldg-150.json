@@ -1,42 +1,41 @@
 {
   "id": "bldg-150",
-  "name": "Ken's National Central Bank & Treasury #63",
-  "type": "National Central Bank & Treasury",
+  "name": "Sora's Cyber Living Township Beta #86 [AeroCyber Mobility]",
+  "type": "Cyber Living Township Beta",
   "position": [
-    -3.9,
-    15.9,
-    -2.6
+    -30.6,
+    15.8,
+    -91.7
   ],
   "size": [
-    31.7,
-    31.8,
-    27.9
+    28.9,
+    31.5,
+    30.5
   ],
-  "color": "#eab308",
-  "builder_id": "agent-071",
-  "builder_name": "Ken Glitch",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": null,
-  "company_name": null,
+  "color": "#16a34a",
+  "builder_id": "agent-345",
+  "builder_name": "Sora Quantum",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Ken Glitch"
+    "Sora Quantum"
   ],
-  "purpose": "Constructed by Ken Glitch for National Central Bank & Treasury operations",
-  "floors": 8,
+  "purpose": "Constructed by Sora Quantum for Cyber Living Township Beta operations",
+  "floors": 7,
   "capacity": 45,
   "departments": [
-    "Sovereign Wealth Reserve",
-    "Algorithmic Monetary Core",
-    "DeFi Liquidity Hub",
-    "Bond Issuance"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Deep Underground Cold Vault",
-    "Quantum Key Distribution Link",
-    "Dynamic Exchange Floor"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 4.9,
+  "power_consumption_mw": 8.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

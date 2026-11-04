@@ -1,0 +1,45 @@
+{
+  "id": "bldg-154",
+  "name": "Morrigan's Supreme Court of Justice #51",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -52.2,
+    19.4,
+    -56.8
+  ],
+  "size": [
+    27.9,
+    38.7,
+    29.0
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-212",
+  "builder_name": "Morrigan Hassabis",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Morrigan Hassabis"
+  ],
+  "purpose": "Constructed by Morrigan Hassabis for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

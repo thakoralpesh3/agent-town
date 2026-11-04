@@ -1,18 +1,18 @@
 {
   "id": "comp-049",
-  "name": "AeroGenetics AI",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-015",
-  "founder_name": "Hypatia Alexandria",
-  "headquarters_id": "bldg-127",
-  "headquarters_name": "AeroGenetics AI Headquarters",
+  "name": "SynapseEnergy",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-206",
+  "founder_name": "Cassian Hopper",
+  "headquarters_id": "bldg-153",
+  "headquarters_name": "SynapseEnergy Headquarters",
   "employees": [
-    "agent-015",
-    "agent-151"
+    "agent-206",
+    "agent-142"
   ],
-  "valuation_tokens": 250765,
+  "valuation_tokens": 273764,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#e11d48",
   "founded_at_tick": 15
 }

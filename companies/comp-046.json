@@ -1,18 +1,18 @@
 {
   "id": "comp-046",
-  "name": "HyperFoundry",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-061",
-  "founder_name": "Vitalik Finney",
-  "headquarters_id": "bldg-111",
-  "headquarters_name": "HyperFoundry Headquarters",
+  "name": "DeepLabs",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-063",
+  "founder_name": "Greg Bengio",
+  "headquarters_id": "bldg-149",
+  "headquarters_name": "DeepLabs Headquarters",
   "employees": [
-    "agent-061",
-    "agent-290"
+    "agent-063",
+    "agent-375"
   ],
-  "valuation_tokens": 643605,
+  "valuation_tokens": 639996,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 12
+  "color": "#8b5cf6",
+  "founded_at_tick": 15
 }

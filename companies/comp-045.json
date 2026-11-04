@@ -1,19 +1,18 @@
 {
   "id": "comp-045",
-  "name": "StellarGenetics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-073",
-  "founder_name": "Morrigan Synapse",
-  "headquarters_id": "bldg-106",
-  "headquarters_name": "StellarGenetics Headquarters",
+  "name": "SynapseTechnologies",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-350",
+  "founder_name": "Pixel Lovelace",
+  "headquarters_id": "bldg-146",
+  "headquarters_name": "SynapseTechnologies Headquarters",
   "employees": [
-    "agent-073",
-    "agent-196",
-    "agent-211"
+    "agent-350",
+    "agent-165"
   ],
-  "valuation_tokens": 288483,
+  "valuation_tokens": 723386,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 11
+  "color": "#e11d48",
+  "founded_at_tick": 14
 }

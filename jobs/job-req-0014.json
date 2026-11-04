@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0014",
+  "role": "Cognitive Psychology Researcher",
+  "category": "Education",
+  "specialization": "Autonomous Agent Well-being & Harmony",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Drone Logistics Freight Port",
+  "salary_offered": 14900,
+  "created_at_tick": 14,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-377",
+  "filled_by_agent_name": "Barbara Shannon"
+}

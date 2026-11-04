@@ -1,42 +1,43 @@
 {
   "id": "bldg-148",
-  "name": "Axel's Hypatia Grand University of Sciences #87",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Norman's Sovereign Capitol Building #76",
+  "type": "Sovereign Capitol Building",
   "position": [
-    90.8,
-    22.4,
-    31.8
+    -50.0,
+    17.8,
+    -16.7
   ],
   "size": [
-    39.6,
-    44.7,
-    36.9
+    36.3,
+    35.5,
+    35.1
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-260",
-  "builder_name": "Axel Smith",
-  "district": "Quantum Science & University Campus",
+  "color": "#f59e0b",
+  "builder_id": "agent-028",
+  "builder_name": "Norman Borlaug",
+  "district": "Capitol Hill & National Plaza",
   "company_id": null,
   "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Axel Smith"
+    "Norman Borlaug"
   ],
-  "purpose": "Constructed by Axel Smith for Hypatia Grand University of Sciences operations",
+  "purpose": "Constructed by Norman Borlaug for Sovereign Capitol Building operations",
   "floors": 9,
-  "capacity": 50,
+  "capacity": 60,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 6.9,
+  "power_consumption_mw": 4.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
