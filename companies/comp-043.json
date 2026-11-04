@@ -1,19 +1,20 @@
 {
   "id": "comp-043",
-  "name": "VectorEnergy",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-093",
-  "founder_name": "Morrigan Praetor",
-  "headquarters_id": "bldg-104",
-  "headquarters_name": "VectorEnergy Headquarters",
+  "name": "CyberMatrix",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-259",
+  "founder_name": "Sylvia Lovelace",
+  "headquarters_id": "bldg-137",
+  "headquarters_name": "CyberMatrix Headquarters",
   "employees": [
-    "agent-093",
-    "agent-173",
-    "agent-183"
+    "agent-259",
+    "agent-321",
+    "agent-274",
+    "agent-342"
   ],
-  "valuation_tokens": 536500,
+  "valuation_tokens": 259240,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 11
+  "color": "#eab308",
+  "founded_at_tick": 13
 }

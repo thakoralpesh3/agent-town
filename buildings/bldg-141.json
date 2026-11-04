@@ -1,0 +1,45 @@
+{
+  "id": "bldg-141",
+  "name": "Sundar's Grand Astronomical Observatory #44 [SynapseIntell]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    168.6,
+    17.9,
+    51.4
+  ],
+  "size": [
+    26.6,
+    35.9,
+    24.5
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-181",
+  "builder_name": "Sundar Zenith",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-026",
+  "company_name": "SynapseIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Sundar Zenith"
+  ],
+  "purpose": "Constructed by Sundar Zenith for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 4.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

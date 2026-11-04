@@ -1,0 +1,45 @@
+{
+  "id": "bldg-142",
+  "name": "Dorothy's Supreme Court of Justice #74",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -53.6,
+    15.0,
+    -47.0
+  ],
+  "size": [
+    32.5,
+    30.0,
+    33.5
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-118",
+  "builder_name": "Dorothy Spark",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Spark"
+  ],
+  "purpose": "Constructed by Dorothy Spark for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

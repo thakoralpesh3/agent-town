@@ -1,28 +1,28 @@
 {
   "id": "bldg-139",
-  "name": "Vitalik's Hyperloop Central Terminus #57 [PrismSystems]",
+  "name": "Dante's Hyperloop Central Terminus #72 [SynapseFederation]",
   "type": "Hyperloop Central Terminus",
   "position": [
-    157.7,
-    11.5,
-    -125.6
+    139.5,
+    12.9,
+    -109.0
   ],
   "size": [
-    35.7,
-    22.9,
-    34.0
+    37.9,
+    25.8,
+    31.9
   ],
   "color": "#f97316",
-  "builder_id": "agent-117",
-  "builder_name": "Vitalik Kowalski",
+  "builder_id": "agent-126",
+  "builder_name": "Dante Beacon",
   "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-033",
-  "company_name": "PrismSystems",
+  "company_id": "comp-039",
+  "company_name": "SynapseFederation",
   "completion": 1.0,
   "occupants": [
-    "Vitalik Kowalski"
+    "Dante Beacon"
   ],
-  "purpose": "Constructed by Vitalik Kowalski for Hyperloop Central Terminus operations",
+  "purpose": "Constructed by Dante Beacon for Hyperloop Central Terminus operations",
   "floors": 4,
   "capacity": 45,
   "departments": [
@@ -35,7 +35,7 @@
     "Magnetic Levitation Accelerators",
     "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 6.4,
+  "power_consumption_mw": 4.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

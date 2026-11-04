@@ -1,42 +1,44 @@
 {
   "id": "bldg-133",
-  "name": "Roxas's Solar Fusion Array #87",
-  "type": "Solar Fusion Array",
+  "name": "Ilya's Quantum Logic Foundry #91 [HyperSynthetics]",
+  "type": "Quantum Logic Foundry",
   "position": [
-    128.9,
-    4.2,
-    -114.2
+    167.9,
+    19.2,
+    90.5
   ],
   "size": [
-    20.6,
-    8.4,
-    19.4
+    25.6,
+    38.4,
+    27.3
   ],
-  "color": "#f97316",
-  "builder_id": "agent-024",
-  "builder_name": "Roxas Lamport",
-  "district": "Industrial Sector",
-  "company_id": null,
-  "company_name": null,
+  "color": "#8b5cf6",
+  "builder_id": "agent-069",
+  "builder_name": "Ilya Node",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
   "completion": 1.0,
   "occupants": [
-    "Roxas Lamport"
+    "Ilya Node"
   ],
-  "purpose": "Constructed by Roxas Lamport for Solar Fusion Array operations",
-  "floors": 2,
-  "capacity": 12,
+  "purpose": "Constructed by Ilya Node for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Magnetic Containment Pod",
-    "Grid Dispatch Hub",
-    "Plasma Diagnostics"
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
   ],
   "amenities": [
-    "Superconducting Busbars",
-    "Radiation Dampeners",
-    "Thermal Energy Recycler"
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
   ],
-  "power_consumption_mw": 3.3,
+  "power_consumption_mw": 3.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

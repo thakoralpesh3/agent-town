@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0013",
+  "role": "Wildlife Corridors Manager",
+  "category": "Ecology",
+  "specialization": "Safe Animal Transit Through Metropolises",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cyber Living Township Beta",
+  "salary_offered": 13900,
+  "created_at_tick": 13,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-371",
+  "filled_by_agent_name": "Cassian Knuth"
+}

@@ -1,42 +1,45 @@
 {
   "id": "bldg-130",
-  "name": "Chronos's Cyber Cafe #17 [SolarFusion Prime]",
-  "type": "Cyber Cafe",
+  "name": "Vint's Supreme Court of Justice #13 [SolarFusion Grid]",
+  "type": "Supreme Court of Justice",
   "position": [
-    -66.5,
-    8.3,
-    -60.8
+    44.2,
+    15.0,
+    -52.8
   ],
   "size": [
-    15.6,
-    16.6,
-    18.9
+    30.1,
+    30.0,
+    29.4
   ],
-  "color": "#eab308",
-  "builder_id": "agent-386",
-  "builder_name": "Chronos Wozniak",
-  "district": "Cyber Commons",
-  "company_id": "comp-004",
-  "company_name": "SolarFusion Prime",
+  "color": "#d97706",
+  "builder_id": "agent-083",
+  "builder_name": "Vint Nakamoto",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Chronos Wozniak"
+    "Vint Nakamoto"
   ],
-  "purpose": "Constructed by Chronos Wozniak for Cyber Cafe operations",
-  "floors": 2,
-  "capacity": 22,
+  "purpose": "Constructed by Vint Nakamoto for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Quantum Barista Bar",
-    "Open Hackathon Lounge",
-    "Civic Forum"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "High-Bandwidth Wi-Fi",
-    "Nutrient Synthesizers",
-    "Acoustic Privacy Pods"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 2.6,
+  "power_consumption_mw": 8.2,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
-  "maintenance_status": "Optimal"
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
 }

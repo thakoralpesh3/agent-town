@@ -1,19 +1,20 @@
 {
   "id": "comp-041",
-  "name": "AeroIntell",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-286",
-  "founder_name": "Martin Fletcher",
-  "headquarters_id": "bldg-102",
-  "headquarters_name": "AeroIntell Headquarters",
+  "name": "OmniSolutions",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-299",
+  "founder_name": "Thorne Node",
+  "headquarters_id": "bldg-132",
+  "headquarters_name": "OmniSolutions Headquarters",
   "employees": [
-    "agent-286",
-    "agent-068",
-    "agent-222"
+    "agent-299",
+    "agent-227",
+    "agent-292",
+    "agent-075"
   ],
-  "valuation_tokens": 581663,
+  "valuation_tokens": 436069,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 11
+  "color": "#10b981",
+  "founded_at_tick": 12
 }

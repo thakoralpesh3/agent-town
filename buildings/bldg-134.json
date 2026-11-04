@@ -1,40 +1,41 @@
 {
   "id": "bldg-134",
-  "name": "Dante's Drone Logistics Freight Port #44 [SolarFusion Grid]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Ryan's Tower of Turing (City Mainframe) #50",
+  "type": "Tower of Turing (City Mainframe)",
   "position": [
-    142.0,
-    18.4,
-    -61.4
+    72.8,
+    36.1,
+    120.5
   ],
   "size": [
-    31.2,
-    36.9,
-    25.3
+    28.5,
+    72.2,
+    24.4
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-313",
-  "builder_name": "Dante Kahn",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-007",
-  "company_name": "SolarFusion Grid",
+  "color": "#00f0ff",
+  "builder_id": "agent-303",
+  "builder_name": "Ryan Li",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Dante Kahn"
+    "Ryan Li"
   ],
-  "purpose": "Constructed by Dante Kahn for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Ryan Li for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
   ],
-  "power_consumption_mw": 3.0,
+  "power_consumption_mw": 3.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

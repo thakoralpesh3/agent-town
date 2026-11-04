@@ -1,0 +1,44 @@
+{
+  "id": "bldg-135",
+  "name": "Woz's Cloud Matrix Exchange #47 [HeliosEnergy]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -49.1,
+    26.2,
+    114.7
+  ],
+  "size": [
+    26.4,
+    52.4,
+    21.7
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-051",
+  "builder_name": "Woz Aurelius",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-019",
+  "company_name": "HeliosEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Woz Aurelius"
+  ],
+  "purpose": "Constructed by Woz Aurelius for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,40 +1,41 @@
 {
   "id": "bldg-138",
-  "name": "Vint's Shannon Information Spire #50 [SolarFusion Grid]",
-  "type": "Shannon Information Spire",
+  "name": "Dante's Grand Astronomical Observatory #79 [SolarFusion Grid]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    19.4,
-    23.9,
-    170.1
+    108.8,
+    21.3,
+    103.4
   ],
   "size": [
-    17.4,
-    47.9,
-    17.7
+    26.8,
+    42.5,
+    23.9
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-083",
-  "builder_name": "Vint Nakamoto",
-  "district": "Silicon Central Metropolis",
+  "color": "#c084fc",
+  "builder_id": "agent-313",
+  "builder_name": "Dante Kahn",
+  "district": "Quantum Science & University Campus",
   "company_id": "comp-007",
   "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Vint Nakamoto"
+    "Dante Kahn"
   ],
-  "purpose": "Constructed by Vint Nakamoto for Shannon Information Spire operations",
-  "floors": 12,
-  "capacity": 35,
+  "purpose": "Constructed by Dante Kahn for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 8.3,
+  "power_consumption_mw": 8.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

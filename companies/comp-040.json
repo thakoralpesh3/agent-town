@@ -1,19 +1,19 @@
 {
   "id": "comp-040",
-  "name": "CyberSystems",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-296",
-  "founder_name": "Ada Cartographer",
-  "headquarters_id": "bldg-100",
-  "headquarters_name": "CyberSystems Headquarters",
+  "name": "NeuroMatrix",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-233",
+  "founder_name": "Chronos Kowalski",
+  "headquarters_id": "bldg-129",
+  "headquarters_name": "NeuroMatrix Headquarters",
   "employees": [
-    "agent-296",
-    "agent-155",
-    "agent-034"
+    "agent-233",
+    "agent-280",
+    "agent-010"
   ],
-  "valuation_tokens": 329939,
+  "valuation_tokens": 543894,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 11
+  "color": "#e11d48",
+  "founded_at_tick": 12
 }
