@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0017",
+  "role": "Perovskite Solar Canopy Architect",
+  "category": "Energy",
+  "specialization": "Multi-Junction High-Efficiency Canopies",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cyber Living Eco-Residences Epsilon",
+  "salary_offered": 15000,
+  "created_at_tick": 17,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-384",
+  "filled_by_agent_name": "Satoshi Meridian"
+}

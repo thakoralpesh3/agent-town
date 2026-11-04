@@ -1,41 +1,42 @@
 {
   "id": "bldg-171",
-  "name": "Hal's Cyber Living Township Beta #29",
-  "type": "Cyber Living Township Beta",
+  "name": "Aria's Hypatia Grand University of Sciences #75 [Sovereign Chancellery Core]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -72.0,
-    18.3,
-    -34.2
+    165.7,
+    20.8,
+    21.3
   ],
   "size": [
-    27.0,
-    36.7,
-    28.0
+    33.3,
+    41.6,
+    32.5
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-177",
-  "builder_name": "Hal Hickey",
-  "district": "Cyber Living Townships",
-  "company_id": null,
-  "company_name": null,
+  "color": "#a855f7",
+  "builder_id": "agent-080",
+  "builder_name": "Aria Stroustrup",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Hal Hickey"
+    "Aria Stroustrup"
   ],
-  "purpose": "Constructed by Hal Hickey for Cyber Living Township Beta operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Aria Stroustrup for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "Residential Living",
-    "Private Study Modules",
-    "Biometric Circadian Suites"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Living Mycelium Soil Mesh",
-    "Acoustic Noise Cloak",
-    "Community Dining Hall"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 8.3,
+  "power_consumption_mw": 7.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

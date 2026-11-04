@@ -1,0 +1,44 @@
+{
+  "id": "bldg-160",
+  "name": "Corin's Quantum Logic Foundry #77 [BioLongevity Solutions]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    82.5,
+    13.8,
+    76.5
+  ],
+  "size": [
+    25.9,
+    27.7,
+    30.2
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-050",
+  "builder_name": "Corin Chomsky",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Corin Chomsky"
+  ],
+  "purpose": "Constructed by Corin Chomsky for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

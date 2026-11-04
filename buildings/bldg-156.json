@@ -1,40 +1,42 @@
 {
   "id": "bldg-156",
-  "name": "Ryan's Drone Logistics Freight Port #64 [StellarFoundry]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Darian's National Hospital & Nanomedical Citadel #75 [SynapseIntell]",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    167.2,
-    17.8,
-    -153.1
+    -167.2,
+    24.5,
+    32.3
   ],
   "size": [
-    28.1,
-    35.6,
-    27.0
+    35.5,
+    49.1,
+    29.7
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-303",
-  "builder_name": "Ryan Li",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-061",
-  "company_name": "StellarFoundry",
+  "color": "#ef4444",
+  "builder_id": "agent-084",
+  "builder_name": "Darian Archon",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-026",
+  "company_name": "SynapseIntell",
   "completion": 1.0,
   "occupants": [
-    "Ryan Li"
+    "Darian Archon"
   ],
-  "purpose": "Constructed by Ryan Li for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Darian Archon for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
   ],
-  "power_consumption_mw": 7.2,
+  "power_consumption_mw": 3.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

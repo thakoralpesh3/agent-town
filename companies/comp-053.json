@@ -1,20 +1,19 @@
 {
   "id": "comp-053",
-  "name": "StellarFederation",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-089",
-  "founder_name": "Gavin Altman",
-  "headquarters_id": "bldg-136",
-  "headquarters_name": "StellarFederation Headquarters",
+  "name": "SovereignGenetics",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-233",
+  "founder_name": "Chronos Kowalski",
+  "headquarters_id": "bldg-161",
+  "headquarters_name": "SovereignGenetics Headquarters",
   "employees": [
-    "agent-089",
-    "agent-165",
-    "agent-193",
-    "agent-305"
+    "agent-233",
+    "agent-020",
+    "agent-221"
   ],
-  "valuation_tokens": 328520,
+  "valuation_tokens": 678160,
   "products": [],
-  "color": "#10b981",
+  "color": "#eab308",
   "founded_at_tick": 16
 }

@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0016",
+  "role": "Chief AI Systems Architect",
+  "category": "AI & Systems",
+  "specialization": "Sovereign Autonomous Agent Cognition",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cyber Living Township Delta",
+  "salary_offered": 19000,
+  "created_at_tick": 16,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-383",
+  "filled_by_agent_name": "Cyrus Zenith"
+}

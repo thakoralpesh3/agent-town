@@ -1,0 +1,44 @@
+{
+  "id": "bldg-165",
+  "name": "Orville's Biosphere Atmospheric Scrubber #69",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    12.1,
+    17.3,
+    -155.1
+  ],
+  "size": [
+    19.6,
+    34.5,
+    22.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-033",
+  "builder_name": "Orville Wright",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Orville Wright"
+  ],
+  "purpose": "Constructed by Orville Wright for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 8.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,38 +1,38 @@
 {
   "id": "bldg-159",
-  "name": "Zephyr's Biosphere Atmospheric Scrubber #35",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Alan's Shannon Information Spire #29 [Sovereign Chancellery Core]",
+  "type": "Shannon Information Spire",
   "position": [
-    44.5,
-    14.6,
-    -191.0
+    66.3,
+    19.8,
+    102.0
   ],
   "size": [
-    19.6,
-    29.2,
-    20.0
+    20.6,
+    39.6,
+    20.4
   ],
-  "color": "#10b981",
-  "builder_id": "agent-223",
-  "builder_name": "Zephyr Cartographer",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": null,
-  "company_name": null,
+  "color": "#0284c7",
+  "builder_id": "agent-152",
+  "builder_name": "Alan Dijkstra",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Zephyr Cartographer"
+    "Alan Dijkstra"
   ],
-  "purpose": "Constructed by Zephyr Cartographer for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Alan Dijkstra for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
   "power_consumption_mw": 7.5,
   "active_projects": [],

@@ -1,40 +1,40 @@
 {
   "id": "bldg-162",
-  "name": "Vitalik's Biosphere Atmospheric Scrubber #26 [PrismSystems]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Cyrus's Quantum Logic Foundry #86 [PrismIntell]",
+  "type": "Quantum Logic Foundry",
   "position": [
-    -21.2,
-    10.4,
-    -77.8
+    94.3,
+    16.0,
+    24.4
   ],
   "size": [
-    22.5,
-    20.9,
-    21.4
+    30.6,
+    32.0,
+    29.1
   ],
-  "color": "#10b981",
-  "builder_id": "agent-117",
-  "builder_name": "Vitalik Kowalski",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-033",
-  "company_name": "PrismSystems",
+  "color": "#8b5cf6",
+  "builder_id": "agent-035",
+  "builder_name": "Cyrus Dijkstra",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-023",
+  "company_name": "PrismIntell",
   "completion": 1.0,
   "occupants": [
-    "Vitalik Kowalski"
+    "Cyrus Dijkstra"
   ],
-  "purpose": "Constructed by Vitalik Kowalski for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Cyrus Dijkstra for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
   ],
-  "power_consumption_mw": 5.9,
+  "power_consumption_mw": 2.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

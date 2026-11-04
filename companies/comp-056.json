@@ -1,18 +1,20 @@
 {
   "id": "comp-056",
-  "name": "PrismGenetics",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-027",
-  "founder_name": "Carl Sagan",
-  "headquarters_id": "bldg-142",
-  "headquarters_name": "PrismGenetics Headquarters",
+  "name": "DeepVentures",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-094",
+  "founder_name": "Radia Odersky",
+  "headquarters_id": "bldg-168",
+  "headquarters_name": "DeepVentures Headquarters",
   "employees": [
-    "agent-027",
-    "agent-124"
+    "agent-094",
+    "agent-310",
+    "agent-079",
+    "agent-357"
   ],
-  "valuation_tokens": 662242,
+  "valuation_tokens": 593394,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 16
+  "color": "#e11d48",
+  "founded_at_tick": 17
 }

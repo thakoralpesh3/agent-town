@@ -1,18 +1,20 @@
 {
   "id": "comp-058",
-  "name": "NeuroLabs",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-169",
-  "founder_name": "Vitalik Sutskever",
-  "headquarters_id": "bldg-144",
-  "headquarters_name": "NeuroLabs Headquarters",
+  "name": "BioIntell",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-318",
+  "founder_name": "Echo Jackson",
+  "headquarters_id": "bldg-175",
+  "headquarters_name": "BioIntell Headquarters",
   "employees": [
-    "agent-169",
-    "agent-357"
+    "agent-318",
+    "agent-316",
+    "agent-030",
+    "agent-033"
   ],
-  "valuation_tokens": 303872,
+  "valuation_tokens": 548296,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 16
+  "color": "#ef4444",
+  "founded_at_tick": 17
 }

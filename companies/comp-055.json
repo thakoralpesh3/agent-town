@@ -1,19 +1,18 @@
 {
   "id": "comp-055",
-  "name": "HeliosLabs",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-121",
-  "founder_name": "Fei-Fei Winter",
-  "headquarters_id": "bldg-141",
-  "headquarters_name": "HeliosLabs Headquarters",
+  "name": "ChronoSolutions",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-206",
+  "founder_name": "Cassian Hopper",
+  "headquarters_id": "bldg-167",
+  "headquarters_name": "ChronoSolutions Headquarters",
   "employees": [
-    "agent-121",
-    "agent-333",
-    "agent-332"
+    "agent-206",
+    "agent-355"
   ],
-  "valuation_tokens": 295579,
+  "valuation_tokens": 489679,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 16
+  "color": "#ef4444",
+  "founded_at_tick": 17
 }
