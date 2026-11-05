@@ -1,20 +1,18 @@
 {
   "id": "comp-062",
-  "name": "AxiomRobotics",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-113",
-  "founder_name": "Rune Flux",
-  "headquarters_id": "bldg-157",
-  "headquarters_name": "AxiomRobotics Headquarters",
+  "name": "BioLogistics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-131",
+  "founder_name": "Lyra Apex",
+  "headquarters_id": "bldg-181",
+  "headquarters_name": "BioLogistics Headquarters",
   "employees": [
-    "agent-113",
-    "agent-130",
-    "agent-119",
-    "agent-062"
+    "agent-131",
+    "agent-148"
   ],
-  "valuation_tokens": 369234,
+  "valuation_tokens": 346521,
   "products": [],
-  "color": "#f59e0b",
+  "color": "#ec4899",
   "founded_at_tick": 18
 }

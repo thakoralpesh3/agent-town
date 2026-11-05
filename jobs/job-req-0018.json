@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0018",
+  "role": "Citizen Social Counselor",
+  "category": "Hospitality",
+  "specialization": "Agent Mental Harmony & Burnout Prevention",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Sovereign Sky Apartments Zeta",
+  "salary_offered": 14500,
+  "created_at_tick": 18,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-388",
+  "filled_by_agent_name": "Diana Pichai"
+}

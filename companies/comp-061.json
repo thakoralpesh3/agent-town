@@ -1,18 +1,20 @@
 {
   "id": "comp-061",
-  "name": "StellarFoundry",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-125",
-  "founder_name": "Ada Dahl",
-  "headquarters_id": "bldg-154",
-  "headquarters_name": "StellarFoundry Headquarters",
+  "name": "NeuroMatrix AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-095",
+  "founder_name": "Stellan Vaughan",
+  "headquarters_id": "bldg-179",
+  "headquarters_name": "NeuroMatrix AI Headquarters",
   "employees": [
-    "agent-125",
-    "agent-303"
+    "agent-095",
+    "agent-230",
+    "agent-367",
+    "agent-339"
   ],
-  "valuation_tokens": 602010,
+  "valuation_tokens": 172372,
   "products": [],
-  "color": "#10b981",
+  "color": "#f59e0b",
   "founded_at_tick": 18
 }

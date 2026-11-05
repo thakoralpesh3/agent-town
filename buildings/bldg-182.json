@@ -1,0 +1,46 @@
+{
+  "id": "bldg-182",
+  "name": "Mary's Hypatia Grand University of Sciences #14",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    78.8,
+    17.0,
+    40.2
+  ],
+  "size": [
+    37.7,
+    34.0,
+    39.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-373",
+  "builder_name": "Mary Aurelius",
+  "district": "Quantum Science & University Campus",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Mary Aurelius"
+  ],
+  "purpose": "Constructed by Mary Aurelius for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

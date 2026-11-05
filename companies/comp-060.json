@@ -1,19 +1,18 @@
 {
   "id": "comp-060",
-  "name": "SolarMatrix",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-069",
-  "founder_name": "Ilya Node",
-  "headquarters_id": "bldg-153",
-  "headquarters_name": "SolarMatrix Headquarters",
+  "name": "SovereignLabs",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-044",
+  "founder_name": "Barbara van Rossum",
+  "headquarters_id": "bldg-178",
+  "headquarters_name": "SovereignLabs Headquarters",
   "employees": [
-    "agent-069",
-    "agent-360",
-    "agent-205"
+    "agent-044",
+    "agent-121"
   ],
-  "valuation_tokens": 173944,
+  "valuation_tokens": 200061,
   "products": [],
-  "color": "#10b981",
+  "color": "#ec4899",
   "founded_at_tick": 18
 }

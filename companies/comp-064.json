@@ -1,20 +1,20 @@
 {
   "id": "comp-064",
-  "name": "OmniNetworks",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-249",
-  "founder_name": "Selene Weaver",
-  "headquarters_id": "bldg-165",
-  "headquarters_name": "OmniNetworks Headquarters",
+  "name": "OmniGenetics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-332",
+  "founder_name": "Ada Tinkerer",
+  "headquarters_id": "bldg-191",
+  "headquarters_name": "OmniGenetics AI Headquarters",
   "employees": [
-    "agent-249",
-    "agent-192",
-    "agent-243",
-    "agent-047"
+    "agent-332",
+    "agent-309",
+    "agent-067",
+    "agent-097"
   ],
-  "valuation_tokens": 341234,
+  "valuation_tokens": 341481,
   "products": [],
-  "color": "#eab308",
+  "color": "#ec4899",
   "founded_at_tick": 19
 }

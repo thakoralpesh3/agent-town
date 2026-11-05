@@ -1,18 +1,19 @@
 {
   "id": "comp-065",
-  "name": "SovereignTechnologies AI",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-360",
-  "founder_name": "Nick Helix",
-  "headquarters_id": "bldg-176",
-  "headquarters_name": "SovereignTechnologies AI Headquarters",
+  "name": "StellarIntell",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-267",
+  "founder_name": "Alan Murati",
+  "headquarters_id": "bldg-194",
+  "headquarters_name": "StellarIntell Headquarters",
   "employees": [
-    "agent-360",
-    "agent-388"
+    "agent-267",
+    "agent-128",
+    "agent-312"
   ],
-  "valuation_tokens": 431372,
+  "valuation_tokens": 678859,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 20
+  "color": "#8b5cf6",
+  "founded_at_tick": 19
 }

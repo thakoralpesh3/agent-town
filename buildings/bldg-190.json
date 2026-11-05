@@ -1,41 +1,41 @@
 {
   "id": "bldg-190",
-  "name": "Barbara's Autonomous Vehicle Mega-Plant #80 [CyberMatrix]",
-  "type": "Autonomous Vehicle Mega-Plant",
+  "name": "Dante's Grand Astronomical Observatory #89 [SolarFusion Grid]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    120.7,
-    11.0,
-    -67.4
+    78.9,
+    19.9,
+    99.0
   ],
   "size": [
-    35.1,
-    22.0,
-    33.4
+    28.5,
+    39.8,
+    27.4
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-114",
-  "builder_name": "Barbara Mercer",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-057",
-  "company_name": "CyberMatrix",
+  "color": "#c084fc",
+  "builder_id": "agent-313",
+  "builder_name": "Dante Kahn",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Barbara Mercer"
+    "Dante Kahn"
   ],
-  "purpose": "Constructed by Barbara Mercer for Autonomous Vehicle Mega-Plant operations",
-  "floors": 5,
-  "capacity": 40,
+  "purpose": "Constructed by Dante Kahn for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
   "departments": [
-    "Robotic Chassis Stamping",
-    "Avionics Calibration",
-    "Induction Drive Assembly"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Automated Gantry Cranes",
-    "High-Speed Induction Dyno Track",
-    "Paint Spray Booths"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 7.9,
+  "power_consumption_mw": 5.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

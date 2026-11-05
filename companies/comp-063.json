@@ -1,17 +1,18 @@
 {
   "id": "comp-063",
-  "name": "ApexDynamics",
+  "name": "BioMatrix",
   "sector": "Nanomedicine & Longevity Biotech",
   "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-031",
-  "founder_name": "Gregor Mendel",
-  "headquarters_id": "bldg-160",
-  "headquarters_name": "ApexDynamics Headquarters",
+  "founder_id": "agent-116",
+  "founder_name": "Lyra Vaughan",
+  "headquarters_id": "bldg-185",
+  "headquarters_name": "BioMatrix Headquarters",
   "employees": [
-    "agent-031",
-    "agent-097"
+    "agent-116",
+    "agent-308",
+    "agent-346"
   ],
-  "valuation_tokens": 296622,
+  "valuation_tokens": 494423,
   "products": [],
   "color": "#ef4444",
   "founded_at_tick": 18

@@ -1,41 +1,41 @@
 {
   "id": "bldg-195",
-  "name": "Felix's Supreme Court of Justice #89 [StellarFederation]",
-  "type": "Supreme Court of Justice",
+  "name": "Linus's Autonomous Vehicle Mega-Plant #95 [Sovereign Chancellery Core]",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    50.8,
-    20.4,
-    42.5
+    99.5,
+    14.0,
+    -167.9
   ],
   "size": [
-    29.1,
-    40.8,
-    29.0
+    30.0,
+    27.9,
+    29.8
   ],
-  "color": "#d97706",
-  "builder_id": "agent-305",
-  "builder_name": "Felix Praetor",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-053",
-  "company_name": "StellarFederation",
+  "color": "#f59e0b",
+  "builder_id": "agent-132",
+  "builder_name": "Linus Jobs",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Felix Praetor"
+    "Linus Jobs"
   ],
-  "purpose": "Constructed by Felix Praetor for Supreme Court of Justice operations",
-  "floors": 6,
-  "capacity": 35,
+  "purpose": "Constructed by Linus Jobs for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
   "departments": [
-    "High Constitutional Tribunal",
-    "Smart Contract Arbitration Bench",
-    "Appeals Chamber"
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
   ],
   "amenities": [
-    "Formal Verification Prover",
-    "Holographic Evidence Display",
-    "Juror Isolation Chambers"
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
   ],
-  "power_consumption_mw": 8.0,
+  "power_consumption_mw": 5.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

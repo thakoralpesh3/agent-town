@@ -1,41 +1,41 @@
 {
   "id": "bldg-186",
-  "name": "Dennis's Hydroponic Agricultural Biodome #34 [QuantumMatrix Systems]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Leander's Cyber Living Township Alpha #18",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    -15.4,
-    11.8,
-    -130.5
+    -50.8,
+    18.7,
+    -142.7
   ],
   "size": [
-    29.8,
-    23.7,
-    31.2
+    29.0,
+    37.3,
+    29.3
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-039",
-  "builder_name": "Dennis Vaughan",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-004",
-  "company_name": "QuantumMatrix Systems",
+  "color": "#22c55e",
+  "builder_id": "agent-200",
+  "builder_name": "Leander Core",
+  "district": "Cyber Living Townships",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Dennis Vaughan"
+    "Leander Core"
   ],
-  "purpose": "Constructed by Dennis Vaughan for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Leander Core for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 7.8,
+  "power_consumption_mw": 6.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,19 +1,19 @@
 {
   "id": "comp-059",
-  "name": "VectorFederation",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-267",
-  "founder_name": "Alan Murati",
-  "headquarters_id": "bldg-146",
-  "headquarters_name": "VectorFederation Headquarters",
+  "name": "AeroNetworks",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-194",
+  "founder_name": "Valeria Quantum",
+  "headquarters_id": "bldg-177",
+  "headquarters_name": "AeroNetworks Headquarters",
   "employees": [
-    "agent-267",
-    "agent-028",
-    "agent-345"
+    "agent-194",
+    "agent-031",
+    "agent-320"
   ],
-  "valuation_tokens": 301505,
+  "valuation_tokens": 252902,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 17
+  "color": "#e11d48",
+  "founded_at_tick": 18
 }
