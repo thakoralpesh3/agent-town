@@ -1,42 +1,41 @@
 {
   "id": "bldg-224",
-  "name": "Greg's National Hospital & Nanomedical Citadel #81 [BioLongevity Solutions]",
-  "type": "National Hospital & Nanomedical Citadel",
+  "name": "Sam's Cyber Living Township Alpha #79 [HeliosRobotics]",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    -74.5,
-    16.3,
-    81.2
+    -26.7,
+    16.2,
+    -69.5
   ],
   "size": [
-    31.7,
-    32.5,
-    37.4
+    27.0,
+    32.3,
+    29.7
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-379",
-  "builder_name": "Greg Finney",
-  "district": "Health Citadel & Medical Complex",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "color": "#22c55e",
+  "builder_id": "agent-150",
+  "builder_name": "Sam Weaver",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-037",
+  "company_name": "HeliosRobotics",
   "completion": 1.0,
   "occupants": [
-    "Greg Finney"
+    "Sam Weaver"
   ],
-  "purpose": "Constructed by Greg Finney for National Hospital & Nanomedical Citadel operations",
-  "floors": 10,
-  "capacity": 55,
+  "purpose": "Constructed by Sam Weaver for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Emergency Trauma & Triage",
-    "Nanotech Robotic Surgery",
-    "Cellular Regeneration",
-    "Epidemic Control"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Rooftop VTOL Helipads",
-    "Cryogenic Stasis Chambers",
-    "Sterile Nanotech Cleanrooms"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 6.0,
+  "power_consumption_mw": 6.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

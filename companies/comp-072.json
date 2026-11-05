@@ -1,18 +1,19 @@
 {
   "id": "comp-072",
-  "name": "QuantumLabs",
+  "name": "CyberTechnologies",
   "sector": "Quantum Computing & Cryptography",
   "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-276",
-  "founder_name": "Pixel Lamport",
-  "headquarters_id": "bldg-202",
-  "headquarters_name": "QuantumLabs Headquarters",
+  "founder_id": "agent-316",
+  "founder_name": "Talia Li",
+  "headquarters_id": "bldg-221",
+  "headquarters_name": "CyberTechnologies Headquarters",
   "employees": [
-    "agent-276",
-    "agent-318"
+    "agent-316",
+    "agent-036",
+    "agent-353"
   ],
-  "valuation_tokens": 715082,
+  "valuation_tokens": 373672,
   "products": [],
   "color": "#8b5cf6",
-  "founded_at_tick": 22
+  "founded_at_tick": 23
 }

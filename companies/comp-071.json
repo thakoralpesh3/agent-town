@@ -1,18 +1,19 @@
 {
   "id": "comp-071",
-  "name": "OmniRobotics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-306",
-  "founder_name": "Diana Beacon",
-  "headquarters_id": "bldg-199",
-  "headquarters_name": "OmniRobotics Headquarters",
+  "name": "OmniDynamics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-113",
+  "founder_name": "Rune Flux",
+  "headquarters_id": "bldg-218",
+  "headquarters_name": "OmniDynamics Headquarters",
   "employees": [
-    "agent-306",
-    "agent-347"
+    "agent-113",
+    "agent-359",
+    "agent-364"
   ],
-  "valuation_tokens": 608126,
+  "valuation_tokens": 221124,
   "products": [],
-  "color": "#8b5cf6",
+  "color": "#10b981",
   "founded_at_tick": 22
 }

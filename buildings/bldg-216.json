@@ -1,40 +1,41 @@
 {
   "id": "bldg-216",
-  "name": "Katherine's Quantum Logic Foundry #78 [ApexMatrix]",
-  "type": "Quantum Logic Foundry",
+  "name": "Valen's Supreme Court of Justice #88 [NeuroDynamics AI]",
+  "type": "Supreme Court of Justice",
   "position": [
-    143.6,
-    12.9,
-    10.4
+    56.9,
+    12.1,
+    60.3
   ],
   "size": [
-    28.4,
-    25.8,
-    23.5
+    26.4,
+    24.3,
+    30.0
   ],
-  "color": "#8b5cf6",
-  "builder_id": "agent-321",
-  "builder_name": "Katherine Core",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-038",
-  "company_name": "ApexMatrix",
+  "color": "#d97706",
+  "builder_id": "agent-214",
+  "builder_name": "Valen Rayne",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
   "completion": 1.0,
   "occupants": [
-    "Katherine Core"
+    "Valen Rayne"
   ],
-  "purpose": "Constructed by Katherine Core for Quantum Logic Foundry operations",
+  "purpose": "Constructed by Valen Rayne for Supreme Court of Justice operations",
   "floors": 6,
-  "capacity": 30,
+  "capacity": 35,
   "departments": [
-    "Topological Qubit Design",
-    "Lattice Cryptography",
-    "Quantum Error Correction"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Milli-Kelvin Dilution Refrigerators",
-    "Superconducting Shielded Vault"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 5.4,
+  "power_consumption_mw": 6.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

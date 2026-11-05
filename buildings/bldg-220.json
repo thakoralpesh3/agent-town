@@ -1,41 +1,41 @@
 {
   "id": "bldg-220",
-  "name": "Andrej's The Agora Civic Forum #27 [OpenKernel Federation]",
-  "type": "The Agora Civic Forum",
+  "name": "Radia's Supreme Court of Justice #84 [CyberGenetics AI]",
+  "type": "Supreme Court of Justice",
   "position": [
-    -162.4,
-    10.9,
-    -150.7
+    -46.0,
+    18.8,
+    -58.3
   ],
   "size": [
-    27.0,
-    21.9,
-    26.4
+    25.9,
+    37.7,
+    32.0
   ],
-  "color": "#eab308",
-  "builder_id": "agent-302",
-  "builder_name": "Andrej Sutskever",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-002",
-  "company_name": "OpenKernel Federation",
+  "color": "#d97706",
+  "builder_id": "agent-297",
+  "builder_name": "Radia Torvalds",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-054",
+  "company_name": "CyberGenetics AI",
   "completion": 1.0,
   "occupants": [
-    "Andrej Sutskever"
+    "Radia Torvalds"
   ],
-  "purpose": "Constructed by Andrej Sutskever for The Agora Civic Forum operations",
-  "floors": 4,
-  "capacity": 50,
+  "purpose": "Constructed by Radia Torvalds for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 6.6,
+  "power_consumption_mw": 5.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

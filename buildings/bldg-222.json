@@ -1,41 +1,40 @@
 {
   "id": "bldg-222",
-  "name": "Astrid's Grand Astronomical Observatory #30 [SolarFusion Grid]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Alan's Cloud Matrix Exchange #57 [Sovereign Chancellery Core]",
+  "type": "Cloud Matrix Exchange",
   "position": [
-    172.1,
-    16.4,
-    7.2
+    -35.6,
+    25.4,
+    75.9
   ],
   "size": [
-    25.3,
-    32.8,
-    24.1
+    24.0,
+    50.7,
+    21.2
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-218",
-  "builder_name": "Astrid Liskov",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-007",
-  "company_name": "SolarFusion Grid",
+  "color": "#38bdf8",
+  "builder_id": "agent-152",
+  "builder_name": "Alan Dijkstra",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Astrid Liskov"
+    "Alan Dijkstra"
   ],
-  "purpose": "Constructed by Astrid Liskov for Grand Astronomical Observatory operations",
-  "floors": 6,
-  "capacity": 25,
+  "purpose": "Constructed by Alan Dijkstra for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
   ],
-  "power_consumption_mw": 7.9,
+  "power_consumption_mw": 7.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
