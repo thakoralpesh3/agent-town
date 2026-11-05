@@ -1,0 +1,45 @@
+{
+  "id": "bldg-202",
+  "name": "Bob's National Archives & Git Ledger #97",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    -50.1,
+    17.3,
+    2.9
+  ],
+  "size": [
+    25.1,
+    34.6,
+    25.6
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-387",
+  "builder_name": "Bob Murati",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Bob Murati"
+  ],
+  "purpose": "Constructed by Bob Murati for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,40 +1,41 @@
 {
   "id": "bldg-204",
-  "name": "Claude's Biosphere Atmospheric Scrubber #78 [QuantumSynthetics AI]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Veda's Supreme Court of Justice #19 [OpenKernel Federation]",
+  "type": "Supreme Court of Justice",
   "position": [
-    5.4,
-    14.1,
-    -120.9
+    -10.7,
+    12.5,
+    44.6
   ],
   "size": [
-    20.2,
-    28.1,
-    19.1
+    26.6,
+    24.9,
+    32.0
   ],
-  "color": "#10b981",
-  "builder_id": "agent-007",
-  "builder_name": "Claude Shannon",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-037",
-  "company_name": "QuantumSynthetics AI",
+  "color": "#d97706",
+  "builder_id": "agent-271",
+  "builder_name": "Veda LeCun",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
   "completion": 1.0,
   "occupants": [
-    "Claude Shannon"
+    "Veda LeCun"
   ],
-  "purpose": "Constructed by Claude Shannon for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Veda LeCun for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 8.0,
+  "power_consumption_mw": 6.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

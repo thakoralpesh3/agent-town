@@ -1,19 +1,18 @@
 {
   "id": "comp-068",
-  "name": "CyberDynamics",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-038",
-  "founder_name": "Lyra Orbit",
-  "headquarters_id": "bldg-189",
-  "headquarters_name": "CyberDynamics Headquarters",
+  "name": "AxiomGenetics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-013",
+  "founder_name": "Katherine Johnson",
+  "headquarters_id": "bldg-209",
+  "headquarters_name": "AxiomGenetics Headquarters",
   "employees": [
-    "agent-038",
-    "agent-156",
-    "agent-358"
+    "agent-013",
+    "agent-138"
   ],
-  "valuation_tokens": 481947,
+  "valuation_tokens": 595026,
   "products": [],
-  "color": "#eab308",
+  "color": "#8b5cf6",
   "founded_at_tick": 21
 }

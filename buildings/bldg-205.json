@@ -1,0 +1,45 @@
+{
+  "id": "bldg-205",
+  "name": "Sora's Autonomous Vehicle Mega-Plant #76 [AeroCyber Mobility]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    68.0,
+    9.9,
+    -91.3
+  ],
+  "size": [
+    33.4,
+    19.9,
+    32.2
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-345",
+  "builder_name": "Sora Quantum",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Sora Quantum"
+  ],
+  "purpose": "Constructed by Sora Quantum for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 4.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

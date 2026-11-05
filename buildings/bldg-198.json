@@ -1,41 +1,40 @@
 {
   "id": "bldg-198",
-  "name": "Nick's Supreme Court of Justice #57 [OmniVentures]",
-  "type": "Supreme Court of Justice",
+  "name": "Linus's Quantum Logic Foundry #29 [HeliosSynthetics]",
+  "type": "Quantum Logic Foundry",
   "position": [
-    -58.5,
-    20.7,
-    -18.0
+    155.4,
+    16.2,
+    10.0
   ],
   "size": [
-    31.9,
-    41.4,
-    31.3
+    24.1,
+    32.5,
+    27.7
   ],
-  "color": "#d97706",
-  "builder_id": "agent-283",
-  "builder_name": "Nick Brockman",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-047",
-  "company_name": "OmniVentures",
+  "color": "#8b5cf6",
+  "builder_id": "agent-156",
+  "builder_name": "Linus Odersky",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-052",
+  "company_name": "HeliosSynthetics",
   "completion": 1.0,
   "occupants": [
-    "Nick Brockman"
+    "Linus Odersky"
   ],
-  "purpose": "Constructed by Nick Brockman for Supreme Court of Justice operations",
+  "purpose": "Constructed by Linus Odersky for Quantum Logic Foundry operations",
   "floors": 6,
-  "capacity": 35,
+  "capacity": 30,
   "departments": [
-    "High Constitutional Tribunal",
-    "Smart Contract Arbitration Bench",
-    "Appeals Chamber"
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
   ],
   "amenities": [
-    "Formal Verification Prover",
-    "Holographic Evidence Display",
-    "Juror Isolation Chambers"
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
   ],
-  "power_consumption_mw": 7.1,
+  "power_consumption_mw": 7.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

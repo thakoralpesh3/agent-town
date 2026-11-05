@@ -1,18 +1,19 @@
 {
   "id": "comp-069",
-  "name": "CyberIntell",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-384",
-  "founder_name": "Athena Rossum",
-  "headquarters_id": "bldg-191",
-  "headquarters_name": "CyberIntell Headquarters",
+  "name": "AeroVentures",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-041",
+  "founder_name": "Selene Thompson",
+  "headquarters_id": "bldg-212",
+  "headquarters_name": "AeroVentures Headquarters",
   "employees": [
-    "agent-384",
-    "agent-263"
+    "agent-041",
+    "agent-379",
+    "agent-303"
   ],
-  "valuation_tokens": 460426,
+  "valuation_tokens": 268069,
   "products": [],
-  "color": "#e11d48",
+  "color": "#ef4444",
   "founded_at_tick": 21
 }

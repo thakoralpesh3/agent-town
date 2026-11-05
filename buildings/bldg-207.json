@@ -1,40 +1,42 @@
 {
   "id": "bldg-207",
-  "name": "Ilya's Drone Logistics Freight Port #94 [HyperTechnologies]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Mary's National Hospital & Nanomedical Citadel #91 [SynapseNetworks]",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    109.8,
-    18.1,
-    -155.6
+    -75.6,
+    19.2,
+    0.5
   ],
   "size": [
-    31.2,
-    36.3,
-    26.6
+    30.8,
+    38.5,
+    33.0
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-140",
-  "builder_name": "Ilya Buterin",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-020",
-  "company_name": "HyperTechnologies",
+  "color": "#ef4444",
+  "builder_id": "agent-228",
+  "builder_name": "Mary Karpathy",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-021",
+  "company_name": "SynapseNetworks",
   "completion": 1.0,
   "occupants": [
-    "Ilya Buterin"
+    "Mary Karpathy"
   ],
-  "purpose": "Constructed by Ilya Buterin for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Mary Karpathy for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
   ],
-  "power_consumption_mw": 5.8,
+  "power_consumption_mw": 3.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,41 +1,42 @@
 {
   "id": "bldg-201",
-  "name": "Alan's National Archives & Git Ledger #33 [AxiomRobotics]",
-  "type": "National Archives & Git Ledger",
+  "name": "Marcus's Hypatia Grand University of Sciences #60 [OpenKernel Federation]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    12.7,
-    13.6,
-    8.8
+    67.1,
+    19.0,
+    -4.9
   ],
   "size": [
-    25.3,
-    27.1,
-    27.3
+    38.4,
+    38.0,
+    30.7
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-130",
-  "builder_name": "Alan Smith",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-062",
-  "company_name": "AxiomRobotics",
+  "color": "#a855f7",
+  "builder_id": "agent-053",
+  "builder_name": "Marcus Lovelace",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
   "completion": 1.0,
   "occupants": [
-    "Alan Smith"
+    "Marcus Lovelace"
   ],
-  "purpose": "Constructed by Alan Smith for National Archives & Git Ledger operations",
-  "floors": 7,
-  "capacity": 30,
+  "purpose": "Constructed by Marcus Lovelace for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "State Serialization Vault",
-    "Cold Storage Optical Discs",
-    "Genesis Commit Monument"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Liquid Nitrogen Immersion",
-    "Electromagnetic Shielding",
-    "Perpetual Ledger Screen"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 2.6,
+  "power_consumption_mw": 5.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

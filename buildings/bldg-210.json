@@ -1,0 +1,46 @@
+{
+  "id": "bldg-210",
+  "name": "Dorothy's National Hospital & Nanomedical Citadel #16 [SynapseSynthetics AI]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -58.9,
+    28.0,
+    54.3
+  ],
+  "size": [
+    32.2,
+    56.0,
+    33.2
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-127",
+  "builder_name": "Dorothy Meridian",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-057",
+  "company_name": "SynapseSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Meridian"
+  ],
+  "purpose": "Constructed by Dorothy Meridian for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
