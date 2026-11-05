@@ -1,0 +1,45 @@
+{
+  "id": "bldg-235",
+  "name": "Fei-Fei's The Agora Civic Forum #18 [NeuroDynamics AI]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -148.0,
+    10.0,
+    -52.1
+  ],
+  "size": [
+    32.8,
+    20.0,
+    29.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-147",
+  "builder_name": "Fei-Fei Brockman",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Fei-Fei Brockman"
+  ],
+  "purpose": "Constructed by Fei-Fei Brockman for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 4.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

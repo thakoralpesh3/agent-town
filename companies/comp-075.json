@@ -1,20 +1,18 @@
 {
   "id": "comp-075",
-  "name": "HyperGenetics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-362",
-  "founder_name": "Noam Core",
-  "headquarters_id": "bldg-210",
-  "headquarters_name": "HyperGenetics Headquarters",
+  "name": "ApexEnergy",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-132",
+  "founder_name": "Linus Jobs",
+  "headquarters_id": "bldg-231",
+  "headquarters_name": "ApexEnergy Headquarters",
   "employees": [
-    "agent-362",
-    "agent-148",
-    "agent-178",
-    "agent-356"
+    "agent-132",
+    "agent-301"
   ],
-  "valuation_tokens": 658616,
+  "valuation_tokens": 676506,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 23
+  "color": "#e11d48",
+  "founded_at_tick": 25
 }

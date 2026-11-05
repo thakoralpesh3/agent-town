@@ -1,19 +1,18 @@
 {
   "id": "comp-074",
-  "name": "HyperSynthetics AI",
+  "name": "ChronoLabs",
   "sector": "Quantum Computing & Cryptography",
   "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-185",
-  "founder_name": "Marc Finney",
-  "headquarters_id": "bldg-206",
-  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "founder_id": "agent-146",
+  "founder_name": "Brian Jackson",
+  "headquarters_id": "bldg-227",
+  "headquarters_name": "ChronoLabs Headquarters",
   "employees": [
-    "agent-185",
-    "agent-088",
-    "agent-081"
+    "agent-146",
+    "agent-306"
   ],
-  "valuation_tokens": 495964,
+  "valuation_tokens": 441063,
   "products": [],
   "color": "#8b5cf6",
-  "founded_at_tick": 22
+  "founded_at_tick": 24
 }

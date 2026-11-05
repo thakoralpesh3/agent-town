@@ -1,19 +1,18 @@
 {
   "id": "comp-073",
-  "name": "CyberVentures",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-060",
-  "founder_name": "Diana Sutskever",
-  "headquarters_id": "bldg-205",
-  "headquarters_name": "CyberVentures Headquarters",
+  "name": "NexusMatrix",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-122",
+  "founder_name": "Cipher Armstrong",
+  "headquarters_id": "bldg-226",
+  "headquarters_name": "NexusMatrix Headquarters",
   "employees": [
-    "agent-060",
-    "agent-041",
-    "agent-326"
+    "agent-122",
+    "agent-235"
   ],
-  "valuation_tokens": 592899,
+  "valuation_tokens": 160304,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 22
+  "color": "#e11d48",
+  "founded_at_tick": 24
 }

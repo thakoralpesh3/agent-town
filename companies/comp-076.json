@@ -1,18 +1,20 @@
 {
   "id": "comp-076",
-  "name": "TerraRobotics",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-009",
-  "founder_name": "Rosalind Franklin",
-  "headquarters_id": "bldg-213",
-  "headquarters_name": "TerraRobotics Headquarters",
+  "name": "AeroIntell",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-218",
+  "founder_name": "Astrid Liskov",
+  "headquarters_id": "bldg-234",
+  "headquarters_name": "AeroIntell Headquarters",
   "employees": [
-    "agent-009",
-    "agent-297"
+    "agent-218",
+    "agent-304",
+    "agent-335",
+    "agent-112"
   ],
-  "valuation_tokens": 253140,
+  "valuation_tokens": 652208,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 23
+  "color": "#8b5cf6",
+  "founded_at_tick": 25
 }

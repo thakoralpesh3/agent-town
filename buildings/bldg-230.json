@@ -1,41 +1,40 @@
 {
   "id": "bldg-230",
-  "name": "Leon's National Archives & Git Ledger #43 [AeroMatrix]",
-  "type": "National Archives & Git Ledger",
+  "name": "Cipher's Cloud Matrix Exchange #37",
+  "type": "Cloud Matrix Exchange",
   "position": [
-    -52.6,
-    14.2,
-    -53.8
+    53.3,
+    21.2,
+    126.2
   ],
   "size": [
-    24.2,
-    28.4,
-    30.2
+    23.0,
+    42.3,
+    25.0
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-238",
-  "builder_name": "Leon Hassabis",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-026",
-  "company_name": "AeroMatrix",
+  "color": "#38bdf8",
+  "builder_id": "agent-237",
+  "builder_name": "Cipher Cartographer",
+  "district": "Silicon Central Metropolis",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Leon Hassabis"
+    "Cipher Cartographer"
   ],
-  "purpose": "Constructed by Leon Hassabis for National Archives & Git Ledger operations",
-  "floors": 7,
-  "capacity": 30,
+  "purpose": "Constructed by Cipher Cartographer for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
   "departments": [
-    "State Serialization Vault",
-    "Cold Storage Optical Discs",
-    "Genesis Commit Monument"
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
   ],
   "amenities": [
-    "Liquid Nitrogen Immersion",
-    "Electromagnetic Shielding",
-    "Perpetual Ledger Screen"
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
   ],
-  "power_consumption_mw": 4.4,
+  "power_consumption_mw": 3.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
