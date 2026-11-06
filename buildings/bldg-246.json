@@ -1,42 +1,41 @@
 {
   "id": "bldg-246",
-  "name": "Bob's Hypatia Grand University of Sciences #82 [CyberLogistics]",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Valeria's Tower of Turing (City Mainframe) #49 [CyberMatrix]",
+  "type": "Tower of Turing (City Mainframe)",
   "position": [
-    108.8,
-    17.6,
-    -15.9
+    -13.8,
+    25.7,
+    149.3
   ],
   "size": [
-    34.3,
-    35.3,
-    40.8
+    27.6,
+    51.4,
+    22.0
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-389",
-  "builder_name": "Bob Sovereign",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-051",
-  "company_name": "CyberLogistics",
+  "color": "#00f0ff",
+  "builder_id": "agent-342",
+  "builder_name": "Valeria Borlaug",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-043",
+  "company_name": "CyberMatrix",
   "completion": 1.0,
   "occupants": [
-    "Bob Sovereign"
+    "Valeria Borlaug"
   ],
-  "purpose": "Constructed by Bob Sovereign for Hypatia Grand University of Sciences operations",
-  "floors": 9,
+  "purpose": "Constructed by Valeria Borlaug for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
   "capacity": 50,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
   ],
-  "power_consumption_mw": 7.6,
+  "power_consumption_mw": 6.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

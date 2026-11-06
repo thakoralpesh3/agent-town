@@ -1,40 +1,40 @@
 {
   "id": "bldg-241",
-  "name": "Linus's Biosphere Atmospheric Scrubber #40 [CyberDynamics]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Seraph's Quantum Logic Foundry #98 [AeroIntell]",
+  "type": "Quantum Logic Foundry",
   "position": [
-    9.3,
-    17.0,
-    -148.0
+    187.3,
+    12.0,
+    18.7
   ],
   "size": [
-    22.0,
-    34.0,
-    18.6
+    25.3,
+    24.0,
+    25.8
   ],
-  "color": "#10b981",
-  "builder_id": "agent-156",
-  "builder_name": "Linus Odersky",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-068",
-  "company_name": "CyberDynamics",
+  "color": "#8b5cf6",
+  "builder_id": "agent-112",
+  "builder_name": "Seraph Johnson",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-076",
+  "company_name": "AeroIntell",
   "completion": 1.0,
   "occupants": [
-    "Linus Odersky"
+    "Seraph Johnson"
   ],
-  "purpose": "Constructed by Linus Odersky for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Seraph Johnson for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
   ],
-  "power_consumption_mw": 3.7,
+  "power_consumption_mw": 6.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

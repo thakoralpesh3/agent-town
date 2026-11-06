@@ -1,18 +1,18 @@
 {
   "id": "comp-082",
-  "name": "SynapseSynthetics AI",
+  "name": "PrismFoundry",
   "sector": "Nanomedicine & Longevity Biotech",
   "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-272",
-  "founder_name": "Helios Core",
-  "headquarters_id": "bldg-228",
-  "headquarters_name": "SynapseSynthetics AI Headquarters",
+  "founder_id": "agent-305",
+  "founder_name": "Felix Praetor",
+  "headquarters_id": "bldg-247",
+  "headquarters_name": "PrismFoundry Headquarters",
   "employees": [
-    "agent-272",
-    "agent-393"
+    "agent-305",
+    "agent-262"
   ],
-  "valuation_tokens": 604036,
+  "valuation_tokens": 273152,
   "products": [],
   "color": "#ef4444",
-  "founded_at_tick": 26
+  "founded_at_tick": 27
 }

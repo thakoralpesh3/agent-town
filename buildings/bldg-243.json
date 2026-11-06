@@ -1,41 +1,40 @@
 {
   "id": "bldg-243",
-  "name": "Felix's Grand Astronomical Observatory #59 [StellarFederation]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Hal's Drone Logistics Freight Port #38 [BioLabs]",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    151.3,
-    21.3,
-    -7.0
+    88.1,
+    15.4,
+    -152.8
   ],
   "size": [
-    28.6,
-    42.7,
-    24.1
+    23.5,
+    30.7,
+    24.2
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-305",
-  "builder_name": "Felix Praetor",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-053",
-  "company_name": "StellarFederation",
+  "color": "#ea580c",
+  "builder_id": "agent-390",
+  "builder_name": "Hal Rossum",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-047",
+  "company_name": "BioLabs",
   "completion": 1.0,
   "occupants": [
-    "Felix Praetor"
+    "Hal Rossum"
   ],
-  "purpose": "Constructed by Felix Praetor for Grand Astronomical Observatory operations",
+  "purpose": "Constructed by Hal Rossum for Drone Logistics Freight Port operations",
   "floors": 6,
-  "capacity": 25,
+  "capacity": 30,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
   ],
-  "power_consumption_mw": 6.5,
+  "power_consumption_mw": 9.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

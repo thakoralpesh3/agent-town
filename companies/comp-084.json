@@ -1,20 +1,18 @@
 {
   "id": "comp-084",
-  "name": "NexusVentures",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-006",
-  "founder_name": "Dennis Ritchie",
-  "headquarters_id": "bldg-231",
-  "headquarters_name": "NexusVentures Headquarters",
+  "name": "ChronoLogistics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-209",
+  "founder_name": "Barbara Frost",
+  "headquarters_id": "bldg-251",
+  "headquarters_name": "ChronoLogistics Headquarters",
   "employees": [
-    "agent-006",
-    "agent-040",
-    "agent-144",
-    "agent-043"
+    "agent-209",
+    "agent-377"
   ],
-  "valuation_tokens": 511417,
+  "valuation_tokens": 203221,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 26
+  "color": "#00f0ff",
+  "founded_at_tick": 27
 }

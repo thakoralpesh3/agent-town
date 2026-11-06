@@ -1,20 +1,19 @@
 {
   "id": "comp-079",
-  "name": "AeroGenetics AI",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-284",
-  "founder_name": "Julian Node",
-  "headquarters_id": "bldg-219",
-  "headquarters_name": "AeroGenetics AI Headquarters",
+  "name": "HeliosSynthetics AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-023",
+  "founder_name": "Ken Thompson",
+  "headquarters_id": "bldg-240",
+  "headquarters_name": "HeliosSynthetics AI Headquarters",
   "employees": [
-    "agent-284",
-    "agent-112",
-    "agent-390",
-    "agent-115"
+    "agent-023",
+    "agent-368",
+    "agent-114"
   ],
-  "valuation_tokens": 161141,
+  "valuation_tokens": 166795,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 24
+  "color": "#00f0ff",
+  "founded_at_tick": 26
 }

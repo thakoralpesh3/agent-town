@@ -1,19 +1,20 @@
 {
   "id": "comp-077",
-  "name": "ApexFoundry",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-167",
-  "founder_name": "Morrigan Chronos",
-  "headquarters_id": "bldg-214",
-  "headquarters_name": "ApexFoundry Headquarters",
+  "name": "PrismNetworks AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-044",
+  "founder_name": "Barbara van Rossum",
+  "headquarters_id": "bldg-237",
+  "headquarters_name": "PrismNetworks AI Headquarters",
   "employees": [
-    "agent-167",
-    "agent-075",
-    "agent-227"
+    "agent-044",
+    "agent-278",
+    "agent-130",
+    "agent-253"
   ],
-  "valuation_tokens": 296967,
+  "valuation_tokens": 689706,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 23
+  "color": "#8b5cf6",
+  "founded_at_tick": 26
 }

@@ -1,19 +1,18 @@
 {
   "id": "comp-083",
-  "name": "NeuroLogistics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-029",
-  "founder_name": "Florence Nightingale",
-  "headquarters_id": "bldg-229",
-  "headquarters_name": "NeuroLogistics Headquarters",
+  "name": "NexusRobotics",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-014",
+  "founder_name": "Donald Knuth",
+  "headquarters_id": "bldg-249",
+  "headquarters_name": "NexusRobotics Headquarters",
   "employees": [
-    "agent-029",
-    "agent-086",
-    "agent-248"
+    "agent-014",
+    "agent-343"
   ],
-  "valuation_tokens": 608415,
+  "valuation_tokens": 373853,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 26
+  "color": "#eab308",
+  "founded_at_tick": 27
 }

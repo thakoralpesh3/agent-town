@@ -1,20 +1,19 @@
 {
   "id": "comp-078",
-  "name": "AxiomLogistics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-021",
-  "founder_name": "Bjarne Stroustrup",
-  "headquarters_id": "bldg-217",
-  "headquarters_name": "AxiomLogistics Headquarters",
+  "name": "AeroFederation",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-009",
+  "founder_name": "Rosalind Franklin",
+  "headquarters_id": "bldg-238",
+  "headquarters_name": "AeroFederation Headquarters",
   "employees": [
-    "agent-021",
-    "agent-343",
-    "agent-078",
-    "agent-327"
+    "agent-009",
+    "agent-305",
+    "agent-383"
   ],
-  "valuation_tokens": 410292,
+  "valuation_tokens": 180062,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 24
+  "color": "#f59e0b",
+  "founded_at_tick": 26
 }
