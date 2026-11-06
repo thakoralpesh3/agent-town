@@ -1,19 +1,20 @@
 {
   "id": "comp-090",
-  "name": "ApexDynamics AI",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-184",
-  "founder_name": "Donald Foundry",
-  "headquarters_id": "bldg-247",
-  "headquarters_name": "ApexDynamics AI Headquarters",
+  "name": "SovereignSynthetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-281",
+  "founder_name": "Grace Sutskever",
+  "headquarters_id": "bldg-266",
+  "headquarters_name": "SovereignSynthetics Headquarters",
   "employees": [
-    "agent-184",
-    "agent-371",
-    "agent-160"
+    "agent-281",
+    "agent-239",
+    "agent-081",
+    "agent-077"
   ],
-  "valuation_tokens": 337106,
+  "valuation_tokens": 572581,
   "products": [],
-  "color": "#f59e0b",
+  "color": "#ef4444",
   "founded_at_tick": 29
 }

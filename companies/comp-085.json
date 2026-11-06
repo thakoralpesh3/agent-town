@@ -1,18 +1,20 @@
 {
   "id": "comp-085",
-  "name": "AxiomSystems",
+  "name": "PrismDynamics",
   "sector": "Quantum Computing & Cryptography",
   "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-168",
-  "founder_name": "Hal Hopper",
-  "headquarters_id": "bldg-235",
-  "headquarters_name": "AxiomSystems Headquarters",
+  "founder_id": "agent-019",
+  "founder_name": "Hestia Nexus",
+  "headquarters_id": "bldg-254",
+  "headquarters_name": "PrismDynamics Headquarters",
   "employees": [
-    "agent-168",
-    "agent-072"
+    "agent-019",
+    "agent-212",
+    "agent-268",
+    "agent-307"
   ],
-  "valuation_tokens": 173674,
+  "valuation_tokens": 729327,
   "products": [],
   "color": "#8b5cf6",
-  "founded_at_tick": 27
+  "founded_at_tick": 28
 }

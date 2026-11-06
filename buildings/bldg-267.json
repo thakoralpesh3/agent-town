@@ -1,41 +1,42 @@
 {
   "id": "bldg-267",
-  "name": "Gavin's Cyber Living Township Alpha #19 [StellarFederation]",
-  "type": "Cyber Living Township Alpha",
+  "name": "Nexus's Hypatia Grand University of Sciences #92 [AxiomFederation]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -177.5,
-    12.0,
-    -94.0
+    107.0,
+    16.0,
+    49.7
   ],
   "size": [
-    25.2,
-    24.0,
-    30.9
+    38.0,
+    32.1,
+    34.2
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-089",
-  "builder_name": "Gavin Altman",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-053",
-  "company_name": "StellarFederation",
+  "color": "#a855f7",
+  "builder_id": "agent-208",
+  "builder_name": "Nexus Meridian",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-020",
+  "company_name": "AxiomFederation",
   "completion": 1.0,
   "occupants": [
-    "Gavin Altman"
+    "Nexus Meridian"
   ],
-  "purpose": "Constructed by Gavin Altman for Cyber Living Township Alpha operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Nexus Meridian for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation Glade"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Recharging Beds",
-    "Filtered Atmosphere"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 5.8,
+  "power_consumption_mw": 7.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,41 +1,41 @@
 {
   "id": "bldg-255",
-  "name": "Kassandra's Hydroponic Agricultural Biodome #12 [NeuroEnergy]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Vitalik's Cyber Living Township Alpha #87 [BioVentures]",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    14.5,
-    12.5,
-    -175.9
+    -49.0,
+    11.9,
+    -66.1
   ],
   "size": [
-    33.4,
-    25.1,
-    36.8
+    30.2,
+    23.9,
+    28.8
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-344",
-  "builder_name": "Kassandra Johnson",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-066",
-  "company_name": "NeuroEnergy",
+  "color": "#22c55e",
+  "builder_id": "agent-169",
+  "builder_name": "Vitalik Sutskever",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-033",
+  "company_name": "BioVentures",
   "completion": 1.0,
   "occupants": [
-    "Kassandra Johnson"
+    "Vitalik Sutskever"
   ],
-  "purpose": "Constructed by Kassandra Johnson for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Vitalik Sutskever for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 8.0,
+  "power_consumption_mw": 4.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

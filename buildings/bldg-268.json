@@ -1,40 +1,41 @@
 {
   "id": "bldg-268",
-  "name": "Felix's Shannon Information Spire #68 [QuantumRobotics]",
-  "type": "Shannon Information Spire",
+  "name": "Kassandra's Tower of Turing (City Mainframe) #36 [Sovereign Chancellery Core]",
+  "type": "Tower of Turing (City Mainframe)",
   "position": [
-    50.6,
-    33.5,
-    103.1
+    1.1,
+    38.7,
+    47.5
   ],
   "size": [
-    17.7,
-    67.0,
-    17.7
+    25.9,
+    77.3,
+    28.2
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-407",
-  "builder_name": "Felix Thorne",
+  "color": "#00f0ff",
+  "builder_id": "agent-261",
+  "builder_name": "Kassandra Flux",
   "district": "Silicon Central Metropolis",
-  "company_id": "comp-087",
-  "company_name": "QuantumRobotics",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Felix Thorne"
+    "Kassandra Flux"
   ],
-  "purpose": "Constructed by Felix Thorne for Shannon Information Spire operations",
-  "floors": 12,
-  "capacity": 35,
+  "purpose": "Constructed by Kassandra Flux for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 7.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,18 +1,20 @@
 {
   "id": "comp-089",
-  "name": "ApexSystems",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-060",
-  "founder_name": "Diana Sutskever",
-  "headquarters_id": "bldg-245",
-  "headquarters_name": "ApexSystems Headquarters",
+  "name": "SolarNetworks AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-126",
+  "founder_name": "Dante Beacon",
+  "headquarters_id": "bldg-264",
+  "headquarters_name": "SolarNetworks AI Headquarters",
   "employees": [
-    "agent-060",
-    "agent-226"
+    "agent-126",
+    "agent-111",
+    "agent-043",
+    "agent-153"
   ],
-  "valuation_tokens": 269851,
+  "valuation_tokens": 602042,
   "products": [],
-  "color": "#ec4899",
+  "color": "#8b5cf6",
   "founded_at_tick": 29
 }

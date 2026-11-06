@@ -1,19 +1,19 @@
 {
   "id": "comp-086",
-  "name": "CyberLogistics AI",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-186",
-  "founder_name": "Brendan Finney",
-  "headquarters_id": "bldg-236",
-  "headquarters_name": "CyberLogistics AI Headquarters",
+  "name": "TerraSystems",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-223",
+  "founder_name": "Zephyr Cartographer",
+  "headquarters_id": "bldg-257",
+  "headquarters_name": "TerraSystems Headquarters",
   "employees": [
-    "agent-186",
-    "agent-245",
-    "agent-135"
+    "agent-223",
+    "agent-248",
+    "agent-351"
   ],
-  "valuation_tokens": 422117,
+  "valuation_tokens": 685847,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 27
+  "color": "#10b981",
+  "founded_at_tick": 28
 }
