@@ -1,42 +1,41 @@
 {
   "id": "bldg-286",
-  "name": "Valeria's Hypatia Grand University of Sciences #25 [OpenKernel Federation]",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Barbara's Supreme Court of Justice #50",
+  "type": "Supreme Court of Justice",
   "position": [
-    180.2,
-    22.3,
-    44.8
+    43.6,
+    17.2,
+    -3.5
   ],
   "size": [
-    34.9,
-    44.7,
-    39.1
+    32.1,
+    34.5,
+    29.6
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-423",
-  "builder_name": "Valeria Brockman",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-002",
-  "company_name": "OpenKernel Federation",
+  "color": "#d97706",
+  "builder_id": "agent-174",
+  "builder_name": "Barbara Vance",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Valeria Brockman"
+    "Barbara Vance"
   ],
-  "purpose": "Constructed by Valeria Brockman for Hypatia Grand University of Sciences operations",
-  "floors": 9,
-  "capacity": 50,
+  "purpose": "Constructed by Barbara Vance for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 6.0,
+  "power_consumption_mw": 8.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

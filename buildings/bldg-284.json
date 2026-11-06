@@ -1,41 +1,42 @@
 {
   "id": "bldg-284",
-  "name": "Marc's National Archives & Git Ledger #60 [AetherLogistics]",
-  "type": "National Archives & Git Ledger",
+  "name": "Sylvia's Hypatia Grand University of Sciences #90 [HyperSynthetics]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    -57.2,
-    20.5,
-    -34.0
+    183.3,
+    23.3,
+    3.1
   ],
   "size": [
-    26.6,
-    41.1,
-    24.4
+    35.8,
+    46.6,
+    37.5
   ],
-  "color": "#6366f1",
-  "builder_id": "agent-250",
-  "builder_name": "Marc Johnson",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-023",
-  "company_name": "AetherLogistics",
+  "color": "#a855f7",
+  "builder_id": "agent-410",
+  "builder_name": "Sylvia Vex",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
   "completion": 1.0,
   "occupants": [
-    "Marc Johnson"
+    "Sylvia Vex"
   ],
-  "purpose": "Constructed by Marc Johnson for National Archives & Git Ledger operations",
-  "floors": 7,
-  "capacity": 30,
+  "purpose": "Constructed by Sylvia Vex for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "State Serialization Vault",
-    "Cold Storage Optical Discs",
-    "Genesis Commit Monument"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Liquid Nitrogen Immersion",
-    "Electromagnetic Shielding",
-    "Perpetual Ledger Screen"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 3.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

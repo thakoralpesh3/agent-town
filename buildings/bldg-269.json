@@ -1,41 +1,41 @@
 {
   "id": "bldg-269",
-  "name": "Alan's Hyperloop Central Terminus #28 [NexusVentures]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Veda's Grand Astronomical Observatory #35 [AeroFoundry]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    116.1,
-    13.6,
-    -70.0
+    74.5,
+    22.2,
+    96.5
   ],
   "size": [
-    40.7,
-    27.2,
-    36.6
+    21.8,
+    44.4,
+    25.4
   ],
-  "color": "#f97316",
-  "builder_id": "agent-043",
-  "builder_name": "Alan Armstrong",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-084",
-  "company_name": "NexusVentures",
+  "color": "#c084fc",
+  "builder_id": "agent-072",
+  "builder_name": "Veda Frost",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-042",
+  "company_name": "AeroFoundry",
   "completion": 1.0,
   "occupants": [
-    "Alan Armstrong"
+    "Veda Frost"
   ],
-  "purpose": "Constructed by Alan Armstrong for Hyperloop Central Terminus operations",
-  "floors": 4,
-  "capacity": 45,
+  "purpose": "Constructed by Veda Frost for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 7.0,
+  "power_consumption_mw": 5.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,18 +1,20 @@
 {
   "id": "comp-097",
-  "name": "NeuroGenetics",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-387",
-  "founder_name": "Katherine Torvalds",
-  "headquarters_id": "bldg-265",
-  "headquarters_name": "NeuroGenetics Headquarters",
+  "name": "PrismDynamics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-208",
+  "founder_name": "Nexus Meridian",
+  "headquarters_id": "bldg-285",
+  "headquarters_name": "PrismDynamics AI Headquarters",
   "employees": [
-    "agent-387",
-    "agent-074"
+    "agent-208",
+    "agent-393",
+    "agent-391",
+    "agent-401"
   ],
-  "valuation_tokens": 392012,
+  "valuation_tokens": 316673,
   "products": [],
-  "color": "#10b981",
+  "color": "#ec4899",
   "founded_at_tick": 31
 }

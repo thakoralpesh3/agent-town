@@ -1,41 +1,42 @@
 {
   "id": "bldg-279",
-  "name": "Ken's Hyperloop Central Terminus #82 [QuantumMatrix Systems]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Alan's Hypatia Grand University of Sciences #50 [Sovereign Chancellery Core]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    112.3,
-    9.1,
-    -35.5
+    64.7,
+    24.8,
+    104.1
   ],
   "size": [
-    31.4,
-    18.1,
-    32.4
+    38.4,
+    49.7,
+    35.0
   ],
-  "color": "#f97316",
-  "builder_id": "agent-367",
-  "builder_name": "Ken Karpathy",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-004",
-  "company_name": "QuantumMatrix Systems",
+  "color": "#a855f7",
+  "builder_id": "agent-002",
+  "builder_name": "Alan Turing",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Ken Karpathy"
+    "Alan Turing"
   ],
-  "purpose": "Constructed by Ken Karpathy for Hyperloop Central Terminus operations",
-  "floors": 4,
-  "capacity": 45,
+  "purpose": "Constructed by Alan Turing for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 3.7,
+  "power_consumption_mw": 6.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

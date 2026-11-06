@@ -1,20 +1,19 @@
 {
   "id": "comp-096",
-  "name": "AetherSolutions",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-267",
-  "founder_name": "Alan Murati",
-  "headquarters_id": "bldg-264",
-  "headquarters_name": "AetherSolutions Headquarters",
+  "name": "TerraSolutions",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-372",
+  "founder_name": "Donald Sovereign",
+  "headquarters_id": "bldg-283",
+  "headquarters_name": "TerraSolutions Headquarters",
   "employees": [
-    "agent-267",
-    "agent-191",
-    "agent-278",
-    "agent-208"
+    "agent-372",
+    "agent-371",
+    "agent-333"
   ],
-  "valuation_tokens": 517125,
+  "valuation_tokens": 461169,
   "products": [],
-  "color": "#f59e0b",
+  "color": "#8b5cf6",
   "founded_at_tick": 31
 }

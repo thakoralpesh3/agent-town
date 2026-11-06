@@ -1,20 +1,20 @@
 {
   "id": "comp-095",
-  "name": "QuantumLogistics",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-022",
-  "founder_name": "Marie Curie",
-  "headquarters_id": "bldg-260",
-  "headquarters_name": "QuantumLogistics Headquarters",
+  "name": "HyperFoundry",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-328",
+  "founder_name": "Pixel Kahn",
+  "headquarters_id": "bldg-280",
+  "headquarters_name": "HyperFoundry Headquarters",
   "employees": [
-    "agent-022",
-    "agent-098",
-    "agent-217",
-    "agent-251"
+    "agent-328",
+    "agent-160",
+    "agent-245",
+    "agent-238"
   ],
-  "valuation_tokens": 429783,
+  "valuation_tokens": 223908,
   "products": [],
-  "color": "#eab308",
+  "color": "#f59e0b",
   "founded_at_tick": 31
 }
