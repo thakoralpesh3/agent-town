@@ -1,40 +1,41 @@
 {
   "id": "bldg-301",
-  "name": "Steve's Drone Logistics Freight Port #81 [SolarFusion Grid]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Satoshi's Hyperloop Central Terminus #79 [PrismNetworks AI]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    134.3,
-    16.9,
-    -175.6
+    99.3,
+    10.8,
+    -176.3
   ],
   "size": [
-    26.5,
-    33.8,
-    28.8
+    30.7,
+    21.6,
+    36.0
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-106",
-  "builder_name": "Steve Nadella",
+  "color": "#f97316",
+  "builder_id": "agent-278",
+  "builder_name": "Satoshi Zenith",
   "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-007",
-  "company_name": "SolarFusion Grid",
+  "company_id": "comp-077",
+  "company_name": "PrismNetworks AI",
   "completion": 1.0,
   "occupants": [
-    "Steve Nadella"
+    "Satoshi Zenith"
   ],
-  "purpose": "Constructed by Steve Nadella for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Satoshi Zenith for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 4.9,
+  "power_consumption_mw": 4.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

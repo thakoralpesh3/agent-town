@@ -1,20 +1,20 @@
 {
   "id": "comp-099",
-  "name": "AxiomFoundry AI",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-429",
-  "founder_name": "Juno Hassabis",
-  "headquarters_id": "bldg-273",
-  "headquarters_name": "AxiomFoundry AI Headquarters",
+  "name": "NeuroSynthetics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-064",
+  "founder_name": "Nick Tinkerer",
+  "headquarters_id": "bldg-294",
+  "headquarters_name": "NeuroSynthetics Headquarters",
   "employees": [
-    "agent-429",
-    "agent-274",
-    "agent-153",
-    "agent-004"
+    "agent-064",
+    "agent-217",
+    "agent-388",
+    "agent-384"
   ],
-  "valuation_tokens": 197419,
+  "valuation_tokens": 444212,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 33
+  "color": "#e11d48",
+  "founded_at_tick": 32
 }

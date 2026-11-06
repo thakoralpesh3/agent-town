@@ -1,18 +1,18 @@
 {
   "id": "comp-100",
-  "name": "HyperNetworks",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-264",
-  "founder_name": "Vint Praetor",
-  "headquarters_id": "bldg-276",
-  "headquarters_name": "HyperNetworks Headquarters",
+  "name": "VectorNetworks",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-227",
+  "founder_name": "Sol Kahn",
+  "headquarters_id": "bldg-302",
+  "headquarters_name": "VectorNetworks Headquarters",
   "employees": [
-    "agent-264",
-    "agent-054"
+    "agent-227",
+    "agent-089"
   ],
-  "valuation_tokens": 659236,
+  "valuation_tokens": 497513,
   "products": [],
-  "color": "#e11d48",
+  "color": "#ef4444",
   "founded_at_tick": 33
 }

@@ -1,40 +1,40 @@
 {
   "id": "bldg-297",
-  "name": "Dorothy's Shannon Information Spire #78 [QuantumMatrix Systems]",
-  "type": "Shannon Information Spire",
+  "name": "Cyrus's Cloud Matrix Exchange #39 [PrismIntell]",
+  "type": "Cloud Matrix Exchange",
   "position": [
-    63.1,
-    20.7,
-    129.9
+    34.1,
+    34.0,
+    95.9
   ],
   "size": [
-    17.4,
-    41.5,
-    18.7
+    25.3,
+    67.9,
+    24.3
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-012",
-  "builder_name": "Dorothy Vaughan",
+  "color": "#38bdf8",
+  "builder_id": "agent-035",
+  "builder_name": "Cyrus Dijkstra",
   "district": "Silicon Central Metropolis",
-  "company_id": "comp-004",
-  "company_name": "QuantumMatrix Systems",
+  "company_id": "comp-023",
+  "company_name": "PrismIntell",
   "completion": 1.0,
   "occupants": [
-    "Dorothy Vaughan"
+    "Cyrus Dijkstra"
   ],
-  "purpose": "Constructed by Dorothy Vaughan for Shannon Information Spire operations",
-  "floors": 12,
-  "capacity": 35,
+  "purpose": "Constructed by Cyrus Dijkstra for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
   ],
-  "power_consumption_mw": 5.9,
+  "power_consumption_mw": 8.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

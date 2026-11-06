@@ -1,42 +1,42 @@
 {
   "id": "bldg-299",
-  "name": "Valeria's Hypatia Grand University of Sciences #19 [SovereignIntell]",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Mary's National Central Bank & Treasury #31 [SynapseNetworks]",
+  "type": "National Central Bank & Treasury",
   "position": [
-    174.8,
-    21.4,
-    55.4
+    -61.6,
+    18.3,
+    56.6
   ],
   "size": [
-    32.7,
-    42.8,
-    37.7
+    29.0,
+    36.7,
+    30.1
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-158",
-  "builder_name": "Valeria Zenith",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-102",
-  "company_name": "SovereignIntell",
+  "color": "#eab308",
+  "builder_id": "agent-228",
+  "builder_name": "Mary Karpathy",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-021",
+  "company_name": "SynapseNetworks",
   "completion": 1.0,
   "occupants": [
-    "Valeria Zenith"
+    "Mary Karpathy"
   ],
-  "purpose": "Constructed by Valeria Zenith for Hypatia Grand University of Sciences operations",
-  "floors": 9,
-  "capacity": 50,
+  "purpose": "Constructed by Mary Karpathy for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 4.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

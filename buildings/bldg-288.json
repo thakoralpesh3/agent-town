@@ -1,40 +1,41 @@
 {
   "id": "bldg-288",
-  "name": "Theron's Shannon Information Spire #36 [CyberSystems]",
-  "type": "Shannon Information Spire",
+  "name": "Julian's Hydroponic Agricultural Biodome #14 [AeroCyber Mobility]",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    -65.9,
-    26.1,
-    138.7
+    30.3,
+    10.4,
+    -149.8
   ],
   "size": [
-    20.7,
-    52.1,
-    21.5
+    29.2,
+    20.9,
+    38.2
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-155",
-  "builder_name": "Theron Node",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-040",
-  "company_name": "CyberSystems",
+  "color": "#16a34a",
+  "builder_id": "agent-284",
+  "builder_name": "Julian Node",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Theron Node"
+    "Julian Node"
   ],
-  "purpose": "Constructed by Theron Node for Shannon Information Spire operations",
-  "floors": 12,
+  "purpose": "Constructed by Julian Node for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
   "capacity": 35,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 2.7,
+  "power_consumption_mw": 4.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

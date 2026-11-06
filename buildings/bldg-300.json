@@ -1,0 +1,45 @@
+{
+  "id": "bldg-300",
+  "name": "Echo's Cyber Living Township Beta #53 [BioIntell]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -172.1,
+    15.6,
+    -102.9
+  ],
+  "size": [
+    23.9,
+    31.1,
+    30.8
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-318",
+  "builder_name": "Echo Jackson",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-058",
+  "company_name": "BioIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Echo Jackson"
+  ],
+  "purpose": "Constructed by Echo Jackson for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 3.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
