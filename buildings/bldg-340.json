@@ -1,0 +1,46 @@
+{
+  "id": "bldg-340",
+  "name": "Sundar's National Central Bank & Treasury #48 [StellarGenetics]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    -13.6,
+    14.7,
+    21.0
+  ],
+  "size": [
+    28.8,
+    29.5,
+    27.3
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-124",
+  "builder_name": "Sundar Hassabis",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-102",
+  "company_name": "StellarGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Sundar Hassabis"
+  ],
+  "purpose": "Constructed by Sundar Hassabis for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 8.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

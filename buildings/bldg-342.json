@@ -1,41 +1,41 @@
 {
   "id": "bldg-342",
-  "name": "Vint's Grand Astronomical Observatory #50 [AeroGenetics]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Veda's Supreme Court of Justice #64 [DeepSolutions]",
+  "type": "Supreme Court of Justice",
   "position": [
-    149.8,
-    14.1,
-    100.7
+    41.4,
+    17.3,
+    -38.2
   ],
   "size": [
-    23.7,
-    28.2,
-    23.7
+    31.5,
+    34.5,
+    28.3
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-411",
-  "builder_name": "Vint Foundry",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-035",
-  "company_name": "AeroGenetics",
+  "color": "#d97706",
+  "builder_id": "agent-271",
+  "builder_name": "Veda LeCun",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-104",
+  "company_name": "DeepSolutions",
   "completion": 1.0,
   "occupants": [
-    "Vint Foundry"
+    "Veda LeCun"
   ],
-  "purpose": "Constructed by Vint Foundry for Grand Astronomical Observatory operations",
+  "purpose": "Constructed by Veda LeCun for Supreme Court of Justice operations",
   "floors": 6,
-  "capacity": 25,
+  "capacity": 35,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 6.8,
+  "power_consumption_mw": 3.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

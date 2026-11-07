@@ -1,40 +1,41 @@
 {
   "id": "bldg-352",
-  "name": "Brendan's Shannon Information Spire #16 [OmniDynamics]",
-  "type": "Shannon Information Spire",
+  "name": "Grace's Tokamak Fusion Reactor Station #34 [NeuroSystems]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    14.5,
-    20.9,
-    105.7
+    53.8,
+    9.8,
+    -112.7
   ],
   "size": [
-    19.4,
-    41.8,
-    21.1
+    33.9,
+    19.7,
+    31.9
   ],
-  "color": "#0284c7",
-  "builder_id": "agent-186",
-  "builder_name": "Brendan Finney",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-101",
-  "company_name": "OmniDynamics",
+  "color": "#be123c",
+  "builder_id": "agent-319",
+  "builder_name": "Grace Circuit",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-044",
+  "company_name": "NeuroSystems",
   "completion": 1.0,
   "occupants": [
-    "Brendan Finney"
+    "Grace Circuit"
   ],
-  "purpose": "Constructed by Brendan Finney for Shannon Information Spire operations",
-  "floors": 12,
-  "capacity": 35,
+  "purpose": "Constructed by Grace Circuit for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Photonic Switching",
-    "Information Theory Wing",
-    "Network Topologies"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Free-Space Optical Transceivers",
-    "Zero-Latency Buffer Pool"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 8.4,
+  "power_consumption_mw": 3.3,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

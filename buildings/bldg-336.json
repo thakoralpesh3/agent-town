@@ -1,0 +1,44 @@
+{
+  "id": "bldg-336",
+  "name": "Axel's Shannon Information Spire #58 [VectorLogistics]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -6.2,
+    19.7,
+    111.1
+  ],
+  "size": [
+    18.6,
+    39.4,
+    16.3
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-260",
+  "builder_name": "Axel Smith",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-081",
+  "company_name": "VectorLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Axel Smith"
+  ],
+  "purpose": "Constructed by Axel Smith for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

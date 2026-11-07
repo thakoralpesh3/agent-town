@@ -1,20 +1,19 @@
 {
   "id": "comp-112",
-  "name": "AetherIntell",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-408",
-  "founder_name": "Alexander Cerf",
-  "headquarters_id": "bldg-307",
-  "headquarters_name": "AetherIntell Headquarters",
+  "name": "BioVentures AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-109",
+  "founder_name": "Aria Archon",
+  "headquarters_id": "bldg-341",
+  "headquarters_name": "BioVentures AI Headquarters",
   "employees": [
-    "agent-408",
-    "agent-177",
-    "agent-257",
-    "agent-450"
+    "agent-109",
+    "agent-174",
+    "agent-052"
   ],
-  "valuation_tokens": 463044,
+  "valuation_tokens": 178762,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 37
+  "color": "#ef4444",
+  "founded_at_tick": 38
 }

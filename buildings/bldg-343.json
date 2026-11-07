@@ -1,41 +1,41 @@
 {
   "id": "bldg-343",
-  "name": "Steve's Autonomous Vehicle Mega-Plant #19 [SolarFusion Grid]",
-  "type": "Autonomous Vehicle Mega-Plant",
+  "name": "Ken's Tokamak Fusion Reactor Station #17 [AeroCyber Mobility]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    156.2,
-    13.7,
-    -171.1
+    -54.2,
+    8.5,
+    -187.7
   ],
   "size": [
-    34.3,
-    27.4,
-    36.8
+    31.1,
+    16.9,
+    35.3
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-106",
-  "builder_name": "Steve Nadella",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-007",
-  "company_name": "SolarFusion Grid",
+  "color": "#be123c",
+  "builder_id": "agent-378",
+  "builder_name": "Ken Brockman",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
   "completion": 1.0,
   "occupants": [
-    "Steve Nadella"
+    "Ken Brockman"
   ],
-  "purpose": "Constructed by Steve Nadella for Autonomous Vehicle Mega-Plant operations",
-  "floors": 5,
-  "capacity": 40,
+  "purpose": "Constructed by Ken Brockman for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Robotic Chassis Stamping",
-    "Avionics Calibration",
-    "Induction Drive Assembly"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Automated Gantry Cranes",
-    "High-Speed Induction Dyno Track",
-    "Paint Spray Booths"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 2.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

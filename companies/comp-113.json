@@ -1,18 +1,19 @@
 {
   "id": "comp-113",
-  "name": "StellarLabs AI",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-223",
-  "founder_name": "Zephyr Cartographer",
-  "headquarters_id": "bldg-308",
-  "headquarters_name": "StellarLabs AI Headquarters",
+  "name": "AetherFederation",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-120",
+  "founder_name": "Ilya Lovelace",
+  "headquarters_id": "bldg-347",
+  "headquarters_name": "AetherFederation Headquarters",
   "employees": [
-    "agent-223",
-    "agent-137"
+    "agent-120",
+    "agent-286",
+    "agent-017"
   ],
-  "valuation_tokens": 223759,
+  "valuation_tokens": 478800,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 37
+  "color": "#eab308",
+  "founded_at_tick": 39
 }

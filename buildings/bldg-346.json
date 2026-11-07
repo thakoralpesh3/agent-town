@@ -1,0 +1,47 @@
+{
+  "id": "bldg-346",
+  "name": "Dorothy's Sovereign Capitol Building #27 [DeepSolutions]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -19.3,
+    22.9,
+    -23.3
+  ],
+  "size": [
+    37.4,
+    45.9,
+    35.4
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-398",
+  "builder_name": "Dorothy Solstice",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-104",
+  "company_name": "DeepSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Solstice"
+  ],
+  "purpose": "Constructed by Dorothy Solstice for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

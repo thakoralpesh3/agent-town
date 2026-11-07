@@ -1,18 +1,18 @@
 {
   "id": "comp-110",
-  "name": "VectorDynamics",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-162",
-  "founder_name": "Roxas Vanguard",
-  "headquarters_id": "bldg-300",
-  "headquarters_name": "VectorDynamics Headquarters",
+  "name": "AeroLabs AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-012",
+  "founder_name": "Dorothy Vaughan",
+  "headquarters_id": "bldg-337",
+  "headquarters_name": "AeroLabs AI Headquarters",
   "employees": [
-    "agent-162",
-    "agent-354"
+    "agent-012",
+    "agent-426"
   ],
-  "valuation_tokens": 413022,
+  "valuation_tokens": 446677,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 36
+  "color": "#ec4899",
+  "founded_at_tick": 38
 }
