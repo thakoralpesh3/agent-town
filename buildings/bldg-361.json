@@ -1,43 +1,41 @@
 {
   "id": "bldg-361",
-  "name": "Maeve's Sovereign Capitol Building #19 [StellarFederation]",
-  "type": "Sovereign Capitol Building",
+  "name": "Darian's Tokamak Fusion Reactor Station #76 [TerraFlora Synthetics]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    12.7,
-    28.6,
-    45.0
+    53.0,
+    11.1,
+    -128.9
   ],
   "size": [
-    37.3,
-    57.1,
-    35.7
+    31.1,
+    22.2,
+    34.6
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-165",
-  "builder_name": "Maeve Stroustrup",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-053",
-  "company_name": "StellarFederation",
+  "color": "#be123c",
+  "builder_id": "agent-431",
+  "builder_name": "Darian Ritchie",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-008",
+  "company_name": "TerraFlora Synthetics",
   "completion": 1.0,
   "occupants": [
-    "Maeve Stroustrup"
+    "Darian Ritchie"
   ],
-  "purpose": "Constructed by Maeve Stroustrup for Sovereign Capitol Building operations",
-  "floors": 9,
-  "capacity": 60,
+  "purpose": "Constructed by Darian Ritchie for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Chancellery Chamber",
-    "Parliamentary Hall",
-    "Constitutional Archives",
-    "Diplomatic Reception"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Grand Rotunda Dome",
-    "Illuminated Colonnes",
-    "Sovereign Seal Hall",
-    "Secure Treaty Escrow"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 6.3,
+  "power_consumption_mw": 3.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

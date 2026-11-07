@@ -1,42 +1,41 @@
 {
   "id": "bldg-355",
-  "name": "Sam's National Hospital & Nanomedical Citadel #50 [HyperEnergy AI]",
-  "type": "National Hospital & Nanomedical Citadel",
+  "name": "Vint's Hyperloop Central Terminus #20 [Sovereign Chancellery Core]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    -137.0,
-    20.9,
-    89.1
+    102.4,
+    12.3,
+    -85.3
   ],
   "size": [
-    36.9,
-    41.7,
-    34.5
+    35.8,
+    24.5,
+    37.1
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-376",
-  "builder_name": "Sam Brockman",
-  "district": "Health Citadel & Medical Complex",
-  "company_id": "comp-093",
-  "company_name": "HyperEnergy AI",
+  "color": "#f97316",
+  "builder_id": "agent-264",
+  "builder_name": "Vint Praetor",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Sam Brockman"
+    "Vint Praetor"
   ],
-  "purpose": "Constructed by Sam Brockman for National Hospital & Nanomedical Citadel operations",
-  "floors": 10,
-  "capacity": 55,
+  "purpose": "Constructed by Vint Praetor for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
   "departments": [
-    "Emergency Trauma & Triage",
-    "Nanotech Robotic Surgery",
-    "Cellular Regeneration",
-    "Epidemic Control"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Rooftop VTOL Helipads",
-    "Cryogenic Stasis Chambers",
-    "Sterile Nanotech Cleanrooms"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 5.2,
+  "power_consumption_mw": 4.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

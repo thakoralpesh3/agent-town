@@ -1,40 +1,41 @@
 {
   "id": "bldg-360",
-  "name": "Katherine's Quantum Logic Foundry #10 [QuantumMatrix AI]",
-  "type": "Quantum Logic Foundry",
+  "name": "Darian's Grand Astronomical Observatory #19",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    77.6,
-    19.5,
-    81.5
+    121.2,
+    14.3,
+    16.2
   ],
   "size": [
-    27.8,
-    39.0,
-    28.9
+    22.9,
+    28.7,
+    27.4
   ],
-  "color": "#8b5cf6",
-  "builder_id": "agent-446",
-  "builder_name": "Katherine Armstrong",
+  "color": "#c084fc",
+  "builder_id": "agent-204",
+  "builder_name": "Darian Nakamoto",
   "district": "Quantum Science & University Campus",
-  "company_id": "comp-081",
-  "company_name": "QuantumMatrix AI",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Katherine Armstrong"
+    "Darian Nakamoto"
   ],
-  "purpose": "Constructed by Katherine Armstrong for Quantum Logic Foundry operations",
+  "purpose": "Constructed by Darian Nakamoto for Grand Astronomical Observatory operations",
   "floors": 6,
-  "capacity": 30,
+  "capacity": 25,
   "departments": [
-    "Topological Qubit Design",
-    "Lattice Cryptography",
-    "Quantum Error Correction"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Milli-Kelvin Dilution Refrigerators",
-    "Superconducting Shielded Vault"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 5.2,
+  "power_consumption_mw": 8.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

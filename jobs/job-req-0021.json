@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0021",
+  "role": "National Monument Sculptor-Architect",
+  "category": "Construction",
+  "specialization": "Civic Obelisks & Grand Public Arches",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "National Monument Sculptor-Architect Hub",
+  "salary_offered": 14600,
+  "created_at_tick": 40,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-445",
+  "filled_by_agent_name": "Katherine Fletcher"
+}

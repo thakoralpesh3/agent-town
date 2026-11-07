@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0022",
+  "role": "Cybernetic Prostheticist",
+  "category": "Healthcare",
+  "specialization": "Bio-Synthetic Limb & Sensory Augmentation",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Cybernetic Prostheticist Hub",
+  "salary_offered": 16200,
+  "created_at_tick": 41,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-449",
+  "filled_by_agent_name": "Cipher Praetor"
+}

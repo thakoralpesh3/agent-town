@@ -1,41 +1,41 @@
 {
   "id": "bldg-357",
-  "name": "Morrigan's Grand Astronomical Observatory #44 [HyperGenetics]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Ada's Hydroponic Agricultural Biodome #65 [Sovereign Chancellery Core]",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    104.6,
-    17.1,
-    103.1
+    6.3,
+    10.1,
+    -76.7
   ],
   "size": [
-    28.2,
-    34.2,
-    26.3
+    30.1,
+    20.2,
+    37.0
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-356",
-  "builder_name": "Morrigan Ritchie",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-075",
-  "company_name": "HyperGenetics",
+  "color": "#16a34a",
+  "builder_id": "agent-001",
+  "builder_name": "Ada Lovelace",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Morrigan Ritchie"
+    "Ada Lovelace"
   ],
-  "purpose": "Constructed by Morrigan Ritchie for Grand Astronomical Observatory operations",
-  "floors": 6,
-  "capacity": 25,
+  "purpose": "Constructed by Ada Lovelace for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 5.9,
+  "power_consumption_mw": 6.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

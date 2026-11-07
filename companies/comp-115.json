@@ -1,18 +1,19 @@
 {
   "id": "comp-115",
-  "name": "BioMatrix",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-222",
-  "founder_name": "Yoshua Brockman",
-  "headquarters_id": "bldg-311",
-  "headquarters_name": "BioMatrix Headquarters",
+  "name": "BioVentures AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-191",
+  "founder_name": "Ronan Orbit",
+  "headquarters_id": "bldg-353",
+  "headquarters_name": "BioVentures AI Headquarters",
   "employees": [
-    "agent-222",
-    "agent-146"
+    "agent-191",
+    "agent-327",
+    "agent-344"
   ],
-  "valuation_tokens": 701159,
+  "valuation_tokens": 269526,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 38
+  "color": "#ef4444",
+  "founded_at_tick": 40
 }

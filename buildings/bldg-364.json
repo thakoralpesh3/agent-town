@@ -1,41 +1,41 @@
 {
   "id": "bldg-364",
-  "name": "Morrigan's Hydroponic Agricultural Biodome #42 [VectorEnergy]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Bjarne's Supreme Court of Justice #41 [PrismSolutions]",
+  "type": "Supreme Court of Justice",
   "position": [
-    55.6,
-    10.6,
-    -88.5
+    -44.2,
+    14.9,
+    -24.6
   ],
   "size": [
-    33.3,
-    21.2,
-    33.8
+    33.4,
+    29.7,
+    32.8
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-093",
-  "builder_name": "Morrigan Praetor",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-043",
-  "company_name": "VectorEnergy",
+  "color": "#d97706",
+  "builder_id": "agent-246",
+  "builder_name": "Bjarne Vaughan",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-103",
+  "company_name": "PrismSolutions",
   "completion": 1.0,
   "occupants": [
-    "Morrigan Praetor"
+    "Bjarne Vaughan"
   ],
-  "purpose": "Constructed by Morrigan Praetor for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
+  "purpose": "Constructed by Bjarne Vaughan for Supreme Court of Justice operations",
+  "floors": 6,
   "capacity": 35,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 6.0,
+  "power_consumption_mw": 7.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-363",
+  "name": "Tim's Shannon Information Spire #70 [SovereignSynthetics]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -49.2,
+    28.1,
+    179.3
+  ],
+  "size": [
+    16.8,
+    56.1,
+    16.3
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-239",
+  "builder_name": "Tim Johnson",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-090",
+  "company_name": "SovereignSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Tim Johnson"
+  ],
+  "purpose": "Constructed by Tim Johnson for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 3.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
