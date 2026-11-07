@@ -1,20 +1,20 @@
 {
   "id": "comp-102",
-  "name": "SovereignIntell",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-158",
-  "founder_name": "Valeria Zenith",
-  "headquarters_id": "bldg-289",
-  "headquarters_name": "SovereignIntell Headquarters",
+  "name": "StellarGenetics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-124",
+  "founder_name": "Sundar Hassabis",
+  "headquarters_id": "bldg-309",
+  "headquarters_name": "StellarGenetics Headquarters",
   "employees": [
-    "agent-158",
-    "agent-416",
-    "agent-299",
-    "agent-128"
+    "agent-124",
+    "agent-195",
+    "agent-137",
+    "agent-057"
   ],
-  "valuation_tokens": 523666,
+  "valuation_tokens": 491096,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 35
+  "color": "#ec4899",
+  "founded_at_tick": 34
 }

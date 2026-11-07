@@ -1,28 +1,28 @@
 {
   "id": "bldg-312",
-  "name": "Roxas's Cyber Living Township Beta #28 [OmniSynthetics]",
+  "name": "Katherine's Cyber Living Township Beta #79 [AxiomFederation]",
   "type": "Cyber Living Township Beta",
   "position": [
-    -59.3,
-    11.5,
-    -149.2
+    -33.5,
+    14.3,
+    -152.3
   ],
   "size": [
-    26.5,
-    23.0,
-    29.0
+    24.7,
+    28.5,
+    30.1
   ],
   "color": "#16a34a",
-  "builder_id": "agent-236",
-  "builder_name": "Roxas Glitch",
+  "builder_id": "agent-144",
+  "builder_name": "Katherine Beacon",
   "district": "Cyber Living Townships",
-  "company_id": "comp-094",
-  "company_name": "OmniSynthetics",
+  "company_id": "comp-020",
+  "company_name": "AxiomFederation",
   "completion": 1.0,
   "occupants": [
-    "Roxas Glitch"
+    "Katherine Beacon"
   ],
-  "purpose": "Constructed by Roxas Glitch for Cyber Living Township Beta operations",
+  "purpose": "Constructed by Katherine Beacon for Cyber Living Township Beta operations",
   "floors": 7,
   "capacity": 45,
   "departments": [
@@ -35,7 +35,7 @@
     "Acoustic Noise Cloak",
     "Community Dining Hall"
   ],
-  "power_consumption_mw": 7.4,
+  "power_consumption_mw": 8.2,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

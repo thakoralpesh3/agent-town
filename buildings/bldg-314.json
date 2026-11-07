@@ -1,41 +1,40 @@
 {
   "id": "bldg-314",
-  "name": "Astrid's Cyber Living Township Beta #48 [SolarFusion Grid]",
-  "type": "Cyber Living Township Beta",
+  "name": "Nick's Drone Logistics Freight Port #33 [PrismTechnologies AI]",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    -134.5,
-    15.4,
-    -40.4
+    97.8,
+    15.5,
+    -73.1
   ],
   "size": [
-    28.8,
-    30.9,
-    24.9
+    26.1,
+    31.1,
+    29.7
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-218",
-  "builder_name": "Astrid Liskov",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-007",
-  "company_name": "SolarFusion Grid",
+  "color": "#ea580c",
+  "builder_id": "agent-096",
+  "builder_name": "Nick Sovereign",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-066",
+  "company_name": "PrismTechnologies AI",
   "completion": 1.0,
   "occupants": [
-    "Astrid Liskov"
+    "Nick Sovereign"
   ],
-  "purpose": "Constructed by Astrid Liskov for Cyber Living Township Beta operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Nick Sovereign for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Residential Living",
-    "Private Study Modules",
-    "Biometric Circadian Suites"
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
   ],
   "amenities": [
-    "Living Mycelium Soil Mesh",
-    "Acoustic Noise Cloak",
-    "Community Dining Hall"
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
   ],
-  "power_consumption_mw": 3.5,
+  "power_consumption_mw": 2.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

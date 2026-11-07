@@ -1,20 +1,20 @@
 {
   "id": "comp-104",
-  "name": "AetherSynthetics",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-084",
-  "founder_name": "Darian Archon",
-  "headquarters_id": "bldg-292",
-  "headquarters_name": "AetherSynthetics Headquarters",
+  "name": "DeepSolutions",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-271",
+  "founder_name": "Veda LeCun",
+  "headquarters_id": "bldg-315",
+  "headquarters_name": "DeepSolutions Headquarters",
   "employees": [
-    "agent-084",
-    "agent-346",
-    "agent-320",
-    "agent-336"
+    "agent-271",
+    "agent-360",
+    "agent-380",
+    "agent-398"
   ],
-  "valuation_tokens": 620506,
+  "valuation_tokens": 281952,
   "products": [],
-  "color": "#ef4444",
+  "color": "#eab308",
   "founded_at_tick": 35
 }

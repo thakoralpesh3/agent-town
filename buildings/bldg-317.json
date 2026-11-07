@@ -1,0 +1,44 @@
+{
+  "id": "bldg-317",
+  "name": "Astrid's Biosphere Atmospheric Scrubber #82 [AeroIntell]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    30.0,
+    10.5,
+    -193.3
+  ],
+  "size": [
+    18.4,
+    21.1,
+    20.2
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-218",
+  "builder_name": "Astrid Liskov",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-076",
+  "company_name": "AeroIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Astrid Liskov"
+  ],
+  "purpose": "Constructed by Astrid Liskov for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

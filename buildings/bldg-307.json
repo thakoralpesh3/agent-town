@@ -1,0 +1,47 @@
+{
+  "id": "bldg-307",
+  "name": "Dorothy's Sovereign Capitol Building #74",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -59.8,
+    26.5,
+    -17.8
+  ],
+  "size": [
+    38.1,
+    53.0,
+    33.8
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-398",
+  "builder_name": "Dorothy Solstice",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Solstice"
+  ],
+  "purpose": "Constructed by Dorothy Solstice for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

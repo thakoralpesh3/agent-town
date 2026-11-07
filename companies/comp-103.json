@@ -1,19 +1,18 @@
 {
   "id": "comp-103",
-  "name": "SovereignSolutions",
+  "name": "PrismSolutions",
   "sector": "Sovereign Treasury & Smart Contract Law",
   "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-241",
-  "founder_name": "Rowan Citadel",
-  "headquarters_id": "bldg-290",
-  "headquarters_name": "SovereignSolutions Headquarters",
+  "founder_id": "agent-417",
+  "founder_name": "Ilya Sutskever",
+  "headquarters_id": "bldg-313",
+  "headquarters_name": "PrismSolutions Headquarters",
   "employees": [
-    "agent-241",
-    "agent-415",
-    "agent-244",
-    "agent-399"
+    "agent-417",
+    "agent-246",
+    "agent-173"
   ],
-  "valuation_tokens": 163724,
+  "valuation_tokens": 254267,
   "products": [],
   "color": "#eab308",
   "founded_at_tick": 35

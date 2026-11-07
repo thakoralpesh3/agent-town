@@ -1,40 +1,41 @@
 {
   "id": "bldg-303",
-  "name": "Ada's Drone Logistics Freight Port #65 [AxiomRobotics]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Cyrus's Cyber Living Township Beta #24 [OpenKernel Federation]",
+  "type": "Cyber Living Township Beta",
   "position": [
-    129.2,
-    14.0,
-    -176.9
+    -80.2,
+    19.3,
+    -62.4
   ],
   "size": [
-    25.1,
-    27.9,
-    29.9
+    30.5,
+    38.6,
+    27.4
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-062",
-  "builder_name": "Ada Knuth",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-062",
-  "company_name": "AxiomRobotics",
+  "color": "#16a34a",
+  "builder_id": "agent-270",
+  "builder_name": "Cyrus Weaver",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
   "completion": 1.0,
   "occupants": [
-    "Ada Knuth"
+    "Cyrus Weaver"
   ],
-  "purpose": "Constructed by Ada Knuth for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Cyrus Weaver for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 3.1,
+  "power_consumption_mw": 4.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

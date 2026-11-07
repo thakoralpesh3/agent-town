@@ -1,20 +1,18 @@
 {
   "id": "comp-101",
-  "name": "OmniDynamics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-186",
-  "founder_name": "Brendan Finney",
-  "headquarters_id": "bldg-285",
-  "headquarters_name": "OmniDynamics Headquarters",
+  "name": "QuantumIntell",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-016",
+  "founder_name": "Aristotle Veritas",
+  "headquarters_id": "bldg-304",
+  "headquarters_name": "QuantumIntell Headquarters",
   "employees": [
-    "agent-186",
-    "agent-331",
-    "agent-400",
-    "agent-370"
+    "agent-016",
+    "agent-373"
   ],
-  "valuation_tokens": 315917,
+  "valuation_tokens": 401606,
   "products": [],
-  "color": "#00f0ff",
+  "color": "#ef4444",
   "founded_at_tick": 34
 }

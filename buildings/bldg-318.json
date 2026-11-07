@@ -1,28 +1,28 @@
 {
   "id": "bldg-318",
-  "name": "Steve's Hypatia Grand University of Sciences #89 [TerraRobotics AI]",
+  "name": "Dennis's Hypatia Grand University of Sciences #93 [QuantumMatrix Systems]",
   "type": "Hypatia Grand University of Sciences",
   "position": [
-    183.1,
-    16.1,
-    33.0
+    81.0,
+    23.9,
+    22.2
   ],
   "size": [
-    37.1,
-    32.1,
-    40.6
+    40.2,
+    47.8,
+    40.0
   ],
   "color": "#a855f7",
-  "builder_id": "agent-383",
-  "builder_name": "Steve Nakamoto",
+  "builder_id": "agent-039",
+  "builder_name": "Dennis Vaughan",
   "district": "Quantum Science & University Campus",
-  "company_id": "comp-098",
-  "company_name": "TerraRobotics AI",
+  "company_id": "comp-004",
+  "company_name": "QuantumMatrix Systems",
   "completion": 1.0,
   "occupants": [
-    "Steve Nakamoto"
+    "Dennis Vaughan"
   ],
-  "purpose": "Constructed by Steve Nakamoto for Hypatia Grand University of Sciences operations",
+  "purpose": "Constructed by Dennis Vaughan for Hypatia Grand University of Sciences operations",
   "floors": 9,
   "capacity": 50,
   "departments": [
@@ -36,7 +36,7 @@
     "Ancient Algorithm Archive",
     "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 2.9,
+  "power_consumption_mw": 3.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
