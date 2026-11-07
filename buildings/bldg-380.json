@@ -1,41 +1,41 @@
 {
   "id": "bldg-380",
-  "name": "Rich's Cyber Living Township Alpha #98 [AxiomRobotics AI]",
-  "type": "Cyber Living Township Alpha",
+  "name": "Fei-Fei's Hyperloop Central Terminus #25 [BioLongevity Solutions]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    -158.1,
-    15.4,
-    -95.6
+    127.3,
+    12.0,
+    -126.2
   ],
   "size": [
-    29.1,
-    30.7,
-    26.1
+    36.6,
+    23.9,
+    37.1
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-422",
-  "builder_name": "Rich Murati",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-092",
-  "company_name": "AxiomRobotics AI",
+  "color": "#f97316",
+  "builder_id": "agent-298",
+  "builder_name": "Fei-Fei Valerius",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
   "completion": 1.0,
   "occupants": [
-    "Rich Murati"
+    "Fei-Fei Valerius"
   ],
-  "purpose": "Constructed by Rich Murati for Cyber Living Township Alpha operations",
-  "floors": 7,
+  "purpose": "Constructed by Fei-Fei Valerius for Hyperloop Central Terminus operations",
+  "floors": 4,
   "capacity": 45,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation Glade"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Recharging Beds",
-    "Filtered Atmosphere"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 5.8,
+  "power_consumption_mw": 7.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

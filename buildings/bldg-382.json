@@ -1,42 +1,41 @@
 {
   "id": "bldg-382",
-  "name": "Veda's Hypatia Grand University of Sciences #42 [SynapseSynthetics]",
-  "type": "Hypatia Grand University of Sciences",
+  "name": "Cassian's Autonomous Vehicle Mega-Plant #48 [TerraSolutions]",
+  "type": "Autonomous Vehicle Mega-Plant",
   "position": [
-    146.0,
-    20.4,
-    81.2
+    71.2,
+    13.6,
+    -120.3
   ],
   "size": [
-    36.4,
-    40.9,
-    38.6
+    33.0,
+    27.3,
+    34.8
   ],
-  "color": "#a855f7",
-  "builder_id": "agent-172",
-  "builder_name": "Veda Praetor",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-013",
-  "company_name": "SynapseSynthetics",
+  "color": "#f59e0b",
+  "builder_id": "agent-371",
+  "builder_name": "Cassian Knuth",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-096",
+  "company_name": "TerraSolutions",
   "completion": 1.0,
   "occupants": [
-    "Veda Praetor"
+    "Cassian Knuth"
   ],
-  "purpose": "Constructed by Veda Praetor for Hypatia Grand University of Sciences operations",
-  "floors": 9,
-  "capacity": 50,
+  "purpose": "Constructed by Cassian Knuth for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
   "departments": [
-    "Theoretical Physics",
-    "Autonomous Logic & AI Guild",
-    "Astrophysics",
-    "Material Nanotech"
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
   ],
   "amenities": [
-    "Grand Tiered Amphitheater",
-    "Ancient Algorithm Archive",
-    "Apprentice Research Studios"
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
   ],
-  "power_consumption_mw": 6.1,
+  "power_consumption_mw": 5.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

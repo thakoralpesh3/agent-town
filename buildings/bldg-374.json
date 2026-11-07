@@ -1,0 +1,45 @@
+{
+  "id": "bldg-374",
+  "name": "Gavin's Hydroponic Agricultural Biodome #15 [VectorNetworks]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    62.7,
+    11.3,
+    -92.9
+  ],
+  "size": [
+    29.2,
+    22.5,
+    32.5
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-089",
+  "builder_name": "Gavin Altman",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-100",
+  "company_name": "VectorNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Altman"
+  ],
+  "purpose": "Constructed by Gavin Altman for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 5.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

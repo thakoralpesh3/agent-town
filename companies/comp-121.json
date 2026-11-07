@@ -1,17 +1,17 @@
 {
   "id": "comp-121",
-  "name": "NeuroIntell",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-088",
-  "founder_name": "Evander Jobs",
-  "headquarters_id": "bldg-323",
-  "headquarters_name": "NeuroIntell Headquarters",
+  "name": "AxiomLogistics AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-206",
+  "founder_name": "Cassian Hopper",
+  "headquarters_id": "bldg-373",
+  "headquarters_name": "AxiomLogistics AI Headquarters",
   "employees": [
-    "agent-088"
+    "agent-206"
   ],
-  "valuation_tokens": 597926,
+  "valuation_tokens": 414503,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 39
+  "color": "#00f0ff",
+  "founded_at_tick": 42
 }

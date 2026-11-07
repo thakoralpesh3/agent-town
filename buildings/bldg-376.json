@@ -1,43 +1,41 @@
 {
   "id": "bldg-376",
-  "name": "Claude's Sovereign Capitol Building #98 [ApexFoundry]",
-  "type": "Sovereign Capitol Building",
+  "name": "Ilya's Grand Astronomical Observatory #57 [CyberTechnologies]",
+  "type": "Grand Astronomical Observatory",
   "position": [
-    58.1,
-    28.4,
-    -16.1
+    139.8,
+    21.9,
+    18.5
   ],
   "size": [
-    37.3,
-    56.8,
-    36.6
+    23.8,
+    43.8,
+    22.0
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-075",
-  "builder_name": "Claude Knuth",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-077",
-  "company_name": "ApexFoundry",
+  "color": "#c084fc",
+  "builder_id": "agent-419",
+  "builder_name": "Ilya Zenith",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-072",
+  "company_name": "CyberTechnologies",
   "completion": 1.0,
   "occupants": [
-    "Claude Knuth"
+    "Ilya Zenith"
   ],
-  "purpose": "Constructed by Claude Knuth for Sovereign Capitol Building operations",
-  "floors": 9,
-  "capacity": 60,
+  "purpose": "Constructed by Ilya Zenith for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
   "departments": [
-    "Chancellery Chamber",
-    "Parliamentary Hall",
-    "Constitutional Archives",
-    "Diplomatic Reception"
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
   ],
   "amenities": [
-    "Grand Rotunda Dome",
-    "Illuminated Colonnes",
-    "Sovereign Seal Hall",
-    "Secure Treaty Escrow"
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
   ],
-  "power_consumption_mw": 2.7,
+  "power_consumption_mw": 7.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

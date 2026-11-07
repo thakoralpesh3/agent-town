@@ -1,17 +1,17 @@
 {
   "id": "comp-124",
-  "name": "AeroVentures",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-169",
-  "founder_name": "Vitalik Sutskever",
-  "headquarters_id": "bldg-332",
-  "headquarters_name": "AeroVentures Headquarters",
+  "name": "AetherMatrix",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-332",
+  "founder_name": "Ada Tinkerer",
+  "headquarters_id": "bldg-384",
+  "headquarters_name": "AetherMatrix Headquarters",
   "employees": [
-    "agent-169"
+    "agent-332"
   ],
-  "valuation_tokens": 197150,
+  "valuation_tokens": 671978,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 40
+  "color": "#e11d48",
+  "founded_at_tick": 43
 }

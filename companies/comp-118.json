@@ -1,19 +1,18 @@
 {
   "id": "comp-118",
-  "name": "NeuroRobotics",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-320",
-  "founder_name": "Sol Strata",
-  "headquarters_id": "bldg-316",
-  "headquarters_name": "NeuroRobotics Headquarters",
+  "name": "OmniMatrix",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-276",
+  "founder_name": "Pixel Lamport",
+  "headquarters_id": "bldg-370",
+  "headquarters_name": "OmniMatrix Headquarters",
   "employees": [
-    "agent-320",
-    "agent-142",
-    "agent-300"
+    "agent-276",
+    "agent-447"
   ],
-  "valuation_tokens": 679324,
+  "valuation_tokens": 213411,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 38
+  "color": "#00f0ff",
+  "founded_at_tick": 42
 }

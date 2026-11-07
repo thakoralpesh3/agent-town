@@ -1,17 +1,17 @@
 {
   "id": "comp-122",
-  "name": "NexusTechnologies AI",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-281",
-  "founder_name": "Grace Sutskever",
-  "headquarters_id": "bldg-326",
-  "headquarters_name": "NexusTechnologies AI Headquarters",
+  "name": "SynapseRobotics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-261",
+  "founder_name": "Kassandra Flux",
+  "headquarters_id": "bldg-375",
+  "headquarters_name": "SynapseRobotics Headquarters",
   "employees": [
-    "agent-281"
+    "agent-261"
   ],
-  "valuation_tokens": 312942,
+  "valuation_tokens": 622510,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 39
+  "color": "#8b5cf6",
+  "founded_at_tick": 42
 }

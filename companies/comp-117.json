@@ -1,18 +1,20 @@
 {
   "id": "comp-117",
-  "name": "NexusTechnologies",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-440",
-  "founder_name": "Ryan Kahn",
-  "headquarters_id": "bldg-315",
-  "headquarters_name": "NexusTechnologies Headquarters",
+  "name": "NexusSynthetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-243",
+  "founder_name": "Geoffrey Kahn",
+  "headquarters_id": "bldg-368",
+  "headquarters_name": "NexusSynthetics Headquarters",
   "employees": [
-    "agent-440",
-    "agent-260"
+    "agent-243",
+    "agent-204",
+    "agent-300",
+    "agent-445"
   ],
-  "valuation_tokens": 320681,
+  "valuation_tokens": 279601,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 38
+  "color": "#00f0ff",
+  "founded_at_tick": 42
 }

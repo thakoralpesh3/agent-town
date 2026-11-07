@@ -1,0 +1,46 @@
+{
+  "id": "bldg-366",
+  "name": "Rob's Hypatia Grand University of Sciences #99 [SynapseSynthetics]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    70.0,
+    24.5,
+    43.8
+  ],
+  "size": [
+    37.6,
+    49.0,
+    38.5
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-315",
+  "builder_name": "Rob Hinton",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-013",
+  "company_name": "SynapseSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Rob Hinton"
+  ],
+  "purpose": "Constructed by Rob Hinton for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
