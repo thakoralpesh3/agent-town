@@ -1,41 +1,41 @@
 {
   "id": "bldg-322",
-  "name": "Roxas's Tokamak Fusion Reactor Station #11 [VectorDynamics]",
-  "type": "Tokamak Fusion Reactor Station",
+  "name": "Darian's Supreme Court of Justice #76",
+  "type": "Supreme Court of Justice",
   "position": [
-    -26.7,
-    11.0,
-    -97.7
+    -8.9,
+    17.3,
+    64.8
   ],
   "size": [
-    29.3,
-    22.1,
-    28.0
+    29.1,
+    34.5,
+    28.2
   ],
-  "color": "#be123c",
-  "builder_id": "agent-162",
-  "builder_name": "Roxas Vanguard",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-110",
-  "company_name": "VectorDynamics",
+  "color": "#d97706",
+  "builder_id": "agent-204",
+  "builder_name": "Darian Nakamoto",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": null,
+  "company_name": null,
   "completion": 1.0,
   "occupants": [
-    "Roxas Vanguard"
+    "Darian Nakamoto"
   ],
-  "purpose": "Constructed by Roxas Vanguard for Tokamak Fusion Reactor Station operations",
-  "floors": 4,
-  "capacity": 30,
+  "purpose": "Constructed by Darian Nakamoto for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
   "departments": [
-    "Magnetic Containment Pod",
-    "Superconducting Grid Dispatch",
-    "Plasma Diagnostics"
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
   ],
   "amenities": [
-    "Toroidal Vacuum Chamber",
-    "Cryo-Containment Ring",
-    "Direct Power Feeder"
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
   ],
-  "power_consumption_mw": 5.3,
+  "power_consumption_mw": 5.2,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0019",
+  "role": "Micro-Lending Pool Custodian",
+  "category": "Treasury",
+  "specialization": "Citizen Startup Financial Empowerment",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Micro-Lending Pool Custodian Hub",
+  "salary_offered": 14500,
+  "created_at_tick": 36,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-435",
+  "filled_by_agent_name": "Guido Hickey"
+}

@@ -1,41 +1,40 @@
 {
   "id": "bldg-334",
-  "name": "Valen's Cyber Living Township Alpha #43 [NeuroDynamics AI]",
-  "type": "Cyber Living Township Alpha",
+  "name": "Vitalik's Quantum Logic Foundry #43 [PrismDynamics AI]",
+  "type": "Quantum Logic Foundry",
   "position": [
-    -108.7,
-    15.6,
-    -38.7
+    90.2,
+    18.8,
+    65.8
   ],
   "size": [
-    29.6,
-    31.2,
-    30.4
+    27.0,
+    37.5,
+    28.3
   ],
-  "color": "#22c55e",
-  "builder_id": "agent-214",
-  "builder_name": "Valen Rayne",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-003",
-  "company_name": "NeuroDynamics AI",
+  "color": "#8b5cf6",
+  "builder_id": "agent-393",
+  "builder_name": "Vitalik Finney",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-097",
+  "company_name": "PrismDynamics AI",
   "completion": 1.0,
   "occupants": [
-    "Valen Rayne"
+    "Vitalik Finney"
   ],
-  "purpose": "Constructed by Valen Rayne for Cyber Living Township Alpha operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Vitalik Finney for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Residential Suites",
-    "Communal Kitchen",
-    "Quiet Meditation Glade"
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
   ],
   "amenities": [
-    "Aero-Garden Balconies",
-    "Induction Recharging Beds",
-    "Filtered Atmosphere"
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
   ],
-  "power_consumption_mw": 6.1,
+  "power_consumption_mw": 3.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

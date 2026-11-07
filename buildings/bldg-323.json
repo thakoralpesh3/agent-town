@@ -1,0 +1,45 @@
+{
+  "id": "bldg-323",
+  "name": "Morrigan's Hydroponic Agricultural Biodome #45 [NeuroSystems]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -14.4,
+    11.1,
+    -93.1
+  ],
+  "size": [
+    34.8,
+    22.1,
+    31.1
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-093",
+  "builder_name": "Morrigan Praetor",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-044",
+  "company_name": "NeuroSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Morrigan Praetor"
+  ],
+  "purpose": "Constructed by Morrigan Praetor for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 8.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

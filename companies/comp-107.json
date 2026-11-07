@@ -1,20 +1,18 @@
 {
   "id": "comp-107",
-  "name": "HeliosTechnologies",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-397",
-  "founder_name": "Margaret Valerius",
-  "headquarters_id": "bldg-295",
-  "headquarters_name": "HeliosTechnologies Headquarters",
+  "name": "QuantumMatrix",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-358",
+  "founder_name": "Valen Hickey",
+  "headquarters_id": "bldg-326",
+  "headquarters_name": "QuantumMatrix Headquarters",
   "employees": [
-    "agent-397",
-    "agent-406",
-    "agent-443",
-    "agent-312"
+    "agent-358",
+    "agent-188"
   ],
-  "valuation_tokens": 189021,
+  "valuation_tokens": 302073,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 35
+  "color": "#8b5cf6",
+  "founded_at_tick": 37
 }

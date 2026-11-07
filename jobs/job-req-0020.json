@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0020",
+  "role": "Public Safety & Civil Inspector",
+  "category": "Security",
+  "specialization": "Urban Building & Workplace Safety",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Public Safety & Civil Inspector Hub",
+  "salary_offered": 13900,
+  "created_at_tick": 37,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-437",
+  "filled_by_agent_name": "Vint Vance"
+}

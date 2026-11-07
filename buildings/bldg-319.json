@@ -1,41 +1,41 @@
 {
   "id": "bldg-319",
-  "name": "Katherine's The Agora Civic Forum #76 [AeroSystems]",
-  "type": "The Agora Civic Forum",
+  "name": "Donald's Hyperloop Central Terminus #31 [TerraSolutions]",
+  "type": "Hyperloop Central Terminus",
   "position": [
-    -173.8,
-    8.3,
-    -161.2
+    108.5,
+    8.8,
+    -149.8
   ],
   "size": [
-    31.9,
-    16.5,
-    25.2
+    40.4,
+    17.6,
+    34.3
   ],
-  "color": "#eab308",
-  "builder_id": "agent-144",
-  "builder_name": "Katherine Beacon",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-106",
-  "company_name": "AeroSystems",
+  "color": "#f97316",
+  "builder_id": "agent-372",
+  "builder_name": "Donald Sovereign",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-096",
+  "company_name": "TerraSolutions",
   "completion": 1.0,
   "occupants": [
-    "Katherine Beacon"
+    "Donald Sovereign"
   ],
-  "purpose": "Constructed by Katherine Beacon for The Agora Civic Forum operations",
+  "purpose": "Constructed by Donald Sovereign for Hyperloop Central Terminus operations",
   "floors": 4,
-  "capacity": 50,
+  "capacity": 45,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
   ],
-  "power_consumption_mw": 6.2,
+  "power_consumption_mw": 5.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

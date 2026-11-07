@@ -1,41 +1,43 @@
 {
   "id": "bldg-321",
-  "name": "Chronos's Hyperloop Central Terminus #21 [BioSynthetics]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Satya's Sovereign Capitol Building #83 [BioVentures]",
+  "type": "Sovereign Capitol Building",
   "position": [
-    149.2,
-    11.6,
-    -140.9
+    -58.0,
+    23.8,
+    57.8
   ],
   "size": [
-    31.8,
-    23.3,
-    30.8
+    40.7,
+    47.6,
+    33.7
   ],
-  "color": "#f97316",
-  "builder_id": "agent-268",
-  "builder_name": "Chronos Vanguard",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-025",
-  "company_name": "BioSynthetics",
+  "color": "#f59e0b",
+  "builder_id": "agent-115",
+  "builder_name": "Satya Smith",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-033",
+  "company_name": "BioVentures",
   "completion": 1.0,
   "occupants": [
-    "Chronos Vanguard"
+    "Satya Smith"
   ],
-  "purpose": "Constructed by Chronos Vanguard for Hyperloop Central Terminus operations",
-  "floors": 4,
-  "capacity": 45,
+  "purpose": "Constructed by Satya Smith for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 6.2,
+  "power_consumption_mw": 8.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

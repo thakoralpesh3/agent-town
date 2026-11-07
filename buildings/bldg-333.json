@@ -1,40 +1,41 @@
 {
   "id": "bldg-333",
-  "name": "Jensen's Quantum Logic Foundry #65 [VectorRobotics]",
-  "type": "Quantum Logic Foundry",
+  "name": "Hal's Cyber Living Township Alpha #74 [Sovereign Chancellery Core]",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    113.9,
-    17.7,
-    35.2
+    -163.0,
+    16.6,
+    -84.2
   ],
   "size": [
-    24.3,
-    35.3,
-    26.1
+    25.9,
+    33.3,
+    25.7
   ],
-  "color": "#8b5cf6",
-  "builder_id": "agent-195",
-  "builder_name": "Jensen Tinkerer",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-031",
-  "company_name": "VectorRobotics",
+  "color": "#22c55e",
+  "builder_id": "agent-168",
+  "builder_name": "Hal Hopper",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Jensen Tinkerer"
+    "Hal Hopper"
   ],
-  "purpose": "Constructed by Jensen Tinkerer for Quantum Logic Foundry operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Hal Hopper for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Topological Qubit Design",
-    "Lattice Cryptography",
-    "Quantum Error Correction"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Milli-Kelvin Dilution Refrigerators",
-    "Superconducting Shielded Vault"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 5.8,
+  "power_consumption_mw": 7.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

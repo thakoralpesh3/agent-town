@@ -1,38 +1,38 @@
 {
   "id": "bldg-331",
-  "name": "Cyrus's Biosphere Atmospheric Scrubber #72 [SovereignIntell]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Kaelen's Shannon Information Spire #89 [SynapseSystems]",
+  "type": "Shannon Information Spire",
   "position": [
-    9.8,
-    11.6,
-    -126.6
+    -4.2,
+    30.1,
+    92.6
   ],
   "size": [
-    18.1,
-    23.2,
-    18.1
+    21.3,
+    60.2,
+    20.6
   ],
-  "color": "#10b981",
-  "builder_id": "agent-128",
-  "builder_name": "Cyrus Spark",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-102",
-  "company_name": "SovereignIntell",
+  "color": "#0284c7",
+  "builder_id": "agent-348",
+  "builder_name": "Kaelen Hamilton",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-032",
+  "company_name": "SynapseSystems",
   "completion": 1.0,
   "occupants": [
-    "Cyrus Spark"
+    "Kaelen Hamilton"
   ],
-  "purpose": "Constructed by Cyrus Spark for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Kaelen Hamilton for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
   "power_consumption_mw": 7.8,
   "active_projects": [],

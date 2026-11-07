@@ -1,19 +1,20 @@
 {
   "id": "comp-108",
-  "name": "VectorVentures",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-322",
-  "founder_name": "Yann Lamport",
-  "headquarters_id": "bldg-296",
-  "headquarters_name": "VectorVentures Headquarters",
+  "name": "NeuroDynamics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-210",
+  "founder_name": "Seraph Odersky",
+  "headquarters_id": "bldg-329",
+  "headquarters_name": "NeuroDynamics AI Headquarters",
   "employees": [
-    "agent-322",
-    "agent-058",
-    "agent-221"
+    "agent-210",
+    "agent-157",
+    "agent-272",
+    "agent-263"
   ],
-  "valuation_tokens": 234397,
+  "valuation_tokens": 475023,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 35
+  "color": "#10b981",
+  "founded_at_tick": 37
 }

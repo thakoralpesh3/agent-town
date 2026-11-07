@@ -1,19 +1,19 @@
 {
   "id": "comp-106",
-  "name": "AeroSystems",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-144",
-  "founder_name": "Katherine Beacon",
-  "headquarters_id": "bldg-294",
-  "headquarters_name": "AeroSystems Headquarters",
+  "name": "TerraLabs",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-196",
+  "founder_name": "Iris Circuit",
+  "headquarters_id": "bldg-325",
+  "headquarters_name": "TerraLabs Headquarters",
   "employees": [
-    "agent-144",
-    "agent-301",
-    "agent-355"
+    "agent-196",
+    "agent-237",
+    "agent-382"
   ],
-  "valuation_tokens": 372317,
+  "valuation_tokens": 617831,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 35
+  "color": "#f59e0b",
+  "founded_at_tick": 37
 }

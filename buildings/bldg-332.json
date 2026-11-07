@@ -1,0 +1,45 @@
+{
+  "id": "bldg-332",
+  "name": "Talia's Supreme Court of Justice #55 [CyberTechnologies]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    17.8,
+    19.1,
+    52.3
+  ],
+  "size": [
+    32.3,
+    38.1,
+    28.8
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-036",
+  "builder_name": "Talia Zenith",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-072",
+  "company_name": "CyberTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Talia Zenith"
+  ],
+  "purpose": "Constructed by Talia Zenith for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
