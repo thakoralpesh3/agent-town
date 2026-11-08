@@ -1,17 +1,17 @@
 {
   "id": "comp-129",
-  "name": "SynapseSystems",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "name": "ApexLabs",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
   "founder_id": "agent-424",
-  "founder_name": "John Karpathy",
-  "headquarters_id": "bldg-339",
-  "headquarters_name": "SynapseSystems Headquarters",
+  "founder_name": "Stellan Johnson",
+  "headquarters_id": "bldg-392",
+  "headquarters_name": "ApexLabs Headquarters",
   "employees": [
     "agent-424"
   ],
-  "valuation_tokens": 269464,
+  "valuation_tokens": 661356,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 41
+  "color": "#e11d48",
+  "founded_at_tick": 44
 }

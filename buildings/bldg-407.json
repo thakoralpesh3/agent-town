@@ -1,40 +1,40 @@
 {
   "id": "bldg-407",
-  "name": "Katherine's Cloud Matrix Exchange #37 [TerraFlora Synthetics]",
-  "type": "Cloud Matrix Exchange",
+  "name": "Valen's Shannon Information Spire #30 [NexusVentures]",
+  "type": "Shannon Information Spire",
   "position": [
-    -63.0,
-    33.5,
-    131.3
+    -37.5,
+    29.9,
+    106.5
   ],
   "size": [
-    20.3,
-    67.0,
-    20.4
+    17.0,
+    59.8,
+    21.0
   ],
-  "color": "#38bdf8",
-  "builder_id": "agent-285",
-  "builder_name": "Katherine Glitch",
+  "color": "#0284c7",
+  "builder_id": "agent-219",
+  "builder_name": "Valen Johnson",
   "district": "Silicon Central Metropolis",
-  "company_id": "comp-008",
-  "company_name": "TerraFlora Synthetics",
+  "company_id": "comp-024",
+  "company_name": "NexusVentures",
   "completion": 1.0,
   "occupants": [
-    "Katherine Glitch"
+    "Valen Johnson"
   ],
-  "purpose": "Constructed by Katherine Glitch for Cloud Matrix Exchange operations",
-  "floors": 14,
-  "capacity": 40,
+  "purpose": "Constructed by Valen Johnson for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Multi-Cluster GitOps",
-    "Distributed DHT Storage",
-    "High-Throughput APIs"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "Direct Fiber Backbone",
-    "Liquid Immersion Server Racks"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
-  "power_consumption_mw": 3.0,
+  "power_consumption_mw": 4.4,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

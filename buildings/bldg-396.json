@@ -1,0 +1,47 @@
+{
+  "id": "bldg-396",
+  "name": "Nexus's Sovereign Capitol Building #91 [BioVentures]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -13.6,
+    23.7,
+    47.4
+  ],
+  "size": [
+    35.7,
+    47.4,
+    36.3
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-251",
+  "builder_name": "Nexus Beacon",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-033",
+  "company_name": "BioVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Nexus Beacon"
+  ],
+  "purpose": "Constructed by Nexus Beacon for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

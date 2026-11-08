@@ -1,41 +1,42 @@
 {
   "id": "bldg-401",
-  "name": "Ryan's Hydroponic Agricultural Biodome #81 [HyperNetworks]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Seraph's National Central Bank & Treasury #60 [ApexRobotics]",
+  "type": "National Central Bank & Treasury",
   "position": [
-    31.3,
-    12.4,
-    -162.0
+    60.9,
+    16.7,
+    29.2
   ],
   "size": [
-    33.0,
-    24.9,
-    36.1
+    27.6,
+    33.4,
+    35.3
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-054",
-  "builder_name": "Ryan Buterin",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-100",
-  "company_name": "HyperNetworks",
+  "color": "#eab308",
+  "builder_id": "agent-183",
+  "builder_name": "Seraph Weaver",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-088",
+  "company_name": "ApexRobotics",
   "completion": 1.0,
   "occupants": [
-    "Ryan Buterin"
+    "Seraph Weaver"
   ],
-  "purpose": "Constructed by Ryan Buterin for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Seraph Weaver for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 3.9,
+  "power_consumption_mw": 4.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

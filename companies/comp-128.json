@@ -1,17 +1,17 @@
 {
   "id": "comp-128",
-  "name": "AxiomEnergy",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-174",
-  "founder_name": "Barbara Vance",
-  "headquarters_id": "bldg-338",
-  "headquarters_name": "AxiomEnergy Headquarters",
+  "name": "ChronoVentures",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-206",
+  "founder_name": "Cassian Hopper",
+  "headquarters_id": "bldg-388",
+  "headquarters_name": "ChronoVentures Headquarters",
   "employees": [
-    "agent-174"
+    "agent-206"
   ],
-  "valuation_tokens": 410813,
+  "valuation_tokens": 737805,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 41
+  "color": "#eab308",
+  "founded_at_tick": 44
 }

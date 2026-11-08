@@ -1,0 +1,46 @@
+{
+  "id": "bldg-408",
+  "name": "Theron's Hypatia Grand University of Sciences #74 [HeliosRobotics]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    105.4,
+    23.8,
+    30.5
+  ],
+  "size": [
+    38.2,
+    47.6,
+    37.0
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-155",
+  "builder_name": "Theron Node",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-037",
+  "company_name": "HeliosRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Theron Node"
+  ],
+  "purpose": "Constructed by Theron Node for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

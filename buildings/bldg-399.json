@@ -1,40 +1,40 @@
 {
   "id": "bldg-399",
-  "name": "Felix's Biosphere Atmospheric Scrubber #48 [StellarFederation]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Lyra's Shannon Information Spire #71 [OpenKernel Federation]",
+  "type": "Shannon Information Spire",
   "position": [
-    -64.6,
-    13.2,
-    -86.4
+    -15.4,
+    26.5,
+    104.2
   ],
   "size": [
-    18.4,
-    26.4,
-    22.2
+    19.2,
+    53.1,
+    18.1
   ],
-  "color": "#10b981",
-  "builder_id": "agent-305",
-  "builder_name": "Felix Praetor",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-053",
-  "company_name": "StellarFederation",
+  "color": "#0284c7",
+  "builder_id": "agent-038",
+  "builder_name": "Lyra Orbit",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
   "completion": 1.0,
   "occupants": [
-    "Felix Praetor"
+    "Lyra Orbit"
   ],
-  "purpose": "Constructed by Felix Praetor for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Lyra Orbit for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
   ],
-  "power_consumption_mw": 7.4,
+  "power_consumption_mw": 6.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

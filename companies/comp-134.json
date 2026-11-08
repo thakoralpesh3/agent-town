@@ -1,17 +1,17 @@
 {
   "id": "comp-134",
-  "name": "PrismGenetics AI",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-410",
-  "founder_name": "Cyrus Huang",
-  "headquarters_id": "bldg-348",
-  "headquarters_name": "PrismGenetics AI Headquarters",
+  "name": "ChronoNetworks AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-347",
+  "founder_name": "Pixel Praetor",
+  "headquarters_id": "bldg-409",
+  "headquarters_name": "ChronoNetworks AI Headquarters",
   "employees": [
-    "agent-410"
+    "agent-347"
   ],
-  "valuation_tokens": 560752,
+  "valuation_tokens": 692912,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 42
+  "color": "#f59e0b",
+  "founded_at_tick": 45
 }

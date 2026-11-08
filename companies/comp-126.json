@@ -1,17 +1,17 @@
 {
   "id": "comp-126",
-  "name": "HyperRobotics",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-081",
-  "founder_name": "Nova Rayne",
-  "headquarters_id": "bldg-336",
-  "headquarters_name": "HyperRobotics Headquarters",
+  "name": "QuantumMatrix AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-220",
+  "founder_name": "Helios Blaze",
+  "headquarters_id": "bldg-386",
+  "headquarters_name": "QuantumMatrix AI Headquarters",
   "employees": [
-    "agent-081"
+    "agent-220"
   ],
-  "valuation_tokens": 382928,
+  "valuation_tokens": 585407,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 40
+  "color": "#e11d48",
+  "founded_at_tick": 44
 }

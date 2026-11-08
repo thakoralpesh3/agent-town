@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0023",
+  "role": "Maglev Rail Precision Mechanist",
+  "category": "Transportation",
+  "specialization": "Frictionless Magnetic Train Propulsion",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Maglev Rail Precision Mechanist Hub",
+  "salary_offered": 14900,
+  "created_at_tick": 44,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-457",
+  "filled_by_agent_name": "Steve Prism"
+}

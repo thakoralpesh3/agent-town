@@ -1,0 +1,44 @@
+{
+  "id": "bldg-403",
+  "name": "Pixel's Quantum Logic Foundry #55 [HyperFoundry]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    140.0,
+    14.0,
+    104.7
+  ],
+  "size": [
+    23.8,
+    28.0,
+    25.8
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-328",
+  "builder_name": "Pixel Kahn",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-095",
+  "company_name": "HyperFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Kahn"
+  ],
+  "purpose": "Constructed by Pixel Kahn for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

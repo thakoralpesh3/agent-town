@@ -1,40 +1,42 @@
 {
   "id": "bldg-389",
-  "name": "Yoshua's Quantum Logic Foundry #98 [BioMatrix]",
-  "type": "Quantum Logic Foundry",
+  "name": "Sam's National Hospital & Nanomedical Citadel #50 [BioMatrix]",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    104.0,
-    12.0,
-    16.3
+    -165.6,
+    26.2,
+    6.8
   ],
   "size": [
-    25.2,
-    23.9,
-    26.6
+    35.7,
+    52.4,
+    35.8
   ],
-  "color": "#8b5cf6",
-  "builder_id": "agent-222",
-  "builder_name": "Yoshua Brockman",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-115",
+  "color": "#ef4444",
+  "builder_id": "agent-346",
+  "builder_name": "Sam Mercer",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-063",
   "company_name": "BioMatrix",
   "completion": 1.0,
   "occupants": [
-    "Yoshua Brockman"
+    "Sam Mercer"
   ],
-  "purpose": "Constructed by Yoshua Brockman for Quantum Logic Foundry operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Sam Mercer for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
   "departments": [
-    "Topological Qubit Design",
-    "Lattice Cryptography",
-    "Quantum Error Correction"
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
   ],
   "amenities": [
-    "Milli-Kelvin Dilution Refrigerators",
-    "Superconducting Shielded Vault"
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 4.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

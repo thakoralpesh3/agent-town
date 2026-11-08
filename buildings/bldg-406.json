@@ -1,42 +1,41 @@
 {
   "id": "bldg-406",
-  "name": "Roxas's National Hospital & Nanomedical Citadel #82 [AeroCyber Mobility]",
-  "type": "National Hospital & Nanomedical Citadel",
+  "name": "Darian's Cyber Living Township Alpha #41 [NeuroMatrix AI]",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    -76.7,
-    22.3,
-    33.5
+    -28.1,
+    17.2,
+    -104.6
   ],
   "size": [
-    28.9,
-    44.7,
-    37.3
+    24.1,
+    34.4,
+    27.6
   ],
-  "color": "#ef4444",
-  "builder_id": "agent-141",
-  "builder_name": "Roxas Aurelius",
-  "district": "Health Citadel & Medical Complex",
-  "company_id": "comp-006",
-  "company_name": "AeroCyber Mobility",
+  "color": "#22c55e",
+  "builder_id": "agent-367",
+  "builder_name": "Darian Armstrong",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-061",
+  "company_name": "NeuroMatrix AI",
   "completion": 1.0,
   "occupants": [
-    "Roxas Aurelius"
+    "Darian Armstrong"
   ],
-  "purpose": "Constructed by Roxas Aurelius for National Hospital & Nanomedical Citadel operations",
-  "floors": 10,
-  "capacity": 55,
+  "purpose": "Constructed by Darian Armstrong for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Emergency Trauma & Triage",
-    "Nanotech Robotic Surgery",
-    "Cellular Regeneration",
-    "Epidemic Control"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Rooftop VTOL Helipads",
-    "Cryogenic Stasis Chambers",
-    "Sterile Nanotech Cleanrooms"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 4.2,
+  "power_consumption_mw": 3.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
