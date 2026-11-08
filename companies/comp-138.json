@@ -1,17 +1,17 @@
 {
   "id": "comp-138",
-  "name": "SynapseLabs",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-280",
-  "founder_name": "Lyra Nadella",
-  "headquarters_id": "bldg-363",
-  "headquarters_name": "SynapseLabs Headquarters",
+  "name": "SolarLabs",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-139",
+  "founder_name": "Seraph Tinkerer",
+  "headquarters_id": "bldg-420",
+  "headquarters_name": "SolarLabs Headquarters",
   "employees": [
-    "agent-280"
+    "agent-139"
   ],
-  "valuation_tokens": 637511,
+  "valuation_tokens": 432808,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 44
+  "color": "#eab308",
+  "founded_at_tick": 47
 }

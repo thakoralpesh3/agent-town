@@ -1,17 +1,17 @@
 {
   "id": "comp-137",
-  "name": "CyberRobotics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-109",
-  "founder_name": "Aria Archon",
-  "headquarters_id": "bldg-358",
-  "headquarters_name": "CyberRobotics Headquarters",
+  "name": "ChronoFoundry",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-293",
+  "founder_name": "Callum Vex",
+  "headquarters_id": "bldg-417",
+  "headquarters_name": "ChronoFoundry Headquarters",
   "employees": [
-    "agent-109"
+    "agent-293"
   ],
-  "valuation_tokens": 312446,
+  "valuation_tokens": 386263,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 44
+  "color": "#ec4899",
+  "founded_at_tick": 47
 }

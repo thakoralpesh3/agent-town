@@ -1,42 +1,43 @@
 {
   "id": "bldg-418",
-  "name": "Vitalik's National Central Bank & Treasury #92 [AetherSystems]",
-  "type": "National Central Bank & Treasury",
+  "name": "Guido's Sovereign Capitol Building #67 [HeliosTechnologies]",
+  "type": "Sovereign Capitol Building",
   "position": [
-    -10.5,
-    17.2,
-    51.8
+    23.9,
+    28.3,
+    16.7
   ],
   "size": [
-    33.2,
-    34.5,
-    30.9
+    42.1,
+    56.5,
+    39.7
   ],
-  "color": "#eab308",
-  "builder_id": "agent-323",
-  "builder_name": "Vitalik Buterin",
+  "color": "#f59e0b",
+  "builder_id": "agent-435",
+  "builder_name": "Guido Hickey",
   "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-029",
-  "company_name": "AetherSystems",
+  "company_id": "comp-111",
+  "company_name": "HeliosTechnologies",
   "completion": 1.0,
   "occupants": [
-    "Vitalik Buterin"
+    "Guido Hickey"
   ],
-  "purpose": "Constructed by Vitalik Buterin for National Central Bank & Treasury operations",
-  "floors": 8,
-  "capacity": 45,
+  "purpose": "Constructed by Guido Hickey for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Sovereign Wealth Reserve",
-    "Algorithmic Monetary Core",
-    "DeFi Liquidity Hub",
-    "Bond Issuance"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Deep Underground Cold Vault",
-    "Quantum Key Distribution Link",
-    "Dynamic Exchange Floor"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 7.9,
+  "power_consumption_mw": 4.3,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

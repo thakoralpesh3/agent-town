@@ -1,0 +1,44 @@
+{
+  "id": "bldg-419",
+  "name": "Dorothy's Cloud Matrix Exchange #32 [PrismDynamics AI]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    13.0,
+    22.4,
+    166.3
+  ],
+  "size": [
+    22.6,
+    44.9,
+    22.1
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-391",
+  "builder_name": "Dorothy Spark",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-097",
+  "company_name": "PrismDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Spark"
+  ],
+  "purpose": "Constructed by Dorothy Spark for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

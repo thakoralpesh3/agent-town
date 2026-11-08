@@ -1,0 +1,45 @@
+{
+  "id": "bldg-416",
+  "name": "Julian's Cyber Living Township Alpha #25 [AeroCyber Mobility]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -87.2,
+    12.6,
+    -134.4
+  ],
+  "size": [
+    29.6,
+    25.3,
+    29.8
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-284",
+  "builder_name": "Julian Node",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Node"
+  ],
+  "purpose": "Constructed by Julian Node for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
