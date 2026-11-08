@@ -15,6 +15,8 @@ class InteractionController {
     this.mouse = new THREE.Vector2();
     this.followedAgent = null;
     this.isFollowing = false;
+    this.keys = {};
+    this._hoverScheduled = false;
 
     this._bindEvents();
   }
@@ -26,15 +28,16 @@ class InteractionController {
       this.mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
       this.mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
 
-      // Hover feedback
-      this.raycaster.setFromCamera(this.mouse, this.camera);
-      const objects = [...this.agentManager.interactiveObjects, ...this.townRenderer.interactiveObjects];
-      const intersects = this.raycaster.intersectObjects(objects);
-
-      if (intersects.length > 0) {
-        dom.style.cursor = 'pointer';
-      } else {
-        dom.style.cursor = 'default';
+      // Throttled hover feedback
+      if (!this._hoverScheduled) {
+        this._hoverScheduled = true;
+        requestAnimationFrame(() => {
+          this._hoverScheduled = false;
+          this.raycaster.setFromCamera(this.mouse, this.camera);
+          const objects = [...this.agentManager.interactiveObjects, ...this.townRenderer.interactiveObjects];
+          const intersects = this.raycaster.intersectObjects(objects);
+          dom.style.cursor = intersects.length > 0 ? 'pointer' : 'default';
+        });
       }
     });
 
@@ -54,6 +57,46 @@ class InteractionController {
           this.handleSelection(hit.userData.data, hit.userData.type);
         }
       }
+    });
+
+    // Keyboard Navigation & Hotkeys
+    window.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      this.keys[e.key.toLowerCase()] = true;
+
+      if (e.key === 'f' || e.key === 'F') {
+        this.toggleFollow();
+      } else if (e.key === 'l' || e.key === 'L') {
+        if (this.agentManager) this.agentManager.toggleLabels();
+      } else if (e.key === '1') {
+        document.getElementById('cam-iso')?.click();
+      } else if (e.key === '2') {
+        document.getElementById('cam-top')?.click();
+      } else if (e.key === '3') {
+        document.getElementById('cam-street')?.click();
+      } else if (e.key === 'n' || e.key === 'N') {
+        document.getElementById('btn-day-night')?.click();
+      } else if (e.key === ' ' || e.code === 'Space') {
+        e.preventDefault();
+        document.getElementById('btn-trigger-tick')?.click();
+      } else if (e.key === 'Escape') {
+        if (this.ui) this.ui.closeInspector();
+        document.getElementById('search-hud')?.classList.remove('mobile-open');
+        this.ui?.closeModal?.();
+      } else if (e.key === '/') {
+        e.preventDefault();
+        const searchHud = document.getElementById('search-hud');
+        const searchInput = document.getElementById('agent-search-input');
+        if (searchHud && searchInput) {
+          searchHud.classList.add('mobile-open');
+          searchInput.focus();
+          searchInput.select();
+        }
+      }
+    });
+
+    window.addEventListener('keyup', (e) => {
+      this.keys[e.key.toLowerCase()] = false;
     });
   }
 
@@ -145,5 +188,51 @@ class InteractionController {
     const offset = new THREE.Vector3(12, 10, 12);
     this.camera.position.lerp(new THREE.Vector3(ax + offset.x, ay + offset.y, az + offset.z), 0.05);
     this.controls.update();
+  }
+
+  updateKeyboardNavigation() {
+    if (this.isFollowing) return;
+    const moveSpeed = 1.3;
+    const forward = new THREE.Vector3();
+    this.camera.getWorldDirection(forward);
+    forward.y = 0;
+    forward.normalize();
+    const right = new THREE.Vector3();
+    right.crossVectors(this.camera.up, forward).negate().normalize();
+
+    let moved = false;
+    if (this.keys['w'] || this.keys['arrowup']) {
+      this.camera.position.addScaledVector(forward, moveSpeed);
+      this.controls.target.addScaledVector(forward, moveSpeed);
+      moved = true;
+    }
+    if (this.keys['s'] || this.keys['arrowdown']) {
+      this.camera.position.addScaledVector(forward, -moveSpeed);
+      this.controls.target.addScaledVector(forward, -moveSpeed);
+      moved = true;
+    }
+    if (this.keys['a'] || this.keys['arrowleft']) {
+      this.camera.position.addScaledVector(right, -moveSpeed);
+      this.controls.target.addScaledVector(right, -moveSpeed);
+      moved = true;
+    }
+    if (this.keys['d'] || this.keys['arrowright']) {
+      this.camera.position.addScaledVector(right, moveSpeed);
+      this.controls.target.addScaledVector(right, moveSpeed);
+      moved = true;
+    }
+    if (this.keys['q']) {
+      this.camera.position.y += moveSpeed * 0.8;
+      this.controls.target.y += moveSpeed * 0.8;
+      moved = true;
+    }
+    if (this.keys['e']) {
+      this.camera.position.y = Math.max(2, this.camera.position.y - moveSpeed * 0.8);
+      this.controls.target.y = Math.max(0, this.controls.target.y - moveSpeed * 0.8);
+      moved = true;
+    }
+    if (moved) {
+      this.controls.update();
+    }
   }
 }

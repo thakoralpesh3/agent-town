@@ -2,8 +2,8 @@ name: GitHub Tech Town 24/7 Life Cycle
 
 on:
   schedule:
-    # Run every 15 minutes automatically 24/7 on GitHub
-    - cron: '*/15 * * * *'
+    # Run offset from top of hour (e.g. at minutes 7, 22, 37, 52) to avoid GitHub Actions peak queue delays
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
     inputs:
       ticks:
@@ -43,8 +43,8 @@ jobs:
         run: |
           git config --global user.name "GitHub Tech Town Bot"
           git config --global user.email "bot@github-tech-town.local"
-          git pull --rebase origin main || true
-          git push origin main || echo "No changes or conflict auto-resolved"
+          git pull --rebase -X theirs origin main || (git rebase --abort && git pull origin main) || true
+          git push origin main || echo "No new commits or conflict safely skipped"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

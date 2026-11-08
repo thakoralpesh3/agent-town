@@ -25,7 +25,7 @@ class TownRenderer {
     this.buildingMeshes = new Map();
     this.interactiveObjects = [];
 
-    this.isInteriorMode = true;
+    this.isInteriorMode = false;
     this.focusedBuildingId = null;
     this.sharedGlassMat = new THREE.MeshStandardMaterial({
       color: 0x93c5fd,
@@ -1130,6 +1130,7 @@ class TownRenderer {
 
       // Build and attach detailed 3D interior
       const interiorGroup = this._buildBuildingInterior(b, w, h, d);
+      interiorGroup.visible = this.isInteriorMode;
       group.add(interiorGroup);
 
       group.userData = {
@@ -1271,10 +1272,12 @@ class TownRenderer {
     floorMesh.receiveShadow = true;
     interiorGroup.add(floorMesh);
 
-    // 2. Soft Overhead Interior Illumination
+    // 2. Soft Overhead Interior Illumination (enabled on focus to avoid WebGL light count limits)
     const interiorLight = new THREE.PointLight(isResidential ? 0xfef08a : 0xbae6fd, 1.2, Math.max(w, d) * 1.6);
     interiorLight.position.set(0, 3.8, 0);
+    interiorLight.visible = false;
     interiorGroup.add(interiorLight);
+    interiorGroup.userData = { interiorLight: interiorLight };
 
     if (isResidential) {
       // Residential Bedroom Suites with Comfortable Beds & Nightstands
@@ -1627,7 +1630,10 @@ class TownRenderer {
       });
 
       if (interior) {
-        interior.visible = true;
+        interior.visible = makeCutaway;
+        if (interior.userData && interior.userData.interiorLight) {
+          interior.userData.interiorLight.visible = isFocused;
+        }
       }
     });
 
@@ -1635,10 +1641,8 @@ class TownRenderer {
   }
 
   focusBuildingInterior(buildingId) {
-    if (this.focusedBuildingId === buildingId && this.isInteriorMode) return;
+    if (this.focusedBuildingId === buildingId) return;
     this.focusedBuildingId = buildingId;
-    if (!this.isInteriorMode) {
-      this.toggleInteriorMode(true);
-    }
+    this.toggleInteriorMode(this.isInteriorMode);
   }
 }

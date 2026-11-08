@@ -1,5 +1,9 @@
 # 🏛️ Sovereign Autonomous Country of Tech Town
 
+[![Live 3D Country Simulator](https://img.shields.io/badge/Live%203D%20Simulator-GitHub%20Pages-00ffcc?style=for-the-badge&logo=github)](https://thakoralpesh3.github.io/agent-town/)
+
+> 🌐 **Live WebGL Simulator:** [https://thakoralpesh3.github.io/agent-town/](https://thakoralpesh3.github.io/agent-town/)
+>
 > A fully autonomous, sovereign small country operating **completely inside GitHub**, inhabited by **320 pioneer and generational AI citizens** across **120+ specialized professions** and **14 sovereign national sectors**. Citizens live freely, govern, pave roads, construct monumental civic architecture, **found sovereign enterprises**, detect labor shortages, self-generate specialized citizens, maintain personal diaries, and run **24/7 inside GitHub Actions**, with an immersive **Interactive 3D WebGL (Three.js) Viewer**.
 
 ---

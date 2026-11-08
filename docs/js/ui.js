@@ -175,9 +175,69 @@ class UIController {
       });
     }
 
+    // Modal Close Listeners
+    const modalBackdrop = document.getElementById("info-modal-backdrop");
+    const modalCloseBtn = document.getElementById("modal-close-btn");
+    if (modalCloseBtn) modalCloseBtn.addEventListener("click", () => this.closeModal());
+    if (modalBackdrop) {
+      modalBackdrop.addEventListener("click", (e) => {
+        if (e.target === modalBackdrop) this.closeModal();
+      });
+    }
+
+    // Step Simulation Tick Button
+    const btnTick = document.getElementById("btn-trigger-tick");
+    if (btnTick) {
+      btnTick.addEventListener("click", async () => {
+        btnTick.style.transform = "scale(0.9)";
+        setTimeout(() => { btnTick.style.transform = "scale(1)"; }, 150);
+        try {
+          const res = await fetch("api/tick", { method: "POST" });
+          if (res.ok) {
+            const data = await res.json();
+            const ticker = document.getElementById("ticker-text");
+            if (ticker) ticker.textContent = `⚡ Simulation Tick ${data.tick} processed! (Pop: ${data.population})`;
+            if (window.app) window.app.fetchWorldState(true);
+          } else {
+            throw new Error();
+          }
+        } catch {
+          // Client simulation fallback (e.g. GitHub Pages)
+          if (window.app && window.app.currentState) {
+            window.app.currentState.tick = (window.app.currentState.tick || 0) + 1;
+            const ticker = document.getElementById("ticker-text");
+            if (ticker) ticker.textContent = `⚡ Client simulation advanced to Tick ${window.app.currentState.tick}.`;
+            window.app.applyWorldState(window.app.currentState, true);
+          }
+        }
+      });
+    }
+
     // Help Dialog
     document.getElementById("btn-help").addEventListener("click", () => {
-      alert("🏛️ Sovereign Country of Tech Town (Operator L5 Active)\n\n• 320 pioneer citizens across 120+ specialized professions and 14 national sectors living 24/7 inside this GitHub repo.\n• All creations, blueprints, job requisitions, and diaries are stored in GitHub.\n• Autonomous Workforce Deficiency Detection: When labor deficits are identified, town agents autonomously post requisitions and self-generate specialized agents.\n• Confidential Operator Level 5 Clearance: Private telemetry, internal directives, token compensations, and thoughts are restricted to your operator HUD.\n• Interactive Inspection: Click any agent, building, monument, or vehicle to view full specs, desk occupancy, departments, and interactive tenant rosters!\n• Bi-Directional Operator Link: Select an agent to query live status, thoughts, tools, or issue priority orders (construction, vehicle craft, road pave, code commit).\n• Use Zoom In/Out (+/-) or mouse wheel to navigate.");
+      this.showModal("🏛️ Sovereign Tech Town Guide & Controls", `
+        <p>A sovereign AI country running 24/7 inside GitHub with <strong>320 autonomous citizens</strong> across 14 national sectors.</p>
+        
+        <h4>🎮 Interactive Navigation & Hotkeys</h4>
+        <ul>
+          <li><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> or <kbd>Arrow Keys</kbd>: Smooth 3D camera pan</li>
+          <li><kbd>Q</kbd> / <kbd>E</kbd>: Fly camera elevation Up / Down</li>
+          <li><kbd>1</kbd> / <kbd>2</kbd> / <kbd>3</kbd>: Isometric, Overview, and Street View presets</li>
+          <li><kbd>Space</kbd>: Step simulation (+1 Tick)</li>
+          <li><kbd>I</kbd>: Toggle 3D Interior X-Ray cutaway view</li>
+          <li><kbd>F</kbd>: Follow currently selected citizen</li>
+          <li><kbd>L</kbd>: Toggle citizen nameplates</li>
+          <li><kbd>N</kbd>: Toggle Day / Night circadian schedule</li>
+          <li><kbd>/</kbd>: Focus citizen & facility search bar</li>
+          <li><kbd>Esc</kbd>: Close inspector drawers and modals</li>
+        </ul>
+
+        <h4>👑 Operator Level 5 Directives</h4>
+        <ul>
+          <li>Click any citizen, building, or vehicle to inspect live status, shift, inner thoughts, and blueprints.</li>
+          <li>Transmit inquiries or direct action orders: <em>Build facility, Craft vehicle, Pave road, Commit code, Walk to district, Recharge energy</em>.</li>
+        </ul>
+      `);
     });
 
     // Operator Clearance Badge Details Modal
@@ -185,7 +245,17 @@ class UIController {
     if (opBadge) {
       opBadge.style.cursor = "pointer";
       opBadge.addEventListener("click", () => {
-        alert("👑 OPERATOR SECURE CLEARANCE LEVEL 5 // AUTHENTICATED\n\n• Identity: Primary Operator (You)\n• Authority: Sole interaction & command rights over all 320+ citizens\n• Telemetry: Unrestricted access to thoughts, salaries, and blueprints\n• Bi-Directional Comms: Active (Select any agent in 3D to ask questions or order tasks)\n• External Access: Strictly Blocked (All non-operator commands rejected)");
+        this.showModal("👑 Operator Level 5 Clearance Authenticated", `
+          <p>Confidential Operator clearance telemetry decrypted and active.</p>
+          <h4>Security Clearance Matrix</h4>
+          <ul>
+            <li><strong>Clearance Level:</strong> Level 5 (Highest Sovereign Authority)</li>
+            <li><strong>Authority:</strong> Sole interaction and directive rights over all 320+ citizens.</li>
+            <li><strong>Bi-Directional Comms:</strong> Select any citizen in 3D to query thoughts, review private logs, or command tasks.</li>
+            <li><strong>Workforce Detection:</strong> Autonomous job requisitions and generational citizen births automatically reported.</li>
+            <li><strong>External Access:</strong> Blocked (Restricted strictly to authenticated operator).</li>
+          </ul>
+        `);
       });
     }
 
@@ -1179,5 +1249,19 @@ class UIController {
     if (this.agentManager) {
       this.agentManager.showDirectiveFeedback(agent.id, reply);
     }
+  }
+
+  showModal(title, htmlContent) {
+    const backdrop = document.getElementById("info-modal-backdrop");
+    const titleEl = document.getElementById("modal-title");
+    const bodyEl = document.getElementById("modal-body");
+    if (titleEl) titleEl.innerHTML = title;
+    if (bodyEl) bodyEl.innerHTML = htmlContent;
+    if (backdrop) backdrop.style.display = "flex";
+  }
+
+  closeModal() {
+    const backdrop = document.getElementById("info-modal-backdrop");
+    if (backdrop) backdrop.style.display = "none";
   }
 }

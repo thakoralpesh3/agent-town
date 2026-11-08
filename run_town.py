@@ -15,8 +15,10 @@ from town.simulation import TownEngine
 from town.generator import generate_initial_state
 from town.git_ops import commit_town_activity
 
-def serve_web(port: int = 8000, directory: str = "docs", engine: Optional[TownEngine] = None, auto_commit: bool = False):
+def serve_web(port: int = 8000, directory: str = "docs", engine: Optional[TownEngine] = None, auto_commit: bool = False, auto_push: bool = False, engine_lock: Optional[threading.Lock] = None):
     """Serves the 3D Tech Town WebGL viewer with live API endpoint for operator orders."""
+    lock = engine_lock or threading.Lock()
+
     class Handler(http.server.SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, directory=directory, **kwargs)
@@ -25,18 +27,36 @@ def serve_web(port: int = 8000, directory: str = "docs", engine: Optional[TownEn
             # Suppress noisy HTTP asset logs
             pass
 
+        def end_headers(self):
+            # Safe CORS & Cache headers for local / cross-origin inspection
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+            self.send_header("Access-Control-Allow-Headers", "Content-Type")
+            super().end_headers()
+
+        def do_OPTIONS(self):
+            self.send_response(204)
+            self.end_headers()
+
         def do_POST(self):
             if self.path == "/api/command" and engine:
                 content_length = int(self.headers.get("Content-Length", 0))
+                if content_length > 65536:
+                    self.send_response(413)
+                    self.send_header("Content-Type", "application/json")
+                    self.end_headers()
+                    self.wfile.write(b'{"error": "Payload too large"}')
+                    return
                 body = self.rfile.read(content_length).decode("utf-8") if content_length > 0 else "{}"
                 try:
                     data = json.loads(body)
-                    cmd = data.get("command", "")
-                    agent_id = data.get("agent_id") or "agent-001"
-                    res = engine.process_agent_order(agent_id, cmd)
-                    engine.save_state()
-                    if auto_commit:
-                        commit_town_activity(engine.state.recent_events, engine.state.tick)
+                    cmd = str(data.get("command", "")).strip()[:500]
+                    agent_id = str(data.get("agent_id") or "agent-001").strip()[:64]
+                    with lock:
+                        res = engine.process_agent_order(agent_id, cmd)
+                        engine.save_state()
+                        if auto_commit:
+                            commit_town_activity(engine.state.recent_events, engine.state.tick, push=auto_push)
                     self.send_response(200)
                     self.send_header("Content-Type", "application/json")
                     self.end_headers()
@@ -47,13 +67,20 @@ def serve_web(port: int = 8000, directory: str = "docs", engine: Optional[TownEn
                     self.end_headers()
                     self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
             elif self.path == "/api/tick" and engine:
-                state = engine.tick()
-                if auto_commit:
-                    commit_town_activity(state.recent_events, state.tick)
-                self.send_response(200)
-                self.send_header("Content-Type", "application/json")
-                self.end_headers()
-                self.wfile.write(json.dumps({"tick": state.tick, "population": len(state.agents)}).encode("utf-8"))
+                try:
+                    with lock:
+                        state = engine.tick()
+                        if auto_commit:
+                            commit_town_activity(state.recent_events, state.tick, push=auto_push)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"tick": state.tick, "population": len(state.agents)}).encode("utf-8"))
+                except Exception as e:
+                    self.send_response(500)
+                    self.send_header("Content-Type", "application/json")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
             else:
                 self.send_response(404)
                 self.end_headers()
@@ -77,6 +104,7 @@ def main():
     parser.add_argument("--command", type=str, help="Issue a direct user command or question to the town agents")
     parser.add_argument("--agent", type=str, default=None, help="Target specific agent by ID or Name for directive")
     parser.add_argument("--git-commit", action="store_true", help="Automatically git commit town changes")
+    parser.add_argument("--push", action="store_true", help="Push git commits to remote repository")
     parser.add_argument("--serve", action="store_true", help="Serve the 3D Tech Town Viewer locally")
     parser.add_argument("--port", type=int, default=8000, help="Web server port (default 8000)")
     parser.add_argument("--no-sim", action="store_true", help="Disable the background simulation engine loop when serving")
@@ -91,7 +119,7 @@ def main():
         engine.save_state()
         print(f"✅ Generated {len(state.agents)} citizens, {len(state.companies)} companies, {len(state.buildings)} buildings, {len(state.roads)} roads, {len(state.vehicles)} vehicles!")
         if args.git_commit:
-            msg = commit_town_activity(state.recent_events, state.tick)
+            msg = commit_town_activity(state.recent_events, state.tick, push=args.push)
             if msg:
                 print(f"📦 Git commit created: {msg}")
         return
@@ -103,7 +131,7 @@ def main():
         res = engine.process_agent_order(target, args.command)
         print(f"💬 [{res.get('agent_name', target)} ({res.get('career_title', '')})]: \"{res.get('reply')}\"")
         if args.git_commit:
-            msg = commit_town_activity(engine.state.recent_events, engine.state.tick)
+            msg = commit_town_activity(engine.state.recent_events, engine.state.tick, push=args.push)
             if msg:
                 print(f"📦 Git commit: {msg}")
         print("✅ Order executed and recorded to state and diaries.")
@@ -119,7 +147,7 @@ def main():
             print(f"[Tick {state.tick}] Pop: {len(state.agents)} | Corps: {len(state.companies)} | Bldgs: {len(state.buildings)} | {latest_event}")
         
         if args.git_commit:
-            msg = commit_town_activity(state.recent_events, state.tick)
+            msg = commit_town_activity(state.recent_events, state.tick, push=args.push)
             if msg:
                 print(f"📦 Git commit: {msg}")
         print("✅ Simulation tick(s) finished.")
@@ -134,12 +162,15 @@ def main():
     else:
         engine.load_state()
 
+    engine_lock = threading.Lock()
+
     def run_sim_loop():
         while True:
             try:
-                state = engine.tick()
-                if args.git_commit:
-                    commit_town_activity(state.recent_events, state.tick)
+                with engine_lock:
+                    state = engine.tick()
+                    if args.git_commit:
+                        commit_town_activity(state.recent_events, state.tick, push=args.push)
             except Exception as e:
                 print(f"[Sim Error] {e}")
             time.sleep(args.delay)
@@ -149,7 +180,7 @@ def main():
         sim_thread.start()
         print(f"🤖 Autonomous simulation engine running (interval: {args.delay}s).")
 
-    serve_web(port=args.port, engine=engine, auto_commit=args.git_commit)
+    serve_web(port=args.port, engine=engine, auto_commit=args.git_commit, auto_push=args.push, engine_lock=engine_lock)
 
 if __name__ == "__main__":
     main()

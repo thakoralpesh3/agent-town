@@ -6,6 +6,7 @@ import json
 import random
 import datetime
 import math
+import tempfile
 from typing import List, Dict, Any, Tuple, Optional
 from town.config import TOWN_CONFIG
 from town.models import Agent, Building, Road, Vehicle, Company, TownState, JobRequisition
@@ -38,20 +39,31 @@ class TownEngine:
             self.save_state()
         return self.state
 
+    def _atomic_write(self, filepath: str, content: str):
+        dirname = os.path.dirname(filepath)
+        os.makedirs(dirname, exist_ok=True)
+        fd, tmp_path = tempfile.mkstemp(dir=dirname, prefix="town_", suffix=".tmp")
+        try:
+            with open(fd, "w", encoding="utf-8") as f:
+                f.write(content)
+            os.replace(tmp_path, filepath)
+        except Exception:
+            if os.path.exists(tmp_path):
+                try:
+                    os.remove(tmp_path)
+                except OSError:
+                    pass
+            raise
+
     def save_state(self):
         if not self.state:
             return
-        os.makedirs(os.path.dirname(self.state_file), exist_ok=True)
-        os.makedirs(os.path.dirname(self.docs_data_file), exist_ok=True)
-        
         data = self.state.to_dict()
-        with open(self.state_file, "w") as f:
-            json.dump(data, f, indent=2)
-        with open(self.docs_data_file, "w") as f:
-            json.dump(data, f, indent=2)
+        json_str = json.dumps(data, indent=2)
+        self._atomic_write(self.state_file, json_str)
+        self._atomic_write(self.docs_data_file, json_str)
         fallback_file = os.path.join(os.path.dirname(self.docs_data_file), "fallback_data.js")
-        with open(fallback_file, "w") as f:
-            f.write("window.FALLBACK_TOWN_STATE = " + json.dumps(data) + ";\n")
+        self._atomic_write(fallback_file, "window.FALLBACK_TOWN_STATE = " + json.dumps(data) + ";\n")
 
     def log_event(self, message: str, event_type: str = "activity"):
         if not self.state:
@@ -809,6 +821,10 @@ class TownEngine:
         """Executes an exclusive Operator directive or answers an inquiry from the selected agent."""
         if not self.state or not directive_text:
             return {"error": "Missing state or directive"}
+
+        directive_text = str(directive_text).strip()[:500]
+        if not directive_text:
+            return {"error": "Empty directive"}
 
         # Match agent by ID or Name
         target_agent = None

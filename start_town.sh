@@ -8,8 +8,10 @@ cd "$DIR"
 
 echo "=========================================================="
 echo "🏙️  Starting Sovereign Country of Tech Town..."
+echo "📥 Syncing latest state from GitHub remote..."
+git pull --rebase origin main || echo "⚠️ Working with local cached state (offline/conflict-safe)"
 echo "🌐 3D Live Viewer: http://localhost:8000"
 echo "🤖 Autonomous Agents & 24/7 Engine: Active"
 echo "=========================================================="
 
-python3 run_town.py --port 8000
+python3 run_town.py --port 8000 "$@"

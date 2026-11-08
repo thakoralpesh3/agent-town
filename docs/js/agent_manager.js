@@ -479,14 +479,21 @@ class AgentManager {
     this._updateNameplates();
   }
 
+  toggleLabels() {
+    this.showLabels = !this.showLabels;
+    const btn = document.getElementById("btn-toggle-labels");
+    if (btn) btn.classList.toggle("active", this.showLabels);
+    return this.showLabels;
+  }
+
   _updateNameplates() {
     if (!this.showLabels) {
-      if (this.nameplateContainer) {
+      if (this.nameplateContainer && this.nameplateContainer.style.display !== "none") {
         this.nameplateContainer.style.display = "none";
       }
       return;
     }
-    if (this.nameplateContainer) {
+    if (this.nameplateContainer && this.nameplateContainer.style.display !== "block") {
       this.nameplateContainer.style.display = "block";
     }
 
@@ -495,6 +502,7 @@ class AgentManager {
 
     this.agentMeshes.forEach((mesh, id) => {
       const agent = mesh.userData.data;
+      if (!agent) return;
       const meshPos = mesh.position;
       const dist = cameraPos.distanceTo(meshPos);
 
@@ -504,7 +512,7 @@ class AgentManager {
       let el = this.nameplateElements.get(id);
 
       if (!isVisibleDistance && !isSelected) {
-        if (el) el.style.display = "none";
+        if (el && el.style.display !== "none") el.style.display = "none";
         return;
       }
 
@@ -515,7 +523,7 @@ class AgentManager {
         this.nameplateElements.set(id, el);
       }
 
-      el.style.display = "block";
+      if (el.style.display !== "block") el.style.display = "block";
       const compBadge = agent.company_name ? `<span style="color: #f472b6; font-size: 9px; display: block; font-weight: bold;">🏢 ${agent.company_name}</span>` : '';
       const masterStar = (agent.level >= 8) ? '⭐ ' : '';
       const titleText = agent.career_title || agent.role;
@@ -527,7 +535,7 @@ class AgentManager {
         </div>
       ` : '';
 
-      el.innerHTML = `
+      const markup = `
         <div style="font-size: 8px; font-weight: 700; color: ${agent.color}; letter-spacing: 0.3px;">${masterStar}LV.${agent.level} • ${titleText}</div>
         <span style="font-weight: 700; font-size: 11px;">${agent.name}</span>
         ${compBadge}
@@ -535,23 +543,40 @@ class AgentManager {
         ${directiveMarkup}
       `;
 
+      if (el._lastMarkup !== markup) {
+        el.innerHTML = markup;
+        el._lastMarkup = markup;
+      }
+
       // Project 3D coordinate (over head) to 2D Screen
       tempV.set(meshPos.x, 2.2, meshPos.z);
       tempV.project(this.camera);
 
       if (tempV.z > 1) {
-        el.style.display = "none";
+        if (el.style.display !== "none") el.style.display = "none";
         return;
       }
 
-      const x = (tempV.x * 0.5 + 0.5) * window.innerWidth;
-      const y = (-(tempV.y * 0.5) + 0.5) * window.innerHeight;
+      const x = Math.round((tempV.x * 0.5 + 0.5) * window.innerWidth);
+      const y = Math.round((-(tempV.y * 0.5) + 0.5) * window.innerHeight);
 
       el.style.left = `${x}px`;
       el.style.top = `${y}px`;
-      el.style.opacity = (isSelected || isDirectiveTarget) ? "1" : Math.max(0.25, 1 - (dist / 130)).toString();
-      el.style.borderColor = (isSelected || isDirectiveTarget) ? "#00f0ff" : "rgba(255, 255, 255, 0.25)";
-      el.style.boxShadow = isDirectiveTarget ? "0 0 20px rgba(0, 240, 255, 0.7)" : "0 4px 16px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 240, 255, 0.15)";
+      const targetOpacity = (isSelected || isDirectiveTarget) ? "1" : Math.max(0.25, 1 - (dist / 130)).toFixed(2);
+      if (el._lastOpacity !== targetOpacity) {
+        el.style.opacity = targetOpacity;
+        el._lastOpacity = targetOpacity;
+      }
+      const targetBorder = (isSelected || isDirectiveTarget) ? "#00f0ff" : "rgba(255, 255, 255, 0.25)";
+      if (el._lastBorder !== targetBorder) {
+        el.style.borderColor = targetBorder;
+        el._lastBorder = targetBorder;
+      }
+      const targetShadow = isDirectiveTarget ? "0 0 20px rgba(0, 240, 255, 0.7)" : "0 4px 16px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 240, 255, 0.15)";
+      if (el._lastShadow !== targetShadow) {
+        el.style.boxShadow = targetShadow;
+        el._lastShadow = targetShadow;
+      }
     });
   }
 

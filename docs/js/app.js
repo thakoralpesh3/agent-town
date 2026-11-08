@@ -241,6 +241,7 @@ class TechTownApp {
     requestAnimationFrame(() => this._animate());
 
     this.controls.update();
+    this.interaction.updateKeyboardNavigation();
     this.agentManager.animate();
     
     if (this.currentState && this.currentState.vehicles) {

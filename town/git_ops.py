@@ -9,8 +9,8 @@ from typing import Optional, List, Dict, Any
 def run_git(args: List[str]) -> subprocess.CompletedProcess:
     return subprocess.run(["git"] + args, capture_output=True, text=True)
 
-def commit_town_activity(events: List[Dict[str, Any]], tick: int) -> Optional[str]:
-    """Stages town changes and creates an agent-attributed commit."""
+def commit_town_activity(events: List[Dict[str, Any]], tick: int, push: bool = False) -> Optional[str]:
+    """Stages town changes and creates an agent-attributed commit, optionally pushing to remote."""
     # Ensure git user config exists if not already set (e.g. in GitHub Actions)
     check_user = run_git(["config", "user.name"])
     if not check_user.stdout.strip():
@@ -37,5 +37,7 @@ def commit_town_activity(events: List[Dict[str, Any]], tick: int) -> Optional[st
 
     commit_res = run_git(["commit", "-m", msg])
     if commit_res.returncode == 0:
+        if push:
+            run_git(["push", "origin", "main"])
         return msg
     return None
