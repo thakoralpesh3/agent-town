@@ -1,17 +1,17 @@
 {
   "id": "comp-140",
-  "name": "PrismFederation",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-089",
-  "founder_name": "Gavin Altman",
-  "headquarters_id": "bldg-369",
-  "headquarters_name": "PrismFederation Headquarters",
+  "name": "AeroSynthetics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-013",
+  "founder_name": "Katherine Johnson",
+  "headquarters_id": "bldg-427",
+  "headquarters_name": "AeroSynthetics Headquarters",
   "employees": [
-    "agent-089"
+    "agent-013"
   ],
-  "valuation_tokens": 464052,
+  "valuation_tokens": 303004,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 45
+  "color": "#f59e0b",
+  "founded_at_tick": 49
 }

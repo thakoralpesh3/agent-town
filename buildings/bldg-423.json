@@ -1,41 +1,41 @@
 {
   "id": "bldg-423",
-  "name": "Rich's The Agora Civic Forum #86 [BioLongevity Solutions]",
-  "type": "The Agora Civic Forum",
+  "name": "Lyra's Cyber Living Township Alpha #86 [SynapseLabs]",
+  "type": "Cyber Living Township Alpha",
   "position": [
-    -47.5,
-    10.1,
-    -138.8
+    -58.6,
+    19.5,
+    -54.3
   ],
   "size": [
-    32.0,
-    20.3,
-    31.5
+    26.8,
+    39.1,
+    24.3
   ],
-  "color": "#eab308",
-  "builder_id": "agent-338",
-  "builder_name": "Rich Kowalski",
+  "color": "#22c55e",
+  "builder_id": "agent-135",
+  "builder_name": "Lyra Brockman",
   "district": "Cyber Living Townships",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "company_id": "comp-119",
+  "company_name": "SynapseLabs",
   "completion": 1.0,
   "occupants": [
-    "Rich Kowalski"
+    "Lyra Brockman"
   ],
-  "purpose": "Constructed by Rich Kowalski for The Agora Civic Forum operations",
-  "floors": 4,
-  "capacity": 50,
+  "purpose": "Constructed by Lyra Brockman for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Town Council Chamber",
-    "Public Archive",
-    "Smart Contract Arbitration"
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
   ],
   "amenities": [
-    "Immutable Hologram Voting Rig",
-    "Grand Assembly Hall",
-    "Open Discussion Terrace"
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
   ],
-  "power_consumption_mw": 7.4,
+  "power_consumption_mw": 8.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

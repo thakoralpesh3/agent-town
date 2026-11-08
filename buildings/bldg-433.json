@@ -1,0 +1,45 @@
+{
+  "id": "bldg-433",
+  "name": "Veda's The Agora Civic Forum #33 [ApexIntell]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -73.0,
+    11.4,
+    -151.3
+  ],
+  "size": [
+    26.8,
+    22.9,
+    26.8
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-421",
+  "builder_name": "Veda Tinkerer",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-017",
+  "company_name": "ApexIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Veda Tinkerer"
+  ],
+  "purpose": "Constructed by Veda Tinkerer for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

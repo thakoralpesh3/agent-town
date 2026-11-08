@@ -1,41 +1,42 @@
 {
   "id": "bldg-432",
-  "name": "Brendan's Autonomous Vehicle Mega-Plant #53 [ApexDynamics]",
-  "type": "Autonomous Vehicle Mega-Plant",
+  "name": "Yann's National Hospital & Nanomedical Citadel #95 [SolarFusion Grid]",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    107.8,
-    11.0,
-    -107.4
+    -126.6,
+    18.0,
+    71.4
   ],
   "size": [
-    32.4,
-    21.9,
-    38.2
+    35.0,
+    36.1,
+    33.1
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-490",
-  "builder_name": "Brendan Altman",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-063",
-  "company_name": "ApexDynamics",
+  "color": "#ef4444",
+  "builder_id": "agent-322",
+  "builder_name": "Yann Lamport",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Brendan Altman"
+    "Yann Lamport"
   ],
-  "purpose": "Constructed by Brendan Altman for Autonomous Vehicle Mega-Plant operations",
-  "floors": 5,
-  "capacity": 40,
+  "purpose": "Constructed by Yann Lamport for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
   "departments": [
-    "Robotic Chassis Stamping",
-    "Avionics Calibration",
-    "Induction Drive Assembly"
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
   ],
   "amenities": [
-    "Automated Gantry Cranes",
-    "High-Speed Induction Dyno Track",
-    "Paint Spray Booths"
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
   ],
-  "power_consumption_mw": 8.3,
+  "power_consumption_mw": 7.8,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

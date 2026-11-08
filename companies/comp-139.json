@@ -1,17 +1,17 @@
 {
   "id": "comp-139",
-  "name": "SolarLogistics",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-068",
-  "founder_name": "Linus Solstice",
-  "headquarters_id": "bldg-366",
-  "headquarters_name": "SolarLogistics Headquarters",
+  "name": "QuantumEnergy",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-155",
+  "founder_name": "Theron Node",
+  "headquarters_id": "bldg-424",
+  "headquarters_name": "QuantumEnergy Headquarters",
   "employees": [
-    "agent-068"
+    "agent-155"
   ],
-  "valuation_tokens": 686514,
+  "valuation_tokens": 615855,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 45
+  "color": "#00f0ff",
+  "founded_at_tick": 48
 }

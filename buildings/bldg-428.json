@@ -1,40 +1,40 @@
 {
   "id": "bldg-428",
-  "name": "Callum's Cloud Matrix Exchange #57 [StellarGenetics]",
-  "type": "Cloud Matrix Exchange",
+  "name": "Talia's Biosphere Atmospheric Scrubber #48 [AxiomGenetics]",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    -51.3,
-    33.9,
-    51.2
+    57.6,
+    16.2,
+    -174.0
   ],
   "size": [
-    20.8,
-    67.7,
-    22.8
+    23.6,
+    32.4,
+    21.3
   ],
-  "color": "#38bdf8",
-  "builder_id": "agent-466",
-  "builder_name": "Callum Circuit",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-045",
-  "company_name": "StellarGenetics",
+  "color": "#10b981",
+  "builder_id": "agent-138",
+  "builder_name": "Talia Mercer",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-068",
+  "company_name": "AxiomGenetics",
   "completion": 1.0,
   "occupants": [
-    "Callum Circuit"
+    "Talia Mercer"
   ],
-  "purpose": "Constructed by Callum Circuit for Cloud Matrix Exchange operations",
-  "floors": 14,
-  "capacity": 40,
+  "purpose": "Constructed by Talia Mercer for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
   "departments": [
-    "Multi-Cluster GitOps",
-    "Distributed DHT Storage",
-    "High-Throughput APIs"
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
   ],
   "amenities": [
-    "Direct Fiber Backbone",
-    "Liquid Immersion Server Racks"
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
   ],
-  "power_consumption_mw": 7.5,
+  "power_consumption_mw": 3.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

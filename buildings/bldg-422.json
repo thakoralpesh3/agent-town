@@ -1,41 +1,41 @@
 {
   "id": "bldg-422",
-  "name": "Dennis's Hyperloop Central Terminus #41 [SovereignTechnologies]",
-  "type": "Hyperloop Central Terminus",
+  "name": "Darian's Tokamak Fusion Reactor Station #75 [SynapseIntell]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    49.3,
-    15.4,
-    -121.7
+    -4.0,
+    9.6,
+    -143.8
   ],
   "size": [
-    32.1,
-    30.7,
-    32.9
+    28.9,
+    19.2,
+    30.7
   ],
-  "color": "#f97316",
-  "builder_id": "agent-292",
-  "builder_name": "Dennis Sutskever",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-022",
-  "company_name": "SovereignTechnologies",
+  "color": "#be123c",
+  "builder_id": "agent-084",
+  "builder_name": "Darian Archon",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-026",
+  "company_name": "SynapseIntell",
   "completion": 1.0,
   "occupants": [
-    "Dennis Sutskever"
+    "Darian Archon"
   ],
-  "purpose": "Constructed by Dennis Sutskever for Hyperloop Central Terminus operations",
+  "purpose": "Constructed by Darian Archon for Tokamak Fusion Reactor Station operations",
   "floors": 4,
-  "capacity": 45,
+  "capacity": 30,
   "departments": [
-    "Sub-Sonic Tube Dispatch",
-    "Maglev Rail Switching",
-    "Passenger & Cargo Concourse"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Pneumatic Airlocks",
-    "Magnetic Levitation Accelerators",
-    "Automated Baggage Swarms"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 7.7,
+  "power_consumption_mw": 5.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
