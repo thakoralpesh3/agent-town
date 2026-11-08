@@ -1,41 +1,42 @@
 {
   "id": "bldg-450",
-  "name": "Jensen's Supreme Court of Justice #92 [VectorRobotics]",
-  "type": "Supreme Court of Justice",
+  "name": "Gregor's National Hospital & Nanomedical Citadel #90 [AeroNetworks]",
+  "type": "National Hospital & Nanomedical Citadel",
   "position": [
-    21.9,
-    12.7,
-    9.8
+    -112.3,
+    17.0,
+    2.2
   ],
   "size": [
-    33.6,
-    25.4,
-    25.4
+    34.6,
+    33.9,
+    33.7
   ],
-  "color": "#d97706",
-  "builder_id": "agent-195",
-  "builder_name": "Jensen Tinkerer",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-031",
-  "company_name": "VectorRobotics",
+  "color": "#ef4444",
+  "builder_id": "agent-031",
+  "builder_name": "Gregor Mendel",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-059",
+  "company_name": "AeroNetworks",
   "completion": 1.0,
   "occupants": [
-    "Jensen Tinkerer"
+    "Gregor Mendel"
   ],
-  "purpose": "Constructed by Jensen Tinkerer for Supreme Court of Justice operations",
-  "floors": 6,
-  "capacity": 35,
+  "purpose": "Constructed by Gregor Mendel for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
   "departments": [
-    "High Constitutional Tribunal",
-    "Smart Contract Arbitration Bench",
-    "Appeals Chamber"
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
   ],
   "amenities": [
-    "Formal Verification Prover",
-    "Holographic Evidence Display",
-    "Juror Isolation Chambers"
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
   ],
-  "power_consumption_mw": 3.8,
+  "power_consumption_mw": 7.5,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

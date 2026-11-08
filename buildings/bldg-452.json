@@ -1,41 +1,42 @@
 {
   "id": "bldg-452",
-  "name": "Kira's Grand Astronomical Observatory #73 [ApexSystems]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Margaret's National Central Bank & Treasury #13 [Sovereign Chancellery Core]",
+  "type": "National Central Bank & Treasury",
   "position": [
-    92.8,
-    20.3,
-    73.1
+    -26.0,
+    15.4,
+    36.5
   ],
   "size": [
     28.0,
-    40.5,
-    28.4
+    30.9,
+    31.9
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-226",
-  "builder_name": "Kira Sterling",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-089",
-  "company_name": "ApexSystems",
+  "color": "#eab308",
+  "builder_id": "agent-366",
+  "builder_name": "Margaret Cross",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
   "completion": 1.0,
   "occupants": [
-    "Kira Sterling"
+    "Margaret Cross"
   ],
-  "purpose": "Constructed by Kira Sterling for Grand Astronomical Observatory operations",
-  "floors": 6,
-  "capacity": 25,
+  "purpose": "Constructed by Margaret Cross for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
   ],
-  "power_consumption_mw": 7.0,
+  "power_consumption_mw": 8.6,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

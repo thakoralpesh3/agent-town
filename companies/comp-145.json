@@ -1,17 +1,17 @@
 {
   "id": "comp-145",
-  "name": "HeliosDynamics",
+  "name": "HyperMatrix AI",
   "sector": "Synthetic Ecology & Holo Arts",
   "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-212",
-  "founder_name": "Morrigan Hassabis",
-  "headquarters_id": "bldg-388",
-  "headquarters_name": "HeliosDynamics Headquarters",
+  "founder_id": "agent-323",
+  "founder_name": "Vitalik Buterin",
+  "headquarters_id": "bldg-445",
+  "headquarters_name": "HyperMatrix AI Headquarters",
   "employees": [
-    "agent-212"
+    "agent-323"
   ],
-  "valuation_tokens": 207806,
+  "valuation_tokens": 348179,
   "products": [],
   "color": "#10b981",
-  "founded_at_tick": 47
+  "founded_at_tick": 51
 }

@@ -1,41 +1,42 @@
 {
   "id": "bldg-443",
-  "name": "Pixel's Autonomous Vehicle Mega-Plant #57 [SovereignFederation]",
-  "type": "Autonomous Vehicle Mega-Plant",
+  "name": "Leon's Hypatia Grand University of Sciences #81 [TerraTechnologies]",
+  "type": "Hypatia Grand University of Sciences",
   "position": [
-    115.2,
-    13.7,
-    -100.4
+    71.9,
+    23.6,
+    3.9
   ],
   "size": [
-    33.4,
-    27.4,
-    29.9
+    40.6,
+    47.2,
+    32.2
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-421",
-  "builder_name": "Pixel Hassabis",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-146",
-  "company_name": "SovereignFederation",
+  "color": "#a855f7",
+  "builder_id": "agent-454",
+  "builder_name": "Leon Binary",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-143",
+  "company_name": "TerraTechnologies",
   "completion": 1.0,
   "occupants": [
-    "Pixel Hassabis"
+    "Leon Binary"
   ],
-  "purpose": "Constructed by Pixel Hassabis for Autonomous Vehicle Mega-Plant operations",
-  "floors": 5,
-  "capacity": 40,
+  "purpose": "Constructed by Leon Binary for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
   "departments": [
-    "Robotic Chassis Stamping",
-    "Avionics Calibration",
-    "Induction Drive Assembly"
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
   ],
   "amenities": [
-    "Automated Gantry Cranes",
-    "High-Speed Induction Dyno Track",
-    "Paint Spray Booths"
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
   ],
-  "power_consumption_mw": 7.8,
+  "power_consumption_mw": 7.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

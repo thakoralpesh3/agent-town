@@ -1,17 +1,17 @@
 {
   "id": "comp-141",
-  "name": "VectorNetworks",
+  "name": "NeuroRobotics",
   "sector": "Synthetic Ecology & Holo Arts",
   "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-467",
-  "founder_name": "Julian Vanguard",
-  "headquarters_id": "bldg-370",
-  "headquarters_name": "VectorNetworks Headquarters",
+  "founder_id": "agent-438",
+  "founder_name": "Leslie Buterin",
+  "headquarters_id": "bldg-436",
+  "headquarters_name": "NeuroRobotics Headquarters",
   "employees": [
-    "agent-467"
+    "agent-438"
   ],
-  "valuation_tokens": 227335,
+  "valuation_tokens": 662392,
   "products": [],
   "color": "#10b981",
-  "founded_at_tick": 45
+  "founded_at_tick": 50
 }

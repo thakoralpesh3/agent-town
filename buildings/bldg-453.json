@@ -1,43 +1,41 @@
 {
   "id": "bldg-453",
-  "name": "Donald's Sovereign Capitol Building #59 [AetherIntell AI]",
-  "type": "Sovereign Capitol Building",
+  "name": "Dennis's Cyber Living Township Beta #71 [SolarFusion Grid]",
+  "type": "Cyber Living Township Beta",
   "position": [
-    34.5,
-    19.5,
-    -43.1
+    -37.0,
+    14.6,
+    -154.0
   ],
   "size": [
-    34.6,
-    39.1,
-    35.9
+    25.5,
+    29.2,
+    24.1
   ],
-  "color": "#f59e0b",
-  "builder_id": "agent-451",
-  "builder_name": "Donald Odersky",
-  "district": "Capitol Hill & National Plaza",
-  "company_id": "comp-163",
-  "company_name": "AetherIntell AI",
+  "color": "#16a34a",
+  "builder_id": "agent-397",
+  "builder_name": "Dennis Jobs",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Donald Odersky"
+    "Dennis Jobs"
   ],
-  "purpose": "Constructed by Donald Odersky for Sovereign Capitol Building operations",
-  "floors": 9,
-  "capacity": 60,
+  "purpose": "Constructed by Dennis Jobs for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
   "departments": [
-    "Chancellery Chamber",
-    "Parliamentary Hall",
-    "Constitutional Archives",
-    "Diplomatic Reception"
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
   ],
   "amenities": [
-    "Grand Rotunda Dome",
-    "Illuminated Colonnes",
-    "Sovereign Seal Hall",
-    "Secure Treaty Escrow"
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
   ],
-  "power_consumption_mw": 3.2,
+  "power_consumption_mw": 5.0,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

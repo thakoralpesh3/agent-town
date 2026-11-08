@@ -1,17 +1,17 @@
 {
   "id": "comp-147",
-  "name": "HyperSynthetics AI",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-152",
-  "founder_name": "Alan Dijkstra",
-  "headquarters_id": "bldg-396",
-  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "name": "ChronoLabs AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-045",
+  "founder_name": "Kira Dahl",
+  "headquarters_id": "bldg-448",
+  "headquarters_name": "ChronoLabs AI Headquarters",
   "employees": [
-    "agent-152"
+    "agent-045"
   ],
-  "valuation_tokens": 611198,
+  "valuation_tokens": 399562,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 49
+  "color": "#ef4444",
+  "founded_at_tick": 51
 }

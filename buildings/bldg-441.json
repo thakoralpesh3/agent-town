@@ -1,40 +1,41 @@
 {
   "id": "bldg-441",
-  "name": "Darian's Drone Logistics Freight Port #49 [ChronoFoundry]",
-  "type": "Drone Logistics Freight Port",
+  "name": "Yoshua's The Agora Civic Forum #89 [CyberGenetics AI]",
+  "type": "The Agora Civic Forum",
   "position": [
-    69.3,
-    11.3,
-    -94.4
+    -147.4,
+    9.6,
+    -68.9
   ],
   "size": [
-    26.5,
-    22.6,
-    27.8
+    33.0,
+    19.1,
+    27.4
   ],
-  "color": "#ea580c",
-  "builder_id": "agent-436",
-  "builder_name": "Darian Vaughan",
-  "district": "Industrial Harbor & Transit Hub",
-  "company_id": "comp-027",
-  "company_name": "ChronoFoundry",
+  "color": "#eab308",
+  "builder_id": "agent-222",
+  "builder_name": "Yoshua Brockman",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-054",
+  "company_name": "CyberGenetics AI",
   "completion": 1.0,
   "occupants": [
-    "Darian Vaughan"
+    "Yoshua Brockman"
   ],
-  "purpose": "Constructed by Darian Vaughan for Drone Logistics Freight Port operations",
-  "floors": 6,
-  "capacity": 30,
+  "purpose": "Constructed by Yoshua Brockman for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
   "departments": [
-    "High-Bay Parcel Storage",
-    "VTOL Drone Launchpads",
-    "Airspace Radar Control"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Multi-Tier Rooftop Launch Grids",
-    "Inductive Rapid Charging Docks"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 5.6,
+  "power_consumption_mw": 6.2,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

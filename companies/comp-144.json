@@ -1,18 +1,17 @@
 {
   "id": "comp-144",
-  "name": "StellarNetworks",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-044",
-  "founder_name": "Barbara van Rossum",
-  "headquarters_id": "bldg-384",
-  "headquarters_name": "StellarNetworks Headquarters",
+  "name": "SovereignMatrix",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-112",
+  "founder_name": "Seraph Johnson",
+  "headquarters_id": "bldg-444",
+  "headquarters_name": "SovereignMatrix Headquarters",
   "employees": [
-    "agent-044",
-    "agent-479"
+    "agent-112"
   ],
-  "valuation_tokens": 710246,
+  "valuation_tokens": 408432,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 47
+  "color": "#f59e0b",
+  "founded_at_tick": 51
 }

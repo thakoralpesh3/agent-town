@@ -1,0 +1,46 @@
+{
+  "id": "bldg-440",
+  "name": "Dante's National Central Bank & Treasury #28 [SolarFusion Grid]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    58.1,
+    14.9,
+    -8.8
+  ],
+  "size": [
+    28.1,
+    29.8,
+    31.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-313",
+  "builder_name": "Dante Kahn",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Dante Kahn"
+  ],
+  "purpose": "Constructed by Dante Kahn for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 3.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

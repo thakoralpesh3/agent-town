@@ -1,41 +1,40 @@
 {
   "id": "bldg-435",
-  "name": "Sol's Cyber Living Township Beta #32 [NeuroRobotics]",
-  "type": "Cyber Living Township Beta",
+  "name": "Martin's Biosphere Atmospheric Scrubber #60 [NexusMatrix]",
+  "type": "Biosphere Atmospheric Scrubber",
   "position": [
-    -100.5,
-    11.8,
-    -137.9
+    36.3,
+    11.2,
+    -181.8
   ],
   "size": [
-    24.3,
-    23.5,
-    24.3
+    20.1,
+    22.4,
+    23.5
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-320",
-  "builder_name": "Sol Strata",
-  "district": "Cyber Living Townships",
-  "company_id": "comp-118",
-  "company_name": "NeuroRobotics",
+  "color": "#10b981",
+  "builder_id": "agent-411",
+  "builder_name": "Martin Armstrong",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-073",
+  "company_name": "NexusMatrix",
   "completion": 1.0,
   "occupants": [
-    "Sol Strata"
+    "Martin Armstrong"
   ],
-  "purpose": "Constructed by Sol Strata for Cyber Living Township Beta operations",
-  "floors": 7,
-  "capacity": 45,
+  "purpose": "Constructed by Martin Armstrong for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
   "departments": [
-    "Residential Living",
-    "Private Study Modules",
-    "Biometric Circadian Suites"
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
   ],
   "amenities": [
-    "Living Mycelium Soil Mesh",
-    "Acoustic Noise Cloak",
-    "Community Dining Hall"
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
   ],
-  "power_consumption_mw": 5.9,
+  "power_consumption_mw": 8.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

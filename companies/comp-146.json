@@ -1,17 +1,17 @@
 {
   "id": "comp-146",
-  "name": "SovereignFederation",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-421",
-  "founder_name": "Pixel Hassabis",
-  "headquarters_id": "bldg-390",
-  "headquarters_name": "SovereignFederation Headquarters",
+  "name": "NexusDynamics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-114",
+  "founder_name": "Barbara Mercer",
+  "headquarters_id": "bldg-447",
+  "headquarters_name": "NexusDynamics Headquarters",
   "employees": [
-    "agent-421"
+    "agent-114"
   ],
-  "valuation_tokens": 724098,
+  "valuation_tokens": 444939,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 48
+  "color": "#e11d48",
+  "founded_at_tick": 51
 }

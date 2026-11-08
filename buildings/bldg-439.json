@@ -1,0 +1,45 @@
+{
+  "id": "bldg-439",
+  "name": "Barbara's Grand Astronomical Observatory #45 [HeliosSynthetics AI]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    65.0,
+    17.6,
+    87.6
+  ],
+  "size": [
+    23.4,
+    35.2,
+    23.8
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-114",
+  "builder_name": "Barbara Mercer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-079",
+  "company_name": "HeliosSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Barbara Mercer"
+  ],
+  "purpose": "Constructed by Barbara Mercer for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 6.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
