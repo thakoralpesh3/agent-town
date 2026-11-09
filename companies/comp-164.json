@@ -1,17 +1,17 @@
 {
   "id": "comp-164",
-  "name": "SovereignRobotics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-169",
-  "founder_name": "Vitalik Sutskever",
-  "headquarters_id": "bldg-426",
-  "headquarters_name": "SovereignRobotics Headquarters",
+  "name": "PrismIntell AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-291",
+  "founder_name": "Zane Hickey",
+  "headquarters_id": "bldg-492",
+  "headquarters_name": "PrismIntell AI Headquarters",
   "employees": [
-    "agent-169"
+    "agent-291"
   ],
-  "valuation_tokens": 163715,
+  "valuation_tokens": 735267,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 53
+  "color": "#10b981",
+  "founded_at_tick": 57
 }

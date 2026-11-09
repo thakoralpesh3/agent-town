@@ -1,17 +1,17 @@
 {
   "id": "comp-168",
-  "name": "AetherVentures AI",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-442",
-  "founder_name": "Theron Hamilton",
-  "headquarters_id": "bldg-437",
-  "headquarters_name": "AetherVentures AI Headquarters",
+  "name": "NexusSolutions",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-234",
+  "founder_name": "Alexander Node",
+  "headquarters_id": "bldg-498",
+  "headquarters_name": "NexusSolutions Headquarters",
   "employees": [
-    "agent-442"
+    "agent-234"
   ],
-  "valuation_tokens": 584566,
+  "valuation_tokens": 352403,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 55
+  "color": "#8b5cf6",
+  "founded_at_tick": 57
 }

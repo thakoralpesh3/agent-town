@@ -1,0 +1,46 @@
+{
+  "id": "bldg-497",
+  "name": "Demis's National Hospital & Nanomedical Citadel #37 [OpenKernel Federation]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -89.5,
+    21.4,
+    -16.2
+  ],
+  "size": [
+    32.5,
+    42.8,
+    38.4
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-008",
+  "builder_name": "Demis Hassabis",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Demis Hassabis"
+  ],
+  "purpose": "Constructed by Demis Hassabis for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

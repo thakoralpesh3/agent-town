@@ -1,17 +1,17 @@
 {
   "id": "comp-161",
-  "name": "HeliosVentures",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-418",
-  "founder_name": "Edsger Flux",
-  "headquarters_id": "bldg-416",
-  "headquarters_name": "HeliosVentures Headquarters",
+  "name": "AeroDynamics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-325",
+  "founder_name": "Barbara Flux",
+  "headquarters_id": "bldg-487",
+  "headquarters_name": "AeroDynamics Headquarters",
   "employees": [
-    "agent-418"
+    "agent-325"
   ],
-  "valuation_tokens": 370664,
+  "valuation_tokens": 206793,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 52
+  "color": "#10b981",
+  "founded_at_tick": 56
 }

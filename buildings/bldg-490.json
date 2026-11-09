@@ -1,0 +1,45 @@
+{
+  "id": "bldg-490",
+  "name": "Pixel's Tower of Turing (City Mainframe) #25 [OmniMatrix]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    -34.7,
+    29.7,
+    99.9
+  ],
+  "size": [
+    27.1,
+    59.5,
+    24.7
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-276",
+  "builder_name": "Pixel Lamport",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-118",
+  "company_name": "OmniMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Lamport"
+  ],
+  "purpose": "Constructed by Pixel Lamport for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

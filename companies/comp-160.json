@@ -1,17 +1,17 @@
 {
   "id": "comp-160",
-  "name": "SynapseEnergy",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-430",
-  "founder_name": "Fei-Fei Zenith",
-  "headquarters_id": "bldg-413",
-  "headquarters_name": "SynapseEnergy Headquarters",
+  "name": "AxiomFederation AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-027",
+  "founder_name": "Carl Sagan",
+  "headquarters_id": "bldg-486",
+  "headquarters_name": "AxiomFederation AI Headquarters",
   "employees": [
-    "agent-430"
+    "agent-027"
   ],
-  "valuation_tokens": 675083,
+  "valuation_tokens": 172260,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 51
+  "color": "#f59e0b",
+  "founded_at_tick": 56
 }

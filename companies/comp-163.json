@@ -1,17 +1,17 @@
 {
   "id": "comp-163",
-  "name": "AetherIntell AI",
-  "sector": "Clean Fusion & Superconducting Grid",
-  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
-  "founder_id": "agent-451",
-  "founder_name": "Donald Odersky",
-  "headquarters_id": "bldg-425",
-  "headquarters_name": "AetherIntell AI Headquarters",
+  "name": "OmniEnergy",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-054",
+  "founder_name": "Ryan Buterin",
+  "headquarters_id": "bldg-491",
+  "headquarters_name": "OmniEnergy Headquarters",
   "employees": [
-    "agent-451"
+    "agent-054"
   ],
-  "valuation_tokens": 356893,
+  "valuation_tokens": 589069,
   "products": [],
-  "color": "#e11d48",
-  "founded_at_tick": 53
+  "color": "#ec4899",
+  "founded_at_tick": 57
 }

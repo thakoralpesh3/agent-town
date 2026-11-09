@@ -1,17 +1,17 @@
 {
   "id": "comp-162",
-  "name": "TerraRobotics AI",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-269",
-  "founder_name": "Grace Szabo",
-  "headquarters_id": "bldg-419",
-  "headquarters_name": "TerraRobotics AI Headquarters",
+  "name": "HeliosSynthetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-320",
+  "founder_name": "Sol Strata",
+  "headquarters_id": "bldg-489",
+  "headquarters_name": "HeliosSynthetics AI Headquarters",
   "employees": [
-    "agent-269"
+    "agent-320"
   ],
-  "valuation_tokens": 434247,
+  "valuation_tokens": 516546,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 52
+  "color": "#8b5cf6",
+  "founded_at_tick": 56
 }

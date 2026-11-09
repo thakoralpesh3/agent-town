@@ -1,18 +1,17 @@
 {
   "id": "comp-165",
-  "name": "NeuroFoundry",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-141",
-  "founder_name": "Roxas Aurelius",
-  "headquarters_id": "bldg-430",
-  "headquarters_name": "NeuroFoundry Headquarters",
+  "name": "SovereignEnergy",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-436",
+  "founder_name": "Jensen Core",
+  "headquarters_id": "bldg-493",
+  "headquarters_name": "SovereignEnergy Headquarters",
   "employees": [
-    "agent-141",
-    "agent-506"
+    "agent-436"
   ],
-  "valuation_tokens": 279810,
+  "valuation_tokens": 620922,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 54
+  "color": "#e11d48",
+  "founded_at_tick": 57
 }

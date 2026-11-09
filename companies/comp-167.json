@@ -1,17 +1,17 @@
 {
   "id": "comp-167",
-  "name": "PrismEnergy",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-471",
-  "founder_name": "Andrej Core",
-  "headquarters_id": "bldg-434",
-  "headquarters_name": "PrismEnergy Headquarters",
+  "name": "AetherFoundry",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-238",
+  "founder_name": "Leon Hassabis",
+  "headquarters_id": "bldg-496",
+  "headquarters_name": "AetherFoundry Headquarters",
   "employees": [
-    "agent-471"
+    "agent-238"
   ],
-  "valuation_tokens": 500016,
+  "valuation_tokens": 510536,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 54
+  "color": "#ef4444",
+  "founded_at_tick": 57
 }

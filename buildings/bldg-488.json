@@ -1,0 +1,44 @@
+{
+  "id": "bldg-488",
+  "name": "Ken's Drone Logistics Freight Port #33 [PrismTechnologies AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    47.8,
+    12.9,
+    -160.0
+  ],
+  "size": [
+    25.6,
+    25.8,
+    30.0
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-395",
+  "builder_name": "Ken Kahn",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-066",
+  "company_name": "PrismTechnologies AI",
+  "completion": 1.0,
+  "occupants": [
+    "Ken Kahn"
+  ],
+  "purpose": "Constructed by Ken Kahn for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
