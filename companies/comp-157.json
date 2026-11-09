@@ -1,17 +1,17 @@
 {
   "id": "comp-157",
-  "name": "BioDynamics",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-235",
-  "founder_name": "Andrej Tinkerer",
-  "headquarters_id": "bldg-410",
-  "headquarters_name": "BioDynamics Headquarters",
+  "name": "CyberGenetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-162",
+  "founder_name": "Roxas Vanguard",
+  "headquarters_id": "bldg-476",
+  "headquarters_name": "CyberGenetics AI Headquarters",
   "employees": [
-    "agent-235"
+    "agent-162"
   ],
-  "valuation_tokens": 249284,
+  "valuation_tokens": 338718,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 51
+  "color": "#8b5cf6",
+  "founded_at_tick": 54
 }

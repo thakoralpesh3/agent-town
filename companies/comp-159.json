@@ -1,17 +1,17 @@
 {
   "id": "comp-159",
-  "name": "DeepLabs",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-294",
-  "founder_name": "Corin Solstice",
-  "headquarters_id": "bldg-412",
-  "headquarters_name": "DeepLabs Headquarters",
+  "name": "CyberNetworks",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-346",
+  "founder_name": "Sam Mercer",
+  "headquarters_id": "bldg-482",
+  "headquarters_name": "CyberNetworks Headquarters",
   "employees": [
-    "agent-294"
+    "agent-346"
   ],
-  "valuation_tokens": 667180,
+  "valuation_tokens": 583724,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 51
+  "color": "#f59e0b",
+  "founded_at_tick": 55
 }

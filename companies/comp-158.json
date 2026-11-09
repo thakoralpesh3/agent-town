@@ -1,17 +1,17 @@
 {
   "id": "comp-158",
-  "name": "ApexMatrix AI",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-472",
-  "founder_name": "Yann Sutskever",
-  "headquarters_id": "bldg-411",
-  "headquarters_name": "ApexMatrix AI Headquarters",
+  "name": "PrismIntell AI",
+  "sector": "Sovereign Treasury & Smart Contract Law",
+  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
+  "founder_id": "agent-185",
+  "founder_name": "Marc Finney",
+  "headquarters_id": "bldg-481",
+  "headquarters_name": "PrismIntell AI Headquarters",
   "employees": [
-    "agent-472"
+    "agent-185"
   ],
-  "valuation_tokens": 710320,
+  "valuation_tokens": 383527,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 51
+  "color": "#eab308",
+  "founded_at_tick": 55
 }

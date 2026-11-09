@@ -1,0 +1,45 @@
+{
+  "id": "bldg-479",
+  "name": "Grace's The Agora Civic Forum #28 [HeliosSynthetics]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -91.9,
+    8.2,
+    -134.0
+  ],
+  "size": [
+    27.1,
+    16.3,
+    30.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-275",
+  "builder_name": "Grace Berners-Lee",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-052",
+  "company_name": "HeliosSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Grace Berners-Lee"
+  ],
+  "purpose": "Constructed by Grace Berners-Lee for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 4.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

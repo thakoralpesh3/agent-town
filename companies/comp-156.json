@@ -1,17 +1,17 @@
 {
   "id": "comp-156",
-  "name": "AxiomMatrix",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-258",
-  "founder_name": "Kaelen Vaughan",
-  "headquarters_id": "bldg-409",
-  "headquarters_name": "AxiomMatrix Headquarters",
+  "name": "VectorFederation",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-439",
+  "founder_name": "Maeve Feynman",
+  "headquarters_id": "bldg-475",
+  "headquarters_name": "VectorFederation Headquarters",
   "employees": [
-    "agent-258"
+    "agent-439"
   ],
-  "valuation_tokens": 690493,
+  "valuation_tokens": 579376,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 50
+  "color": "#ef4444",
+  "founded_at_tick": 54
 }

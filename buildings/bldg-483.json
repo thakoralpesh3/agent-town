@@ -1,0 +1,47 @@
+{
+  "id": "bldg-483",
+  "name": "Sylvia's Sovereign Capitol Building #25 [HyperSynthetics]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    41.7,
+    28.0,
+    -18.6
+  ],
+  "size": [
+    38.0,
+    55.9,
+    38.3
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-459",
+  "builder_name": "Sylvia Vex",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Sylvia Vex"
+  ],
+  "purpose": "Constructed by Sylvia Vex for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
