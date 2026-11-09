@@ -1,17 +1,17 @@
 {
   "id": "comp-152",
-  "name": "StellarLogistics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-268",
-  "founder_name": "Chronos Vanguard",
-  "headquarters_id": "bldg-403",
-  "headquarters_name": "StellarLogistics Headquarters",
+  "name": "ChronoGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-376",
+  "founder_name": "Ilya Hickey",
+  "headquarters_id": "bldg-470",
+  "headquarters_name": "ChronoGenetics Headquarters",
   "employees": [
-    "agent-268"
+    "agent-376"
   ],
-  "valuation_tokens": 174535,
+  "valuation_tokens": 633050,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 50
+  "color": "#00f0ff",
+  "founded_at_tick": 53
 }

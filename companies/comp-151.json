@@ -1,17 +1,17 @@
 {
   "id": "comp-151",
-  "name": "HyperFederation",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-018",
-  "founder_name": "Leonardo Cyber",
-  "headquarters_id": "bldg-402",
-  "headquarters_name": "HyperFederation Headquarters",
+  "name": "ApexLogistics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-341",
+  "founder_name": "Darian Sutskever",
+  "headquarters_id": "bldg-466",
+  "headquarters_name": "ApexLogistics Headquarters",
   "employees": [
-    "agent-018"
+    "agent-341"
   ],
-  "valuation_tokens": 450460,
+  "valuation_tokens": 611202,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 49
+  "color": "#00f0ff",
+  "founded_at_tick": 53
 }

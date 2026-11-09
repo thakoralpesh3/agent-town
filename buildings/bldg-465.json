@@ -1,0 +1,44 @@
+{
+  "id": "bldg-465",
+  "name": "Mary's Quantum Logic Foundry #36 [SynapseNetworks]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    139.2,
+    14.7,
+    59.0
+  ],
+  "size": [
+    25.7,
+    29.5,
+    26.9
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-228",
+  "builder_name": "Mary Karpathy",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-021",
+  "company_name": "SynapseNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Mary Karpathy"
+  ],
+  "purpose": "Constructed by Mary Karpathy for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,17 +1,17 @@
 {
   "id": "comp-148",
-  "name": "SynapseRobotics AI",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-405",
-  "founder_name": "Aurelia Dahl",
-  "headquarters_id": "bldg-397",
-  "headquarters_name": "SynapseRobotics AI Headquarters",
+  "name": "SolarSolutions",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-365",
+  "founder_name": "Liora Karpathy",
+  "headquarters_id": "bldg-455",
+  "headquarters_name": "SolarSolutions Headquarters",
   "employees": [
-    "agent-405"
+    "agent-365"
   ],
-  "valuation_tokens": 680077,
+  "valuation_tokens": 708141,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 49
+  "color": "#10b981",
+  "founded_at_tick": 52
 }

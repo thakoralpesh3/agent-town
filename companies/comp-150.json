@@ -1,17 +1,17 @@
 {
   "id": "comp-150",
-  "name": "SovereignFoundry",
-  "sector": "Sovereign Treasury & Smart Contract Law",
-  "mission": "Revolutionizing Sovereign Treasury & Smart Contract Law within GitHub Tech Town.",
-  "founder_id": "agent-159",
-  "founder_name": "Thorne Jobs",
-  "headquarters_id": "bldg-400",
-  "headquarters_name": "SovereignFoundry Headquarters",
+  "name": "DeepSolutions AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-380",
+  "founder_name": "Vint Mason",
+  "headquarters_id": "bldg-464",
+  "headquarters_name": "DeepSolutions AI Headquarters",
   "employees": [
-    "agent-159"
+    "agent-380"
   ],
-  "valuation_tokens": 728646,
+  "valuation_tokens": 337382,
   "products": [],
-  "color": "#eab308",
-  "founded_at_tick": 49
+  "color": "#ec4899",
+  "founded_at_tick": 52
 }

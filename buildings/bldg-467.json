@@ -1,40 +1,41 @@
 {
   "id": "bldg-467",
-  "name": "Evander's Biosphere Atmospheric Scrubber #34 [QuantumLogistics]",
-  "type": "Biosphere Atmospheric Scrubber",
+  "name": "Kaelen's Hydroponic Agricultural Biodome #82 [BioLabs]",
+  "type": "Hydroponic Agricultural Biodome",
   "position": [
-    -47.9,
-    15.1,
-    -188.3
+    6.2,
+    9.1,
+    -181.5
   ],
   "size": [
-    21.0,
-    30.2,
-    20.2
+    34.4,
+    18.3,
+    36.8
   ],
-  "color": "#10b981",
-  "builder_id": "agent-485",
-  "builder_name": "Evander Curie",
+  "color": "#16a34a",
+  "builder_id": "agent-440",
+  "builder_name": "Kaelen Nightingale",
   "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-095",
-  "company_name": "QuantumLogistics",
+  "company_id": "comp-047",
+  "company_name": "BioLabs",
   "completion": 1.0,
   "occupants": [
-    "Evander Curie"
+    "Kaelen Nightingale"
   ],
-  "purpose": "Constructed by Evander Curie for Biosphere Atmospheric Scrubber operations",
-  "floors": 5,
-  "capacity": 20,
+  "purpose": "Constructed by Kaelen Nightingale for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
   "departments": [
-    "Direct Air Carbon Extraction",
-    "Electrostatic Particle Filtration",
-    "Ozone Layer Balancing"
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
   ],
   "amenities": [
-    "Solid Sorbent Absorption Towers",
-    "Clean Air Exhaust Jets"
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
   ],
-  "power_consumption_mw": 5.3,
+  "power_consumption_mw": 8.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

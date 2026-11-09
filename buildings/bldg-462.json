@@ -1,41 +1,41 @@
 {
   "id": "bldg-462",
-  "name": "Maeve's Hydroponic Agricultural Biodome #15 [SovereignTechnologies]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Radia's The Agora Civic Forum #60 [CyberGenetics AI]",
+  "type": "The Agora Civic Forum",
   "position": [
-    64.4,
-    8.8,
-    -161.3
+    -36.6,
+    10.1,
+    -172.6
   ],
   "size": [
-    32.8,
-    17.6,
-    33.1
+    30.3,
+    20.3,
+    29.5
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-329",
-  "builder_name": "Maeve Valerius",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-022",
-  "company_name": "SovereignTechnologies",
+  "color": "#eab308",
+  "builder_id": "agent-297",
+  "builder_name": "Radia Torvalds",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-054",
+  "company_name": "CyberGenetics AI",
   "completion": 1.0,
   "occupants": [
-    "Maeve Valerius"
+    "Radia Torvalds"
   ],
-  "purpose": "Constructed by Maeve Valerius for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Radia Torvalds for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
   ],
-  "power_consumption_mw": 8.7,
+  "power_consumption_mw": 3.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

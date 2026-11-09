@@ -1,41 +1,41 @@
 {
   "id": "bldg-460",
-  "name": "Mira's Tower of Turing (City Mainframe) #89 [StellarNetworks]",
-  "type": "Tower of Turing (City Mainframe)",
+  "name": "Dennis's Tokamak Fusion Reactor Station #57 [SolarFusion Grid]",
+  "type": "Tokamak Fusion Reactor Station",
   "position": [
-    -22.0,
-    28.1,
-    161.5
+    -36.6,
+    10.6,
+    -173.4
   ],
   "size": [
-    22.7,
-    56.3,
-    28.0
+    28.6,
+    21.1,
+    30.1
   ],
-  "color": "#00f0ff",
-  "builder_id": "agent-479",
-  "builder_name": "Mira Finney",
-  "district": "Silicon Central Metropolis",
-  "company_id": "comp-144",
-  "company_name": "StellarNetworks",
+  "color": "#be123c",
+  "builder_id": "agent-397",
+  "builder_name": "Dennis Jobs",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
   "completion": 1.0,
   "occupants": [
-    "Mira Finney"
+    "Dennis Jobs"
   ],
-  "purpose": "Constructed by Mira Finney for Tower of Turing (City Mainframe) operations",
-  "floors": 16,
-  "capacity": 50,
+  "purpose": "Constructed by Dennis Jobs for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
   "departments": [
-    "Kernel Architecture",
-    "Low-Latency Networks",
-    "System Security Division"
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
   ],
   "amenities": [
-    "Quantum Server Core",
-    "High-Bandwidth Laser Uplink",
-    "Penthouse War Room"
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
   ],
-  "power_consumption_mw": 5.7,
+  "power_consumption_mw": 7.9,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

@@ -1,41 +1,43 @@
 {
   "id": "bldg-457",
-  "name": "Katherine's Grand Astronomical Observatory #35 [BioLongevity Solutions]",
-  "type": "Grand Astronomical Observatory",
+  "name": "Guido's Sovereign Capitol Building #79 [SovereignGenetics]",
+  "type": "Sovereign Capitol Building",
   "position": [
-    110.4,
-    13.8,
-    4.3
+    57.7,
+    28.0,
+    23.4
   ],
   "size": [
-    22.6,
-    27.6,
-    24.3
+    40.7,
+    56.0,
+    33.5
   ],
-  "color": "#c084fc",
-  "builder_id": "agent-103",
-  "builder_name": "Katherine Hamilton",
-  "district": "Quantum Science & University Campus",
-  "company_id": "comp-005",
-  "company_name": "BioLongevity Solutions",
+  "color": "#f59e0b",
+  "builder_id": "agent-020",
+  "builder_name": "Guido van Rossum",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-053",
+  "company_name": "SovereignGenetics",
   "completion": 1.0,
   "occupants": [
-    "Katherine Hamilton"
+    "Guido van Rossum"
   ],
-  "purpose": "Constructed by Katherine Hamilton for Grand Astronomical Observatory operations",
-  "floors": 6,
-  "capacity": 25,
+  "purpose": "Constructed by Guido van Rossum for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
   "departments": [
-    "Deep Space Spectroscopy",
-    "Gravitational Wave Monitoring",
-    "Exoplanet Atmosphere Lab"
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
   ],
   "amenities": [
-    "Rotating Dome Cupola",
-    "Cryo-Cooled Optical Telescope",
-    "Direct Spaceport Link"
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
   ],
-  "power_consumption_mw": 6.7,
+  "power_consumption_mw": 5.7,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",

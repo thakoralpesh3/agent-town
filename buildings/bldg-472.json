@@ -1,0 +1,46 @@
+{
+  "id": "bldg-472",
+  "name": "Vesper's Hypatia Grand University of Sciences #83 [ApexIntell]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    81.5,
+    21.4,
+    72.8
+  ],
+  "size": [
+    32.5,
+    42.8,
+    36.9
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-407",
+  "builder_name": "Vesper Tinkerer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-017",
+  "company_name": "ApexIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Vesper Tinkerer"
+  ],
+  "purpose": "Constructed by Vesper Tinkerer for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

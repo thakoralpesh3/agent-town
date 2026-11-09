@@ -1,17 +1,17 @@
 {
   "id": "comp-149",
-  "name": "ChronoEnergy",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-243",
-  "founder_name": "Geoffrey Kahn",
-  "headquarters_id": "bldg-398",
-  "headquarters_name": "ChronoEnergy Headquarters",
+  "name": "DeepVentures AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-244",
+  "founder_name": "Satya Aurelius",
+  "headquarters_id": "bldg-459",
+  "headquarters_name": "DeepVentures AI Headquarters",
   "employees": [
-    "agent-243"
+    "agent-244"
   ],
-  "valuation_tokens": 297670,
+  "valuation_tokens": 500259,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 49
+  "color": "#8b5cf6",
+  "founded_at_tick": 52
 }

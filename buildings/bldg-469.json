@@ -1,41 +1,40 @@
 {
   "id": "bldg-469",
-  "name": "Carl's Hydroponic Agricultural Biodome #84 [PrismGenetics]",
-  "type": "Hydroponic Agricultural Biodome",
+  "name": "Astrid's Drone Logistics Freight Port #66 [AetherDynamics]",
+  "type": "Drone Logistics Freight Port",
   "position": [
-    21.7,
-    12.6,
-    -155.6
+    146.2,
+    16.4,
+    -74.6
   ],
   "size": [
-    33.0,
-    25.2,
-    34.4
+    28.2,
+    32.8,
+    26.3
   ],
-  "color": "#16a34a",
-  "builder_id": "agent-027",
-  "builder_name": "Carl Sagan",
-  "district": "Biosphere Reserve & Fusion Grid",
-  "company_id": "comp-056",
-  "company_name": "PrismGenetics",
+  "color": "#ea580c",
+  "builder_id": "agent-374",
+  "builder_name": "Astrid Quantum",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-120",
+  "company_name": "AetherDynamics",
   "completion": 1.0,
   "occupants": [
-    "Carl Sagan"
+    "Astrid Quantum"
   ],
-  "purpose": "Constructed by Carl Sagan for Hydroponic Agricultural Biodome operations",
-  "floors": 3,
-  "capacity": 35,
+  "purpose": "Constructed by Astrid Quantum for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
   "departments": [
-    "Vertical Aeroponics Towers",
-    "Nutrient Mist Laboratory",
-    "Photosynthesis Optimization"
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
   ],
   "amenities": [
-    "Geodesic Glass Dome",
-    "Automated Harvesting Gantry",
-    "Micro-Climate Regulators"
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
   ],
-  "power_consumption_mw": 4.6,
+  "power_consumption_mw": 6.1,
   "active_projects": [],
   "security_level": "Level 3 - Monitored",
   "maintenance_status": "Optimal",
