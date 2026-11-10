@@ -1,0 +1,44 @@
+{
+  "id": "bldg-539",
+  "name": "Satoshi's Cloud Matrix Exchange #95 [TerraSystems]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    58.1,
+    32.3,
+    80.4
+  ],
+  "size": [
+    24.6,
+    64.5,
+    21.3
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-351",
+  "builder_name": "Satoshi Dahl",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-086",
+  "company_name": "TerraSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Satoshi Dahl"
+  ],
+  "purpose": "Constructed by Satoshi Dahl for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

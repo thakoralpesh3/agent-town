@@ -1,0 +1,46 @@
+{
+  "id": "bldg-526",
+  "name": "Bjarne's Hypatia Grand University of Sciences #36 [AeroCyber Mobility]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    166.6,
+    24.5,
+    6.4
+  ],
+  "size": [
+    32.2,
+    48.9,
+    40.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-021",
+  "builder_name": "Bjarne Stroustrup",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Bjarne Stroustrup"
+  ],
+  "purpose": "Constructed by Bjarne Stroustrup for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

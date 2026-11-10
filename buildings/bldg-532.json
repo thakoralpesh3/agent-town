@@ -1,0 +1,45 @@
+{
+  "id": "bldg-532",
+  "name": "Sora's Hydroponic Agricultural Biodome #44 [DeepSolutions]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    46.5,
+    9.4,
+    -151.9
+  ],
+  "size": [
+    31.9,
+    18.8,
+    36.2
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-360",
+  "builder_name": "Sora Strata",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-104",
+  "company_name": "DeepSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Sora Strata"
+  ],
+  "purpose": "Constructed by Sora Strata for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

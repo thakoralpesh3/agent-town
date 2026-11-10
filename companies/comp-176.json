@@ -1,18 +1,17 @@
 {
   "id": "comp-176",
-  "name": "BioEnergy",
-  "sector": "Autonomous Mobility & Aerospace",
-  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
-  "founder_id": "agent-073",
-  "founder_name": "Morrigan Synapse",
-  "headquarters_id": "bldg-455",
-  "headquarters_name": "BioEnergy Headquarters",
+  "name": "SovereignSystems",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-432",
+  "founder_name": "Bjarne Aurelius",
+  "headquarters_id": "bldg-524",
+  "headquarters_name": "SovereignSystems Headquarters",
   "employees": [
-    "agent-073",
-    "agent-521"
+    "agent-432"
   ],
-  "valuation_tokens": 622591,
+  "valuation_tokens": 520645,
   "products": [],
-  "color": "#f59e0b",
-  "founded_at_tick": 57
+  "color": "#ef4444",
+  "founded_at_tick": 60
 }

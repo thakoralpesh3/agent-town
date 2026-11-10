@@ -1,17 +1,17 @@
 {
   "id": "comp-177",
-  "name": "NexusFoundry",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-322",
-  "founder_name": "Yann Lamport",
-  "headquarters_id": "bldg-459",
-  "headquarters_name": "NexusFoundry Headquarters",
+  "name": "TerraLogistics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-330",
+  "founder_name": "Woz Sovereign",
+  "headquarters_id": "bldg-525",
+  "headquarters_name": "TerraLogistics Headquarters",
   "employees": [
-    "agent-322"
+    "agent-330"
   ],
-  "valuation_tokens": 269690,
+  "valuation_tokens": 231135,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 58
+  "color": "#00f0ff",
+  "founded_at_tick": 60
 }

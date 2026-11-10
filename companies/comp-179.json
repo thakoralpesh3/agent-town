@@ -1,17 +1,17 @@
 {
   "id": "comp-179",
-  "name": "PrismGenetics AI",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-003",
-  "founder_name": "Linus Torvalds",
-  "headquarters_id": "bldg-464",
-  "headquarters_name": "PrismGenetics AI Headquarters",
+  "name": "SynapseRobotics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-177",
+  "founder_name": "Hal Hickey",
+  "headquarters_id": "bldg-537",
+  "headquarters_name": "SynapseRobotics AI Headquarters",
   "employees": [
-    "agent-003"
+    "agent-177"
   ],
-  "valuation_tokens": 654612,
+  "valuation_tokens": 394545,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 58
+  "color": "#10b981",
+  "founded_at_tick": 61
 }

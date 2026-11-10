@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0025",
+  "role": "Superconducting Grid Dispatcher",
+  "category": "Energy",
+  "specialization": "Dynamic Load Balancing & Megawatt Routing",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Superconducting Grid Dispatcher Hub",
+  "salary_offered": 16200,
+  "created_at_tick": 60,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-496",
+  "filled_by_agent_name": "Nexus Odersky"
+}

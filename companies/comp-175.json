@@ -1,17 +1,18 @@
 {
   "id": "comp-175",
-  "name": "PrismTechnologies AI",
+  "name": "OmniSynthetics",
   "sector": "Synthetic Ecology & Holo Arts",
   "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-462",
-  "founder_name": "Yann Wood",
-  "headquarters_id": "bldg-449",
-  "headquarters_name": "PrismTechnologies AI Headquarters",
+  "founder_id": "agent-295",
+  "founder_name": "Claude Circuit",
+  "headquarters_id": "bldg-520",
+  "headquarters_name": "OmniSynthetics Headquarters",
   "employees": [
-    "agent-462"
+    "agent-295",
+    "agent-493"
   ],
-  "valuation_tokens": 296660,
+  "valuation_tokens": 691779,
   "products": [],
   "color": "#10b981",
-  "founded_at_tick": 56
+  "founded_at_tick": 60
 }

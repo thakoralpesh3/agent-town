@@ -1,0 +1,44 @@
+{
+  "id": "bldg-527",
+  "name": "Donald's Cloud Matrix Exchange #26 [NexusRobotics]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -68.9,
+    32.0,
+    134.3
+  ],
+  "size": [
+    21.0,
+    63.9,
+    21.3
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-014",
+  "builder_name": "Donald Knuth",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-083",
+  "company_name": "NexusRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Donald Knuth"
+  ],
+  "purpose": "Constructed by Donald Knuth for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

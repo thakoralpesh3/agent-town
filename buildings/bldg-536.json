@@ -1,0 +1,46 @@
+{
+  "id": "bldg-536",
+  "name": "Katherine's Hypatia Grand University of Sciences #59 [SolarFusion Grid]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    125.0,
+    26.5,
+    85.7
+  ],
+  "size": [
+    31.4,
+    53.1,
+    35.0
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-423",
+  "builder_name": "Katherine Kahn",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Kahn"
+  ],
+  "purpose": "Constructed by Katherine Kahn for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

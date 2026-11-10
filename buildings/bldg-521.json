@@ -1,0 +1,44 @@
+{
+  "id": "bldg-521",
+  "name": "Dante's Shannon Information Spire #56 [OmniGenetics AI]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -15.9,
+    22.8,
+    59.7
+  ],
+  "size": [
+    17.8,
+    45.5,
+    16.9
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-067",
+  "builder_name": "Dante Mercer",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-064",
+  "company_name": "OmniGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Dante Mercer"
+  ],
+  "purpose": "Constructed by Dante Mercer for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 2.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
