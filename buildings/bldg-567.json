@@ -1,0 +1,44 @@
+{
+  "id": "bldg-567",
+  "name": "Leslie's Biosphere Atmospheric Scrubber #79 [OpenKernel Federation]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    -45.8,
+    16.1,
+    -174.3
+  ],
+  "size": [
+    21.3,
+    32.3,
+    20.8
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-446",
+  "builder_name": "Leslie Weaver",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Leslie Weaver"
+  ],
+  "purpose": "Constructed by Leslie Weaver for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-577",
+  "name": "Kaelen's Cyber Living Township Alpha #62 [BioLabs]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -160.7,
+    15.7,
+    -159.1
+  ],
+  "size": [
+    27.0,
+    31.5,
+    24.5
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-440",
+  "builder_name": "Kaelen Nightingale",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-047",
+  "company_name": "BioLabs",
+  "completion": 1.0,
+  "occupants": [
+    "Kaelen Nightingale"
+  ],
+  "purpose": "Constructed by Kaelen Nightingale for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 4.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

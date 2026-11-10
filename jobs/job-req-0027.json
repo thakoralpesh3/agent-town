@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0027",
+  "role": "National Food Security Minister",
+  "category": "Agriculture",
+  "specialization": "National Nutritional Sovereignty",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "National Food Security Minister Hub",
+  "salary_offered": 17200,
+  "created_at_tick": 65,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-511",
+  "filled_by_agent_name": "Guido Hassabis"
+}

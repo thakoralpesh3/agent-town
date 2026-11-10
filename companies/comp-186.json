@@ -1,0 +1,17 @@
+{
+  "id": "comp-186",
+  "name": "TerraLabs AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-363",
+  "founder_name": "Satya Flux",
+  "headquarters_id": "bldg-573",
+  "headquarters_name": "TerraLabs AI Headquarters",
+  "employees": [
+    "agent-363"
+  ],
+  "valuation_tokens": 317157,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 65
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-184",
+  "name": "NeuroGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-178",
+  "founder_name": "Vitalik Thorne",
+  "headquarters_id": "bldg-568",
+  "headquarters_name": "NeuroGenetics Headquarters",
+  "employees": [
+    "agent-178"
+  ],
+  "valuation_tokens": 588809,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 64
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-575",
+  "name": "Sylvia's National Archives & Git Ledger #60 [HyperSynthetics]",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    -17.7,
+    21.6,
+    -34.0
+  ],
+  "size": [
+    24.1,
+    43.2,
+    30.0
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-459",
+  "builder_name": "Sylvia Vex",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Sylvia Vex"
+  ],
+  "purpose": "Constructed by Sylvia Vex for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 4.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

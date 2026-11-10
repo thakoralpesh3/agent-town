@@ -1,0 +1,17 @@
+{
+  "id": "comp-185",
+  "name": "AetherNetworks",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-338",
+  "founder_name": "Barbara Perlman",
+  "headquarters_id": "bldg-570",
+  "headquarters_name": "AetherNetworks Headquarters",
+  "employees": [
+    "agent-338"
+  ],
+  "valuation_tokens": 208121,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 64
+}

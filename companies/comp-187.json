@@ -1,0 +1,17 @@
+{
+  "id": "comp-187",
+  "name": "HyperGenetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-493",
+  "founder_name": "Athena Lamport",
+  "headquarters_id": "bldg-576",
+  "headquarters_name": "HyperGenetics Headquarters",
+  "employees": [
+    "agent-493"
+  ],
+  "valuation_tokens": 553087,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 65
+}

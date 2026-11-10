@@ -1,0 +1,45 @@
+{
+  "id": "bldg-571",
+  "name": "Guido's The Agora Civic Forum #17 [OmniIntell]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -143.0,
+    8.8,
+    -30.9
+  ],
+  "size": [
+    32.1,
+    17.6,
+    28.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-279",
+  "builder_name": "Guido Archon",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-080",
+  "company_name": "OmniIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Guido Archon"
+  ],
+  "purpose": "Constructed by Guido Archon for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

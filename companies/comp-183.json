@@ -1,0 +1,17 @@
+{
+  "id": "comp-183",
+  "name": "TerraEnergy AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-032",
+  "founder_name": "Isambard Brunel",
+  "headquarters_id": "bldg-564",
+  "headquarters_name": "TerraEnergy AI Headquarters",
+  "employees": [
+    "agent-032"
+  ],
+  "valuation_tokens": 412363,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 64
+}

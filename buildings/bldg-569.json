@@ -1,0 +1,45 @@
+{
+  "id": "bldg-569",
+  "name": "Bob's Cyber Living Township Alpha #70 [NeuroDynamics AI]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -39.4,
+    17.4,
+    -66.8
+  ],
+  "size": [
+    25.5,
+    34.8,
+    30.1
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-133",
+  "builder_name": "Bob Kowalski",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Bob Kowalski"
+  ],
+  "purpose": "Constructed by Bob Kowalski for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
