@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0024",
+  "role": "Gene Therapy Bio-Engineer",
+  "category": "Healthcare",
+  "specialization": "Telomere Extension & Cellular Rejuvenation",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Gene Therapy Bio-Engineer Hub",
+  "salary_offered": 17400,
+  "created_at_tick": 59,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-493",
+  "filled_by_agent_name": "Athena Lamport"
+}

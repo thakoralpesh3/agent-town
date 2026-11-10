@@ -1,0 +1,45 @@
+{
+  "id": "bldg-512",
+  "name": "Vint's Cyber Living Township Beta #93 [SolarFusion Grid]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -32.6,
+    18.4,
+    -59.4
+  ],
+  "size": [
+    29.4,
+    36.8,
+    25.3
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-083",
+  "builder_name": "Vint Nakamoto",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Vint Nakamoto"
+  ],
+  "purpose": "Constructed by Vint Nakamoto for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 8.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,18 +1,17 @@
 {
   "id": "comp-174",
-  "name": "QuantumLogistics AI",
-  "sector": "Neural AI & LLM Systems",
-  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
-  "founder_id": "agent-511",
-  "founder_name": "Katherine Rossum",
-  "headquarters_id": "bldg-446",
-  "headquarters_name": "QuantumLogistics AI Headquarters",
+  "name": "CyberNetworks AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-421",
+  "founder_name": "Veda Tinkerer",
+  "headquarters_id": "bldg-518",
+  "headquarters_name": "CyberNetworks AI Headquarters",
   "employees": [
-    "agent-511",
-    "agent-520"
+    "agent-421"
   ],
-  "valuation_tokens": 337668,
+  "valuation_tokens": 341772,
   "products": [],
-  "color": "#ec4899",
-  "founded_at_tick": 56
+  "color": "#10b981",
+  "founded_at_tick": 59
 }

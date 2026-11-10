@@ -1,0 +1,47 @@
+{
+  "id": "bldg-511",
+  "name": "Diana's Sovereign Capitol Building #63 [AetherDynamics]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -42.6,
+    18.6,
+    -58.6
+  ],
+  "size": [
+    37.6,
+    37.2,
+    42.0
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-098",
+  "builder_name": "Diana Rayne",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-120",
+  "company_name": "AetherDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Diana Rayne"
+  ],
+  "purpose": "Constructed by Diana Rayne for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

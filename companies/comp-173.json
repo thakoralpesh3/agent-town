@@ -1,17 +1,17 @@
 {
   "id": "comp-173",
-  "name": "AxiomNetworks AI",
-  "sector": "Cyber Infrastructure & Sovereign Cloud",
-  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
-  "founder_id": "agent-250",
-  "founder_name": "Marc Johnson",
-  "headquarters_id": "bldg-445",
-  "headquarters_name": "AxiomNetworks AI Headquarters",
+  "name": "TerraSystems AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-190",
+  "founder_name": "Roxas Lamport",
+  "headquarters_id": "bldg-509",
+  "headquarters_name": "TerraSystems AI Headquarters",
   "employees": [
-    "agent-250"
+    "agent-190"
   ],
-  "valuation_tokens": 330965,
+  "valuation_tokens": 287548,
   "products": [],
-  "color": "#00f0ff",
-  "founded_at_tick": 55
+  "color": "#e11d48",
+  "founded_at_tick": 59
 }

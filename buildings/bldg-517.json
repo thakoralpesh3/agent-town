@@ -1,0 +1,44 @@
+{
+  "id": "bldg-517",
+  "name": "Zane's Quantum Logic Foundry #53 [PrismIntell AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    89.1,
+    16.5,
+    -10.3
+  ],
+  "size": [
+    30.0,
+    32.9,
+    30.8
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-291",
+  "builder_name": "Zane Hickey",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-164",
+  "company_name": "PrismIntell AI",
+  "completion": 1.0,
+  "occupants": [
+    "Zane Hickey"
+  ],
+  "purpose": "Constructed by Zane Hickey for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

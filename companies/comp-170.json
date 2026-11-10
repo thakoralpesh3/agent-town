@@ -1,17 +1,17 @@
 {
   "id": "comp-170",
-  "name": "ApexDynamics AI",
-  "sector": "Nanomedicine & Longevity Biotech",
-  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
-  "founder_id": "agent-375",
-  "founder_name": "Vesper Archon",
-  "headquarters_id": "bldg-439",
-  "headquarters_name": "ApexDynamics AI Headquarters",
+  "name": "NexusSolutions AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-318",
+  "founder_name": "Echo Jackson",
+  "headquarters_id": "bldg-502",
+  "headquarters_name": "NexusSolutions AI Headquarters",
   "employees": [
-    "agent-375"
+    "agent-318"
   ],
-  "valuation_tokens": 353040,
+  "valuation_tokens": 610172,
   "products": [],
-  "color": "#ef4444",
-  "founded_at_tick": 55
+  "color": "#10b981",
+  "founded_at_tick": 58
 }

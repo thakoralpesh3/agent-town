@@ -1,17 +1,17 @@
 {
   "id": "comp-172",
-  "name": "AxiomNetworks",
-  "sector": "Synthetic Ecology & Holo Arts",
-  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
-  "founder_id": "agent-076",
-  "founder_name": "Gavin Hopper",
-  "headquarters_id": "bldg-442",
-  "headquarters_name": "AxiomNetworks Headquarters",
+  "name": "ChronoNetworks AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-359",
+  "founder_name": "Grace Zenith",
+  "headquarters_id": "bldg-505",
+  "headquarters_name": "ChronoNetworks AI Headquarters",
   "employees": [
-    "agent-076"
+    "agent-359"
   ],
-  "valuation_tokens": 630245,
+  "valuation_tokens": 459013,
   "products": [],
-  "color": "#10b981",
-  "founded_at_tick": 55
+  "color": "#e11d48",
+  "founded_at_tick": 58
 }
