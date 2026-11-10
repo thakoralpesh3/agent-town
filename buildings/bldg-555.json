@@ -1,0 +1,46 @@
+{
+  "id": "bldg-555",
+  "name": "Satoshi's Hypatia Grand University of Sciences #16 [PrismNetworks AI]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    68.2,
+    23.3,
+    61.1
+  ],
+  "size": [
+    32.3,
+    46.5,
+    37.8
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-278",
+  "builder_name": "Satoshi Zenith",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-077",
+  "company_name": "PrismNetworks AI",
+  "completion": 1.0,
+  "occupants": [
+    "Satoshi Zenith"
+  ],
+  "purpose": "Constructed by Satoshi Zenith for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 6.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,18 @@
+{
+  "id": "comp-181",
+  "name": "SolarSolutions AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-231",
+  "founder_name": "Ronan Synapse",
+  "headquarters_id": "bldg-551",
+  "headquarters_name": "SolarSolutions AI Headquarters",
+  "employees": [
+    "agent-231",
+    "agent-500"
+  ],
+  "valuation_tokens": 641401,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 63
+}

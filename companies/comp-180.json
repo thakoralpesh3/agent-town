@@ -1,17 +1,17 @@
 {
   "id": "comp-180",
-  "name": "ChronoRobotics",
-  "sector": "Quantum Computing & Cryptography",
-  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
-  "founder_id": "agent-343",
-  "founder_name": "Chronos Meridian",
-  "headquarters_id": "bldg-465",
-  "headquarters_name": "ChronoRobotics Headquarters",
+  "name": "SynapseIntell AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-147",
+  "founder_name": "Fei-Fei Brockman",
+  "headquarters_id": "bldg-545",
+  "headquarters_name": "SynapseIntell AI Headquarters",
   "employees": [
-    "agent-343"
+    "agent-147"
   ],
-  "valuation_tokens": 743640,
+  "valuation_tokens": 464320,
   "products": [],
-  "color": "#8b5cf6",
-  "founded_at_tick": 58
+  "color": "#e11d48",
+  "founded_at_tick": 62
 }

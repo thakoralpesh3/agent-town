@@ -1,0 +1,45 @@
+{
+  "id": "bldg-561",
+  "name": "Barbara's The Agora Civic Forum #47 [ChronoLogistics]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -64.6,
+    8.0,
+    -80.9
+  ],
+  "size": [
+    30.1,
+    16.1,
+    31.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-209",
+  "builder_name": "Barbara Frost",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-084",
+  "company_name": "ChronoLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Barbara Frost"
+  ],
+  "purpose": "Constructed by Barbara Frost for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 2.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

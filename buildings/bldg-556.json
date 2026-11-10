@@ -1,0 +1,44 @@
+{
+  "id": "bldg-556",
+  "name": "Valen's Drone Logistics Freight Port #56 [NexusVentures]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    108.1,
+    11.4,
+    -49.6
+  ],
+  "size": [
+    28.2,
+    22.7,
+    30.4
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-219",
+  "builder_name": "Valen Johnson",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-024",
+  "company_name": "NexusVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Valen Johnson"
+  ],
+  "purpose": "Constructed by Valen Johnson for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

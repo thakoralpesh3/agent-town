@@ -1,0 +1,44 @@
+{
+  "id": "bldg-543",
+  "name": "Mary's Drone Logistics Freight Port #59 [QuantumIntell]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    137.0,
+    11.6,
+    -48.4
+  ],
+  "size": [
+    24.5,
+    23.1,
+    30.7
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-373",
+  "builder_name": "Mary Aurelius",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-101",
+  "company_name": "QuantumIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Mary Aurelius"
+  ],
+  "purpose": "Constructed by Mary Aurelius for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 9.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

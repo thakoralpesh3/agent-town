@@ -1,0 +1,17 @@
+{
+  "id": "comp-182",
+  "name": "ApexFederation",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-402",
+  "founder_name": "Iris Sovereign",
+  "headquarters_id": "bldg-559",
+  "headquarters_name": "ApexFederation Headquarters",
+  "employees": [
+    "agent-402"
+  ],
+  "valuation_tokens": 216267,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 63
+}

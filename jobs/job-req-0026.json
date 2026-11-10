@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0026",
+  "role": "Surgeon General & Chief Medical Officer",
+  "category": "Healthcare",
+  "specialization": "National Healthcare Strategy & Pandemic Defense",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Surgeon General & Chief Medical Officer Hub",
+  "salary_offered": 19200,
+  "created_at_tick": 62,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-500",
+  "filled_by_agent_name": "Vector Foundry"
+}
