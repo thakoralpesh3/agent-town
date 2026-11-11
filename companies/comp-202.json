@@ -1,0 +1,17 @@
+{
+  "id": "comp-202",
+  "name": "SovereignIntell",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-147",
+  "founder_name": "Fei-Fei Brockman",
+  "headquarters_id": "bldg-617",
+  "headquarters_name": "SovereignIntell Headquarters",
+  "employees": [
+    "agent-147"
+  ],
+  "valuation_tokens": 361105,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 71
+}

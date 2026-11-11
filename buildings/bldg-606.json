@@ -1,0 +1,46 @@
+{
+  "id": "bldg-606",
+  "name": "Guido's National Hospital & Nanomedical Citadel #33 [SynapseVentures]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -104.1,
+    27.8,
+    31.1
+  ],
+  "size": [
+    38.1,
+    55.5,
+    31.0
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-453",
+  "builder_name": "Guido Valerius",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-091",
+  "company_name": "SynapseVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Guido Valerius"
+  ],
+  "purpose": "Constructed by Guido Valerius for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

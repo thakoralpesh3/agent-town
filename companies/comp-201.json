@@ -1,0 +1,17 @@
+{
+  "id": "comp-201",
+  "name": "DeepDynamics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-142",
+  "founder_name": "Leon Mercer",
+  "headquarters_id": "bldg-616",
+  "headquarters_name": "DeepDynamics Headquarters",
+  "employees": [
+    "agent-142"
+  ],
+  "valuation_tokens": 191262,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 71
+}

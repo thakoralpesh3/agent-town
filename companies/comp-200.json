@@ -1,0 +1,17 @@
+{
+  "id": "comp-200",
+  "name": "NeuroEnergy",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-401",
+  "founder_name": "Vector Shannon",
+  "headquarters_id": "bldg-614",
+  "headquarters_name": "NeuroEnergy Headquarters",
+  "employees": [
+    "agent-401"
+  ],
+  "valuation_tokens": 747410,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 70
+}

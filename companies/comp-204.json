@@ -1,0 +1,17 @@
+{
+  "id": "comp-204",
+  "name": "DeepIntell",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-481",
+  "founder_name": "Veda Szabo",
+  "headquarters_id": "bldg-620",
+  "headquarters_name": "DeepIntell Headquarters",
+  "employees": [
+    "agent-481"
+  ],
+  "valuation_tokens": 746189,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 71
+}

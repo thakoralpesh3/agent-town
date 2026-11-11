@@ -1,0 +1,44 @@
+{
+  "id": "bldg-612",
+  "name": "Pixel's Cloud Matrix Exchange #95 [SynapseTechnologies]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    50.4,
+    23.4,
+    77.0
+  ],
+  "size": [
+    23.4,
+    46.8,
+    25.5
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-350",
+  "builder_name": "Pixel Lovelace",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-045",
+  "company_name": "SynapseTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Lovelace"
+  ],
+  "purpose": "Constructed by Pixel Lovelace for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 6.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

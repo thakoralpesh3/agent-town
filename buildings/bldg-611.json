@@ -1,0 +1,45 @@
+{
+  "id": "bldg-611",
+  "name": "Callum's Cyber Living Township Alpha #96 [ChronoFoundry]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -150.5,
+    13.1,
+    -61.2
+  ],
+  "size": [
+    24.8,
+    26.2,
+    29.3
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-293",
+  "builder_name": "Callum Vex",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-137",
+  "company_name": "ChronoFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Callum Vex"
+  ],
+  "purpose": "Constructed by Callum Vex for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 7.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

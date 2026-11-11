@@ -1,0 +1,17 @@
+{
+  "id": "comp-203",
+  "name": "SovereignFederation",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-005",
+  "founder_name": "Margaret Hamilton",
+  "headquarters_id": "bldg-618",
+  "headquarters_name": "SovereignFederation Headquarters",
+  "employees": [
+    "agent-005"
+  ],
+  "valuation_tokens": 299198,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 71
+}
