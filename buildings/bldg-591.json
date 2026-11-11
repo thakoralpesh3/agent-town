@@ -1,0 +1,44 @@
+{
+  "id": "bldg-591",
+  "name": "Leonardo's Drone Logistics Freight Port #94 [QuantumMatrix AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    47.7,
+    18.3,
+    -136.9
+  ],
+  "size": [
+    30.2,
+    36.6,
+    27.0
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-018",
+  "builder_name": "Leonardo Cyber",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-123",
+  "company_name": "QuantumMatrix AI",
+  "completion": 1.0,
+  "occupants": [
+    "Leonardo Cyber"
+  ],
+  "purpose": "Constructed by Leonardo Cyber for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 7.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

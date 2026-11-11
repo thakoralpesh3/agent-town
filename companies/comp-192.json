@@ -1,0 +1,17 @@
+{
+  "id": "comp-192",
+  "name": "NexusLabs",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-092",
+  "founder_name": "Sylvia Binary",
+  "headquarters_id": "bldg-589",
+  "headquarters_name": "NexusLabs Headquarters",
+  "employees": [
+    "agent-092"
+  ],
+  "valuation_tokens": 417691,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 67
+}

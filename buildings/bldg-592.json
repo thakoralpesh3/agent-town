@@ -1,0 +1,45 @@
+{
+  "id": "bldg-592",
+  "name": "Rune's Hydroponic Agricultural Biodome #91 [StellarIntell]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    42.4,
+    8.5,
+    -109.5
+  ],
+  "size": [
+    38.4,
+    16.9,
+    36.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-312",
+  "builder_name": "Rune Shadow",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-065",
+  "company_name": "StellarIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Rune Shadow"
+  ],
+  "purpose": "Constructed by Rune Shadow for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 4.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-588",
+  "name": "Pixel's National Central Bank & Treasury #99 [SynapseSynthetics]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    4.5,
+    16.0,
+    7.1
+  ],
+  "size": [
+    31.9,
+    32.0,
+    27.9
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-485",
+  "builder_name": "Pixel Hinton",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-013",
+  "company_name": "SynapseSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Hinton"
+  ],
+  "purpose": "Constructed by Pixel Hinton for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

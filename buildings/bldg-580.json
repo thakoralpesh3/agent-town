@@ -1,0 +1,44 @@
+{
+  "id": "bldg-580",
+  "name": "Yoshua's Cloud Matrix Exchange #97 [StellarIntell]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -31.2,
+    33.0,
+    74.2
+  ],
+  "size": [
+    20.3,
+    66.0,
+    20.2
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-509",
+  "builder_name": "Yoshua Spark",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-065",
+  "company_name": "StellarIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Yoshua Spark"
+  ],
+  "purpose": "Constructed by Yoshua Spark for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

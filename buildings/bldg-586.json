@@ -1,0 +1,44 @@
+{
+  "id": "bldg-586",
+  "name": "Guido's Quantum Logic Foundry #57 [AetherLabs]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    106.5,
+    19.5,
+    38.4
+  ],
+  "size": [
+    24.2,
+    39.0,
+    29.5
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-511",
+  "builder_name": "Guido Hassabis",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-188",
+  "company_name": "AetherLabs",
+  "completion": 1.0,
+  "occupants": [
+    "Guido Hassabis"
+  ],
+  "purpose": "Constructed by Guido Hassabis for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 6.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

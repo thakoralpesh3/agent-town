@@ -1,0 +1,45 @@
+{
+  "id": "bldg-582",
+  "name": "Rowan's Tokamak Fusion Reactor Station #91 [PrismIntell]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -30.2,
+    10.4,
+    -175.6
+  ],
+  "size": [
+    33.2,
+    20.8,
+    31.3
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-241",
+  "builder_name": "Rowan Citadel",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-023",
+  "company_name": "PrismIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Rowan Citadel"
+  ],
+  "purpose": "Constructed by Rowan Citadel for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 4.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

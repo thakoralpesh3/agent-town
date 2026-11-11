@@ -1,0 +1,18 @@
+{
+  "id": "comp-188",
+  "name": "AetherLabs",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-170",
+  "founder_name": "Seraph Finney",
+  "headquarters_id": "bldg-581",
+  "headquarters_name": "AetherLabs Headquarters",
+  "employees": [
+    "agent-170",
+    "agent-511"
+  ],
+  "valuation_tokens": 675519,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 66
+}

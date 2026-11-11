@@ -1,0 +1,17 @@
+{
+  "id": "comp-193",
+  "name": "OmniMatrix AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-326",
+  "founder_name": "Edsger Torvalds",
+  "headquarters_id": "bldg-590",
+  "headquarters_name": "OmniMatrix AI Headquarters",
+  "employees": [
+    "agent-326"
+  ],
+  "valuation_tokens": 620019,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 67
+}

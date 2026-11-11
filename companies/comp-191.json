@@ -1,0 +1,17 @@
+{
+  "id": "comp-191",
+  "name": "NeuroSolutions",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-240",
+  "founder_name": "Hal Praetor",
+  "headquarters_id": "bldg-587",
+  "headquarters_name": "NeuroSolutions Headquarters",
+  "employees": [
+    "agent-240"
+  ],
+  "valuation_tokens": 623660,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 67
+}
