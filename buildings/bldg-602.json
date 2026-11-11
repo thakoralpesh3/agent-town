@@ -1,0 +1,46 @@
+{
+  "id": "bldg-602",
+  "name": "Kira's National Hospital & Nanomedical Citadel #95 [AeroIntell]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -97.1,
+    21.5,
+    72.3
+  ],
+  "size": [
+    35.2,
+    43.0,
+    33.4
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-335",
+  "builder_name": "Kira Synapse",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-076",
+  "company_name": "AeroIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Kira Synapse"
+  ],
+  "purpose": "Constructed by Kira Synapse for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 4.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

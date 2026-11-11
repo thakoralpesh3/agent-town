@@ -1,0 +1,17 @@
+{
+  "id": "comp-195",
+  "name": "ApexEnergy AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-464",
+  "founder_name": "Tim Dijkstra",
+  "headquarters_id": "bldg-597",
+  "headquarters_name": "ApexEnergy AI Headquarters",
+  "employees": [
+    "agent-464"
+  ],
+  "valuation_tokens": 617312,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 68
+}

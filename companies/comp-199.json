@@ -1,0 +1,17 @@
+{
+  "id": "comp-199",
+  "name": "ApexLogistics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-069",
+  "founder_name": "Ilya Node",
+  "headquarters_id": "bldg-604",
+  "headquarters_name": "ApexLogistics AI Headquarters",
+  "employees": [
+    "agent-069"
+  ],
+  "valuation_tokens": 730033,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 69
+}

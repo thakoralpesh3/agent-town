@@ -1,0 +1,17 @@
+{
+  "id": "comp-196",
+  "name": "StellarIntell AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-093",
+  "founder_name": "Morrigan Praetor",
+  "headquarters_id": "bldg-598",
+  "headquarters_name": "StellarIntell AI Headquarters",
+  "employees": [
+    "agent-093"
+  ],
+  "valuation_tokens": 473741,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 68
+}

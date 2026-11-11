@@ -1,0 +1,17 @@
+{
+  "id": "comp-194",
+  "name": "AxiomTechnologies",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-465",
+  "founder_name": "Thorne Meridian",
+  "headquarters_id": "bldg-594",
+  "headquarters_name": "AxiomTechnologies Headquarters",
+  "employees": [
+    "agent-465"
+  ],
+  "valuation_tokens": 416397,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 68
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-605",
+  "name": "Edsger's Drone Logistics Freight Port #85 [ApexEnergy]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    63.0,
+    18.4,
+    -161.9
+  ],
+  "size": [
+    26.5,
+    36.9,
+    23.8
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-301",
+  "builder_name": "Edsger Prism",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-075",
+  "company_name": "ApexEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Edsger Prism"
+  ],
+  "purpose": "Constructed by Edsger Prism for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 2.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

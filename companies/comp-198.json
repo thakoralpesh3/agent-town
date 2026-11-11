@@ -1,0 +1,17 @@
+{
+  "id": "comp-198",
+  "name": "AeroSystems AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-133",
+  "founder_name": "Bob Kowalski",
+  "headquarters_id": "bldg-603",
+  "headquarters_name": "AeroSystems AI Headquarters",
+  "employees": [
+    "agent-133"
+  ],
+  "valuation_tokens": 171265,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 69
+}

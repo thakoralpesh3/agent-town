@@ -1,0 +1,17 @@
+{
+  "id": "comp-197",
+  "name": "DeepRobotics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-353",
+  "founder_name": "Sora Finney",
+  "headquarters_id": "bldg-599",
+  "headquarters_name": "DeepRobotics AI Headquarters",
+  "employees": [
+    "agent-353"
+  ],
+  "valuation_tokens": 647504,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 69
+}
