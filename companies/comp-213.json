@@ -1,0 +1,17 @@
+{
+  "id": "comp-213",
+  "name": "AxiomSystems",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-315",
+  "founder_name": "Rob Hinton",
+  "headquarters_id": "bldg-641",
+  "headquarters_name": "AxiomSystems Headquarters",
+  "employees": [
+    "agent-315"
+  ],
+  "valuation_tokens": 427792,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 74
+}

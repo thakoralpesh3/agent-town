@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0029",
+  "role": "Distributed Consensus Engineer",
+  "category": "AI & Systems",
+  "specialization": "Low-Latency Partition-Tolerant State",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Distributed Consensus Engineer Hub",
+  "salary_offered": 16800,
+  "created_at_tick": 75,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-543",
+  "filled_by_agent_name": "Vesper Binary"
+}

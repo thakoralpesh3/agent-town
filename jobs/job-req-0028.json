@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0028",
+  "role": "Micro-Mobility Grid Custodian",
+  "category": "Transportation",
+  "specialization": "First/Last-Mile Pedestrian Mobility",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Micro-Mobility Grid Custodian Hub",
+  "salary_offered": 13500,
+  "created_at_tick": 74,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-538",
+  "filled_by_agent_name": "Martin Tinkerer"
+}

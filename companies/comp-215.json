@@ -1,0 +1,18 @@
+{
+  "id": "comp-215",
+  "name": "AeroIntell AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-069",
+  "founder_name": "Ilya Node",
+  "headquarters_id": "bldg-646",
+  "headquarters_name": "AeroIntell AI Headquarters",
+  "employees": [
+    "agent-069",
+    "agent-538"
+  ],
+  "valuation_tokens": 670783,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 75
+}

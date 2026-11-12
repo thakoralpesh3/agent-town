@@ -1,0 +1,44 @@
+{
+  "id": "bldg-639",
+  "name": "Theron's Cloud Matrix Exchange #40 [QuantumEnergy]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -62.0,
+    29.7,
+    65.4
+  ],
+  "size": [
+    23.1,
+    59.4,
+    21.9
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-155",
+  "builder_name": "Theron Node",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-139",
+  "company_name": "QuantumEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Theron Node"
+  ],
+  "purpose": "Constructed by Theron Node for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 4.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

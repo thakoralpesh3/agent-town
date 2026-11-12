@@ -1,0 +1,44 @@
+{
+  "id": "bldg-643",
+  "name": "Yann's Cloud Matrix Exchange #12 [HeliosMatrix]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -57.4,
+    28.9,
+    78.6
+  ],
+  "size": [
+    26.2,
+    57.9,
+    25.7
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-502",
+  "builder_name": "Yann Knuth",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-070",
+  "company_name": "HeliosMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Yann Knuth"
+  ],
+  "purpose": "Constructed by Yann Knuth for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

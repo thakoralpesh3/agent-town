@@ -1,0 +1,17 @@
+{
+  "id": "comp-214",
+  "name": "AxiomTechnologies AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-468",
+  "founder_name": "Iris Sutskever",
+  "headquarters_id": "bldg-642",
+  "headquarters_name": "AxiomTechnologies AI Headquarters",
+  "employees": [
+    "agent-468"
+  ],
+  "valuation_tokens": 499339,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 74
+}

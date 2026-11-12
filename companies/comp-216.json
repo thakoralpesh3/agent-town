@@ -1,0 +1,17 @@
+{
+  "id": "comp-216",
+  "name": "DeepMatrix",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-432",
+  "founder_name": "Bjarne Aurelius",
+  "headquarters_id": "bldg-648",
+  "headquarters_name": "DeepMatrix Headquarters",
+  "employees": [
+    "agent-432"
+  ],
+  "valuation_tokens": 402495,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 75
+}

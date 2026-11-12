@@ -1,0 +1,45 @@
+{
+  "id": "bldg-640",
+  "name": "Claude's Cyber Living Township Beta #76 [SovereignGenetics]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -29.2,
+    18.6,
+    -81.0
+  ],
+  "size": [
+    29.4,
+    37.1,
+    30.2
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-221",
+  "builder_name": "Claude Spark",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-053",
+  "company_name": "SovereignGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Claude Spark"
+  ],
+  "purpose": "Constructed by Claude Spark for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 2.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

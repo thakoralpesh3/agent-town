@@ -1,0 +1,17 @@
+{
+  "id": "comp-212",
+  "name": "VectorLabs",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-469",
+  "founder_name": "Vesper Sterling",
+  "headquarters_id": "bldg-638",
+  "headquarters_name": "VectorLabs Headquarters",
+  "employees": [
+    "agent-469"
+  ],
+  "valuation_tokens": 456784,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 74
+}
