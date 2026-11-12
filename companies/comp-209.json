@@ -1,0 +1,17 @@
+{
+  "id": "comp-209",
+  "name": "VectorRobotics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-398",
+  "founder_name": "Dorothy Solstice",
+  "headquarters_id": "bldg-630",
+  "headquarters_name": "VectorRobotics Headquarters",
+  "employees": [
+    "agent-398"
+  ],
+  "valuation_tokens": 411269,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 73
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-206",
+  "name": "VectorSynthetics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-167",
+  "founder_name": "Morrigan Chronos",
+  "headquarters_id": "bldg-625",
+  "headquarters_name": "VectorSynthetics Headquarters",
+  "employees": [
+    "agent-167"
+  ],
+  "valuation_tokens": 272280,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 72
+}

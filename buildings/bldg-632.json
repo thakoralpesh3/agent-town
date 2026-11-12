@@ -1,0 +1,44 @@
+{
+  "id": "bldg-632",
+  "name": "Ilya's Drone Logistics Freight Port #41 [PrismSolutions]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    86.6,
+    14.1,
+    -145.5
+  ],
+  "size": [
+    28.8,
+    28.1,
+    30.6
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-417",
+  "builder_name": "Ilya Sutskever",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-103",
+  "company_name": "PrismSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Sutskever"
+  ],
+  "purpose": "Constructed by Ilya Sutskever for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 4.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

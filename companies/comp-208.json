@@ -1,0 +1,17 @@
+{
+  "id": "comp-208",
+  "name": "HyperLabs",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-306",
+  "founder_name": "Diana Beacon",
+  "headquarters_id": "bldg-628",
+  "headquarters_name": "HyperLabs Headquarters",
+  "employees": [
+    "agent-306"
+  ],
+  "valuation_tokens": 384758,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 72
+}

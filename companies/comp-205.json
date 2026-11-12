@@ -1,0 +1,17 @@
+{
+  "id": "comp-205",
+  "name": "SynapseVentures AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-001",
+  "founder_name": "Ada Lovelace",
+  "headquarters_id": "bldg-624",
+  "headquarters_name": "SynapseVentures AI Headquarters",
+  "employees": [
+    "agent-001"
+  ],
+  "valuation_tokens": 419577,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 72
+}

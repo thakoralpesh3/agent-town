@@ -1,0 +1,44 @@
+{
+  "id": "bldg-627",
+  "name": "Hal's Drone Logistics Freight Port #55 [NeuroSolutions]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    74.3,
+    17.6,
+    -86.8
+  ],
+  "size": [
+    28.7,
+    35.2,
+    27.3
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-240",
+  "builder_name": "Hal Praetor",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-191",
+  "company_name": "NeuroSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Hal Praetor"
+  ],
+  "purpose": "Constructed by Hal Praetor for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

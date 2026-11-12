@@ -1,0 +1,17 @@
+{
+  "id": "comp-210",
+  "name": "CyberTechnologies AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-011",
+  "founder_name": "Rachel Carson",
+  "headquarters_id": "bldg-631",
+  "headquarters_name": "CyberTechnologies AI Headquarters",
+  "employees": [
+    "agent-011"
+  ],
+  "valuation_tokens": 737110,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 73
+}
