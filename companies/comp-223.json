@@ -1,0 +1,17 @@
+{
+  "id": "comp-223",
+  "name": "SynapseLogistics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-218",
+  "founder_name": "Astrid Liskov",
+  "headquarters_id": "bldg-662",
+  "headquarters_name": "SynapseLogistics AI Headquarters",
+  "employees": [
+    "agent-218"
+  ],
+  "valuation_tokens": 369697,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 78
+}

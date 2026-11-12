@@ -1,0 +1,17 @@
+{
+  "id": "comp-224",
+  "name": "CyberVentures",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-538",
+  "founder_name": "Martin Tinkerer",
+  "headquarters_id": "bldg-665",
+  "headquarters_name": "CyberVentures Headquarters",
+  "employees": [
+    "agent-538"
+  ],
+  "valuation_tokens": 192753,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 78
+}

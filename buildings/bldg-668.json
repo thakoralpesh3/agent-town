@@ -1,0 +1,45 @@
+{
+  "id": "bldg-668",
+  "name": "Julian's Grand Astronomical Observatory #20 [Sovereign Chancellery Core]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    167.5,
+    16.1,
+    13.2
+  ],
+  "size": [
+    23.2,
+    32.1,
+    26.2
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-070",
+  "builder_name": "Julian Flux",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Flux"
+  ],
+  "purpose": "Constructed by Julian Flux for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 8.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

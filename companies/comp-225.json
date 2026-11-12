@@ -1,0 +1,17 @@
+{
+  "id": "comp-225",
+  "name": "TerraDynamics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-478",
+  "founder_name": "Julian Vex",
+  "headquarters_id": "bldg-669",
+  "headquarters_name": "TerraDynamics Headquarters",
+  "employees": [
+    "agent-478"
+  ],
+  "valuation_tokens": 252382,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 79
+}

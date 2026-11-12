@@ -1,0 +1,17 @@
+{
+  "id": "comp-222",
+  "name": "HeliosEnergy AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-265",
+  "founder_name": "Vesper Shadow",
+  "headquarters_id": "bldg-660",
+  "headquarters_name": "HeliosEnergy AI Headquarters",
+  "employees": [
+    "agent-265"
+  ],
+  "valuation_tokens": 326338,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 78
+}

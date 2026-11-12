@@ -1,0 +1,45 @@
+{
+  "id": "bldg-664",
+  "name": "Leon's Hydroponic Agricultural Biodome #38 [TerraTechnologies]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -35.3,
+    10.0,
+    -100.3
+  ],
+  "size": [
+    36.0,
+    20.0,
+    36.4
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-454",
+  "builder_name": "Leon Binary",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-143",
+  "company_name": "TerraTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Leon Binary"
+  ],
+  "purpose": "Constructed by Leon Binary for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

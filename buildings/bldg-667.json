@@ -1,0 +1,46 @@
+{
+  "id": "bldg-667",
+  "name": "Brian's Hypatia Grand University of Sciences #52 [NexusRobotics]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    156.6,
+    20.6,
+    57.6
+  ],
+  "size": [
+    36.6,
+    41.3,
+    30.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-343",
+  "builder_name": "Brian Synapse",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-083",
+  "company_name": "NexusRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Brian Synapse"
+  ],
+  "purpose": "Constructed by Brian Synapse for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 2.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
