@@ -1,0 +1,18 @@
+{
+  "id": "comp-217",
+  "name": "SynapseLogistics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-144",
+  "founder_name": "Katherine Beacon",
+  "headquarters_id": "bldg-652",
+  "headquarters_name": "SynapseLogistics Headquarters",
+  "employees": [
+    "agent-144",
+    "agent-543"
+  ],
+  "valuation_tokens": 268352,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 77
+}

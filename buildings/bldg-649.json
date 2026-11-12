@@ -1,0 +1,45 @@
+{
+  "id": "bldg-649",
+  "name": "Kaelen's Autonomous Vehicle Mega-Plant #41 [SynapseSystems]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    54.6,
+    13.8,
+    -52.4
+  ],
+  "size": [
+    32.7,
+    27.5,
+    31.5
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-348",
+  "builder_name": "Kaelen Hamilton",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-032",
+  "company_name": "SynapseSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Kaelen Hamilton"
+  ],
+  "purpose": "Constructed by Kaelen Hamilton for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 8.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-218",
+  "name": "HyperVentures",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-123",
+  "founder_name": "Ken Core",
+  "headquarters_id": "bldg-654",
+  "headquarters_name": "HyperVentures Headquarters",
+  "employees": [
+    "agent-123"
+  ],
+  "valuation_tokens": 398927,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 77
+}

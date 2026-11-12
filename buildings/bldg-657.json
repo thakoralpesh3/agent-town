@@ -1,0 +1,46 @@
+{
+  "id": "bldg-657",
+  "name": "Vesper's National Hospital & Nanomedical Citadel #70 [ApexIntell]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -132.4,
+    22.3,
+    -7.0
+  ],
+  "size": [
+    37.3,
+    44.5,
+    34.7
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-407",
+  "builder_name": "Vesper Tinkerer",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-017",
+  "company_name": "ApexIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Vesper Tinkerer"
+  ],
+  "purpose": "Constructed by Vesper Tinkerer for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

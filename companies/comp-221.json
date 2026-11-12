@@ -1,0 +1,17 @@
+{
+  "id": "comp-221",
+  "name": "VectorLabs AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-122",
+  "founder_name": "Cipher Armstrong",
+  "headquarters_id": "bldg-658",
+  "headquarters_name": "VectorLabs AI Headquarters",
+  "employees": [
+    "agent-122"
+  ],
+  "valuation_tokens": 664544,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 77
+}

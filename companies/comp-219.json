@@ -1,0 +1,17 @@
+{
+  "id": "comp-219",
+  "name": "HyperSynthetics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-161",
+  "founder_name": "Nexus Lovelace",
+  "headquarters_id": "bldg-655",
+  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "employees": [
+    "agent-161"
+  ],
+  "valuation_tokens": 325706,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 77
+}

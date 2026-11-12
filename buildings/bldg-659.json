@@ -1,0 +1,45 @@
+{
+  "id": "bldg-659",
+  "name": "Aria's Supreme Court of Justice #27 [Sovereign Chancellery Core]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    23.5,
+    18.3,
+    48.6
+  ],
+  "size": [
+    25.7,
+    36.7,
+    26.6
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-080",
+  "builder_name": "Aria Stroustrup",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Aria Stroustrup"
+  ],
+  "purpose": "Constructed by Aria Stroustrup for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
