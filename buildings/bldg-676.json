@@ -1,0 +1,46 @@
+{
+  "id": "bldg-676",
+  "name": "Kaelen's National Central Bank & Treasury #77 [NexusSolutions AI]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    61.1,
+    23.2,
+    3.5
+  ],
+  "size": [
+    31.9,
+    46.5,
+    35.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-508",
+  "builder_name": "Kaelen Jackson",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-170",
+  "company_name": "NexusSolutions AI",
+  "completion": 1.0,
+  "occupants": [
+    "Kaelen Jackson"
+  ],
+  "purpose": "Constructed by Kaelen Jackson for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

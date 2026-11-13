@@ -1,0 +1,17 @@
+{
+  "id": "comp-228",
+  "name": "TerraSolutions AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-316",
+  "founder_name": "Talia Li",
+  "headquarters_id": "bldg-674",
+  "headquarters_name": "TerraSolutions AI Headquarters",
+  "employees": [
+    "agent-316"
+  ],
+  "valuation_tokens": 193577,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 80
+}

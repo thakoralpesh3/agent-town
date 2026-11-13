@@ -1,0 +1,45 @@
+{
+  "id": "bldg-680",
+  "name": "Bjarne's Cyber Living Township Beta #76 [QuantumSolutions]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -117.8,
+    16.3,
+    -52.3
+  ],
+  "size": [
+    28.5,
+    32.6,
+    31.1
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-532",
+  "builder_name": "Bjarne Aurelius",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-031",
+  "company_name": "QuantumSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Bjarne Aurelius"
+  ],
+  "purpose": "Constructed by Bjarne Aurelius for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 6.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

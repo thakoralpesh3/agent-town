@@ -1,0 +1,17 @@
+{
+  "id": "comp-230",
+  "name": "PrismSynthetics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-085",
+  "founder_name": "Steve Hickey",
+  "headquarters_id": "bldg-681",
+  "headquarters_name": "PrismSynthetics Headquarters",
+  "employees": [
+    "agent-085"
+  ],
+  "valuation_tokens": 679536,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 81
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-227",
+  "name": "QuantumVentures",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-117",
+  "founder_name": "Vitalik Kowalski",
+  "headquarters_id": "bldg-672",
+  "headquarters_name": "QuantumVentures Headquarters",
+  "employees": [
+    "agent-117"
+  ],
+  "valuation_tokens": 221124,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 80
+}

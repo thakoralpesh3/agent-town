@@ -1,0 +1,44 @@
+{
+  "id": "bldg-673",
+  "name": "Grace's Biosphere Atmospheric Scrubber #44 [SovereignVentures]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    18.3,
+    16.1,
+    -89.5
+  ],
+  "size": [
+    23.2,
+    32.2,
+    21.1
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-319",
+  "builder_name": "Grace Circuit",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-130",
+  "company_name": "SovereignVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Grace Circuit"
+  ],
+  "purpose": "Constructed by Grace Circuit for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
