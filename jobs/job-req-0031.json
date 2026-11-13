@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0031",
+  "role": "Digital Museum Curator",
+  "category": "Arts & Culture",
+  "specialization": "Preservation of Computing History",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Digital Museum Curator Hub",
+  "salary_offered": 13800,
+  "created_at_tick": 83,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-569",
+  "filled_by_agent_name": "Jensen Pike"
+}

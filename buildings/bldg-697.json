@@ -1,0 +1,45 @@
+{
+  "id": "bldg-697",
+  "name": "Corin's Hydroponic Agricultural Biodome #88 [HyperSynthetics]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -7.7,
+    10.9,
+    -132.9
+  ],
+  "size": [
+    37.6,
+    21.9,
+    35.1
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-294",
+  "builder_name": "Corin Solstice",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Corin Solstice"
+  ],
+  "purpose": "Constructed by Corin Solstice for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 2.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

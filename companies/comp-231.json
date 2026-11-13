@@ -1,0 +1,17 @@
+{
+  "id": "comp-231",
+  "name": "ChronoTechnologies",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-550",
+  "founder_name": "Leslie Chronos",
+  "headquarters_id": "bldg-687",
+  "headquarters_name": "ChronoTechnologies Headquarters",
+  "employees": [
+    "agent-550"
+  ],
+  "valuation_tokens": 161205,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 82
+}

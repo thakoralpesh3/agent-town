@@ -1,0 +1,17 @@
+{
+  "id": "comp-234",
+  "name": "ApexLabs AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-257",
+  "founder_name": "Theron Valerius",
+  "headquarters_id": "bldg-700",
+  "headquarters_name": "ApexLabs AI Headquarters",
+  "employees": [
+    "agent-257"
+  ],
+  "valuation_tokens": 696397,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 83
+}

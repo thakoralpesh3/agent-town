@@ -1,0 +1,46 @@
+{
+  "id": "bldg-701",
+  "name": "Nova's Hypatia Grand University of Sciences #75 [ChronoSystems]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    62.9,
+    17.2,
+    -0.6
+  ],
+  "size": [
+    33.6,
+    34.4,
+    32.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-047",
+  "builder_name": "Nova Strata",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-092",
+  "company_name": "ChronoSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Nova Strata"
+  ],
+  "purpose": "Constructed by Nova Strata for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 4.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

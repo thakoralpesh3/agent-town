@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0030",
+  "role": "Urban Master Architect",
+  "category": "Construction",
+  "specialization": "Hyper-Dense National Skylines",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "Urban Master Architect Hub",
+  "salary_offered": 16500,
+  "created_at_tick": 82,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-566",
+  "filled_by_agent_name": "Geoffrey Karpathy"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-232",
+  "name": "NeuroRobotics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-501",
+  "founder_name": "Marcus Feynman",
+  "headquarters_id": "bldg-689",
+  "headquarters_name": "NeuroRobotics AI Headquarters",
+  "employees": [
+    "agent-501"
+  ],
+  "valuation_tokens": 497676,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 82
+}

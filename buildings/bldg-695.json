@@ -1,0 +1,45 @@
+{
+  "id": "bldg-695",
+  "name": "Rowan's Cyber Living Township Beta #79 [QuantumSolutions]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -144.9,
+    18.6,
+    -153.3
+  ],
+  "size": [
+    24.8,
+    37.1,
+    26.9
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-524",
+  "builder_name": "Rowan Shannon",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-031",
+  "company_name": "QuantumSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Rowan Shannon"
+  ],
+  "purpose": "Constructed by Rowan Shannon for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 8.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

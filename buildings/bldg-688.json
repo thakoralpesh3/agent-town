@@ -1,0 +1,45 @@
+{
+  "id": "bldg-688",
+  "name": "Diana's Grand Astronomical Observatory #57 [CyberDynamics AI]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    120.1,
+    15.9,
+    27.8
+  ],
+  "size": [
+    26.6,
+    31.8,
+    25.4
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-396",
+  "builder_name": "Diana Thompson",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-094",
+  "company_name": "CyberDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Diana Thompson"
+  ],
+  "purpose": "Constructed by Diana Thompson for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
