@@ -1,0 +1,45 @@
+{
+  "id": "bldg-723",
+  "name": "Chronos's Autonomous Vehicle Mega-Plant #77 [PrismDynamics]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    90.2,
+    11.4,
+    -165.2
+  ],
+  "size": [
+    34.9,
+    22.8,
+    32.1
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-268",
+  "builder_name": "Chronos Vanguard",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-085",
+  "company_name": "PrismDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Chronos Vanguard"
+  ],
+  "purpose": "Constructed by Chronos Vanguard for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

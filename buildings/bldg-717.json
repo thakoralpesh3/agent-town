@@ -1,0 +1,45 @@
+{
+  "id": "bldg-717",
+  "name": "Marcus's Grand Astronomical Observatory #59 [SovereignGenetics AI]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    104.0,
+    17.7,
+    32.3
+  ],
+  "size": [
+    27.9,
+    35.3,
+    23.2
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-403",
+  "builder_name": "Marcus Spark",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-087",
+  "company_name": "SovereignGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Marcus Spark"
+  ],
+  "purpose": "Constructed by Marcus Spark for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 8.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

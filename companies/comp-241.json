@@ -1,0 +1,17 @@
+{
+  "id": "comp-241",
+  "name": "ApexLabs AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-222",
+  "founder_name": "Yoshua Brockman",
+  "headquarters_id": "bldg-731",
+  "headquarters_name": "ApexLabs AI Headquarters",
+  "employees": [
+    "agent-222"
+  ],
+  "valuation_tokens": 409478,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 87
+}

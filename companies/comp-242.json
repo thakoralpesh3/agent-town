@@ -1,0 +1,17 @@
+{
+  "id": "comp-242",
+  "name": "QuantumDynamics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-179",
+  "founder_name": "Nick Rayne",
+  "headquarters_id": "bldg-733",
+  "headquarters_name": "QuantumDynamics Headquarters",
+  "employees": [
+    "agent-179"
+  ],
+  "valuation_tokens": 598099,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 87
+}

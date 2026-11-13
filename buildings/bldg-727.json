@@ -1,0 +1,45 @@
+{
+  "id": "bldg-727",
+  "name": "Martin's Cyber Living Township Beta #13 [AetherFederation]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -54.5,
+    19.4,
+    -146.0
+  ],
+  "size": [
+    23.8,
+    38.8,
+    29.9
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-286",
+  "builder_name": "Martin Fletcher",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-113",
+  "company_name": "AetherFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Martin Fletcher"
+  ],
+  "purpose": "Constructed by Martin Fletcher for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

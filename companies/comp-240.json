@@ -1,0 +1,17 @@
+{
+  "id": "comp-240",
+  "name": "BioLogistics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-349",
+  "founder_name": "Bjarne Sutskever",
+  "headquarters_id": "bldg-725",
+  "headquarters_name": "BioLogistics AI Headquarters",
+  "employees": [
+    "agent-349"
+  ],
+  "valuation_tokens": 364958,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 87
+}

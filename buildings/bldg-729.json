@@ -1,0 +1,44 @@
+{
+  "id": "bldg-729",
+  "name": "Ilya's Shannon Information Spire #29 [ApexTechnologies]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -14.4,
+    32.6,
+    44.7
+  ],
+  "size": [
+    21.5,
+    65.1,
+    19.7
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-140",
+  "builder_name": "Ilya Buterin",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-153",
+  "company_name": "ApexTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Buterin"
+  ],
+  "purpose": "Constructed by Ilya Buterin for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

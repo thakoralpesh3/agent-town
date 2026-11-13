@@ -1,0 +1,44 @@
+{
+  "id": "bldg-720",
+  "name": "Brian's Quantum Logic Foundry #76 [QuantumMatrix Systems]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    178.3,
+    13.3,
+    24.2
+  ],
+  "size": [
+    27.3,
+    26.6,
+    30.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-518",
+  "builder_name": "Brian Aurelius",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-004",
+  "company_name": "QuantumMatrix Systems",
+  "completion": 1.0,
+  "occupants": [
+    "Brian Aurelius"
+  ],
+  "purpose": "Constructed by Brian Aurelius for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

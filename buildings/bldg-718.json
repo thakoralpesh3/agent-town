@@ -1,0 +1,45 @@
+{
+  "id": "bldg-718",
+  "name": "Pixel's Tokamak Fusion Reactor Station #30 [HyperFoundry]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -48.8,
+    8.3,
+    -160.9
+  ],
+  "size": [
+    30.1,
+    16.7,
+    31.3
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-328",
+  "builder_name": "Pixel Kahn",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-095",
+  "company_name": "HyperFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Kahn"
+  ],
+  "purpose": "Constructed by Pixel Kahn for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 3.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

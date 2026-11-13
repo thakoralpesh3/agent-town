@@ -1,0 +1,45 @@
+{
+  "id": "bldg-721",
+  "name": "Dorothy's Cyber Living Township Alpha #27 [HeliosSynthetics AI]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -131.9,
+    11.3,
+    -64.3
+  ],
+  "size": [
+    25.1,
+    22.7,
+    23.7
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-368",
+  "builder_name": "Dorothy Orbit",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-079",
+  "company_name": "HeliosSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Orbit"
+  ],
+  "purpose": "Constructed by Dorothy Orbit for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
