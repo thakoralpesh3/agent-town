@@ -1,0 +1,17 @@
+{
+  "id": "comp-237",
+  "name": "SolarDynamics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-399",
+  "founder_name": "Leslie Core",
+  "headquarters_id": "bldg-705",
+  "headquarters_name": "SolarDynamics Headquarters",
+  "employees": [
+    "agent-399"
+  ],
+  "valuation_tokens": 257974,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 84
+}

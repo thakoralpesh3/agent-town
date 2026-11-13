@@ -1,0 +1,18 @@
+{
+  "id": "comp-235",
+  "name": "BioNetworks",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-115",
+  "founder_name": "Satya Smith",
+  "headquarters_id": "bldg-702",
+  "headquarters_name": "BioNetworks Headquarters",
+  "employees": [
+    "agent-115",
+    "agent-569"
+  ],
+  "valuation_tokens": 358454,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 84
+}

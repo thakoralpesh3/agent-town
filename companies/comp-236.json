@@ -1,0 +1,17 @@
+{
+  "id": "comp-236",
+  "name": "NexusGenetics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-519",
+  "founder_name": "Satya Glitch",
+  "headquarters_id": "bldg-704",
+  "headquarters_name": "NexusGenetics AI Headquarters",
+  "employees": [
+    "agent-519"
+  ],
+  "valuation_tokens": 597701,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 84
+}

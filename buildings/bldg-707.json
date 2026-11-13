@@ -1,0 +1,45 @@
+{
+  "id": "bldg-707",
+  "name": "Nova's Supreme Court of Justice #92 [SovereignSynthetics]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -1.9,
+    14.5,
+    20.9
+  ],
+  "size": [
+    30.7,
+    29.1,
+    26.7
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-081",
+  "builder_name": "Nova Rayne",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-090",
+  "company_name": "SovereignSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Nova Rayne"
+  ],
+  "purpose": "Constructed by Nova Rayne for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

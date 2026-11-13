@@ -1,0 +1,17 @@
+{
+  "id": "comp-238",
+  "name": "SovereignDynamics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-356",
+  "founder_name": "Sora Lamport",
+  "headquarters_id": "bldg-706",
+  "headquarters_name": "SovereignDynamics Headquarters",
+  "employees": [
+    "agent-356"
+  ],
+  "valuation_tokens": 713824,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 84
+}
