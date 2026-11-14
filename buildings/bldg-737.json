@@ -1,0 +1,46 @@
+{
+  "id": "bldg-737",
+  "name": "Demis's National Hospital & Nanomedical Citadel #54 [PrismTechnologies AI]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -88.8,
+    17.2,
+    99.5
+  ],
+  "size": [
+    35.1,
+    34.3,
+    34.9
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-554",
+  "builder_name": "Demis Turing",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-066",
+  "company_name": "PrismTechnologies AI",
+  "completion": 1.0,
+  "occupants": [
+    "Demis Turing"
+  ],
+  "purpose": "Constructed by Demis Turing for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 4.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

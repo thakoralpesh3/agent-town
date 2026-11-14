@@ -1,0 +1,44 @@
+{
+  "id": "bldg-736",
+  "name": "Claude's Drone Logistics Freight Port #95 [OmniSynthetics]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    54.8,
+    16.8,
+    -83.5
+  ],
+  "size": [
+    25.6,
+    33.6,
+    29.1
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-295",
+  "builder_name": "Claude Circuit",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-175",
+  "company_name": "OmniSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Claude Circuit"
+  ],
+  "purpose": "Constructed by Claude Circuit for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

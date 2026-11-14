@@ -1,0 +1,17 @@
+{
+  "id": "comp-247",
+  "name": "QuantumTechnologies",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-082",
+  "founder_name": "Leon Andreessen",
+  "headquarters_id": "bldg-751",
+  "headquarters_name": "QuantumTechnologies Headquarters",
+  "employees": [
+    "agent-082"
+  ],
+  "valuation_tokens": 257133,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 89
+}

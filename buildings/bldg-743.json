@@ -1,0 +1,44 @@
+{
+  "id": "bldg-743",
+  "name": "Darian's Cloud Matrix Exchange #46 [NexusSynthetics]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -15.5,
+    22.4,
+    132.4
+  ],
+  "size": [
+    22.4,
+    44.9,
+    20.2
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-204",
+  "builder_name": "Darian Nakamoto",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-117",
+  "company_name": "NexusSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Darian Nakamoto"
+  ],
+  "purpose": "Constructed by Darian Nakamoto for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 6.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

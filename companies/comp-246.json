@@ -1,0 +1,17 @@
+{
+  "id": "comp-246",
+  "name": "NexusGenetics AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-415",
+  "founder_name": "Nexus Weaver",
+  "headquarters_id": "bldg-749",
+  "headquarters_name": "NexusGenetics AI Headquarters",
+  "employees": [
+    "agent-415"
+  ],
+  "valuation_tokens": 570258,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 89
+}

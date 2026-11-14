@@ -1,0 +1,46 @@
+{
+  "id": "bldg-738",
+  "name": "Ronan's National Hospital & Nanomedical Citadel #93 [SolarFusion Grid]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -172.9,
+    21.8,
+    -8.5
+  ],
+  "size": [
+    30.8,
+    43.6,
+    32.1
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-273",
+  "builder_name": "Ronan Torvalds",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Ronan Torvalds"
+  ],
+  "purpose": "Constructed by Ronan Torvalds for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
