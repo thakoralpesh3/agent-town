@@ -1,0 +1,44 @@
+{
+  "id": "bldg-760",
+  "name": "Katherine's Quantum Logic Foundry #54 [NexusSynthetics]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    55.0,
+    15.6,
+    50.8
+  ],
+  "size": [
+    26.0,
+    31.1,
+    29.2
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-445",
+  "builder_name": "Katherine Fletcher",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-117",
+  "company_name": "NexusSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Fletcher"
+  ],
+  "purpose": "Constructed by Katherine Fletcher for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

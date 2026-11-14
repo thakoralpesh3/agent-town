@@ -1,0 +1,45 @@
+{
+  "id": "bldg-764",
+  "name": "Cassian's Cyber Living Township Beta #28 [NeuroDynamics]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -44.8,
+    11.9,
+    -42.1
+  ],
+  "size": [
+    28.7,
+    23.8,
+    27.6
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-476",
+  "builder_name": "Cassian Bengio",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-098",
+  "company_name": "NeuroDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Cassian Bengio"
+  ],
+  "purpose": "Constructed by Cassian Bengio for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

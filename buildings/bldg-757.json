@@ -1,0 +1,44 @@
+{
+  "id": "bldg-757",
+  "name": "Zane's Quantum Logic Foundry #96 [SynapseMatrix]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    78.2,
+    19.0,
+    45.5
+  ],
+  "size": [
+    24.1,
+    37.9,
+    26.8
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-042",
+  "builder_name": "Zane Odersky",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-016",
+  "company_name": "SynapseMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Zane Odersky"
+  ],
+  "purpose": "Constructed by Zane Odersky for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 6.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

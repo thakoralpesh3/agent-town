@@ -1,0 +1,45 @@
+{
+  "id": "bldg-761",
+  "name": "Julian's Cyber Living Township Alpha #84 [TerraDynamics]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -174.2,
+    12.4,
+    -30.5
+  ],
+  "size": [
+    29.5,
+    24.8,
+    25.0
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-478",
+  "builder_name": "Julian Vex",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-225",
+  "company_name": "TerraDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Vex"
+  ],
+  "purpose": "Constructed by Julian Vex for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

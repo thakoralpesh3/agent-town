@@ -1,0 +1,17 @@
+{
+  "id": "comp-248",
+  "name": "NexusEnergy",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-565",
+  "founder_name": "Theron Jobs",
+  "headquarters_id": "bldg-756",
+  "headquarters_name": "NexusEnergy Headquarters",
+  "employees": [
+    "agent-565"
+  ],
+  "valuation_tokens": 589158,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 90
+}

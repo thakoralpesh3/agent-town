@@ -1,0 +1,44 @@
+{
+  "id": "bldg-754",
+  "name": "Astrid's Shannon Information Spire #67 [SynapseLogistics AI]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -64.1,
+    30.5,
+    59.7
+  ],
+  "size": [
+    20.2,
+    61.1,
+    17.2
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-218",
+  "builder_name": "Astrid Liskov",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-223",
+  "company_name": "SynapseLogistics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Astrid Liskov"
+  ],
+  "purpose": "Constructed by Astrid Liskov for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 7.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-250",
+  "name": "HeliosFederation AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-554",
+  "founder_name": "Demis Turing",
+  "headquarters_id": "bldg-767",
+  "headquarters_name": "HeliosFederation AI Headquarters",
+  "employees": [
+    "agent-554"
+  ],
+  "valuation_tokens": 384813,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 91
+}

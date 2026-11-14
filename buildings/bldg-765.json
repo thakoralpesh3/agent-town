@@ -1,0 +1,45 @@
+{
+  "id": "bldg-765",
+  "name": "Morrigan's Supreme Court of Justice #67 [StellarEnergy]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    21.3,
+    12.2,
+    -21.1
+  ],
+  "size": [
+    31.8,
+    24.4,
+    28.5
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-230",
+  "builder_name": "Morrigan Finney",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-155",
+  "company_name": "StellarEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Morrigan Finney"
+  ],
+  "purpose": "Constructed by Morrigan Finney for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 7.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
