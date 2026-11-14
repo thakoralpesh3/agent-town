@@ -1,0 +1,45 @@
+{
+  "id": "bldg-783",
+  "name": "Leon's Hyperloop Central Terminus #30 [TerraTechnologies]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    128.9,
+    12.7,
+    -178.8
+  ],
+  "size": [
+    35.2,
+    25.5,
+    37.0
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-454",
+  "builder_name": "Leon Binary",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-143",
+  "company_name": "TerraTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Leon Binary"
+  ],
+  "purpose": "Constructed by Leon Binary for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 5.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

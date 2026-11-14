@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Digital Museum Curator",
-  "category": "Arts & Culture",
-  "specialization": "Preservation of Computing History",
+  "role": "Speaker of Parliament",
+  "category": "Governance",
+  "specialization": "Parliamentary Procedure & Civic Debate",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Digital Museum Curator Hub",
-  "salary_offered": 13800,
-  "created_at_tick": 83,
+  "requesting_building": "Speaker of Parliament Hub",
+  "salary_offered": 17500,
+  "created_at_tick": 92,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-569",
-  "filled_by_agent_name": "Jensen Pike"
+  "filled_by_agent_id": "agent-586",
+  "filled_by_agent_name": "Valen Flux"
 }

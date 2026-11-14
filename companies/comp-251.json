@@ -1,0 +1,17 @@
+{
+  "id": "comp-251",
+  "name": "CyberGenetics AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-079",
+  "founder_name": "Martin Pichai",
+  "headquarters_id": "bldg-769",
+  "headquarters_name": "CyberGenetics AI Headquarters",
+  "employees": [
+    "agent-079"
+  ],
+  "valuation_tokens": 187035,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 92
+}

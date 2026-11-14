@@ -1,0 +1,45 @@
+{
+  "id": "bldg-784",
+  "name": "Chronos's Tokamak Fusion Reactor Station #98 [PrismDynamics]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    2.9,
+    11.1,
+    -147.7
+  ],
+  "size": [
+    27.6,
+    22.2,
+    31.3
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-268",
+  "builder_name": "Chronos Vanguard",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-085",
+  "company_name": "PrismDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Chronos Vanguard"
+  ],
+  "purpose": "Constructed by Chronos Vanguard for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

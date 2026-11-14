@@ -1,0 +1,44 @@
+{
+  "id": "bldg-779",
+  "name": "Echo's Drone Logistics Freight Port #65 [SynapseVentures]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    79.3,
+    17.0,
+    -133.9
+  ],
+  "size": [
+    26.4,
+    33.9,
+    23.6
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-490",
+  "builder_name": "Echo Neumann",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-091",
+  "company_name": "SynapseVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Echo Neumann"
+  ],
+  "purpose": "Constructed by Echo Neumann for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 4.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-774",
+  "name": "Steve's Tokamak Fusion Reactor Station #60 [SolarFusion Grid]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    18.4,
+    12.6,
+    -134.9
+  ],
+  "size": [
+    32.1,
+    25.1,
+    32.1
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-106",
+  "builder_name": "Steve Nadella",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Steve Nadella"
+  ],
+  "purpose": "Constructed by Steve Nadella for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 6.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

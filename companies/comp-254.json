@@ -1,0 +1,18 @@
+{
+  "id": "comp-254",
+  "name": "TerraVentures",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-290",
+  "founder_name": "Noam Core",
+  "headquarters_id": "bldg-778",
+  "headquarters_name": "TerraVentures Headquarters",
+  "employees": [
+    "agent-290",
+    "agent-586"
+  ],
+  "valuation_tokens": 672057,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 93
+}

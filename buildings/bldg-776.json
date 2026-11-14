@@ -1,0 +1,44 @@
+{
+  "id": "bldg-776",
+  "name": "Axel's Biosphere Atmospheric Scrubber #22 [VectorLogistics]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    11.7,
+    13.9,
+    -172.7
+  ],
+  "size": [
+    21.6,
+    27.7,
+    21.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-260",
+  "builder_name": "Axel Smith",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-081",
+  "company_name": "VectorLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Axel Smith"
+  ],
+  "purpose": "Constructed by Axel Smith for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 4.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

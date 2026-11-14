@@ -1,0 +1,45 @@
+{
+  "id": "bldg-782",
+  "name": "Rune's The Agora Civic Forum #23 [OmniDynamics]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -55.4,
+    12.6,
+    -103.9
+  ],
+  "size": [
+    29.4,
+    25.2,
+    31.1
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-113",
+  "builder_name": "Rune Flux",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-071",
+  "company_name": "OmniDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Rune Flux"
+  ],
+  "purpose": "Constructed by Rune Flux for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

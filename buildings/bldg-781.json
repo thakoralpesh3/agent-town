@@ -1,0 +1,46 @@
+{
+  "id": "bldg-781",
+  "name": "Thorne's Hypatia Grand University of Sciences #46 [SynapseMatrix]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    94.9,
+    23.6,
+    31.3
+  ],
+  "size": [
+    33.7,
+    47.1,
+    36.2
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-409",
+  "builder_name": "Thorne Odersky",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-016",
+  "company_name": "SynapseMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Thorne Odersky"
+  ],
+  "purpose": "Constructed by Thorne Odersky for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
