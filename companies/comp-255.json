@@ -1,0 +1,17 @@
+{
+  "id": "comp-255",
+  "name": "AeroTechnologies",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-033",
+  "founder_name": "Orville Wright",
+  "headquarters_id": "bldg-789",
+  "headquarters_name": "AeroTechnologies Headquarters",
+  "employees": [
+    "agent-033"
+  ],
+  "valuation_tokens": 476945,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 94
+}

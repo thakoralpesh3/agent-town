@@ -1,0 +1,45 @@
+{
+  "id": "bldg-787",
+  "name": "Gavin's Grand Astronomical Observatory #20 [BioLongevity Solutions]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    172.8,
+    17.6,
+    56.7
+  ],
+  "size": [
+    24.5,
+    35.1,
+    23.7
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-254",
+  "builder_name": "Gavin Meridian",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Meridian"
+  ],
+  "purpose": "Constructed by Gavin Meridian for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 3.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-788",
+  "name": "Grace's Hypatia Grand University of Sciences #10 [SovereignLabs AI]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    61.8,
+    21.6,
+    -6.5
+  ],
+  "size": [
+    36.2,
+    43.1,
+    34.4
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-004",
+  "builder_name": "Grace Hopper",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-109",
+  "company_name": "SovereignLabs AI",
+  "completion": 1.0,
+  "occupants": [
+    "Grace Hopper"
+  ],
+  "purpose": "Constructed by Grace Hopper for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

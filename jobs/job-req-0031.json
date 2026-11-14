@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Speaker of Parliament",
-  "category": "Governance",
-  "specialization": "Parliamentary Procedure & Civic Debate",
+  "role": "Volumetric Hologram Sculptor",
+  "category": "Arts & Culture",
+  "specialization": "Kinetic Airborne City Monuments",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Speaker of Parliament Hub",
-  "salary_offered": 17500,
-  "created_at_tick": 92,
+  "requesting_building": "Volumetric Hologram Sculptor Hub",
+  "salary_offered": 14200,
+  "created_at_tick": 94,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-586",
-  "filled_by_agent_name": "Valen Flux"
+  "filled_by_agent_id": "agent-591",
+  "filled_by_agent_name": "Woz Pichai"
 }

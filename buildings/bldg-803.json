@@ -1,0 +1,45 @@
+{
+  "id": "bldg-803",
+  "name": "Hestia's Hyperloop Central Terminus #16 [PrismDynamics]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    113.0,
+    13.5,
+    -93.5
+  ],
+  "size": [
+    39.6,
+    27.0,
+    35.1
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-019",
+  "builder_name": "Hestia Nexus",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-085",
+  "company_name": "PrismDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Hestia Nexus"
+  ],
+  "purpose": "Constructed by Hestia Nexus for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 3.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

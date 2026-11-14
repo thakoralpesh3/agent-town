@@ -1,0 +1,17 @@
+{
+  "id": "comp-257",
+  "name": "SovereignFoundry",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-124",
+  "founder_name": "Sundar Hassabis",
+  "headquarters_id": "bldg-793",
+  "headquarters_name": "SovereignFoundry Headquarters",
+  "employees": [
+    "agent-124"
+  ],
+  "valuation_tokens": 559064,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 94
+}

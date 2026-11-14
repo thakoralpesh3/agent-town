@@ -1,0 +1,18 @@
+{
+  "id": "comp-258",
+  "name": "HyperNetworks",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-100",
+  "founder_name": "Claude von Neumann",
+  "headquarters_id": "bldg-797",
+  "headquarters_name": "HyperNetworks Headquarters",
+  "employees": [
+    "agent-100",
+    "agent-591"
+  ],
+  "valuation_tokens": 342199,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 95
+}

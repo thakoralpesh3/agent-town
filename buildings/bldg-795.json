@@ -1,0 +1,45 @@
+{
+  "id": "bldg-795",
+  "name": "Evander's Tokamak Fusion Reactor Station #64 [ApexDynamics]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -4.6,
+    8.5,
+    -123.1
+  ],
+  "size": [
+    29.1,
+    17.0,
+    32.8
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-088",
+  "builder_name": "Evander Jobs",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-034",
+  "company_name": "ApexDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Evander Jobs"
+  ],
+  "purpose": "Constructed by Evander Jobs for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 7.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

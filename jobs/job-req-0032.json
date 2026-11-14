@@ -1,0 +1,14 @@
+{
+  "id": "job-req-0032",
+  "role": "District Thermal Recycling Engineer",
+  "category": "Energy",
+  "specialization": "Server Heat Capture & District Heating",
+  "urgency": "STANDARD",
+  "requesting_company": null,
+  "requesting_building": "District Thermal Recycling Engineer Hub",
+  "salary_offered": 14600,
+  "created_at_tick": 95,
+  "status": "FILLED",
+  "filled_by_agent_id": "agent-595",
+  "filled_by_agent_name": "Rich Thompson"
+}

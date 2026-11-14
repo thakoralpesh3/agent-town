@@ -1,0 +1,17 @@
+{
+  "id": "comp-256",
+  "name": "DeepLogistics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-166",
+  "founder_name": "Juno Berners-Lee",
+  "headquarters_id": "bldg-790",
+  "headquarters_name": "DeepLogistics Headquarters",
+  "employees": [
+    "agent-166"
+  ],
+  "valuation_tokens": 417051,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 94
+}

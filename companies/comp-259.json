@@ -1,0 +1,17 @@
+{
+  "id": "comp-259",
+  "name": "NeuroSynthetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-060",
+  "founder_name": "Diana Sutskever",
+  "headquarters_id": "bldg-799",
+  "headquarters_name": "NeuroSynthetics AI Headquarters",
+  "employees": [
+    "agent-060"
+  ],
+  "valuation_tokens": 210337,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 95
+}

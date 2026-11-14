@@ -1,0 +1,45 @@
+{
+  "id": "bldg-794",
+  "name": "Vitalik's Hydroponic Agricultural Biodome #32 [SolarNetworks]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -11.7,
+    10.2,
+    -100.6
+  ],
+  "size": [
+    35.5,
+    20.5,
+    38.3
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-061",
+  "builder_name": "Vitalik Finney",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-050",
+  "company_name": "SolarNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Finney"
+  ],
+  "purpose": "Constructed by Vitalik Finney for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
