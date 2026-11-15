@@ -1,0 +1,44 @@
+{
+  "id": "bldg-819",
+  "name": "Julian's Drone Logistics Freight Port #67 [ChronoSolutions]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    71.3,
+    19.2,
+    -91.1
+  ],
+  "size": [
+    24.5,
+    38.3,
+    26.8
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-583",
+  "builder_name": "Julian Shadow",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-055",
+  "company_name": "ChronoSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Shadow"
+  ],
+  "purpose": "Constructed by Julian Shadow for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 8.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

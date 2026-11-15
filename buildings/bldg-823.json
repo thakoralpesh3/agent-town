@@ -1,0 +1,44 @@
+{
+  "id": "bldg-823",
+  "name": "Ilya's Quantum Logic Foundry #16 [AeroIntell AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    94.3,
+    16.6,
+    58.4
+  ],
+  "size": [
+    30.7,
+    33.2,
+    28.0
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-069",
+  "builder_name": "Ilya Node",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-215",
+  "company_name": "AeroIntell AI",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Node"
+  ],
+  "purpose": "Constructed by Ilya Node for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

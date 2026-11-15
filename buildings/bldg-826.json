@@ -1,0 +1,46 @@
+{
+  "id": "bldg-826",
+  "name": "Aurelia's Hypatia Grand University of Sciences #92 [PrismFoundry]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    138.0,
+    15.3,
+    101.1
+  ],
+  "size": [
+    32.4,
+    30.6,
+    31.7
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-262",
+  "builder_name": "Aurelia Thorne",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-082",
+  "company_name": "PrismFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Aurelia Thorne"
+  ],
+  "purpose": "Constructed by Aurelia Thorne for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

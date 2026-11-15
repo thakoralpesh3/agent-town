@@ -1,0 +1,46 @@
+{
+  "id": "bldg-829",
+  "name": "Diana's National Central Bank & Treasury #16 [CyberDynamics AI]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    39.3,
+    17.6,
+    50.3
+  ],
+  "size": [
+    27.4,
+    35.2,
+    35.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-396",
+  "builder_name": "Diana Thompson",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-094",
+  "company_name": "CyberDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Diana Thompson"
+  ],
+  "purpose": "Constructed by Diana Thompson for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

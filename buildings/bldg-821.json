@@ -1,0 +1,45 @@
+{
+  "id": "bldg-821",
+  "name": "Demis's Hydroponic Agricultural Biodome #74 [BioVentures]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -33.8,
+    11.9,
+    -154.4
+  ],
+  "size": [
+    37.6,
+    23.9,
+    30.0
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-385",
+  "builder_name": "Demis Beacon",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-033",
+  "company_name": "BioVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Demis Beacon"
+  ],
+  "purpose": "Constructed by Demis Beacon for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 3.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

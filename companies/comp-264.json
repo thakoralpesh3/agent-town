@@ -1,0 +1,17 @@
+{
+  "id": "comp-264",
+  "name": "OmniEnergy AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-095",
+  "founder_name": "Stellan Vaughan",
+  "headquarters_id": "bldg-827",
+  "headquarters_name": "OmniEnergy AI Headquarters",
+  "employees": [
+    "agent-095"
+  ],
+  "valuation_tokens": 381822,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 99
+}
