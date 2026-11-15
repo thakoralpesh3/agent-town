@@ -1,0 +1,44 @@
+{
+  "id": "bldg-847",
+  "name": "Iris's Drone Logistics Freight Port #98 [AxiomTechnologies AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    102.0,
+    14.8,
+    -102.8
+  ],
+  "size": [
+    26.3,
+    29.6,
+    25.5
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-468",
+  "builder_name": "Iris Sutskever",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-214",
+  "company_name": "AxiomTechnologies AI",
+  "completion": 1.0,
+  "occupants": [
+    "Iris Sutskever"
+  ],
+  "purpose": "Constructed by Iris Sutskever for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 6.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-851",
+  "name": "Ada's Drone Logistics Freight Port #20 [CyberGenetics]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    93.8,
+    17.4,
+    -105.9
+  ],
+  "size": [
+    27.1,
+    34.8,
+    24.3
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-252",
+  "builder_name": "Ada Synapse",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-048",
+  "company_name": "CyberGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Ada Synapse"
+  ],
+  "purpose": "Constructed by Ada Synapse for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

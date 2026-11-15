@@ -1,0 +1,17 @@
+{
+  "id": "comp-274",
+  "name": "HyperSystems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-382",
+  "founder_name": "Iris Hinton",
+  "headquarters_id": "bldg-854",
+  "headquarters_name": "HyperSystems Headquarters",
+  "employees": [
+    "agent-382"
+  ],
+  "valuation_tokens": 313804,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 103
+}

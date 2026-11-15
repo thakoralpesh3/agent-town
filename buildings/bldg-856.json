@@ -1,0 +1,45 @@
+{
+  "id": "bldg-856",
+  "name": "Alexander's Tower of Turing (City Mainframe) #98 [AeroCyber Mobility]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    22.9,
+    40.6,
+    141.3
+  ],
+  "size": [
+    22.3,
+    81.2,
+    26.9
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-556",
+  "builder_name": "Alexander Node",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Alexander Node"
+  ],
+  "purpose": "Constructed by Alexander Node for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 3.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

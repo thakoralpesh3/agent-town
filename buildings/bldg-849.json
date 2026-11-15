@@ -1,0 +1,45 @@
+{
+  "id": "bldg-849",
+  "name": "Sam's Autonomous Vehicle Mega-Plant #30 [NexusFederation]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    76.1,
+    12.8,
+    -148.3
+  ],
+  "size": [
+    32.2,
+    25.7,
+    35.6
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-444",
+  "builder_name": "Sam Lovelace",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-270",
+  "company_name": "NexusFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Lovelace"
+  ],
+  "purpose": "Constructed by Sam Lovelace for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

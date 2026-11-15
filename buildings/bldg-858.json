@@ -1,0 +1,46 @@
+{
+  "id": "bldg-858",
+  "name": "Lyra's National Hospital & Nanomedical Citadel #52 [QuantumSolutions]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -92.7,
+    25.2,
+    -7.2
+  ],
+  "size": [
+    34.2,
+    50.3,
+    30.6
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-442",
+  "builder_name": "Lyra Rayne",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-031",
+  "company_name": "QuantumSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Rayne"
+  ],
+  "purpose": "Constructed by Lyra Rayne for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

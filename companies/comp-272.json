@@ -1,0 +1,17 @@
+{
+  "id": "comp-272",
+  "name": "HeliosLabs",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-358",
+  "founder_name": "Valen Hickey",
+  "headquarters_id": "bldg-845",
+  "headquarters_name": "HeliosLabs Headquarters",
+  "employees": [
+    "agent-358"
+  ],
+  "valuation_tokens": 158392,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 102
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-273",
+  "name": "TerraIntell",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-531",
+  "founder_name": "Woz Core",
+  "headquarters_id": "bldg-853",
+  "headquarters_name": "TerraIntell Headquarters",
+  "employees": [
+    "agent-531"
+  ],
+  "valuation_tokens": 693533,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 102
+}

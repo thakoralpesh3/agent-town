@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Maglev Rail Precision Mechanist",
-  "category": "Transportation",
-  "specialization": "Frictionless Magnetic Train Propulsion",
+  "role": "Virtual Reality Broadcast Director",
+  "category": "Arts & Culture",
+  "specialization": "Immersive National Broadcasts & News",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Maglev Rail Precision Mechanist Hub",
-  "salary_offered": 14900,
-  "created_at_tick": 100,
+  "requesting_building": "Virtual Reality Broadcast Director Hub",
+  "salary_offered": 14800,
+  "created_at_tick": 103,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-617",
-  "filled_by_agent_name": "John Lamport"
+  "filled_by_agent_id": "agent-625",
+  "filled_by_agent_name": "Talia Eich"
 }

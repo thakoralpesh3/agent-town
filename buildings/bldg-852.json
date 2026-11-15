@@ -1,0 +1,45 @@
+{
+  "id": "bldg-852",
+  "name": "Rich's The Agora Civic Forum #65 [NexusGenetics AI]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -25.4,
+    12.6,
+    -31.5
+  ],
+  "size": [
+    29.1,
+    25.2,
+    30.3
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-595",
+  "builder_name": "Rich Thompson",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-260",
+  "company_name": "NexusGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Rich Thompson"
+  ],
+  "purpose": "Constructed by Rich Thompson for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
