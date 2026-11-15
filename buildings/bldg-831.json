@@ -1,0 +1,44 @@
+{
+  "id": "bldg-831",
+  "name": "Nexus's Cloud Matrix Exchange #52 [PrismDynamics AI]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -55.6,
+    31.1,
+    138.7
+  ],
+  "size": [
+    20.2,
+    62.3,
+    25.1
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-208",
+  "builder_name": "Nexus Meridian",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-097",
+  "company_name": "PrismDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Nexus Meridian"
+  ],
+  "purpose": "Constructed by Nexus Meridian for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 8.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

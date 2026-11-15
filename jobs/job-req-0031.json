@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Volumetric Hologram Sculptor",
-  "category": "Arts & Culture",
-  "specialization": "Kinetic Airborne City Monuments",
+  "role": "Maglev Rail Precision Mechanist",
+  "category": "Transportation",
+  "specialization": "Frictionless Magnetic Train Propulsion",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Volumetric Hologram Sculptor Hub",
-  "salary_offered": 14200,
-  "created_at_tick": 94,
+  "requesting_building": "Maglev Rail Precision Mechanist Hub",
+  "salary_offered": 14900,
+  "created_at_tick": 100,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-591",
-  "filled_by_agent_name": "Woz Pichai"
+  "filled_by_agent_id": "agent-617",
+  "filled_by_agent_name": "John Lamport"
 }

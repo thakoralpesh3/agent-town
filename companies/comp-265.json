@@ -1,0 +1,17 @@
+{
+  "id": "comp-265",
+  "name": "ChronoGenetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-603",
+  "founder_name": "Nova Stroustrup",
+  "headquarters_id": "bldg-830",
+  "headquarters_name": "ChronoGenetics AI Headquarters",
+  "employees": [
+    "agent-603"
+  ],
+  "valuation_tokens": 610370,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 100
+}

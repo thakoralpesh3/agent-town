@@ -1,0 +1,17 @@
+{
+  "id": "comp-271",
+  "name": "OmniGenetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-058",
+  "founder_name": "Vesper Orbit",
+  "headquarters_id": "bldg-842",
+  "headquarters_name": "OmniGenetics AI Headquarters",
+  "employees": [
+    "agent-058"
+  ],
+  "valuation_tokens": 749582,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 101
+}

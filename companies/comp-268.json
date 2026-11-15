@@ -1,0 +1,17 @@
+{
+  "id": "comp-268",
+  "name": "QuantumFederation AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-038",
+  "founder_name": "Lyra Orbit",
+  "headquarters_id": "bldg-836",
+  "headquarters_name": "QuantumFederation AI Headquarters",
+  "employees": [
+    "agent-038"
+  ],
+  "valuation_tokens": 244724,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 100
+}

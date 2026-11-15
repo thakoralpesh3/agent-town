@@ -1,0 +1,17 @@
+{
+  "id": "comp-270",
+  "name": "NexusFederation",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-444",
+  "founder_name": "Sam Lovelace",
+  "headquarters_id": "bldg-839",
+  "headquarters_name": "NexusFederation Headquarters",
+  "employees": [
+    "agent-444"
+  ],
+  "valuation_tokens": 600574,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 101
+}

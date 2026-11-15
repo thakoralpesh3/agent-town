@@ -1,0 +1,44 @@
+{
+  "id": "bldg-834",
+  "name": "Andrej's Drone Logistics Freight Port #14 [OpenKernel Federation]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    83.5,
+    17.2,
+    -171.2
+  ],
+  "size": [
+    27.5,
+    34.4,
+    26.0
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-302",
+  "builder_name": "Andrej Sutskever",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Andrej Sutskever"
+  ],
+  "purpose": "Constructed by Andrej Sutskever for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

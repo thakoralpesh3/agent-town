@@ -1,0 +1,44 @@
+{
+  "id": "bldg-837",
+  "name": "Chronos's Quantum Logic Foundry #17 [SovereignGenetics]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    177.8,
+    13.2,
+    2.8
+  ],
+  "size": [
+    29.4,
+    26.3,
+    30.6
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-233",
+  "builder_name": "Chronos Kowalski",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-053",
+  "company_name": "SovereignGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Chronos Kowalski"
+  ],
+  "purpose": "Constructed by Chronos Kowalski for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,18 @@
+{
+  "id": "comp-269",
+  "name": "ChronoTechnologies AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-259",
+  "founder_name": "Sylvia Lovelace",
+  "headquarters_id": "bldg-838",
+  "headquarters_name": "ChronoTechnologies AI Headquarters",
+  "employees": [
+    "agent-259",
+    "agent-617"
+  ],
+  "valuation_tokens": 419272,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 101
+}
