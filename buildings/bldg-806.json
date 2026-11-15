@@ -1,0 +1,44 @@
+{
+  "id": "bldg-806",
+  "name": "Tim's Quantum Logic Foundry #84 [Sovereign Chancellery Core]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    98.1,
+    18.2,
+    -4.2
+  ],
+  "size": [
+    27.3,
+    36.4,
+    28.4
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-455",
+  "builder_name": "Tim Flux",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Tim Flux"
+  ],
+  "purpose": "Constructed by Tim Flux for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

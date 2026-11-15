@@ -1,0 +1,17 @@
+{
+  "id": "comp-263",
+  "name": "StellarRobotics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-251",
+  "founder_name": "Nexus Beacon",
+  "headquarters_id": "bldg-815",
+  "headquarters_name": "StellarRobotics Headquarters",
+  "employees": [
+    "agent-251"
+  ],
+  "valuation_tokens": 173317,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 97
+}

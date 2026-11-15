@@ -1,0 +1,44 @@
+{
+  "id": "bldg-808",
+  "name": "Vesper's Quantum Logic Foundry #88 [ApexIntell]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    170.4,
+    16.9,
+    65.1
+  ],
+  "size": [
+    27.3,
+    33.9,
+    24.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-407",
+  "builder_name": "Vesper Tinkerer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-017",
+  "company_name": "ApexIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Vesper Tinkerer"
+  ],
+  "purpose": "Constructed by Vesper Tinkerer for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

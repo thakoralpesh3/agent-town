@@ -1,0 +1,46 @@
+{
+  "id": "bldg-810",
+  "name": "Guido's National Hospital & Nanomedical Citadel #14 [HyperMatrix]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -106.3,
+    27.7,
+    40.7
+  ],
+  "size": [
+    35.9,
+    55.4,
+    34.0
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-229",
+  "builder_name": "Guido Dahl",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-036",
+  "company_name": "HyperMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Guido Dahl"
+  ],
+  "purpose": "Constructed by Guido Dahl for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 6.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

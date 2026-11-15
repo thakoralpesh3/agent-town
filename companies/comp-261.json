@@ -1,0 +1,17 @@
+{
+  "id": "comp-261",
+  "name": "ApexDynamics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-540",
+  "founder_name": "Marcus Hopper",
+  "headquarters_id": "bldg-809",
+  "headquarters_name": "ApexDynamics AI Headquarters",
+  "employees": [
+    "agent-540"
+  ],
+  "valuation_tokens": 360009,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 96
+}

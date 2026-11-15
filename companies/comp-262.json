@@ -1,0 +1,17 @@
+{
+  "id": "comp-262",
+  "name": "ApexFoundry",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-480",
+  "founder_name": "Kaelen Cross",
+  "headquarters_id": "bldg-812",
+  "headquarters_name": "ApexFoundry Headquarters",
+  "employees": [
+    "agent-480"
+  ],
+  "valuation_tokens": 436012,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 97
+}

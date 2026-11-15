@@ -1,0 +1,44 @@
+{
+  "id": "bldg-804",
+  "name": "Donald's Quantum Logic Foundry #92 [NexusRobotics]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    139.2,
+    12.9,
+    83.8
+  ],
+  "size": [
+    29.4,
+    25.9,
+    26.0
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-014",
+  "builder_name": "Donald Knuth",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-083",
+  "company_name": "NexusRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Donald Knuth"
+  ],
+  "purpose": "Constructed by Donald Knuth for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-807",
+  "name": "Sam's Hydroponic Agricultural Biodome #85 [PrismTechnologies AI]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    1.9,
+    10.5,
+    -93.6
+  ],
+  "size": [
+    30.6,
+    21.0,
+    34.9
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-523",
+  "builder_name": "Sam Borlaug",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-066",
+  "company_name": "PrismTechnologies AI",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Borlaug"
+  ],
+  "purpose": "Constructed by Sam Borlaug for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

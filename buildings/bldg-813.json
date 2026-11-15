@@ -1,0 +1,45 @@
+{
+  "id": "bldg-813",
+  "name": "Rachel's Cyber Living Township Beta #61 [CyberTechnologies AI]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -114.4,
+    17.6,
+    -32.1
+  ],
+  "size": [
+    29.6,
+    35.2,
+    24.9
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-011",
+  "builder_name": "Rachel Carson",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-210",
+  "company_name": "CyberTechnologies AI",
+  "completion": 1.0,
+  "occupants": [
+    "Rachel Carson"
+  ],
+  "purpose": "Constructed by Rachel Carson for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 2.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
