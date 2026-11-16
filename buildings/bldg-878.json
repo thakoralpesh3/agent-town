@@ -1,0 +1,44 @@
+{
+  "id": "bldg-878",
+  "name": "Rich's Quantum Logic Foundry #24 [ChronoVentures AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    95.4,
+    15.6,
+    71.9
+  ],
+  "size": [
+    29.8,
+    31.3,
+    31.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-594",
+  "builder_name": "Rich Dahl",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-220",
+  "company_name": "ChronoVentures AI",
+  "completion": 1.0,
+  "occupants": [
+    "Rich Dahl"
+  ],
+  "purpose": "Constructed by Rich Dahl for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-880",
+  "name": "Richard's National Hospital & Nanomedical Citadel #35 [BioIntell]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -79.1,
+    16.1,
+    -6.6
+  ],
+  "size": [
+    36.1,
+    32.2,
+    32.6
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-030",
+  "builder_name": "Richard Feynman",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-058",
+  "company_name": "BioIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Richard Feynman"
+  ],
+  "purpose": "Constructed by Richard Feynman for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 7.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

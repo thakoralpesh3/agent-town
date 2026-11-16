@@ -1,0 +1,17 @@
+{
+  "id": "comp-283",
+  "name": "NexusNetworks",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-228",
+  "founder_name": "Mary Karpathy",
+  "headquarters_id": "bldg-879",
+  "headquarters_name": "NexusNetworks Headquarters",
+  "employees": [
+    "agent-228"
+  ],
+  "valuation_tokens": 687036,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 107
+}
