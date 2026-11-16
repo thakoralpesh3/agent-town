@@ -1,0 +1,45 @@
+{
+  "id": "bldg-885",
+  "name": "Bjarne's The Agora Civic Forum #51 [QuantumSolutions]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -85.6,
+    10.3,
+    -30.9
+  ],
+  "size": [
+    29.9,
+    20.7,
+    26.4
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-532",
+  "builder_name": "Bjarne Aurelius",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-031",
+  "company_name": "QuantumSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Bjarne Aurelius"
+  ],
+  "purpose": "Constructed by Bjarne Aurelius for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

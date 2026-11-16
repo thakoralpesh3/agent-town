@@ -1,0 +1,17 @@
+{
+  "id": "comp-284",
+  "name": "TerraSolutions AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-220",
+  "founder_name": "Helios Blaze",
+  "headquarters_id": "bldg-887",
+  "headquarters_name": "TerraSolutions AI Headquarters",
+  "employees": [
+    "agent-220"
+  ],
+  "valuation_tokens": 232203,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 108
+}

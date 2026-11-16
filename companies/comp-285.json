@@ -1,0 +1,17 @@
+{
+  "id": "comp-285",
+  "name": "OmniDynamics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-114",
+  "founder_name": "Barbara Mercer",
+  "headquarters_id": "bldg-888",
+  "headquarters_name": "OmniDynamics AI Headquarters",
+  "employees": [
+    "agent-114"
+  ],
+  "valuation_tokens": 597783,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 108
+}

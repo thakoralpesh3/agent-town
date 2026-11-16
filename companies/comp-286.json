@@ -1,0 +1,18 @@
+{
+  "id": "comp-286",
+  "name": "NeuroSystems AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-286",
+  "founder_name": "Martin Fletcher",
+  "headquarters_id": "bldg-892",
+  "headquarters_name": "NeuroSystems AI Headquarters",
+  "employees": [
+    "agent-286",
+    "agent-645"
+  ],
+  "valuation_tokens": 179990,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 109
+}

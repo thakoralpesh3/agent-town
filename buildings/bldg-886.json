@@ -1,0 +1,45 @@
+{
+  "id": "bldg-886",
+  "name": "Echo's The Agora Civic Forum #55 [Sovereign Chancellery Core]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -144.0,
+    12.6,
+    -53.2
+  ],
+  "size": [
+    31.4,
+    25.1,
+    33.4
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-581",
+  "builder_name": "Echo Stroustrup",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Echo Stroustrup"
+  ],
+  "purpose": "Constructed by Echo Stroustrup for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 4.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

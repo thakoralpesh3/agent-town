@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "National Disaster Relief Director",
-  "category": "Security",
-  "specialization": "Rapid Civil Crisis Mobilization",
+  "role": "Quantum Compiler Developer",
+  "category": "AI & Systems",
+  "specialization": "High-Efficiency Quantum Machine Code",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "National Disaster Relief Director Hub",
-  "salary_offered": 16000,
-  "created_at_tick": 105,
+  "requesting_building": "Quantum Compiler Developer Hub",
+  "salary_offered": 17000,
+  "created_at_tick": 108,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-636",
-  "filled_by_agent_name": "Zane Lamport"
+  "filled_by_agent_id": "agent-645",
+  "filled_by_agent_name": "Woz von Neumann"
 }
