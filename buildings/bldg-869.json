@@ -1,0 +1,45 @@
+{
+  "id": "bldg-869",
+  "name": "Rich's Tokamak Fusion Reactor Station #33 [NexusGenetics AI]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    47.2,
+    12.3,
+    -203.3
+  ],
+  "size": [
+    30.3,
+    24.7,
+    33.5
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-595",
+  "builder_name": "Rich Thompson",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-260",
+  "company_name": "NexusGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Rich Thompson"
+  ],
+  "purpose": "Constructed by Rich Thompson for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 4.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

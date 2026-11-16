@@ -1,0 +1,17 @@
+{
+  "id": "comp-278",
+  "name": "AetherGenetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-171",
+  "founder_name": "Mary Sovereign",
+  "headquarters_id": "bldg-864",
+  "headquarters_name": "AetherGenetics Headquarters",
+  "employees": [
+    "agent-171"
+  ],
+  "valuation_tokens": 221694,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 104
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-279",
+  "name": "NeuroFederation",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-526",
+  "founder_name": "Cyrus Torvalds",
+  "headquarters_id": "bldg-866",
+  "headquarters_name": "NeuroFederation Headquarters",
+  "employees": [
+    "agent-526"
+  ],
+  "valuation_tokens": 155557,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 104
+}

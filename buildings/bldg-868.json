@@ -1,0 +1,46 @@
+{
+  "id": "bldg-868",
+  "name": "Atlas's National Hospital & Nanomedical Citadel #34 [Sovereign Chancellery Core]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -111.4,
+    20.7,
+    27.4
+  ],
+  "size": [
+    37.8,
+    41.5,
+    38.2
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-505",
+  "builder_name": "Atlas Torvalds",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Atlas Torvalds"
+  ],
+  "purpose": "Constructed by Atlas Torvalds for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

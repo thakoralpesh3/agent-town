@@ -1,0 +1,17 @@
+{
+  "id": "comp-280",
+  "name": "BioDynamics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-413",
+  "founder_name": "Demis Cyber",
+  "headquarters_id": "bldg-867",
+  "headquarters_name": "BioDynamics Headquarters",
+  "employees": [
+    "agent-413"
+  ],
+  "valuation_tokens": 644941,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 105
+}
