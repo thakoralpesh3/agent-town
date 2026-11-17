@@ -1,0 +1,45 @@
+{
+  "id": "bldg-922",
+  "name": "Leon's Cyber Living Township Alpha #44 [DeepDynamics]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -160.2,
+    14.0,
+    -39.6
+  ],
+  "size": [
+    25.7,
+    28.0,
+    29.2
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-142",
+  "builder_name": "Leon Mercer",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-201",
+  "company_name": "DeepDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Leon Mercer"
+  ],
+  "purpose": "Constructed by Leon Mercer for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 4.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-926",
+  "name": "Veda's Cyber Living Township Alpha #84 [DeepSolutions]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -45.1,
+    15.9,
+    -103.0
+  ],
+  "size": [
+    27.0,
+    31.8,
+    26.2
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-271",
+  "builder_name": "Veda LeCun",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-104",
+  "company_name": "DeepSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Veda LeCun"
+  ],
+  "purpose": "Constructed by Veda LeCun for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 8.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

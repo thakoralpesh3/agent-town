@@ -1,0 +1,45 @@
+{
+  "id": "bldg-924",
+  "name": "Barbara's Cyber Living Township Alpha #86 [AeroSynthetics]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -26.7,
+    11.4,
+    -92.7
+  ],
+  "size": [
+    28.9,
+    22.9,
+    27.5
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-596",
+  "builder_name": "Barbara Johnson",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-140",
+  "company_name": "AeroSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Barbara Johnson"
+  ],
+  "purpose": "Constructed by Barbara Johnson for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 8.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

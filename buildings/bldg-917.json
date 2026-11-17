@@ -1,0 +1,45 @@
+{
+  "id": "bldg-917",
+  "name": "Thorne's Cyber Living Township Alpha #42 [SynapseMatrix]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -78.4,
+    14.7,
+    -99.3
+  ],
+  "size": [
+    29.2,
+    29.4,
+    25.9
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-409",
+  "builder_name": "Thorne Odersky",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-016",
+  "company_name": "SynapseMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Thorne Odersky"
+  ],
+  "purpose": "Constructed by Thorne Odersky for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-294",
+  "name": "AeroLogistics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-653",
+  "founder_name": "Dante Aurelius",
+  "headquarters_id": "bldg-923",
+  "headquarters_name": "AeroLogistics Headquarters",
+  "employees": [
+    "agent-653"
+  ],
+  "valuation_tokens": 231526,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 113
+}

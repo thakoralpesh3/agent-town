@@ -1,0 +1,17 @@
+{
+  "id": "comp-292",
+  "name": "CyberSolutions",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-025",
+  "founder_name": "Barbara Liskov",
+  "headquarters_id": "bldg-916",
+  "headquarters_name": "CyberSolutions Headquarters",
+  "employees": [
+    "agent-025"
+  ],
+  "valuation_tokens": 517126,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 112
+}
