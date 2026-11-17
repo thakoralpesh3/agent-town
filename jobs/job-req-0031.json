@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Quantum Compiler Developer",
-  "category": "AI & Systems",
-  "specialization": "High-Efficiency Quantum Machine Code",
+  "role": "Geothermal Supercritical Tap Engineer",
+  "category": "Energy",
+  "specialization": "Baseload Earth-Core Thermal Energy",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Quantum Compiler Developer Hub",
-  "salary_offered": 17000,
-  "created_at_tick": 108,
+  "requesting_building": "Geothermal Supercritical Tap Engineer Hub",
+  "salary_offered": 15600,
+  "created_at_tick": 110,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-645",
-  "filled_by_agent_name": "Woz von Neumann"
+  "filled_by_agent_id": "agent-653",
+  "filled_by_agent_name": "Dante Aurelius"
 }

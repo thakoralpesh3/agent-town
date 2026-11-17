@@ -1,0 +1,18 @@
+{
+  "id": "comp-287",
+  "name": "BioLabs AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-531",
+  "founder_name": "Woz Core",
+  "headquarters_id": "bldg-900",
+  "headquarters_name": "BioLabs AI Headquarters",
+  "employees": [
+    "agent-531",
+    "agent-648"
+  ],
+  "valuation_tokens": 246169,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 110
+}

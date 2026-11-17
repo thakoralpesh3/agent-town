@@ -1,0 +1,44 @@
+{
+  "id": "bldg-901",
+  "name": "Alan's Biosphere Atmospheric Scrubber #28 [HyperMatrix]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    34.8,
+    16.7,
+    -92.1
+  ],
+  "size": [
+    20.3,
+    33.5,
+    23.5
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-329",
+  "builder_name": "Alan Odersky",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-036",
+  "company_name": "HyperMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Odersky"
+  ],
+  "purpose": "Constructed by Alan Odersky for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-291",
+  "name": "TerraFederation",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-645",
+  "founder_name": "Woz von Neumann",
+  "headquarters_id": "bldg-910",
+  "headquarters_name": "TerraFederation Headquarters",
+  "employees": [
+    "agent-645"
+  ],
+  "valuation_tokens": 710002,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 111
+}

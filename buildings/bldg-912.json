@@ -1,0 +1,44 @@
+{
+  "id": "bldg-912",
+  "name": "Marcus's Shannon Information Spire #85 [HeliosFederation AI]",
+  "type": "Shannon Information Spire",
+  "position": [
+    -57.6,
+    32.9,
+    157.8
+  ],
+  "size": [
+    17.4,
+    65.8,
+    18.9
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-392",
+  "builder_name": "Marcus Ritchie",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-169",
+  "company_name": "HeliosFederation AI",
+  "completion": 1.0,
+  "occupants": [
+    "Marcus Ritchie"
+  ],
+  "purpose": "Constructed by Marcus Ritchie for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

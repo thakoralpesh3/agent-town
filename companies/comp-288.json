@@ -1,0 +1,17 @@
+{
+  "id": "comp-288",
+  "name": "VectorSolutions",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-078",
+  "founder_name": "Talia Aurelius",
+  "headquarters_id": "bldg-902",
+  "headquarters_name": "VectorSolutions Headquarters",
+  "employees": [
+    "agent-078"
+  ],
+  "valuation_tokens": 491245,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 110
+}

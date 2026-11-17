@@ -1,0 +1,45 @@
+{
+  "id": "bldg-896",
+  "name": "Selene's Hyperloop Central Terminus #26 [AetherFederation]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    87.6,
+    12.9,
+    -100.7
+  ],
+  "size": [
+    35.6,
+    25.7,
+    32.6
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-626",
+  "builder_name": "Selene DeFi",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-113",
+  "company_name": "AetherFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Selene DeFi"
+  ],
+  "purpose": "Constructed by Selene DeFi for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

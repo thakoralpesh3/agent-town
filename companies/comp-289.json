@@ -1,0 +1,18 @@
+{
+  "id": "comp-289",
+  "name": "AxiomSolutions",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-404",
+  "founder_name": "Ken Hinton",
+  "headquarters_id": "bldg-906",
+  "headquarters_name": "AxiomSolutions Headquarters",
+  "employees": [
+    "agent-404",
+    "agent-653"
+  ],
+  "valuation_tokens": 662762,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 111
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-899",
+  "name": "Ada's National Hospital & Nanomedical Citadel #14 [NeuroDynamics AI]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -100.6,
+    26.4,
+    -5.9
+  ],
+  "size": [
+    35.2,
+    52.9,
+    33.8
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-125",
+  "builder_name": "Ada Dahl",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Ada Dahl"
+  ],
+  "purpose": "Constructed by Ada Dahl for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 2.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
