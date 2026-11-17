@@ -1,0 +1,17 @@
+{
+  "id": "comp-298",
+  "name": "ApexMatrix",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-176",
+  "founder_name": "Zephyr Vex",
+  "headquarters_id": "bldg-935",
+  "headquarters_name": "ApexMatrix Headquarters",
+  "employees": [
+    "agent-176"
+  ],
+  "valuation_tokens": 554232,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 114
+}

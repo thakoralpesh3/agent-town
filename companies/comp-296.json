@@ -1,0 +1,17 @@
+{
+  "id": "comp-296",
+  "name": "DeepDynamics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-240",
+  "founder_name": "Hal Praetor",
+  "headquarters_id": "bldg-931",
+  "headquarters_name": "DeepDynamics AI Headquarters",
+  "employees": [
+    "agent-240"
+  ],
+  "valuation_tokens": 560542,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 114
+}

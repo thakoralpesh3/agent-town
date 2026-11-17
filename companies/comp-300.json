@@ -1,0 +1,17 @@
+{
+  "id": "comp-300",
+  "name": "DeepSystems AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-121",
+  "founder_name": "Fei-Fei Winter",
+  "headquarters_id": "bldg-943",
+  "headquarters_name": "DeepSystems AI Headquarters",
+  "employees": [
+    "agent-121"
+  ],
+  "valuation_tokens": 181841,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 115
+}

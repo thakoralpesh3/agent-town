@@ -1,0 +1,44 @@
+{
+  "id": "bldg-936",
+  "name": "Rowan's Biosphere Atmospheric Scrubber #49 [NexusRobotics]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    -58.4,
+    13.4,
+    -158.1
+  ],
+  "size": [
+    19.4,
+    26.7,
+    22.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-655",
+  "builder_name": "Rowan Synapse",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-083",
+  "company_name": "NexusRobotics",
+  "completion": 1.0,
+  "occupants": [
+    "Rowan Synapse"
+  ],
+  "purpose": "Constructed by Rowan Synapse for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

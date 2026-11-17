@@ -1,0 +1,45 @@
+{
+  "id": "bldg-938",
+  "name": "Darian's Autonomous Vehicle Mega-Plant #94 [SolarVentures]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    74.1,
+    15.6,
+    -133.8
+  ],
+  "size": [
+    36.0,
+    31.3,
+    33.2
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-084",
+  "builder_name": "Darian Archon",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-142",
+  "company_name": "SolarVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Darian Archon"
+  ],
+  "purpose": "Constructed by Darian Archon for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 6.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
