@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1003",
+  "name": "Stellan's Quantum Logic Foundry #23 [AeroEnergy]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    95.2,
+    15.6,
+    -14.2
+  ],
+  "size": [
+    27.2,
+    31.3,
+    25.4
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-685",
+  "builder_name": "Stellan Tinkerer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-015",
+  "company_name": "AeroEnergy",
+  "completion": 1.0,
+  "occupants": [
+    "Stellan Tinkerer"
+  ],
+  "purpose": "Constructed by Stellan Tinkerer for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-320",
+  "name": "AetherLogistics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-144",
+  "founder_name": "Katherine Beacon",
+  "headquarters_id": "bldg-1002",
+  "headquarters_name": "AetherLogistics AI Headquarters",
+  "employees": [
+    "agent-144"
+  ],
+  "valuation_tokens": 642373,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 123
+}

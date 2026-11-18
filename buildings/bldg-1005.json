@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1005",
+  "name": "Vitalik's Shannon Information Spire #72 [SolarNetworks]",
+  "type": "Shannon Information Spire",
+  "position": [
+    63.0,
+    23.1,
+    85.8
+  ],
+  "size": [
+    16.8,
+    46.3,
+    19.5
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-061",
+  "builder_name": "Vitalik Finney",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-050",
+  "company_name": "SolarNetworks",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Finney"
+  ],
+  "purpose": "Constructed by Vitalik Finney for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 4.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

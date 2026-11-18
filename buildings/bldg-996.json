@@ -1,0 +1,44 @@
+{
+  "id": "bldg-996",
+  "name": "Radia's Quantum Logic Foundry #15 [CyberGenetics AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    157.2,
+    15.3,
+    84.4
+  ],
+  "size": [
+    24.9,
+    30.6,
+    26.8
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-297",
+  "builder_name": "Radia Torvalds",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-054",
+  "company_name": "CyberGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Radia Torvalds"
+  ],
+  "purpose": "Constructed by Radia Torvalds for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

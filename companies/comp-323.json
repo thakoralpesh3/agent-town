@@ -1,0 +1,17 @@
+{
+  "id": "comp-323",
+  "name": "SynapseSolutions",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-295",
+  "founder_name": "Claude Circuit",
+  "headquarters_id": "bldg-1007",
+  "headquarters_name": "SynapseSolutions Headquarters",
+  "employees": [
+    "agent-295"
+  ],
+  "valuation_tokens": 491913,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 123
+}

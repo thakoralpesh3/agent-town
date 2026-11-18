@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1000",
+  "name": "Alan's Tokamak Fusion Reactor Station #96 [Sovereign Chancellery Core]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -36.7,
+    12.0,
+    -124.0
+  ],
+  "size": [
+    34.5,
+    24.0,
+    33.8
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-482",
+  "builder_name": "Alan Stroustrup",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Stroustrup"
+  ],
+  "purpose": "Constructed by Alan Stroustrup for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 3.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

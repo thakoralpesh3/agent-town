@@ -1,0 +1,17 @@
+{
+  "id": "comp-317",
+  "name": "ApexEnergy AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-092",
+  "founder_name": "Sylvia Binary",
+  "headquarters_id": "bldg-992",
+  "headquarters_name": "ApexEnergy AI Headquarters",
+  "employees": [
+    "agent-092"
+  ],
+  "valuation_tokens": 404017,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 122
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-995",
+  "name": "Jensen's Grand Astronomical Observatory #97 [PrismDynamics]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    57.0,
+    22.1,
+    97.7
+  ],
+  "size": [
+    23.0,
+    44.2,
+    26.8
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-563",
+  "builder_name": "Jensen Nexus",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-085",
+  "company_name": "PrismDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Jensen Nexus"
+  ],
+  "purpose": "Constructed by Jensen Nexus for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

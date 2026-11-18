@@ -1,0 +1,45 @@
+{
+  "id": "bldg-994",
+  "name": "Aurelia's Cyber Living Township Beta #52 [BioMatrix]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -77.7,
+    18.5,
+    -58.3
+  ],
+  "size": [
+    25.0,
+    37.1,
+    25.8
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-512",
+  "builder_name": "Aurelia Neumann",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-063",
+  "company_name": "BioMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Aurelia Neumann"
+  ],
+  "purpose": "Constructed by Aurelia Neumann for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 4.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-991",
+  "name": "Rune's The Agora Civic Forum #69 [HeliosSynthetics]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -62.4,
+    8.7,
+    -150.5
+  ],
+  "size": [
+    25.9,
+    17.4,
+    29.0
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-642",
+  "builder_name": "Rune Odersky",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-052",
+  "company_name": "HeliosSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Rune Odersky"
+  ],
+  "purpose": "Constructed by Rune Odersky for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 8.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

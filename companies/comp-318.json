@@ -1,0 +1,17 @@
+{
+  "id": "comp-318",
+  "name": "NexusFederation AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-233",
+  "founder_name": "Chronos Kowalski",
+  "headquarters_id": "bldg-993",
+  "headquarters_name": "NexusFederation AI Headquarters",
+  "employees": [
+    "agent-233"
+  ],
+  "valuation_tokens": 269471,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 122
+}

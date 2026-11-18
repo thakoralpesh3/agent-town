@@ -1,0 +1,17 @@
+{
+  "id": "comp-319",
+  "name": "StellarLogistics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-226",
+  "founder_name": "Kira Sterling",
+  "headquarters_id": "bldg-999",
+  "headquarters_name": "StellarLogistics Headquarters",
+  "employees": [
+    "agent-226"
+  ],
+  "valuation_tokens": 415104,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 123
+}
