@@ -1,0 +1,45 @@
+{
+  "id": "bldg-978",
+  "name": "Vitalik's Cyber Living Township Beta #67 [NeuroDynamics AI]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -146.5,
+    17.7,
+    -71.3
+  ],
+  "size": [
+    23.8,
+    35.4,
+    24.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-564",
+  "builder_name": "Vitalik Hickey",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-003",
+  "company_name": "NeuroDynamics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Hickey"
+  ],
+  "purpose": "Constructed by Vitalik Hickey for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 8.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

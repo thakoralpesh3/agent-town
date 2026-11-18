@@ -1,0 +1,17 @@
+{
+  "id": "comp-316",
+  "name": "AxiomSolutions AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-123",
+  "founder_name": "Ken Core",
+  "headquarters_id": "bldg-989",
+  "headquarters_name": "AxiomSolutions AI Headquarters",
+  "employees": [
+    "agent-123"
+  ],
+  "valuation_tokens": 587583,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 121
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-986",
+  "name": "Marc's Hyperloop Central Terminus #29 [OpenKernel Federation]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    83.6,
+    12.8,
+    -40.7
+  ],
+  "size": [
+    31.4,
+    25.6,
+    36.9
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-463",
+  "builder_name": "Marc Ritchie",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-002",
+  "company_name": "OpenKernel Federation",
+  "completion": 1.0,
+  "occupants": [
+    "Marc Ritchie"
+  ],
+  "purpose": "Constructed by Marc Ritchie for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 7.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
