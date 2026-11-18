@@ -1,0 +1,17 @@
+{
+  "id": "comp-303",
+  "name": "TerraVentures AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-084",
+  "founder_name": "Darian Archon",
+  "headquarters_id": "bldg-952",
+  "headquarters_name": "TerraVentures AI Headquarters",
+  "employees": [
+    "agent-084"
+  ],
+  "valuation_tokens": 576076,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 116
+}

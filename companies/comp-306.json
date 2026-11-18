@@ -1,0 +1,17 @@
+{
+  "id": "comp-306",
+  "name": "HyperGenetics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-201",
+  "founder_name": "Fei-Fei Kahn",
+  "headquarters_id": "bldg-956",
+  "headquarters_name": "HyperGenetics AI Headquarters",
+  "employees": [
+    "agent-201"
+  ],
+  "valuation_tokens": 365255,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 116
+}

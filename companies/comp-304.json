@@ -1,0 +1,17 @@
+{
+  "id": "comp-304",
+  "name": "StellarLabs AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-352",
+  "founder_name": "Rune Zenith",
+  "headquarters_id": "bldg-953",
+  "headquarters_name": "StellarLabs AI Headquarters",
+  "employees": [
+    "agent-352"
+  ],
+  "valuation_tokens": 196552,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 116
+}

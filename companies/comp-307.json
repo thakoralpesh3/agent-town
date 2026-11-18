@@ -1,0 +1,18 @@
+{
+  "id": "comp-307",
+  "name": "PrismGenetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-088",
+  "founder_name": "Evander Jobs",
+  "headquarters_id": "bldg-959",
+  "headquarters_name": "PrismGenetics Headquarters",
+  "employees": [
+    "agent-088",
+    "agent-670"
+  ],
+  "valuation_tokens": 678466,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 117
+}

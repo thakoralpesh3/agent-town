@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Geothermal Supercritical Tap Engineer",
-  "category": "Energy",
-  "specialization": "Baseload Earth-Core Thermal Energy",
+  "role": "High-Speed Highway Engineer",
+  "category": "Construction",
+  "specialization": "Electrified Inter-District Arterials",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Geothermal Supercritical Tap Engineer Hub",
-  "salary_offered": 15600,
-  "created_at_tick": 110,
+  "requesting_building": "High-Speed Highway Engineer Hub",
+  "salary_offered": 14500,
+  "created_at_tick": 116,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-653",
-  "filled_by_agent_name": "Dante Aurelius"
+  "filled_by_agent_id": "agent-670",
+  "filled_by_agent_name": "Donald Vance"
 }

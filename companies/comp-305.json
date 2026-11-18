@@ -1,0 +1,17 @@
+{
+  "id": "comp-305",
+  "name": "TerraFoundry",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-442",
+  "founder_name": "Lyra Rayne",
+  "headquarters_id": "bldg-955",
+  "headquarters_name": "TerraFoundry Headquarters",
+  "employees": [
+    "agent-442"
+  ],
+  "valuation_tokens": 732098,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 116
+}

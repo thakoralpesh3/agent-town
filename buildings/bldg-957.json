@@ -1,0 +1,45 @@
+{
+  "id": "bldg-957",
+  "name": "Felix's Grand Astronomical Observatory #10 [NexusMatrix]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    150.6,
+    21.0,
+    43.5
+  ],
+  "size": [
+    27.5,
+    42.0,
+    24.7
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-657",
+  "builder_name": "Felix Armstrong",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-073",
+  "company_name": "NexusMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Felix Armstrong"
+  ],
+  "purpose": "Constructed by Felix Armstrong for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 6.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

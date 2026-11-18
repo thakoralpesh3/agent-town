@@ -1,0 +1,44 @@
+{
+  "id": "bldg-950",
+  "name": "Katherine's Cloud Matrix Exchange #34 [CyberMatrix]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    20.7,
+    26.9,
+    97.2
+  ],
+  "size": [
+    21.2,
+    53.7,
+    24.4
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-321",
+  "builder_name": "Katherine Core",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-043",
+  "company_name": "CyberMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Core"
+  ],
+  "purpose": "Constructed by Katherine Core for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

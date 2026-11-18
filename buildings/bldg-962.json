@@ -1,0 +1,47 @@
+{
+  "id": "bldg-962",
+  "name": "Brendan's Sovereign Capitol Building #57 [BioLongevity Solutions]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    24.5,
+    20.5,
+    -0.0
+  ],
+  "size": [
+    40.2,
+    41.1,
+    34.3
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-186",
+  "builder_name": "Brendan Finney",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Brendan Finney"
+  ],
+  "purpose": "Constructed by Brendan Finney for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 5.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-302",
+  "name": "CyberEnergy",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-270",
+  "founder_name": "Cyrus Weaver",
+  "headquarters_id": "bldg-949",
+  "headquarters_name": "CyberEnergy Headquarters",
+  "employees": [
+    "agent-270"
+  ],
+  "valuation_tokens": 495367,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 116
+}
