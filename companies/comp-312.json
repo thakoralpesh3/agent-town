@@ -1,0 +1,17 @@
+{
+  "id": "comp-312",
+  "name": "TerraVentures AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-286",
+  "founder_name": "Martin Fletcher",
+  "headquarters_id": "bldg-972",
+  "headquarters_name": "TerraVentures AI Headquarters",
+  "employees": [
+    "agent-286"
+  ],
+  "valuation_tokens": 694591,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 119
+}

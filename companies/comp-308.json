@@ -1,0 +1,18 @@
+{
+  "id": "comp-308",
+  "name": "NexusFoundry",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-325",
+  "founder_name": "Barbara Flux",
+  "headquarters_id": "bldg-967",
+  "headquarters_name": "NexusFoundry Headquarters",
+  "employees": [
+    "agent-325",
+    "agent-677"
+  ],
+  "valuation_tokens": 716469,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 119
+}

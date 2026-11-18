@@ -1,0 +1,45 @@
+{
+  "id": "bldg-975",
+  "name": "Corin's Hyperloop Central Terminus #55 [HeliosFederation]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    136.7,
+    12.8,
+    -126.2
+  ],
+  "size": [
+    39.2,
+    25.7,
+    40.0
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-256",
+  "builder_name": "Corin von Neumann",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-131",
+  "company_name": "HeliosFederation",
+  "completion": 1.0,
+  "occupants": [
+    "Corin von Neumann"
+  ],
+  "purpose": "Constructed by Corin von Neumann for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 7.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

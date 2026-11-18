@@ -1,0 +1,17 @@
+{
+  "id": "comp-310",
+  "name": "NeuroRobotics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-609",
+  "founder_name": "Helios Murati",
+  "headquarters_id": "bldg-969",
+  "headquarters_name": "NeuroRobotics AI Headquarters",
+  "employees": [
+    "agent-609"
+  ],
+  "valuation_tokens": 530764,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 119
+}

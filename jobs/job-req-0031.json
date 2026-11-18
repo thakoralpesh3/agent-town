@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "High-Speed Highway Engineer",
+  "role": "Skybridge Master Engineer",
   "category": "Construction",
-  "specialization": "Electrified Inter-District Arterials",
+  "specialization": "Suspended Inter-Tower Transit Skyways",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "High-Speed Highway Engineer Hub",
-  "salary_offered": 14500,
-  "created_at_tick": 116,
+  "requesting_building": "Skybridge Master Engineer Hub",
+  "salary_offered": 15500,
+  "created_at_tick": 118,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-670",
-  "filled_by_agent_name": "Donald Vance"
+  "filled_by_agent_id": "agent-677",
+  "filled_by_agent_name": "Alan Andreessen"
 }

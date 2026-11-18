@@ -1,0 +1,17 @@
+{
+  "id": "comp-309",
+  "name": "AeroSolutions",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-122",
+  "founder_name": "Cipher Armstrong",
+  "headquarters_id": "bldg-968",
+  "headquarters_name": "AeroSolutions Headquarters",
+  "employees": [
+    "agent-122"
+  ],
+  "valuation_tokens": 636249,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 119
+}

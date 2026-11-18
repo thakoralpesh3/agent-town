@@ -1,0 +1,17 @@
+{
+  "id": "comp-311",
+  "name": "TerraLabs AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-427",
+  "founder_name": "Zane Jobs",
+  "headquarters_id": "bldg-971",
+  "headquarters_name": "TerraLabs AI Headquarters",
+  "employees": [
+    "agent-427"
+  ],
+  "valuation_tokens": 448208,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 119
+}
