@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1020",
+  "name": "Zane's Supreme Court of Justice #28 [PrismIntell AI]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    -42.2,
+    16.2,
+    -49.7
+  ],
+  "size": [
+    28.5,
+    32.3,
+    33.2
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-291",
+  "builder_name": "Zane Hickey",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-164",
+  "company_name": "PrismIntell AI",
+  "completion": 1.0,
+  "occupants": [
+    "Zane Hickey"
+  ],
+  "purpose": "Constructed by Zane Hickey for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 5.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

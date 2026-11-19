@@ -1,0 +1,17 @@
+{
+  "id": "comp-327",
+  "name": "AxiomEnergy",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-171",
+  "founder_name": "Mary Sovereign",
+  "headquarters_id": "bldg-1018",
+  "headquarters_name": "AxiomEnergy Headquarters",
+  "employees": [
+    "agent-171"
+  ],
+  "valuation_tokens": 251986,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 125
+}

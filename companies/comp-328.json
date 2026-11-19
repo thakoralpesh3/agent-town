@@ -1,0 +1,17 @@
+{
+  "id": "comp-328",
+  "name": "NeuroGenetics AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-061",
+  "founder_name": "Vitalik Finney",
+  "headquarters_id": "bldg-1019",
+  "headquarters_name": "NeuroGenetics AI Headquarters",
+  "employees": [
+    "agent-061"
+  ],
+  "valuation_tokens": 564241,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 125
+}

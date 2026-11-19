@@ -1,0 +1,17 @@
+{
+  "id": "comp-330",
+  "name": "QuantumTechnologies AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-371",
+  "founder_name": "Cassian Knuth",
+  "headquarters_id": "bldg-1023",
+  "headquarters_name": "QuantumTechnologies AI Headquarters",
+  "employees": [
+    "agent-371"
+  ],
+  "valuation_tokens": 577885,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 125
+}

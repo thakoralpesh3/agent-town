@@ -1,0 +1,17 @@
+{
+  "id": "comp-324",
+  "name": "VectorMatrix",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-169",
+  "founder_name": "Vitalik Sutskever",
+  "headquarters_id": "bldg-1008",
+  "headquarters_name": "VectorMatrix Headquarters",
+  "employees": [
+    "agent-169"
+  ],
+  "valuation_tokens": 311127,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 124
+}

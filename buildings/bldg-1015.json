@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1015",
+  "name": "Vector's Tokamak Fusion Reactor Station #22 [HeliosTechnologies]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -29.1,
+    12.2,
+    -102.7
+  ],
+  "size": [
+    32.6,
+    24.3,
+    32.8
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-040",
+  "builder_name": "Vector Core",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-111",
+  "company_name": "HeliosTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Vector Core"
+  ],
+  "purpose": "Constructed by Vector Core for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 8.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

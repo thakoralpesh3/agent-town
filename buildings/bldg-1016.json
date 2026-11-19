@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1016",
+  "name": "Sundar's Cyber Living Township Beta #33 [SynapseIntell]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -46.5,
+    16.1,
+    -47.0
+  ],
+  "size": [
+    26.9,
+    32.1,
+    26.2
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-181",
+  "builder_name": "Sundar Zenith",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-026",
+  "company_name": "SynapseIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Sundar Zenith"
+  ],
+  "purpose": "Constructed by Sundar Zenith for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

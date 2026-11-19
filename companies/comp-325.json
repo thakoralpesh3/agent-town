@@ -1,0 +1,17 @@
+{
+  "id": "comp-325",
+  "name": "AeroTechnologies AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-492",
+  "founder_name": "Yoshua Smith",
+  "headquarters_id": "bldg-1010",
+  "headquarters_name": "AeroTechnologies AI Headquarters",
+  "employees": [
+    "agent-492"
+  ],
+  "valuation_tokens": 244337,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 124
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1012",
+  "name": "Radia's Hypatia Grand University of Sciences #80 [SovereignDynamics]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    89.5,
+    15.9,
+    -3.9
+  ],
+  "size": [
+    33.3,
+    31.9,
+    32.4
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-662",
+  "builder_name": "Radia Lamport",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-238",
+  "company_name": "SovereignDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Radia Lamport"
+  ],
+  "purpose": "Constructed by Radia Lamport for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
