@@ -1,0 +1,17 @@
+{
+  "id": "comp-344",
+  "name": "NeuroSynthetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-271",
+  "founder_name": "Veda LeCun",
+  "headquarters_id": "bldg-1052",
+  "headquarters_name": "NeuroSynthetics AI Headquarters",
+  "employees": [
+    "agent-271"
+  ],
+  "valuation_tokens": 308498,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 129
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1053",
+  "name": "Vector's Grand Astronomical Observatory #70 [HeliosTechnologies]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    95.7,
+    21.8,
+    6.4
+  ],
+  "size": [
+    24.7,
+    43.6,
+    24.5
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-040",
+  "builder_name": "Vector Core",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-111",
+  "company_name": "HeliosTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Vector Core"
+  ],
+  "purpose": "Constructed by Vector Core for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

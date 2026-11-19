@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1048",
+  "name": "Nick's Biosphere Atmospheric Scrubber #50 [StellarGenetics]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    16.1,
+    14.2,
+    -169.9
+  ],
+  "size": [
+    23.8,
+    28.4,
+    20.4
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-057",
+  "builder_name": "Nick Mercer",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-102",
+  "company_name": "StellarGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Nick Mercer"
+  ],
+  "purpose": "Constructed by Nick Mercer for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 8.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

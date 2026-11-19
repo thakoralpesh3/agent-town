@@ -1,0 +1,17 @@
+{
+  "id": "comp-343",
+  "name": "NeuroNetworks",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-018",
+  "founder_name": "Leonardo Cyber",
+  "headquarters_id": "bldg-1050",
+  "headquarters_name": "NeuroNetworks Headquarters",
+  "employees": [
+    "agent-018"
+  ],
+  "valuation_tokens": 479066,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 129
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1051",
+  "name": "Lyra's Tokamak Fusion Reactor Station #35 [AeroLabs AI]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    15.5,
+    10.8,
+    -196.5
+  ],
+  "size": [
+    33.0,
+    21.5,
+    29.0
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-280",
+  "builder_name": "Lyra Nadella",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-171",
+  "company_name": "AeroLabs AI",
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Nadella"
+  ],
+  "purpose": "Constructed by Lyra Nadella for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 4.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

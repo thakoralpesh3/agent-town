@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Skybridge Master Engineer",
-  "category": "Construction",
-  "specialization": "Suspended Inter-Tower Transit Skyways",
+  "role": "Bioluminescent Crop Geneticist",
+  "category": "Agriculture",
+  "specialization": "Self-Luminous Edible Crops",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Skybridge Master Engineer Hub",
-  "salary_offered": 15500,
-  "created_at_tick": 118,
+  "requesting_building": "Bioluminescent Crop Geneticist Hub",
+  "salary_offered": 16000,
+  "created_at_tick": 129,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-677",
-  "filled_by_agent_name": "Alan Andreessen"
+  "filled_by_agent_id": "agent-706",
+  "filled_by_agent_name": "Kairo Berners-Lee"
 }

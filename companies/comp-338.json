@@ -1,0 +1,17 @@
+{
+  "id": "comp-338",
+  "name": "NexusLogistics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-129",
+  "founder_name": "Cyrus Berners-Lee",
+  "headquarters_id": "bldg-1041",
+  "headquarters_name": "NexusLogistics Headquarters",
+  "employees": [
+    "agent-129"
+  ],
+  "valuation_tokens": 622975,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 128
+}

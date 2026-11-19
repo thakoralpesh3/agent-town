@@ -1,0 +1,17 @@
+{
+  "id": "comp-341",
+  "name": "OmniGenetics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-586",
+  "founder_name": "Valen Flux",
+  "headquarters_id": "bldg-1047",
+  "headquarters_name": "OmniGenetics AI Headquarters",
+  "employees": [
+    "agent-586"
+  ],
+  "valuation_tokens": 172533,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 129
+}
