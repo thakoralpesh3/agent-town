@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1027",
+  "name": "Helios's Hyperloop Central Terminus #64 [SynapseVentures]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    145.4,
+    14.6,
+    -131.9
+  ],
+  "size": [
+    39.4,
+    29.2,
+    32.6
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-573",
+  "builder_name": "Helios Neumann",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-091",
+  "company_name": "SynapseVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Helios Neumann"
+  ],
+  "purpose": "Constructed by Helios Neumann for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 4.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

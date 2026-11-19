@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1037",
+  "name": "Gavin's Cloud Matrix Exchange #77 [AeroCyber Mobility]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    40.0,
+    33.6,
+    148.8
+  ],
+  "size": [
+    20.1,
+    67.2,
+    25.1
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-076",
+  "builder_name": "Gavin Hopper",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Hopper"
+  ],
+  "purpose": "Constructed by Gavin Hopper for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-335",
+  "name": "DeepSynthetics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-488",
+  "founder_name": "Lyra Franklin",
+  "headquarters_id": "bldg-1035",
+  "headquarters_name": "DeepSynthetics Headquarters",
+  "employees": [
+    "agent-488"
+  ],
+  "valuation_tokens": 728167,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 127
+}

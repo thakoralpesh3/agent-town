@@ -1,0 +1,17 @@
+{
+  "id": "comp-333",
+  "name": "TerraVentures AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-243",
+  "founder_name": "Geoffrey Kahn",
+  "headquarters_id": "bldg-1030",
+  "headquarters_name": "TerraVentures AI Headquarters",
+  "employees": [
+    "agent-243"
+  ],
+  "valuation_tokens": 241020,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 127
+}

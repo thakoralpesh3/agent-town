@@ -1,0 +1,17 @@
+{
+  "id": "comp-331",
+  "name": "QuantumLabs",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-347",
+  "founder_name": "Pixel Praetor",
+  "headquarters_id": "bldg-1025",
+  "headquarters_name": "QuantumLabs Headquarters",
+  "employees": [
+    "agent-347"
+  ],
+  "valuation_tokens": 440378,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 126
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1032",
+  "name": "Nick's Hypatia Grand University of Sciences #94 [SolarFoundry]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    106.7,
+    16.3,
+    0.7
+  ],
+  "size": [
+    39.4,
+    32.5,
+    35.2
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-289",
+  "builder_name": "Nick Hamilton",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-038",
+  "company_name": "SolarFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Nick Hamilton"
+  ],
+  "purpose": "Constructed by Nick Hamilton for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

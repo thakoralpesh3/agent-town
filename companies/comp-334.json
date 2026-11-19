@@ -1,0 +1,17 @@
+{
+  "id": "comp-334",
+  "name": "ApexRobotics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-643",
+  "founder_name": "Corin Zenith",
+  "headquarters_id": "bldg-1033",
+  "headquarters_name": "ApexRobotics AI Headquarters",
+  "employees": [
+    "agent-643"
+  ],
+  "valuation_tokens": 695084,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 127
+}
