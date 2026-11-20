@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1062",
+  "name": "Selene's Shannon Information Spire #52 [SynapseSynthetics]",
+  "type": "Shannon Information Spire",
+  "position": [
+    57.4,
+    29.7,
+    111.9
+  ],
+  "size": [
+    21.0,
+    59.4,
+    16.4
+  ],
+  "color": "#0284c7",
+  "builder_id": "agent-249",
+  "builder_name": "Selene Weaver",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-013",
+  "company_name": "SynapseSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Selene Weaver"
+  ],
+  "purpose": "Constructed by Selene Weaver for Shannon Information Spire operations",
+  "floors": 12,
+  "capacity": 35,
+  "departments": [
+    "Photonic Switching",
+    "Information Theory Wing",
+    "Network Topologies"
+  ],
+  "amenities": [
+    "Free-Space Optical Transceivers",
+    "Zero-Latency Buffer Pool"
+  ],
+  "power_consumption_mw": 7.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

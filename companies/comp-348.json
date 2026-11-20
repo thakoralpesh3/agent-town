@@ -1,0 +1,17 @@
+{
+  "id": "comp-348",
+  "name": "StellarLogistics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-497",
+  "founder_name": "Thorne Weaver",
+  "headquarters_id": "bldg-1063",
+  "headquarters_name": "StellarLogistics AI Headquarters",
+  "employees": [
+    "agent-497"
+  ],
+  "valuation_tokens": 494566,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 131
+}

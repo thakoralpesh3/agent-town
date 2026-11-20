@@ -1,0 +1,17 @@
+{
+  "id": "comp-346",
+  "name": "QuantumFoundry",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-590",
+  "founder_name": "Satoshi Archon",
+  "headquarters_id": "bldg-1060",
+  "headquarters_name": "QuantumFoundry Headquarters",
+  "employees": [
+    "agent-590"
+  ],
+  "valuation_tokens": 381800,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 131
+}

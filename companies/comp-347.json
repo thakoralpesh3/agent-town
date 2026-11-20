@@ -1,0 +1,17 @@
+{
+  "id": "comp-347",
+  "name": "AeroFoundry AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-489",
+  "founder_name": "Brian Turing",
+  "headquarters_id": "bldg-1061",
+  "headquarters_name": "AeroFoundry AI Headquarters",
+  "employees": [
+    "agent-489"
+  ],
+  "valuation_tokens": 535477,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 131
+}

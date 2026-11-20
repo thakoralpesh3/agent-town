@@ -1,0 +1,18 @@
+{
+  "id": "comp-345",
+  "name": "SovereignFoundry AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-228",
+  "founder_name": "Mary Karpathy",
+  "headquarters_id": "bldg-1056",
+  "headquarters_name": "SovereignFoundry AI Headquarters",
+  "employees": [
+    "agent-228",
+    "agent-706"
+  ],
+  "valuation_tokens": 357732,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 130
+}

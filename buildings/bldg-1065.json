@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1065",
+  "name": "Rowan's Quantum Logic Foundry #80 [CyberNetworks AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    71.1,
+    12.9,
+    -15.8
+  ],
+  "size": [
+    26.3,
+    25.9,
+    31.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-507",
+  "builder_name": "Rowan Tinkerer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-174",
+  "company_name": "CyberNetworks AI",
+  "completion": 1.0,
+  "occupants": [
+    "Rowan Tinkerer"
+  ],
+  "purpose": "Constructed by Rowan Tinkerer for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

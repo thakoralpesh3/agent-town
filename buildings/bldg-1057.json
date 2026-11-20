@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1057",
+  "name": "Rob's National Archives & Git Ledger #25 [StellarIntell]",
+  "type": "National Archives & Git Ledger",
+  "position": [
+    3.6,
+    18.4,
+    -35.4
+  ],
+  "size": [
+    28.5,
+    36.7,
+    30.5
+  ],
+  "color": "#6366f1",
+  "builder_id": "agent-486",
+  "builder_name": "Rob Murati",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-065",
+  "company_name": "StellarIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Rob Murati"
+  ],
+  "purpose": "Constructed by Rob Murati for National Archives & Git Ledger operations",
+  "floors": 7,
+  "capacity": 30,
+  "departments": [
+    "State Serialization Vault",
+    "Cold Storage Optical Discs",
+    "Genesis Commit Monument"
+  ],
+  "amenities": [
+    "Liquid Nitrogen Immersion",
+    "Electromagnetic Shielding",
+    "Perpetual Ledger Screen"
+  ],
+  "power_consumption_mw": 3.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

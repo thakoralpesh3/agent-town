@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1066",
+  "name": "Zane's Tower of Turing (City Mainframe) #67 [PrismIntell AI]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    -44.1,
+    36.3,
+    144.0
+  ],
+  "size": [
+    25.9,
+    72.6,
+    21.9
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-291",
+  "builder_name": "Zane Hickey",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-164",
+  "company_name": "PrismIntell AI",
+  "completion": 1.0,
+  "occupants": [
+    "Zane Hickey"
+  ],
+  "purpose": "Constructed by Zane Hickey for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
