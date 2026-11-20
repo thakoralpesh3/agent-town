@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1089",
+  "name": "Freya's Hypatia Grand University of Sciences #98 [BioLabs]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    60.8,
+    21.3,
+    30.5
+  ],
+  "size": [
+    35.1,
+    42.6,
+    31.9
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-418",
+  "builder_name": "Freya Nightingale",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-047",
+  "company_name": "BioLabs",
+  "completion": 1.0,
+  "occupants": [
+    "Freya Nightingale"
+  ],
+  "purpose": "Constructed by Freya Nightingale for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

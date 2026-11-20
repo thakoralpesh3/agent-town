@@ -1,0 +1,18 @@
+{
+  "id": "comp-352",
+  "name": "ChronoLogistics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-512",
+  "founder_name": "Aurelia Neumann",
+  "headquarters_id": "bldg-1087",
+  "headquarters_name": "ChronoLogistics AI Headquarters",
+  "employees": [
+    "agent-512",
+    "agent-724"
+  ],
+  "valuation_tokens": 687523,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 135
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1086",
+  "name": "Evander's Hyperloop Central Terminus #23 [DeepVentures]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    171.9,
+    13.5,
+    -135.9
+  ],
+  "size": [
+    31.3,
+    27.0,
+    38.5
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-357",
+  "builder_name": "Evander Finney",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-056",
+  "company_name": "DeepVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Evander Finney"
+  ],
+  "purpose": "Constructed by Evander Finney for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 7.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

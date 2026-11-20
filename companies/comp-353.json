@@ -1,0 +1,17 @@
+{
+  "id": "comp-353",
+  "name": "HeliosLogistics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-179",
+  "founder_name": "Nick Rayne",
+  "headquarters_id": "bldg-1088",
+  "headquarters_name": "HeliosLogistics Headquarters",
+  "employees": [
+    "agent-179"
+  ],
+  "valuation_tokens": 429697,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 135
+}

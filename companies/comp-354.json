@@ -1,0 +1,17 @@
+{
+  "id": "comp-354",
+  "name": "AeroMatrix",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-507",
+  "founder_name": "Rowan Tinkerer",
+  "headquarters_id": "bldg-1091",
+  "headquarters_name": "AeroMatrix Headquarters",
+  "employees": [
+    "agent-507"
+  ],
+  "valuation_tokens": 559166,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 135
+}

@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Bioluminescent Crop Geneticist",
-  "category": "Agriculture",
-  "specialization": "Self-Luminous Edible Crops",
+  "role": "Quantum Compiler Developer",
+  "category": "AI & Systems",
+  "specialization": "High-Efficiency Quantum Machine Code",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Bioluminescent Crop Geneticist Hub",
-  "salary_offered": 16000,
-  "created_at_tick": 129,
+  "requesting_building": "Quantum Compiler Developer Hub",
+  "salary_offered": 17000,
+  "created_at_tick": 134,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-706",
-  "filled_by_agent_name": "Kairo Berners-Lee"
+  "filled_by_agent_id": "agent-724",
+  "filled_by_agent_name": "Veda Ritchie"
 }
