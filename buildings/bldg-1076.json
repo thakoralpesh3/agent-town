@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1076",
+  "name": "Cipher's Autonomous Vehicle Mega-Plant #54 [CyberGenetics]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    43.3,
+    15.1,
+    -42.8
+  ],
+  "size": [
+    38.1,
+    30.1,
+    37.3
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-232",
+  "builder_name": "Cipher Cerf",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-048",
+  "company_name": "CyberGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Cipher Cerf"
+  ],
+  "purpose": "Constructed by Cipher Cerf for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

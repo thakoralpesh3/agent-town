@@ -1,0 +1,47 @@
+{
+  "id": "bldg-1072",
+  "name": "Iris's Sovereign Capitol Building #32 [HyperSystems]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    52.5,
+    26.4,
+    34.1
+  ],
+  "size": [
+    37.8,
+    52.8,
+    37.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-382",
+  "builder_name": "Iris Hinton",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-274",
+  "company_name": "HyperSystems",
+  "completion": 1.0,
+  "occupants": [
+    "Iris Hinton"
+  ],
+  "purpose": "Constructed by Iris Hinton for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 2.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

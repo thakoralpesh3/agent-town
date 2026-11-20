@@ -1,0 +1,17 @@
+{
+  "id": "comp-351",
+  "name": "CyberRobotics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-381",
+  "founder_name": "Vector Archon",
+  "headquarters_id": "bldg-1083",
+  "headquarters_name": "CyberRobotics AI Headquarters",
+  "employees": [
+    "agent-381"
+  ],
+  "valuation_tokens": 288870,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 133
+}

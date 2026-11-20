@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1081",
+  "name": "Pixel's National Hospital & Nanomedical Citadel #83 [SynapseTechnologies]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -106.4,
+    18.1,
+    -17.0
+  ],
+  "size": [
+    33.0,
+    36.3,
+    30.3
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-350",
+  "builder_name": "Pixel Lovelace",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-045",
+  "company_name": "SynapseTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Pixel Lovelace"
+  ],
+  "purpose": "Constructed by Pixel Lovelace for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 8.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1082",
+  "name": "Ken's Hydroponic Agricultural Biodome #94 [AxiomSolutions]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    1.3,
+    9.1,
+    -114.9
+  ],
+  "size": [
+    34.8,
+    18.1,
+    38.0
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-404",
+  "builder_name": "Ken Hinton",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-289",
+  "company_name": "AxiomSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Ken Hinton"
+  ],
+  "purpose": "Constructed by Ken Hinton for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

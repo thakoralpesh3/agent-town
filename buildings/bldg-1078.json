@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1078",
+  "name": "Julian's Hyperloop Central Terminus #48 [SolarFusion Grid]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    80.3,
+    10.5,
+    -67.7
+  ],
+  "size": [
+    33.2,
+    21.1,
+    38.1
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-101",
+  "builder_name": "Julian Blaze",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Blaze"
+  ],
+  "purpose": "Constructed by Julian Blaze for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 8.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

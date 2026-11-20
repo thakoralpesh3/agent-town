@@ -1,0 +1,17 @@
+{
+  "id": "comp-350",
+  "name": "HyperSynthetics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-295",
+  "founder_name": "Claude Circuit",
+  "headquarters_id": "bldg-1073",
+  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "employees": [
+    "agent-295"
+  ],
+  "valuation_tokens": 280962,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 132
+}
