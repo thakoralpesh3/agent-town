@@ -1,0 +1,17 @@
+{
+  "id": "comp-370",
+  "name": "TerraSystems AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-305",
+  "founder_name": "Felix Praetor",
+  "headquarters_id": "bldg-1125",
+  "headquarters_name": "TerraSystems AI Headquarters",
+  "employees": [
+    "agent-305"
+  ],
+  "valuation_tokens": 519246,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 140
+}

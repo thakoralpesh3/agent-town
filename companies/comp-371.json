@@ -1,0 +1,17 @@
+{
+  "id": "comp-371",
+  "name": "BioSystems",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-288",
+  "founder_name": "Leslie Wozniak",
+  "headquarters_id": "bldg-1126",
+  "headquarters_name": "BioSystems Headquarters",
+  "employees": [
+    "agent-288"
+  ],
+  "valuation_tokens": 369921,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 140
+}

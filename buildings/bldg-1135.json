@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1135",
+  "name": "Vitalik's Cyber Living Township Beta #60 [Sovereign Chancellery Core]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -87.9,
+    15.7,
+    -81.0
+  ],
+  "size": [
+    29.7,
+    31.3,
+    29.0
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-612",
+  "builder_name": "Vitalik Cross",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Cross"
+  ],
+  "purpose": "Constructed by Vitalik Cross for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 5.6,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

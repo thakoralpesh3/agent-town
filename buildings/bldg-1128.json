@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1128",
+  "name": "Katherine's Quantum Logic Foundry #15 [BioLongevity Solutions]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    65.5,
+    16.2,
+    -15.3
+  ],
+  "size": [
+    28.0,
+    32.4,
+    25.2
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-103",
+  "builder_name": "Katherine Hamilton",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Hamilton"
+  ],
+  "purpose": "Constructed by Katherine Hamilton for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

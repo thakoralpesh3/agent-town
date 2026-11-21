@@ -1,0 +1,17 @@
+{
+  "id": "comp-372",
+  "name": "AetherFederation AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-077",
+  "founder_name": "Valeria Finney",
+  "headquarters_id": "bldg-1129",
+  "headquarters_name": "AetherFederation AI Headquarters",
+  "employees": [
+    "agent-077"
+  ],
+  "valuation_tokens": 679591,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 141
+}
