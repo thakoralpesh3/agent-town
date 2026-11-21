@@ -1,0 +1,17 @@
+{
+  "id": "comp-361",
+  "name": "AetherMatrix AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-671",
+  "founder_name": "Yoshua Praetor",
+  "headquarters_id": "bldg-1106",
+  "headquarters_name": "AetherMatrix AI Headquarters",
+  "employees": [
+    "agent-671"
+  ],
+  "valuation_tokens": 637040,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 137
+}

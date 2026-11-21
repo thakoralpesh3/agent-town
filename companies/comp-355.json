@@ -1,0 +1,17 @@
+{
+  "id": "comp-355",
+  "name": "AetherFoundry AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-041",
+  "founder_name": "Selene Thompson",
+  "headquarters_id": "bldg-1096",
+  "headquarters_name": "AetherFoundry AI Headquarters",
+  "employees": [
+    "agent-041"
+  ],
+  "valuation_tokens": 736092,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 136
+}

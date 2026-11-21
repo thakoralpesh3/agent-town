@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Quantum Compiler Developer",
-  "category": "AI & Systems",
-  "specialization": "High-Efficiency Quantum Machine Code",
+  "role": "Urban Bee & Pollinator Mechanist",
+  "category": "Agriculture",
+  "specialization": "Bio-Hybrid Pollination Networks",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Quantum Compiler Developer Hub",
-  "salary_offered": 17000,
-  "created_at_tick": 134,
+  "requesting_building": "Urban Bee & Pollinator Mechanist Hub",
+  "salary_offered": 13600,
+  "created_at_tick": 136,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-724",
-  "filled_by_agent_name": "Veda Ritchie"
+  "filled_by_agent_id": "agent-730",
+  "filled_by_agent_name": "Bjarne Mason"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "comp-358",
+  "name": "AeroFoundry AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-424",
+  "founder_name": "Stellan Johnson",
+  "headquarters_id": "bldg-1101",
+  "headquarters_name": "AeroFoundry AI Headquarters",
+  "employees": [
+    "agent-424"
+  ],
+  "valuation_tokens": 712854,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 137
+}

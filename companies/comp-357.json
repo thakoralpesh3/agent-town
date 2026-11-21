@@ -1,0 +1,17 @@
+{
+  "id": "comp-357",
+  "name": "SynapseGenetics",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-656",
+  "founder_name": "Callum Kahn",
+  "headquarters_id": "bldg-1098",
+  "headquarters_name": "SynapseGenetics Headquarters",
+  "employees": [
+    "agent-656"
+  ],
+  "valuation_tokens": 334329,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 137
+}

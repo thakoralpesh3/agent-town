@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1095",
+  "name": "Helios's Quantum Logic Foundry #43 [DeepRobotics AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    67.8,
+    15.0,
+    -21.0
+  ],
+  "size": [
+    26.3,
+    30.0,
+    27.7
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-220",
+  "builder_name": "Helios Blaze",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-337",
+  "company_name": "DeepRobotics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Helios Blaze"
+  ],
+  "purpose": "Constructed by Helios Blaze for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 4.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

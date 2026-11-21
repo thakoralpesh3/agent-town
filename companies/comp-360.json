@@ -1,0 +1,17 @@
+{
+  "id": "comp-360",
+  "name": "BioLabs AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-444",
+  "founder_name": "Sam Lovelace",
+  "headquarters_id": "bldg-1104",
+  "headquarters_name": "BioLabs AI Headquarters",
+  "employees": [
+    "agent-444"
+  ],
+  "valuation_tokens": 422506,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 137
+}
