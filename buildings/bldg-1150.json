@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1150",
+  "name": "Sam's Tokamak Fusion Reactor Station #50 [Sovereign Chancellery Core]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -40.8,
+    12.1,
+    -99.4
+  ],
+  "size": [
+    35.9,
+    24.2,
+    30.8
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-203",
+  "builder_name": "Sam Berners-Lee",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-001",
+  "company_name": "Sovereign Chancellery Core",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Berners-Lee"
+  ],
+  "purpose": "Constructed by Sam Berners-Lee for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 8.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

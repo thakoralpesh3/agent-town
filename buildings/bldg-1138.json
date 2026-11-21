@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1138",
+  "name": "Ilya's Quantum Logic Foundry #27 [SovereignSynthetics]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    126.8,
+    18.6,
+    62.1
+  ],
+  "size": [
+    25.4,
+    37.1,
+    28.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-450",
+  "builder_name": "Ilya Sutskever",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-090",
+  "company_name": "SovereignSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Sutskever"
+  ],
+  "purpose": "Constructed by Ilya Sutskever for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 8.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

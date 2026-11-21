@@ -1,0 +1,17 @@
+{
+  "id": "comp-375",
+  "name": "BioSynthetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-220",
+  "founder_name": "Helios Blaze",
+  "headquarters_id": "bldg-1148",
+  "headquarters_name": "BioSynthetics Headquarters",
+  "employees": [
+    "agent-220"
+  ],
+  "valuation_tokens": 455032,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 142
+}

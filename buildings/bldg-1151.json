@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1151",
+  "name": "Ryan's Cyber Living Township Beta #46 [AxiomLogistics]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -124.4,
+    14.8,
+    -72.6
+  ],
+  "size": [
+    30.7,
+    29.7,
+    25.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-074",
+  "builder_name": "Ryan Shadow",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-114",
+  "company_name": "AxiomLogistics",
+  "completion": 1.0,
+  "occupants": [
+    "Ryan Shadow"
+  ],
+  "purpose": "Constructed by Ryan Shadow for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

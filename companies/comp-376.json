@@ -1,0 +1,17 @@
+{
+  "id": "comp-376",
+  "name": "HyperSynthetics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-211",
+  "founder_name": "Freya Huang",
+  "headquarters_id": "bldg-1149",
+  "headquarters_name": "HyperSynthetics AI Headquarters",
+  "employees": [
+    "agent-211"
+  ],
+  "valuation_tokens": 441702,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 143
+}
