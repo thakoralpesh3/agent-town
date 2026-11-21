@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1112",
+  "name": "Veda's National Central Bank & Treasury #36 [ChronoLabs AI]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    -18.2,
+    19.6,
+    -11.4
+  ],
+  "size": [
+    31.2,
+    39.3,
+    32.7
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-651",
+  "builder_name": "Veda Dahl",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-147",
+  "company_name": "ChronoLabs AI",
+  "completion": 1.0,
+  "occupants": [
+    "Veda Dahl"
+  ],
+  "purpose": "Constructed by Veda Dahl for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 4.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

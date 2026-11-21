@@ -1,0 +1,17 @@
+{
+  "id": "comp-369",
+  "name": "PrismIntell AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-214",
+  "founder_name": "Valen Rayne",
+  "headquarters_id": "bldg-1124",
+  "headquarters_name": "PrismIntell AI Headquarters",
+  "employees": [
+    "agent-214"
+  ],
+  "valuation_tokens": 684976,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 139
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1109",
+  "name": "Roxas's Hypatia Grand University of Sciences #80 [TerraSystems AI]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    137.0,
+    25.3,
+    -16.9
+  ],
+  "size": [
+    37.3,
+    50.6,
+    32.4
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-190",
+  "builder_name": "Roxas Lamport",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-173",
+  "company_name": "TerraSystems AI",
+  "completion": 1.0,
+  "occupants": [
+    "Roxas Lamport"
+  ],
+  "purpose": "Constructed by Roxas Lamport for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

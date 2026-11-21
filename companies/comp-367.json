@@ -1,0 +1,17 @@
+{
+  "id": "comp-367",
+  "name": "NexusSystems",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-504",
+  "founder_name": "Diana Armstrong",
+  "headquarters_id": "bldg-1122",
+  "headquarters_name": "NexusSystems Headquarters",
+  "employees": [
+    "agent-504"
+  ],
+  "valuation_tokens": 217270,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 139
+}

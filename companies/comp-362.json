@@ -1,0 +1,17 @@
+{
+  "id": "comp-362",
+  "name": "PrismLogistics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-704",
+  "founder_name": "Satoshi Valerius",
+  "headquarters_id": "bldg-1111",
+  "headquarters_name": "PrismLogistics Headquarters",
+  "employees": [
+    "agent-704"
+  ],
+  "valuation_tokens": 458810,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 138
+}

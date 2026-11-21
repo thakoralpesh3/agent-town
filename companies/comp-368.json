@@ -1,0 +1,17 @@
+{
+  "id": "comp-368",
+  "name": "AeroIntell AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-159",
+  "founder_name": "Thorne Jobs",
+  "headquarters_id": "bldg-1123",
+  "headquarters_name": "AeroIntell AI Headquarters",
+  "employees": [
+    "agent-159"
+  ],
+  "valuation_tokens": 206239,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 139
+}

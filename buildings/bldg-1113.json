@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1113",
+  "name": "Corin's National Central Bank & Treasury #58 [QuantumSolutions]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    36.2,
+    24.6,
+    41.9
+  ],
+  "size": [
+    28.1,
+    49.2,
+    27.9
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-119",
+  "builder_name": "Corin Aurelius",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-031",
+  "company_name": "QuantumSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Corin Aurelius"
+  ],
+  "purpose": "Constructed by Corin Aurelius for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

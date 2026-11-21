@@ -1,0 +1,17 @@
+{
+  "id": "comp-366",
+  "name": "AeroSolutions AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-275",
+  "founder_name": "Grace Berners-Lee",
+  "headquarters_id": "bldg-1118",
+  "headquarters_name": "AeroSolutions AI Headquarters",
+  "employees": [
+    "agent-275"
+  ],
+  "valuation_tokens": 629906,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 138
+}
