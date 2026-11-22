@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1164",
+  "name": "Diana's Cyber Living Township Alpha #38 [NeuroSynthetics]",
+  "type": "Cyber Living Township Alpha",
+  "position": [
+    -87.3,
+    18.5,
+    -131.1
+  ],
+  "size": [
+    27.5,
+    36.9,
+    23.9
+  ],
+  "color": "#22c55e",
+  "builder_id": "agent-388",
+  "builder_name": "Diana Pichai",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-099",
+  "company_name": "NeuroSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Diana Pichai"
+  ],
+  "purpose": "Constructed by Diana Pichai for Cyber Living Township Alpha operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Suites",
+    "Communal Kitchen",
+    "Quiet Meditation Glade"
+  ],
+  "amenities": [
+    "Aero-Garden Balconies",
+    "Induction Recharging Beds",
+    "Filtered Atmosphere"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

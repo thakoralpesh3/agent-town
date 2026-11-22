@@ -1,0 +1,17 @@
+{
+  "id": "comp-385",
+  "name": "PrismGenetics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-549",
+  "founder_name": "Liora Bengio",
+  "headquarters_id": "bldg-1179",
+  "headquarters_name": "PrismGenetics AI Headquarters",
+  "employees": [
+    "agent-549"
+  ],
+  "valuation_tokens": 247333,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 147
+}

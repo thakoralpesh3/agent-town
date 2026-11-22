@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1168",
+  "name": "Greg's Drone Logistics Freight Port #38 [NeuroDynamics]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    171.7,
+    16.9,
+    -136.5
+  ],
+  "size": [
+    23.7,
+    33.9,
+    26.1
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-610",
+  "builder_name": "Greg Sovereign",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-098",
+  "company_name": "NeuroDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Greg Sovereign"
+  ],
+  "purpose": "Constructed by Greg Sovereign for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 4.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

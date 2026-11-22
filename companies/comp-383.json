@@ -1,0 +1,17 @@
+{
+  "id": "comp-383",
+  "name": "SovereignFederation AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-198",
+  "founder_name": "Iris Vaughan",
+  "headquarters_id": "bldg-1171",
+  "headquarters_name": "SovereignFederation AI Headquarters",
+  "employees": [
+    "agent-198"
+  ],
+  "valuation_tokens": 442836,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 147
+}

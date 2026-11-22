@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1169",
+  "name": "Alexander's Tower of Turing (City Mainframe) #39 [TerraSolutions]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    42.1,
+    36.8,
+    150.0
+  ],
+  "size": [
+    26.7,
+    73.6,
+    23.7
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-731",
+  "builder_name": "Alexander Knuth",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-096",
+  "company_name": "TerraSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Alexander Knuth"
+  ],
+  "purpose": "Constructed by Alexander Knuth for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

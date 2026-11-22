@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1174",
+  "name": "Aurelia's Hyperloop Central Terminus #63 [HeliosTechnologies]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    84.7,
+    9.8,
+    -148.8
+  ],
+  "size": [
+    31.3,
+    19.6,
+    37.9
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-622",
+  "builder_name": "Aurelia Hickey",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-111",
+  "company_name": "HeliosTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Aurelia Hickey"
+  ],
+  "purpose": "Constructed by Aurelia Hickey for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

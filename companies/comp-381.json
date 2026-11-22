@@ -1,0 +1,17 @@
+{
+  "id": "comp-381",
+  "name": "TerraVentures AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-468",
+  "founder_name": "Iris Sutskever",
+  "headquarters_id": "bldg-1163",
+  "headquarters_name": "TerraVentures AI Headquarters",
+  "employees": [
+    "agent-468"
+  ],
+  "valuation_tokens": 407617,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 146
+}
