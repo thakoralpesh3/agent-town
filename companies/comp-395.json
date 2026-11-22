@@ -1,0 +1,17 @@
+{
+  "id": "comp-395",
+  "name": "OmniMatrix AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-457",
+  "founder_name": "Steve Prism",
+  "headquarters_id": "bldg-1210",
+  "headquarters_name": "OmniMatrix AI Headquarters",
+  "employees": [
+    "agent-457"
+  ],
+  "valuation_tokens": 724390,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 151
+}

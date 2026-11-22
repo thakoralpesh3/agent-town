@@ -1,0 +1,17 @@
+{
+  "id": "comp-392",
+  "name": "QuantumSolutions AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-215",
+  "founder_name": "Sylvia Circuit",
+  "headquarters_id": "bldg-1201",
+  "headquarters_name": "QuantumSolutions AI Headquarters",
+  "employees": [
+    "agent-215"
+  ],
+  "valuation_tokens": 179244,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 150
+}

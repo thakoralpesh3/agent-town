@@ -1,0 +1,17 @@
+{
+  "id": "comp-391",
+  "name": "QuantumRobotics",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-110",
+  "founder_name": "Marc Bengio",
+  "headquarters_id": "bldg-1199",
+  "headquarters_name": "QuantumRobotics Headquarters",
+  "employees": [
+    "agent-110"
+  ],
+  "valuation_tokens": 386298,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 150
+}
