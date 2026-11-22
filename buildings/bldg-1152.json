@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1152",
+  "name": "Ilya's Biosphere Atmospheric Scrubber #92 [ApexTechnologies]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    50.5,
+    16.6,
+    -185.2
+  ],
+  "size": [
+    19.4,
+    33.2,
+    21.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-140",
+  "builder_name": "Ilya Buterin",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-153",
+  "company_name": "ApexTechnologies",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Buterin"
+  ],
+  "purpose": "Constructed by Ilya Buterin for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

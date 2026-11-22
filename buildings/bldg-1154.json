@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1154",
+  "name": "Claude's Quantum Logic Foundry #38 [SynapseLogistics AI]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    143.0,
+    13.0,
+    61.1
+  ],
+  "size": [
+    27.6,
+    25.9,
+    26.1
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-587",
+  "builder_name": "Claude Liskov",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-223",
+  "company_name": "SynapseLogistics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Claude Liskov"
+  ],
+  "purpose": "Constructed by Claude Liskov for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

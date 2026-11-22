@@ -1,0 +1,17 @@
+{
+  "id": "comp-378",
+  "name": "StellarIntell AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-588",
+  "founder_name": "Rowan Spark",
+  "headquarters_id": "bldg-1156",
+  "headquarters_name": "StellarIntell AI Headquarters",
+  "employees": [
+    "agent-588"
+  ],
+  "valuation_tokens": 189012,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 144
+}

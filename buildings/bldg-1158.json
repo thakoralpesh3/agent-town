@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1158",
+  "name": "Ilya's Tower of Turing (City Mainframe) #39 [BioVentures AI]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    61.2,
+    24.8,
+    179.2
+  ],
+  "size": [
+    23.0,
+    49.5,
+    25.0
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-344",
+  "builder_name": "Ilya Sovereign",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-115",
+  "company_name": "BioVentures AI",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Sovereign"
+  ],
+  "purpose": "Constructed by Ilya Sovereign for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

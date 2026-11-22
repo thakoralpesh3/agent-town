@@ -1,0 +1,17 @@
+{
+  "id": "comp-377",
+  "name": "AxiomDynamics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-615",
+  "founder_name": "Nova Hinton",
+  "headquarters_id": "bldg-1153",
+  "headquarters_name": "AxiomDynamics Headquarters",
+  "employees": [
+    "agent-615"
+  ],
+  "valuation_tokens": 733547,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 144
+}

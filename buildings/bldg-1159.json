@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1159",
+  "name": "Cyrus's Hyperloop Central Terminus #94 [SolarFusion Grid]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    114.0,
+    11.6,
+    -65.7
+  ],
+  "size": [
+    35.3,
+    23.2,
+    39.6
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-559",
+  "builder_name": "Cyrus Mason",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Cyrus Mason"
+  ],
+  "purpose": "Constructed by Cyrus Mason for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 8.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
