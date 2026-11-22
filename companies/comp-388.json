@@ -1,0 +1,17 @@
+{
+  "id": "comp-388",
+  "name": "NeuroSystems AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-459",
+  "founder_name": "Sylvia Vex",
+  "headquarters_id": "bldg-1191",
+  "headquarters_name": "NeuroSystems AI Headquarters",
+  "employees": [
+    "agent-459"
+  ],
+  "valuation_tokens": 654876,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 149
+}

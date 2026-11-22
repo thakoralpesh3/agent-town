@@ -1,0 +1,17 @@
+{
+  "id": "comp-387",
+  "name": "BioFoundry",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-117",
+  "founder_name": "Vitalik Kowalski",
+  "headquarters_id": "bldg-1187",
+  "headquarters_name": "BioFoundry Headquarters",
+  "employees": [
+    "agent-117"
+  ],
+  "valuation_tokens": 427663,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 148
+}

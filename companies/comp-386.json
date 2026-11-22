@@ -1,0 +1,17 @@
+{
+  "id": "comp-386",
+  "name": "HeliosRobotics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-126",
+  "founder_name": "Dante Beacon",
+  "headquarters_id": "bldg-1185",
+  "headquarters_name": "HeliosRobotics AI Headquarters",
+  "employees": [
+    "agent-126"
+  ],
+  "valuation_tokens": 390870,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 148
+}

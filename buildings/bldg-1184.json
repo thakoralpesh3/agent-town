@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1184",
+  "name": "Seraph's Autonomous Vehicle Mega-Plant #77 [SovereignMatrix]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    72.9,
+    10.1,
+    -94.0
+  ],
+  "size": [
+    37.6,
+    20.1,
+    30.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-112",
+  "builder_name": "Seraph Johnson",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-144",
+  "company_name": "SovereignMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Seraph Johnson"
+  ],
+  "purpose": "Constructed by Seraph Johnson for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 2.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

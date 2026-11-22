@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1193",
+  "name": "Alan's Drone Logistics Freight Port #18 [StellarIntell]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    139.5,
+    19.0,
+    -71.8
+  ],
+  "size": [
+    27.7,
+    37.9,
+    23.5
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-267",
+  "builder_name": "Alan Murati",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-065",
+  "company_name": "StellarIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Alan Murati"
+  ],
+  "purpose": "Constructed by Alan Murati for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 5.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

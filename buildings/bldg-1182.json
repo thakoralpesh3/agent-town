@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1182",
+  "name": "Lyra's Hyperloop Central Terminus #60 [OmniIntell]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    86.7,
+    10.2,
+    -105.5
+  ],
+  "size": [
+    30.9,
+    20.4,
+    31.2
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-131",
+  "builder_name": "Lyra Apex",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-080",
+  "company_name": "OmniIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Apex"
+  ],
+  "purpose": "Constructed by Lyra Apex for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

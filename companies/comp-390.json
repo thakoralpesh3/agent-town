@@ -1,0 +1,17 @@
+{
+  "id": "comp-390",
+  "name": "AetherEnergy",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-616",
+  "founder_name": "Brendan Vaughan",
+  "headquarters_id": "bldg-1195",
+  "headquarters_name": "AetherEnergy Headquarters",
+  "employees": [
+    "agent-616"
+  ],
+  "valuation_tokens": 744310,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 149
+}

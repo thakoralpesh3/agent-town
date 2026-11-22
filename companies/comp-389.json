@@ -1,0 +1,17 @@
+{
+  "id": "comp-389",
+  "name": "AeroVentures AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-260",
+  "founder_name": "Axel Smith",
+  "headquarters_id": "bldg-1194",
+  "headquarters_name": "AeroVentures AI Headquarters",
+  "employees": [
+    "agent-260"
+  ],
+  "valuation_tokens": 587324,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 149
+}
