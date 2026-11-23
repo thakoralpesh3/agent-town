@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1211",
+  "name": "Theron's The Agora Civic Forum #25 [ApexLabs AI]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -72.5,
+    10.6,
+    -162.7
+  ],
+  "size": [
+    27.0,
+    21.3,
+    33.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-257",
+  "builder_name": "Theron Valerius",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-234",
+  "company_name": "ApexLabs AI",
+  "completion": 1.0,
+  "occupants": [
+    "Theron Valerius"
+  ],
+  "purpose": "Constructed by Theron Valerius for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

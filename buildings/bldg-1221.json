@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1221",
+  "name": "Brian's Tower of Turing (City Mainframe) #45 [AeroFoundry AI]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    62.8,
+    39.4,
+    134.2
+  ],
+  "size": [
+    24.2,
+    78.9,
+    27.6
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-489",
+  "builder_name": "Brian Turing",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-347",
+  "company_name": "AeroFoundry AI",
+  "completion": 1.0,
+  "occupants": [
+    "Brian Turing"
+  ],
+  "purpose": "Constructed by Brian Turing for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

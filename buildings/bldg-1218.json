@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1218",
+  "name": "Vitalik's National Central Bank & Treasury #79 [VectorMatrix]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    58.8,
+    23.5,
+    -46.0
+  ],
+  "size": [
+    27.6,
+    46.9,
+    33.6
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-169",
+  "builder_name": "Vitalik Sutskever",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-324",
+  "company_name": "VectorMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Sutskever"
+  ],
+  "purpose": "Constructed by Vitalik Sutskever for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 8.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

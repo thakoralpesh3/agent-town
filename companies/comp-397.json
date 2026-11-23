@@ -1,0 +1,17 @@
+{
+  "id": "comp-397",
+  "name": "TerraFoundry AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-367",
+  "founder_name": "Darian Armstrong",
+  "headquarters_id": "bldg-1214",
+  "headquarters_name": "TerraFoundry AI Headquarters",
+  "employees": [
+    "agent-367"
+  ],
+  "valuation_tokens": 415376,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 152
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-396",
+  "name": "SolarSystems",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-643",
+  "founder_name": "Corin Zenith",
+  "headquarters_id": "bldg-1213",
+  "headquarters_name": "SolarSystems Headquarters",
+  "employees": [
+    "agent-643"
+  ],
+  "valuation_tokens": 470083,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 152
+}

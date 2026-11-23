@@ -1,0 +1,17 @@
+{
+  "id": "comp-398",
+  "name": "NexusLabs AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-427",
+  "founder_name": "Zane Jobs",
+  "headquarters_id": "bldg-1217",
+  "headquarters_name": "NexusLabs AI Headquarters",
+  "employees": [
+    "agent-427"
+  ],
+  "valuation_tokens": 333645,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 153
+}
