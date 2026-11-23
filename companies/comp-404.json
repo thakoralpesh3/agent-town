@@ -1,0 +1,17 @@
+{
+  "id": "comp-404",
+  "name": "ChronoDynamics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-366",
+  "founder_name": "Margaret Cross",
+  "headquarters_id": "bldg-1232",
+  "headquarters_name": "ChronoDynamics Headquarters",
+  "employees": [
+    "agent-366"
+  ],
+  "valuation_tokens": 302572,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 155
+}

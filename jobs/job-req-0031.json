@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "National Cyber Defense Commander",
-  "category": "Security",
-  "specialization": "Sovereign Firewall & Infrastructure Shielding",
+  "role": "Climate Systems Modeler",
+  "category": "Ecology",
+  "specialization": "Microclimate Temperature Regulation",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "National Cyber Defense Commander Hub",
-  "salary_offered": 18500,
-  "created_at_tick": 145,
+  "requesting_building": "Climate Systems Modeler Hub",
+  "salary_offered": 15800,
+  "created_at_tick": 155,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-747",
-  "filled_by_agent_name": "Kassandra Thorne"
+  "filled_by_agent_id": "agent-772",
+  "filled_by_agent_name": "Fei-Fei Kowalski"
 }

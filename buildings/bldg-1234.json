@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1234",
+  "name": "Sam's National Central Bank & Treasury #64 [HyperSolutions]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    51.0,
+    16.8,
+    -56.0
+  ],
+  "size": [
+    34.6,
+    33.6,
+    27.3
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-150",
+  "builder_name": "Sam Weaver",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-266",
+  "company_name": "HyperSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Weaver"
+  ],
+  "purpose": "Constructed by Sam Weaver for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

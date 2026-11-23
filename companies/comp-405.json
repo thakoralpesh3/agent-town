@@ -1,0 +1,17 @@
+{
+  "id": "comp-405",
+  "name": "QuantumNetworks",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-195",
+  "founder_name": "Jensen Tinkerer",
+  "headquarters_id": "bldg-1236",
+  "headquarters_name": "QuantumNetworks Headquarters",
+  "employees": [
+    "agent-195"
+  ],
+  "valuation_tokens": 415183,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 155
+}

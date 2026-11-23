@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1233",
+  "name": "Marc's Drone Logistics Freight Port #59 [AxiomSynthetics AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    152.6,
+    11.9,
+    -45.5
+  ],
+  "size": [
+    29.7,
+    23.8,
+    26.9
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-627",
+  "builder_name": "Marc Brockman",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-339",
+  "company_name": "AxiomSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Marc Brockman"
+  ],
+  "purpose": "Constructed by Marc Brockman for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

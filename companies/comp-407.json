@@ -1,0 +1,17 @@
+{
+  "id": "comp-407",
+  "name": "SolarFederation",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-206",
+  "founder_name": "Cassian Hopper",
+  "headquarters_id": "bldg-1238",
+  "headquarters_name": "SolarFederation Headquarters",
+  "employees": [
+    "agent-206"
+  ],
+  "valuation_tokens": 688272,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 155
+}

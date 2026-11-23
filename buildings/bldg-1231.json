@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1231",
+  "name": "Freya's National Hospital & Nanomedical Citadel #84 [HyperSynthetics AI]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -72.0,
+    23.3,
+    43.0
+  ],
+  "size": [
+    30.4,
+    46.6,
+    36.5
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-211",
+  "builder_name": "Freya Huang",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-376",
+  "company_name": "HyperSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Freya Huang"
+  ],
+  "purpose": "Constructed by Freya Huang for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 5.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

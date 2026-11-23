@@ -1,0 +1,17 @@
+{
+  "id": "comp-400",
+  "name": "StellarRobotics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-056",
+  "founder_name": "Veda Sovereign",
+  "headquarters_id": "bldg-1224",
+  "headquarters_name": "StellarRobotics AI Headquarters",
+  "employees": [
+    "agent-056"
+  ],
+  "valuation_tokens": 197847,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 154
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-406",
+  "name": "HyperEnergy",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-084",
+  "founder_name": "Darian Archon",
+  "headquarters_id": "bldg-1237",
+  "headquarters_name": "HyperEnergy Headquarters",
+  "employees": [
+    "agent-084"
+  ],
+  "valuation_tokens": 341896,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 155
+}

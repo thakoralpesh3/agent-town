@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1229",
+  "name": "Katherine's Hyperloop Central Terminus #24 [AetherLogistics AI]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    111.7,
+    11.3,
+    -72.6
+  ],
+  "size": [
+    37.6,
+    22.6,
+    36.3
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-144",
+  "builder_name": "Katherine Beacon",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-320",
+  "company_name": "AetherLogistics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Beacon"
+  ],
+  "purpose": "Constructed by Katherine Beacon for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 7.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

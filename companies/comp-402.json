@@ -1,0 +1,17 @@
+{
+  "id": "comp-402",
+  "name": "AxiomFoundry AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-749",
+  "founder_name": "Leon Thorne",
+  "headquarters_id": "bldg-1228",
+  "headquarters_name": "AxiomFoundry AI Headquarters",
+  "employees": [
+    "agent-749"
+  ],
+  "valuation_tokens": 376530,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 154
+}

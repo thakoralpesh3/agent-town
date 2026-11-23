@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1239",
+  "name": "Ada's Hypatia Grand University of Sciences #54 [HeliosMatrix]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    180.8,
+    22.1,
+    83.6
+  ],
+  "size": [
+    35.0,
+    44.2,
+    33.0
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-062",
+  "builder_name": "Ada Knuth",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-070",
+  "company_name": "HeliosMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Ada Knuth"
+  ],
+  "purpose": "Constructed by Ada Knuth for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 3.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
