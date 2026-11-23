@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1253",
+  "name": "Vitalik's Cyber Living Township Beta #34 [AeroVentures]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -74.2,
+    15.8,
+    -74.2
+  ],
+  "size": [
+    30.0,
+    31.6,
+    26.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-379",
+  "builder_name": "Vitalik Vanguard",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-069",
+  "company_name": "AeroVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Vanguard"
+  ],
+  "purpose": "Constructed by Vitalik Vanguard for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

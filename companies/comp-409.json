@@ -1,0 +1,17 @@
+{
+  "id": "comp-409",
+  "name": "CyberIntell AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-635",
+  "founder_name": "Sol Odersky",
+  "headquarters_id": "bldg-1243",
+  "headquarters_name": "CyberIntell AI Headquarters",
+  "employees": [
+    "agent-635"
+  ],
+  "valuation_tokens": 370819,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 156
+}

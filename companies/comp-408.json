@@ -1,0 +1,18 @@
+{
+  "id": "comp-408",
+  "name": "HyperNetworks AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-124",
+  "founder_name": "Sundar Hassabis",
+  "headquarters_id": "bldg-1241",
+  "headquarters_name": "HyperNetworks AI Headquarters",
+  "employees": [
+    "agent-124",
+    "agent-772"
+  ],
+  "valuation_tokens": 206496,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 156
+}

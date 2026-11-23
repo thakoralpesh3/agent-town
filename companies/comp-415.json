@@ -1,0 +1,17 @@
+{
+  "id": "comp-415",
+  "name": "TerraIntell AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-606",
+  "founder_name": "Hal Franklin",
+  "headquarters_id": "bldg-1257",
+  "headquarters_name": "TerraIntell AI Headquarters",
+  "employees": [
+    "agent-606"
+  ],
+  "valuation_tokens": 397603,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 157
+}

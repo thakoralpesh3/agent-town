@@ -1,0 +1,17 @@
+{
+  "id": "comp-411",
+  "name": "AetherEnergy AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-512",
+  "founder_name": "Aurelia Neumann",
+  "headquarters_id": "bldg-1247",
+  "headquarters_name": "AetherEnergy AI Headquarters",
+  "employees": [
+    "agent-512"
+  ],
+  "valuation_tokens": 695141,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 157
+}

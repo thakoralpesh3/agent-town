@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1250",
+  "name": "Andrej's Hypatia Grand University of Sciences #50 [NexusMatrix]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    113.6,
+    21.9,
+    69.5
+  ],
+  "size": [
+    34.4,
+    43.7,
+    38.9
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-235",
+  "builder_name": "Andrej Tinkerer",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-073",
+  "company_name": "NexusMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Andrej Tinkerer"
+  ],
+  "purpose": "Constructed by Andrej Tinkerer for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 3.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

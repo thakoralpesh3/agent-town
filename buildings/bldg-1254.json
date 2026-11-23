@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1254",
+  "name": "Morrigan's Autonomous Vehicle Mega-Plant #20 [PrismDynamics]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    171.7,
+    9.7,
+    -144.7
+  ],
+  "size": [
+    32.2,
+    19.3,
+    30.1
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-212",
+  "builder_name": "Morrigan Hassabis",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-085",
+  "company_name": "PrismDynamics",
+  "completion": 1.0,
+  "occupants": [
+    "Morrigan Hassabis"
+  ],
+  "purpose": "Constructed by Morrigan Hassabis for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

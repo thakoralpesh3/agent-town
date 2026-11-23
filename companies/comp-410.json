@@ -1,0 +1,17 @@
+{
+  "id": "comp-410",
+  "name": "HeliosDynamics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-087",
+  "founder_name": "Rob Weaver",
+  "headquarters_id": "bldg-1244",
+  "headquarters_name": "HeliosDynamics Headquarters",
+  "employees": [
+    "agent-087"
+  ],
+  "valuation_tokens": 565814,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 156
+}

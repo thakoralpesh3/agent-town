@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1245",
+  "name": "Valen's Hydroponic Agricultural Biodome #28 [OmniGenetics AI]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -57.4,
+    9.8,
+    -110.6
+  ],
+  "size": [
+    33.3,
+    19.5,
+    35.0
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-586",
+  "builder_name": "Valen Flux",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-341",
+  "company_name": "OmniGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Valen Flux"
+  ],
+  "purpose": "Constructed by Valen Flux for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
