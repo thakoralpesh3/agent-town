@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1265",
+  "name": "Gavin's Hypatia Grand University of Sciences #62 [BioLongevity Solutions]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    70.9,
+    21.7,
+    63.3
+  ],
+  "size": [
+    32.0,
+    43.3,
+    34.8
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-254",
+  "builder_name": "Gavin Meridian",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-005",
+  "company_name": "BioLongevity Solutions",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Meridian"
+  ],
+  "purpose": "Constructed by Gavin Meridian for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

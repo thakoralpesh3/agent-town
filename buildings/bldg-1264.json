@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1264",
+  "name": "Woz's Hypatia Grand University of Sciences #80 [SolarFusion Grid]",
+  "type": "Hypatia Grand University of Sciences",
+  "position": [
+    109.3,
+    24.2,
+    61.9
+  ],
+  "size": [
+    32.1,
+    48.3,
+    39.8
+  ],
+  "color": "#a855f7",
+  "builder_id": "agent-460",
+  "builder_name": "Woz Mason",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-007",
+  "company_name": "SolarFusion Grid",
+  "completion": 1.0,
+  "occupants": [
+    "Woz Mason"
+  ],
+  "purpose": "Constructed by Woz Mason for Hypatia Grand University of Sciences operations",
+  "floors": 9,
+  "capacity": 50,
+  "departments": [
+    "Theoretical Physics",
+    "Autonomous Logic & AI Guild",
+    "Astrophysics",
+    "Material Nanotech"
+  ],
+  "amenities": [
+    "Grand Tiered Amphitheater",
+    "Ancient Algorithm Archive",
+    "Apprentice Research Studios"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

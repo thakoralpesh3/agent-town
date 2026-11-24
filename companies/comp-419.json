@@ -1,0 +1,17 @@
+{
+  "id": "comp-419",
+  "name": "NexusDynamics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-178",
+  "founder_name": "Vitalik Thorne",
+  "headquarters_id": "bldg-1267",
+  "headquarters_name": "NexusDynamics AI Headquarters",
+  "employees": [
+    "agent-178"
+  ],
+  "valuation_tokens": 448576,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 159
+}

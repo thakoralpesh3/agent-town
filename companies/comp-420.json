@@ -1,0 +1,17 @@
+{
+  "id": "comp-420",
+  "name": "NeuroLogistics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-713",
+  "founder_name": "Edsger Perlman",
+  "headquarters_id": "bldg-1268",
+  "headquarters_name": "NeuroLogistics Headquarters",
+  "employees": [
+    "agent-713"
+  ],
+  "valuation_tokens": 390918,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 159
+}
