@@ -1,0 +1,17 @@
+{
+  "id": "comp-423",
+  "name": "PrismEnergy",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-261",
+  "founder_name": "Kassandra Flux",
+  "headquarters_id": "bldg-1281",
+  "headquarters_name": "PrismEnergy Headquarters",
+  "employees": [
+    "agent-261"
+  ],
+  "valuation_tokens": 389066,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 161
+}

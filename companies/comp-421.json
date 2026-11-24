@@ -1,0 +1,17 @@
+{
+  "id": "comp-421",
+  "name": "SynapseFederation AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-675",
+  "founder_name": "Jensen Shannon",
+  "headquarters_id": "bldg-1276",
+  "headquarters_name": "SynapseFederation AI Headquarters",
+  "employees": [
+    "agent-675"
+  ],
+  "valuation_tokens": 256266,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 160
+}

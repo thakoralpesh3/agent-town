@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1280",
+  "name": "Seraph's Hyperloop Central Terminus #47 [AetherLabs]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    113.3,
+    11.6,
+    -66.0
+  ],
+  "size": [
+    37.4,
+    23.2,
+    34.4
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-170",
+  "builder_name": "Seraph Finney",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-188",
+  "company_name": "AetherLabs",
+  "completion": 1.0,
+  "occupants": [
+    "Seraph Finney"
+  ],
+  "purpose": "Constructed by Seraph Finney for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 6.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

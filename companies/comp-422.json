@@ -1,0 +1,17 @@
+{
+  "id": "comp-422",
+  "name": "NexusLogistics AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-365",
+  "founder_name": "Liora Karpathy",
+  "headquarters_id": "bldg-1277",
+  "headquarters_name": "NexusLogistics AI Headquarters",
+  "employees": [
+    "agent-365"
+  ],
+  "valuation_tokens": 404532,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 160
+}

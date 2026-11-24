@@ -1,0 +1,17 @@
+{
+  "id": "comp-424",
+  "name": "SolarIntell",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-442",
+  "founder_name": "Lyra Rayne",
+  "headquarters_id": "bldg-1282",
+  "headquarters_name": "SolarIntell Headquarters",
+  "employees": [
+    "agent-442"
+  ],
+  "valuation_tokens": 629272,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 161
+}
