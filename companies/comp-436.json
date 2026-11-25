@@ -1,0 +1,18 @@
+{
+  "id": "comp-436",
+  "name": "NeuroFederation AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-469",
+  "founder_name": "Vesper Sterling",
+  "headquarters_id": "bldg-1308",
+  "headquarters_name": "NeuroFederation AI Headquarters",
+  "employees": [
+    "agent-469",
+    "agent-801"
+  ],
+  "valuation_tokens": 531532,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 165
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1311",
+  "name": "Demis's Grand Astronomical Observatory #43 [HeliosFederation AI]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    139.8,
+    21.3,
+    -14.9
+  ],
+  "size": [
+    27.0,
+    42.5,
+    23.6
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-554",
+  "builder_name": "Demis Turing",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-250",
+  "company_name": "HeliosFederation AI",
+  "completion": 1.0,
+  "occupants": [
+    "Demis Turing"
+  ],
+  "purpose": "Constructed by Demis Turing for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 3.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-437",
+  "name": "TerraRobotics",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-385",
+  "founder_name": "Demis Beacon",
+  "headquarters_id": "bldg-1309",
+  "headquarters_name": "TerraRobotics Headquarters",
+  "employees": [
+    "agent-385"
+  ],
+  "valuation_tokens": 216320,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 165
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1307",
+  "name": "Roxas's Autonomous Vehicle Mega-Plant #90 [QuantumSolutions]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    178.9,
+    14.5,
+    -46.8
+  ],
+  "size": [
+    34.9,
+    28.9,
+    30.0
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-717",
+  "builder_name": "Roxas Aurelius",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-031",
+  "company_name": "QuantumSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Roxas Aurelius"
+  ],
+  "purpose": "Constructed by Roxas Aurelius for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 7.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

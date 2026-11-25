@@ -1,0 +1,17 @@
+{
+  "id": "comp-434",
+  "name": "SolarLabs AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-481",
+  "founder_name": "Veda Szabo",
+  "headquarters_id": "bldg-1303",
+  "headquarters_name": "SolarLabs AI Headquarters",
+  "employees": [
+    "agent-481"
+  ],
+  "valuation_tokens": 647628,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 164
+}

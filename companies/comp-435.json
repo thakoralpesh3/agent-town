@@ -1,0 +1,17 @@
+{
+  "id": "comp-435",
+  "name": "DeepLabs AI",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-050",
+  "founder_name": "Corin Chomsky",
+  "headquarters_id": "bldg-1305",
+  "headquarters_name": "DeepLabs AI Headquarters",
+  "employees": [
+    "agent-050"
+  ],
+  "valuation_tokens": 366109,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 164
+}

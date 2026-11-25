@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Climate Systems Modeler",
-  "category": "Ecology",
-  "specialization": "Microclimate Temperature Regulation",
+  "role": "Urban Bee & Pollinator Mechanist",
+  "category": "Agriculture",
+  "specialization": "Bio-Hybrid Pollination Networks",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Climate Systems Modeler Hub",
-  "salary_offered": 15800,
-  "created_at_tick": 155,
+  "requesting_building": "Urban Bee & Pollinator Mechanist Hub",
+  "salary_offered": 13600,
+  "created_at_tick": 164,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-772",
-  "filled_by_agent_name": "Fei-Fei Kowalski"
+  "filled_by_agent_id": "agent-801",
+  "filled_by_agent_name": "Talia Wood"
 }

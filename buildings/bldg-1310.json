@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1310",
+  "name": "Vitalik's Cloud Matrix Exchange #29 [NeuroGenetics AI]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -22.2,
+    33.7,
+    179.0
+  ],
+  "size": [
+    25.9,
+    67.5,
+    20.3
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-061",
+  "builder_name": "Vitalik Finney",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-328",
+  "company_name": "NeuroGenetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Vitalik Finney"
+  ],
+  "purpose": "Constructed by Vitalik Finney for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 7.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
