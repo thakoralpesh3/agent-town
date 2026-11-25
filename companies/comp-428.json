@@ -1,0 +1,17 @@
+{
+  "id": "comp-428",
+  "name": "TerraLogistics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-108",
+  "founder_name": "Katherine Core",
+  "headquarters_id": "bldg-1291",
+  "headquarters_name": "TerraLogistics AI Headquarters",
+  "employees": [
+    "agent-108"
+  ],
+  "valuation_tokens": 395787,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 162
+}

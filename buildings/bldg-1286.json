@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1286",
+  "name": "Julian's Tokamak Fusion Reactor Station #56 [ChronoSolutions]",
+  "type": "Tokamak Fusion Reactor Station",
+  "position": [
+    -2.0,
+    13.2,
+    -88.8
+  ],
+  "size": [
+    32.6,
+    26.3,
+    32.4
+  ],
+  "color": "#be123c",
+  "builder_id": "agent-583",
+  "builder_name": "Julian Shadow",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-055",
+  "company_name": "ChronoSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Julian Shadow"
+  ],
+  "purpose": "Constructed by Julian Shadow for Tokamak Fusion Reactor Station operations",
+  "floors": 4,
+  "capacity": 30,
+  "departments": [
+    "Magnetic Containment Pod",
+    "Superconducting Grid Dispatch",
+    "Plasma Diagnostics"
+  ],
+  "amenities": [
+    "Toroidal Vacuum Chamber",
+    "Cryo-Containment Ring",
+    "Direct Power Feeder"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

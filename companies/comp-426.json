@@ -1,0 +1,17 @@
+{
+  "id": "comp-426",
+  "name": "VectorFederation AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-516",
+  "founder_name": "Axel Shannon",
+  "headquarters_id": "bldg-1287",
+  "headquarters_name": "VectorFederation AI Headquarters",
+  "employees": [
+    "agent-516"
+  ],
+  "valuation_tokens": 725259,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 162
+}

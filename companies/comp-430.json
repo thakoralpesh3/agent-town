@@ -1,0 +1,17 @@
+{
+  "id": "comp-430",
+  "name": "PrismEnergy AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-433",
+  "founder_name": "Julian Brockman",
+  "headquarters_id": "bldg-1294",
+  "headquarters_name": "PrismEnergy AI Headquarters",
+  "employees": [
+    "agent-433"
+  ],
+  "valuation_tokens": 254780,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 163
+}

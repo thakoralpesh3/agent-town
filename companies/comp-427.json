@@ -1,0 +1,17 @@
+{
+  "id": "comp-427",
+  "name": "AxiomDynamics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-194",
+  "founder_name": "Valeria Quantum",
+  "headquarters_id": "bldg-1288",
+  "headquarters_name": "AxiomDynamics AI Headquarters",
+  "employees": [
+    "agent-194"
+  ],
+  "valuation_tokens": 566127,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 162
+}

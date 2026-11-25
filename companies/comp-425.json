@@ -1,0 +1,17 @@
+{
+  "id": "comp-425",
+  "name": "StellarRobotics AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-117",
+  "founder_name": "Vitalik Kowalski",
+  "headquarters_id": "bldg-1285",
+  "headquarters_name": "StellarRobotics AI Headquarters",
+  "employees": [
+    "agent-117"
+  ],
+  "valuation_tokens": 496801,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 162
+}

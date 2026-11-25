@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1283",
+  "name": "Katherine's Hydroponic Agricultural Biodome #67 [NexusSynthetics]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    14.5,
+    11.2,
+    -170.0
+  ],
+  "size": [
+    35.0,
+    22.4,
+    30.1
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-445",
+  "builder_name": "Katherine Fletcher",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-117",
+  "company_name": "NexusSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Katherine Fletcher"
+  ],
+  "purpose": "Constructed by Katherine Fletcher for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 4.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

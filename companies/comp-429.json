@@ -1,0 +1,17 @@
+{
+  "id": "comp-429",
+  "name": "CyberFederation",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-096",
+  "founder_name": "Nick Sovereign",
+  "headquarters_id": "bldg-1293",
+  "headquarters_name": "CyberFederation Headquarters",
+  "employees": [
+    "agent-096"
+  ],
+  "valuation_tokens": 516188,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 163
+}

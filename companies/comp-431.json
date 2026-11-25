@@ -1,0 +1,17 @@
+{
+  "id": "comp-431",
+  "name": "SynapseDynamics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-779",
+  "founder_name": "Dennis Karpathy",
+  "headquarters_id": "bldg-1296",
+  "headquarters_name": "SynapseDynamics Headquarters",
+  "employees": [
+    "agent-779"
+  ],
+  "valuation_tokens": 306556,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 163
+}
