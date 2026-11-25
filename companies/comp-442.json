@@ -1,0 +1,17 @@
+{
+  "id": "comp-442",
+  "name": "ChronoRobotics",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-743",
+  "founder_name": "Mary Hassabis",
+  "headquarters_id": "bldg-1326",
+  "headquarters_name": "ChronoRobotics Headquarters",
+  "employees": [
+    "agent-743"
+  ],
+  "valuation_tokens": 648214,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 167
+}

@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Urban Bee & Pollinator Mechanist",
-  "category": "Agriculture",
-  "specialization": "Bio-Hybrid Pollination Networks",
+  "role": "Airspace Perimeter Sentinel",
+  "category": "Security",
+  "specialization": "National Airspace Sovereignty",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Urban Bee & Pollinator Mechanist Hub",
-  "salary_offered": 13600,
-  "created_at_tick": 164,
+  "requesting_building": "Airspace Perimeter Sentinel Hub",
+  "salary_offered": 15100,
+  "created_at_tick": 167,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-801",
-  "filled_by_agent_name": "Talia Wood"
+  "filled_by_agent_id": "agent-802",
+  "filled_by_agent_name": "Andrej Valerius"
 }

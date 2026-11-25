@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1315",
+  "name": "Evander's Autonomous Vehicle Mega-Plant #82 [PrismGenetics]",
+  "type": "Autonomous Vehicle Mega-Plant",
+  "position": [
+    94.2,
+    10.5,
+    -164.8
+  ],
+  "size": [
+    34.3,
+    20.9,
+    37.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-088",
+  "builder_name": "Evander Jobs",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-307",
+  "company_name": "PrismGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Evander Jobs"
+  ],
+  "purpose": "Constructed by Evander Jobs for Autonomous Vehicle Mega-Plant operations",
+  "floors": 5,
+  "capacity": 40,
+  "departments": [
+    "Robotic Chassis Stamping",
+    "Avionics Calibration",
+    "Induction Drive Assembly"
+  ],
+  "amenities": [
+    "Automated Gantry Cranes",
+    "High-Speed Induction Dyno Track",
+    "Paint Spray Booths"
+  ],
+  "power_consumption_mw": 4.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

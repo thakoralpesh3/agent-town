@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1325",
+  "name": "Guido's Supreme Court of Justice #52 [SynapseVentures]",
+  "type": "Supreme Court of Justice",
+  "position": [
+    25.6,
+    15.8,
+    9.1
+  ],
+  "size": [
+    27.8,
+    31.6,
+    28.3
+  ],
+  "color": "#d97706",
+  "builder_id": "agent-453",
+  "builder_name": "Guido Valerius",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-091",
+  "company_name": "SynapseVentures",
+  "completion": 1.0,
+  "occupants": [
+    "Guido Valerius"
+  ],
+  "purpose": "Constructed by Guido Valerius for Supreme Court of Justice operations",
+  "floors": 6,
+  "capacity": 35,
+  "departments": [
+    "High Constitutional Tribunal",
+    "Smart Contract Arbitration Bench",
+    "Appeals Chamber"
+  ],
+  "amenities": [
+    "Formal Verification Prover",
+    "Holographic Evidence Display",
+    "Juror Isolation Chambers"
+  ],
+  "power_consumption_mw": 5.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

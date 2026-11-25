@@ -1,0 +1,17 @@
+{
+  "id": "comp-439",
+  "name": "AxiomLabs",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-659",
+  "founder_name": "Yoshua Brockman",
+  "headquarters_id": "bldg-1320",
+  "headquarters_name": "AxiomLabs Headquarters",
+  "employees": [
+    "agent-659"
+  ],
+  "valuation_tokens": 525964,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 166
+}

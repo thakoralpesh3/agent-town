@@ -1,0 +1,17 @@
+{
+  "id": "comp-443",
+  "name": "ApexRobotics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-152",
+  "founder_name": "Alan Dijkstra",
+  "headquarters_id": "bldg-1329",
+  "headquarters_name": "ApexRobotics AI Headquarters",
+  "employees": [
+    "agent-152"
+  ],
+  "valuation_tokens": 632349,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 167
+}

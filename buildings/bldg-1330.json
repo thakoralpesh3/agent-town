@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1330",
+  "name": "Gavin's Drone Logistics Freight Port #50 [BioVentures AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    115.1,
+    13.7,
+    -103.6
+  ],
+  "size": [
+    24.1,
+    27.3,
+    25.3
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-660",
+  "builder_name": "Gavin Vance",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-112",
+  "company_name": "BioVentures AI",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Vance"
+  ],
+  "purpose": "Constructed by Gavin Vance for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
