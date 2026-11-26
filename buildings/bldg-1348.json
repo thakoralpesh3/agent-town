@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1348",
+  "name": "Dorothy's Cloud Matrix Exchange #87 [OmniVentures AI]",
+  "type": "Cloud Matrix Exchange",
+  "position": [
+    -53.6,
+    30.1,
+    61.3
+  ],
+  "size": [
+    25.0,
+    60.2,
+    20.2
+  ],
+  "color": "#38bdf8",
+  "builder_id": "agent-118",
+  "builder_name": "Dorothy Spark",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-399",
+  "company_name": "OmniVentures AI",
+  "completion": 1.0,
+  "occupants": [
+    "Dorothy Spark"
+  ],
+  "purpose": "Constructed by Dorothy Spark for Cloud Matrix Exchange operations",
+  "floors": 14,
+  "capacity": 40,
+  "departments": [
+    "Multi-Cluster GitOps",
+    "Distributed DHT Storage",
+    "High-Throughput APIs"
+  ],
+  "amenities": [
+    "Direct Fiber Backbone",
+    "Liquid Immersion Server Racks"
+  ],
+  "power_consumption_mw": 8.7,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

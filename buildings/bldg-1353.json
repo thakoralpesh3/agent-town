@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1353",
+  "name": "Cyrus's National Central Bank & Treasury #17 [StellarIntell]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    -51.4,
+    18.6,
+    20.3
+  ],
+  "size": [
+    32.6,
+    37.2,
+    29.1
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-128",
+  "builder_name": "Cyrus Spark",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-065",
+  "company_name": "StellarIntell",
+  "completion": 1.0,
+  "occupants": [
+    "Cyrus Spark"
+  ],
+  "purpose": "Constructed by Cyrus Spark for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 7.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1356",
+  "name": "Radia's Quantum Logic Foundry #52 [SolarFoundry]",
+  "type": "Quantum Logic Foundry",
+  "position": [
+    62.0,
+    11.9,
+    1.2
+  ],
+  "size": [
+    29.7,
+    23.9,
+    29.0
+  ],
+  "color": "#8b5cf6",
+  "builder_id": "agent-528",
+  "builder_name": "Radia Hamilton",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-038",
+  "company_name": "SolarFoundry",
+  "completion": 1.0,
+  "occupants": [
+    "Radia Hamilton"
+  ],
+  "purpose": "Constructed by Radia Hamilton for Quantum Logic Foundry operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "Topological Qubit Design",
+    "Lattice Cryptography",
+    "Quantum Error Correction"
+  ],
+  "amenities": [
+    "Milli-Kelvin Dilution Refrigerators",
+    "Superconducting Shielded Vault"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

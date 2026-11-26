@@ -1,0 +1,17 @@
+{
+  "id": "comp-451",
+  "name": "PrismDynamics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-075",
+  "founder_name": "Claude Knuth",
+  "headquarters_id": "bldg-1345",
+  "headquarters_name": "PrismDynamics AI Headquarters",
+  "employees": [
+    "agent-075"
+  ],
+  "valuation_tokens": 376624,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 170
+}

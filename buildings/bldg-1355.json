@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1355",
+  "name": "Gavin's National Central Bank & Treasury #47 [TerraSolutions]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    2.2,
+    21.6,
+    -48.2
+  ],
+  "size": [
+    33.7,
+    43.2,
+    27.9
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-333",
+  "builder_name": "Gavin Hopper",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-096",
+  "company_name": "TerraSolutions",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Hopper"
+  ],
+  "purpose": "Constructed by Gavin Hopper for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

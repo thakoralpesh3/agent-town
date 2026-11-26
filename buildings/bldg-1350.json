@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1350",
+  "name": "Gavin's Drone Logistics Freight Port #36 [StellarLabs AI]",
+  "type": "Drone Logistics Freight Port",
+  "position": [
+    109.5,
+    15.9,
+    -163.7
+  ],
+  "size": [
+    27.9,
+    31.8,
+    27.3
+  ],
+  "color": "#ea580c",
+  "builder_id": "agent-600",
+  "builder_name": "Gavin Node",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-364",
+  "company_name": "StellarLabs AI",
+  "completion": 1.0,
+  "occupants": [
+    "Gavin Node"
+  ],
+  "purpose": "Constructed by Gavin Node for Drone Logistics Freight Port operations",
+  "floors": 6,
+  "capacity": 30,
+  "departments": [
+    "High-Bay Parcel Storage",
+    "VTOL Drone Launchpads",
+    "Airspace Radar Control"
+  ],
+  "amenities": [
+    "Multi-Tier Rooftop Launch Grids",
+    "Inductive Rapid Charging Docks"
+  ],
+  "power_consumption_mw": 7.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

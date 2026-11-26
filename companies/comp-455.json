@@ -1,0 +1,17 @@
+{
+  "id": "comp-455",
+  "name": "QuantumVentures AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-413",
+  "founder_name": "Demis Cyber",
+  "headquarters_id": "bldg-1354",
+  "headquarters_name": "QuantumVentures AI Headquarters",
+  "employees": [
+    "agent-413"
+  ],
+  "valuation_tokens": 185082,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 171
+}
