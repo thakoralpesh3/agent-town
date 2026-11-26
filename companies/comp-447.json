@@ -1,0 +1,17 @@
+{
+  "id": "comp-447",
+  "name": "NexusIntell",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-792",
+  "founder_name": "Mira Hinton",
+  "headquarters_id": "bldg-1337",
+  "headquarters_name": "NexusIntell Headquarters",
+  "employees": [
+    "agent-792"
+  ],
+  "valuation_tokens": 481269,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 168
+}

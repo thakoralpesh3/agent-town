@@ -1,0 +1,18 @@
+{
+  "id": "comp-444",
+  "name": "CyberLogistics",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-779",
+  "founder_name": "Dennis Karpathy",
+  "headquarters_id": "bldg-1333",
+  "headquarters_name": "CyberLogistics Headquarters",
+  "employees": [
+    "agent-779",
+    "agent-802"
+  ],
+  "valuation_tokens": 447301,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 168
+}

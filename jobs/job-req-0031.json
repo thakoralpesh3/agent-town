@@ -1,14 +1,14 @@
 {
   "id": "job-req-0031",
-  "role": "Airspace Perimeter Sentinel",
-  "category": "Security",
-  "specialization": "National Airspace Sovereignty",
+  "role": "Noise Pollution Acoustic Dampener",
+  "category": "Ecology",
+  "specialization": "Serene Noise-Cancelled City Quarters",
   "urgency": "STANDARD",
   "requesting_company": null,
-  "requesting_building": "Airspace Perimeter Sentinel Hub",
-  "salary_offered": 15100,
-  "created_at_tick": 167,
+  "requesting_building": "Noise Pollution Acoustic Dampener Hub",
+  "salary_offered": 13500,
+  "created_at_tick": 168,
   "status": "FILLED",
-  "filled_by_agent_id": "agent-802",
-  "filled_by_agent_name": "Andrej Valerius"
+  "filled_by_agent_id": "agent-803",
+  "filled_by_agent_name": "Axel Node"
 }

@@ -1,0 +1,47 @@
+{
+  "id": "bldg-1332",
+  "name": "Grace's Sovereign Capitol Building #85 [AeroSolutions AI]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -59.6,
+    17.2,
+    -40.2
+  ],
+  "size": [
+    41.8,
+    34.4,
+    41.0
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-275",
+  "builder_name": "Grace Berners-Lee",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-366",
+  "company_name": "AeroSolutions AI",
+  "completion": 1.0,
+  "occupants": [
+    "Grace Berners-Lee"
+  ],
+  "purpose": "Constructed by Grace Berners-Lee for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 3.2,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

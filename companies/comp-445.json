@@ -1,0 +1,17 @@
+{
+  "id": "comp-445",
+  "name": "BioRobotics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-725",
+  "founder_name": "Bjarne Rossum",
+  "headquarters_id": "bldg-1334",
+  "headquarters_name": "BioRobotics Headquarters",
+  "employees": [
+    "agent-725"
+  ],
+  "valuation_tokens": 366030,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 168
+}

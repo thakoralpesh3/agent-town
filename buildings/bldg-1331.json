@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1331",
+  "name": "Ada's Hydroponic Agricultural Biodome #52 [CyberGenetics]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    -34.7,
+    7.8,
+    -175.7
+  ],
+  "size": [
+    28.9,
+    15.6,
+    37.3
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-744",
+  "builder_name": "Ada Cerf",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-048",
+  "company_name": "CyberGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Ada Cerf"
+  ],
+  "purpose": "Constructed by Ada Cerf for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
