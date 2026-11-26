@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1366",
+  "name": "Sam's Hydroponic Agricultural Biodome #61 [NeuroSynthetics AI]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    10.5,
+    8.3,
+    -171.8
+  ],
+  "size": [
+    31.2,
+    16.7,
+    29.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-529",
+  "builder_name": "Sam Buterin",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-414",
+  "company_name": "NeuroSynthetics AI",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Buterin"
+  ],
+  "purpose": "Constructed by Sam Buterin for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 7.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

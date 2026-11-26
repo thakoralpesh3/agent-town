@@ -1,0 +1,17 @@
+{
+  "id": "comp-457",
+  "name": "HeliosLogistics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-135",
+  "founder_name": "Lyra Brockman",
+  "headquarters_id": "bldg-1370",
+  "headquarters_name": "HeliosLogistics AI Headquarters",
+  "employees": [
+    "agent-135"
+  ],
+  "valuation_tokens": 363826,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 173
+}

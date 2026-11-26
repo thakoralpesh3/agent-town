@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1368",
+  "name": "Sam's National Central Bank & Treasury #99 [PrismTechnologies AI]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    33.1,
+    14.6,
+    40.5
+  ],
+  "size": [
+    27.6,
+    29.1,
+    32.8
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-523",
+  "builder_name": "Sam Borlaug",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-066",
+  "company_name": "PrismTechnologies AI",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Borlaug"
+  ],
+  "purpose": "Constructed by Sam Borlaug for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 3.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

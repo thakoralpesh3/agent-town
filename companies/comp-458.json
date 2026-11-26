@@ -1,0 +1,17 @@
+{
+  "id": "comp-458",
+  "name": "DeepDynamics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-093",
+  "founder_name": "Morrigan Praetor",
+  "headquarters_id": "bldg-1373",
+  "headquarters_name": "DeepDynamics AI Headquarters",
+  "employees": [
+    "agent-093"
+  ],
+  "valuation_tokens": 537224,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 173
+}

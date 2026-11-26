@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1364",
+  "name": "Lyra's Hydroponic Agricultural Biodome #43 [DeepSynthetics]",
+  "type": "Hydroponic Agricultural Biodome",
+  "position": [
+    40.4,
+    9.7,
+    -187.6
+  ],
+  "size": [
+    31.6,
+    19.4,
+    33.2
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-488",
+  "builder_name": "Lyra Franklin",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-335",
+  "company_name": "DeepSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Lyra Franklin"
+  ],
+  "purpose": "Constructed by Lyra Franklin for Hydroponic Agricultural Biodome operations",
+  "floors": 3,
+  "capacity": 35,
+  "departments": [
+    "Vertical Aeroponics Towers",
+    "Nutrient Mist Laboratory",
+    "Photosynthesis Optimization"
+  ],
+  "amenities": [
+    "Geodesic Glass Dome",
+    "Automated Harvesting Gantry",
+    "Micro-Climate Regulators"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

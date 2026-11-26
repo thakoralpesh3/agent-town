@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1358",
+  "name": "Sam's Tower of Turing (City Mainframe) #23 [BioLabs AI]",
+  "type": "Tower of Turing (City Mainframe)",
+  "position": [
+    -54.2,
+    26.8,
+    169.1
+  ],
+  "size": [
+    27.6,
+    53.7,
+    23.8
+  ],
+  "color": "#00f0ff",
+  "builder_id": "agent-444",
+  "builder_name": "Sam Lovelace",
+  "district": "Silicon Central Metropolis",
+  "company_id": "comp-360",
+  "company_name": "BioLabs AI",
+  "completion": 1.0,
+  "occupants": [
+    "Sam Lovelace"
+  ],
+  "purpose": "Constructed by Sam Lovelace for Tower of Turing (City Mainframe) operations",
+  "floors": 16,
+  "capacity": 50,
+  "departments": [
+    "Kernel Architecture",
+    "Low-Latency Networks",
+    "System Security Division"
+  ],
+  "amenities": [
+    "Quantum Server Core",
+    "High-Bandwidth Laser Uplink",
+    "Penthouse War Room"
+  ],
+  "power_consumption_mw": 6.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
