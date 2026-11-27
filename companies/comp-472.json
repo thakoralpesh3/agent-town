@@ -1,0 +1,17 @@
+{
+  "id": "comp-472",
+  "name": "QuantumSolutions AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-791",
+  "founder_name": "Rune Knuth",
+  "headquarters_id": "bldg-1409",
+  "headquarters_name": "QuantumSolutions AI Headquarters",
+  "employees": [
+    "agent-791"
+  ],
+  "valuation_tokens": 551605,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 179
+}

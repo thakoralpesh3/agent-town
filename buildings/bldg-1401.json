@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1401",
+  "name": "Evander's Hyperloop Central Terminus #22 [PrismGenetics]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    40.1,
+    12.1,
+    -147.0
+  ],
+  "size": [
+    34.0,
+    24.2,
+    37.2
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-088",
+  "builder_name": "Evander Jobs",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-307",
+  "company_name": "PrismGenetics",
+  "completion": 1.0,
+  "occupants": [
+    "Evander Jobs"
+  ],
+  "purpose": "Constructed by Evander Jobs for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 5.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

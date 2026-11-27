@@ -1,0 +1,47 @@
+{
+  "id": "bldg-1402",
+  "name": "Satya's Sovereign Capitol Building #79 [DeepVentures AI]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    27.0,
+    20.2,
+    -20.1
+  ],
+  "size": [
+    40.8,
+    40.4,
+    38.9
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-244",
+  "builder_name": "Satya Aurelius",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-149",
+  "company_name": "DeepVentures AI",
+  "completion": 1.0,
+  "occupants": [
+    "Satya Aurelius"
+  ],
+  "purpose": "Constructed by Satya Aurelius for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 5.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-473",
+  "name": "NeuroSystems AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-747",
+  "founder_name": "Kassandra Thorne",
+  "headquarters_id": "bldg-1410",
+  "headquarters_name": "NeuroSystems AI Headquarters",
+  "employees": [
+    "agent-747"
+  ],
+  "valuation_tokens": 361912,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 179
+}

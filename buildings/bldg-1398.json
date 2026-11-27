@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1398",
+  "name": "Ken's Hyperloop Central Terminus #16 [AeroCyber Mobility]",
+  "type": "Hyperloop Central Terminus",
+  "position": [
+    167.5,
+    8.9,
+    -112.2
+  ],
+  "size": [
+    33.6,
+    17.8,
+    36.7
+  ],
+  "color": "#f97316",
+  "builder_id": "agent-378",
+  "builder_name": "Ken Brockman",
+  "district": "Industrial Harbor & Transit Hub",
+  "company_id": "comp-006",
+  "company_name": "AeroCyber Mobility",
+  "completion": 1.0,
+  "occupants": [
+    "Ken Brockman"
+  ],
+  "purpose": "Constructed by Ken Brockman for Hyperloop Central Terminus operations",
+  "floors": 4,
+  "capacity": 45,
+  "departments": [
+    "Sub-Sonic Tube Dispatch",
+    "Maglev Rail Switching",
+    "Passenger & Cargo Concourse"
+  ],
+  "amenities": [
+    "Pneumatic Airlocks",
+    "Magnetic Levitation Accelerators",
+    "Automated Baggage Swarms"
+  ],
+  "power_consumption_mw": 8.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

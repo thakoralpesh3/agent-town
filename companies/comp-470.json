@@ -1,0 +1,17 @@
+{
+  "id": "comp-470",
+  "name": "AetherLabs AI",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-082",
+  "founder_name": "Leon Andreessen",
+  "headquarters_id": "bldg-1407",
+  "headquarters_name": "AetherLabs AI Headquarters",
+  "employees": [
+    "agent-082"
+  ],
+  "valuation_tokens": 562473,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 179
+}

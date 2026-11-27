@@ -1,0 +1,17 @@
+{
+  "id": "comp-471",
+  "name": "HyperLogistics AI",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-429",
+  "founder_name": "Sol Vanguard",
+  "headquarters_id": "bldg-1408",
+  "headquarters_name": "HyperLogistics AI Headquarters",
+  "employees": [
+    "agent-429"
+  ],
+  "valuation_tokens": 210864,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 179
+}

@@ -1,0 +1,17 @@
+{
+  "id": "comp-469",
+  "name": "SovereignRobotics",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-185",
+  "founder_name": "Marc Finney",
+  "headquarters_id": "bldg-1406",
+  "headquarters_name": "SovereignRobotics Headquarters",
+  "employees": [
+    "agent-185"
+  ],
+  "valuation_tokens": 568165,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 179
+}

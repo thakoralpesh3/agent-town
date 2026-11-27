@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1404",
+  "name": "Edsger's Biosphere Atmospheric Scrubber #49 [OmniMatrix AI]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    -50.9,
+    17.2,
+    -138.2
+  ],
+  "size": [
+    20.3,
+    34.4,
+    19.3
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-326",
+  "builder_name": "Edsger Torvalds",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-193",
+  "company_name": "OmniMatrix AI",
+  "completion": 1.0,
+  "occupants": [
+    "Edsger Torvalds"
+  ],
+  "purpose": "Constructed by Edsger Torvalds for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 5.4,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

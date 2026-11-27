@@ -1,0 +1,17 @@
+{
+  "id": "comp-468",
+  "name": "TerraDynamics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-196",
+  "founder_name": "Iris Circuit",
+  "headquarters_id": "bldg-1405",
+  "headquarters_name": "TerraDynamics AI Headquarters",
+  "employees": [
+    "agent-196"
+  ],
+  "valuation_tokens": 310208,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 178
+}
