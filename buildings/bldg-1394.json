@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1394",
+  "name": "Aria's National Hospital & Nanomedical Citadel #71 [ApexEnergy AI]",
+  "type": "National Hospital & Nanomedical Citadel",
+  "position": [
+    -91.2,
+    27.1,
+    44.5
+  ],
+  "size": [
+    29.5,
+    54.2,
+    34.6
+  ],
+  "color": "#ef4444",
+  "builder_id": "agent-535",
+  "builder_name": "Aria Dijkstra",
+  "district": "Health Citadel & Medical Complex",
+  "company_id": "comp-195",
+  "company_name": "ApexEnergy AI",
+  "completion": 1.0,
+  "occupants": [
+    "Aria Dijkstra"
+  ],
+  "purpose": "Constructed by Aria Dijkstra for National Hospital & Nanomedical Citadel operations",
+  "floors": 10,
+  "capacity": 55,
+  "departments": [
+    "Emergency Trauma & Triage",
+    "Nanotech Robotic Surgery",
+    "Cellular Regeneration",
+    "Epidemic Control"
+  ],
+  "amenities": [
+    "Rooftop VTOL Helipads",
+    "Cryogenic Stasis Chambers",
+    "Sterile Nanotech Cleanrooms"
+  ],
+  "power_consumption_mw": 6.0,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

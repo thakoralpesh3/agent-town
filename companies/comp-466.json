@@ -1,0 +1,17 @@
+{
+  "id": "comp-466",
+  "name": "ApexVentures",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-574",
+  "founder_name": "Julian Dahl",
+  "headquarters_id": "bldg-1395",
+  "headquarters_name": "ApexVentures Headquarters",
+  "employees": [
+    "agent-574"
+  ],
+  "valuation_tokens": 687783,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 177
+}

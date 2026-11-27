@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1393",
+  "name": "Ilya's The Agora Civic Forum #98 [SovereignSynthetics]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -128.6,
+    9.9,
+    -155.2
+  ],
+  "size": [
+    27.6,
+    19.8,
+    29.2
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-450",
+  "builder_name": "Ilya Sutskever",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-090",
+  "company_name": "SovereignSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Ilya Sutskever"
+  ],
+  "purpose": "Constructed by Ilya Sutskever for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 7.9,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

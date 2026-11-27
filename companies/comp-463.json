@@ -1,0 +1,17 @@
+{
+  "id": "comp-463",
+  "name": "SolarNetworks AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-390",
+  "founder_name": "Hal Rossum",
+  "headquarters_id": "bldg-1387",
+  "headquarters_name": "SolarNetworks AI Headquarters",
+  "employees": [
+    "agent-390"
+  ],
+  "valuation_tokens": 404723,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 176
+}

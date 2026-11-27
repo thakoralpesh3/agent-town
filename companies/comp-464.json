@@ -1,0 +1,17 @@
+{
+  "id": "comp-464",
+  "name": "TerraSynthetics",
+  "sector": "Cyber Infrastructure & Sovereign Cloud",
+  "mission": "Revolutionizing Cyber Infrastructure & Sovereign Cloud within GitHub Tech Town.",
+  "founder_id": "agent-338",
+  "founder_name": "Barbara Perlman",
+  "headquarters_id": "bldg-1388",
+  "headquarters_name": "TerraSynthetics Headquarters",
+  "employees": [
+    "agent-338"
+  ],
+  "valuation_tokens": 159335,
+  "products": [],
+  "color": "#00f0ff",
+  "founded_at_tick": 176
+}

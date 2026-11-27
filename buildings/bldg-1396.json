@@ -1,0 +1,47 @@
+{
+  "id": "bldg-1396",
+  "name": "Yoshua's Sovereign Capitol Building #46 [HyperSynthetics]",
+  "type": "Sovereign Capitol Building",
+  "position": [
+    -53.0,
+    23.9,
+    44.5
+  ],
+  "size": [
+    42.1,
+    47.8,
+    34.1
+  ],
+  "color": "#f59e0b",
+  "builder_id": "agent-187",
+  "builder_name": "Yoshua Solstice",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-012",
+  "company_name": "HyperSynthetics",
+  "completion": 1.0,
+  "occupants": [
+    "Yoshua Solstice"
+  ],
+  "purpose": "Constructed by Yoshua Solstice for Sovereign Capitol Building operations",
+  "floors": 9,
+  "capacity": 60,
+  "departments": [
+    "Chancellery Chamber",
+    "Parliamentary Hall",
+    "Constitutional Archives",
+    "Diplomatic Reception"
+  ],
+  "amenities": [
+    "Grand Rotunda Dome",
+    "Illuminated Colonnes",
+    "Sovereign Seal Hall",
+    "Secure Treaty Escrow"
+  ],
+  "power_consumption_mw": 6.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}
