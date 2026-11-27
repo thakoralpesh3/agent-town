@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1375",
+  "name": "Hippocrates's Cyber Living Township Beta #96 [NeuroMatrix]",
+  "type": "Cyber Living Township Beta",
+  "position": [
+    -61.8,
+    12.9,
+    -27.7
+  ],
+  "size": [
+    30.4,
+    25.7,
+    29.7
+  ],
+  "color": "#16a34a",
+  "builder_id": "agent-010",
+  "builder_name": "Hippocrates Cyber",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-040",
+  "company_name": "NeuroMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Hippocrates Cyber"
+  ],
+  "purpose": "Constructed by Hippocrates Cyber for Cyber Living Township Beta operations",
+  "floors": 7,
+  "capacity": 45,
+  "departments": [
+    "Residential Living",
+    "Private Study Modules",
+    "Biometric Circadian Suites"
+  ],
+  "amenities": [
+    "Living Mycelium Soil Mesh",
+    "Acoustic Noise Cloak",
+    "Community Dining Hall"
+  ],
+  "power_consumption_mw": 4.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

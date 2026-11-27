@@ -1,0 +1,46 @@
+{
+  "id": "bldg-1381",
+  "name": "Vesper's National Central Bank & Treasury #79 [HeliosEnergy AI]",
+  "type": "National Central Bank & Treasury",
+  "position": [
+    -15.2,
+    19.6,
+    31.8
+  ],
+  "size": [
+    34.0,
+    39.2,
+    35.3
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-265",
+  "builder_name": "Vesper Shadow",
+  "district": "Capitol Hill & National Plaza",
+  "company_id": "comp-222",
+  "company_name": "HeliosEnergy AI",
+  "completion": 1.0,
+  "occupants": [
+    "Vesper Shadow"
+  ],
+  "purpose": "Constructed by Vesper Shadow for National Central Bank & Treasury operations",
+  "floors": 8,
+  "capacity": 45,
+  "departments": [
+    "Sovereign Wealth Reserve",
+    "Algorithmic Monetary Core",
+    "DeFi Liquidity Hub",
+    "Bond Issuance"
+  ],
+  "amenities": [
+    "Deep Underground Cold Vault",
+    "Quantum Key Distribution Link",
+    "Dynamic Exchange Floor"
+  ],
+  "power_consumption_mw": 8.3,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

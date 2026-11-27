@@ -1,0 +1,17 @@
+{
+  "id": "comp-460",
+  "name": "BioEnergy",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-790",
+  "founder_name": "Axel Zenith",
+  "headquarters_id": "bldg-1377",
+  "headquarters_name": "BioEnergy Headquarters",
+  "employees": [
+    "agent-790"
+  ],
+  "valuation_tokens": 726340,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 174
+}

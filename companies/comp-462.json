@@ -1,0 +1,17 @@
+{
+  "id": "comp-462",
+  "name": "ChronoVentures AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-210",
+  "founder_name": "Seraph Odersky",
+  "headquarters_id": "bldg-1383",
+  "headquarters_name": "ChronoVentures AI Headquarters",
+  "employees": [
+    "agent-210"
+  ],
+  "valuation_tokens": 266208,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 175
+}
