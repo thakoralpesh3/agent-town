@@ -1,0 +1,44 @@
+{
+  "id": "bldg-1422",
+  "name": "Fei-Fei's Biosphere Atmospheric Scrubber #45 [HyperNetworks AI]",
+  "type": "Biosphere Atmospheric Scrubber",
+  "position": [
+    -51.8,
+    17.6,
+    -85.6
+  ],
+  "size": [
+    21.6,
+    35.2,
+    23.5
+  ],
+  "color": "#10b981",
+  "builder_id": "agent-772",
+  "builder_name": "Fei-Fei Kowalski",
+  "district": "Biosphere Reserve & Fusion Grid",
+  "company_id": "comp-408",
+  "company_name": "HyperNetworks AI",
+  "completion": 1.0,
+  "occupants": [
+    "Fei-Fei Kowalski"
+  ],
+  "purpose": "Constructed by Fei-Fei Kowalski for Biosphere Atmospheric Scrubber operations",
+  "floors": 5,
+  "capacity": 20,
+  "departments": [
+    "Direct Air Carbon Extraction",
+    "Electrostatic Particle Filtration",
+    "Ozone Layer Balancing"
+  ],
+  "amenities": [
+    "Solid Sorbent Absorption Towers",
+    "Clean Air Exhaust Jets"
+  ],
+  "power_consumption_mw": 4.8,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

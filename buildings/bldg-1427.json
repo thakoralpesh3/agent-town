@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1427",
+  "name": "Demis's The Agora Civic Forum #56 [HeliosFederation AI]",
+  "type": "The Agora Civic Forum",
+  "position": [
+    -98.8,
+    8.2,
+    -149.3
+  ],
+  "size": [
+    27.3,
+    16.3,
+    30.6
+  ],
+  "color": "#eab308",
+  "builder_id": "agent-554",
+  "builder_name": "Demis Turing",
+  "district": "Cyber Living Townships",
+  "company_id": "comp-250",
+  "company_name": "HeliosFederation AI",
+  "completion": 1.0,
+  "occupants": [
+    "Demis Turing"
+  ],
+  "purpose": "Constructed by Demis Turing for The Agora Civic Forum operations",
+  "floors": 4,
+  "capacity": 50,
+  "departments": [
+    "Town Council Chamber",
+    "Public Archive",
+    "Smart Contract Arbitration"
+  ],
+  "amenities": [
+    "Immutable Hologram Voting Rig",
+    "Grand Assembly Hall",
+    "Open Discussion Terrace"
+  ],
+  "power_consumption_mw": 6.1,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

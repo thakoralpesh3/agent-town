@@ -1,0 +1,17 @@
+{
+  "id": "comp-476",
+  "name": "NexusRobotics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-395",
+  "founder_name": "Ken Kahn",
+  "headquarters_id": "bldg-1417",
+  "headquarters_name": "NexusRobotics AI Headquarters",
+  "employees": [
+    "agent-395"
+  ],
+  "valuation_tokens": 166067,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 181
+}

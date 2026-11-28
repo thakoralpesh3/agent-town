@@ -1,0 +1,17 @@
+{
+  "id": "comp-478",
+  "name": "HeliosRobotics AI",
+  "sector": "Autonomous Mobility & Aerospace",
+  "mission": "Revolutionizing Autonomous Mobility & Aerospace within GitHub Tech Town.",
+  "founder_id": "agent-728",
+  "founder_name": "Andrej Lovelace",
+  "headquarters_id": "bldg-1420",
+  "headquarters_name": "HeliosRobotics AI Headquarters",
+  "employees": [
+    "agent-728"
+  ],
+  "valuation_tokens": 501861,
+  "products": [],
+  "color": "#f59e0b",
+  "founded_at_tick": 181
+}
