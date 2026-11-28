@@ -1,0 +1,17 @@
+{
+  "id": "comp-488",
+  "name": "AeroVentures AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-387",
+  "founder_name": "Bob Murati",
+  "headquarters_id": "bldg-1438",
+  "headquarters_name": "AeroVentures AI Headquarters",
+  "employees": [
+    "agent-387"
+  ],
+  "valuation_tokens": 359884,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 183
+}

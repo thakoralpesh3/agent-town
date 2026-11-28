@@ -1,0 +1,17 @@
+{
+  "id": "comp-487",
+  "name": "HyperLogistics AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-079",
+  "founder_name": "Martin Pichai",
+  "headquarters_id": "bldg-1436",
+  "headquarters_name": "HyperLogistics AI Headquarters",
+  "employees": [
+    "agent-079"
+  ],
+  "valuation_tokens": 520433,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 183
+}

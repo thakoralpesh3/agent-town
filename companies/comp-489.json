@@ -1,0 +1,17 @@
+{
+  "id": "comp-489",
+  "name": "DeepEnergy",
+  "sector": "Quantum Computing & Cryptography",
+  "mission": "Revolutionizing Quantum Computing & Cryptography within GitHub Tech Town.",
+  "founder_id": "agent-691",
+  "founder_name": "Vector Beacon",
+  "headquarters_id": "bldg-1439",
+  "headquarters_name": "DeepEnergy Headquarters",
+  "employees": [
+    "agent-691"
+  ],
+  "valuation_tokens": 619537,
+  "products": [],
+  "color": "#8b5cf6",
+  "founded_at_tick": 183
+}

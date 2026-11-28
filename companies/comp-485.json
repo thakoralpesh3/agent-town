@@ -1,0 +1,17 @@
+{
+  "id": "comp-485",
+  "name": "ChronoFederation",
+  "sector": "Nanomedicine & Longevity Biotech",
+  "mission": "Revolutionizing Nanomedicine & Longevity Biotech within GitHub Tech Town.",
+  "founder_id": "agent-698",
+  "founder_name": "Rob Sutskever",
+  "headquarters_id": "bldg-1433",
+  "headquarters_name": "ChronoFederation Headquarters",
+  "employees": [
+    "agent-698"
+  ],
+  "valuation_tokens": 490145,
+  "products": [],
+  "color": "#ef4444",
+  "founded_at_tick": 182
+}

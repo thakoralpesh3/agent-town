@@ -1,0 +1,17 @@
+{
+  "id": "comp-483",
+  "name": "NexusFoundry AI",
+  "sector": "Clean Fusion & Superconducting Grid",
+  "mission": "Revolutionizing Clean Fusion & Superconducting Grid within GitHub Tech Town.",
+  "founder_id": "agent-278",
+  "founder_name": "Satoshi Zenith",
+  "headquarters_id": "bldg-1429",
+  "headquarters_name": "NexusFoundry AI Headquarters",
+  "employees": [
+    "agent-278"
+  ],
+  "valuation_tokens": 289609,
+  "products": [],
+  "color": "#e11d48",
+  "founded_at_tick": 182
+}

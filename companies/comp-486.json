@@ -1,0 +1,17 @@
+{
+  "id": "comp-486",
+  "name": "AeroLabs AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-106",
+  "founder_name": "Steve Nadella",
+  "headquarters_id": "bldg-1434",
+  "headquarters_name": "AeroLabs AI Headquarters",
+  "employees": [
+    "agent-106"
+  ],
+  "valuation_tokens": 543476,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 182
+}

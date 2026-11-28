@@ -1,0 +1,17 @@
+{
+  "id": "comp-484",
+  "name": "OmniGenetics AI",
+  "sector": "Synthetic Ecology & Holo Arts",
+  "mission": "Revolutionizing Synthetic Ecology & Holo Arts within GitHub Tech Town.",
+  "founder_id": "agent-629",
+  "founder_name": "Vesper Archon",
+  "headquarters_id": "bldg-1430",
+  "headquarters_name": "OmniGenetics AI Headquarters",
+  "employees": [
+    "agent-629"
+  ],
+  "valuation_tokens": 675716,
+  "products": [],
+  "color": "#10b981",
+  "founded_at_tick": 182
+}

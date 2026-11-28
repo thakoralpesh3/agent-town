@@ -1,0 +1,45 @@
+{
+  "id": "bldg-1432",
+  "name": "Satoshi's Grand Astronomical Observatory #29 [CyberMatrix]",
+  "type": "Grand Astronomical Observatory",
+  "position": [
+    116.5,
+    20.7,
+    73.5
+  ],
+  "size": [
+    22.5,
+    41.3,
+    25.6
+  ],
+  "color": "#c084fc",
+  "builder_id": "agent-274",
+  "builder_name": "Satoshi Knuth",
+  "district": "Quantum Science & University Campus",
+  "company_id": "comp-043",
+  "company_name": "CyberMatrix",
+  "completion": 1.0,
+  "occupants": [
+    "Satoshi Knuth"
+  ],
+  "purpose": "Constructed by Satoshi Knuth for Grand Astronomical Observatory operations",
+  "floors": 6,
+  "capacity": 25,
+  "departments": [
+    "Deep Space Spectroscopy",
+    "Gravitational Wave Monitoring",
+    "Exoplanet Atmosphere Lab"
+  ],
+  "amenities": [
+    "Rotating Dome Cupola",
+    "Cryo-Cooled Optical Telescope",
+    "Direct Spaceport Link"
+  ],
+  "power_consumption_mw": 2.5,
+  "active_projects": [],
+  "security_level": "Level 3 - Monitored",
+  "maintenance_status": "Optimal",
+  "interior_type": "OFFICE_TECH",
+  "workstations_count": 20,
+  "beds_count": 0
+}

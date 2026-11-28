@@ -1,0 +1,17 @@
+{
+  "id": "comp-482",
+  "name": "AeroSolutions AI",
+  "sector": "Neural AI & LLM Systems",
+  "mission": "Revolutionizing Neural AI & LLM Systems within GitHub Tech Town.",
+  "founder_id": "agent-401",
+  "founder_name": "Vector Shannon",
+  "headquarters_id": "bldg-1428",
+  "headquarters_name": "AeroSolutions AI Headquarters",
+  "employees": [
+    "agent-401"
+  ],
+  "valuation_tokens": 444357,
+  "products": [],
+  "color": "#ec4899",
+  "founded_at_tick": 182
+}
